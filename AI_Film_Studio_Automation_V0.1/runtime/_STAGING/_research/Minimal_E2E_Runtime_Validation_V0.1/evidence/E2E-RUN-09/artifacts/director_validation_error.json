@@ -1,0 +1,8 @@
+{
+  "lifecycle_stage": "LOCAL_VALIDATION_FAILURE_RECORDED",
+  "invocation_id": "E2E-RUN-09:director:1",
+  "role": "Director",
+  "validation_stage": "Local Role-Contract Validation",
+  "category": "ROLE STRUCTURAL FAILURE",
+  "detail": "Director required semantic field headings missing: directorial_intent, staging_blocking, audience_information, spatial_geography, camera_coverage_intent, rhythm_transition_intent, production_burden, handoffs_unresolved_issues"
+}

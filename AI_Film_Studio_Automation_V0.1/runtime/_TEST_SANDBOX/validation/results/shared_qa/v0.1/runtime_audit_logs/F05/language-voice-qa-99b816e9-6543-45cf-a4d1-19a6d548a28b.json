@@ -1,0 +1,22 @@
+{
+  "invocation_id": "99b816e9-6543-45cf-a4d1-19a6d548a28b",
+  "timestamp": "2026-08-24T03:30:50.968593+00:00",
+  "skill_identity": "language-voice-qa",
+  "skill_version": "0.1",
+  "skill_sha256": null,
+  "input_mode": null,
+  "context_availability_summary": {
+    "provided": [],
+    "derived_safely": [],
+    "unknown": []
+  },
+  "final_decision_state": null,
+  "severity": null,
+  "route": null,
+  "rewrite_used": false,
+  "handoff_occurred": false,
+  "runtime_contract_passed": false,
+  "failure_code": "F1",
+  "failure_name": "INVALID_INPUT",
+  "integrity_passed": false
+}

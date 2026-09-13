@@ -1,0 +1,16 @@
+{
+  "contract_identity": "contemporary-language-layer",
+  "contract_version": "0.1",
+  "role_boundary": "LAYER_PROVIDES_EVIDENCE_QA_MAKES_DECISION",
+  "handoff": {
+    "decision": "ROLE HANDOFF / WARNING",
+    "contemporary_state": "CONTEMPORARY USAGE CHECK REQUIRED"
+  },
+  "source_tiers": ["A", "B", "C", "D"],
+  "freshness_days": {"current": 90, "recent": 365, "aging": 1095},
+  "allowed_recheck_reasons": ["NEW_CONTEXT", "USER_REVERIFY", "EVIDENCE_WINDOW_CHANGED"],
+  "forbidden_request_fields": ["user_profile", "account_id", "contact_info", "private_messages", "behavioral_history"],
+  "forbidden_actions": ["REWRITE", "REPLACE_TERM", "YOUTHIFY", "TREND_CHASE", "MODIFY_SHOWRUNNER", "MODIFY_QA_SKILL", "CREATE_SCENE_WRITER", "CANON_MUTATION"],
+  "evidence_statuses": ["EVIDENCE_AVAILABLE", "EVIDENCE_CONFLICT", "NO_RELIABLE_EVIDENCE_FOUND", "INSUFFICIENT_CURRENT_EVIDENCE", "BLOCKED_POLICY"],
+  "confidence_levels": ["High", "Medium", "Low", "Insufficient"]
+}

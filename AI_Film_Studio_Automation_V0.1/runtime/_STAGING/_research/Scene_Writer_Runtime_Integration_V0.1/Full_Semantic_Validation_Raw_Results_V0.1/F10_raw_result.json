@@ -1,0 +1,237 @@
+{
+  "fixture": {
+    "id": "F10",
+    "title": "Targeted REVISE",
+    "focus": [
+      "revision_scope",
+      "local_repair",
+      "turn",
+      "lock_preservation"
+    ],
+    "expected_boundaries": {
+      "must": [
+        "只修复指定的局部问题",
+        "保留地点、人物关系、已锁定事实与结局",
+        "形成更清楚的条件性转折"
+      ],
+      "must_not": [
+        "重写整个场景",
+        "改人物关系",
+        "新增原因、历史或新角色"
+      ]
+    },
+    "assignment": {
+      "requested_mode": "REVISE",
+      "output_language": "zh-CN",
+      "project_id": "FSV-SYNTHETIC",
+      "episode_id": "FSV-EP01",
+      "scene_id": "F10",
+      "scene_request": "待修订场景：\n办公室茶水间。\n沈言把一份值班表递给方微。\n沈言：明早你能替我吗？\n方微：可以。\n沈言：谢谢。\n\n只修复：方微过快同意，场景没有抵抗或清楚的 turn。",
+      "scene_purpose": "验证局部修订能补出抵抗和转折而不重写全部。",
+      "repair_target": "仅修复方微过快同意、缺少抵抗和条件性转折的问题；保留地点、两个人、明早代班请求和最终方微同意。",
+      "canon_locks": [
+        "地点是办公室茶水间。",
+        "人物只有沈言和方微，是同事。",
+        "沈言需要方微明早代班。",
+        "没有提供沈言缺席或调班的原因。"
+      ],
+      "showrunner_locks": [
+        "修订后方微仍同意明早代班，但可提出一个场景内条件。"
+      ],
+      "participants": [
+        {
+          "name": "沈言",
+          "role": "同事",
+          "objective": "获得明早代班确认。",
+          "knowledge": "知道值班表在手。",
+          "constraint": "不能编造缺席原因。"
+        },
+        {
+          "name": "方微",
+          "role": "同事",
+          "objective": "不无条件接下临时责任。",
+          "knowledge": "知道沈言需要代班。",
+          "constraint": "最终会同意，但不应立即同意。"
+        }
+      ],
+      "character_context": {
+        "relationship": "同事，非敌对。",
+        "creative_freedom": "只可在茶水间、值班表和短对白范围内局部修订。"
+      },
+      "required_event": "沈言请求方微代班。",
+      "required_information": "需要明早代班；原因未提供。",
+      "required_outcome": "方微在提出条件后同意。",
+      "prior_scene_state": "沈言把值班表递给方微。",
+      "desired_post_state": "方微同意代班，条件明确。",
+      "production_constraints": null,
+      "requested_form": "返回局部 revision，不扩展为完整新剧情；无镜头或表演系统。",
+      "downstream_requests": [],
+      "qa_requests": []
+    }
+  },
+  "sequence": 10,
+  "classification": "FULL SEMANTIC VALIDATION / SYNTHETIC / NON-CANON / REAL SEMANTIC EXECUTION",
+  "formal_execution_count_for_fixture": 1,
+  "resamples_for_fixture": 0,
+  "provider": "deepseek",
+  "model": "deepseek-v4-pro",
+  "assignment": {
+    "requested_mode": "REVISE",
+    "output_language": "zh-CN",
+    "project_id": "FSV-SYNTHETIC",
+    "episode_id": "FSV-EP01",
+    "scene_id": "F10",
+    "scene_request": "待修订场景：\n办公室茶水间。\n沈言把一份值班表递给方微。\n沈言：明早你能替我吗？\n方微：可以。\n沈言：谢谢。\n\n只修复：方微过快同意，场景没有抵抗或清楚的 turn。",
+    "scene_purpose": "验证局部修订能补出抵抗和转折而不重写全部。",
+    "repair_target": "仅修复方微过快同意、缺少抵抗和条件性转折的问题；保留地点、两个人、明早代班请求和最终方微同意。",
+    "canon_locks": [
+      "地点是办公室茶水间。",
+      "人物只有沈言和方微，是同事。",
+      "沈言需要方微明早代班。",
+      "没有提供沈言缺席或调班的原因。"
+    ],
+    "showrunner_locks": [
+      "修订后方微仍同意明早代班，但可提出一个场景内条件。"
+    ],
+    "participants": [
+      {
+        "name": "沈言",
+        "role": "同事",
+        "objective": "获得明早代班确认。",
+        "knowledge": "知道值班表在手。",
+        "constraint": "不能编造缺席原因。"
+      },
+      {
+        "name": "方微",
+        "role": "同事",
+        "objective": "不无条件接下临时责任。",
+        "knowledge": "知道沈言需要代班。",
+        "constraint": "最终会同意，但不应立即同意。"
+      }
+    ],
+    "character_context": {
+      "relationship": "同事，非敌对。",
+      "creative_freedom": "只可在茶水间、值班表和短对白范围内局部修订。"
+    },
+    "required_event": "沈言请求方微代班。",
+    "required_information": "需要明早代班；原因未提供。",
+    "required_outcome": "方微在提出条件后同意。",
+    "prior_scene_state": "沈言把值班表递给方微。",
+    "desired_post_state": "方微同意代班，条件明确。",
+    "production_constraints": null,
+    "requested_form": "返回局部 revision，不扩展为完整新剧情；无镜头或表演系统。",
+    "downstream_requests": [],
+    "qa_requests": [],
+    "request_id": "FSV-SW-F10"
+  },
+  "runtime_result": {
+    "runtime_status": "SUCCESS",
+    "runtime_failure_code": null,
+    "runtime_failure_message": null,
+    "request_id": "FSV-SW-F10",
+    "canonical_binding": {
+      "identity": "scene-writer",
+      "version": "V0.1",
+      "canonical_path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\02_Scene_Writer\\scene-writer\\SKILL.md",
+      "expected_sha256": "93e1be12988f8caa6cdd76acb5e6c1bf6ad3ca0dff5806a2ea93511e66052dfb",
+      "adapter_status": "REGISTERED",
+      "real_executor": "BOUND",
+      "semantic_integrity_verifier": "BOUND",
+      "synthetic_executor": "NOT_PRESENT",
+      "actual_sha256": "93e1be12988f8caa6cdd76acb5e6c1bf6ad3ca0dff5806a2ea93511e66052dfb",
+      "metadata": {
+        "name": "scene-writer",
+        "display_version": "V0.1"
+      },
+      "passed": true,
+      "reason": null
+    },
+    "idempotency": "NEW",
+    "scene_writer": {
+      "creative_deliverable": {
+        "kind": "revision",
+        "content": "办公室茶水间。\n沈言把一份值班表递给方微。\n沈言：明早你能替我吗？\n方微看了看表，没马上接话。\n方微：可以，不过午休前我得去趟行政那边，要是回来晚了，你帮我顶二十分钟？\n沈言点头。\n沈言：行，就这么定。\n方微接过值班表。\n方微：那明早见。"
+      },
+      "control_data": {
+        "primary_state": "SCENE_REVISED",
+        "flags": [],
+        "handoffs": [],
+        "scene_function": "完成局部修订：增加方微的短暂抵抗与条件，使其同意不再是即时无条件。",
+        "objectives": "沈言：获得明早代班确认；方微：不无条件接下责任，最终有条件同意。",
+        "resistance": "方微的停顿与有条件同意：需要沈言在她可能迟到时顶替二十分钟。",
+        "before_state": "沈言已把值班表递给方微，请求代班。",
+        "turn": "方微从立即同意变为有条件同意；条件被沈言接受，代班安排确定。",
+        "state_after": "方微同意明早代班，条件明确且双方认可。",
+        "entry_rationale": "原场景已进入合理起点，无需改动。",
+        "exit_rationale": "方微接过值班表并以“明早见”结束，代班事宜完成，条件已定。",
+        "diagnosis_summary": "原稿问题：方微立即同意，缺乏抵抗和清晰转折。修订保留全部锁定元素，通过停顿、条件性同意与确认对白完成最小修复。",
+        "rule_hits": [
+          "抵抗必须存在",
+          "转折需产生清晰状态改变",
+          "不新增缺席原因"
+        ]
+      }
+    },
+    "output_language": "zh-CN",
+    "output_language_resolution": "EXPLICIT",
+    "assignment_fact_validation": {
+      "status": "PASS",
+      "guard_profile": [
+        "LOCKED_FACT_PRESERVATION",
+        "UNSPECIFIED_FACT_PROHIBITION",
+        "CHARACTER_KNOWLEDGE_SCOPE"
+      ],
+      "violations": []
+    },
+    "semantic_integrity_validation": {
+      "integrity_result": "PASS",
+      "violations": []
+    }
+  },
+  "unexpected_exception": null,
+  "generation_usage": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-pro",
+    "provider_invocation_id": "d81ce1fe-b815-443e-a9ee-555c65abef8a",
+    "usage": {
+      "prompt_tokens": 4341,
+      "completion_tokens": 434,
+      "total_tokens": 4775,
+      "prompt_cache_hit_tokens": 3200,
+      "prompt_cache_miss_tokens": 1141
+    },
+    "latency_ms": 9953,
+    "thinking_mode": "disabled",
+    "fixture_id": "F10",
+    "request_success": true
+  },
+  "verification_usage": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-pro",
+    "provider_invocation_id": "8905e8c6-924c-4c7c-85cb-c89b97271a18",
+    "usage": {
+      "prompt_tokens": 1762,
+      "completion_tokens": 18,
+      "total_tokens": 1780,
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 994
+    },
+    "latency_ms": 3118,
+    "thinking_mode": "disabled",
+    "fixture_id": "semantic-assignment-integrity",
+    "request_success": true
+  },
+  "estimated_cost_cny": {
+    "generation": 0.006107,
+    "verification": 0.0031092,
+    "total": 0.0092162
+  },
+  "pricing_basis": {
+    "currency": "CNY",
+    "unit": "per_1M_tokens",
+    "input_cache_hit": 0.025,
+    "input_cache_miss": 3.0,
+    "output": 6.0,
+    "status": "ESTIMATED"
+  }
+}

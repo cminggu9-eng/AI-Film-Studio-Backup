@@ -1,0 +1,52 @@
+{
+  "primary_state_or_outcome": "PERFORMANCE_INTERPRETATION_READY",
+  "flags": "ABSENT",
+  "handoffs": "ABSENT",
+  "canon_assignment_locks": [
+    "storage_room_opening",
+    "A-17 identity_lock",
+    "A-17 custody_required",
+    "brass_key condition_lock",
+    "shared_storage_reveal holder=许曼 not_before_scene=3",
+    "clothing_visual_state_code allowed_tokens=[soaked_uniform, changed_clothes]",
+    "relationship: 不得自动升级为完全和解"
+  ],
+  "prohibited_changes": [
+    "完全和解"
+  ],
+  "required_outcome": "ABSENT",
+  "unresolved_decisions": [],
+  "state_evidence": {
+    "relevant_prior_state": {
+      "relationship_state": "疏远，有未解决的家庭历史",
+      "knowledge_state": "许曼知晓储物间存在但未揭示细节",
+      "visual_state": "许宁为 soaked_uniform"
+    },
+    "current_state": {
+      "relationship_state": "疏远、主导权在许曼、未和解",
+      "knowledge_state": "钥匙已交接，shared_storage_reveal 未触发",
+      "visual_state": "许宁为 soaked_uniform"
+    },
+    "proposed_state": {
+      "relationship_state": "未和解，第三场因揭示产生新层次紧张",
+      "knowledge_state": "shared_storage_reveal 于第三场由许曼揭示",
+      "visual_state": "许宁为 changed_clothes"
+    },
+    "knowledge_timing": {
+      "reveal_of_shared_use": "仅在第三场由许曼揭示",
+      "reveal_of_room_content": "始终不揭示，门前戛然而止"
+    },
+    "relationship_state": {
+      "initial": "疏远，有未解决的家庭历史",
+      "after_scene_1": "保持距离，许曼主导，许宁顺从但克制",
+      "after_scene_3": "未和解，因揭示而产生新的紧张与未决"
+    },
+    "visual_state": {
+      "scene_1": "soaked_uniform",
+      "scene_2": "changed_clothes",
+      "scene_3": "changed_clothes"
+    }
+  },
+  "content": "Character Knowledge\n许宁市夜班管理员，知晓钥匙 A-17 存在并能交出，但不知母亲曾将储物间留给两人共同开启，也不知储物间内有何物。许曼知晓储物间存在及共用真相，但刻意延迟揭示。第一、二场中，许宁对许曼的回避会产生猜疑，却不能获取答案。第三场揭示前，许宁不能表现出已知共用或内容。\n\nPlayable Objective\n许宁在三场中的核心可玩目标是：突破许曼的延迟与回避，迫使她承认钥匙背后还有未被说出的信息；随着揭示到来，目标转为在“是否打开”的犹豫中试探许曼的真实意图，但不主动越界。许曼的目标则是：控制节奏、延迟揭示，避免在夜雨或情绪激动时进入储物间，并以反问将决定推回给许宁。\n\nPartner Action\n许宁需接收许曼递毛巾而不接钥匙的拒绝，感受距离被拉开；在窄桌旁接收许曼别眼、起身添水、背对谈话的中断，识破“等天亮”敷衍下另有隐瞒；在第三场接收 key 放于桌面中线的悬置信号与反问，意识到许曼既不阻止也不催促，从而产生被试探的压力。许曼需接收许宁交钥匙时的湿冷侵入感、换衣后的局促、质问母亲临终话题时的旧怨，并在揭示后捕捉许宁伸手却未抓的犹豫。\n\nBody/Voice/Timing\n场景一：许宁全身湿透，制服贴身滴水，身体微缩或僵硬，摊开手掌时钥匙握得紧，声音带有夜班疲惫与雨夜的冷，语速略快但不敢冒犯；许曼不接钥匙，递毛巾时身体略侧，目光不迎，声音平淡而带控制。场景二：许宁坐姿拘谨，袖子稍长导致手指摩挲袖口，问话时身子略向前倾，声音压低带试探；许曼视线别开，动作徐缓，只说“等天亮”，起身添水背对时脚步稍滞。场景三：许宁伸手时迟疑，手指触到钥匙前停顿，呼吸变浅；许曼放钥匙的动作缓慢、刻意居中，反问时声音不逼不劝。整体节奏由雨夜急促、对话断续到黎明静止，允许大量沉默与停顿，不追求快速反应。\n\nBehavioral Consequence\n表演状态需延续未和解的张力：许宁从克制的不满（S01）到旧怨试探（S02），再到揭示后的悬置与被动抉择（S03）；许曼始终主导，从拖延到回避，再到揭示后的反问与等待。钥匙的物主关系通过动作呈现：许宁手中→许曼手中→桌面中线，无人先拿起。任何亲近、安慰或相视一笑都应避免，最终停留在门前僵持，而非打开。",
+  "scene_packages": "ABSENT"
+}

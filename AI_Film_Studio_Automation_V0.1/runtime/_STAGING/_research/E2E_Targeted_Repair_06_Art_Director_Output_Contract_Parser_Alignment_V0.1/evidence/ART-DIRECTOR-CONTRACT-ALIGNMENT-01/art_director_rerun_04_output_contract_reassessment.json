@@ -1,0 +1,72 @@
+{
+  "run_id": "E2E-RUN-04",
+  "classification": "ART DIRECTOR OUTPUT-CONTRACT / PARSER ALIGNMENT REASSESSMENT",
+  "status": "PASS",
+  "results": [
+    {
+      "id": "AD-ALIGN-01",
+      "result": "PASS",
+      "detail": "raw response is persisted and unchanged"
+    },
+    {
+      "id": "AD-ALIGN-02",
+      "result": "PASS",
+      "detail": "canonical Art Director source and hash are unchanged"
+    },
+    {
+      "id": "AD-ALIGN-03",
+      "result": "PASS",
+      "detail": "parser matches minimum-sufficient output while proving required E2E semantics"
+    },
+    {
+      "id": "AD-ALIGN-04",
+      "result": "PASS",
+      "detail": "canonical outcome and Mode are exact"
+    },
+    {
+      "id": "AD-ALIGN-05",
+      "result": "PASS",
+      "detail": "design record is non-empty and contains no forbidden AI-production output"
+    },
+    {
+      "id": "AD-ALIGN-06",
+      "result": "PASS",
+      "detail": "current visual state is retained for the Continuity handoff"
+    },
+    {
+      "id": "AD-ALIGN-07",
+      "result": "PASS",
+      "detail": "mode, outcome, flags, and handoffs are preserved exactly"
+    },
+    {
+      "id": "AD-ALIGN-08",
+      "result": "PASS",
+      "detail": "reassessment adds no semantic or heading repair"
+    }
+  ],
+  "passed": 8,
+  "total": 8,
+  "source_evidence": {
+    "raw_response": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-04\\artifacts\\art_director_provider_response.json",
+    "raw_response_sha256": "fa919f8c3c8dfe9d821193a4717a8826a2aac39a31290aa72fa9e7e0257bea44",
+    "input": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-04\\artifacts\\art_director_input.json",
+    "input_sha256": "98f20ccabe21bff8f5cfc1381acb7a3400572e53765838b3c489b8e67ebd2e15",
+    "source_evidence_preserved": true
+  },
+  "alignment": {
+    "historical_failure_classification": "TRANSPORT / PARSER CONTRACT FAILURE",
+    "reassessment_result": "PASS",
+    "legacy_forced_headings_removed": true,
+    "canonical_skill_mutation": 0,
+    "raw_response_mutation": 0,
+    "semantic_mutation": 0,
+    "auto_repairs": 0
+  },
+  "integrity": {
+    "provider_calls": 0,
+    "executor_calls": 0,
+    "retries": 0,
+    "fallbacks": 0,
+    "downstream_role_calls": 0
+  }
+}

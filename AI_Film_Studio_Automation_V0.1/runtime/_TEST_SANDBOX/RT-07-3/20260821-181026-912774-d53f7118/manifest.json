@@ -1,0 +1,12 @@
+{
+  "test_id": "RT-07-3",
+  "sandbox_root": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_TEST_SANDBOX\\RT-07-3\\20260821-181026-912774-d53f7118",
+  "formal_vault_write_allowed": false,
+  "allowed_write_roots": [
+    "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_TEST_SANDBOX\\RT-07-3\\20260821-181026-912774-d53f7118\\canon",
+    "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_TEST_SANDBOX\\RT-07-3\\20260821-181026-912774-d53f7118\\character_files",
+    "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_TEST_SANDBOX\\RT-07-3\\20260821-181026-912774-d53f7118\\project_state",
+    "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_TEST_SANDBOX\\RT-07-3\\20260821-181026-912774-d53f7118\\logs",
+    "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_TEST_SANDBOX\\RT-07-3\\20260821-181026-912774-d53f7118\\temporary_outputs"
+  ]
+}

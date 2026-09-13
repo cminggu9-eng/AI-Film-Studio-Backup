@@ -1,0 +1,157 @@
+{
+  "primary_state_or_outcome": "SCENE_CREATED",
+  "flags": "ABSENT",
+  "handoffs": "ABSENT",
+  "canon_assignment_locks": [
+    "A-17",
+    "brass_key",
+    "shared_storage_reveal",
+    "storage_room_opening",
+    "soaked_uniform",
+    "changed_clothes"
+  ],
+  "prohibited_changes": [
+    "完全和解"
+  ],
+  "required_outcome": "ABSENT",
+  "unresolved_decisions": [
+    "storage_room_opening"
+  ],
+  "state_evidence": {
+    "relevant_prior_state": {
+      "relationship_state": "疏远且紧张，未达到完全和解",
+      "knowledge_state": "许曼掌握储物间信息，尚未揭示",
+      "visual_state": "soaked_uniform"
+    },
+    "current_state": {
+      "relationship_state": "疏远且紧张，未达到完全和解",
+      "knowledge_state": "储物间信息仍由许曼掌握",
+      "visual_state": "soaked_uniform"
+    },
+    "proposed_state": {
+      "relationship_state": "疏远且紧张，未达到完全和解",
+      "knowledge_state": "shared_storage_reveal 已揭示，storage_room_opening 未决",
+      "visual_state": "changed_clothes"
+    },
+    "knowledge_timing": {
+      "reveal_of_shared_use": "第三场揭示",
+      "reveal_of_room_content": "未揭示"
+    },
+    "relationship_state": {
+      "initial": "疏远且紧张",
+      "after_scene_1": "进一步紧张，许宁不安",
+      "after_scene_3": "维持紧张，无完全和解"
+    },
+    "visual_state": {
+      "scene_1": "soaked_uniform",
+      "scene_2": "changed_clothes",
+      "scene_3": "changed_clothes"
+    }
+  },
+  "content": "场景 1\n暴雨抽打着门框。许宁浑身淌水，把一枚黄铜钥匙拍在玄关的矮柜上。许曼闻声回头，目光落在钥匙柄上刻着的“A-17”字样，脸色骤变。她没接钥匙，只开口：“这是妈留给我们俩一起开储物间的。先把你那身湿制服换下来。”许宁听出回避，不安地追问为什么不能现在就去，许曼转身走进里屋，丢下一句“等天亮”。\n\n场景 2\n雨水仍拍着窗。许宁换上许曼递来的干净衣服，坐在客厅对着一盏灯。她问许曼，为什么从妈走后两人就再没联系。许曼不正面回答，只说有些事不是现在能讲。许宁抓住钥匙追问储物间里到底有什么，许曼别开眼，把话堵了回去：“天亮前，我不知道该怎么说。”她的隐瞒让许宁更怀疑。\n\n场景 3\n天将亮，雨势渐歇。姐妹站在贴着“A-17”的储物间门前。许宁把钥匙递向锁孔，许曼按住她的手，终于开口：妈留下这间屋子，是让她们两个一起打开，也是留给她俩一并面对的事。许宁愣住，手停在半空。门尚未打开，许曼问：“你还要现在开吗？”两人沉默相对。",
+  "scene_packages": [
+    {
+      "scene_id": "E2E-FIX-01-S01",
+      "content": "暴雨抽打着门框。许宁浑身淌水，把一枚黄铜钥匙拍在玄关的矮柜上。许曼闻声回头，目光落在钥匙柄上刻着的“A-17”字样，脸色骤变。她没接钥匙，只开口：“这是妈留给我们俩一起开储物间的。先把你那身湿制服换下来。”许宁听出回避，不安地追问为什么不能现在就去，许曼转身走进里屋，丢下一句“等天亮”。",
+      "structural_deliverable": {
+        "目标": "许宁交钥匙换得开门机会",
+        "阻力": "许曼拒绝立即开门",
+        "对白行动": "许宁用追问施压，许曼用拖延回避",
+        "转折": "许曼认出钥匙却坚持等天亮",
+        "入场": "许宁浑身湿透拍下钥匙",
+        "出场": "许曼转身进里屋，只留一句等天亮"
+      },
+      "state_evidence": {
+        "key_identity": "A-17",
+        "key_custody": "第一场由许宁带至许曼住处并交于矮柜",
+        "knowledge_holders": [
+          "许宁"
+        ],
+        "reveal_status": "NOT_YET_REVEALED",
+        "relationship_state": "疏远且紧张，推迟加剧许宁不安",
+        "clothing_visual_state_code": "soaked_uniform",
+        "clothing_visual_state_display": "许宁浑身湿透，制服贴在身上滴水",
+        "location_presence": "许曼住处玄关",
+        "authorized_transitions": [
+          "change_from_soaked_uniform"
+        ]
+      },
+      "source_attribution": {
+        "source_role": "Scene Writer",
+        "source_record_id": "E2E-RUN-18/scene_writer/E2E-FIX-01-S01",
+        "version": "0.1",
+        "evidence_locator": "scene_packages/E2E-FIX-01-S01"
+      },
+      "evidence_locator": "scene_packages/E2E-FIX-01-S01"
+    },
+    {
+      "scene_id": "E2E-FIX-01-S02",
+      "content": "雨水仍拍着窗。许宁换上许曼递来的干净衣服，坐在客厅对着一盏灯。她问许曼，为什么从妈走后两人就再没联系。许曼不正面回答，只说有些事不是现在能讲。许宁抓住钥匙追问储物间里到底有什么，许曼别开眼，把话堵了回去：“天亮前，我不知道该怎么说。”她的隐瞒让许宁更怀疑。",
+      "structural_deliverable": {
+        "目标": "许宁套取储物间信息与疏远原因",
+        "阻力": "许曼拒不提前透露",
+        "对白行动": "许宁逼问，许曼回避遮掩",
+        "转折": "许宁的怀疑因隐瞒而加深",
+        "入场": "许宁换好衣服进客厅坐下",
+        "出场": "许曼别开眼把话堵回，留下僵局"
+      },
+      "state_evidence": {
+        "key_identity": "A-17",
+        "key_custody": "钥匙暂置矮柜，未明确归属",
+        "knowledge_holders": [
+          "许宁",
+          "许曼"
+        ],
+        "reveal_status": "NOT_YET_REVEALED",
+        "relationship_state": "因隐瞒而更紧绷，尚未爆发",
+        "clothing_visual_state_code": "changed_clothes",
+        "clothing_visual_state_display": "许宁换下湿制服，穿着干净便衣",
+        "location_presence": "许曼住处客厅",
+        "authorized_transitions": [
+          "change_from_soaked_uniform"
+        ]
+      },
+      "source_attribution": {
+        "source_role": "Scene Writer",
+        "source_record_id": "E2E-RUN-18/scene_writer/E2E-FIX-01-S02",
+        "version": "0.1",
+        "evidence_locator": "scene_packages/E2E-FIX-01-S02"
+      },
+      "evidence_locator": "scene_packages/E2E-FIX-01-S02"
+    },
+    {
+      "scene_id": "E2E-FIX-01-S03",
+      "content": "天将亮，雨势渐歇。姐妹站在贴着“A-17”的储物间门前。许宁把钥匙递向锁孔，许曼按住她的手，终于开口：妈留下这间屋子，是让她们两个一起打开，也是留给她俩一并面对的事。许宁愣住，手停在半空。门尚未打开，许曼问：“你还要现在开吗？”两人沉默相对。",
+      "structural_deliverable": {
+        "目标": "展示共同揭示并压出开门抉择",
+        "阻力": "揭示带来的重负与未决选择",
+        "对白行动": "许曼终于摊牌并反问，许宁以沉默应答",
+        "转折": "母亲信件揭示后开门与否转成未决",
+        "入场": "姐妹走到储物间门前",
+        "出场": "面对未开的门沉默相对，抉择悬置"
+      },
+      "state_evidence": {
+        "key_identity": "A-17",
+        "key_custody": "许宁持钥匙递向锁孔，被许曼按住",
+        "knowledge_holders": [
+          "许宁"
+        ],
+        "reveal_status": "REVEALED_WITH_EVENT",
+        "relationship_state": "依然紧张，无完全和解",
+        "clothing_visual_state_code": "changed_clothes",
+        "clothing_visual_state_display": "许宁仍穿干净便衣",
+        "location_presence": "储物间门前",
+        "authorized_transitions": [
+          "change_from_soaked_uniform"
+        ]
+      },
+      "source_attribution": {
+        "source_role": "Scene Writer",
+        "source_record_id": "E2E-RUN-18/scene_writer/E2E-FIX-01-S03",
+        "version": "0.1",
+        "evidence_locator": "scene_packages/E2E-FIX-01-S03"
+      },
+      "evidence_locator": "scene_packages/E2E-FIX-01-S03"
+    }
+  ]
+}

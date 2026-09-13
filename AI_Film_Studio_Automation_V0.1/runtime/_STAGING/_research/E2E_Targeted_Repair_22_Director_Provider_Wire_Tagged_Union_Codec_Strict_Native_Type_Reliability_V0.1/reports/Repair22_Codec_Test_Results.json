@@ -1,0 +1,33 @@
+{
+  "positive": {
+    "canonical_15_fields_unchanged": true,
+    "only_approved_field_tagged": true,
+    "wire_is_fixed_object": true,
+    "present_round_trip": true,
+    "absent_round_trip": true,
+    "empty_round_trip": true,
+    "absent_not_empty": true,
+    "canonical_after_decode": true,
+    "r26_replay_new_wire_fails": true,
+    "probe21_replay_new_wire_fails": true,
+    "no_field_json_loads": true,
+    "adapter_has_no_field_normalizer": true,
+    "no_automatic_retry": true
+  },
+  "negative": {
+    "r26_string": true,
+    "probe21_string": true,
+    "absent_nonempty": true,
+    "present_string": true,
+    "missing_status": true,
+    "missing_items": true,
+    "unknown_status": true
+  },
+  "counts": {
+    "positive": 13,
+    "negative": 7
+  },
+  "overall": "PASS",
+  "r26_raw_sha256": "c36596c83dc9e553cc451cc65267f8f1a62667915372a4d757bbbf38e866741e",
+  "probe21_raw_sha256": "1d38cc96d9a35c4f54f7b207ff87ca8e8c6c39a7058e809c1ad2692b06c1d025"
+}

@@ -1,0 +1,110 @@
+{
+  "run_id": "DIRECTOR-CONTRACT-PROBE-01",
+  "classification": "DIRECTOR-ONLY REAL CONTRACT PROBE POST-EXECUTION ACCEPTANCE REVIEW",
+  "status": "PASS",
+  "results": [
+    {
+      "id": "DIR-PROBE-01",
+      "result": "PASS",
+      "detail": "response complete"
+    },
+    {
+      "id": "DIR-PROBE-02",
+      "result": "PASS",
+      "detail": "JSON transport parse PASS; no Scene Writer package emitted"
+    },
+    {
+      "id": "DIR-PROBE-03",
+      "result": "PASS",
+      "detail": "canonical Mode exact"
+    },
+    {
+      "id": "DIR-PROBE-04",
+      "result": "PASS",
+      "detail": "canonical Primary State exact"
+    },
+    {
+      "id": "DIR-PROBE-05",
+      "result": "PASS",
+      "detail": "Directorial Intent present"
+    },
+    {
+      "id": "DIR-PROBE-06",
+      "result": "PASS",
+      "detail": "Staging / Blocking present"
+    },
+    {
+      "id": "DIR-PROBE-07",
+      "result": "PASS",
+      "detail": "Spatial Geography present"
+    },
+    {
+      "id": "DIR-PROBE-08",
+      "result": "PASS",
+      "detail": "Audience Information present"
+    },
+    {
+      "id": "DIR-PROBE-09",
+      "result": "PASS",
+      "detail": "Camera / Coverage Intent present"
+    },
+    {
+      "id": "DIR-PROBE-10",
+      "result": "PASS",
+      "detail": "Rhythm / Transition Intent present"
+    },
+    {
+      "id": "DIR-PROBE-11",
+      "result": "PASS",
+      "detail": "production burden and unresolved constraints represented"
+    },
+    {
+      "id": "DIR-PROBE-12",
+      "result": "PASS",
+      "detail": "no upstream Scene package rewrite"
+    },
+    {
+      "id": "DIR-PROBE-13",
+      "result": "PASS",
+      "detail": "Canon locks and prohibitions unchanged"
+    },
+    {
+      "id": "DIR-PROBE-14",
+      "result": "PASS",
+      "detail": "no acting-method takeover; Character & Acting is lawfully named only as a future handoff owner"
+    },
+    {
+      "id": "DIR-PROBE-15",
+      "result": "PASS",
+      "detail": "State & Evidence handoff PASS"
+    },
+    {
+      "id": "DIR-PROBE-16",
+      "result": "PASS",
+      "detail": "raw response and usage persisted before local validation"
+    }
+  ],
+  "passed": 16,
+  "total": 16,
+  "original_probe_report": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_05_Director_Output_Contract_Transport_Alignment_V0.1\\evidence\\DIRECTOR-CONTRACT-PROBE-01\\director_real_contract_probe_01.json",
+  "original_probe_report_preserved": true,
+  "correction": {
+    "type": "POST_EXECUTION_ASSERTION_CORRECTION",
+    "provider_calls_added": 0,
+    "original_raw_response_sha256": "8408fd7bff7f6901c0c6ebdb57ad944a6f82e4c5fa492b6d44b599caa83b4f97",
+    "DIR-PROBE-14": "A future Character & Acting handoff is not Director acting-method takeover.",
+    "DIR-PROBE-16": "Usage belongs to the separately persisted invocation-metadata artifact, not the raw-response artifact."
+  },
+  "integrity": {
+    "provider_calls": 0,
+    "executor_calls": 0,
+    "retries": 0,
+    "fallbacks": 0,
+    "showrunner_calls": 0,
+    "scene_writer_calls": 0,
+    "downstream_calls": 0,
+    "semantic_mutation": 0,
+    "auto_repairs": 0
+  },
+  "frozen_scene_writer_artifact_sha256": "0ec913f33ad6fa23ed7488bb7765c2a6de68e6f76212ca29b54f7310f9193f7c"
+}

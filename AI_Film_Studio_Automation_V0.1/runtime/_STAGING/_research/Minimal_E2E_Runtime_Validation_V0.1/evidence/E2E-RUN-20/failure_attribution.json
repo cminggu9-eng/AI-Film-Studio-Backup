@@ -1,0 +1,18 @@
+[
+  {
+    "role": "Scene Writer",
+    "layer": "SCHEMA VALIDATION FAILURE",
+    "category": "SCHEMA VALIDATION FAILURE",
+    "owner": "Scene Writer",
+    "expected_contract": "Authorized canonical role, transport, state, and handoff contract for E2E-RUN-20",
+    "actual_output": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-20\\artifacts\\scene_writer_provider_response.json",
+    "raw_evidence": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-20\\artifacts\\scene_writer_provider_response.json",
+    "parsed_evidence": "NOT AVAILABLE",
+    "semantic_content_existed": false,
+    "blocking_reason": "JSON Schema validation failed at scenes/0/id: 'E2E-FIX-02-S01' is not one of ['E2E-FIX-01-S01', 'E2E-FIX-01-S02', 'E2E-FIX-01-S03']",
+    "detail": "JSON Schema validation failed at scenes/0/id: 'E2E-FIX-02-S01' is not one of ['E2E-FIX-01-S01', 'E2E-FIX-01-S02', 'E2E-FIX-01-S03']",
+    "recommended_repair_boundary": "Scene Writer / SCHEMA VALIDATION FAILURE targeted repair only",
+    "blocking": true,
+    "safe_stop": true
+  }
+]

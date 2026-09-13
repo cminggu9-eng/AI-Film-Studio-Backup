@@ -1,0 +1,52 @@
+{
+  "result": "PASS",
+  "run_id": "DIRECTOR-STRICT-COMPATIBILITY-PROBE-03",
+  "fixture_binding": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_07_Fixture_Generalization_Runtime_Parameterization_V0.1\\fixtures\\E2E_FIX_01_Runtime_Binding_V0.1.json",
+  "compiled_run_contract": {
+    "fixture_id": "E2E-FIX-01",
+    "binding": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_07_Fixture_Generalization_Runtime_Parameterization_V0.1\\fixtures\\E2E_FIX_01_Runtime_Binding_V0.1.json"
+  },
+  "source_artifacts": {
+    "director_input": {
+      "path": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-12\\artifacts\\director_input.json",
+      "sha256": "e0740ff18e55ab805a5d06cfb2f9118122ad2876c906bdaf67c4598174df0eef"
+    },
+    "scene_writer_output": {
+      "path": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-12\\artifacts\\scene_writer_output.json",
+      "sha256": "4ac62a155ea6752e060643a173acef4081885940a86eba66207a109a14223b97"
+    },
+    "showrunner_output": {
+      "path": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-12\\artifacts\\showrunner_output.json",
+      "sha256": "87d8d02af8fa253e096e01f000f506553ac1968a8f93f9f753d9c1f958cda74a"
+    }
+  },
+  "director_structured_contract_version": "Director Full Structured Submission V0.1",
+  "compatibility_projection_version": "DIRECTOR_DEEPSEEK_STRICT_COMPATIBILITY_PROJECTION_V0.1",
+  "function_name": "submit_director_package",
+  "strict": true,
+  "nine_typed_enum_pointers": [
+    "/properties/flags",
+    "/properties/handoffs",
+    "/properties/unresolved_decisions/anyOf/0",
+    "/properties/state_evidence/properties/relevant_prior_state/anyOf/0",
+    "/properties/state_evidence/properties/current_state/anyOf/0",
+    "/properties/state_evidence/properties/proposed_state/anyOf/0",
+    "/properties/state_evidence/properties/knowledge_timing/anyOf/0",
+    "/properties/state_evidence/properties/relationship_state/anyOf/0",
+    "/properties/state_evidence/properties/visual_state/anyOf/0"
+  ],
+  "canonical_skill_hashes": {
+    "showrunner": "0847EE3521A915936E97FA1F72D081F0788876F003E071918F517B0A46AE999C",
+    "scene_writer": "93E1BE12988F8CAA6CDD76ACB5E6C1BF6AD3CA0DFF5806A2EA93511E66052DFB",
+    "director": "807D5B398A247A69C3F54FB58F256E8E87AE3B245540071A8B3F6832B49A7781",
+    "character_acting": "CD96A794D37371B855552C23A2670EBD78A9F2E2D3218152CE568C3B4356B09F",
+    "art_director": "8C8DB2370D69863BBA71138A5BBC123B5BC9BBA73E5CCF2F02D8764FFE933C75",
+    "continuity": "C64475BD0578BE6C159DF5A0FA0D90A96636160215B00E17AA3C5CC8E7F0B64C",
+    "shared_qa": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D"
+  },
+  "provider_calls": 0,
+  "executor_calls": 0,
+  "role_calls": 0,
+  "retries": 0,
+  "fallbacks": 0
+}

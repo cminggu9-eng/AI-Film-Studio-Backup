@@ -1,0 +1,70 @@
+{
+  "PROBE-03-01": {
+    "result": "PASS",
+    "detail": "one required strict function call received"
+  },
+  "PROBE-03-02": {
+    "result": "PASS",
+    "detail": "arguments parsed without tolerant parsing"
+  },
+  "PROBE-03-03": {
+    "result": "PASS",
+    "detail": "arguments pass the strict function schema"
+  },
+  "PROBE-03-04": {
+    "result": "PASS",
+    "detail": "three scenes complete"
+  },
+  "PROBE-03-05": {
+    "result": "PASS",
+    "detail": "six structural fields complete per scene"
+  },
+  "PROBE-03-06": {
+    "result": "PASS",
+    "detail": "machine state codes valid"
+  },
+  "PROBE-03-07": {
+    "result": "PASS",
+    "detail": "soaked_uniform exact"
+  },
+  "PROBE-03-08": {
+    "result": "PASS",
+    "detail": "A-17 retained"
+  },
+  "PROBE-03-09": {
+    "result": "PASS",
+    "detail": "custody retained"
+  },
+  "PROBE-03-10": {
+    "result": "PASS",
+    "detail": "knowledge timing retained"
+  },
+  "PROBE-03-11": {
+    "result": "PASS",
+    "detail": "authorized clothing transition retained"
+  },
+  "PROBE-03-12": {
+    "result": "PASS",
+    "detail": "no unauthorized reconciliation"
+  },
+  "PROBE-03-13": {
+    "result": "PASS",
+    "detail": "Structural Contract Gate PASS"
+  },
+  "PROBE-03-14": {
+    "result": "PASS",
+    "detail": "State Token Gate PASS"
+  },
+  "PROBE-03-15": {
+    "result": "PASS",
+    "detail": "Semantic Safeguard PASS"
+  },
+  "PROBE-03-16": {
+    "result": "PASS",
+    "detail": "raw response and usage persisted before validation"
+  },
+  "PROBE-03-17": {
+    "result": "PASS",
+    "detail": "no transport auto-repair"
+  }
+}

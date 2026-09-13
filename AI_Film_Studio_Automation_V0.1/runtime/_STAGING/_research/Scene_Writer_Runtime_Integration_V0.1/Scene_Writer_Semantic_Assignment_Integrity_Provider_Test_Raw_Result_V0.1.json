@@ -1,0 +1,555 @@
+{
+  "classification": "REAL PROVIDER SEMANTIC VERIFIER-ONLY TEST; NO SCENE GENERATION",
+  "provider": "deepseek",
+  "model": "deepseek-v4-pro",
+  "results": [
+    {
+      "id": "SI-SW-01",
+      "expected_result": "FAIL",
+      "expected_category": "UNAUTHORIZED_CAPABILITY_FACT",
+      "actual": {
+        "integrity_result": "FAIL",
+        "violations": [
+          {
+            "category": "UNAUTHORIZED_CAPABILITY_FACT",
+            "conflicting_or_missing_authority": "CAPABILITY_CONSTRAINTS for Chen Mo only states 'Can take over the presentation'; no familiarity ranking exists.",
+            "generated_claim": "You are one of the people most familiar with the whole project",
+            "location": "creative_deliverable.content",
+            "concise_reason": "Lin Yan asserts Chen Mo is one of the most familiar people, an unsupported comparative expertise claim."
+          }
+        ]
+      },
+      "categories": [
+        "UNAUTHORIZED_CAPABILITY_FACT"
+      ],
+      "result": "PASS",
+      "usage": {
+        "provider": "deepseek",
+        "model": "deepseek-v4-pro",
+        "provider_invocation_id": "3d32b2b0-6221-49ad-bc4d-e1b7e1d2ef11",
+        "usage": {
+          "prompt_tokens": 1340,
+          "completion_tokens": 134,
+          "total_tokens": 1474,
+          "prompt_cache_hit_tokens": 1280,
+          "prompt_cache_miss_tokens": 60
+        },
+        "latency_ms": 4471,
+        "thinking_mode": "disabled",
+        "fixture_id": "semantic-assignment-integrity",
+        "request_success": true
+      }
+    },
+    {
+      "id": "SI-SW-02",
+      "expected_result": "FAIL",
+      "expected_category": "EXPLICIT_UNKNOWN_NARROWING",
+      "actual": {
+        "integrity_result": "FAIL",
+        "violations": [
+          {
+            "category": "EXPLICIT_UNKNOWN_NARROWING",
+            "conflicting_or_missing_authority": "LOCKED_FACTS.canon_locks: 'The absent presenter cannot attend. The specific reason is unknown.' and 'Lin Yan does not know the reason.'",
+            "generated_claim": "The presenter has a temporary issue, so he cannot come.",
+            "location": "creative_deliverable.content",
+            "concise_reason": "Lin Yan invents a specific cause ('temporary issue') for the presenter's absence, but the ledger marks the reason as unknown and Lin Yan as not knowing it."
+          }
+        ]
+      },
+      "categories": [
+        "EXPLICIT_UNKNOWN_NARROWING"
+      ],
+      "result": "PASS",
+      "usage": {
+        "provider": "deepseek",
+        "model": "deepseek-v4-pro",
+        "provider_invocation_id": "9f71d5c3-be92-4d7d-80d0-79d50b4c3b34",
+        "usage": {
+          "prompt_tokens": 1333,
+          "completion_tokens": 159,
+          "total_tokens": 1492,
+          "prompt_cache_hit_tokens": 1280,
+          "prompt_cache_miss_tokens": 53
+        },
+        "latency_ms": 3700,
+        "thinking_mode": "disabled",
+        "fixture_id": "semantic-assignment-integrity",
+        "request_success": true
+      }
+    },
+    {
+      "id": "SI-SW-03",
+      "expected_result": "FAIL",
+      "expected_category": "UNAUTHORIZED_TEMPORAL_SPECIFICITY",
+      "actual": {
+        "integrity_result": "FAIL",
+        "violations": [
+          {
+            "category": "UNAUTHORIZED_TEMPORAL_SPECIFICITY",
+            "conflicting_or_missing_authority": "TEMPORAL_CONSTRAINTS only specify 'tonight' without a precise deadline.",
+            "generated_claim": "The materials must be sent by midnight.",
+            "location": "creative_deliverable.content",
+            "concise_reason": "The generated line asserts a precise deadline ('midnight') not present in the ledger's temporal constraints, which only require sending materials 'tonight'."
+          }
+        ]
+      },
+      "categories": [
+        "UNAUTHORIZED_TEMPORAL_SPECIFICITY"
+      ],
+      "result": "PASS",
+      "usage": {
+        "provider": "deepseek",
+        "model": "deepseek-v4-pro",
+        "provider_invocation_id": "76ef1706-b28e-49f0-a4ac-3dab4b46b4ef",
+        "usage": {
+          "prompt_tokens": 1329,
+          "completion_tokens": 137,
+          "total_tokens": 1466,
+          "prompt_cache_hit_tokens": 1280,
+          "prompt_cache_miss_tokens": 49
+        },
+        "latency_ms": 3464,
+        "thinking_mode": "disabled",
+        "fixture_id": "semantic-assignment-integrity",
+        "request_success": true
+      }
+    },
+    {
+      "id": "SI-SW-04",
+      "expected_result": "FAIL",
+      "expected_category": "CHARACTER_KNOWLEDGE_LEAK",
+      "actual": {
+        "integrity_result": "FAIL",
+        "violations": [
+          {
+            "category": "CHARACTER_KNOWLEDGE_LEAK",
+            "conflicting_or_missing_authority": "CHARACTER_KNOWLEDGE_LIMITS: Chen Mo knowledge null, constraint 'He has not agreed immediately.'; EXPLICIT_UNKNOWNS: reason unknown.",
+            "generated_claim": "Chen Mo says: 'I know exactly why the presenter cannot attend.'",
+            "location": "creative_deliverable.content",
+            "concise_reason": "Chen Mo claims certain knowledge of the reason, which the ledger does not grant; the reason is explicitly unknown."
+          }
+        ]
+      },
+      "categories": [
+        "CHARACTER_KNOWLEDGE_LEAK"
+      ],
+      "result": "PASS",
+      "usage": {
+        "provider": "deepseek",
+        "model": "deepseek-v4-pro",
+        "provider_invocation_id": "b4410aa6-11aa-407e-b130-218597623821",
+        "usage": {
+          "prompt_tokens": 1330,
+          "completion_tokens": 152,
+          "total_tokens": 1482,
+          "prompt_cache_hit_tokens": 1280,
+          "prompt_cache_miss_tokens": 50
+        },
+        "latency_ms": 3424,
+        "thinking_mode": "disabled",
+        "fixture_id": "semantic-assignment-integrity",
+        "request_success": true
+      }
+    },
+    {
+      "id": "SI-SW-05",
+      "expected_result": "FAIL",
+      "expected_category": "UNAUTHORIZED_RELATIONSHIP_FACT",
+      "actual": {
+        "integrity_result": "FAIL",
+        "violations": [
+          {
+            "category": "UNAUTHORIZED_RELATIONSHIP_FACT",
+            "conflicting_or_missing_authority": "RELATIONSHIP_CONSTRAINTS: colleagues under immediate work pressure, not enemies",
+            "generated_claim": "We handled the same crisis together last time.",
+            "location": "creative_deliverable.content",
+            "concise_reason": "The line asserts a shared past crisis, which is not supported by the ledger and is a new relationship fact."
+          }
+        ]
+      },
+      "categories": [
+        "UNAUTHORIZED_RELATIONSHIP_FACT"
+      ],
+      "result": "PASS",
+      "usage": {
+        "provider": "deepseek",
+        "model": "deepseek-v4-pro",
+        "provider_invocation_id": "4be006e8-9787-45d9-9e6d-a751adcf3535",
+        "usage": {
+          "prompt_tokens": 1330,
+          "completion_tokens": 129,
+          "total_tokens": 1459,
+          "prompt_cache_hit_tokens": 1280,
+          "prompt_cache_miss_tokens": 50
+        },
+        "latency_ms": 3184,
+        "thinking_mode": "disabled",
+        "fixture_id": "semantic-assignment-integrity",
+        "request_success": true
+      }
+    },
+    {
+      "id": "SI-SW-06",
+      "expected_result": "PASS",
+      "expected_category": null,
+      "actual": {
+        "integrity_result": "PASS",
+        "violations": []
+      },
+      "categories": [],
+      "result": "PASS",
+      "usage": {
+        "provider": "deepseek",
+        "model": "deepseek-v4-pro",
+        "provider_invocation_id": "d84d3181-710c-48e2-9743-62d5fb3d39ba",
+        "usage": {
+          "prompt_tokens": 1337,
+          "completion_tokens": 18,
+          "total_tokens": 1355,
+          "prompt_cache_hit_tokens": 1280,
+          "prompt_cache_miss_tokens": 57
+        },
+        "latency_ms": 1810,
+        "thinking_mode": "disabled",
+        "fixture_id": "semantic-assignment-integrity",
+        "request_success": true
+      }
+    },
+    {
+      "id": "SI-SW-07",
+      "expected_result": "PASS",
+      "expected_category": null,
+      "actual": {
+        "integrity_result": "PASS",
+        "violations": []
+      },
+      "categories": [],
+      "result": "PASS",
+      "usage": {
+        "provider": "deepseek",
+        "model": "deepseek-v4-pro",
+        "provider_invocation_id": "ce75c250-ef03-4711-85df-1cb0b9e9f276",
+        "usage": {
+          "prompt_tokens": 1331,
+          "completion_tokens": 18,
+          "total_tokens": 1349,
+          "prompt_cache_hit_tokens": 1280,
+          "prompt_cache_miss_tokens": 51
+        },
+        "latency_ms": 1800,
+        "thinking_mode": "disabled",
+        "fixture_id": "semantic-assignment-integrity",
+        "request_success": true
+      }
+    },
+    {
+      "id": "SI-SW-08",
+      "expected_result": "PASS",
+      "expected_category": null,
+      "actual": {
+        "integrity_result": "PASS",
+        "violations": []
+      },
+      "categories": [],
+      "result": "PASS",
+      "usage": {
+        "provider": "deepseek",
+        "model": "deepseek-v4-pro",
+        "provider_invocation_id": "45d8964e-c0fa-4a51-95d1-6d4895e32f26",
+        "usage": {
+          "prompt_tokens": 1337,
+          "completion_tokens": 18,
+          "total_tokens": 1355,
+          "prompt_cache_hit_tokens": 1280,
+          "prompt_cache_miss_tokens": 57
+        },
+        "latency_ms": 2752,
+        "thinking_mode": "disabled",
+        "fixture_id": "semantic-assignment-integrity",
+        "request_success": true
+      }
+    },
+    {
+      "id": "SI-SW-09",
+      "expected_result": "PASS",
+      "expected_category": null,
+      "actual": {
+        "integrity_result": "FAIL",
+        "violations": [
+          {
+            "category": "CHARACTER_KNOWLEDGE_LEAK",
+            "conflicting_or_missing_authority": "Lin Yan does not know the reason (knowledge limit).",
+            "generated_claim": "I do not know why the presenter cannot attend.",
+            "location": "creative_deliverable.content",
+            "concise_reason": "The sentence asserts Lin Yan's lack of knowledge as a certainty beyond the ledger's allowance; she may simply not explain."
+          },
+          {
+            "category": "UNSUPPORTED_STORY_FACT",
+            "conflicting_or_missing_authority": "No ledger authority for Lin Yan to speculate about a reason.",
+            "generated_claim": "Maybe there is a reason, but I will not guess.",
+            "location": "creative_deliverable.content",
+            "concise_reason": "The generated line introduces a speculative addition about the unknown reason, unsupported by the ledger."
+          }
+        ]
+      },
+      "categories": [
+        "CHARACTER_KNOWLEDGE_LEAK",
+        "UNSUPPORTED_STORY_FACT"
+      ],
+      "result": "FAIL",
+      "usage": {
+        "provider": "deepseek",
+        "model": "deepseek-v4-pro",
+        "provider_invocation_id": "e84ddb58-19f4-40d2-8dbc-c67a7d54a8fb",
+        "usage": {
+          "prompt_tokens": 1343,
+          "completion_tokens": 225,
+          "total_tokens": 1568,
+          "prompt_cache_hit_tokens": 1280,
+          "prompt_cache_miss_tokens": 63
+        },
+        "latency_ms": 4752,
+        "thinking_mode": "disabled",
+        "fixture_id": "semantic-assignment-integrity",
+        "request_success": true
+      }
+    },
+    {
+      "id": "SI-SW-10",
+      "expected_result": "PASS",
+      "expected_category": null,
+      "actual": {
+        "integrity_result": "PASS",
+        "violations": []
+      },
+      "categories": [],
+      "result": "PASS",
+      "usage": {
+        "provider": "deepseek",
+        "model": "deepseek-v4-pro",
+        "provider_invocation_id": "4abc1f44-109e-48a0-ab6f-0bc5cd925bee",
+        "usage": {
+          "prompt_tokens": 1340,
+          "completion_tokens": 18,
+          "total_tokens": 1358,
+          "prompt_cache_hit_tokens": 1280,
+          "prompt_cache_miss_tokens": 60
+        },
+        "latency_ms": 1999,
+        "thinking_mode": "disabled",
+        "fixture_id": "semantic-assignment-integrity",
+        "request_success": true
+      }
+    },
+    {
+      "id": "SI-PARA-01",
+      "expected_result": "FAIL",
+      "expected_category": "UNAUTHORIZED_CAPABILITY_FACT",
+      "actual": {
+        "integrity_result": "PASS",
+        "violations": []
+      },
+      "categories": [],
+      "result": "FAIL",
+      "usage": {
+        "provider": "deepseek",
+        "model": "deepseek-v4-pro",
+        "provider_invocation_id": "5393ad40-0ecf-4c3d-b358-8ef9ef403139",
+        "usage": {
+          "prompt_tokens": 1322,
+          "completion_tokens": 18,
+          "total_tokens": 1340,
+          "prompt_cache_hit_tokens": 1280,
+          "prompt_cache_miss_tokens": 42
+        },
+        "latency_ms": 2454,
+        "thinking_mode": "disabled",
+        "fixture_id": "semantic-assignment-integrity",
+        "request_success": true
+      }
+    },
+    {
+      "id": "SI-PARA-02",
+      "expected_result": "FAIL",
+      "expected_category": "UNAUTHORIZED_CAPABILITY_FACT",
+      "actual": {
+        "integrity_result": "PASS",
+        "violations": []
+      },
+      "categories": [],
+      "result": "FAIL",
+      "usage": {
+        "provider": "deepseek",
+        "model": "deepseek-v4-pro",
+        "provider_invocation_id": "31238dde-3213-46b0-b35e-ce9e38b0dd74",
+        "usage": {
+          "prompt_tokens": 1326,
+          "completion_tokens": 18,
+          "total_tokens": 1344,
+          "prompt_cache_hit_tokens": 1280,
+          "prompt_cache_miss_tokens": 46
+        },
+        "latency_ms": 2047,
+        "thinking_mode": "disabled",
+        "fixture_id": "semantic-assignment-integrity",
+        "request_success": true
+      }
+    },
+    {
+      "id": "SI-PARA-03",
+      "expected_result": "FAIL",
+      "expected_category": "UNAUTHORIZED_CAPABILITY_FACT",
+      "actual": {
+        "integrity_result": "FAIL",
+        "violations": [
+          {
+            "category": "UNSUPPORTED_STORY_FACT",
+            "conflicting_or_missing_authority": "No ledger authority for anyone's understanding or comparison; LIN Yan's knowledge is limited to presenter absence.",
+            "generated_claim": "No one in the whole group understands it better than you.",
+            "location": "creative_deliverable.content",
+            "concise_reason": "The scene asserts an unsupported comparative claim about group understanding, which is not present in the assignment constraint ledger and exceeds neutral allowed actions."
+          }
+        ]
+      },
+      "categories": [
+        "UNSUPPORTED_STORY_FACT"
+      ],
+      "result": "FAIL",
+      "usage": {
+        "provider": "deepseek",
+        "model": "deepseek-v4-pro",
+        "provider_invocation_id": "95af31ba-b531-4027-9bba-e174a783c7e0",
+        "usage": {
+          "prompt_tokens": 1328,
+          "completion_tokens": 136,
+          "total_tokens": 1464,
+          "prompt_cache_hit_tokens": 1280,
+          "prompt_cache_miss_tokens": 48
+        },
+        "latency_ms": 4501,
+        "thinking_mode": "disabled",
+        "fixture_id": "semantic-assignment-integrity",
+        "request_success": true
+      }
+    },
+    {
+      "id": "SI-PARA-04",
+      "expected_result": "FAIL",
+      "expected_category": "UNAUTHORIZED_CAPABILITY_FACT",
+      "actual": {
+        "integrity_result": "PASS",
+        "violations": []
+      },
+      "categories": [],
+      "result": "FAIL",
+      "usage": {
+        "provider": "deepseek",
+        "model": "deepseek-v4-pro",
+        "provider_invocation_id": "9c998a7b-0a5f-446c-afe9-2abfe921309e",
+        "usage": {
+          "prompt_tokens": 1329,
+          "completion_tokens": 18,
+          "total_tokens": 1347,
+          "prompt_cache_hit_tokens": 1280,
+          "prompt_cache_miss_tokens": 49
+        },
+        "latency_ms": 2372,
+        "thinking_mode": "disabled",
+        "fixture_id": "semantic-assignment-integrity",
+        "request_success": true
+      }
+    },
+    {
+      "id": "SI-PARA-05",
+      "expected_result": "FAIL",
+      "expected_category": "UNAUTHORIZED_CAPABILITY_FACT",
+      "actual": {
+        "integrity_result": "PASS",
+        "violations": []
+      },
+      "categories": [],
+      "result": "FAIL",
+      "usage": {
+        "provider": "deepseek",
+        "model": "deepseek-v4-pro",
+        "provider_invocation_id": "d8e155b3-7f07-4885-9509-a78d5aaa37b2",
+        "usage": {
+          "prompt_tokens": 1329,
+          "completion_tokens": 18,
+          "total_tokens": 1347,
+          "prompt_cache_hit_tokens": 1280,
+          "prompt_cache_miss_tokens": 49
+        },
+        "latency_ms": 3419,
+        "thinking_mode": "disabled",
+        "fixture_id": "semantic-assignment-integrity",
+        "request_success": true
+      }
+    },
+    {
+      "id": "SI-FP-01",
+      "expected_result": "PASS",
+      "expected_category": null,
+      "actual": {
+        "integrity_result": "PASS",
+        "violations": []
+      },
+      "categories": [],
+      "result": "PASS",
+      "usage": {
+        "provider": "deepseek",
+        "model": "deepseek-v4-pro",
+        "provider_invocation_id": "a6683505-8d47-408d-812f-3d0f59f51d9a",
+        "usage": {
+          "prompt_tokens": 1326,
+          "completion_tokens": 18,
+          "total_tokens": 1344,
+          "prompt_cache_hit_tokens": 1280,
+          "prompt_cache_miss_tokens": 46
+        },
+        "latency_ms": 2332,
+        "thinking_mode": "disabled",
+        "fixture_id": "semantic-assignment-integrity",
+        "request_success": true
+      }
+    },
+    {
+      "id": "SI-FP-02",
+      "expected_result": "PASS",
+      "expected_category": null,
+      "actual": {
+        "integrity_result": "PASS",
+        "violations": []
+      },
+      "categories": [],
+      "result": "PASS",
+      "usage": {
+        "provider": "deepseek",
+        "model": "deepseek-v4-pro",
+        "provider_invocation_id": "daaa718e-c1dc-4ce2-90f9-0b904239af98",
+        "usage": {
+          "prompt_tokens": 1333,
+          "completion_tokens": 18,
+          "total_tokens": 1351,
+          "prompt_cache_hit_tokens": 1280,
+          "prompt_cache_miss_tokens": 53
+        },
+        "latency_ms": 1884,
+        "thinking_mode": "disabled",
+        "fixture_id": "semantic-assignment-integrity",
+        "request_success": true
+      }
+    }
+  ],
+  "passed": 11,
+  "total": 17,
+  "completed": true,
+  "pricing_basis": {
+    "currency": "CNY",
+    "unit": "per_1M_tokens",
+    "input_cache_hit": 0.025,
+    "input_cache_miss": 3.0,
+    "output": 6.0,
+    "status": "ESTIMATED"
+  }
+}

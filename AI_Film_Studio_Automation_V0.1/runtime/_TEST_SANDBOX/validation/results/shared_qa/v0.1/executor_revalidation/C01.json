@@ -1,0 +1,874 @@
+{
+  "fixture_id": "C01",
+  "mode": "CONTEMPORARY_COORDINATED",
+  "initial": {
+    "runtime_result": {
+      "internal_runtime_result": {
+        "runtime_status": "SUCCESS",
+        "invocation_id": "revalidation-c01-initial",
+        "contract_identity": "language-voice-qa-runtime",
+        "contract_version": "0.1",
+        "skill_integrity": {
+          "identity": "language-voice-qa",
+          "version": "0.1",
+          "path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\Shared_QA\\SKILL.md",
+          "expected_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+          "metadata": {
+            "name": "language-voice-qa",
+            "description": "Perform context-appropriate Chinese Language & Voice QA with conditional, minimal rewrites. Use for reviewing a passage, project brief, dialogue, scene description, narrative prose, production note, or marketing copy; do not use it to create prose, imitate writers, decide story content, or judge real-time language trends.",
+            "type": "skill",
+            "status": "approved",
+            "review_result": "passed",
+            "version": "0.1",
+            "subject": "Language & Voice QA",
+            "installation_status": "not-installed"
+          },
+          "actual_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+          "passed": true,
+          "reason": null
+        },
+        "decision": "ROLE HANDOFF / WARNING",
+        "severity": "LEVEL 4",
+        "route": "Term & Contemporary Boundary",
+        "action": "handoff",
+        "rewrite_used": false,
+        "handoff": "CONTEMPORARY USAGE CHECK REQUIRED → HANDOFF: Future Contemporary Language Layer",
+        "runtime_contract_passed": true,
+        "failure_code": null,
+        "failure_message": null,
+        "transport_metadata": {
+          "handoff_status": "HANDOFF_REQUIRED",
+          "dependency_status": "CONTEMPORARY_LAYER_NOT_AVAILABLE"
+        }
+      },
+      "downstream_payload": {
+        "text": "发布会结束后，唐栩把演示机的外壳扣好，说：“别急着把它叫成人形机器人。我们这次要讲的是具身智能，它得在真实环境里感知、行动，还要承受行动带来的后果。”\n\n同事问：“这词现在是不是已经被说滥了？”\n\n唐栩停了一下。“我不知道。先别为了显得新，把它塞进每一页。”",
+        "original_preserved": true,
+        "decision": "ROLE HANDOFF / WARNING",
+        "severity": "LEVEL 4",
+        "route": "Term & Contemporary Boundary",
+        "action": "handoff",
+        "handoff": "CONTEMPORARY USAGE CHECK REQUIRED → HANDOFF: Future Contemporary Language Layer",
+        "diagnostics": "The passage asks whether “具身智能” has become overused, but the presenter’s own reply defers the public-currency question (“我不知道。先别为了显得新…”) and does not assert a time-sensitive fact. The caller nonetheless requests a current-usage/scope check before deciding if the term carries a time-sensitive implication. That check is outside the approved QA boundary."
+      },
+      "user_facing_result": {
+        "status": "SUCCESS",
+        "decision": "ROLE HANDOFF / WARNING",
+        "message": "The passage asks whether “具身智能” has become overused, but the presenter’s own reply defers the public-currency question (“我不知道。先别为了显得新…”) and does not assert a time-sensitive fact. The caller nonetheless requests a current-usage/scope check before deciding if the term carries a time-sensitive implication. That check is outside the approved QA boundary.",
+        "text": null,
+        "handoff": "CONTEMPORARY USAGE CHECK REQUIRED → HANDOFF: Future Contemporary Language Layer"
+      },
+      "audit_record": {
+        "invocation_id": "revalidation-c01-initial",
+        "timestamp": "2026-08-24T05:51:21.426529+00:00",
+        "skill_identity": "language-voice-qa",
+        "skill_version": "0.1",
+        "skill_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+        "input_mode": "QA_DEFAULT",
+        "context_availability_summary": {
+          "provided": [
+            "Available Context",
+            "Original",
+            "Register / usage",
+            "Requested Mode"
+          ],
+          "derived_safely": [],
+          "unknown": [
+            "Project Constraints / Canon",
+            "Protected Terms / Entities",
+            "Speaker / Character Context",
+            "User Creative Intent"
+          ]
+        },
+        "final_decision_state": "ROLE HANDOFF / WARNING",
+        "severity": "LEVEL 4",
+        "route": "Term & Contemporary Boundary",
+        "rewrite_used": false,
+        "handoff_occurred": true,
+        "runtime_contract_passed": true,
+        "failure_code": null,
+        "failure_name": null,
+        "integrity_passed": true,
+        "log_path": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_TEST_SANDBOX\\validation\\results\\shared_qa\\v0.1\\executor_revalidation\\runtime_audit_logs\\C01\\language-voice-qa-revalidation-c01-initial.json"
+      }
+    },
+    "canonical_semantic_output": {
+      "mode": "QA MODE",
+      "decision": "ROLE HANDOFF / WARNING",
+      "severity": "LEVEL 4",
+      "route": "Term & Contemporary Boundary",
+      "context_state": "PARTIAL",
+      "primary_finding": "Text includes an explicit current-usage question for the term “具身智能” in a mainland-China public-news/technical-communication context, which cannot be assessed by the Language & Voice QA Skill without a live contemporary-language database.",
+      "detector_ownership": "Term & Contemporary Boundary",
+      "diagnostics": "The passage asks whether “具身智能” has become overused, but the presenter’s own reply defers the public-currency question (“我不知道。先别为了显得新…”) and does not assert a time-sensitive fact. The caller nonetheless requests a current-usage/scope check before deciding if the term carries a time-sensitive implication. That check is outside the approved QA boundary.",
+      "meaning_lock_status": "NOT_REQUIRED",
+      "meaning_lock": "No rewrite candidate is under consideration; no meaning extraction is needed for a boundary handoff.",
+      "benefit_result": "NOT_APPLICABLE",
+      "recommendation": "Keep the current line as-is. The line itself is internally consistent because the speaker explicitly refuses to claim current usage. Send the term to the Future Contemporary Language Layer for a real-time public-usage check before any final project decision.",
+      "rewrite_scope": null,
+      "revised_text": null,
+      "rewrite_ceiling_status": "NOT_APPLICABLE",
+      "safety_regression": {
+        "Meaning": "PASS",
+        "Fact": "PASS",
+        "Character": "PASS",
+        "Relationship": "PASS",
+        "Certainty": "PASS",
+        "Timeline": "PASS",
+        "Canon": "PASS",
+        "Register": "PASS",
+        "Role Boundary": "PASS"
+      },
+      "secondary_signal": null,
+      "role_handoff": "CONTEMPORARY USAGE CHECK REQUIRED → HANDOFF: Future Contemporary Language Layer",
+      "contemporary_state": "CONTEMPORARY USAGE CHECK REQUIRED",
+      "residual_warning": "No other QA defect is asserted; the R2 register is otherwise appropriate, and no language-layer revision authority is exercised.",
+      "canon_mutation_requested": false,
+      "invoke_dependencies": false
+    },
+    "usage": {
+      "provider": "deepseek",
+      "model": "deepseek-v4-pro",
+      "provider_invocation_id": "eaa4dc0b-4d91-40ed-bf3a-fb2ad1b1f7c5",
+      "usage": {
+        "prompt_tokens": 6851,
+        "completion_tokens": 529,
+        "total_tokens": 7380,
+        "prompt_cache_hit_tokens": 6528,
+        "prompt_cache_miss_tokens": 323
+      },
+      "latency_ms": 10608,
+      "thinking_mode": "disabled",
+      "fixture_id": "C01",
+      "request_success": true
+    },
+    "estimated_cost_cny": 0.0043062
+  },
+  "final": {
+    "runtime_result": {
+      "internal_runtime_result": {
+        "runtime_status": "SUCCESS",
+        "invocation_id": "revalidation-c01-callback",
+        "contract_identity": "language-voice-qa-runtime",
+        "contract_version": "0.1",
+        "skill_integrity": {
+          "identity": "language-voice-qa",
+          "version": "0.1",
+          "path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\Shared_QA\\SKILL.md",
+          "expected_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+          "metadata": {
+            "name": "language-voice-qa",
+            "description": "Perform context-appropriate Chinese Language & Voice QA with conditional, minimal rewrites. Use for reviewing a passage, project brief, dialogue, scene description, narrative prose, production note, or marketing copy; do not use it to create prose, imitate writers, decide story content, or judge real-time language trends.",
+            "type": "skill",
+            "status": "approved",
+            "review_result": "passed",
+            "version": "0.1",
+            "subject": "Language & Voice QA",
+            "installation_status": "not-installed"
+          },
+          "actual_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+          "passed": true,
+          "reason": null
+        },
+        "decision": "PASS / NO CHANGE",
+        "severity": "LEVEL 0",
+        "route": "Term & Contemporary Boundary",
+        "action": "pass_through",
+        "rewrite_used": false,
+        "handoff": null,
+        "runtime_contract_passed": true,
+        "failure_code": null,
+        "failure_message": null,
+        "transport_metadata": {}
+      },
+      "downstream_payload": {
+        "text": "发布会结束后，唐栩把演示机的外壳扣好，说：“别急着把它叫成人形机器人。我们这次要讲的是具身智能，它得在真实环境里感知、行动，还要承受行动带来的后果。”\n\n同事问：“这词现在是不是已经被说滥了？”\n\n唐栩停了一下。“我不知道。先别为了显得新，把它塞进每一页。”",
+        "original_preserved": true,
+        "decision": "PASS / NO CHANGE",
+        "severity": "LEVEL 0",
+        "route": "Term & Contemporary Boundary",
+        "action": "pass_through",
+        "handoff": null,
+        "diagnostics": "R2 project-brief dialogue: the speaker defines 具身智能 operationally (真实环境里感知、行动，还要承受行动带来的后果) and then explicitly declines to claim novelty or over-application ('别为了显得新，把它塞进每一页'). That self-limitation protects the term's precision and prevents empty high-level wording. Contemporary evidence returns SUPPORTED_WITHIN_DECLARED_SCOPE with observed natural use in public technical communication in 中国大陆 as of 2026-08-24, semantic drift NONE. No rewrite or handoff is needed."
+      },
+      "user_facing_result": {
+        "status": "SUCCESS",
+        "decision": "PASS / NO CHANGE",
+        "message": "R2 project-brief dialogue: the speaker defines 具身智能 operationally (真实环境里感知、行动，还要承受行动带来的后果) and then explicitly declines to claim novelty or over-application ('别为了显得新，把它塞进每一页'). That self-limitation protects the term's precision and prevents empty high-level wording. Contemporary evidence returns SUPPORTED_WITHIN_DECLARED_SCOPE with observed natural use in public technical communication in 中国大陆 as of 2026-08-24, semantic drift NONE. No rewrite or handoff is needed.",
+        "text": null,
+        "handoff": null
+      },
+      "audit_record": {
+        "invocation_id": "revalidation-c01-callback",
+        "timestamp": "2026-08-24T05:51:32.118392+00:00",
+        "skill_identity": "language-voice-qa",
+        "skill_version": "0.1",
+        "skill_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+        "input_mode": "QA_DEFAULT",
+        "context_availability_summary": {
+          "provided": [
+            "Available Context",
+            "Original",
+            "Register / usage",
+            "Requested Mode"
+          ],
+          "derived_safely": [],
+          "unknown": [
+            "Project Constraints / Canon",
+            "Protected Terms / Entities",
+            "Speaker / Character Context",
+            "User Creative Intent"
+          ]
+        },
+        "final_decision_state": "PASS / NO CHANGE",
+        "severity": "LEVEL 0",
+        "route": "Term & Contemporary Boundary",
+        "rewrite_used": false,
+        "handoff_occurred": false,
+        "runtime_contract_passed": true,
+        "failure_code": null,
+        "failure_name": null,
+        "integrity_passed": true,
+        "log_path": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_TEST_SANDBOX\\validation\\results\\shared_qa\\v0.1\\executor_revalidation\\runtime_audit_logs\\C01\\language-voice-qa-revalidation-c01-callback.json"
+      }
+    },
+    "canonical_semantic_output": {
+      "mode": "QA MODE",
+      "decision": "PASS / NO CHANGE",
+      "severity": "LEVEL 0",
+      "route": "Term & Contemporary Boundary",
+      "context_state": "PARTIAL",
+      "primary_finding": "No locatable language-voice problem in the supplied passage. The term 具身智能 is used deliberately, assigned a bounded technical meaning within the text, and its public-language currency is independently evidenced as current within the declared scope.",
+      "detector_ownership": "Term & Contemporary Boundary",
+      "diagnostics": "R2 project-brief dialogue: the speaker defines 具身智能 operationally (真实环境里感知、行动，还要承受行动带来的后果) and then explicitly declines to claim novelty or over-application ('别为了显得新，把它塞进每一页'). That self-limitation protects the term's precision and prevents empty high-level wording. Contemporary evidence returns SUPPORTED_WITHIN_DECLARED_SCOPE with observed natural use in public technical communication in 中国大陆 as of 2026-08-24, semantic drift NONE. No rewrite or handoff is needed.",
+      "meaning_lock_status": "PASS",
+      "meaning_lock": "Fact: 具身智能 is defined in-context as requiring real-environment perception, action, and consequence; Character Intent: the speaker wants to resist premature labeling ('人形机器人') and resist overusing the term; Register: R2 project-brief register is preserved; Power/Emotional State: uncertain but not decisive for this QA decision.",
+      "benefit_result": "NOT_APPLICABLE",
+      "recommendation": "Keep the passage as is. If the project later needs a formal definition of 具身智能 in project documents, ensure that definition stays consistent with the operational meaning given here and with any locked Canon.",
+      "rewrite_scope": null,
+      "revised_text": null,
+      "rewrite_ceiling_status": "NOT_APPLICABLE",
+      "safety_regression": {
+        "Meaning": "PASS",
+        "Fact": "PASS",
+        "Character": "PASS",
+        "Relationship": "PASS",
+        "Certainty": "PASS",
+        "Timeline": "PASS",
+        "Canon": "PASS",
+        "Register": "PASS",
+        "Role Boundary": "PASS"
+      },
+      "secondary_signal": null,
+      "role_handoff": null,
+      "contemporary_state": null,
+      "residual_warning": "Speaker character context is unavailable, but the current QA decision relies on the term boundary check plus the R2 dialog’s self-limiting rhetoric, not on a full R4 speaker-fit judgment.",
+      "canon_mutation_requested": false,
+      "invoke_dependencies": false
+    },
+    "usage": {
+      "provider": "deepseek",
+      "model": "deepseek-v4-pro",
+      "provider_invocation_id": "5822476f-d206-4c36-aa2f-5047cf6a541b",
+      "usage": {
+        "prompt_tokens": 7716,
+        "completion_tokens": 599,
+        "total_tokens": 8315,
+        "prompt_cache_hit_tokens": 6528,
+        "prompt_cache_miss_tokens": 1188
+      },
+      "latency_ms": 12664,
+      "thinking_mode": "disabled",
+      "fixture_id": "C01",
+      "request_success": true
+    },
+    "estimated_cost_cny": 0.0073212
+  },
+  "evidence": {
+    "layer_status": "SUCCESS",
+    "evidence_return": {
+      "contract_identity": "contemporary-language-layer",
+      "contract_version": "0.1",
+      "layer_boundary": "LAYER_PROVIDES_EVIDENCE_QA_MAKES_DECISION",
+      "query": {
+        "phrase": "具身智能",
+        "question": "- Requested Mode: `QA_DEFAULT`\n- Register: R2/R4 technical presentation dialogue\n- Available Context: caller requires a current-usage and scope check before deciding whether the term carries a time-sensitive public-language implication\n- Contemporary request: phrase `具身智能`; question type `CURRENT_USAGE`; geography `中国大陆`; platform `public news / technical communication`; as-of `2026-08-24`\n- Validation marker: `VALIDATION / SYNTHETIC / NON-CANON`"
+      },
+      "evidence_status": "EVIDENCE_AVAILABLE",
+      "current_usage_status": "SUPPORTED_WITHIN_DECLARED_SCOPE",
+      "usage_observations": [
+        {
+          "source_id": "xinhua-waic-2026",
+          "usage_kind": "NATURAL_USE",
+          "stance": "SUPPORTS",
+          "geography": "中国大陆",
+          "platform": "public technical communication",
+          "register_observation": "R4"
+        },
+        {
+          "source_id": "state-tax-2026",
+          "usage_kind": "NATURAL_USE",
+          "stance": "SUPPORTS",
+          "geography": "中国大陆",
+          "platform": "public technical communication",
+          "register_observation": "R4"
+        },
+        {
+          "source_id": "drc-2026",
+          "usage_kind": "NATURAL_USE",
+          "stance": "SUPPORTS",
+          "geography": "中国大陆",
+          "platform": "public technical communication",
+          "register_observation": "R4"
+        }
+      ],
+      "temporal_status": {
+        "label": "Current",
+        "as_of": "2026-08-24T00:00:00Z",
+        "newest_valid_observation_at": "2026-07-28T00:00:00Z"
+      },
+      "regional_platform_scope": {
+        "requested": {
+          "geography": "中国大陆"
+        },
+        "observed": {
+          "geographies": [
+            "中国大陆"
+          ],
+          "platforms": [
+            "public technical communication"
+          ]
+        }
+      },
+      "register_observation": [
+        "R4"
+      ],
+      "semantic_drift": [
+        "NONE"
+      ],
+      "source_summary": [
+        {
+          "source_id": "xinhua-waic-2026",
+          "source_name": "新华网",
+          "source_url": "https://www.news.cn/tech/20260719/30c96f9724774a508baf9efe704ef286/c.html",
+          "source_tier": "B",
+          "independence_group": "XINHUA-WAIC-2026",
+          "published_at": "2026-07-19T00:00:00Z",
+          "accessed_at": "2026-08-24T00:00:00Z"
+        },
+        {
+          "source_id": "state-tax-2026",
+          "source_name": "国家税务总局",
+          "source_url": "https://www.chinatax.gov.cn/chinatax/n810219/n810724/c5250672/content.html",
+          "source_tier": "A",
+          "independence_group": "STATE-TAX-2026",
+          "published_at": "2026-06-30T00:00:00Z",
+          "accessed_at": "2026-08-24T00:00:00Z"
+        },
+        {
+          "source_id": "drc-2026",
+          "source_name": "国务院发展研究中心",
+          "source_url": "https://www.drc.gov.cn/DocViewH5.aspx?chnid=379&docid=2910171&leafid=1338",
+          "source_tier": "A",
+          "independence_group": "DRC-2026",
+          "published_at": "2026-07-28T00:00:00Z",
+          "accessed_at": "2026-08-24T00:00:00Z"
+        }
+      ],
+      "confidence": "High",
+      "ambiguity": [
+        "NONE"
+      ],
+      "recommended_qa_handling_hint": {
+        "kind": "EVIDENCE_SUGGESTION",
+        "reason": "Evidence is scoped input only; QA must determine appropriateness."
+      },
+      "timestamp": "2026-08-24T05:51:32.118392Z",
+      "evidence_window": {
+        "as_of": "2026-08-24T00:00:00Z",
+        "policy": "V0.1 no persistent cache"
+      },
+      "untrusted_content_handled_as_data": true
+    },
+    "audit_record": {
+      "request_fingerprint": "1abf536dec42c98e84a358127d638023baffcc8797a575195f413fa874daa5c2",
+      "production_run_id": "revalidation-c01",
+      "returned_at": "2026-08-24T05:51:32.118392Z",
+      "raw_records_received": 3,
+      "usable_records": 3,
+      "persistent_cache_used": false
+    }
+  },
+  "coordinator": {
+    "coordinator_status": "EVIDENCE_RETURNED_TO_QA",
+    "initial_qa_result": {
+      "mode": "QA MODE",
+      "decision": "ROLE HANDOFF / WARNING",
+      "severity": "LEVEL 4",
+      "route": "Term & Contemporary Boundary",
+      "context_state": "PARTIAL",
+      "primary_finding": "Text includes an explicit current-usage question for the term “具身智能” in a mainland-China public-news/technical-communication context, which cannot be assessed by the Language & Voice QA Skill without a live contemporary-language database.",
+      "detector_ownership": "Term & Contemporary Boundary",
+      "diagnostics": "The passage asks whether “具身智能” has become overused, but the presenter’s own reply defers the public-currency question (“我不知道。先别为了显得新…”) and does not assert a time-sensitive fact. The caller nonetheless requests a current-usage/scope check before deciding if the term carries a time-sensitive implication. That check is outside the approved QA boundary.",
+      "meaning_lock_status": "NOT_REQUIRED",
+      "meaning_lock": "No rewrite candidate is under consideration; no meaning extraction is needed for a boundary handoff.",
+      "benefit_result": "NOT_APPLICABLE",
+      "recommendation": "Keep the current line as-is. The line itself is internally consistent because the speaker explicitly refuses to claim current usage. Send the term to the Future Contemporary Language Layer for a real-time public-usage check before any final project decision.",
+      "rewrite_scope": null,
+      "revised_text": null,
+      "rewrite_ceiling_status": "NOT_APPLICABLE",
+      "safety_regression": {
+        "Meaning": "PASS",
+        "Fact": "PASS",
+        "Character": "PASS",
+        "Relationship": "PASS",
+        "Certainty": "PASS",
+        "Timeline": "PASS",
+        "Canon": "PASS",
+        "Register": "PASS",
+        "Role Boundary": "PASS"
+      },
+      "secondary_signal": null,
+      "role_handoff": "CONTEMPORARY USAGE CHECK REQUIRED → HANDOFF: Future Contemporary Language Layer",
+      "contemporary_state": "CONTEMPORARY USAGE CHECK REQUIRED",
+      "residual_warning": "No other QA defect is asserted; the R2 register is otherwise appropriate, and no language-layer revision authority is exercised.",
+      "canon_mutation_requested": false,
+      "invoke_dependencies": false
+    },
+    "evidence_result": {
+      "layer_status": "SUCCESS",
+      "evidence_return": {
+        "contract_identity": "contemporary-language-layer",
+        "contract_version": "0.1",
+        "layer_boundary": "LAYER_PROVIDES_EVIDENCE_QA_MAKES_DECISION",
+        "query": {
+          "phrase": "具身智能",
+          "question": "- Requested Mode: `QA_DEFAULT`\n- Register: R2/R4 technical presentation dialogue\n- Available Context: caller requires a current-usage and scope check before deciding whether the term carries a time-sensitive public-language implication\n- Contemporary request: phrase `具身智能`; question type `CURRENT_USAGE`; geography `中国大陆`; platform `public news / technical communication`; as-of `2026-08-24`\n- Validation marker: `VALIDATION / SYNTHETIC / NON-CANON`"
+        },
+        "evidence_status": "EVIDENCE_AVAILABLE",
+        "current_usage_status": "SUPPORTED_WITHIN_DECLARED_SCOPE",
+        "usage_observations": [
+          {
+            "source_id": "xinhua-waic-2026",
+            "usage_kind": "NATURAL_USE",
+            "stance": "SUPPORTS",
+            "geography": "中国大陆",
+            "platform": "public technical communication",
+            "register_observation": "R4"
+          },
+          {
+            "source_id": "state-tax-2026",
+            "usage_kind": "NATURAL_USE",
+            "stance": "SUPPORTS",
+            "geography": "中国大陆",
+            "platform": "public technical communication",
+            "register_observation": "R4"
+          },
+          {
+            "source_id": "drc-2026",
+            "usage_kind": "NATURAL_USE",
+            "stance": "SUPPORTS",
+            "geography": "中国大陆",
+            "platform": "public technical communication",
+            "register_observation": "R4"
+          }
+        ],
+        "temporal_status": {
+          "label": "Current",
+          "as_of": "2026-08-24T00:00:00Z",
+          "newest_valid_observation_at": "2026-07-28T00:00:00Z"
+        },
+        "regional_platform_scope": {
+          "requested": {
+            "geography": "中国大陆"
+          },
+          "observed": {
+            "geographies": [
+              "中国大陆"
+            ],
+            "platforms": [
+              "public technical communication"
+            ]
+          }
+        },
+        "register_observation": [
+          "R4"
+        ],
+        "semantic_drift": [
+          "NONE"
+        ],
+        "source_summary": [
+          {
+            "source_id": "xinhua-waic-2026",
+            "source_name": "新华网",
+            "source_url": "https://www.news.cn/tech/20260719/30c96f9724774a508baf9efe704ef286/c.html",
+            "source_tier": "B",
+            "independence_group": "XINHUA-WAIC-2026",
+            "published_at": "2026-07-19T00:00:00Z",
+            "accessed_at": "2026-08-24T00:00:00Z"
+          },
+          {
+            "source_id": "state-tax-2026",
+            "source_name": "国家税务总局",
+            "source_url": "https://www.chinatax.gov.cn/chinatax/n810219/n810724/c5250672/content.html",
+            "source_tier": "A",
+            "independence_group": "STATE-TAX-2026",
+            "published_at": "2026-06-30T00:00:00Z",
+            "accessed_at": "2026-08-24T00:00:00Z"
+          },
+          {
+            "source_id": "drc-2026",
+            "source_name": "国务院发展研究中心",
+            "source_url": "https://www.drc.gov.cn/DocViewH5.aspx?chnid=379&docid=2910171&leafid=1338",
+            "source_tier": "A",
+            "independence_group": "DRC-2026",
+            "published_at": "2026-07-28T00:00:00Z",
+            "accessed_at": "2026-08-24T00:00:00Z"
+          }
+        ],
+        "confidence": "High",
+        "ambiguity": [
+          "NONE"
+        ],
+        "recommended_qa_handling_hint": {
+          "kind": "EVIDENCE_SUGGESTION",
+          "reason": "Evidence is scoped input only; QA must determine appropriateness."
+        },
+        "timestamp": "2026-08-24T05:51:32.118392Z",
+        "evidence_window": {
+          "as_of": "2026-08-24T00:00:00Z",
+          "policy": "V0.1 no persistent cache"
+        },
+        "untrusted_content_handled_as_data": true
+      },
+      "audit_record": {
+        "request_fingerprint": "1abf536dec42c98e84a358127d638023baffcc8797a575195f413fa874daa5c2",
+        "production_run_id": "revalidation-c01",
+        "returned_at": "2026-08-24T05:51:32.118392Z",
+        "raw_records_received": 3,
+        "usable_records": 3,
+        "persistent_cache_used": false
+      }
+    },
+    "final_qa_result": {
+      "mode": "QA MODE",
+      "decision": "PASS / NO CHANGE",
+      "severity": "LEVEL 0",
+      "route": "Term & Contemporary Boundary",
+      "context_state": "PARTIAL",
+      "primary_finding": "No locatable language-voice problem in the supplied passage. The term 具身智能 is used deliberately, assigned a bounded technical meaning within the text, and its public-language currency is independently evidenced as current within the declared scope.",
+      "detector_ownership": "Term & Contemporary Boundary",
+      "diagnostics": "R2 project-brief dialogue: the speaker defines 具身智能 operationally (真实环境里感知、行动，还要承受行动带来的后果) and then explicitly declines to claim novelty or over-application ('别为了显得新，把它塞进每一页'). That self-limitation protects the term's precision and prevents empty high-level wording. Contemporary evidence returns SUPPORTED_WITHIN_DECLARED_SCOPE with observed natural use in public technical communication in 中国大陆 as of 2026-08-24, semantic drift NONE. No rewrite or handoff is needed.",
+      "meaning_lock_status": "PASS",
+      "meaning_lock": "Fact: 具身智能 is defined in-context as requiring real-environment perception, action, and consequence; Character Intent: the speaker wants to resist premature labeling ('人形机器人') and resist overusing the term; Register: R2 project-brief register is preserved; Power/Emotional State: uncertain but not decisive for this QA decision.",
+      "benefit_result": "NOT_APPLICABLE",
+      "recommendation": "Keep the passage as is. If the project later needs a formal definition of 具身智能 in project documents, ensure that definition stays consistent with the operational meaning given here and with any locked Canon.",
+      "rewrite_scope": null,
+      "revised_text": null,
+      "rewrite_ceiling_status": "NOT_APPLICABLE",
+      "safety_regression": {
+        "Meaning": "PASS",
+        "Fact": "PASS",
+        "Character": "PASS",
+        "Relationship": "PASS",
+        "Certainty": "PASS",
+        "Timeline": "PASS",
+        "Canon": "PASS",
+        "Register": "PASS",
+        "Role Boundary": "PASS"
+      },
+      "secondary_signal": null,
+      "role_handoff": null,
+      "contemporary_state": null,
+      "residual_warning": "Speaker character context is unavailable, but the current QA decision relies on the term boundary check plus the R2 dialog’s self-limiting rhetoric, not on a full R4 speaker-fit judgment.",
+      "canon_mutation_requested": false,
+      "invoke_dependencies": false
+    },
+    "cycle_key": "revalidation-c01:cd4d5a36744cb855577a7420158e27b849710b06a8c94a75be904ea0ed764258"
+  },
+  "calls": [
+    {
+      "runtime_result": {
+        "internal_runtime_result": {
+          "runtime_status": "SUCCESS",
+          "invocation_id": "revalidation-c01-initial",
+          "contract_identity": "language-voice-qa-runtime",
+          "contract_version": "0.1",
+          "skill_integrity": {
+            "identity": "language-voice-qa",
+            "version": "0.1",
+            "path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\Shared_QA\\SKILL.md",
+            "expected_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+            "metadata": {
+              "name": "language-voice-qa",
+              "description": "Perform context-appropriate Chinese Language & Voice QA with conditional, minimal rewrites. Use for reviewing a passage, project brief, dialogue, scene description, narrative prose, production note, or marketing copy; do not use it to create prose, imitate writers, decide story content, or judge real-time language trends.",
+              "type": "skill",
+              "status": "approved",
+              "review_result": "passed",
+              "version": "0.1",
+              "subject": "Language & Voice QA",
+              "installation_status": "not-installed"
+            },
+            "actual_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+            "passed": true,
+            "reason": null
+          },
+          "decision": "ROLE HANDOFF / WARNING",
+          "severity": "LEVEL 4",
+          "route": "Term & Contemporary Boundary",
+          "action": "handoff",
+          "rewrite_used": false,
+          "handoff": "CONTEMPORARY USAGE CHECK REQUIRED → HANDOFF: Future Contemporary Language Layer",
+          "runtime_contract_passed": true,
+          "failure_code": null,
+          "failure_message": null,
+          "transport_metadata": {
+            "handoff_status": "HANDOFF_REQUIRED",
+            "dependency_status": "CONTEMPORARY_LAYER_NOT_AVAILABLE"
+          }
+        },
+        "downstream_payload": {
+          "text": "发布会结束后，唐栩把演示机的外壳扣好，说：“别急着把它叫成人形机器人。我们这次要讲的是具身智能，它得在真实环境里感知、行动，还要承受行动带来的后果。”\n\n同事问：“这词现在是不是已经被说滥了？”\n\n唐栩停了一下。“我不知道。先别为了显得新，把它塞进每一页。”",
+          "original_preserved": true,
+          "decision": "ROLE HANDOFF / WARNING",
+          "severity": "LEVEL 4",
+          "route": "Term & Contemporary Boundary",
+          "action": "handoff",
+          "handoff": "CONTEMPORARY USAGE CHECK REQUIRED → HANDOFF: Future Contemporary Language Layer",
+          "diagnostics": "The passage asks whether “具身智能” has become overused, but the presenter’s own reply defers the public-currency question (“我不知道。先别为了显得新…”) and does not assert a time-sensitive fact. The caller nonetheless requests a current-usage/scope check before deciding if the term carries a time-sensitive implication. That check is outside the approved QA boundary."
+        },
+        "user_facing_result": {
+          "status": "SUCCESS",
+          "decision": "ROLE HANDOFF / WARNING",
+          "message": "The passage asks whether “具身智能” has become overused, but the presenter’s own reply defers the public-currency question (“我不知道。先别为了显得新…”) and does not assert a time-sensitive fact. The caller nonetheless requests a current-usage/scope check before deciding if the term carries a time-sensitive implication. That check is outside the approved QA boundary.",
+          "text": null,
+          "handoff": "CONTEMPORARY USAGE CHECK REQUIRED → HANDOFF: Future Contemporary Language Layer"
+        },
+        "audit_record": {
+          "invocation_id": "revalidation-c01-initial",
+          "timestamp": "2026-08-24T05:51:21.426529+00:00",
+          "skill_identity": "language-voice-qa",
+          "skill_version": "0.1",
+          "skill_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+          "input_mode": "QA_DEFAULT",
+          "context_availability_summary": {
+            "provided": [
+              "Available Context",
+              "Original",
+              "Register / usage",
+              "Requested Mode"
+            ],
+            "derived_safely": [],
+            "unknown": [
+              "Project Constraints / Canon",
+              "Protected Terms / Entities",
+              "Speaker / Character Context",
+              "User Creative Intent"
+            ]
+          },
+          "final_decision_state": "ROLE HANDOFF / WARNING",
+          "severity": "LEVEL 4",
+          "route": "Term & Contemporary Boundary",
+          "rewrite_used": false,
+          "handoff_occurred": true,
+          "runtime_contract_passed": true,
+          "failure_code": null,
+          "failure_name": null,
+          "integrity_passed": true,
+          "log_path": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_TEST_SANDBOX\\validation\\results\\shared_qa\\v0.1\\executor_revalidation\\runtime_audit_logs\\C01\\language-voice-qa-revalidation-c01-initial.json"
+        }
+      },
+      "canonical_semantic_output": {
+        "mode": "QA MODE",
+        "decision": "ROLE HANDOFF / WARNING",
+        "severity": "LEVEL 4",
+        "route": "Term & Contemporary Boundary",
+        "context_state": "PARTIAL",
+        "primary_finding": "Text includes an explicit current-usage question for the term “具身智能” in a mainland-China public-news/technical-communication context, which cannot be assessed by the Language & Voice QA Skill without a live contemporary-language database.",
+        "detector_ownership": "Term & Contemporary Boundary",
+        "diagnostics": "The passage asks whether “具身智能” has become overused, but the presenter’s own reply defers the public-currency question (“我不知道。先别为了显得新…”) and does not assert a time-sensitive fact. The caller nonetheless requests a current-usage/scope check before deciding if the term carries a time-sensitive implication. That check is outside the approved QA boundary.",
+        "meaning_lock_status": "NOT_REQUIRED",
+        "meaning_lock": "No rewrite candidate is under consideration; no meaning extraction is needed for a boundary handoff.",
+        "benefit_result": "NOT_APPLICABLE",
+        "recommendation": "Keep the current line as-is. The line itself is internally consistent because the speaker explicitly refuses to claim current usage. Send the term to the Future Contemporary Language Layer for a real-time public-usage check before any final project decision.",
+        "rewrite_scope": null,
+        "revised_text": null,
+        "rewrite_ceiling_status": "NOT_APPLICABLE",
+        "safety_regression": {
+          "Meaning": "PASS",
+          "Fact": "PASS",
+          "Character": "PASS",
+          "Relationship": "PASS",
+          "Certainty": "PASS",
+          "Timeline": "PASS",
+          "Canon": "PASS",
+          "Register": "PASS",
+          "Role Boundary": "PASS"
+        },
+        "secondary_signal": null,
+        "role_handoff": "CONTEMPORARY USAGE CHECK REQUIRED → HANDOFF: Future Contemporary Language Layer",
+        "contemporary_state": "CONTEMPORARY USAGE CHECK REQUIRED",
+        "residual_warning": "No other QA defect is asserted; the R2 register is otherwise appropriate, and no language-layer revision authority is exercised.",
+        "canon_mutation_requested": false,
+        "invoke_dependencies": false
+      },
+      "usage": {
+        "provider": "deepseek",
+        "model": "deepseek-v4-pro",
+        "provider_invocation_id": "eaa4dc0b-4d91-40ed-bf3a-fb2ad1b1f7c5",
+        "usage": {
+          "prompt_tokens": 6851,
+          "completion_tokens": 529,
+          "total_tokens": 7380,
+          "prompt_cache_hit_tokens": 6528,
+          "prompt_cache_miss_tokens": 323
+        },
+        "latency_ms": 10608,
+        "thinking_mode": "disabled",
+        "fixture_id": "C01",
+        "request_success": true
+      },
+      "estimated_cost_cny": 0.0043062
+    },
+    {
+      "runtime_result": {
+        "internal_runtime_result": {
+          "runtime_status": "SUCCESS",
+          "invocation_id": "revalidation-c01-callback",
+          "contract_identity": "language-voice-qa-runtime",
+          "contract_version": "0.1",
+          "skill_integrity": {
+            "identity": "language-voice-qa",
+            "version": "0.1",
+            "path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\Shared_QA\\SKILL.md",
+            "expected_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+            "metadata": {
+              "name": "language-voice-qa",
+              "description": "Perform context-appropriate Chinese Language & Voice QA with conditional, minimal rewrites. Use for reviewing a passage, project brief, dialogue, scene description, narrative prose, production note, or marketing copy; do not use it to create prose, imitate writers, decide story content, or judge real-time language trends.",
+              "type": "skill",
+              "status": "approved",
+              "review_result": "passed",
+              "version": "0.1",
+              "subject": "Language & Voice QA",
+              "installation_status": "not-installed"
+            },
+            "actual_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+            "passed": true,
+            "reason": null
+          },
+          "decision": "PASS / NO CHANGE",
+          "severity": "LEVEL 0",
+          "route": "Term & Contemporary Boundary",
+          "action": "pass_through",
+          "rewrite_used": false,
+          "handoff": null,
+          "runtime_contract_passed": true,
+          "failure_code": null,
+          "failure_message": null,
+          "transport_metadata": {}
+        },
+        "downstream_payload": {
+          "text": "发布会结束后，唐栩把演示机的外壳扣好，说：“别急着把它叫成人形机器人。我们这次要讲的是具身智能，它得在真实环境里感知、行动，还要承受行动带来的后果。”\n\n同事问：“这词现在是不是已经被说滥了？”\n\n唐栩停了一下。“我不知道。先别为了显得新，把它塞进每一页。”",
+          "original_preserved": true,
+          "decision": "PASS / NO CHANGE",
+          "severity": "LEVEL 0",
+          "route": "Term & Contemporary Boundary",
+          "action": "pass_through",
+          "handoff": null,
+          "diagnostics": "R2 project-brief dialogue: the speaker defines 具身智能 operationally (真实环境里感知、行动，还要承受行动带来的后果) and then explicitly declines to claim novelty or over-application ('别为了显得新，把它塞进每一页'). That self-limitation protects the term's precision and prevents empty high-level wording. Contemporary evidence returns SUPPORTED_WITHIN_DECLARED_SCOPE with observed natural use in public technical communication in 中国大陆 as of 2026-08-24, semantic drift NONE. No rewrite or handoff is needed."
+        },
+        "user_facing_result": {
+          "status": "SUCCESS",
+          "decision": "PASS / NO CHANGE",
+          "message": "R2 project-brief dialogue: the speaker defines 具身智能 operationally (真实环境里感知、行动，还要承受行动带来的后果) and then explicitly declines to claim novelty or over-application ('别为了显得新，把它塞进每一页'). That self-limitation protects the term's precision and prevents empty high-level wording. Contemporary evidence returns SUPPORTED_WITHIN_DECLARED_SCOPE with observed natural use in public technical communication in 中国大陆 as of 2026-08-24, semantic drift NONE. No rewrite or handoff is needed.",
+          "text": null,
+          "handoff": null
+        },
+        "audit_record": {
+          "invocation_id": "revalidation-c01-callback",
+          "timestamp": "2026-08-24T05:51:32.118392+00:00",
+          "skill_identity": "language-voice-qa",
+          "skill_version": "0.1",
+          "skill_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+          "input_mode": "QA_DEFAULT",
+          "context_availability_summary": {
+            "provided": [
+              "Available Context",
+              "Original",
+              "Register / usage",
+              "Requested Mode"
+            ],
+            "derived_safely": [],
+            "unknown": [
+              "Project Constraints / Canon",
+              "Protected Terms / Entities",
+              "Speaker / Character Context",
+              "User Creative Intent"
+            ]
+          },
+          "final_decision_state": "PASS / NO CHANGE",
+          "severity": "LEVEL 0",
+          "route": "Term & Contemporary Boundary",
+          "rewrite_used": false,
+          "handoff_occurred": false,
+          "runtime_contract_passed": true,
+          "failure_code": null,
+          "failure_name": null,
+          "integrity_passed": true,
+          "log_path": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_TEST_SANDBOX\\validation\\results\\shared_qa\\v0.1\\executor_revalidation\\runtime_audit_logs\\C01\\language-voice-qa-revalidation-c01-callback.json"
+        }
+      },
+      "canonical_semantic_output": {
+        "mode": "QA MODE",
+        "decision": "PASS / NO CHANGE",
+        "severity": "LEVEL 0",
+        "route": "Term & Contemporary Boundary",
+        "context_state": "PARTIAL",
+        "primary_finding": "No locatable language-voice problem in the supplied passage. The term 具身智能 is used deliberately, assigned a bounded technical meaning within the text, and its public-language currency is independently evidenced as current within the declared scope.",
+        "detector_ownership": "Term & Contemporary Boundary",
+        "diagnostics": "R2 project-brief dialogue: the speaker defines 具身智能 operationally (真实环境里感知、行动，还要承受行动带来的后果) and then explicitly declines to claim novelty or over-application ('别为了显得新，把它塞进每一页'). That self-limitation protects the term's precision and prevents empty high-level wording. Contemporary evidence returns SUPPORTED_WITHIN_DECLARED_SCOPE with observed natural use in public technical communication in 中国大陆 as of 2026-08-24, semantic drift NONE. No rewrite or handoff is needed.",
+        "meaning_lock_status": "PASS",
+        "meaning_lock": "Fact: 具身智能 is defined in-context as requiring real-environment perception, action, and consequence; Character Intent: the speaker wants to resist premature labeling ('人形机器人') and resist overusing the term; Register: R2 project-brief register is preserved; Power/Emotional State: uncertain but not decisive for this QA decision.",
+        "benefit_result": "NOT_APPLICABLE",
+        "recommendation": "Keep the passage as is. If the project later needs a formal definition of 具身智能 in project documents, ensure that definition stays consistent with the operational meaning given here and with any locked Canon.",
+        "rewrite_scope": null,
+        "revised_text": null,
+        "rewrite_ceiling_status": "NOT_APPLICABLE",
+        "safety_regression": {
+          "Meaning": "PASS",
+          "Fact": "PASS",
+          "Character": "PASS",
+          "Relationship": "PASS",
+          "Certainty": "PASS",
+          "Timeline": "PASS",
+          "Canon": "PASS",
+          "Register": "PASS",
+          "Role Boundary": "PASS"
+        },
+        "secondary_signal": null,
+        "role_handoff": null,
+        "contemporary_state": null,
+        "residual_warning": "Speaker character context is unavailable, but the current QA decision relies on the term boundary check plus the R2 dialog’s self-limiting rhetoric, not on a full R4 speaker-fit judgment.",
+        "canon_mutation_requested": false,
+        "invoke_dependencies": false
+      },
+      "usage": {
+        "provider": "deepseek",
+        "model": "deepseek-v4-pro",
+        "provider_invocation_id": "5822476f-d206-4c36-aa2f-5047cf6a541b",
+        "usage": {
+          "prompt_tokens": 7716,
+          "completion_tokens": 599,
+          "total_tokens": 8315,
+          "prompt_cache_hit_tokens": 6528,
+          "prompt_cache_miss_tokens": 1188
+        },
+        "latency_ms": 12664,
+        "thinking_mode": "disabled",
+        "fixture_id": "C01",
+        "request_success": true
+      },
+      "estimated_cost_cny": 0.0073212
+    }
+  ]
+}

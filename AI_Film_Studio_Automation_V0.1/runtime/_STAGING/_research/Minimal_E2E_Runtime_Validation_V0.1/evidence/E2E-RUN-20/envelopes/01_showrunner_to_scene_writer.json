@@ -1,0 +1,96 @@
+{
+  "source_role": "Showrunner",
+  "source_record_id": "E2E-RUN-20/showrunner/1",
+  "version": "1.0",
+  "timestamp": "2026-08-31T08:59:47.293016+00:00",
+  "intended_recipient": "Scene Writer",
+  "handoff_reason": "Story / Canon Package",
+  "canon_assignment_locks": [
+    "scene_count: 3",
+    "output_language: zh-CN",
+    "characters: 周岚, 周启",
+    "relationship: 不得自动升级为彻底和解",
+    "prop: cracked_white_porcelain_bowl, identity_lock: same_cracked_bowl, custody_required: true, condition_lock: crack_preserved",
+    "knowledge: last_bowl_reveal, holder: 周启, not_before_scene: 2",
+    "visual_state: signboard_state, allowed_tokens: signboard_on, signboard_off",
+    "decision_locks: shop_transfer_decision"
+  ],
+  "prohibited_changes": [
+    "SELL",
+    "KEEP",
+    "彻底和解"
+  ],
+  "canonical_mode": "ABSENT",
+  "primary_state_or_outcome": "INFO",
+  "flags": "ABSENT",
+  "handoffs": "ABSENT",
+  "required_outcome": "ABSENT",
+  "unresolved_decisions": [
+    "店铺未来处置方向未定",
+    "父子关系历史细节未提供",
+    "雨停与决定的时间关联未明确"
+  ],
+  "relevant_prior_state": "ABSENT",
+  "current_state": {
+    "mode": "CONCEPT",
+    "stage": "frozen one-line concept with fixture constraints",
+    "locked": [
+      "scene_count: 3",
+      "characters: 周岚, 周启",
+      "relationship: 不得自动升级为彻底和解",
+      "prop: cracked_white_porcelain_bowl",
+      "knowledge: last_bowl_reveal",
+      "visual_state: signboard_state",
+      "decision_locks: shop_transfer_decision"
+    ],
+    "approved": "ABSENT",
+    "draft": "premise and scene structure to be developed",
+    "unknown": [
+      "父子过去具体矛盾",
+      "周启多年未归原因",
+      "母亲对盘店真实态度",
+      "父亲去世相关细节"
+    ],
+    "conflicting": "ABSENT",
+    "user_authorization": "limited to single concept expansion",
+    "risk": "relationship state may tip into reconciliation if not carefully constrained"
+  },
+  "proposed_state": {
+    "mode": "CONCEPT",
+    "stage": "Showrunner-developed Story/Canon Package with three-scene assignment",
+    "locked": "from fixture only",
+    "prohibited": "SELL, KEEP, 彻底和解",
+    "knowledge_timing": {
+      "last_bowl_reveal": {
+        "holder": "周启",
+        "not_before_scene": 2
+      }
+    },
+    "visual_state": {
+      "signboard_state": "to be set per scene within allowed tokens"
+    },
+    "relationship_state": "starting strained; may shift but must not reach 彻底和解",
+    "outcome_constraint": "no explicit SELL or KEEP decision; no complete reconciliation"
+  },
+  "knowledge_timing": {
+    "last_bowl_reveal": {
+      "holder": "周启",
+      "not_before_scene": 2
+    }
+  },
+  "relationship_state": {
+    "initial": "疏离，有未解心结",
+    "allowed_evolution": "有限靠近或维持张力",
+    "prohibited_endpoint": "彻底和解"
+  },
+  "visual_state": {
+    "dimension": "signboard_state",
+    "allowed_tokens": [
+      "signboard_on",
+      "signboard_off"
+    ],
+    "current_value": "ABSENT"
+  },
+  "authority_source": "Showrunner canonical Skill output",
+  "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-20\\artifacts\\showrunner_output.json"
+}

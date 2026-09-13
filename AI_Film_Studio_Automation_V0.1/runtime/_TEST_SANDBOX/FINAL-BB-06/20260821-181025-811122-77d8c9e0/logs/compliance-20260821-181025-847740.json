@@ -1,0 +1,140 @@
+{
+  "receipt": {
+    "timestamp": "2026-08-21T10:10:25+00:00",
+    "task": "已锁定正史：林舟从未有孩子。下一集让他 12 岁亲生女儿直接登场。",
+    "routed_role": "Showrunner",
+    "skill_name": "ai-film-studio-showrunner",
+    "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+    "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+    "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+    "hash_match": true,
+    "skill_name_match": true,
+    "project_state": "LOCKED",
+    "mode": "CANON_CONFLICT",
+    "output_type": "Canon Decision Block",
+    "activated_modules": [
+      "Canon Protection"
+    ],
+    "boundary_contract": null
+  },
+  "candidate_v1": {
+    "task": "已锁定正史：林舟从未有孩子。下一集让他 12 岁亲生女儿直接登场。",
+    "routed_role": "Showrunner",
+    "skill_name": "ai-film-studio-showrunner",
+    "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+    "mode": "CANON_CONFLICT",
+    "output_type": "Canon Decision Block",
+    "activated_modules": [
+      "Canon Protection"
+    ],
+    "boundary_contract": null,
+    "project_state": "LOCKED",
+    "candidate_version": "V1",
+    "candidate_output": "BLOCKED FOR CANON DECISION：该设定与 locked canon 冲突，须先获主创授权。"
+  },
+  "gate_v1": {
+    "status": "PASS",
+    "candidate_version": "V1",
+    "correction_count": 0,
+    "violations": [],
+    "receipt": {
+      "timestamp": "2026-08-21T10:10:25+00:00",
+      "task": "已锁定正史：林舟从未有孩子。下一集让他 12 岁亲生女儿直接登场。",
+      "routed_role": "Showrunner",
+      "skill_name": "ai-film-studio-showrunner",
+      "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+      "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "hash_match": true,
+      "skill_name_match": true,
+      "project_state": "LOCKED",
+      "mode": "CANON_CONFLICT",
+      "output_type": "Canon Decision Block",
+      "activated_modules": [
+        "Canon Protection"
+      ],
+      "boundary_contract": null
+    },
+    "active_rules": [
+      "GLOBAL",
+      "BOUNDARY_CONTRACT",
+      "ANTI_MECHANICAL",
+      "PRODUCTION_REALITY"
+    ],
+    "next": "USER_OUTPUT",
+    "final_delivery_status": "READY"
+  },
+  "violations": [],
+  "correction_count": 0,
+  "candidate_v2": null,
+  "gate_v2": null,
+  "final_delivery_status": "READY",
+  "router": {
+    "routed_role": "Showrunner",
+    "mode": "CANON_CONFLICT",
+    "output_type": "Canon Decision Block",
+    "activated_modules": [
+      "Canon Protection"
+    ],
+    "trigger": "locked-canon conflict",
+    "boundary_contract": null,
+    "skill_name": "ai-film-studio-showrunner",
+    "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+    "file_exists": true,
+    "file_readable": true,
+    "skill_name_correct": true,
+    "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+    "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+    "hash_match": true,
+    "invocation_receipt": {
+      "timestamp": "2026-08-21T10:10:25+00:00",
+      "task": "已锁定正史：林舟从未有孩子。下一集让他 12 岁亲生女儿直接登场。",
+      "routed_role": "Showrunner",
+      "skill_name": "ai-film-studio-showrunner",
+      "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+      "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "hash_match": true,
+      "skill_name_match": true,
+      "project_state": "UNKNOWN",
+      "mode": "CANON_CONFLICT",
+      "output_type": "Canon Decision Block",
+      "activated_modules": [
+        "Canon Protection"
+      ],
+      "boundary_contract": null
+    }
+  },
+  "gate_final": {
+    "status": "PASS",
+    "candidate_version": "V1",
+    "correction_count": 0,
+    "violations": [],
+    "receipt": {
+      "timestamp": "2026-08-21T10:10:25+00:00",
+      "task": "已锁定正史：林舟从未有孩子。下一集让他 12 岁亲生女儿直接登场。",
+      "routed_role": "Showrunner",
+      "skill_name": "ai-film-studio-showrunner",
+      "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+      "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "hash_match": true,
+      "skill_name_match": true,
+      "project_state": "LOCKED",
+      "mode": "CANON_CONFLICT",
+      "output_type": "Canon Decision Block",
+      "activated_modules": [
+        "Canon Protection"
+      ],
+      "boundary_contract": null
+    },
+    "active_rules": [
+      "GLOBAL",
+      "BOUNDARY_CONTRACT",
+      "ANTI_MECHANICAL",
+      "PRODUCTION_REALITY"
+    ],
+    "next": "USER_OUTPUT",
+    "final_delivery_status": "READY"
+  }
+}

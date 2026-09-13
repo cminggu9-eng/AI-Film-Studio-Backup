@@ -1,0 +1,18 @@
+{
+  "run_id": "SW-CONTRACT-PROBE-01",
+  "authorization": "E2E Targeted Repair 01 — Scene Writer Integration Contract V0.1",
+  "status": "BLOCKED",
+  "started_at": "2026-08-28T00:16:24.861856+00:00",
+  "provider": "deepseek",
+  "model": "deepseek-v4-pro",
+  "provider_call_budget": 1,
+  "retry_count": 0,
+  "automatic_fallback": 0,
+  "showrunner_real_calls": 0,
+  "downstream_role_calls": 0,
+  "provider_call_count": 0,
+  "frozen_showrunner_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-01-RECOVERY-01\\artifacts\\showrunner_output.json",
+  "frozen_showrunner_artifact_sha256": "bddee6efbba18ba9f1a2a60df8f426ed23c62b2266adfe71f37f9fca18e407f8",
+  "completed_at": "2026-08-28T00:16:27.668577+00:00",
+  "provider_calls": []
+}

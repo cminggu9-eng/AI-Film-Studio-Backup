@@ -1,0 +1,57 @@
+{
+  "source_role": "Character & Acting",
+  "source_record_id": "E2E-RUN-15/character_acting/1",
+  "version": "1.0",
+  "timestamp": "2026-08-30T08:17:21.393182+00:00",
+  "intended_recipient": "Art Director",
+  "handoff_reason": "Physical performance constraints",
+  "canon_assignment_locks": [
+    "storage_room_opening",
+    "A-17 identity_lock",
+    "A-17 custody_required",
+    "brass_key condition_lock",
+    "shared_storage_reveal holder=许曼 not_before_scene=3",
+    "clothing_visual_state_code allowed_tokens=[soaked_uniform, changed_clothes]",
+    "relationship: 不得自动升级为完全和解"
+  ],
+  "prohibited_changes": [
+    "完全和解"
+  ],
+  "canonical_mode": "INTERPRET",
+  "primary_state_or_outcome": "PERFORMANCE_INTERPRETATION_READY",
+  "flags": "ABSENT",
+  "handoffs": "ABSENT",
+  "required_outcome": "ABSENT",
+  "unresolved_decisions": [],
+  "relevant_prior_state": {
+    "relationship_state": "疏远，有未解决的家庭历史",
+    "knowledge_state": "许曼知晓储物间存在但未揭示细节",
+    "visual_state": "许宁为 soaked_uniform"
+  },
+  "current_state": {
+    "relationship_state": "疏远、主导权在许曼、未和解",
+    "knowledge_state": "钥匙已交接，shared_storage_reveal 未触发",
+    "visual_state": "许宁为 soaked_uniform"
+  },
+  "proposed_state": {
+    "relationship_state": "未和解，第三场因揭示产生新层次紧张",
+    "knowledge_state": "shared_storage_reveal 于第三场由许曼揭示",
+    "visual_state": "许宁为 changed_clothes"
+  },
+  "knowledge_timing": {
+    "reveal_of_shared_use": "仅在第三场由许曼揭示",
+    "reveal_of_room_content": "始终不揭示，门前戛然而止"
+  },
+  "relationship_state": {
+    "initial": "疏远，有未解决的家庭历史",
+    "after_scene_1": "保持距离，许曼主导，许宁顺从但克制",
+    "after_scene_3": "未和解，因揭示而产生新的紧张与未决"
+  },
+  "visual_state": {
+    "scene_1": "soaked_uniform",
+    "scene_2": "changed_clothes",
+    "scene_3": "changed_clothes"
+  },
+  "authority_source": "Character & Acting canonical Skill output",
+  "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-15\\artifacts\\character_acting_output.json"
+}

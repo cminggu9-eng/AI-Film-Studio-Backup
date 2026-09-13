@@ -1,0 +1,8 @@
+{
+  "lifecycle_stage": "LOCAL_VALIDATION_FAILURE_RECORDED",
+  "invocation_id": "E2E-RUN-17:continuity:1",
+  "role": "Continuity",
+  "validation_stage": "Local Role-Contract Validation",
+  "category": "TRANSPORT / PARSER CONTRACT FAILURE",
+  "detail": "Continuity content exists, but the parser cannot establish required semantic signals without guessing: presence, authorized_change"
+}

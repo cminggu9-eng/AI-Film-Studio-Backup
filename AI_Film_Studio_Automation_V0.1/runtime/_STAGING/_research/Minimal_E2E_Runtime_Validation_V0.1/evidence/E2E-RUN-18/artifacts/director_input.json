@@ -1,0 +1,799 @@
+{
+  "run_id": "E2E-RUN-18",
+  "role": "Director",
+  "canonical_binding": {
+    "identity": "director",
+    "canonical_path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\03_Director\\director\\SKILL.md",
+    "sha256": "807D5B398A247A69C3F54FB58F256E8E87AE3B245540071A8B3F6832B49A7781"
+  },
+  "selected_mode": "PLAN",
+  "output_language": "zh-CN",
+  "input": {
+    "upstream_artifacts": {
+      "showrunner": {
+        "primary_state_or_outcome": "INFO",
+        "flags": "ABSENT",
+        "handoffs": "ABSENT",
+        "canon_assignment_locks": [
+          "A-17",
+          "brass_key",
+          "shared_storage_reveal",
+          "storage_room_opening",
+          "soaked_uniform",
+          "changed_clothes"
+        ],
+        "prohibited_changes": [
+          "完全和解"
+        ],
+        "required_outcome": "ABSENT",
+        "unresolved_decisions": [
+          "storage_room_opening"
+        ],
+        "state_evidence": {
+          "relevant_prior_state": {
+            "concept": "暴雨夜，夜班管理员许宁把一把刻有“A-17”的黄铜钥匙交给久未联系的姐姐许曼；许曼承认这是母亲留给两人一起打开储物间的钥匙，要求许宁先换下湿透的制服、等天亮再开门。",
+            "canon": "LOCKED"
+          },
+          "current_state": {
+            "mode": "CONCEPT",
+            "stage": "Story / Canon Package",
+            "locks": [
+              "A-17",
+              "brass_key",
+              "shared_storage_reveal",
+              "storage_room_opening",
+              "soaked_uniform",
+              "changed_clothes"
+            ],
+            "prohibitions": [
+              "完全和解"
+            ]
+          },
+          "proposed_state": {
+            "premise": "一对久未联系的姐妹因母亲遗留的黄铜钥匙在暴雨夜重逢，被迫面对共同的过去与尚未打开的房间。",
+            "characters": [
+              {
+                "name": "许宁",
+                "state": "夜班管理员，浑身湿透，带着黄铜钥匙来找姐姐。"
+              },
+              {
+                "name": "许曼",
+                "state": "许宁的姐姐，久未联系，知晓钥匙与母亲的储物间有关。"
+              }
+            ],
+            "relationship": "疏远且紧张，未达到完全和解。",
+            "knowledge_timing": {
+              "shared_storage_reveal": "许曼在第三场才完全揭示母亲留下储物间的信息。"
+            },
+            "visual_state": {
+              "clothing_visual_state_code": "soaked_uniform"
+            }
+          },
+          "knowledge_timing": {
+            "shared_storage_reveal": "许曼在第三场才完全揭示母亲留下储物间的信息。"
+          },
+          "relationship_state": "疏远且紧张，未达到完全和解。",
+          "visual_state": {
+            "clothing_visual_state_code": "soaked_uniform"
+          }
+        },
+        "content": "## 故事前提\n\n暴雨夜，夜班管理员许宁带着一把刻有“A-17”的黄铜钥匙，找到久未联系的姐姐许曼。许曼认出这把钥匙是母亲留给她们共同打开储物间的，但要求许宁先换下湿透的制服，等天亮再开门。姐妹俩因此被迫面对彼此疏远的关系，以及那间尚未打开的储物间背后的秘密。\n\n## 角色\n\n- **许宁**：夜班管理员，浑身湿透，带着黄铜钥匙来找姐姐。她希望尽快打开储物间，但内心对姐姐有所保留。\n- **许曼**：许宁的姐姐，久未联系，知晓钥匙与母亲的储物间有关。她坚持让许宁先换衣服、等天亮再开门，似乎另有隐情。\n\n## Canon Locks\n\n- 钥匙实体标识：`A-17`\n- 钥匙材质与状态：`brass_key`\n- 信息锁定：`shared_storage_reveal` 必须由许曼掌握，且不得早于第三场揭示。\n- 决策锁定：`storage_room_opening` 为未决事项，需在后续由用户或更高授权决定。\n- 视觉状态锁定：第一场中许宁的服装状态为 `soaked_uniform`，后续可变为 `changed_clothes`，但不得出现其他状态。\n- 关系锁定：不得自动升级为完全和解。\n\n## 三场结构\n\n### 第一场：雨夜交接\n- 场景目的：建立人物、关系和核心道具。\n- 起始状态：许宁浑身湿透，带着钥匙出现在许曼住处。\n- 必须发生：许宁交出黄铜钥匙（A-17），许曼认出并承认这是母亲留下的储物间钥匙。\n- 结束状态：许曼要求许宁先换下湿制服、等天亮再开门；许宁对拖延感到不安。\n- 约束：视觉状态为 `soaked_uniform`；不得出现完全和解；许曼不得透露更多储物间信息。\n\n### 第二场：等待天亮\n- 场景目的：深化姐妹间的紧张关系与信息差。\n- 起始状态：许宁换下湿制服（`changed_clothes`），两人在等待天亮。\n- 必须发生：通过对话或行为揭示姐妹久未联系的原因，以及许曼为何坚持等待；许宁试图获取信息，但许曼拒绝提前透露。\n- 结束状态：许宁对许曼的隐瞒更加怀疑，关系进一步紧张，但尚未爆发。\n- 约束：储物间具体信息仍由许曼掌握，不得提前泄露；不得完全和解。\n\n### 第三场：开门之前\n- 场景目的：揭示关键信息，为开门决策制造压力。\n- 起始状态：天将亮，姐妹来到储物间前。\n- 必须发生：许曼揭示母亲留给她们共同打开储物间的信息（`shared_storage_reveal`）；许宁得知后必须做出反应。\n- 结束状态：姐妹面对是否打开储物间的选择（`storage_room_opening` 未决）；关系状态维持紧张，无完全和解。\n- 约束：本场为允许揭示 `shared_storage_reveal` 的最早节点；开门与否在此场不解决。",
+        "scene_packages": "ABSENT"
+      },
+      "scene_writer": {
+        "primary_state_or_outcome": "SCENE_CREATED",
+        "flags": "ABSENT",
+        "handoffs": "ABSENT",
+        "canon_assignment_locks": [
+          "A-17",
+          "brass_key",
+          "shared_storage_reveal",
+          "storage_room_opening",
+          "soaked_uniform",
+          "changed_clothes"
+        ],
+        "prohibited_changes": [
+          "完全和解"
+        ],
+        "required_outcome": "ABSENT",
+        "unresolved_decisions": [
+          "storage_room_opening"
+        ],
+        "state_evidence": {
+          "relevant_prior_state": {
+            "relationship_state": "疏远且紧张，未达到完全和解",
+            "knowledge_state": "许曼掌握储物间信息，尚未揭示",
+            "visual_state": "soaked_uniform"
+          },
+          "current_state": {
+            "relationship_state": "疏远且紧张，未达到完全和解",
+            "knowledge_state": "储物间信息仍由许曼掌握",
+            "visual_state": "soaked_uniform"
+          },
+          "proposed_state": {
+            "relationship_state": "疏远且紧张，未达到完全和解",
+            "knowledge_state": "shared_storage_reveal 已揭示，storage_room_opening 未决",
+            "visual_state": "changed_clothes"
+          },
+          "knowledge_timing": {
+            "reveal_of_shared_use": "第三场揭示",
+            "reveal_of_room_content": "未揭示"
+          },
+          "relationship_state": {
+            "initial": "疏远且紧张",
+            "after_scene_1": "进一步紧张，许宁不安",
+            "after_scene_3": "维持紧张，无完全和解"
+          },
+          "visual_state": {
+            "scene_1": "soaked_uniform",
+            "scene_2": "changed_clothes",
+            "scene_3": "changed_clothes"
+          }
+        },
+        "content": "场景 1\n暴雨抽打着门框。许宁浑身淌水，把一枚黄铜钥匙拍在玄关的矮柜上。许曼闻声回头，目光落在钥匙柄上刻着的“A-17”字样，脸色骤变。她没接钥匙，只开口：“这是妈留给我们俩一起开储物间的。先把你那身湿制服换下来。”许宁听出回避，不安地追问为什么不能现在就去，许曼转身走进里屋，丢下一句“等天亮”。\n\n场景 2\n雨水仍拍着窗。许宁换上许曼递来的干净衣服，坐在客厅对着一盏灯。她问许曼，为什么从妈走后两人就再没联系。许曼不正面回答，只说有些事不是现在能讲。许宁抓住钥匙追问储物间里到底有什么，许曼别开眼，把话堵了回去：“天亮前，我不知道该怎么说。”她的隐瞒让许宁更怀疑。\n\n场景 3\n天将亮，雨势渐歇。姐妹站在贴着“A-17”的储物间门前。许宁把钥匙递向锁孔，许曼按住她的手，终于开口：妈留下这间屋子，是让她们两个一起打开，也是留给她俩一并面对的事。许宁愣住，手停在半空。门尚未打开，许曼问：“你还要现在开吗？”两人沉默相对。",
+        "scene_packages": [
+          {
+            "scene_id": "E2E-FIX-01-S01",
+            "content": "暴雨抽打着门框。许宁浑身淌水，把一枚黄铜钥匙拍在玄关的矮柜上。许曼闻声回头，目光落在钥匙柄上刻着的“A-17”字样，脸色骤变。她没接钥匙，只开口：“这是妈留给我们俩一起开储物间的。先把你那身湿制服换下来。”许宁听出回避，不安地追问为什么不能现在就去，许曼转身走进里屋，丢下一句“等天亮”。",
+            "structural_deliverable": {
+              "目标": "许宁交钥匙换得开门机会",
+              "阻力": "许曼拒绝立即开门",
+              "对白行动": "许宁用追问施压，许曼用拖延回避",
+              "转折": "许曼认出钥匙却坚持等天亮",
+              "入场": "许宁浑身湿透拍下钥匙",
+              "出场": "许曼转身进里屋，只留一句等天亮"
+            },
+            "state_evidence": {
+              "key_identity": "A-17",
+              "key_custody": "第一场由许宁带至许曼住处并交于矮柜",
+              "knowledge_holders": [
+                "许宁"
+              ],
+              "reveal_status": "NOT_YET_REVEALED",
+              "relationship_state": "疏远且紧张，推迟加剧许宁不安",
+              "clothing_visual_state_code": "soaked_uniform",
+              "clothing_visual_state_display": "许宁浑身湿透，制服贴在身上滴水",
+              "location_presence": "许曼住处玄关",
+              "authorized_transitions": [
+                "change_from_soaked_uniform"
+              ]
+            },
+            "source_attribution": {
+              "source_role": "Scene Writer",
+              "source_record_id": "E2E-RUN-18/scene_writer/E2E-FIX-01-S01",
+              "version": "0.1",
+              "evidence_locator": "scene_packages/E2E-FIX-01-S01"
+            },
+            "evidence_locator": "scene_packages/E2E-FIX-01-S01"
+          },
+          {
+            "scene_id": "E2E-FIX-01-S02",
+            "content": "雨水仍拍着窗。许宁换上许曼递来的干净衣服，坐在客厅对着一盏灯。她问许曼，为什么从妈走后两人就再没联系。许曼不正面回答，只说有些事不是现在能讲。许宁抓住钥匙追问储物间里到底有什么，许曼别开眼，把话堵了回去：“天亮前，我不知道该怎么说。”她的隐瞒让许宁更怀疑。",
+            "structural_deliverable": {
+              "目标": "许宁套取储物间信息与疏远原因",
+              "阻力": "许曼拒不提前透露",
+              "对白行动": "许宁逼问，许曼回避遮掩",
+              "转折": "许宁的怀疑因隐瞒而加深",
+              "入场": "许宁换好衣服进客厅坐下",
+              "出场": "许曼别开眼把话堵回，留下僵局"
+            },
+            "state_evidence": {
+              "key_identity": "A-17",
+              "key_custody": "钥匙暂置矮柜，未明确归属",
+              "knowledge_holders": [
+                "许宁",
+                "许曼"
+              ],
+              "reveal_status": "NOT_YET_REVEALED",
+              "relationship_state": "因隐瞒而更紧绷，尚未爆发",
+              "clothing_visual_state_code": "changed_clothes",
+              "clothing_visual_state_display": "许宁换下湿制服，穿着干净便衣",
+              "location_presence": "许曼住处客厅",
+              "authorized_transitions": [
+                "change_from_soaked_uniform"
+              ]
+            },
+            "source_attribution": {
+              "source_role": "Scene Writer",
+              "source_record_id": "E2E-RUN-18/scene_writer/E2E-FIX-01-S02",
+              "version": "0.1",
+              "evidence_locator": "scene_packages/E2E-FIX-01-S02"
+            },
+            "evidence_locator": "scene_packages/E2E-FIX-01-S02"
+          },
+          {
+            "scene_id": "E2E-FIX-01-S03",
+            "content": "天将亮，雨势渐歇。姐妹站在贴着“A-17”的储物间门前。许宁把钥匙递向锁孔，许曼按住她的手，终于开口：妈留下这间屋子，是让她们两个一起打开，也是留给她俩一并面对的事。许宁愣住，手停在半空。门尚未打开，许曼问：“你还要现在开吗？”两人沉默相对。",
+            "structural_deliverable": {
+              "目标": "展示共同揭示并压出开门抉择",
+              "阻力": "揭示带来的重负与未决选择",
+              "对白行动": "许曼终于摊牌并反问，许宁以沉默应答",
+              "转折": "母亲信件揭示后开门与否转成未决",
+              "入场": "姐妹走到储物间门前",
+              "出场": "面对未开的门沉默相对，抉择悬置"
+            },
+            "state_evidence": {
+              "key_identity": "A-17",
+              "key_custody": "许宁持钥匙递向锁孔，被许曼按住",
+              "knowledge_holders": [
+                "许宁"
+              ],
+              "reveal_status": "REVEALED_WITH_EVENT",
+              "relationship_state": "依然紧张，无完全和解",
+              "clothing_visual_state_code": "changed_clothes",
+              "clothing_visual_state_display": "许宁仍穿干净便衣",
+              "location_presence": "储物间门前",
+              "authorized_transitions": [
+                "change_from_soaked_uniform"
+              ]
+            },
+            "source_attribution": {
+              "source_role": "Scene Writer",
+              "source_record_id": "E2E-RUN-18/scene_writer/E2E-FIX-01-S03",
+              "version": "0.1",
+              "evidence_locator": "scene_packages/E2E-FIX-01-S03"
+            },
+            "evidence_locator": "scene_packages/E2E-FIX-01-S03"
+          }
+        ]
+      }
+    },
+    "state_evidence_envelopes": {
+      "showrunner": {
+        "source_role": "Showrunner",
+        "source_record_id": "E2E-RUN-18/showrunner/1",
+        "version": "1.0",
+        "timestamp": "2026-08-31T05:10:45.589966+00:00",
+        "intended_recipient": "Scene Writer",
+        "handoff_reason": "Story / Canon Package",
+        "canon_assignment_locks": [
+          "A-17",
+          "brass_key",
+          "shared_storage_reveal",
+          "storage_room_opening",
+          "soaked_uniform",
+          "changed_clothes"
+        ],
+        "prohibited_changes": [
+          "完全和解"
+        ],
+        "canonical_mode": "ABSENT",
+        "primary_state_or_outcome": "INFO",
+        "flags": "ABSENT",
+        "handoffs": "ABSENT",
+        "required_outcome": "ABSENT",
+        "unresolved_decisions": [
+          "storage_room_opening"
+        ],
+        "relevant_prior_state": {
+          "concept": "暴雨夜，夜班管理员许宁把一把刻有“A-17”的黄铜钥匙交给久未联系的姐姐许曼；许曼承认这是母亲留给两人一起打开储物间的钥匙，要求许宁先换下湿透的制服、等天亮再开门。",
+          "canon": "LOCKED"
+        },
+        "current_state": {
+          "mode": "CONCEPT",
+          "stage": "Story / Canon Package",
+          "locks": [
+            "A-17",
+            "brass_key",
+            "shared_storage_reveal",
+            "storage_room_opening",
+            "soaked_uniform",
+            "changed_clothes"
+          ],
+          "prohibitions": [
+            "完全和解"
+          ]
+        },
+        "proposed_state": {
+          "premise": "一对久未联系的姐妹因母亲遗留的黄铜钥匙在暴雨夜重逢，被迫面对共同的过去与尚未打开的房间。",
+          "characters": [
+            {
+              "name": "许宁",
+              "state": "夜班管理员，浑身湿透，带着黄铜钥匙来找姐姐。"
+            },
+            {
+              "name": "许曼",
+              "state": "许宁的姐姐，久未联系，知晓钥匙与母亲的储物间有关。"
+            }
+          ],
+          "relationship": "疏远且紧张，未达到完全和解。",
+          "knowledge_timing": {
+            "shared_storage_reveal": "许曼在第三场才完全揭示母亲留下储物间的信息。"
+          },
+          "visual_state": {
+            "clothing_visual_state_code": "soaked_uniform"
+          }
+        },
+        "knowledge_timing": {
+          "shared_storage_reveal": "许曼在第三场才完全揭示母亲留下储物间的信息。"
+        },
+        "relationship_state": "疏远且紧张，未达到完全和解。",
+        "visual_state": {
+          "clothing_visual_state_code": "soaked_uniform"
+        },
+        "authority_source": "Showrunner canonical Skill output",
+        "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-18\\artifacts\\showrunner_output.json"
+      },
+      "scene_writer": {
+        "source_role": "Scene Writer",
+        "source_record_id": "E2E-RUN-18/scene_writer/1",
+        "version": "1.0",
+        "timestamp": "2026-08-31T05:11:05.900725+00:00",
+        "intended_recipient": "Director",
+        "handoff_reason": "Three-scene locked package",
+        "canon_assignment_locks": [
+          "A-17",
+          "brass_key",
+          "shared_storage_reveal",
+          "storage_room_opening",
+          "soaked_uniform",
+          "changed_clothes"
+        ],
+        "prohibited_changes": [
+          "完全和解"
+        ],
+        "canonical_mode": "CREATE",
+        "primary_state_or_outcome": "SCENE_CREATED",
+        "flags": "ABSENT",
+        "handoffs": "ABSENT",
+        "required_outcome": "ABSENT",
+        "unresolved_decisions": [
+          "storage_room_opening"
+        ],
+        "relevant_prior_state": {
+          "relationship_state": "疏远且紧张，未达到完全和解",
+          "knowledge_state": "许曼掌握储物间信息，尚未揭示",
+          "visual_state": "soaked_uniform"
+        },
+        "current_state": {
+          "relationship_state": "疏远且紧张，未达到完全和解",
+          "knowledge_state": "储物间信息仍由许曼掌握",
+          "visual_state": "soaked_uniform"
+        },
+        "proposed_state": {
+          "relationship_state": "疏远且紧张，未达到完全和解",
+          "knowledge_state": "shared_storage_reveal 已揭示，storage_room_opening 未决",
+          "visual_state": "changed_clothes"
+        },
+        "knowledge_timing": {
+          "reveal_of_shared_use": "第三场揭示",
+          "reveal_of_room_content": "未揭示"
+        },
+        "relationship_state": {
+          "initial": "疏远且紧张",
+          "after_scene_1": "进一步紧张，许宁不安",
+          "after_scene_3": "维持紧张，无完全和解"
+        },
+        "visual_state": {
+          "scene_1": "soaked_uniform",
+          "scene_2": "changed_clothes",
+          "scene_3": "changed_clothes"
+        },
+        "authority_source": "Scene Writer canonical Skill output",
+        "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-18\\artifacts\\scene_writer_output.json"
+      }
+    },
+    "run_local_ledger": [
+      {
+        "entry_id": "E2E-RUN-18:001",
+        "sequence": 1,
+        "envelope": {
+          "source_role": "Scene Writer",
+          "source_record_id": "E2E-RUN-18/scene_writer/E2E-FIX-01-S01",
+          "version": "1.0",
+          "timestamp": "2026-08-31T05:11:05.916350+00:00",
+          "intended_recipient": "Continuity",
+          "handoff_reason": "Per-scene state evidence",
+          "canon_assignment_locks": [
+            "A-17",
+            "brass_key",
+            "shared_storage_reveal",
+            "storage_room_opening",
+            "soaked_uniform",
+            "changed_clothes"
+          ],
+          "prohibited_changes": [
+            "完全和解"
+          ],
+          "canonical_mode": "CREATE",
+          "primary_state_or_outcome": "SCENE_CREATED",
+          "flags": "ABSENT",
+          "handoffs": "ABSENT",
+          "required_outcome": "ABSENT",
+          "unresolved_decisions": [
+            "storage_room_opening"
+          ],
+          "relevant_prior_state": {
+            "key_identity": "A-17",
+            "custody": "第一场由许宁带至许曼住处并交于矮柜"
+          },
+          "current_state": {
+            "key_identity": "A-17",
+            "custody": "第一场由许宁带至许曼住处并交于矮柜",
+            "knowledge_holders": [
+              "许宁"
+            ],
+            "reveal_status": "NOT_YET_REVEALED",
+            "relationship_state": "疏远且紧张，推迟加剧许宁不安",
+            "clothing_visual_state_code": "soaked_uniform",
+            "clothing_visual_state_display": "许宁浑身湿透，制服贴在身上滴水",
+            "location_presence": "许曼住处玄关",
+            "authorized_transitions": [
+              "change_from_soaked_uniform"
+            ]
+          },
+          "proposed_state": {
+            "authorized_transitions": [
+              "change_from_soaked_uniform"
+            ]
+          },
+          "knowledge_timing": {
+            "knowledge_holders": [
+              "许宁"
+            ],
+            "reveal_status": "NOT_YET_REVEALED"
+          },
+          "relationship_state": "疏远且紧张，推迟加剧许宁不安",
+          "visual_state": {
+            "clothing_visual_state_code": "soaked_uniform",
+            "clothing_visual_state_display": "许宁浑身湿透，制服贴在身上滴水",
+            "location_presence": "许曼住处玄关"
+          },
+          "authority_source": "Scene Writer canonical CREATE output",
+          "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-18\\artifacts\\scene_writer_output.json#scene_packages/E2E-FIX-01-S01"
+        },
+        "state_snapshot": {
+          "key_identity": "A-17",
+          "custody": "第一场由许宁带至许曼住处并交于矮柜",
+          "knowledge_holders": [
+            "许宁"
+          ],
+          "reveal_status": "NOT_YET_REVEALED",
+          "relationship_state": "疏远且紧张，推迟加剧许宁不安",
+          "clothing_visual_state_code": "soaked_uniform",
+          "clothing_visual_state_display": "许宁浑身湿透，制服贴在身上滴水",
+          "location_presence": "许曼住处玄关",
+          "authorized_transitions": [
+            "change_from_soaked_uniform"
+          ]
+        }
+      },
+      {
+        "entry_id": "E2E-RUN-18:002",
+        "sequence": 2,
+        "envelope": {
+          "source_role": "Scene Writer",
+          "source_record_id": "E2E-RUN-18/scene_writer/E2E-FIX-01-S02",
+          "version": "1.0",
+          "timestamp": "2026-08-31T05:11:05.916350+00:00",
+          "intended_recipient": "Continuity",
+          "handoff_reason": "Per-scene state evidence",
+          "canon_assignment_locks": [
+            "A-17",
+            "brass_key",
+            "shared_storage_reveal",
+            "storage_room_opening",
+            "soaked_uniform",
+            "changed_clothes"
+          ],
+          "prohibited_changes": [
+            "完全和解"
+          ],
+          "canonical_mode": "CREATE",
+          "primary_state_or_outcome": "SCENE_CREATED",
+          "flags": "ABSENT",
+          "handoffs": "ABSENT",
+          "required_outcome": "ABSENT",
+          "unresolved_decisions": [
+            "storage_room_opening"
+          ],
+          "relevant_prior_state": {
+            "key_identity": "A-17",
+            "custody": "钥匙暂置矮柜，未明确归属"
+          },
+          "current_state": {
+            "key_identity": "A-17",
+            "custody": "钥匙暂置矮柜，未明确归属",
+            "knowledge_holders": [
+              "许宁",
+              "许曼"
+            ],
+            "reveal_status": "NOT_YET_REVEALED",
+            "relationship_state": "因隐瞒而更紧绷，尚未爆发",
+            "clothing_visual_state_code": "changed_clothes",
+            "clothing_visual_state_display": "许宁换下湿制服，穿着干净便衣",
+            "location_presence": "许曼住处客厅",
+            "authorized_transitions": [
+              "change_from_soaked_uniform"
+            ]
+          },
+          "proposed_state": {
+            "authorized_transitions": [
+              "change_from_soaked_uniform"
+            ]
+          },
+          "knowledge_timing": {
+            "knowledge_holders": [
+              "许宁",
+              "许曼"
+            ],
+            "reveal_status": "NOT_YET_REVEALED"
+          },
+          "relationship_state": "因隐瞒而更紧绷，尚未爆发",
+          "visual_state": {
+            "clothing_visual_state_code": "changed_clothes",
+            "clothing_visual_state_display": "许宁换下湿制服，穿着干净便衣",
+            "location_presence": "许曼住处客厅"
+          },
+          "authority_source": "Scene Writer canonical CREATE output",
+          "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-18\\artifacts\\scene_writer_output.json#scene_packages/E2E-FIX-01-S02"
+        },
+        "state_snapshot": {
+          "key_identity": "A-17",
+          "custody": "钥匙暂置矮柜，未明确归属",
+          "knowledge_holders": [
+            "许宁",
+            "许曼"
+          ],
+          "reveal_status": "NOT_YET_REVEALED",
+          "relationship_state": "因隐瞒而更紧绷，尚未爆发",
+          "clothing_visual_state_code": "changed_clothes",
+          "clothing_visual_state_display": "许宁换下湿制服，穿着干净便衣",
+          "location_presence": "许曼住处客厅",
+          "authorized_transitions": [
+            "change_from_soaked_uniform"
+          ]
+        }
+      },
+      {
+        "entry_id": "E2E-RUN-18:003",
+        "sequence": 3,
+        "envelope": {
+          "source_role": "Scene Writer",
+          "source_record_id": "E2E-RUN-18/scene_writer/E2E-FIX-01-S03",
+          "version": "1.0",
+          "timestamp": "2026-08-31T05:11:05.932667+00:00",
+          "intended_recipient": "Continuity",
+          "handoff_reason": "Per-scene state evidence",
+          "canon_assignment_locks": [
+            "A-17",
+            "brass_key",
+            "shared_storage_reveal",
+            "storage_room_opening",
+            "soaked_uniform",
+            "changed_clothes"
+          ],
+          "prohibited_changes": [
+            "完全和解"
+          ],
+          "canonical_mode": "CREATE",
+          "primary_state_or_outcome": "SCENE_CREATED",
+          "flags": "ABSENT",
+          "handoffs": "ABSENT",
+          "required_outcome": "ABSENT",
+          "unresolved_decisions": [
+            "storage_room_opening"
+          ],
+          "relevant_prior_state": {
+            "key_identity": "A-17",
+            "custody": "许宁持钥匙递向锁孔，被许曼按住"
+          },
+          "current_state": {
+            "key_identity": "A-17",
+            "custody": "许宁持钥匙递向锁孔，被许曼按住",
+            "knowledge_holders": [
+              "许宁"
+            ],
+            "reveal_status": "REVEALED_WITH_EVENT",
+            "relationship_state": "依然紧张，无完全和解",
+            "clothing_visual_state_code": "changed_clothes",
+            "clothing_visual_state_display": "许宁仍穿干净便衣",
+            "location_presence": "储物间门前",
+            "authorized_transitions": [
+              "change_from_soaked_uniform"
+            ]
+          },
+          "proposed_state": {
+            "authorized_transitions": [
+              "change_from_soaked_uniform"
+            ]
+          },
+          "knowledge_timing": {
+            "knowledge_holders": [
+              "许宁"
+            ],
+            "reveal_status": "REVEALED_WITH_EVENT"
+          },
+          "relationship_state": "依然紧张，无完全和解",
+          "visual_state": {
+            "clothing_visual_state_code": "changed_clothes",
+            "clothing_visual_state_display": "许宁仍穿干净便衣",
+            "location_presence": "储物间门前"
+          },
+          "authority_source": "Scene Writer canonical CREATE output",
+          "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-18\\artifacts\\scene_writer_output.json#scene_packages/E2E-FIX-01-S03"
+        },
+        "state_snapshot": {
+          "key_identity": "A-17",
+          "custody": "许宁持钥匙递向锁孔，被许曼按住",
+          "knowledge_holders": [
+            "许宁"
+          ],
+          "reveal_status": "REVEALED_WITH_EVENT",
+          "relationship_state": "依然紧张，无完全和解",
+          "clothing_visual_state_code": "changed_clothes",
+          "clothing_visual_state_display": "许宁仍穿干净便衣",
+          "location_presence": "储物间门前",
+          "authorized_transitions": [
+            "change_from_soaked_uniform"
+          ]
+        }
+      }
+    ],
+    "role_constraints": {
+      "mode": "PLAN",
+      "no_story_rewrite": true
+    },
+    "director_state_projection": {
+      "expected_state_values": {
+        "relevant_prior_state": {
+          "E2E-FIX-01-S01": {
+            "clothing_visual_state_code": "soaked_uniform"
+          },
+          "E2E-FIX-01-S02": {
+            "clothing_visual_state_code": "soaked_uniform"
+          },
+          "E2E-FIX-01-S03": {
+            "clothing_visual_state_code": "changed_clothes"
+          }
+        },
+        "current_state": {
+          "E2E-FIX-01-S01": {
+            "clothing_visual_state_code": "soaked_uniform"
+          },
+          "E2E-FIX-01-S02": {
+            "clothing_visual_state_code": "changed_clothes"
+          },
+          "E2E-FIX-01-S03": {
+            "clothing_visual_state_code": "changed_clothes"
+          }
+        },
+        "proposed_state": "ABSENT",
+        "knowledge_timing": "ABSENT",
+        "visual_state": "ABSENT"
+      },
+      "source_trace": [
+        {
+          "field": "relevant_prior_state",
+          "scene": "E2E-FIX-01-S01",
+          "property": "clothing_visual_state_code",
+          "source_contract_pointer": "compiled_run_contract#/state_enums/clothing_visual_state_code",
+          "source_version": "181975fa44f96d389bd5470db756f5471e0b88bf2e95e9215dfc5df2c337d6aa",
+          "canonical_owner": "Compiled Run Contract",
+          "source_record_id": "E2E-FIX-01/compiled-initial-state",
+          "ledger_sequence": 0,
+          "type_source": "compiled_run_contract#/strict_schema/scene_packages/state/properties/clothing_visual_state_code/type",
+          "enum_source": "compiled_run_contract#/state_enums/clothing_visual_state_code",
+          "requiredness_source": "Repair09J relevant_prior_state per-scene closure",
+          "projection_rule": "COMPILED_INITIAL_OR_PREVIOUS_VALIDATED_SCENE"
+        },
+        {
+          "field": "current_state",
+          "scene": "E2E-FIX-01-S01",
+          "property": "clothing_visual_state_code",
+          "source_contract_pointer": "run_local_state_ledger_records#/E2E-FIX-01-S01/state_snapshot/clothing_visual_state_code",
+          "source_version": "1.0",
+          "canonical_owner": "Scene Writer",
+          "source_record_id": "E2E-RUN-18/scene_writer/E2E-FIX-01-S01",
+          "ledger_sequence": 1,
+          "type_source": "compiled_run_contract#/strict_schema/scene_packages/state/properties/clothing_visual_state_code/type",
+          "enum_source": "compiled_run_contract#/state_enums/clothing_visual_state_code",
+          "requiredness_source": "Repair09J current_state per-scene closure",
+          "projection_rule": "OWNER_LIFECYCLE_LEDGER_SEQUENCE_WINNER"
+        },
+        {
+          "field": "relevant_prior_state",
+          "scene": "E2E-FIX-01-S02",
+          "property": "clothing_visual_state_code",
+          "source_contract_pointer": "run_local_state_ledger_records#/E2E-FIX-01-S01/state_snapshot/clothing_visual_state_code",
+          "source_version": "1.0",
+          "canonical_owner": "Scene Writer",
+          "source_record_id": "E2E-RUN-18/scene_writer/E2E-FIX-01-S01",
+          "ledger_sequence": 1,
+          "type_source": "compiled_run_contract#/strict_schema/scene_packages/state/properties/clothing_visual_state_code/type",
+          "enum_source": "compiled_run_contract#/state_enums/clothing_visual_state_code",
+          "requiredness_source": "Repair09J relevant_prior_state per-scene closure",
+          "projection_rule": "COMPILED_INITIAL_OR_PREVIOUS_VALIDATED_SCENE"
+        },
+        {
+          "field": "current_state",
+          "scene": "E2E-FIX-01-S02",
+          "property": "clothing_visual_state_code",
+          "source_contract_pointer": "run_local_state_ledger_records#/E2E-FIX-01-S02/state_snapshot/clothing_visual_state_code",
+          "source_version": "1.0",
+          "canonical_owner": "Scene Writer",
+          "source_record_id": "E2E-RUN-18/scene_writer/E2E-FIX-01-S02",
+          "ledger_sequence": 2,
+          "type_source": "compiled_run_contract#/strict_schema/scene_packages/state/properties/clothing_visual_state_code/type",
+          "enum_source": "compiled_run_contract#/state_enums/clothing_visual_state_code",
+          "requiredness_source": "Repair09J current_state per-scene closure",
+          "projection_rule": "OWNER_LIFECYCLE_LEDGER_SEQUENCE_WINNER"
+        },
+        {
+          "field": "relevant_prior_state",
+          "scene": "E2E-FIX-01-S03",
+          "property": "clothing_visual_state_code",
+          "source_contract_pointer": "run_local_state_ledger_records#/E2E-FIX-01-S02/state_snapshot/clothing_visual_state_code",
+          "source_version": "1.0",
+          "canonical_owner": "Scene Writer",
+          "source_record_id": "E2E-RUN-18/scene_writer/E2E-FIX-01-S02",
+          "ledger_sequence": 2,
+          "type_source": "compiled_run_contract#/strict_schema/scene_packages/state/properties/clothing_visual_state_code/type",
+          "enum_source": "compiled_run_contract#/state_enums/clothing_visual_state_code",
+          "requiredness_source": "Repair09J relevant_prior_state per-scene closure",
+          "projection_rule": "COMPILED_INITIAL_OR_PREVIOUS_VALIDATED_SCENE"
+        },
+        {
+          "field": "current_state",
+          "scene": "E2E-FIX-01-S03",
+          "property": "clothing_visual_state_code",
+          "source_contract_pointer": "run_local_state_ledger_records#/E2E-FIX-01-S03/state_snapshot/clothing_visual_state_code",
+          "source_version": "1.0",
+          "canonical_owner": "Scene Writer",
+          "source_record_id": "E2E-RUN-18/scene_writer/E2E-FIX-01-S03",
+          "ledger_sequence": 3,
+          "type_source": "compiled_run_contract#/strict_schema/scene_packages/state/properties/clothing_visual_state_code/type",
+          "enum_source": "compiled_run_contract#/state_enums/clothing_visual_state_code",
+          "requiredness_source": "Repair09J current_state per-scene closure",
+          "projection_rule": "OWNER_LIFECYCLE_LEDGER_SEQUENCE_WINNER"
+        },
+        {
+          "field": "proposed_state",
+          "scene": "ABSENT",
+          "property": "ABSENT",
+          "source_contract_pointer": "Repair09J#/proposed_state/exact_absent",
+          "source_version": "0cf9224f7b32f0b75d792ebccd3ac34c4382cd74cb1a9a69c1e4bc123949e070",
+          "canonical_owner": "Repair 09J Authority",
+          "source_record_id": "ABSENT",
+          "ledger_sequence": 0,
+          "type_source": "State Evidence ABSENT",
+          "enum_source": "State Evidence ABSENT",
+          "requiredness_source": "Repair09J proposed_state closure",
+          "projection_rule": "NO_AUTHORIZED_PROJECTABLE_CONTENT"
+        },
+        {
+          "field": "knowledge_timing",
+          "scene": "ABSENT",
+          "property": "ABSENT",
+          "source_contract_pointer": "Repair09J#/knowledge_timing/exact_absent",
+          "source_version": "0cf9224f7b32f0b75d792ebccd3ac34c4382cd74cb1a9a69c1e4bc123949e070",
+          "canonical_owner": "Repair 09J Authority",
+          "source_record_id": "ABSENT",
+          "ledger_sequence": 0,
+          "type_source": "State Evidence ABSENT",
+          "enum_source": "State Evidence ABSENT",
+          "requiredness_source": "Repair09J knowledge_timing closure",
+          "projection_rule": "NO_AUTHORIZED_PROJECTABLE_CONTENT"
+        },
+        {
+          "field": "visual_state",
+          "scene": "ABSENT",
+          "property": "ABSENT",
+          "source_contract_pointer": "Repair09J#/visual_state/exact_absent",
+          "source_version": "0cf9224f7b32f0b75d792ebccd3ac34c4382cd74cb1a9a69c1e4bc123949e070",
+          "canonical_owner": "Repair 09J Authority",
+          "source_record_id": "ABSENT",
+          "ledger_sequence": 0,
+          "type_source": "State Evidence ABSENT",
+          "enum_source": "State Evidence ABSENT",
+          "requiredness_source": "Repair09J visual_state closure",
+          "projection_rule": "NO_AUTHORIZED_PROJECTABLE_CONTENT"
+        }
+      ],
+      "state_schema_hash": "ed0baf41818b4aff532594483113c8b81a781175843081fcd5f15617ac88032d",
+      "source_trace_hash": "270beb4ce687614b3ab139f77488749374e588bfc27db28a025faf3a9a763ac3",
+      "bundle_hash": "ace8e1680b3143876b3559b4f20a5c02625befe0f980ded5a58f451f210d9acc",
+      "legacy_string_path": "UNREACHABLE"
+    }
+  }
+}

@@ -1,0 +1,285 @@
+{
+  "fixture_id": "F01",
+  "mode": "DIRECT_RUNTIME",
+  "initial": {
+    "runtime_result": {
+      "internal_runtime_result": {
+        "runtime_status": "SUCCESS",
+        "invocation_id": "revalidation-f01-initial",
+        "contract_identity": "language-voice-qa-runtime",
+        "contract_version": "0.1",
+        "skill_integrity": {
+          "identity": "language-voice-qa",
+          "version": "0.1",
+          "path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\Shared_QA\\SKILL.md",
+          "expected_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+          "metadata": {
+            "name": "language-voice-qa",
+            "description": "Perform context-appropriate Chinese Language & Voice QA with conditional, minimal rewrites. Use for reviewing a passage, project brief, dialogue, scene description, narrative prose, production note, or marketing copy; do not use it to create prose, imitate writers, decide story content, or judge real-time language trends.",
+            "type": "skill",
+            "status": "approved",
+            "review_result": "passed",
+            "version": "0.1",
+            "subject": "Language & Voice QA",
+            "installation_status": "not-installed"
+          },
+          "actual_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+          "passed": true,
+          "reason": null
+        },
+        "decision": "PASS / NO CHANGE",
+        "severity": "LEVEL 0",
+        "route": "R5 Scene Description",
+        "action": "pass_through",
+        "rewrite_used": false,
+        "handoff": null,
+        "runtime_contract_passed": true,
+        "failure_code": null,
+        "failure_message": null,
+        "transport_metadata": {}
+      },
+      "downstream_payload": {
+        "text": "雨停在傍晚六点多。楼下修车铺的卷帘门刚拉到一半，铁皮摩擦出短促的一声，老板又探出头来，把门往上推了十几厘米。他说雨水会顺着坡流进屋，等地面干一点再关。巷子里没有人催他，只有一辆送菜的三轮车慢慢从水洼边绕过去。\n\n许岚把伞靠在门内，先把鞋底在旧报纸上蹭了两下。她没有立刻上楼，而是站在信箱前看了一会儿。最下面那格塞着一张停水通知，边角被雨气熏得发软。通知说明天上午九点检修，预计持续四小时，落款的日期已经过去两天。她把纸抽出来，顺手替隔壁那格也按平了。\n\n二楼传来锅盖碰到灶台的声音。父亲大概在热中午剩下的汤。他最近总说一个人吃饭用不着讲究，可每次仍会多放一双筷子。许岚听见那声音，忽然想起自己早上出门时没有回答他的问话。那句话并不重要，只是“晚上回来吗”，她当时正赶车，点了一下头就走了。\n\n她把通知折好，放进包里。楼道的灯亮得很慢，先是闪了一下，随后才稳住。许岚上楼时放轻了脚步，到了门口却没有马上掏钥匙。她听见里面有人咳嗽，等那阵咳嗽过去，才抬手敲门。\n\n门很快开了。父亲没有问她为什么回来得晚，只侧过身让她进来。厨房里那锅汤正冒着细小的泡，桌上果然摆着两副碗筷，其中一双还没有拆开塑料套。许岚把包放下，说楼下贴了停水通知。父亲“哦”了一声，去关小火，又像想起什么似的说，明早他会先接一桶水。两个人都没有提早上的事。许岚洗了手，在桌边坐下，闻见汤里有一点姜味。窗外还有零星的水从檐角滴下来，声音不大，却一直没有停。",
+        "original_preserved": true,
+        "decision": "PASS / NO CHANGE",
+        "severity": "LEVEL 0",
+        "route": "R5 Scene Description",
+        "action": "pass_through",
+        "handoff": null,
+        "diagnostics": "Narrative prose adheres to R5 register; visible actions and sensory details are concrete and naturally sequenced; no structural burden, over-explanation, or translation-like phrasing detected."
+      },
+      "user_facing_result": {
+        "status": "SUCCESS",
+        "decision": "PASS / NO CHANGE",
+        "message": "Narrative prose adheres to R5 register; visible actions and sensory details are concrete and naturally sequenced; no structural burden, over-explanation, or translation-like phrasing detected.",
+        "text": null,
+        "handoff": null
+      },
+      "audit_record": {
+        "invocation_id": "revalidation-f01-initial",
+        "timestamp": "2026-08-24T05:51:56.431763+00:00",
+        "skill_identity": "language-voice-qa",
+        "skill_version": "0.1",
+        "skill_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+        "input_mode": "QA_DEFAULT",
+        "context_availability_summary": {
+          "provided": [
+            "Available Context",
+            "Original",
+            "Register / usage",
+            "Requested Mode"
+          ],
+          "derived_safely": [],
+          "unknown": [
+            "Project Constraints / Canon",
+            "Protected Terms / Entities",
+            "Speaker / Character Context",
+            "User Creative Intent"
+          ]
+        },
+        "final_decision_state": "PASS / NO CHANGE",
+        "severity": "LEVEL 0",
+        "route": "R5 Scene Description",
+        "rewrite_used": false,
+        "handoff_occurred": false,
+        "runtime_contract_passed": true,
+        "failure_code": null,
+        "failure_name": null,
+        "integrity_passed": true,
+        "log_path": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_TEST_SANDBOX\\validation\\results\\shared_qa\\v0.1\\executor_revalidation\\runtime_audit_logs\\F01\\language-voice-qa-revalidation-f01-initial.json"
+      }
+    },
+    "canonical_semantic_output": {
+      "mode": "QA MODE",
+      "decision": "PASS / NO CHANGE",
+      "severity": "LEVEL 0",
+      "route": "R5 Scene Description",
+      "context_state": "SUFFICIENT",
+      "primary_finding": null,
+      "detector_ownership": "Meaning Integrity",
+      "diagnostics": "Narrative prose adheres to R5 register; visible actions and sensory details are concrete and naturally sequenced; no structural burden, over-explanation, or translation-like phrasing detected.",
+      "meaning_lock_status": "LOCKED",
+      "meaning_lock": "Fact: rain stops at 6pm, notice is outdated, father cooks soup; Character Intent: restrained observation; Canon: none; Causal: water flows downhill, father anticipates water shutoff; Emotional State: quiet domestic routine with suppressed tension; Register: restrained literary prose.",
+      "benefit_result": "NOT_APPLICABLE",
+      "recommendation": "No revision needed. The restrained pacing and observational distance are deliberate and appropriate to the register.",
+      "rewrite_scope": null,
+      "revised_text": null,
+      "rewrite_ceiling_status": "NOT_APPLICABLE",
+      "safety_regression": {
+        "Meaning": "PASS",
+        "Fact": "PASS",
+        "Character": "PASS",
+        "Relationship": "PASS",
+        "Certainty": "PASS",
+        "Timeline": "PASS",
+        "Canon": "PASS",
+        "Register": "PASS",
+        "Role Boundary": "PASS"
+      },
+      "secondary_signal": null,
+      "role_handoff": null,
+      "contemporary_state": null,
+      "residual_warning": null,
+      "canon_mutation_requested": false,
+      "invoke_dependencies": false
+    },
+    "usage": {
+      "provider": "deepseek",
+      "model": "deepseek-v4-pro",
+      "provider_invocation_id": "f000f67e-b133-4560-9b33-ec9a83b26cc3",
+      "usage": {
+        "prompt_tokens": 7148,
+        "completion_tokens": 396,
+        "total_tokens": 7544,
+        "prompt_cache_hit_tokens": 7040,
+        "prompt_cache_miss_tokens": 108
+      },
+      "latency_ms": 8538,
+      "thinking_mode": "disabled",
+      "fixture_id": "F01",
+      "request_success": true
+    },
+    "estimated_cost_cny": 0.002876
+  },
+  "final": {
+    "runtime_result": {
+      "internal_runtime_result": {
+        "runtime_status": "SUCCESS",
+        "invocation_id": "revalidation-f01-initial",
+        "contract_identity": "language-voice-qa-runtime",
+        "contract_version": "0.1",
+        "skill_integrity": {
+          "identity": "language-voice-qa",
+          "version": "0.1",
+          "path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\Shared_QA\\SKILL.md",
+          "expected_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+          "metadata": {
+            "name": "language-voice-qa",
+            "description": "Perform context-appropriate Chinese Language & Voice QA with conditional, minimal rewrites. Use for reviewing a passage, project brief, dialogue, scene description, narrative prose, production note, or marketing copy; do not use it to create prose, imitate writers, decide story content, or judge real-time language trends.",
+            "type": "skill",
+            "status": "approved",
+            "review_result": "passed",
+            "version": "0.1",
+            "subject": "Language & Voice QA",
+            "installation_status": "not-installed"
+          },
+          "actual_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+          "passed": true,
+          "reason": null
+        },
+        "decision": "PASS / NO CHANGE",
+        "severity": "LEVEL 0",
+        "route": "R5 Scene Description",
+        "action": "pass_through",
+        "rewrite_used": false,
+        "handoff": null,
+        "runtime_contract_passed": true,
+        "failure_code": null,
+        "failure_message": null,
+        "transport_metadata": {}
+      },
+      "downstream_payload": {
+        "text": "雨停在傍晚六点多。楼下修车铺的卷帘门刚拉到一半，铁皮摩擦出短促的一声，老板又探出头来，把门往上推了十几厘米。他说雨水会顺着坡流进屋，等地面干一点再关。巷子里没有人催他，只有一辆送菜的三轮车慢慢从水洼边绕过去。\n\n许岚把伞靠在门内，先把鞋底在旧报纸上蹭了两下。她没有立刻上楼，而是站在信箱前看了一会儿。最下面那格塞着一张停水通知，边角被雨气熏得发软。通知说明天上午九点检修，预计持续四小时，落款的日期已经过去两天。她把纸抽出来，顺手替隔壁那格也按平了。\n\n二楼传来锅盖碰到灶台的声音。父亲大概在热中午剩下的汤。他最近总说一个人吃饭用不着讲究，可每次仍会多放一双筷子。许岚听见那声音，忽然想起自己早上出门时没有回答他的问话。那句话并不重要，只是“晚上回来吗”，她当时正赶车，点了一下头就走了。\n\n她把通知折好，放进包里。楼道的灯亮得很慢，先是闪了一下，随后才稳住。许岚上楼时放轻了脚步，到了门口却没有马上掏钥匙。她听见里面有人咳嗽，等那阵咳嗽过去，才抬手敲门。\n\n门很快开了。父亲没有问她为什么回来得晚，只侧过身让她进来。厨房里那锅汤正冒着细小的泡，桌上果然摆着两副碗筷，其中一双还没有拆开塑料套。许岚把包放下，说楼下贴了停水通知。父亲“哦”了一声，去关小火，又像想起什么似的说，明早他会先接一桶水。两个人都没有提早上的事。许岚洗了手，在桌边坐下，闻见汤里有一点姜味。窗外还有零星的水从檐角滴下来，声音不大，却一直没有停。",
+        "original_preserved": true,
+        "decision": "PASS / NO CHANGE",
+        "severity": "LEVEL 0",
+        "route": "R5 Scene Description",
+        "action": "pass_through",
+        "handoff": null,
+        "diagnostics": "Narrative prose adheres to R5 register; visible actions and sensory details are concrete and naturally sequenced; no structural burden, over-explanation, or translation-like phrasing detected."
+      },
+      "user_facing_result": {
+        "status": "SUCCESS",
+        "decision": "PASS / NO CHANGE",
+        "message": "Narrative prose adheres to R5 register; visible actions and sensory details are concrete and naturally sequenced; no structural burden, over-explanation, or translation-like phrasing detected.",
+        "text": null,
+        "handoff": null
+      },
+      "audit_record": {
+        "invocation_id": "revalidation-f01-initial",
+        "timestamp": "2026-08-24T05:51:56.431763+00:00",
+        "skill_identity": "language-voice-qa",
+        "skill_version": "0.1",
+        "skill_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+        "input_mode": "QA_DEFAULT",
+        "context_availability_summary": {
+          "provided": [
+            "Available Context",
+            "Original",
+            "Register / usage",
+            "Requested Mode"
+          ],
+          "derived_safely": [],
+          "unknown": [
+            "Project Constraints / Canon",
+            "Protected Terms / Entities",
+            "Speaker / Character Context",
+            "User Creative Intent"
+          ]
+        },
+        "final_decision_state": "PASS / NO CHANGE",
+        "severity": "LEVEL 0",
+        "route": "R5 Scene Description",
+        "rewrite_used": false,
+        "handoff_occurred": false,
+        "runtime_contract_passed": true,
+        "failure_code": null,
+        "failure_name": null,
+        "integrity_passed": true,
+        "log_path": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_TEST_SANDBOX\\validation\\results\\shared_qa\\v0.1\\executor_revalidation\\runtime_audit_logs\\F01\\language-voice-qa-revalidation-f01-initial.json"
+      }
+    },
+    "canonical_semantic_output": {
+      "mode": "QA MODE",
+      "decision": "PASS / NO CHANGE",
+      "severity": "LEVEL 0",
+      "route": "R5 Scene Description",
+      "context_state": "SUFFICIENT",
+      "primary_finding": null,
+      "detector_ownership": "Meaning Integrity",
+      "diagnostics": "Narrative prose adheres to R5 register; visible actions and sensory details are concrete and naturally sequenced; no structural burden, over-explanation, or translation-like phrasing detected.",
+      "meaning_lock_status": "LOCKED",
+      "meaning_lock": "Fact: rain stops at 6pm, notice is outdated, father cooks soup; Character Intent: restrained observation; Canon: none; Causal: water flows downhill, father anticipates water shutoff; Emotional State: quiet domestic routine with suppressed tension; Register: restrained literary prose.",
+      "benefit_result": "NOT_APPLICABLE",
+      "recommendation": "No revision needed. The restrained pacing and observational distance are deliberate and appropriate to the register.",
+      "rewrite_scope": null,
+      "revised_text": null,
+      "rewrite_ceiling_status": "NOT_APPLICABLE",
+      "safety_regression": {
+        "Meaning": "PASS",
+        "Fact": "PASS",
+        "Character": "PASS",
+        "Relationship": "PASS",
+        "Certainty": "PASS",
+        "Timeline": "PASS",
+        "Canon": "PASS",
+        "Register": "PASS",
+        "Role Boundary": "PASS"
+      },
+      "secondary_signal": null,
+      "role_handoff": null,
+      "contemporary_state": null,
+      "residual_warning": null,
+      "canon_mutation_requested": false,
+      "invoke_dependencies": false
+    },
+    "usage": {
+      "provider": "deepseek",
+      "model": "deepseek-v4-pro",
+      "provider_invocation_id": "f000f67e-b133-4560-9b33-ec9a83b26cc3",
+      "usage": {
+        "prompt_tokens": 7148,
+        "completion_tokens": 396,
+        "total_tokens": 7544,
+        "prompt_cache_hit_tokens": 7040,
+        "prompt_cache_miss_tokens": 108
+      },
+      "latency_ms": 8538,
+      "thinking_mode": "disabled",
+      "fixture_id": "F01",
+      "request_success": true
+    },
+    "estimated_cost_cny": 0.002876
+  },
+  "evidence": null
+}

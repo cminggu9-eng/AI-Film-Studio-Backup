@@ -1,0 +1,18 @@
+[
+  {
+    "role": "Director",
+    "layer": "SCHEMA VALIDATION FAILURE",
+    "category": "SCHEMA VALIDATION FAILURE",
+    "owner": "Director",
+    "expected_contract": "Authorized canonical role, transport, state, and handoff contract for E2E-RUN-05",
+    "actual_output": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-14\\artifacts\\director_provider_response.json",
+    "raw_evidence": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-14\\artifacts\\director_provider_response.json",
+    "parsed_evidence": "NOT AVAILABLE",
+    "semantic_content_existed": false,
+    "blocking_reason": "Director state_evidence.relevant_prior_state must be a JSON object string",
+    "detail": "Director state_evidence.relevant_prior_state must be a JSON object string",
+    "recommended_repair_boundary": "Director / SCHEMA VALIDATION FAILURE targeted repair only",
+    "blocking": true,
+    "safe_stop": true
+  }
+]

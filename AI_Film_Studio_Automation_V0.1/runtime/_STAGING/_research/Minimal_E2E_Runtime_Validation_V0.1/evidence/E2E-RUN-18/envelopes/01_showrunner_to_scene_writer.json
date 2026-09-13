@@ -1,0 +1,75 @@
+{
+  "source_role": "Showrunner",
+  "source_record_id": "E2E-RUN-18/showrunner/1",
+  "version": "1.0",
+  "timestamp": "2026-08-31T05:10:45.589966+00:00",
+  "intended_recipient": "Scene Writer",
+  "handoff_reason": "Story / Canon Package",
+  "canon_assignment_locks": [
+    "A-17",
+    "brass_key",
+    "shared_storage_reveal",
+    "storage_room_opening",
+    "soaked_uniform",
+    "changed_clothes"
+  ],
+  "prohibited_changes": [
+    "完全和解"
+  ],
+  "canonical_mode": "ABSENT",
+  "primary_state_or_outcome": "INFO",
+  "flags": "ABSENT",
+  "handoffs": "ABSENT",
+  "required_outcome": "ABSENT",
+  "unresolved_decisions": [
+    "storage_room_opening"
+  ],
+  "relevant_prior_state": {
+    "concept": "暴雨夜，夜班管理员许宁把一把刻有“A-17”的黄铜钥匙交给久未联系的姐姐许曼；许曼承认这是母亲留给两人一起打开储物间的钥匙，要求许宁先换下湿透的制服、等天亮再开门。",
+    "canon": "LOCKED"
+  },
+  "current_state": {
+    "mode": "CONCEPT",
+    "stage": "Story / Canon Package",
+    "locks": [
+      "A-17",
+      "brass_key",
+      "shared_storage_reveal",
+      "storage_room_opening",
+      "soaked_uniform",
+      "changed_clothes"
+    ],
+    "prohibitions": [
+      "完全和解"
+    ]
+  },
+  "proposed_state": {
+    "premise": "一对久未联系的姐妹因母亲遗留的黄铜钥匙在暴雨夜重逢，被迫面对共同的过去与尚未打开的房间。",
+    "characters": [
+      {
+        "name": "许宁",
+        "state": "夜班管理员，浑身湿透，带着黄铜钥匙来找姐姐。"
+      },
+      {
+        "name": "许曼",
+        "state": "许宁的姐姐，久未联系，知晓钥匙与母亲的储物间有关。"
+      }
+    ],
+    "relationship": "疏远且紧张，未达到完全和解。",
+    "knowledge_timing": {
+      "shared_storage_reveal": "许曼在第三场才完全揭示母亲留下储物间的信息。"
+    },
+    "visual_state": {
+      "clothing_visual_state_code": "soaked_uniform"
+    }
+  },
+  "knowledge_timing": {
+    "shared_storage_reveal": "许曼在第三场才完全揭示母亲留下储物间的信息。"
+  },
+  "relationship_state": "疏远且紧张，未达到完全和解。",
+  "visual_state": {
+    "clothing_visual_state_code": "soaked_uniform"
+  },
+  "authority_source": "Showrunner canonical Skill output",
+  "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-18\\artifacts\\showrunner_output.json"
+}

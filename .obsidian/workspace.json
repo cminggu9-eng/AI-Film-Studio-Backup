@@ -1,0 +1,226 @@
+{
+  "main": {
+    "id": "179b99abd5a06ae1",
+    "type": "split",
+    "children": [
+      {
+        "id": "5e117420931fa8e1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "71a3663a8e82a5c4",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "70ad0fb6c67df8f1",
+    "type": "split",
+    "children": [
+      {
+        "id": "ecd262856cd70639",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1c0fcbb624838199",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "0e2d3bf1295d9bad",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "34a2c37575abfcba",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "aca05dca67e64803",
+    "type": "split",
+    "children": [
+      {
+        "id": "7868f9b4c8390832",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f107ad46b45f9135",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "AI_Film_Studio_Obsidian_Vault_V0.1/01_SKILLS/01_Showrunner/01 Showrunner｜总编剧.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "cf1a537e371b0352",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "AI_Film_Studio_Obsidian_Vault_V0.1/02_DISTILLATION/编剧研究/Craig Mazin｜Showrunner能力蒸馏 V0.1.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "5085409f1ee71edd",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "e83f5623a9584481",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "bb77b4f12e83ad6a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "AI_Film_Studio_Obsidian_Vault_V0.1/02_DISTILLATION/编剧研究/Craig Mazin｜Showrunner能力蒸馏 V0.1.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "1c0fcbb624838199",
+  "lastOpenFiles": [
+    "AI_Film_Studio_Automation_V0.1/runtime/_STAGING/_research/E2E_Targeted_Repair_23_Director_Handoff_Lock_Projection_Alignment_V0.1/reports/Repair23_Final_Review.md",
+    "AI_Film_Studio_Automation_V0.1/runtime/_STAGING/_research/E2E_Targeted_Repair_23_Director_Handoff_Lock_Projection_Alignment_V0.1/reports/Repair23_Regression_Result.md",
+    "AI_Film_Studio_Automation_V0.1/runtime/_STAGING/_research/E2E_Targeted_Repair_23_Director_Handoff_Lock_Projection_Alignment_V0.1/reports/Repair23_Probe22_Corrected_Replay.md",
+    "AI_Film_Studio_Automation_V0.1/runtime/_STAGING/_research/E2E_Targeted_Repair_23_Director_Handoff_Lock_Projection_Alignment_V0.1/reports/Repair23_Changed_Files.md",
+    "AI_Film_Studio_Automation_V0.1/runtime/_STAGING/_research/E2E_Targeted_Repair_23_Director_Handoff_Lock_Projection_Alignment_V0.1/reports/Repair23_Root_Cause.md",
+    "AI_Film_Studio_Automation_V0.1/runtime/_STAGING/_research/E2E_Targeted_Repair_23_Director_Handoff_Lock_Projection_Alignment_V0.1/reports/Repair23_Regression_Result.json",
+    "AI_Film_Studio_Automation_V0.1/runtime/_STAGING/_research/E2E_Targeted_Repair_23_Director_Handoff_Lock_Projection_Alignment_V0.1/tests/__pycache__/run_repair23_regression.cpython-311.pyc",
+    "AI_Film_Studio_Automation_V0.1/runtime/_STAGING/_research/E2E_Targeted_Repair_23_Director_Handoff_Lock_Projection_Alignment_V0.1/tests/__pycache__/run_probe22_corrected_replay.cpython-311.pyc",
+    "AI_Film_Studio_Automation_V0.1/runtime/_STAGING/_research/E2E_Targeted_Repair_23_Director_Handoff_Lock_Projection_Alignment_V0.1/tests/__pycache__/repair23_support.cpython-311.pyc",
+    "AI_Film_Studio_Automation_V0.1/runtime/_STAGING/_research/E2E_Targeted_Repair_23_Director_Handoff_Lock_Projection_Alignment_V0.1/tests/__pycache__",
+    "AI_Film_Studio_Automation_V0.1/runtime/_STAGING/_research/E2E_Targeted_Repair_23_Director_Handoff_Lock_Projection_Alignment_V0.1/tests/run_repair23_regression.py",
+    "AI_Film_Studio_Automation_V0.1/runtime/_STAGING/_research/E2E_Targeted_Repair_23_Director_Handoff_Lock_Projection_Alignment_V0.1/reports/Repair23_Probe22_Corrected_Replay.json",
+    "AI_Film_Studio_Automation_V0.1/runtime/_STAGING/_research/E2E_Targeted_Repair_23_Director_Handoff_Lock_Projection_Alignment_V0.1/tests/repair23_support.py",
+    "AI_Film_Studio_Automation_V0.1/runtime/_STAGING/_research/E2E_Targeted_Repair_23_Director_Handoff_Lock_Projection_Alignment_V0.1/tests",
+    "AI_Film_Studio_Automation_V0.1/runtime/_STAGING/_research/E2E_Targeted_Repair_23_Director_Handoff_Lock_Projection_Alignment_V0.1/reports",
+    "AI_Film_Studio_Obsidian_Vault_V0.1/01_SKILLS/05_Art_Director/05 Art Director｜美术指导.md",
+    "AI_Film_Studio_Obsidian_Vault_V0.1/01_SKILLS/Shared_QA/Language & Voice QA｜Shared QA Hub.md",
+    "AI_Film_Studio_Obsidian_Vault_V0.1/01_SKILLS/01_Showrunner/01 Showrunner｜总编剧.md",
+    "AI_Film_Studio_Obsidian_Vault_V0.1/00_HOME/🎬 AI Film Studio.md",
+    "AI_Film_Studio_Automation_V0.1/skills/女娲/README_女娲Skill说明.md",
+    "AI_Film_Studio_Obsidian_Vault_V0.1/01_SKILLS/01_Showrunner/Showrunner｜综合能力模型 V0.1.md",
+    "AI_Film_Studio_Obsidian_Vault_V0.1/01_SKILLS/01_Showrunner/Showrunner｜Production Runtime V0.2 RC2.md",
+    "AI_Film_Studio_Obsidian_Vault_V0.1/01_SKILLS/01_Showrunner/Showrunner｜Runtime Compliance Gate V0.1.md",
+    "AI_Film_Studio_Obsidian_Vault_V0.1/01_SKILLS/01_Showrunner/SKILL.md",
+    "AI_Film_Studio_Obsidian_Vault_V0.1/01_SKILLS/01_Showrunner/PRODUCTION_LOCK.md",
+    "AI_Film_Studio_Obsidian_Vault_V0.1/01_SKILLS/01_Showrunner/CHANGELOG.md",
+    "AI_Film_Studio_Obsidian_Vault_V0.1/02_DISTILLATION/编剧研究/Craig Mazin｜Showrunner能力蒸馏 V0.1.md",
+    "AI_Film_Studio_Automation_V0.1/runtime/_PUBLISHED/2026-08-16/Vince_Gilligan_Showrunner_Distillation_V0.1.md",
+    "AI_Film_Studio_Obsidian_Vault_V0.1/02_DISTILLATION/编剧研究/Vince Gilligan｜Showrunner能力蒸馏 V0.1.md",
+    "AI_Film_Studio_Automation_V0.1/runtime/_STAGING/Vince_Gilligan_Showrunner_Distillation_V0.1.md",
+    "AI_Film_Studio_Automation_V0.1/runtime/_STAGING/_research/Vince_Gilligan_V0.1/02-room-and-story-breaking.md",
+    "AI_Film_Studio_Automation_V0.1/runtime/_STAGING/_research/Vince_Gilligan_V0.1/04-evidence-audit.md",
+    "AI_Film_Studio_Automation_V0.1/runtime/_STAGING/_research/Vince_Gilligan_V0.1/01-primary-interviews.md",
+    "AI_Film_Studio_Automation_V0.1/runtime/_STAGING/_research/Vince_Gilligan_V0.1/README.md",
+    "AI_Film_Studio_Automation_V0.1/tasks/showrunner/Vince_Gilligan_Distillation_Task_V0.1.md",
+    "AI_Film_Studio_Obsidian_Vault_V0.1/00_HOME/工作日志/2026-08-16.md"
+  ]
+}

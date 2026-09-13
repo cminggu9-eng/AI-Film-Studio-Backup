@@ -1,0 +1,175 @@
+{
+  "provider": "deepseek",
+  "model": "deepseek-v4-pro",
+  "call_count": 2,
+  "calls": [
+    {
+      "role": "Showrunner",
+      "invocation_id": "E2E-RUN-27:showrunner:1",
+      "model": "deepseek-v4-pro",
+      "timestamp": "2026-09-12T05:50:26.414774+00:00",
+      "input_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-27\\artifacts\\showrunner_input.json",
+      "output_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-27\\artifacts\\showrunner_output.json",
+      "raw_response_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-27\\artifacts\\showrunner_provider_response.json",
+      "invocation_metadata_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-27\\artifacts\\showrunner_invocation.json",
+      "persistence_verification_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-27\\artifacts\\showrunner_persistence_verification.json",
+      "provider_success": true,
+      "persistence_verified": true,
+      "role_contract_success": true,
+      "success": true,
+      "usage": {
+        "provider": "deepseek",
+        "model": "deepseek-v4-pro",
+        "provider_invocation_id": "c51f9b68-a1e8-4a67-9c67-f2a3a1984b7f",
+        "usage": {
+          "prompt_tokens": 4926,
+          "completion_tokens": 1639,
+          "total_tokens": 6565,
+          "prompt_cache_hit_tokens": 0,
+          "prompt_cache_miss_tokens": 4926
+        },
+        "latency_ms": 28149,
+        "thinking_mode": "disabled",
+        "fixture_id": "E2E-FIX-03",
+        "request_success": true,
+        "requested_max_tokens": 4500,
+        "finish_reason": "stop",
+        "http_status": 200,
+        "trace_headers": {
+          "x-ds-trace-id": "038f25ebf27e635340304ae0ae0d4cfe",
+          "x-request-id": "ABSENT",
+          "request-id": "ABSENT",
+          "traceparent": "ABSENT",
+          "x-amzn-trace-id": "ABSENT"
+        },
+        "structured_output": null
+      },
+      "estimated_cost_cny": 0.024612,
+      "selected_completion_budget": 4500,
+      "provider_finish_reason": "stop",
+      "response_characters": 3211,
+      "response_utf8_bytes": 6799,
+      "retry_count": 0,
+      "transport_auto_repairs": 0,
+      "structured_transport": {
+        "enabled": false,
+        "function_name": null,
+        "beta_provider_feature_used": false,
+        "required_tool_call_verified": false,
+        "arguments_parsed": false,
+        "schema_validated": false
+      },
+      "truncation_detection_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-27\\artifacts\\showrunner_truncation_detection.json",
+      "truncation_assessment": {
+        "classification": "NOT_TRUNCATED",
+        "truncated": false,
+        "finish_reason": "stop",
+        "completion_tokens": 1639,
+        "requested_max_tokens": 4500,
+        "json_complete": true,
+        "signals": [],
+        "persistence_verification_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-27\\artifacts\\showrunner_persistence_verification.json"
+      },
+      "transport_hydration": {
+        "adapter": "Showrunner Transport Ownership Separation V0.1",
+        "inserted_transport_fields": [
+          "scene_packages"
+        ],
+        "transport_field_origins": {
+          "scene_packages": "INTEGRATION_TRANSPORT_ABSENCE_SENTINEL"
+        },
+        "semantic_mutation": 0,
+        "canonical_token_mutation": 0
+      }
+    },
+    {
+      "role": "Scene Writer",
+      "invocation_id": "E2E-RUN-27:scene_writer:1",
+      "model": "deepseek-v4-pro",
+      "timestamp": "2026-09-12T05:50:54.667489+00:00",
+      "input_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-27\\artifacts\\scene_writer_input.json",
+      "output_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-27\\artifacts\\scene_writer_provider_response.json",
+      "raw_response_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-27\\artifacts\\scene_writer_provider_response.json",
+      "invocation_metadata_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-27\\artifacts\\scene_writer_invocation.json",
+      "persistence_verification_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-27\\artifacts\\scene_writer_persistence_verification.json",
+      "provider_success": true,
+      "persistence_verified": true,
+      "role_contract_success": false,
+      "success": false,
+      "usage": {
+        "provider": "deepseek",
+        "model": "deepseek-v4-pro",
+        "provider_invocation_id": "6e0058e4-1fb0-4263-8e50-e43773ae2852",
+        "usage": {
+          "prompt_tokens": 8624,
+          "completion_tokens": 1887,
+          "total_tokens": 10511,
+          "prompt_cache_hit_tokens": 0,
+          "prompt_cache_miss_tokens": 8624
+        },
+        "latency_ms": 25598,
+        "thinking_mode": "disabled",
+        "fixture_id": "E2E-FIX-03",
+        "request_success": true,
+        "requested_max_tokens": 5000,
+        "finish_reason": "tool_calls",
+        "http_status": 200,
+        "trace_headers": {
+          "x-ds-trace-id": "bf4164f6f17e8cf92f978a24c4f5ee90",
+          "x-request-id": "ABSENT",
+          "request-id": "ABSENT",
+          "traceparent": "ABSENT",
+          "x-amzn-trace-id": "ABSENT"
+        },
+        "structured_output": {
+          "function_name": "submit_scene_writer_package",
+          "transport": "forced_function"
+        }
+      },
+      "estimated_cost_cny": 0.037194,
+      "selected_completion_budget": 5000,
+      "provider_finish_reason": "tool_calls",
+      "response_characters": 4383,
+      "response_utf8_bytes": 7589,
+      "retry_count": 0,
+      "transport_auto_repairs": 0,
+      "structured_transport": {
+        "enabled": true,
+        "function_name": "submit_scene_writer_package",
+        "beta_provider_feature_used": true,
+        "required_tool_call_verified": true,
+        "arguments_parsed": true,
+        "schema_validated": true
+      },
+      "truncation_detection_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-27\\artifacts\\scene_writer_truncation_detection.json",
+      "truncation_assessment": {
+        "classification": "NOT_TRUNCATED",
+        "truncated": false,
+        "finish_reason": "tool_calls",
+        "completion_tokens": 1887,
+        "requested_max_tokens": 5000,
+        "json_complete": true,
+        "signals": [],
+        "persistence_verification_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-27\\artifacts\\scene_writer_persistence_verification.json"
+      },
+      "validation_error_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-27\\artifacts\\scene_writer_validation_error.json",
+      "failure": "Scene Writer integration contract failed: REQUIRED_REVEAL_EVENT"
+    }
+  ],
+  "token_totals": {
+    "input_tokens": 13550,
+    "completion_tokens": 3526,
+    "total_tokens": 17076
+  },
+  "retry_count": 0,
+  "automatic_fallback": 0,
+  "estimated_total_cost_cny": 0.061806,
+  "pricing_basis": {
+    "currency": "CNY",
+    "unit": "per_1M_tokens",
+    "input_cache_hit": 0.025,
+    "input_cache_miss": 3.0,
+    "output": 6.0,
+    "status": "ESTIMATED"
+  }
+}

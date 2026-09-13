@@ -1,0 +1,14 @@
+{
+  "classification": "TRUNCATED_RESPONSE",
+  "truncated": true,
+  "finish_reason": "length",
+  "completion_tokens": 3500,
+  "requested_max_tokens": 3500,
+  "json_complete": false,
+  "signals": [
+    "PROVIDER_FINISH_REASON_LENGTH",
+    "COMPLETION_TOKEN_CAP_REACHED",
+    "INCOMPLETE_JSON"
+  ],
+  "persistence_verification_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-10\\artifacts\\showrunner_persistence_verification.json"
+}

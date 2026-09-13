@@ -1,0 +1,282 @@
+{
+  "run_id": "E2E-RUN-09",
+  "append_only": true,
+  "entries": [
+    {
+      "entry_id": "E2E-RUN-09:001",
+      "sequence": 1,
+      "envelope": {
+        "source_role": "Scene Writer",
+        "source_record_id": "E2E-RUN-09/scene_writer/E2E-FIX-01-S01",
+        "version": "1.0",
+        "timestamp": "2026-08-29T07:14:01.657015+00:00",
+        "intended_recipient": "Continuity",
+        "handoff_reason": "Per-scene state evidence",
+        "canon_assignment_locks": [
+          "scene_count: 3",
+          "output_language: zh-CN",
+          "characters: 许宁, 许曼",
+          "relationship: 不得自动升级为完全和解",
+          "prop.entity_id: A-17",
+          "prop.identity_lock: A-17",
+          "prop.custody_required: true",
+          "prop.condition_lock: brass_key",
+          "knowledge.shared_storage_reveal.holder: 许曼",
+          "knowledge.shared_storage_reveal.not_before_scene: 3",
+          "visual_state.clothing_visual_state_code.allowed_tokens: soaked_uniform, changed_clothes",
+          "prohibited: 完全和解",
+          "decision_locks: storage_room_opening"
+        ],
+        "prohibited_changes": [
+          "完全和解"
+        ],
+        "canonical_mode": "CREATE",
+        "primary_state_or_outcome": "SCENE_CREATED",
+        "flags": "ABSENT",
+        "handoffs": "ABSENT",
+        "required_outcome": "ABSENT",
+        "unresolved_decisions": [
+          "storage_room_opening"
+        ],
+        "relevant_prior_state": {
+          "key_identity": "A-17",
+          "custody": "许宁交钥匙，许曼接过后暂持"
+        },
+        "current_state": {
+          "key_identity": "A-17",
+          "custody": "许宁交钥匙，许曼接过后暂持",
+          "knowledge_holders": [
+            "许曼"
+          ],
+          "reveal_status": "NOT_YET_REVEALED",
+          "relationship_state": "久未联系，见面即对峙",
+          "clothing_visual_state_code": "soaked_uniform",
+          "clothing_visual_state_display": "许宁夜班制服湿透滴水",
+          "location_presence": "许曼住所门口",
+          "authorized_transitions": [
+            "change_from_soaked_uniform"
+          ]
+        },
+        "proposed_state": {
+          "authorized_transitions": [
+            "change_from_soaked_uniform"
+          ]
+        },
+        "knowledge_timing": {
+          "knowledge_holders": [
+            "许曼"
+          ],
+          "reveal_status": "NOT_YET_REVEALED"
+        },
+        "relationship_state": "久未联系，见面即对峙",
+        "visual_state": {
+          "clothing_visual_state_code": "soaked_uniform",
+          "clothing_visual_state_display": "许宁夜班制服湿透滴水",
+          "location_presence": "许曼住所门口"
+        },
+        "authority_source": "Scene Writer canonical CREATE output",
+        "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-09\\artifacts\\scene_writer_output.json#scene_packages/E2E-FIX-01-S01"
+      },
+      "state_snapshot": {
+        "key_identity": "A-17",
+        "custody": "许宁交钥匙，许曼接过后暂持",
+        "knowledge_holders": [
+          "许曼"
+        ],
+        "reveal_status": "NOT_YET_REVEALED",
+        "relationship_state": "久未联系，见面即对峙",
+        "clothing_visual_state_code": "soaked_uniform",
+        "clothing_visual_state_display": "许宁夜班制服湿透滴水",
+        "location_presence": "许曼住所门口",
+        "authorized_transitions": [
+          "change_from_soaked_uniform"
+        ]
+      }
+    },
+    {
+      "entry_id": "E2E-RUN-09:002",
+      "sequence": 2,
+      "envelope": {
+        "source_role": "Scene Writer",
+        "source_record_id": "E2E-RUN-09/scene_writer/E2E-FIX-01-S02",
+        "version": "1.0",
+        "timestamp": "2026-08-29T07:14:01.658019+00:00",
+        "intended_recipient": "Continuity",
+        "handoff_reason": "Per-scene state evidence",
+        "canon_assignment_locks": [
+          "scene_count: 3",
+          "output_language: zh-CN",
+          "characters: 许宁, 许曼",
+          "relationship: 不得自动升级为完全和解",
+          "prop.entity_id: A-17",
+          "prop.identity_lock: A-17",
+          "prop.custody_required: true",
+          "prop.condition_lock: brass_key",
+          "knowledge.shared_storage_reveal.holder: 许曼",
+          "knowledge.shared_storage_reveal.not_before_scene: 3",
+          "visual_state.clothing_visual_state_code.allowed_tokens: soaked_uniform, changed_clothes",
+          "prohibited: 完全和解",
+          "decision_locks: storage_room_opening"
+        ],
+        "prohibited_changes": [
+          "完全和解"
+        ],
+        "canonical_mode": "CREATE",
+        "primary_state_or_outcome": "SCENE_CREATED",
+        "flags": "ABSENT",
+        "handoffs": "ABSENT",
+        "required_outcome": "ABSENT",
+        "unresolved_decisions": [
+          "storage_room_opening"
+        ],
+        "relevant_prior_state": {
+          "key_identity": "A-17",
+          "custody": "钥匙置于二人之间矮桌，保管未定"
+        },
+        "current_state": {
+          "key_identity": "A-17",
+          "custody": "钥匙置于二人之间矮桌，保管未定",
+          "knowledge_holders": [
+            "许宁",
+            "许曼"
+          ],
+          "reveal_status": "NOT_YET_REVEALED",
+          "relationship_state": "张力升级，未缓和",
+          "clothing_visual_state_code": "changed_clothes",
+          "clothing_visual_state_display": "许宁已换下湿制服",
+          "location_presence": "许曼住所室内",
+          "authorized_transitions": [
+            "change_from_soaked_uniform"
+          ]
+        },
+        "proposed_state": {
+          "authorized_transitions": [
+            "change_from_soaked_uniform"
+          ]
+        },
+        "knowledge_timing": {
+          "knowledge_holders": [
+            "许宁",
+            "许曼"
+          ],
+          "reveal_status": "NOT_YET_REVEALED"
+        },
+        "relationship_state": "张力升级，未缓和",
+        "visual_state": {
+          "clothing_visual_state_code": "changed_clothes",
+          "clothing_visual_state_display": "许宁已换下湿制服",
+          "location_presence": "许曼住所室内"
+        },
+        "authority_source": "Scene Writer canonical CREATE output",
+        "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-09\\artifacts\\scene_writer_output.json#scene_packages/E2E-FIX-01-S02"
+      },
+      "state_snapshot": {
+        "key_identity": "A-17",
+        "custody": "钥匙置于二人之间矮桌，保管未定",
+        "knowledge_holders": [
+          "许宁",
+          "许曼"
+        ],
+        "reveal_status": "NOT_YET_REVEALED",
+        "relationship_state": "张力升级，未缓和",
+        "clothing_visual_state_code": "changed_clothes",
+        "clothing_visual_state_display": "许宁已换下湿制服",
+        "location_presence": "许曼住所室内",
+        "authorized_transitions": [
+          "change_from_soaked_uniform"
+        ]
+      }
+    },
+    {
+      "entry_id": "E2E-RUN-09:003",
+      "sequence": 3,
+      "envelope": {
+        "source_role": "Scene Writer",
+        "source_record_id": "E2E-RUN-09/scene_writer/E2E-FIX-01-S03",
+        "version": "1.0",
+        "timestamp": "2026-08-29T07:14:01.659015+00:00",
+        "intended_recipient": "Continuity",
+        "handoff_reason": "Per-scene state evidence",
+        "canon_assignment_locks": [
+          "scene_count: 3",
+          "output_language: zh-CN",
+          "characters: 许宁, 许曼",
+          "relationship: 不得自动升级为完全和解",
+          "prop.entity_id: A-17",
+          "prop.identity_lock: A-17",
+          "prop.custody_required: true",
+          "prop.condition_lock: brass_key",
+          "knowledge.shared_storage_reveal.holder: 许曼",
+          "knowledge.shared_storage_reveal.not_before_scene: 3",
+          "visual_state.clothing_visual_state_code.allowed_tokens: soaked_uniform, changed_clothes",
+          "prohibited: 完全和解",
+          "decision_locks: storage_room_opening"
+        ],
+        "prohibited_changes": [
+          "完全和解"
+        ],
+        "canonical_mode": "CREATE",
+        "primary_state_or_outcome": "SCENE_CREATED",
+        "flags": "ABSENT",
+        "handoffs": "ABSENT",
+        "required_outcome": "ABSENT",
+        "unresolved_decisions": [
+          "storage_room_opening"
+        ],
+        "relevant_prior_state": {
+          "key_identity": "A-17",
+          "custody": "钥匙由许宁持有保管"
+        },
+        "current_state": {
+          "key_identity": "A-17",
+          "custody": "钥匙由许宁持有保管",
+          "knowledge_holders": [
+            "许宁"
+          ],
+          "reveal_status": "REVEALED_WITH_EVENT",
+          "relationship_state": "部分理解但保持距离，未完全和解",
+          "clothing_visual_state_code": "changed_clothes",
+          "clothing_visual_state_display": "许宁仍着干衣",
+          "location_presence": "许曼住所室内，天将亮",
+          "authorized_transitions": [
+            "change_from_soaked_uniform"
+          ]
+        },
+        "proposed_state": {
+          "authorized_transitions": [
+            "change_from_soaked_uniform"
+          ]
+        },
+        "knowledge_timing": {
+          "knowledge_holders": [
+            "许宁"
+          ],
+          "reveal_status": "REVEALED_WITH_EVENT"
+        },
+        "relationship_state": "部分理解但保持距离，未完全和解",
+        "visual_state": {
+          "clothing_visual_state_code": "changed_clothes",
+          "clothing_visual_state_display": "许宁仍着干衣",
+          "location_presence": "许曼住所室内，天将亮"
+        },
+        "authority_source": "Scene Writer canonical CREATE output",
+        "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-09\\artifacts\\scene_writer_output.json#scene_packages/E2E-FIX-01-S03"
+      },
+      "state_snapshot": {
+        "key_identity": "A-17",
+        "custody": "钥匙由许宁持有保管",
+        "knowledge_holders": [
+          "许宁"
+        ],
+        "reveal_status": "REVEALED_WITH_EVENT",
+        "relationship_state": "部分理解但保持距离，未完全和解",
+        "clothing_visual_state_code": "changed_clothes",
+        "clothing_visual_state_display": "许宁仍着干衣",
+        "location_presence": "许曼住所室内，天将亮",
+        "authorized_transitions": [
+          "change_from_soaked_uniform"
+        ]
+      }
+    }
+  ]
+}

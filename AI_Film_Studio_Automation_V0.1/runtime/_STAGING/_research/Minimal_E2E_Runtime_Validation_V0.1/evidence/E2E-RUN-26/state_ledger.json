@@ -1,0 +1,267 @@
+{
+  "run_id": "E2E-RUN-26",
+  "append_only": true,
+  "entries": [
+    {
+      "entry_id": "E2E-RUN-26:001",
+      "sequence": 1,
+      "envelope": {
+        "source_role": "Scene Writer",
+        "source_record_id": "E2E-RUN-26/scene_writer/E2E-FIX-03-S01",
+        "version": "1.0",
+        "timestamp": "2026-09-04T07:48:05.711610+00:00",
+        "intended_recipient": "Continuity",
+        "handoff_reason": "Per-scene state evidence",
+        "canon_assignment_locks": [
+          "C-09",
+          "memory_card",
+          "withheld_photo_reveal",
+          "battery_installed",
+          "battery_removed_and_sealed",
+          "view_memory_card_decision"
+        ],
+        "prohibited_changes": [
+          "resume_partnership",
+          "permanent_break"
+        ],
+        "canonical_mode": "CREATE",
+        "primary_state_or_outcome": "SCENE_CREATED",
+        "flags": "ABSENT",
+        "handoffs": "ABSENT",
+        "required_outcome": "建立三场剧本结构：第一场完成存储卡交接与封存电池条件提出，第二场部分揭露未交出照片背景，第三场船离港后决定悬置。",
+        "unresolved_decisions": [
+          "沈泊最终是否查看存储卡",
+          "照片具体内容是否揭示",
+          "沈泊是否真正接受封存条件"
+        ],
+        "relevant_prior_state": {
+          "entity_identity": "C-09",
+          "custody": "沈泊持有C-09存储卡，梁音未接"
+        },
+        "current_state": {
+          "entity_identity": "C-09",
+          "custody": "沈泊持有C-09存储卡，梁音未接",
+          "knowledge_holders": [
+            "沈泊"
+          ],
+          "reveal_status": "NOT_YET_REVEALED",
+          "relationship_state": "疏离，梁音以条件控制节奏",
+          "camera_battery_state": "battery_installed",
+          "machine_state_display": "相机电池已安装，卡在沈泊手中",
+          "location_presence": "清晨渡口售票处旁木栏",
+          "authorized_transitions": [
+            "battery_removal_and_seal"
+          ]
+        },
+        "proposed_state": {
+          "authorized_transitions": [
+            "battery_removal_and_seal"
+          ]
+        },
+        "knowledge_timing": {
+          "knowledge_holders": [
+            "沈泊"
+          ],
+          "reveal_status": "NOT_YET_REVEALED"
+        },
+        "relationship_state": "疏离，梁音以条件控制节奏",
+        "visual_state": {
+          "camera_battery_state": "battery_installed",
+          "machine_state_display": "相机电池已安装，卡在沈泊手中",
+          "location_presence": "清晨渡口售票处旁木栏"
+        },
+        "authority_source": "Scene Writer canonical CREATE output",
+        "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-26\\artifacts\\scene_writer_output.json#scene_packages/E2E-FIX-03-S01"
+      },
+      "state_snapshot": {
+        "entity_identity": "C-09",
+        "custody": "沈泊持有C-09存储卡，梁音未接",
+        "knowledge_holders": [
+          "沈泊"
+        ],
+        "reveal_status": "NOT_YET_REVEALED",
+        "relationship_state": "疏离，梁音以条件控制节奏",
+        "camera_battery_state": "battery_installed",
+        "machine_state_display": "相机电池已安装，卡在沈泊手中",
+        "location_presence": "清晨渡口售票处旁木栏",
+        "authorized_transitions": [
+          "battery_removal_and_seal"
+        ]
+      }
+    },
+    {
+      "entry_id": "E2E-RUN-26:002",
+      "sequence": 2,
+      "envelope": {
+        "source_role": "Scene Writer",
+        "source_record_id": "E2E-RUN-26/scene_writer/E2E-FIX-03-S02",
+        "version": "1.0",
+        "timestamp": "2026-09-04T07:48:05.718393+00:00",
+        "intended_recipient": "Continuity",
+        "handoff_reason": "Per-scene state evidence",
+        "canon_assignment_locks": [
+          "C-09",
+          "memory_card",
+          "withheld_photo_reveal",
+          "battery_installed",
+          "battery_removed_and_sealed",
+          "view_memory_card_decision"
+        ],
+        "prohibited_changes": [
+          "resume_partnership",
+          "permanent_break"
+        ],
+        "canonical_mode": "CREATE",
+        "primary_state_or_outcome": "SCENE_CREATED",
+        "flags": "ABSENT",
+        "handoffs": "ABSENT",
+        "required_outcome": "建立三场剧本结构：第一场完成存储卡交接与封存电池条件提出，第二场部分揭露未交出照片背景，第三场船离港后决定悬置。",
+        "unresolved_decisions": [
+          "沈泊最终是否查看存储卡",
+          "照片具体内容是否揭示",
+          "沈泊是否真正接受封存条件"
+        ],
+        "relevant_prior_state": {
+          "entity_identity": "C-09",
+          "custody": "沈泊仍持有C-09存储卡"
+        },
+        "current_state": {
+          "entity_identity": "C-09",
+          "custody": "沈泊仍持有C-09存储卡",
+          "knowledge_holders": [
+            "沈泊"
+          ],
+          "reveal_status": "REVEALED_WITH_EVENT",
+          "relationship_state": "梁音用有限真相换取缓冲",
+          "camera_battery_state": "battery_removed_and_sealed",
+          "machine_state_display": "电池已移除并封存，卡未被查看",
+          "location_presence": "渡口长椅旁，江面",
+          "authorized_transitions": [
+            "battery_removal_and_seal"
+          ]
+        },
+        "proposed_state": {
+          "authorized_transitions": [
+            "battery_removal_and_seal"
+          ]
+        },
+        "knowledge_timing": {
+          "knowledge_holders": [
+            "沈泊"
+          ],
+          "reveal_status": "REVEALED_WITH_EVENT"
+        },
+        "relationship_state": "梁音用有限真相换取缓冲",
+        "visual_state": {
+          "camera_battery_state": "battery_removed_and_sealed",
+          "machine_state_display": "电池已移除并封存，卡未被查看",
+          "location_presence": "渡口长椅旁，江面"
+        },
+        "authority_source": "Scene Writer canonical CREATE output",
+        "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-26\\artifacts\\scene_writer_output.json#scene_packages/E2E-FIX-03-S02"
+      },
+      "state_snapshot": {
+        "entity_identity": "C-09",
+        "custody": "沈泊仍持有C-09存储卡",
+        "knowledge_holders": [
+          "沈泊"
+        ],
+        "reveal_status": "REVEALED_WITH_EVENT",
+        "relationship_state": "梁音用有限真相换取缓冲",
+        "camera_battery_state": "battery_removed_and_sealed",
+        "machine_state_display": "电池已移除并封存，卡未被查看",
+        "location_presence": "渡口长椅旁，江面",
+        "authorized_transitions": [
+          "battery_removal_and_seal"
+        ]
+      }
+    },
+    {
+      "entry_id": "E2E-RUN-26:003",
+      "sequence": 3,
+      "envelope": {
+        "source_role": "Scene Writer",
+        "source_record_id": "E2E-RUN-26/scene_writer/E2E-FIX-03-S03",
+        "version": "1.0",
+        "timestamp": "2026-09-04T07:48:05.732775+00:00",
+        "intended_recipient": "Continuity",
+        "handoff_reason": "Per-scene state evidence",
+        "canon_assignment_locks": [
+          "C-09",
+          "memory_card",
+          "withheld_photo_reveal",
+          "battery_installed",
+          "battery_removed_and_sealed",
+          "view_memory_card_decision"
+        ],
+        "prohibited_changes": [
+          "resume_partnership",
+          "permanent_break"
+        ],
+        "canonical_mode": "CREATE",
+        "primary_state_or_outcome": "SCENE_CREATED",
+        "flags": "ABSENT",
+        "handoffs": "ABSENT",
+        "required_outcome": "建立三场剧本结构：第一场完成存储卡交接与封存电池条件提出，第二场部分揭露未交出照片背景，第三场船离港后决定悬置。",
+        "unresolved_decisions": [
+          "沈泊最终是否查看存储卡",
+          "照片具体内容是否揭示",
+          "沈泊是否真正接受封存条件"
+        ],
+        "relevant_prior_state": {
+          "entity_identity": "C-09",
+          "custody": "沈泊将C-09存储卡放回外套内袋"
+        },
+        "current_state": {
+          "entity_identity": "C-09",
+          "custody": "沈泊将C-09存储卡放回外套内袋",
+          "knowledge_holders": [
+            "沈泊"
+          ],
+          "reveal_status": "NOT_YET_REVEALED",
+          "relationship_state": "未复合未决裂，决定悬置",
+          "camera_battery_state": "battery_removed_and_sealed",
+          "machine_state_display": "电池已封存，卡未查看，决定悬置",
+          "location_presence": "渡口闸口附近，闸门正在关闭",
+          "authorized_transitions": [
+            "battery_removal_and_seal"
+          ]
+        },
+        "proposed_state": {
+          "authorized_transitions": [
+            "battery_removal_and_seal"
+          ]
+        },
+        "knowledge_timing": {
+          "knowledge_holders": [
+            "沈泊"
+          ],
+          "reveal_status": "NOT_YET_REVEALED"
+        },
+        "relationship_state": "未复合未决裂，决定悬置",
+        "visual_state": {
+          "camera_battery_state": "battery_removed_and_sealed",
+          "machine_state_display": "电池已封存，卡未查看，决定悬置",
+          "location_presence": "渡口闸口附近，闸门正在关闭"
+        },
+        "authority_source": "Scene Writer canonical CREATE output",
+        "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-26\\artifacts\\scene_writer_output.json#scene_packages/E2E-FIX-03-S03"
+      },
+      "state_snapshot": {
+        "entity_identity": "C-09",
+        "custody": "沈泊将C-09存储卡放回外套内袋",
+        "knowledge_holders": [
+          "沈泊"
+        ],
+        "reveal_status": "NOT_YET_REVEALED",
+        "relationship_state": "未复合未决裂，决定悬置",
+        "camera_battery_state": "battery_removed_and_sealed",
+        "machine_state_display": "电池已封存，卡未查看，决定悬置",
+        "location_presence": "渡口闸口附近，闸门正在关闭",
+        "authorized_transitions": [
+          "battery_removal_and_seal"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "source_role": "Showrunner",
+  "source_record_id": "E2E-RUN-24/showrunner/1",
+  "version": "1.0",
+  "timestamp": "2026-09-02T09:21:38.233739+00:00",
+  "intended_recipient": "Scene Writer",
+  "handoff_reason": "Story / Canon Package",
+  "canon_assignment_locks": [
+    "scenes:3",
+    "characters:沈泊,梁音",
+    "relationship:不得自动宣告复合合作或彻底决裂",
+    "prop:C-09,memory_card,custody_required",
+    "knowledge:withheld_photo_reveal,holder=梁音,not_before_scene=2",
+    "visual_state:camera_battery_state∈{battery_installed,battery_removed_and_sealed}",
+    "prohibited:resume_partnership,permanent_break",
+    "decision_locks:view_memory_card_decision",
+    "identity:ai-film-studio-showrunner"
+  ],
+  "prohibited_changes": [
+    "resume_partnership",
+    "permanent_break"
+  ],
+  "canonical_mode": "ABSENT",
+  "primary_state_or_outcome": "INFO",
+  "flags": "ABSENT",
+  "handoffs": "ABSENT",
+  "required_outcome": "梁音在第2场或第3场揭示其未交出的照片；相机电池在第1场结束时必须处于battery_removed_and_sealed状态；不得在第1场查看存储卡；不得宣告复合或决裂。",
+  "unresolved_decisions": [
+    "沈泊是否在第三场查看存储卡（view_memory_card_decision）",
+    "梁音未交出照片的具体内容及其对二人关系的影响",
+    "两人未来关系走向（保持开放，由后续开发决定）"
+  ],
+  "relevant_prior_state": {
+    "relationship": "已拆伙两年",
+    "last_collaboration": "最后一次合作时梁音未交出照片",
+    "prop_custody": "存储卡由沈泊交给梁音（custody_required）"
+  },
+  "current_state": {
+    "scene_count": 3,
+    "prop_condition_lock": "memory_card",
+    "visual_state_allowed": [
+      "battery_installed",
+      "battery_removed_and_sealed"
+    ],
+    "knowledge_holder": "梁音",
+    "knowledge_timing": {
+      "event_id": "withheld_photo_reveal",
+      "not_before_scene": 2
+    },
+    "decision_lock": "view_memory_card_decision"
+  },
+  "proposed_state": {
+    "scene_1_ending": "相机电池已取下并封存（battery_removed_and_sealed）",
+    "scene_2_or_3": "梁音揭示未交出的照片内容",
+    "final_relationship": "不复合、不决裂，保持张力"
+  },
+  "knowledge_timing": {
+    "withheld_photo_reveal": {
+      "holder": "梁音",
+      "not_before_scene": 2
+    }
+  },
+  "relationship_state": {
+    "starting": "已拆伙两年，沈泊交卡，梁音提出条件",
+    "during": "围绕存储卡、电池和未交照片展开",
+    "ending": "是否查看卡由沈泊决定，关系不锁定"
+  },
+  "visual_state": {
+    "camera_battery_state": "battery_removed_and_sealed"
+  },
+  "authority_source": "Showrunner canonical Skill output",
+  "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-24\\artifacts\\showrunner_output.json"
+}

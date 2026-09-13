@@ -1,0 +1,57 @@
+{
+  "source_role": "Showrunner",
+  "source_record_id": "E2E-RUN-21/showrunner/1",
+  "version": "1.0",
+  "timestamp": "2026-09-01T05:04:56.444255+00:00",
+  "intended_recipient": "Scene Writer",
+  "handoff_reason": "Story / Canon Package",
+  "canon_assignment_locks": [
+    "cracked_white_porcelain_bowl: entity_id=cracked_white_porcelain_bowl, identity_lock=same_cracked_bowl, custody_required=true, condition_lock=crack_preserved",
+    "shop_transfer_decision: decision must remain unresolved until user decision",
+    "last_bowl_reveal: knowledge holder=周启, not_before_scene=2",
+    "signboard_state: allowed_tokens=[signboard_on, signboard_off]"
+  ],
+  "prohibited_changes": [
+    "SELL",
+    "KEEP",
+    "彻底和解"
+  ],
+  "canonical_mode": "ABSENT",
+  "primary_state_or_outcome": "INFO",
+  "flags": "ABSENT",
+  "handoffs": "ABSENT",
+  "required_outcome": "ABSENT",
+  "unresolved_decisions": [
+    "shop_transfer_decision"
+  ],
+  "relevant_prior_state": "ABSENT",
+  "current_state": {
+    "characters": [
+      "周岚",
+      "周启"
+    ],
+    "relationship": "母子，多年未见的紧张与未言明情感",
+    "knowledge": {
+      "last_bowl_reveal": {
+        "holder": "周启",
+        "not_before_scene": 2
+      }
+    },
+    "visual_state": {
+      "signboard_state": "signboard_on"
+    }
+  },
+  "proposed_state": "故事由 frozen one-line concept 展开，三场结构下逐步揭示关系与决策",
+  "knowledge_timing": {
+    "last_bowl_reveal": {
+      "holder": "周启",
+      "not_before_scene": 2
+    }
+  },
+  "relationship_state": "不得自动升级为彻底和解",
+  "visual_state": {
+    "signboard_state": "signboard_on"
+  },
+  "authority_source": "Showrunner canonical Skill output",
+  "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-21\\artifacts\\showrunner_output.json"
+}

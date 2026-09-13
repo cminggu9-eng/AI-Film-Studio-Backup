@@ -1,0 +1,97 @@
+{
+  "type": "object",
+  "properties": {
+    "format": {"type": "string", "enum": ["scene-writer-integration-compact-v0.1"]},
+    "control": {
+      "type": "object",
+      "properties": {
+        "outcome": {"type": "string", "enum": ["SCENE_CREATED", "SCENE_REVISED", "NO_MATERIAL_CHANGE", "NEEDS_CONTEXT", "UPSTREAM_DECISION_REQUIRED", "REQUEST_OUT_OF_SCOPE"]},
+        "flags": {"anyOf": [{"type": "string", "enum": ["ABSENT"]}, {"type": "array", "items": {"type": "string", "enum": ["PRODUCTION_REVIEW_REQUIRED", "UPSTREAM_HANDOFF_REQUIRED", "SHARED_QA_HANDOFF_ELIGIBLE", "DIRECTOR_HANDOFF_ELIGIBLE", "CHARACTER_ACTING_HANDOFF_ELIGIBLE", "EXTERNAL_PRODUCTION_CONSTRAINT_DEFERRED", "EXTERNAL_PRODUCTION_CONSTRAINT_RECEIVED"]}}]},
+        "handoffs": {"anyOf": [{"type": "string", "enum": ["ABSENT"]}, {"type": "array", "items": {"type": "string", "enum": ["PRODUCTION_REVIEW_REQUIRED", "UPSTREAM_HANDOFF_REQUIRED", "SHARED_QA_HANDOFF_ELIGIBLE", "DIRECTOR_HANDOFF_ELIGIBLE", "CHARACTER_ACTING_HANDOFF_ELIGIBLE", "EXTERNAL_PRODUCTION_CONSTRAINT_DEFERRED", "EXTERNAL_PRODUCTION_CONSTRAINT_RECEIVED"]}}]},
+        "required_outcome": {"type": "string"},
+        "unresolved_decisions": {"anyOf": [{"type": "string", "enum": ["ABSENT"]}, {"type": "array", "items": {"type": "string"}}]}
+      },
+      "required": ["outcome", "flags", "handoffs", "required_outcome", "unresolved_decisions"],
+      "additionalProperties": false
+    },
+    "state": {
+      "type": "object",
+      "properties": {
+        "prior": {
+          "type": "object",
+          "properties": {"relationship_state": {"type": "string"}, "knowledge_state": {"type": "string"}, "visual_state": {"type": "string"}},
+          "required": ["relationship_state", "knowledge_state", "visual_state"],
+          "additionalProperties": false
+        },
+        "current": {
+          "type": "object",
+          "properties": {"relationship_state": {"type": "string"}, "knowledge_state": {"type": "string"}, "visual_state": {"type": "string"}},
+          "required": ["relationship_state", "knowledge_state", "visual_state"],
+          "additionalProperties": false
+        },
+        "proposed": {
+          "type": "object",
+          "properties": {"relationship_state": {"type": "string"}, "knowledge_state": {"type": "string"}, "visual_state": {"type": "string"}},
+          "required": ["relationship_state", "knowledge_state", "visual_state"],
+          "additionalProperties": false
+        },
+        "knowledge_timing": {
+          "type": "object",
+          "properties": {"reveal_of_shared_use": {"type": "string"}, "reveal_of_room_content": {"type": "string"}},
+          "required": ["reveal_of_shared_use", "reveal_of_room_content"],
+          "additionalProperties": false
+        },
+        "relationship": {
+          "type": "object",
+          "properties": {"initial": {"type": "string"}, "after_scene_1": {"type": "string"}, "after_scene_3": {"type": "string"}},
+          "required": ["initial", "after_scene_1", "after_scene_3"],
+          "additionalProperties": false
+        },
+        "visual": {
+          "type": "object",
+          "properties": {"scene_1": {"type": "string"}, "scene_2": {"type": "string"}, "scene_3": {"type": "string"}},
+          "required": ["scene_1", "scene_2", "scene_3"],
+          "additionalProperties": false
+        }
+      },
+      "required": ["prior", "current", "proposed", "knowledge_timing", "relationship", "visual"],
+      "additionalProperties": false
+    },
+    "scenes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {"type": "string", "enum": ["E2E-FIX-01-S01", "E2E-FIX-01-S02", "E2E-FIX-01-S03"]},
+          "content": {"type": "string"},
+          "structural": {
+            "type": "object",
+            "properties": {"目标": {"type": "string"}, "阻力": {"type": "string"}, "对白行动": {"type": "string"}, "转折": {"type": "string"}, "入场": {"type": "string"}, "出场": {"type": "string"}},
+            "required": ["目标", "阻力", "对白行动", "转折", "入场", "出场"],
+            "additionalProperties": false
+          },
+          "state": {
+            "type": "object",
+            "properties": {
+              "key": {"type": "string", "enum": ["A-17"]},
+              "custody": {"type": "string"},
+              "holders": {"type": "array", "items": {"type": "string"}},
+              "reveal": {"type": "string", "enum": ["NOT_YET_REVEALED", "REVEALED_WITH_EVENT"]},
+              "relationship": {"type": "string"},
+              "clothing_code": {"type": "string", "enum": ["changed_clothes", "soaked_uniform"]},
+              "clothing_display": {"type": "string"},
+              "location": {"type": "string"},
+              "transitions": {"type": "array", "items": {"type": "string", "enum": ["change_from_soaked_uniform"]}}
+            },
+            "required": ["key", "custody", "holders", "reveal", "relationship", "clothing_code", "clothing_display", "location", "transitions"],
+            "additionalProperties": false
+          }
+        },
+        "required": ["id", "content", "structural", "state"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["format", "control", "state", "scenes"],
+  "additionalProperties": false
+}

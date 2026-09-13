@@ -1,0 +1,315 @@
+{
+  "run_id": "E2E-RUN-13",
+  "role": "Scene Writer",
+  "canonical_binding": {
+    "identity": "scene-writer",
+    "canonical_path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\02_Scene_Writer\\scene-writer\\SKILL.md",
+    "sha256": "93E1BE12988F8CAA6CDD76ACB5E6C1BF6AD3CA0DFF5806A2EA93511E66052DFB"
+  },
+  "selected_mode": "CREATE",
+  "output_language": "zh-CN",
+  "input": {
+    "upstream_artifacts": {
+      "showrunner": {
+        "primary_state_or_outcome": "INFO",
+        "flags": "ABSENT",
+        "handoffs": "ABSENT",
+        "canon_assignment_locks": [
+          "A-17",
+          "brass_key",
+          "shared_storage_reveal not before scene 3",
+          "storage_room_opening"
+        ],
+        "prohibited_changes": [
+          "完全和解"
+        ],
+        "required_outcome": "ABSENT",
+        "unresolved_decisions": [
+          "storage_room_opening"
+        ],
+        "state_evidence": {
+          "relevant_prior_state": {
+            "input": {
+              "sole_creative_input": "暴雨夜，夜班管理员许宁把一把刻有“A-17”的黄铜钥匙交给久未联系的姐姐许曼；许曼承认这是母亲留给两人一起打开储物间的钥匙，要求许宁先换下湿透的制服、等天亮再开门。"
+            }
+          },
+          "current_state": {
+            "fixture_constraints": {
+              "scene_count": 3,
+              "output_language": "zh-CN",
+              "characters": [
+                "许宁",
+                "许曼"
+              ],
+              "relationship": [
+                "不得自动升级为完全和解"
+              ],
+              "prop": {
+                "entity_id": "A-17",
+                "identity_lock": "A-17",
+                "custody_required": true,
+                "condition_lock": "brass_key"
+              },
+              "knowledge": [
+                {
+                  "event_id": "shared_storage_reveal",
+                  "holder": "许曼",
+                  "not_before_scene": 3
+                }
+              ],
+              "visual_state": [
+                {
+                  "dimension": "clothing_visual_state_code",
+                  "allowed_tokens": [
+                    "soaked_uniform",
+                    "changed_clothes"
+                  ]
+                }
+              ],
+              "prohibited": [
+                "完全和解"
+              ],
+              "decision_locks": [
+                "storage_room_opening"
+              ]
+            },
+            "instruction_boundary": "No hidden Canon, adaptation input, pre-written plot, or Scene Writer dialogue."
+          },
+          "proposed_state": {
+            "story_premise": "暴雨夜，夜班管理员许宁把一把刻有“A-17”的黄铜钥匙交给久未联系的姐姐许曼；许曼承认这是母亲留给两人一起打开储物间的钥匙，要求许宁先换下湿透的制服、等天亮再开门。",
+            "characters": [
+              {
+                "name": "许宁",
+                "role": "夜班管理员",
+                "state": "湿透的制服",
+                "initial_relationship": "与姐姐许曼久未联系"
+              },
+              {
+                "name": "许曼",
+                "role": "姐姐",
+                "state": "持有关于钥匙和储物间的知识（shared_storage_reveal）",
+                "initial_relationship": "与弟弟许宁久未联系"
+              }
+            ],
+            "scenes": [
+              {
+                "scene_number": 1,
+                "scene_summary": "许宁湿透制服登场，交出钥匙；许曼承认钥匙来源，要求换衣服等天亮。"
+              },
+              {
+                "scene_number": 2,
+                "scene_summary": "等待天亮期间，两人的互动与紧张关系显现；钥匙仍由许宁保管。"
+              },
+              {
+                "scene_number": 3,
+                "scene_summary": "天亮后，许曼揭示储物间共享真相（shared_storage_reveal），但未完全和解；关于是否打开储物间的决定仍未解决。"
+              }
+            ]
+          },
+          "knowledge_timing": {
+            "shared_storage_reveal": {
+              "holder": "许曼",
+              "not_before_scene": 3
+            }
+          },
+          "relationship_state": {
+            "initial": "久未联系",
+            "prohibited": "完全和解",
+            "current_dynamics": "紧张、未解决"
+          },
+          "visual_state": {
+            "clothing_visual_state_code": {
+              "allowed_tokens": [
+                "soaked_uniform",
+                "changed_clothes"
+              ],
+              "scene_1": "soaked_uniform",
+              "scene_2": "changed_clothes",
+              "scene_3": "changed_clothes"
+            }
+          }
+        },
+        "content": "故事前提\n暴雨夜，夜班管理员许宁把一把刻有“A-17”的黄铜钥匙交给久未联系的姐姐许曼；许曼承认这是母亲留给两人一起打开储物间的钥匙，要求许宁先换下湿透的制服、等天亮再开门。\n\n角色\n- 许宁：夜班管理员，开始穿着湿透的制服。与姐姐许曼久未联系。持有钥匙 A-17。\n- 许曼：姐姐，持有关于钥匙和储物间的知识（shared_storage_reveal）。与弟弟许宁久未联系。要求许宁换衣服并等待天亮。\n\nCanon Locks\n- A-17（黄铜钥匙）\n- 共享储物间揭示（shared_storage_reveal）不得早于第三场\n- 储物间是否打开（storage_room_opening）为未决决定\n- 不得完全和解\n\n三场结构\n第一场：许宁湿透制服登场，将钥匙交给许曼；许曼承认钥匙来源，要求许宁换衣服、等天亮。\n第二场：等待天亮期间，两人互动，紧张关系显现；钥匙由许宁保管。\n第三场：天亮后，许曼揭示储物间共享真相（shared_storage_reveal），但两人未完全和解；是否打开储物间的决定仍未解决。",
+        "scene_packages": "ABSENT"
+      }
+    },
+    "state_evidence_envelopes": {
+      "showrunner": {
+        "source_role": "Showrunner",
+        "source_record_id": "E2E-RUN-13/showrunner/1",
+        "version": "1.0",
+        "timestamp": "2026-08-30T01:26:12.359542+00:00",
+        "intended_recipient": "Scene Writer",
+        "handoff_reason": "Story / Canon Package",
+        "canon_assignment_locks": [
+          "A-17",
+          "brass_key",
+          "shared_storage_reveal not before scene 3",
+          "storage_room_opening"
+        ],
+        "prohibited_changes": [
+          "完全和解"
+        ],
+        "canonical_mode": "ABSENT",
+        "primary_state_or_outcome": "INFO",
+        "flags": "ABSENT",
+        "handoffs": "ABSENT",
+        "required_outcome": "ABSENT",
+        "unresolved_decisions": [
+          "storage_room_opening"
+        ],
+        "relevant_prior_state": {
+          "input": {
+            "sole_creative_input": "暴雨夜，夜班管理员许宁把一把刻有“A-17”的黄铜钥匙交给久未联系的姐姐许曼；许曼承认这是母亲留给两人一起打开储物间的钥匙，要求许宁先换下湿透的制服、等天亮再开门。"
+          }
+        },
+        "current_state": {
+          "fixture_constraints": {
+            "scene_count": 3,
+            "output_language": "zh-CN",
+            "characters": [
+              "许宁",
+              "许曼"
+            ],
+            "relationship": [
+              "不得自动升级为完全和解"
+            ],
+            "prop": {
+              "entity_id": "A-17",
+              "identity_lock": "A-17",
+              "custody_required": true,
+              "condition_lock": "brass_key"
+            },
+            "knowledge": [
+              {
+                "event_id": "shared_storage_reveal",
+                "holder": "许曼",
+                "not_before_scene": 3
+              }
+            ],
+            "visual_state": [
+              {
+                "dimension": "clothing_visual_state_code",
+                "allowed_tokens": [
+                  "soaked_uniform",
+                  "changed_clothes"
+                ]
+              }
+            ],
+            "prohibited": [
+              "完全和解"
+            ],
+            "decision_locks": [
+              "storage_room_opening"
+            ]
+          },
+          "instruction_boundary": "No hidden Canon, adaptation input, pre-written plot, or Scene Writer dialogue."
+        },
+        "proposed_state": {
+          "story_premise": "暴雨夜，夜班管理员许宁把一把刻有“A-17”的黄铜钥匙交给久未联系的姐姐许曼；许曼承认这是母亲留给两人一起打开储物间的钥匙，要求许宁先换下湿透的制服、等天亮再开门。",
+          "characters": [
+            {
+              "name": "许宁",
+              "role": "夜班管理员",
+              "state": "湿透的制服",
+              "initial_relationship": "与姐姐许曼久未联系"
+            },
+            {
+              "name": "许曼",
+              "role": "姐姐",
+              "state": "持有关于钥匙和储物间的知识（shared_storage_reveal）",
+              "initial_relationship": "与弟弟许宁久未联系"
+            }
+          ],
+          "scenes": [
+            {
+              "scene_number": 1,
+              "scene_summary": "许宁湿透制服登场，交出钥匙；许曼承认钥匙来源，要求换衣服等天亮。"
+            },
+            {
+              "scene_number": 2,
+              "scene_summary": "等待天亮期间，两人的互动与紧张关系显现；钥匙仍由许宁保管。"
+            },
+            {
+              "scene_number": 3,
+              "scene_summary": "天亮后，许曼揭示储物间共享真相（shared_storage_reveal），但未完全和解；关于是否打开储物间的决定仍未解决。"
+            }
+          ]
+        },
+        "knowledge_timing": {
+          "shared_storage_reveal": {
+            "holder": "许曼",
+            "not_before_scene": 3
+          }
+        },
+        "relationship_state": {
+          "initial": "久未联系",
+          "prohibited": "完全和解",
+          "current_dynamics": "紧张、未解决"
+        },
+        "visual_state": {
+          "clothing_visual_state_code": {
+            "allowed_tokens": [
+              "soaked_uniform",
+              "changed_clothes"
+            ],
+            "scene_1": "soaked_uniform",
+            "scene_2": "changed_clothes",
+            "scene_3": "changed_clothes"
+          }
+        },
+        "authority_source": "Showrunner canonical Skill output",
+        "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-13\\artifacts\\showrunner_output.json"
+      }
+    },
+    "run_local_ledger": "ABSENT",
+    "role_constraints": {
+      "mode": "CREATE",
+      "scene_count": 3,
+      "fixture_constraints": {
+        "scene_count": 3,
+        "output_language": "zh-CN",
+        "characters": [
+          "许宁",
+          "许曼"
+        ],
+        "relationship": [
+          "不得自动升级为完全和解"
+        ],
+        "prop": {
+          "entity_id": "A-17",
+          "identity_lock": "A-17",
+          "custody_required": true,
+          "condition_lock": "brass_key"
+        },
+        "knowledge": [
+          {
+            "event_id": "shared_storage_reveal",
+            "holder": "许曼",
+            "not_before_scene": 3
+          }
+        ],
+        "visual_state": [
+          {
+            "dimension": "clothing_visual_state_code",
+            "allowed_tokens": [
+              "soaked_uniform",
+              "changed_clothes"
+            ]
+          }
+        ],
+        "prohibited": [
+          "完全和解"
+        ],
+        "decision_locks": [
+          "storage_room_opening"
+        ]
+      },
+      "strict_structured_transport": {
+        "function": "submit_scene_writer_package",
+        "response_format_route": "PROHIBITED",
+        "no_auto_repair": true
+      }
+    }
+  }
+}

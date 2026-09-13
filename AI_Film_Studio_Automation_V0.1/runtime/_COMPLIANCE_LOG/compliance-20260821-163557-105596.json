@@ -1,0 +1,20 @@
+{
+  "fixture": "ROUTER-D",
+  "result": {
+    "routed_role": "Non-Showrunner / Scene Writer Boundary",
+    "skill_name": null,
+    "skill_path": null,
+    "trigger": "dialogue polish request",
+    "mode": "DIALOGUE_BOUNDARY",
+    "output_type": "Downstream Handoff Package",
+    "activated_modules": [
+      "Role Boundary"
+    ],
+    "file_exists": true,
+    "file_readable": true,
+    "skill_name_correct": true,
+    "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+    "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+    "hash_match": true
+  }
+}

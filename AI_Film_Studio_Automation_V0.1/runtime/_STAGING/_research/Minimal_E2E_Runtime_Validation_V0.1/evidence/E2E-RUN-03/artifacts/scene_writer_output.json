@@ -1,0 +1,156 @@
+{
+  "primary_state_or_outcome": "SCENE_CREATED",
+  "flags": "ABSENT",
+  "handoffs": "ABSENT",
+  "canon_assignment_locks": [
+    "Characters: 许宁, 许曼",
+    "Relationship: 久未联系的姐弟；不得自动升级为完全和解。",
+    "Prop: 黄铜钥匙，标记 A-17；身份与 custody 必须可追踪。",
+    "Knowledge: 母亲留下钥匙和储物间共同开启用途必须由许曼的授权场内揭示承载；不得提前泄漏。",
+    "Visual: 暴雨夜、许宁夜班管理员、湿透制服；后续才可发生换下湿制服的授权视觉状态转换。"
+  ],
+  "prohibited_changes": [
+    "不得增加第三个具名角色。",
+    "不得改变 A-17 标记。",
+    "不得把关系自动写成完全和解。",
+    "不得把未知原因或未授权背景写成 Canon。"
+  ],
+  "required_outcome": "ABSENT",
+  "unresolved_decisions": "ABSENT",
+  "state_evidence": {
+    "relevant_prior_state": {
+      "relationship_state": "久未联系，疏离但非敌对",
+      "knowledge_state": "母亲留钥匙的真正原因与储物间内容未知",
+      "visual_state": "暴雨夜，许宁湿透制服在场"
+    },
+    "current_state": {
+      "relationship_state": "疏离中带未完成责任，未完全和解",
+      "knowledge_state": "许曼在授权场内揭示钥匙为母亲留给两人共同开启储物间",
+      "visual_state": "许宁已换下湿制服，等待天亮"
+    },
+    "proposed_state": {
+      "relationship_state": "更近一步但仍有张力，未达成完全和解",
+      "knowledge_state": "保留 A-17 储物间内容与母亲动机悬念",
+      "visual_state": "夜晚将尽，体现时间流逝与等待"
+    },
+    "knowledge_timing": {
+      "reveal_of_shared_use": "由许曼在授权场内揭示，不提前泄漏",
+      "reveal_of_room_content": "只有进入储物间后才可揭示"
+    },
+    "relationship_state": {
+      "initial": "久未联系，疏离但非敌对",
+      "after_scene_1": "提及母亲与两人共同责任，仍疏离",
+      "after_scene_3": "更近一步但未达完全和解，保留未完成责任"
+    },
+    "visual_state": {
+      "scene_1": "暴雨夜，许宁湿透制服在场",
+      "scene_2": "许宁换下湿制服，室内",
+      "scene_3": "黎明前，体现时间流逝与等待"
+    }
+  },
+  "content": "场景 1\n场景 1\n暴雨的敲打声压着门。许宁站在门口，湿透的夜班管理员制服贴在身上，水顺着袖口往下滴。他攥着一把黄铜钥匙，递出去，声音压得很低。许曼没有接。他说明天一早去储物间。许曼看了钥匙一眼，说这钥匙，妈留下来给咱俩一起开的。她没多解释，只说先把湿衣服换了，进门再说。许宁站在雨檐下，钥匙仍攥在手里。\n\n场景 2\n场景 2\n许宁换了许曼拿出的干衣服，把制服挂在门边。他追问钥匙的事，说这么多年她都不提。许曼没有正面回答，只说有些事得等天亮才讲得清。许宁问她究竟在等什么，许曼没应，只说等天亮了，一起去看。钥匙摆在两人之间的小桌上，谁也没去动。\n\n场景 3\n场景 3\n雨声渐渐小了。两人都没睡，各坐一角。许宁问她这些年怎么守着这钥匙，许曼说守着，是因为答应了妈。她没有往下说。窗外天际泛出一点灰白。许宁说那等天亮。许曼点头。钥匙还躺在桌上，两个人都没有去拿。",
+  "scene_packages": [
+    {
+      "scene_id": "E2E-FIX-01-S01",
+      "content": "场景 1\n暴雨的敲打声压着门。许宁站在门口，湿透的夜班管理员制服贴在身上，水顺着袖口往下滴。他攥着一把黄铜钥匙，递出去，声音压得很低。许曼没有接。他说明天一早去储物间。许曼看了钥匙一眼，说这钥匙，妈留下来给咱俩一起开的。她没多解释，只说先把湿衣服换了，进门再说。许宁站在雨檐下，钥匙仍攥在手里。",
+      "structural_deliverable": {
+        "目标": "许宁想递出钥匙，让许曼一起处理",
+        "阻力": "许曼不接钥匙，拖延并转移话题",
+        "对白行动": "许宁陈述来意，许曼承认钥匙来历但要求先换衣",
+        "转折": "许曼承认钥匙是母亲留给两人共同开启储物间",
+        "入场": "许宁湿透制服带着钥匙出现在门口",
+        "出场": "许曼要求换衣，许宁仍攥着钥匙未得解释"
+      },
+      "state_evidence": {
+        "key_identity": "A-17",
+        "key_custody": "黄铜钥匙标记 A-17，由许宁带到许曼处，仍由许宁持握",
+        "knowledge_holders": [
+          "许宁"
+        ],
+        "reveal_status": "REVEALED_WITH_EVENT",
+        "relationship_state": "疏离，但许可提及母亲与两人共同责任",
+        "clothing_visual_state_code": "soaked_uniform",
+        "clothing_visual_state_display": "暴雨夜，许宁身着湿透的夜班管理员制服",
+        "location_presence": "许曼门口雨檐下",
+        "authorized_transitions": []
+      },
+      "source_attribution": {
+        "source_role": "Scene Writer",
+        "source_record_id": "E2E-RUN-03/scene_writer/E2E-FIX-01-S01",
+        "version": "0.1",
+        "evidence_locator": "scene_packages/E2E-FIX-01-S01"
+      },
+      "evidence_locator": "scene_packages/E2E-FIX-01-S01"
+    },
+    {
+      "scene_id": "E2E-FIX-01-S02",
+      "content": "场景 2\n许宁换了许曼拿出的干衣服，把制服挂在门边。他追问钥匙的事，说这么多年她都不提。许曼没有正面回答，只说有些事得等天亮才讲得清。许宁问她究竟在等什么，许曼没应，只说等天亮了，一起去看。钥匙摆在两人之间的小桌上，谁也没去动。",
+      "structural_deliverable": {
+        "目标": "许宁想从许曼口中得到更多信息",
+        "阻力": "许曼坚持等到天亮，不透露关键",
+        "对白行动": "许宁追问，许曼回避并重申等待",
+        "转折": "许宁换上干衣，钥匙摆上桌面，双方确认等到天亮",
+        "入场": "许宁已换下湿制服进入室内",
+        "出场": "许宁未得到更多解释，等待共识初步成形"
+      },
+      "state_evidence": {
+        "key_identity": "A-17",
+        "key_custody": "钥匙置于两人之间的小桌上，转由双方共同看守",
+        "knowledge_holders": [
+          "许宁",
+          "许曼"
+        ],
+        "reveal_status": "NOT_YET_REVEALED",
+        "relationship_state": "疏离感仍存，出现一丝共同触碰",
+        "clothing_visual_state_code": "changed_clothes",
+        "clothing_visual_state_display": "许宁已换下湿透制服，身着许曼拿出的干衣",
+        "location_presence": "许曼家中室内",
+        "authorized_transitions": [
+          "change_from_soaked_uniform"
+        ]
+      },
+      "source_attribution": {
+        "source_role": "Scene Writer",
+        "source_record_id": "E2E-RUN-03/scene_writer/E2E-FIX-01-S02",
+        "version": "0.1",
+        "evidence_locator": "scene_packages/E2E-FIX-01-S02"
+      },
+      "evidence_locator": "scene_packages/E2E-FIX-01-S02"
+    },
+    {
+      "scene_id": "E2E-FIX-01-S03",
+      "content": "场景 3\n雨声渐渐小了。两人都没睡，各坐一角。许宁问她这些年怎么守着这钥匙，许曼说守着，是因为答应了妈。她没有往下说。窗外天际泛出一点灰白。许宁说那等天亮。许曼点头。钥匙还躺在桌上，两个人都没有去拿。",
+      "structural_deliverable": {
+        "目标": "许宁想理解许曼为何坚持等待",
+        "阻力": "许曼克制，不道出全部",
+        "对白行动": "许宁试探询问，许曼回应守着承诺却不展开",
+        "转折": "达成等天亮再开门的共识，情感未完全愈合",
+        "入场": "夜晚将尽，两人各坐一角，未睡",
+        "出场": "两人望向将亮的天，保留悬念"
+      },
+      "state_evidence": {
+        "key_identity": "A-17",
+        "key_custody": "钥匙仍置于桌上，双方达成等待天亮的共识",
+        "knowledge_holders": [
+          "许宁",
+          "许曼"
+        ],
+        "reveal_status": "NOT_YET_REVEALED",
+        "relationship_state": "更近一步但仍有疏离张力，未完全和解",
+        "clothing_visual_state_code": "changed_clothes",
+        "clothing_visual_state_display": "许宁身着干衣，漫长等待中天色转亮",
+        "location_presence": "许曼家中室内，望向将亮的窗外",
+        "authorized_transitions": [
+          "change_from_soaked_uniform"
+        ]
+      },
+      "source_attribution": {
+        "source_role": "Scene Writer",
+        "source_record_id": "E2E-RUN-03/scene_writer/E2E-FIX-01-S03",
+        "version": "0.1",
+        "evidence_locator": "scene_packages/E2E-FIX-01-S03"
+      },
+      "evidence_locator": "scene_packages/E2E-FIX-01-S03"
+    }
+  ]
+}

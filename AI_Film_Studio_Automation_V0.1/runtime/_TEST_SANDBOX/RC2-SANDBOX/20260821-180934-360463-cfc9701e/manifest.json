@@ -1,0 +1,12 @@
+{
+  "test_id": "RC2-SANDBOX",
+  "sandbox_root": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_TEST_SANDBOX\\RC2-SANDBOX\\20260821-180934-360463-cfc9701e",
+  "formal_vault_write_allowed": false,
+  "allowed_write_roots": [
+    "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_TEST_SANDBOX\\RC2-SANDBOX\\20260821-180934-360463-cfc9701e\\canon",
+    "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_TEST_SANDBOX\\RC2-SANDBOX\\20260821-180934-360463-cfc9701e\\character_files",
+    "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_TEST_SANDBOX\\RC2-SANDBOX\\20260821-180934-360463-cfc9701e\\project_state",
+    "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_TEST_SANDBOX\\RC2-SANDBOX\\20260821-180934-360463-cfc9701e\\logs",
+    "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_TEST_SANDBOX\\RC2-SANDBOX\\20260821-180934-360463-cfc9701e\\temporary_outputs"
+  ]
+}

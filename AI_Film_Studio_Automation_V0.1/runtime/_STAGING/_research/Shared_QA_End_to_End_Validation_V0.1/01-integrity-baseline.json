@@ -1,0 +1,19 @@
+{
+  "baseline_at": "2026-08-24T11:23:15+08:00",
+  "purpose": "Pre-validation freeze for Shared QA End-to-End Validation V0.1",
+  "assets": [
+    {"key":"showrunner_canonical_skill","path":"E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\01_Showrunner\\SKILL.md","sha256":"0847EE3521A915936E97FA1F72D081F0788876F003E071918F517B0A46AE999C"},
+    {"key":"showrunner_runtime","path":"E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\01_Showrunner\\Showrunner｜Production Runtime V0.2 RC2.md","sha256":"BF8C47E595886010E3816AD49F21BC0C030E33EF3494FC1D935AA148F0ECCEB0"},
+    {"key":"showrunner_production_lock","path":"E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\01_Showrunner\\PRODUCTION_LOCK.md","sha256":"9637F923D2ED46EDA92B82C08266DF1C879D45F1B82F195CAC8F50F6EDBB8272"},
+    {"key":"vault_rules","path":"E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\00_HOME\\📌 项目规则.md","sha256":"8E9DB23E0ABD0FDDC0E945CB3AEA22328A76768B7B3F3A0CF6EFBB23BF6CA719"},
+    {"key":"language_voice_qa_model","path":"E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\Shared_QA\\Language & Voice QA｜综合能力模型 V0.1.md","sha256":"0C67DDD4425A7A2357F916D1163380DDB6EABC047AD5F3F0C91FCF9451870ECF"},
+    {"key":"language_voice_qa_cross","path":"E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\02_DISTILLATION\\方法论\\Language & Voice QA｜五人交叉蒸馏 V0.1.md","sha256":"79A16485B4957F392C17E63F279CD345C9AB1CF2977F70D844A644E6D39A7DDF"},
+    {"key":"language_voice_qa_canonical_skill","path":"E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\Shared_QA\\SKILL.md","sha256":"2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D"},
+    {"key":"language_voice_qa_runtime_adapter","path":"E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\shared_qa\\language_voice_qa_runtime.py","sha256":"A86C9DA17254C594EE9391290E90100B506716B2E54346E833B99B0D665CFDDE"},
+    {"key":"language_voice_qa_runtime_contract","path":"E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\shared_qa\\language_voice_qa_contract.json","sha256":"1F0C06A66452831F3F0943766FA16FA0A409308F5A22CA6A1C57EC707A07C1F3"},
+    {"key":"contemporary_runtime","path":"E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\shared_qa\\contemporary_language_runtime.py","sha256":"7F1F8E185F0D7DAA6CF780C4B02EA358587AAA21DDBF630F8FEF17C0D8B1F48C"},
+    {"key":"contemporary_handoff_coordinator","path":"E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\shared_qa\\contemporary_handoff_coordinator.py","sha256":"B03DF48F907130DD204C0AC2ABCF76533136A82065DFB0A889C25CF9546D21D7"},
+    {"key":"contemporary_contract","path":"E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\shared_qa\\contemporary_language_contract.json","sha256":"927BC5B83FD31893CABA874D6C3347B459F5E1CDC70F5D015933E69D2E3B9220"},
+    {"key":"contemporary_task","path":"E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\tasks\\shared_qa\\Contemporary_Language_Layer_Task_V0.1.md","sha256":"1C2324A0D25C0ABA0A6C8D0C28663893F15C263010685EA80F13376AEB922DBD"}
+  ]
+}

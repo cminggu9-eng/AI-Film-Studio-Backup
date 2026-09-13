@@ -1,0 +1,49 @@
+{
+  "integration_decision": "PASS",
+  "allowed_labels": [
+    "PASS",
+    "FLAG",
+    "BLOCK",
+    "HANDOFF"
+  ],
+  "layer_a": {
+    "name": "Deterministic Evidence / Contract Gate",
+    "findings": [],
+    "source_role": "Scene Writer",
+    "source_record_id": "E2E-RUN-26/scene_writer/1",
+    "version": "1.0",
+    "locks": [
+      "C-09",
+      "memory_card",
+      "withheld_photo_reveal",
+      "battery_installed",
+      "battery_removed_and_sealed",
+      "view_memory_card_decision"
+    ],
+    "current_state": {
+      "relationship_state": "清晨渡口，疏离且试探",
+      "knowledge_state": "沈泊知悉卡内有未交出照片",
+      "visual_state": "电池已安装，待封存"
+    },
+    "authority_source": "Scene Writer canonical Skill output",
+    "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-26\\artifacts\\scene_writer_output.json"
+  },
+  "layer_b": {
+    "layer": "B",
+    "independent_review_required": false,
+    "review_candidates": [],
+    "allowed_labels": [
+      "PASS",
+      "FLAG",
+      "BLOCK",
+      "HANDOFF"
+    ],
+    "provider_execution": "NOT_AUTHORIZED",
+    "creative_output_sha256": "101ff861a2b834286ebce3f7acaf211806e29d7d2842d0b64833f7a941f5e661",
+    "review_status": "PASS"
+  },
+  "legacy_verifier_result": "ABSENT",
+  "legacy_verifier_role": "SUPPLEMENTAL_SIGNAL_ONLY",
+  "creative_output_sha256": "101ff861a2b834286ebce3f7acaf211806e29d7d2842d0b64833f7a941f5e661",
+  "creative_output_rewrite": "PROHIBITED"
+}

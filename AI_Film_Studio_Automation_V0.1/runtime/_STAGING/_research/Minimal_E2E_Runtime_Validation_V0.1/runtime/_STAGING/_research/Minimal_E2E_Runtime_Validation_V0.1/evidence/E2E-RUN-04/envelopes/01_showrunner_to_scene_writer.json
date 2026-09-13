@@ -1,0 +1,64 @@
+{
+  "source_role": "Showrunner",
+  "source_record_id": "E2E-RUN-04/showrunner/1",
+  "version": "1.0",
+  "timestamp": "2026-08-28T05:57:42.741594+00:00",
+  "intended_recipient": "Scene Writer",
+  "handoff_reason": "Story / Canon Package",
+  "canon_assignment_locks": [
+    "黄铜钥匙，标记 A-17；身份与 custody 必须可追踪。",
+    "母亲留下钥匙和储物间共同开启用途必须由许曼的授权场内揭示承载；不得提前泄漏。",
+    "暴雨夜、许宁夜班管理员、湿透制服；后续才可发生换下湿制服的授权视觉状态转换。",
+    "久未联系的姐弟；不得自动升级为完全和解。"
+  ],
+  "prohibited_changes": [
+    "不得增加第三个具名角色。",
+    "不得改变 A-17 标记。",
+    "不得把关系自动写成完全和解。",
+    "不得把未知原因或未授权背景写成 Canon。"
+  ],
+  "canonical_mode": "ABSENT",
+  "primary_state_or_outcome": "PASS",
+  "flags": "ABSENT",
+  "handoffs": "ABSENT",
+  "required_outcome": "ABSENT",
+  "unresolved_decisions": [
+    "储物间的物理位置与环境特征是否在后续场景揭示？",
+    "母亲为何将钥匙留给两人共同开启，深层动机是否需要在三场结构内提供暗示？",
+    "是否允许在场景三中打开储物间，还是只停留在决定开门前？",
+    "许宁的夜班管理员身份具体工作地点是否披露？",
+    "场景之间的时间跨度（分钟、小时、天亮）是否需要在写作层明确规定？"
+  ],
+  "relevant_prior_state": {
+    "relationship": "久未联系，未自动和解",
+    "knowledge": "钥匙用途未揭示"
+  },
+  "current_state": {
+    "scene_count": 3,
+    "relationship": "久未联系，未自动和解",
+    "location": "暴雨夜",
+    "prop": "黄铜钥匙 A-17，身份与 custody 可追踪",
+    "knowledge": "母亲留下钥匙和储物间共同开启用途未揭示"
+  },
+  "proposed_state": {
+    "relationship": "逐渐靠近但不完全和解",
+    "knowledge": "母亲意图被暗示但不完全解释",
+    "prop": "钥匙 custody 保持可追踪"
+  },
+  "knowledge_timing": {
+    "key_reveal": "许曼揭示母亲留下钥匙和用途",
+    "when": "场景二",
+    "source": "许曼"
+  },
+  "relationship_state": {
+    "start": "久未联系，有隔阂",
+    "end": "试探性理解，保留距离"
+  },
+  "visual_state": {
+    "start": "暴雨夜，许宁湿透制服",
+    "transition": "场景二换下湿制服",
+    "end": "待定"
+  },
+  "authority_source": "Showrunner canonical Skill output",
+  "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-04\\artifacts\\showrunner_output.json"
+}

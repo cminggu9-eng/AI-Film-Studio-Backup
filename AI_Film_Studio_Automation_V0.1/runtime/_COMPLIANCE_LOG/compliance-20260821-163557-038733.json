@@ -1,0 +1,48 @@
+{
+  "fixture": "GATE-06",
+  "result": {
+    "status": "FAIL",
+    "candidate_version": "V1",
+    "correction_count": 0,
+    "violations": [
+      {
+        "code": "PREMATURE_SCOPE_DECISION",
+        "offending_text": "Scope Decision: 直接删除 20 个角色",
+        "expected_behavior": "Use Scope Decision: DEFERRED/NEEDS INPUT until Creative Intent and Essential Dramatic Function are known."
+      },
+      {
+        "code": "UNJUSTIFIED_SCOPE_DELETION",
+        "offending_text": "直接删除",
+        "expected_behavior": "Do not delete production elements before function and alternate execution are assessed."
+      },
+      {
+        "code": "UNJUSTIFIED_SCOPE_DELETION",
+        "offending_text": "删除 20",
+        "expected_behavior": "Do not delete production elements before function and alternate execution are assessed."
+      }
+    ],
+    "receipt": {
+      "timestamp": "2026-08-21T08:35:57+00:00",
+      "task": "QA fixture",
+      "routed_role": "Showrunner",
+      "skill_name": "ai-film-studio-showrunner",
+      "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+      "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "hash_match": true,
+      "skill_name_match": true,
+      "project_state": "DRAFT",
+      "mode": "PRODUCTION_SCOPE_REVIEW",
+      "output_type": "Production Scope Review",
+      "activated_modules": [
+        "Production Reality"
+      ]
+    },
+    "active_rules": [
+      "GLOBAL",
+      "ANTI_MECHANICAL",
+      "PRODUCTION_REALITY"
+    ],
+    "next": "COMPLIANCE VIOLATION REPORT"
+  }
+}

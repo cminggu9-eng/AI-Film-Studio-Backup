@@ -1,0 +1,187 @@
+{
+  "fixture": {
+    "id": "F06",
+    "title": "Subtext",
+    "focus": [
+      "surface_goal",
+      "hidden_intent",
+      "subtext",
+      "dialogue_tactic"
+    ],
+    "expected_boundaries": {
+      "must": [
+        "让表面请求与未明说意图不同",
+        "通过行动或措辞保留潜台词"
+      ],
+      "must_not": [
+        "直接说出隐藏意图",
+        "新增偷听来源或关系历史"
+      ]
+    },
+    "assignment": {
+      "requested_mode": "CREATE",
+      "output_language": "zh-CN",
+      "project_id": "FSV-SYNTHETIC",
+      "episode_id": "FSV-EP01",
+      "scene_id": "F06",
+      "scene_request": "写一个有潜台词的短场景；表面请求与真实意图不同，不能让人物直接说破真实意图。",
+      "scene_purpose": "让韩澄试探工作室钥匙是否仍在周澈手中。",
+      "repair_target": null,
+      "canon_locks": [
+        "地点是工作室门外。",
+        "人物只有韩澄和周澈。",
+        "周澈手里有工作室钥匙。",
+        "韩澄不知道周澈是否愿意继续使用工作室。",
+        "没有人偷听、出售或签署任何协议。"
+      ],
+      "showrunner_locks": [
+        "场景结束时，周澈没有交出钥匙，但同意第二天把钥匙带来再谈。"
+      ],
+      "participants": [
+        {
+          "name": "韩澄",
+          "role": "合作者",
+          "objective": "表面上借钥匙拿工具。",
+          "knowledge": "知道周澈持有钥匙。",
+          "constraint": "真实意图是试探周澈是否准备退出工作室；不得直接说出此意图。"
+        },
+        {
+          "name": "周澈",
+          "role": "合作者",
+          "objective": "不立刻表态工作室安排。",
+          "knowledge": "知道韩澄来找钥匙。",
+          "constraint": "不必解释自己全部想法。"
+        }
+      ],
+      "character_context": {
+        "relationship": "合作者，未提供更深历史。",
+        "creative_freedom": "可用钥匙、门、借工具的表面请求、停顿和回避。"
+      },
+      "required_event": "韩澄提出借钥匙，周澈不立刻交出。",
+      "required_information": "钥匙在周澈手中。",
+      "required_outcome": "周澈同意第二天带钥匙再谈。",
+      "prior_scene_state": "韩澄在门外等到周澈出来。",
+      "desired_post_state": "钥匙仍在周澈手中，但下一次谈话被约定。",
+      "production_constraints": null,
+      "requested_form": "短、可演的潜台词场景；无镜头、表演系统。",
+      "downstream_requests": [],
+      "qa_requests": []
+    }
+  },
+  "sequence": 6,
+  "classification": "FULL SEMANTIC VALIDATION / SYNTHETIC / NON-CANON / REAL SEMANTIC EXECUTION",
+  "formal_execution_count_for_fixture": 1,
+  "resamples_for_fixture": 0,
+  "provider": "deepseek",
+  "model": "deepseek-v4-pro",
+  "assignment": {
+    "requested_mode": "CREATE",
+    "output_language": "zh-CN",
+    "project_id": "FSV-SYNTHETIC",
+    "episode_id": "FSV-EP01",
+    "scene_id": "F06",
+    "scene_request": "写一个有潜台词的短场景；表面请求与真实意图不同，不能让人物直接说破真实意图。",
+    "scene_purpose": "让韩澄试探工作室钥匙是否仍在周澈手中。",
+    "repair_target": null,
+    "canon_locks": [
+      "地点是工作室门外。",
+      "人物只有韩澄和周澈。",
+      "周澈手里有工作室钥匙。",
+      "韩澄不知道周澈是否愿意继续使用工作室。",
+      "没有人偷听、出售或签署任何协议。"
+    ],
+    "showrunner_locks": [
+      "场景结束时，周澈没有交出钥匙，但同意第二天把钥匙带来再谈。"
+    ],
+    "participants": [
+      {
+        "name": "韩澄",
+        "role": "合作者",
+        "objective": "表面上借钥匙拿工具。",
+        "knowledge": "知道周澈持有钥匙。",
+        "constraint": "真实意图是试探周澈是否准备退出工作室；不得直接说出此意图。"
+      },
+      {
+        "name": "周澈",
+        "role": "合作者",
+        "objective": "不立刻表态工作室安排。",
+        "knowledge": "知道韩澄来找钥匙。",
+        "constraint": "不必解释自己全部想法。"
+      }
+    ],
+    "character_context": {
+      "relationship": "合作者，未提供更深历史。",
+      "creative_freedom": "可用钥匙、门、借工具的表面请求、停顿和回避。"
+    },
+    "required_event": "韩澄提出借钥匙，周澈不立刻交出。",
+    "required_information": "钥匙在周澈手中。",
+    "required_outcome": "周澈同意第二天带钥匙再谈。",
+    "prior_scene_state": "韩澄在门外等到周澈出来。",
+    "desired_post_state": "钥匙仍在周澈手中，但下一次谈话被约定。",
+    "production_constraints": null,
+    "requested_form": "短、可演的潜台词场景；无镜头、表演系统。",
+    "downstream_requests": [],
+    "qa_requests": [],
+    "request_id": "FSV-SW-F06"
+  },
+  "runtime_result": {
+    "runtime_status": "FAIL_SAFE",
+    "runtime_failure_code": "MALFORMED_EXECUTOR_OUTPUT",
+    "runtime_failure_message": "control_data.diagnosis_summary must be a non-empty text value for output language validation",
+    "request_id": "FSV-SW-F06",
+    "canonical_binding": {
+      "identity": "scene-writer",
+      "version": "V0.1",
+      "canonical_path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\02_Scene_Writer\\scene-writer\\SKILL.md",
+      "expected_sha256": "93e1be12988f8caa6cdd76acb5e6c1bf6ad3ca0dff5806a2ea93511e66052dfb",
+      "adapter_status": "REGISTERED",
+      "real_executor": "BOUND",
+      "semantic_integrity_verifier": "BOUND",
+      "synthetic_executor": "NOT_PRESENT",
+      "actual_sha256": "93e1be12988f8caa6cdd76acb5e6c1bf6ad3ca0dff5806a2ea93511e66052dfb",
+      "metadata": {
+        "name": "scene-writer",
+        "display_version": "V0.1"
+      },
+      "passed": true,
+      "reason": null
+    },
+    "idempotency": "NEW",
+    "scene_writer": null,
+    "output_language": null,
+    "output_language_resolution": null,
+    "assignment_fact_validation": null,
+    "semantic_integrity_validation": null
+  },
+  "unexpected_exception": null,
+  "generation_usage": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-pro",
+    "provider_invocation_id": "334a62fd-1c61-44f9-a43e-c22848718d74",
+    "usage": {
+      "prompt_tokens": 4165,
+      "completion_tokens": 538,
+      "total_tokens": 4703,
+      "prompt_cache_hit_tokens": 3200,
+      "prompt_cache_miss_tokens": 965
+    },
+    "latency_ms": 12020,
+    "thinking_mode": "disabled",
+    "fixture_id": "F06",
+    "request_success": true
+  },
+  "verification_usage": null,
+  "estimated_cost_cny": {
+    "generation": 0.006203,
+    "verification": null,
+    "total": null
+  },
+  "pricing_basis": {
+    "currency": "CNY",
+    "unit": "per_1M_tokens",
+    "input_cache_hit": 0.025,
+    "input_cache_miss": 3.0,
+    "output": 6.0,
+    "status": "ESTIMATED"
+  }
+}

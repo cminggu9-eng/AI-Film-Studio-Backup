@@ -1,0 +1,127 @@
+{
+  "primary_state_or_outcome": "INFO",
+  "flags": "ABSENT",
+  "handoffs": "ABSENT",
+  "canon_assignment_locks": [
+    "storage_room_opening",
+    "A-17 identity_lock",
+    "A-17 custody_required",
+    "brass_key condition_lock",
+    "shared_storage_reveal holder=许曼 not_before_scene=3",
+    "clothing_visual_state_code allowed_tokens=[soaked_uniform, changed_clothes]",
+    "relationship: 不得自动升级为完全和解"
+  ],
+  "prohibited_changes": [
+    "完全和解"
+  ],
+  "required_outcome": "ABSENT",
+  "unresolved_decisions": [],
+  "state_evidence": {
+    "relevant_prior_state": "ABSENT",
+    "current_state": {
+      "input_mode": "CONCEPT",
+      "development_stage": "One-line concept with fixture constraints",
+      "locked": [
+        "premise event: 许宁 gives key A-17 to 许曼 on rainy night",
+        "characters: 许宁, 许曼",
+        "prop: A-17 brass key",
+        "knowledge: 许曼 knows about shared storage, reveal not before scene 3",
+        "visual: clothing_visual_state_code ∈ {soaked_uniform, changed_clothes}",
+        "prohibited: 完全和解",
+        "decision_locks: storage_room_opening"
+      ],
+      "draft": "scene structure, emotional progression, specific blocking (to be developed)",
+      "unknown": "content of storage room, reason for estrangement, mother's intention",
+      "conflicting": "none"
+    },
+    "proposed_state": {
+      "premise": "暴雨夜，夜班管理员许宁把刻有“A-17”的黄铜钥匙交给久未联系的姐姐许曼；许曼承认这是母亲留给两人一起打开储物间的钥匙，要求许宁先换下湿透的制服、等天亮再开门。",
+      "characters": [
+        {
+          "name": "许宁",
+          "desire": "完成交接，可能寻求某种确认或减轻孤独",
+          "need": "面对与姐姐/家庭未解决的情感，理解母亲遗留的意义",
+          "fear": "被拒绝或再次受伤，或面对未知的储物间",
+          "values": "责任感（作为管理员）、谨慎",
+          "contradiction": "主动联系姐姐却又保持距离；交出钥匙但可能不愿立即打开",
+          "relationship": "与许曼疏远，未完全和解，有未说出口的紧张",
+          "starting_state": "湿透的制服，带着钥匙来找许曼，可能疲惫且情绪复杂"
+        },
+        {
+          "name": "许曼",
+          "desire": "维持控制局面，确保安全（让许宁换衣服、等天亮）",
+          "need": "可能面对与母亲/弟弟的过去，但选择暂缓",
+          "fear": "夜晚打开储物间可能引发不可控后果，或情感冲击",
+          "values": "谨慎、保护（作为姐姐的责任）",
+          "contradiction": "承认钥匙是母亲留给两人的，却推迟打开，可能隐藏其他信息",
+          "relationship": "疏远但愿意接收钥匙，没有完全和解的意愿或准备",
+          "starting_state": "在家（或约定地点），面对湿透的许宁和钥匙"
+        }
+      ],
+      "scenes": [
+        {
+          "scene_number": 1,
+          "purpose": "建立关系状态、钥匙交接、许曼的提议",
+          "objective": "许宁交出钥匙，许曼承认钥匙来源并提出等待",
+          "conflict": "许宁可能想立即打开，许曼坚持等待",
+          "required_info": "钥匙交接，许曼知道储物间存在，许宁湿透",
+          "starting_state": "许宁湿透制服来到许曼处，拿出钥匙",
+          "ending_state": "许曼接过钥匙，要求许宁换衣服、等天亮；钥匙在许曼手中",
+          "relationship_state": "疏远但合作，许曼主导",
+          "knowledge_revealed": "许曼知道钥匙与储物间有关（但具体内容未透露）",
+          "visual_state": "许宁 clothing_visual_state_code: soaked_uniform"
+        },
+        {
+          "scene_number": 2,
+          "purpose": "展现等待过程中的关系动态和潜在张力",
+          "objective": "两人在等待天亮时互动，揭示疏远原因或情感暗流，但不和解",
+          "conflict": "可能围绕过去、母亲、为什么现在才来等产生摩擦",
+          "required_info": "为第三幕储物间揭示做铺垫，但不暴露 shared_storage_reveal",
+          "starting_state": "许宁已换衣服（changed_clothes），许曼保管钥匙",
+          "ending_state": "仍未打开储物间，但两人对彼此或母亲有新的理解或更加紧张",
+          "relationship_state": "未和解，可能略有缓和或冲突升级",
+          "knowledge_revealed": "不涉及 shared_storage_reveal；可涉及其他背景",
+          "visual_state": "许宁 clothing_visual_state_code: changed_clothes"
+        },
+        {
+          "scene_number": 3,
+          "purpose": "揭示 shared_storage_reveal，并决定是否打开储物间（可用 decision_locks: storage_room_opening 作为悬念或行动）",
+          "objective": "许曼揭示母亲储物间信息，两人面对打开与否的决定",
+          "conflict": "打开储物间可能带来情感冲击或责任；许曼可能犹豫，许宁可能坚持",
+          "required_info": "shared_storage_reveal 由许曼说出（not_before_scene 3 满足）",
+          "starting_state": "天亮，两人准备打开或面对储物间的存在",
+          "ending_state": "未明确打开或打开后的内容，但冲突升级或形成僵局，关系未完全和解",
+          "relationship_state": "未和解，可能因储物间内容而改变",
+          "knowledge_revealed": "shared_storage_reveal（母亲留钥匙给两人一起打开储物间）",
+          "visual_state": "许宁 clothing_visual_state_code: changed_clothes 或 soaked_uniform（若场景连续）"
+        }
+      ],
+      "knowledge_timing": "shared_storage_reveal 仅在第三场由许曼揭示，符合 not_before_scene=3",
+      "relationship_state": "不得自动升级为完全和解，三场中关系保持紧张或复杂，可有微小变化但不彻底化解",
+      "visual_state": "许宁 clothing_visual_state_code 第一场为 soaked_uniform，之后为 changed_clothes"
+    },
+    "knowledge_timing": {
+      "shared_storage_reveal": {
+        "holder": "许曼",
+        "not_before_scene": 3,
+        "scene_1": false,
+        "scene_2": false,
+        "scene_3": true
+      }
+    },
+    "relationship_state": {
+      "initial": "疏远，有未解决的家庭历史",
+      "constraint": "不得自动升级为完全和解",
+      "scene_1": "保持距离，许曼主导，许宁可能顺从或抗拒",
+      "scene_2": "互动可能引发旧冲突，但不会和解",
+      "scene_3": "储物间信息的揭示可能改变关系，但仍未完全和解"
+    },
+    "visual_state": {
+      "scene_1": "许宁 clothing_visual_state_code: soaked_uniform",
+      "scene_2": "许宁 clothing_visual_state_code: changed_clothes",
+      "scene_3": "许宁 clothing_visual_state_code: changed_clothes 或 soaked_uniform（取决于叙事连续性）"
+    }
+  },
+  "content": "故事前提\n\n暴雨夜，夜班管理员许宁带着一把刻有“A-17”的黄铜钥匙，找到久未联系的姐姐许曼。许宁把钥匙交给许曼，许曼承认这是母亲留给她们两人一起打开储物间的钥匙，但要求许宁先换下湿透的制服、等天亮再开门。\n\n这个故事以一场雨夜的钥匙交接开始，将兄妹/姐弟之间的疏远、母亲的遗留物、以及一个尚未打开的储物间编织在一起。故事的核心张力在于：为何许宁现在才来？储物间里有什么？许曼为何坚持等到天亮？母亲为何留下这把钥匙？故事停在打开储物间之前，保留悬念。\n\n本故事适合作为一部短小的独立影像或三场结构的短片，聚焦人物关系与未知信息，而非复杂情节。\n\n角色\n\n许宁\n- 夜班管理员，暴雨夜穿着湿透的制服来找姐姐。\n- 欲望：完成钥匙交接，可能寻求某种确认或减轻孤独。\n- 需要：面对与姐姐疏远的原因，理解母亲遗留钥匙的意义。\n- 恐惧：被姐姐拒绝，或面对储物间中的未知。\n- 矛盾：主动联系姐姐却又保持距离；交出钥匙但可能不愿立即打开。\n- 关系起点：与许曼疏远，未完全和解，有未说出口的紧张。\n- 场景状态变化：第一场穿着湿透的制服，交出钥匙；之后按许曼要求换上干衣服，等待天亮。\n\n许曼\n- 姐姐，对钥匙和储物间的存在有所了解。\n- 欲望：维持控制局面，确保安全（让许宁换衣服、等天亮）。\n- 需要：面对与母亲和弟弟的过去，但选择暂缓。\n- 恐惧：夜晚打开储物间可能引发不可控的后果或情感冲击。\n- 矛盾：承认钥匙是母亲留给两人的，却推迟打开，可能隐藏其他信息。\n- 关系起点：疏远但愿意接收钥匙，没有完全和解的意愿或准备。\n- 场景状态变化：接收钥匙，保管钥匙，主导等待的节奏。\n\n两人关系起点为疏远，故事过程中不得自动升级为完全和解；关系可以因互动而略有缓和或更加紧张，但始终保持未解决的张力。\n\nCanon Locks\n\n以下为必须遵守的锁定项：\n- 故事必须发生在暴雨夜。\n- 许宁是夜班管理员，来到许曼处时穿着湿透的制服。\n- 许宁交给许曼一把刻有“A-17”的黄铜钥匙。\n- 许曼知道这把钥匙与母亲留给两人的储物间有关。\n- 许曼要求许宁先换下湿透的制服、等天亮再开门。\n- 钥匙在故事开始时由许宁持有，交接后由许曼保管。\n- 储物间打开的决定是锁定项（decision_locks: storage_room_opening），意味着这个决定是情节关键，但具体是否打开、何时打开可以留作悬念。\n- shared_storage_reveal（母亲留给两人一起打开储物间的信息）只能由许曼在第三场或之后揭示，前两场不得透露。\n- 许宁的服装视觉状态代码（clothing_visual_state_code）只能是 soaked_uniform 或 changed_clothes；第一场为 soaked_uniform，第二场及以后为 changed_clothes。\n- 关系不得自动升级为完全和解。\n\n禁止更改：完全和解不得发生。故事中任何亲密、谅解或关系修复的进展都必须有限度，不能指向完全和解。\n\n三场结构\n\n场景一\n- 场景目的：建立关系状态，完成钥匙交接，引入许曼的要求。\n- 人物目标：许宁想把钥匙交给许曼；许曼接收钥匙并控制局面。\n- 冲突来源：许宁可能想立即打开储物间，但许曼坚持先换衣服、等天亮。\n- 必需信息：钥匙存在并交接；许曼知道储物间的存在；许宁全身湿透。\n- 起始状态：许宁穿着湿透的制服（soaked_uniform）来到许曼的住处或约定地点，拿出钥匙。\n- 结束状态：许曼接过并保管钥匙，明确要求许宁换衣服、等天亮；许宁未打开储物间。\n- 关系状态：疏远、紧张，许曼处于主导地位。\n- 揭示信息：许曼承认钥匙与母亲储物间有关，但不提供储物间内容或具体细节（不触发 shared_storage_reveal）。\n- 视觉状态：许宁 clothing_visual_state_code = soaked_uniform。\n\n场景二\n- 场景目的：在等待天亮的过程中展现关系动态，增加情感张力。\n- 人物目标：许宁可能试图从许曼那里获取更多关于母亲或储物间的信息；许曼可能回避或透露有限信息。\n- 冲突来源：围绕过去为何疏远、母亲当初的意图、现在为何来等话题产生摩擦。\n- 必需信息：为第三场的揭示做铺垫，但不涉及 shared_storage_reveal 本身；可以暗示储物间存在或母亲曾提及，但不能明确说“母亲留给我们一起打开”。\n- 起始状态：许宁已换上干衣服（changed_clothes），许曼继续保管钥匙，两人在室内等待天亮。\n- 结束状态：两人对彼此或母亲有了新的理解，或者冲突更加明显；仍未打开储物间。\n- 关系状态：未和解，可能有轻微缓和或进一步对立，但绝不达到完全和解。\n- 揭示信息：可揭示其他背景，如母亲生病、遗产、旧日矛盾等，但 shared_storage_reveal 必须保留到第三场。\n- 视觉状态：许宁 clothing_visual_state_code = changed_clothes。\n\n场景三\n- 场景目的：由许曼揭示 shared_storage_reveal，并面对打开储物间的问题。\n- 人物目标：许曼说出母亲留下钥匙让两人一起打开储物间的实情；许宁回应，两人对是否打开、何时打开产生分歧或犹豫。\n- 冲突来源：打开储物间可能带来情感冲击、责任或不可逆的后果；许曼可能仍想推迟，许宁可能坚持现在面对。\n- 必需信息：shared_storage_reveal 由许曼说出（满足 not_before_scene=3）；储物间打开与否成为核心悬念。\n- 起始状态：天亮，两人可能仍在一起，钥匙仍在许曼手中。\n- 结束状态：故事在打开储物间的门前或打开瞬间戛然而止，不展示内容；两人关系未完全和解，可能因新信息而改变。\n- 关系状态：未和解，但因揭示而产生新层次的紧张或理解；完全和解不被允许。\n- 揭示信息：shared_storage_reveal 的全部内容（母亲留钥匙给两人一起打开储物间）。\n- 视觉状态：许宁 clothing_visual_state_code = changed_clothes（若场景延续第二场）或 soaked_uniform（若场景紧密连接第一场并重新穿上湿衣服，但按逻辑应选择 changed_clothes）。\n\n整体说明：三场结构遵循“交接-等待-揭示”的节奏，每一场都推动关系紧张和未知信息的升级，最终停在打开储物间之前，保持悬念。所有锁定项和禁止项均被保留，未写入Scene Writer的对白或具体表演细节。",
+  "scene_packages": "ABSENT"
+}

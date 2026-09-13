@@ -1,0 +1,10 @@
+{
+  "classification": "NOT_TRUNCATED",
+  "truncated": false,
+  "finish_reason": "tool_calls",
+  "completion_tokens": 1717,
+  "requested_max_tokens": 5000,
+  "json_complete": true,
+  "signals": [],
+  "persistence_verification_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_03_Strict_Structured_Transport_V0.1\\evidence\\SW-CONTRACT-PROBE-03\\artifacts\\scene_writer_persistence_verification.json"
+}

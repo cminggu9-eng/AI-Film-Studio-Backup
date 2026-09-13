@@ -1,0 +1,40 @@
+{
+  "classification": "REPAIR21 OFFLINE GATE RUN",
+  "mandatory_preflight": {
+    "passed": true,
+    "suite_count": 15,
+    "suite_ids": [
+      "PERSIST",
+      "SW-INT",
+      "STRICT",
+      "TOKEN",
+      "Probe03 recorded replay",
+      "SHOWRUNNER-OWN",
+      "DIRECTOR-INT",
+      "DIRECTOR-RECORDED-PROBE",
+      "ART-DIRECTOR-INT",
+      "ART-DIRECTOR-R04-REASSESSMENT",
+      "CHARACTER-ACTING-TRANS-CORE",
+      "CHARACTER-ACTING-TRANS-NEG",
+      "CONTINUITY-ALIGN-CORE",
+      "CONTINUITY-ALIGN-NEG",
+      "ENV-ISO-CORE"
+    ]
+  },
+  "genericity": {
+    "returncode": 0,
+    "passed": 18,
+    "total": 18
+  },
+  "unified_phase2": {
+    "returncode": 0,
+    "overall": "PASS",
+    "record_count": 25
+  },
+  "provider_calls": 0,
+  "executor_calls": 0,
+  "role_calls": 0,
+  "probe_calls": 0,
+  "live_e2e_runs": 0,
+  "overall": "PASS"
+}

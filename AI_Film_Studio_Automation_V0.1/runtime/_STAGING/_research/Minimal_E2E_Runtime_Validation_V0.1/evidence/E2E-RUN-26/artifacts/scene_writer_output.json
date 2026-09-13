@@ -1,0 +1,159 @@
+{
+  "primary_state_or_outcome": "SCENE_CREATED",
+  "flags": "ABSENT",
+  "handoffs": "ABSENT",
+  "canon_assignment_locks": [
+    "C-09",
+    "memory_card",
+    "withheld_photo_reveal",
+    "battery_installed",
+    "battery_removed_and_sealed",
+    "view_memory_card_decision"
+  ],
+  "prohibited_changes": [
+    "resume_partnership",
+    "permanent_break"
+  ],
+  "required_outcome": "建立三场剧本结构：第一场完成存储卡交接与封存电池条件提出，第二场部分揭露未交出照片背景，第三场船离港后决定悬置。",
+  "unresolved_decisions": [
+    "沈泊最终是否查看存储卡",
+    "照片具体内容是否揭示",
+    "沈泊是否真正接受封存条件"
+  ],
+  "state_evidence": {
+    "relevant_prior_state": {
+      "relationship_state": "已拆伙两年的前搭档，未复合未决裂",
+      "knowledge_state": "梁音未交出部分照片的事实沈泊未知",
+      "visual_state": "相机电池已安装"
+    },
+    "current_state": {
+      "relationship_state": "清晨渡口，疏离且试探",
+      "knowledge_state": "沈泊知悉卡内有未交出照片",
+      "visual_state": "电池已安装，待封存"
+    },
+    "proposed_state": {
+      "relationship_state": "未决，信任裂痕仍在",
+      "knowledge_state": "照片内容未被查看",
+      "visual_state": "相机电池已移除并封存"
+    },
+    "knowledge_timing": {
+      "reveal_of_shared_use": "第二场由梁音部分揭露持卡原因",
+      "reveal_of_room_content": "照片具体内容不揭示"
+    },
+    "relationship_state": {
+      "initial": "疏离、互有戒备",
+      "after_scene_1": "达成封存交易，试探延续",
+      "after_scene_3": "未复合未决裂，决定悬置"
+    },
+    "visual_state": {
+      "scene_1": "清晨渡口，电池已安装",
+      "scene_2": "等待中，电池已封存",
+      "scene_3": "船离港，电池已封存"
+    }
+  },
+  "content": "场景 1\n清晨渡口，雾薄。沈泊把标着C-09的存储卡递向梁音，梁音没有接，反而看沈泊的相机，电池灯还亮着。她说：先取电池，封起来。沈泊攥紧卡，问为什么。梁音不看他的眼睛：照片的事，等船走了再说。沈泊不动，两人僵在售票处旁的木栏边。远处传来第一班船的汽笛。\n\n场景 2\n雾没有散。沈泊把封好的电池放在两人之间的长椅上，问梁音：那年，你到底留了什么。梁音沉默很久，说卡里是我没交出去的一部分，不是我拍的。她只说这一句，便不再解释。沈泊盯着卡，手指敲着它，几次想开口。梁音望着江面，等船。\n\n场景 3\n第一班船离港，汽笛拉长。梁音转身走向闸口，说：现在你可以决定了。沈泊把卡举到眼前，又放下。他没有放进读卡器，只是把卡塞回外套内袋。梁音没有回头，脚步停了一下，说：你不看，我也知道你在怪。沈泊低声应：先这样。两人之间，隔着一道正在关闭的闸门。",
+  "scene_packages": [
+    {
+      "scene_id": "E2E-FIX-03-S01",
+      "content": "清晨渡口，雾薄。沈泊把标着C-09的存储卡递向梁音，梁音没有接，反而看沈泊的相机，电池灯还亮着。她说：先取电池，封起来。沈泊攥紧卡，问为什么。梁音不看他的眼睛：照片的事，等船走了再说。沈泊不动，两人僵在售票处旁的木栏边。远处传来第一班船的汽笛。",
+      "structural_deliverable": {
+        "目标": "沈泊想套取更多信息，梁音坚持先封存电池",
+        "阻力": "沈泊质疑封存必要性，梁音拒绝解释",
+        "对白行动": "梁音以条件逼停，沈泊以追问试探",
+        "转折": "船汽笛响起，沈泊退一步同意封存",
+        "入场": "沈泊持卡走向渡口，梁音已在木栏旁",
+        "出场": "沈泊低头取出电池，梁音这才伸手"
+      },
+      "state_evidence": {
+        "entity_identity": "C-09",
+        "entity_custody": "沈泊持有C-09存储卡，梁音未接",
+        "knowledge_holders": [
+          "沈泊"
+        ],
+        "reveal_status": "NOT_YET_REVEALED",
+        "relationship_state": "疏离，梁音以条件控制节奏",
+        "camera_battery_state": "battery_installed",
+        "machine_state_display": "相机电池已安装，卡在沈泊手中",
+        "location_presence": "清晨渡口售票处旁木栏",
+        "authorized_transitions": [
+          "battery_removal_and_seal"
+        ]
+      },
+      "source_attribution": {
+        "source_role": "Scene Writer",
+        "source_record_id": "E2E-RUN-26/scene_writer/E2E-FIX-03-S01",
+        "version": "0.1",
+        "evidence_locator": "scene_packages/E2E-FIX-03-S01"
+      },
+      "evidence_locator": "scene_packages/E2E-FIX-03-S01"
+    },
+    {
+      "scene_id": "E2E-FIX-03-S02",
+      "content": "雾没有散。沈泊把封好的电池放在两人之间的长椅上，问梁音：那年，你到底留了什么。梁音沉默很久，说卡里是我没交出去的一部分，不是我拍的。她只说这一句，便不再解释。沈泊盯着卡，手指敲着它，几次想开口。梁音望着江面，等船。",
+      "structural_deliverable": {
+        "目标": "沈泊诱导梁音说出更多，梁音用有限信息换信任",
+        "阻力": "信息不对称，梁音只给一个片段",
+        "对白行动": "梁音以'不是我拍的'作有限揭露，沈泊以追问施压",
+        "转折": "梁音抛出照片非其所拍的线索",
+        "入场": "梁音走近长椅，看封好的电池",
+        "出场": "沈泊攥紧卡，两人面向江面沉默"
+      },
+      "state_evidence": {
+        "entity_identity": "C-09",
+        "entity_custody": "沈泊仍持有C-09存储卡",
+        "knowledge_holders": [
+          "沈泊"
+        ],
+        "reveal_status": "REVEALED_WITH_EVENT",
+        "relationship_state": "梁音用有限真相换取缓冲",
+        "camera_battery_state": "battery_removed_and_sealed",
+        "machine_state_display": "电池已移除并封存，卡未被查看",
+        "location_presence": "渡口长椅旁，江面",
+        "authorized_transitions": [
+          "battery_removal_and_seal"
+        ]
+      },
+      "source_attribution": {
+        "source_role": "Scene Writer",
+        "source_record_id": "E2E-RUN-26/scene_writer/E2E-FIX-03-S02",
+        "version": "0.1",
+        "evidence_locator": "scene_packages/E2E-FIX-03-S02"
+      },
+      "evidence_locator": "scene_packages/E2E-FIX-03-S02"
+    },
+    {
+      "scene_id": "E2E-FIX-03-S03",
+      "content": "第一班船离港，汽笛拉长。梁音转身走向闸口，说：现在你可以决定了。沈泊把卡举到眼前，又放下。他没有放进读卡器，只是把卡塞回外套内袋。梁音没有回头，脚步停了一下，说：你不看，我也知道你在怪。沈泊低声应：先这样。两人之间，隔着一道正在关闭的闸门。",
+      "structural_deliverable": {
+        "目标": "沈泊试图做决定，梁音观察并影响",
+        "阻力": "船离港的时间压力与查看的冲动",
+        "对白行动": "梁音逼沈泊做决定，沈泊以'先这样'悬置",
+        "转折": "沈泊欲看又放回，决定悬置",
+        "入场": "船鸣笛离港，梁音转向闸口",
+        "出场": "闸门关闭，两人隔门未决"
+      },
+      "state_evidence": {
+        "entity_identity": "C-09",
+        "entity_custody": "沈泊将C-09存储卡放回外套内袋",
+        "knowledge_holders": [
+          "沈泊"
+        ],
+        "reveal_status": "NOT_YET_REVEALED",
+        "relationship_state": "未复合未决裂，决定悬置",
+        "camera_battery_state": "battery_removed_and_sealed",
+        "machine_state_display": "电池已封存，卡未查看，决定悬置",
+        "location_presence": "渡口闸口附近，闸门正在关闭",
+        "authorized_transitions": [
+          "battery_removal_and_seal"
+        ]
+      },
+      "source_attribution": {
+        "source_role": "Scene Writer",
+        "source_record_id": "E2E-RUN-26/scene_writer/E2E-FIX-03-S03",
+        "version": "0.1",
+        "evidence_locator": "scene_packages/E2E-FIX-03-S03"
+      },
+      "evidence_locator": "scene_packages/E2E-FIX-03-S03"
+    }
+  ]
+}

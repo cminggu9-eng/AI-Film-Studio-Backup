@@ -1,0 +1,7 @@
+{
+  "role": "Shared QA",
+  "execution_status": "NOT REACHED",
+  "provider_call_made": false,
+  "reason": "Scene Writer output was blocked by the Integration Semantic Safeguard before horizontal QA invocation.",
+  "blocking_evidence": "semantic_safeguard.json"
+}

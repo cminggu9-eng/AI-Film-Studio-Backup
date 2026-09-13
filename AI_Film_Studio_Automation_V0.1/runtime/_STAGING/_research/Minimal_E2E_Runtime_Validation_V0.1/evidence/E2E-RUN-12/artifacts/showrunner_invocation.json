@@ -1,0 +1,31 @@
+{
+  "lifecycle_stage": "USAGE_AND_INVOCATION_METADATA_PERSISTED",
+  "invocation_id": "E2E-RUN-12:showrunner:1",
+  "role": "Showrunner",
+  "timestamp": "2026-08-29T09:21:04.707186+00:00",
+  "input_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-12\\artifacts\\showrunner_input.json",
+  "provider": "deepseek",
+  "model": "deepseek-v4-pro",
+  "provider_invocation_id": "6eaf9561-0e61-40ff-b646-6e8db7044105",
+  "finish_reason": "stop",
+  "requested_max_tokens": 4500,
+  "usage": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-pro",
+    "provider_invocation_id": "6eaf9561-0e61-40ff-b646-6e8db7044105",
+    "usage": {
+      "prompt_tokens": 4898,
+      "completion_tokens": 2984,
+      "total_tokens": 7882,
+      "prompt_cache_hit_tokens": 4480,
+      "prompt_cache_miss_tokens": 418
+    },
+    "latency_ms": 49792,
+    "thinking_mode": "disabled",
+    "fixture_id": "E2E-FIX-01",
+    "request_success": true,
+    "requested_max_tokens": 4500,
+    "finish_reason": "stop",
+    "structured_output": null
+  }
+}

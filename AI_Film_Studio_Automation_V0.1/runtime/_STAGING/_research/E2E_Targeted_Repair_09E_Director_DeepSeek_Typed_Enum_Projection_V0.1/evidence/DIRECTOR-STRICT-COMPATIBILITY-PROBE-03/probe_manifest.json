@@ -1,0 +1,75 @@
+{
+  "classification": "DIRECTOR STRICT COMPATIBILITY PROBE 03",
+  "result": "FAIL",
+  "provider_calls": 1,
+  "retries": 0,
+  "fallbacks": 0,
+  "exception_type": "E2EBlocked",
+  "exception": "Director payload did not match exact required field set",
+  "preflight_manifest": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_09E_Director_DeepSeek_Typed_Enum_Projection_V0.1\\evidence\\DIRECTOR-STRICT-COMPATIBILITY-PROBE-03\\preflight_manifest.json",
+  "call_record": {
+    "role": "Director",
+    "invocation_id": "DIRECTOR-STRICT-COMPATIBILITY-PROBE-03:director:1",
+    "model": "deepseek-v4-pro",
+    "timestamp": "2026-08-30T00:48:05.506555+00:00",
+    "input_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_09E_Director_DeepSeek_Typed_Enum_Projection_V0.1\\evidence\\DIRECTOR-STRICT-COMPATIBILITY-PROBE-03\\artifacts\\director_input.json",
+    "output_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_09E_Director_DeepSeek_Typed_Enum_Projection_V0.1\\evidence\\DIRECTOR-STRICT-COMPATIBILITY-PROBE-03\\artifacts\\director_provider_response.json",
+    "raw_response_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_09E_Director_DeepSeek_Typed_Enum_Projection_V0.1\\evidence\\DIRECTOR-STRICT-COMPATIBILITY-PROBE-03\\artifacts\\director_provider_response.json",
+    "invocation_metadata_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_09E_Director_DeepSeek_Typed_Enum_Projection_V0.1\\evidence\\DIRECTOR-STRICT-COMPATIBILITY-PROBE-03\\artifacts\\director_invocation.json",
+    "persistence_verification_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_09E_Director_DeepSeek_Typed_Enum_Projection_V0.1\\evidence\\DIRECTOR-STRICT-COMPATIBILITY-PROBE-03\\artifacts\\director_persistence_verification.json",
+    "provider_success": true,
+    "persistence_verified": true,
+    "role_contract_success": false,
+    "success": false,
+    "usage": {
+      "provider": "deepseek",
+      "model": "deepseek-v4-pro",
+      "provider_invocation_id": "fd504697-3928-4e30-9a75-72d27e784a36",
+      "usage": {
+        "prompt_tokens": 13752,
+        "completion_tokens": 2474,
+        "total_tokens": 16226,
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 13752
+      },
+      "latency_ms": 48668,
+      "thinking_mode": "disabled",
+      "fixture_id": "E2E-FIX-01",
+      "request_success": true,
+      "requested_max_tokens": 3500,
+      "finish_reason": "tool_calls",
+      "structured_output": {
+        "function_name": "submit_director_package",
+        "transport": "forced_function"
+      }
+    },
+    "estimated_cost_cny": 0.0561,
+    "selected_completion_budget": 3500,
+    "provider_finish_reason": "tool_calls",
+    "response_characters": 5259,
+    "response_utf8_bytes": 9893,
+    "retry_count": 0,
+    "transport_auto_repairs": 0,
+    "structured_transport": {
+      "enabled": true,
+      "function_name": "submit_director_package",
+      "beta_provider_feature_used": true,
+      "required_tool_call_verified": true,
+      "arguments_parsed": true,
+      "schema_validated": false
+    },
+    "truncation_detection_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_09E_Director_DeepSeek_Typed_Enum_Projection_V0.1\\evidence\\DIRECTOR-STRICT-COMPATIBILITY-PROBE-03\\artifacts\\director_truncation_detection.json",
+    "truncation_assessment": {
+      "classification": "NOT_TRUNCATED",
+      "truncated": false,
+      "finish_reason": "tool_calls",
+      "completion_tokens": 2474,
+      "requested_max_tokens": 3500,
+      "json_complete": true,
+      "signals": [],
+      "persistence_verification_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_09E_Director_DeepSeek_Typed_Enum_Projection_V0.1\\evidence\\DIRECTOR-STRICT-COMPATIBILITY-PROBE-03\\artifacts\\director_persistence_verification.json"
+    },
+    "validation_error_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_09E_Director_DeepSeek_Typed_Enum_Projection_V0.1\\evidence\\DIRECTOR-STRICT-COMPATIBILITY-PROBE-03\\artifacts\\director_validation_error.json",
+    "failure": "Director payload did not match exact required field set"
+  }
+}

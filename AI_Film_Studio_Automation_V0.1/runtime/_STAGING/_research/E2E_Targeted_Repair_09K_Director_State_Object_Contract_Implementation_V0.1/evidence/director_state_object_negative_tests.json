@@ -1,0 +1,88 @@
+{
+  "classification": "DIRECTOR STATE OBJECT NEGATIVE TESTS",
+  "passed": 15,
+  "total": 15,
+  "result": "PASS",
+  "results": [
+    {
+      "id": "DIR-OBJ-NEG-01",
+      "result": "PASS",
+      "detail": "fixture/story literals are absent from compiler source"
+    },
+    {
+      "id": "DIR-OBJ-NEG-02",
+      "result": "PASS",
+      "detail": "model-defined dynamic key rejected"
+    },
+    {
+      "id": "DIR-OBJ-NEG-03",
+      "result": "PASS",
+      "detail": "trace property without source pointer rejected"
+    },
+    {
+      "id": "DIR-OBJ-NEG-04",
+      "result": "PASS",
+      "detail": "wrong scene key rejected"
+    },
+    {
+      "id": "DIR-OBJ-NEG-05",
+      "result": "PASS",
+      "detail": "wrong state dimension rejected"
+    },
+    {
+      "id": "DIR-OBJ-NEG-06",
+      "result": "PASS",
+      "detail": "invalid enum rejected"
+    },
+    {
+      "id": "DIR-OBJ-NEG-07",
+      "result": "PASS",
+      "detail": "source conflict fails compile instead of becoming ABSENT"
+    },
+    {
+      "id": "DIR-OBJ-NEG-08",
+      "result": "PASS",
+      "detail": "missing source fails compile instead of becoming ABSENT"
+    },
+    {
+      "id": "DIR-OBJ-NEG-09",
+      "result": "PASS",
+      "detail": "proposed_state object rejected"
+    },
+    {
+      "id": "DIR-OBJ-NEG-10",
+      "result": "PASS",
+      "detail": "knowledge_timing object rejected"
+    },
+    {
+      "id": "DIR-OBJ-NEG-11",
+      "result": "PASS",
+      "detail": "visual_state object rejected"
+    },
+    {
+      "id": "DIR-OBJ-NEG-12",
+      "result": "PASS",
+      "detail": "legacy JSON-object-string rejected"
+    },
+    {
+      "id": "DIR-OBJ-NEG-13",
+      "result": "PASS",
+      "detail": "additional nested key rejected"
+    },
+    {
+      "id": "DIR-OBJ-NEG-14",
+      "result": "PASS",
+      "detail": "prompt/function outer manifest drift rejected"
+    },
+    {
+      "id": "DIR-OBJ-NEG-15",
+      "result": "PASS",
+      "detail": "validator/function manifest drift rejected"
+    }
+  ],
+  "provider_calls": 0,
+  "executor_calls": 0,
+  "role_calls": 0,
+  "probe_calls": 0,
+  "e2e_runs": 0
+}

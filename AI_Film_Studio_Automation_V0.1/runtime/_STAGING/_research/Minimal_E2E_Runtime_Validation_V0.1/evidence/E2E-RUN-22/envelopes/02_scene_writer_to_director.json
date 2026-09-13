@@ -1,0 +1,57 @@
+{
+  "source_role": "Scene Writer",
+  "source_record_id": "E2E-RUN-22/scene_writer/1",
+  "version": "1.0",
+  "timestamp": "2026-09-01T08:55:16.222750+00:00",
+  "intended_recipient": "Director",
+  "handoff_reason": "Three-scene locked package",
+  "canon_assignment_locks": [
+    "same_cracked_bowl",
+    "crack_preserved",
+    "signboard_state allowed_tokens: signboard_on, signboard_off"
+  ],
+  "prohibited_changes": [
+    "SELL",
+    "KEEP",
+    "彻底和解"
+  ],
+  "canonical_mode": "CREATE",
+  "primary_state_or_outcome": "SCENE_CREATED",
+  "flags": "ABSENT",
+  "handoffs": "ABSENT",
+  "required_outcome": "ABSENT",
+  "unresolved_decisions": [
+    "shop_transfer_decision"
+  ],
+  "relevant_prior_state": {
+    "relationship_state": "母子关系疏离，未达成彻底和解",
+    "knowledge_state": "周启已知晓碗的意义，但未承认",
+    "visual_state": "signboard_on"
+  },
+  "current_state": {
+    "relationship_state": "周启承认早知道碗的意义，但未达成彻底和解",
+    "knowledge_state": "周启已明确承认早知道碗的意义",
+    "visual_state": "signboard_off"
+  },
+  "proposed_state": {
+    "relationship_state": "可增进理解或保持距离，不升级为彻底和解",
+    "knowledge_state": "碗的意义已被双方知晓",
+    "visual_state": "signboard_off"
+  },
+  "knowledge_timing": {
+    "reveal_of_shared_use": "周启承认早知道，仅发生于第二场",
+    "reveal_of_room_content": "碗的交接发生于第一场"
+  },
+  "relationship_state": {
+    "initial": "周岚与周启疏离，未和解",
+    "after_scene_1": "周岚不安，周启接过碗但回避表态",
+    "after_scene_3": "两人同意等待雨停，未达成彻底和解"
+  },
+  "visual_state": {
+    "scene_1": "招牌灯亮，店门紧闭，雨声不停",
+    "scene_2": "招牌灯由亮转灭",
+    "scene_3": "招牌灯灭，店内只剩雨声与暗影"
+  },
+  "authority_source": "Scene Writer canonical Skill output",
+  "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-22\\artifacts\\scene_writer_output.json"
+}

@@ -1,0 +1,61 @@
+{
+  "contract_identity": "scene-writer-runtime",
+  "contract_version": "0.1",
+  "skill": {
+    "identity": "scene-writer",
+    "version": "V0.1",
+    "sha256": "93e1be12988f8caa6cdd76acb5e6c1bf6ad3ca0dff5806a2ea93511e66052dfb",
+    "canonical_relative_path": "01_SKILLS/02_Scene_Writer/scene-writer/SKILL.md"
+  },
+  "input": {
+    "required_fields": ["request_id", "requested_mode"],
+    "allowed_modes": ["CREATE", "REVISE", "DIAGNOSE"],
+    "transport_fields": [
+      "project_id", "episode_id", "scene_id", "scene_request", "scene_purpose", "repair_target",
+      "canon_locks", "showrunner_locks", "participants", "character_context", "required_event",
+      "required_information", "required_outcome", "prior_scene_state", "desired_post_state",
+      "production_constraints", "requested_form", "downstream_requests", "qa_requests",
+      "output_language", "assignment_language"
+    ],
+    "output_language_policy": {
+      "allowed_values": ["zh-CN", "en-US"],
+      "precedence": ["output_language", "assignment_language"],
+      "missing_output_language_policy": "INHERIT_ASSIGNMENT_LANGUAGE",
+      "unresolved_policy": "CONTRACT_ERROR: OUTPUT_LANGUAGE_UNRESOLVED",
+      "language_inference": "PROHIBITED"
+    },
+    "assignment_fact_knowledge_policy": {
+      "locked_fact": "PRESERVE_EXACTLY",
+      "explicit_unknown": "DO_NOT_CONCRETIZE",
+      "unspecified_fact": "DO_NOT_CREATE_STORY_RELEVANT_FACT",
+      "creative_expression_space": ["wording", "immediate_action", "pause", "silence", "neutral_physical_behavior", "tactical_dialogue_construction"],
+      "temporal_specificity": "COARSE_TIME_MUST_NOT_BECOME_OBLIGATION_OR_CONTINUITY_RELEVANT_DEADLINE",
+      "language_inference": "NOT_APPLICABLE",
+      "world_fact_to_character_knowledge": "PROHIBITED_WITHOUT_ASSIGNMENT_SUPPORT"
+    }
+  },
+  "output": {
+    "runtime_statuses": ["SUCCESS", "FAIL_SAFE", "CONTRACT_ERROR"],
+    "primary_states": [
+      "SCENE_CREATED", "SCENE_REVISED", "NO_MATERIAL_CHANGE", "NEEDS_CONTEXT",
+      "UPSTREAM_DECISION_REQUIRED", "REQUEST_OUT_OF_SCOPE"
+    ],
+    "flags": [
+      "PRODUCTION_REVIEW_REQUIRED", "UPSTREAM_HANDOFF_REQUIRED", "SHARED_QA_HANDOFF_ELIGIBLE",
+      "DIRECTOR_HANDOFF_ELIGIBLE", "CHARACTER_ACTING_HANDOFF_ELIGIBLE",
+      "EXTERNAL_PRODUCTION_CONSTRAINT_DEFERRED", "EXTERNAL_PRODUCTION_CONSTRAINT_RECEIVED"
+    ],
+    "creative_kinds": ["scene", "revision"],
+    "control_fields": [
+      "primary_state", "flags", "handoffs", "scene_function", "objectives", "resistance",
+      "before_state", "state_after", "turn", "entry_rationale", "exit_rationale",
+      "production_burden", "unresolved_issue", "diagnosis_summary", "rule_hits", "audit_metadata",
+      "material_missing_context", "upstream_decision_needed", "out_of_scope_boundary",
+      "material_rewrite_claimed"
+    ],
+    "handoff_fields": [
+      "target_owner", "reason", "relevant_locks", "scene_function", "decision_needed",
+      "scene_writer_did_not_decide"
+    ]
+  }
+}

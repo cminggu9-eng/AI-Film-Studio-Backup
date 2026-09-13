@@ -1,0 +1,31 @@
+{
+  "lifecycle_stage": "USAGE_AND_INVOCATION_METADATA_PERSISTED",
+  "invocation_id": "E2E-RUN-04:art_director:1",
+  "role": "Art Director",
+  "timestamp": "2026-08-28T05:58:57.914670+00:00",
+  "input_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-04\\artifacts\\art_director_input.json",
+  "provider": "deepseek",
+  "model": "deepseek-v4-pro",
+  "provider_invocation_id": "57b0f476-55dd-4c15-8ebe-713a34334cd8",
+  "finish_reason": "stop",
+  "requested_max_tokens": 3500,
+  "usage": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-pro",
+    "provider_invocation_id": "57b0f476-55dd-4c15-8ebe-713a34334cd8",
+    "usage": {
+      "prompt_tokens": 15381,
+      "completion_tokens": 1609,
+      "total_tokens": 16990,
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 15381
+    },
+    "latency_ms": 35500,
+    "thinking_mode": "disabled",
+    "fixture_id": "E2E-FIX-01",
+    "request_success": true,
+    "requested_max_tokens": 3500,
+    "finish_reason": "stop",
+    "structured_output": null
+  }
+}

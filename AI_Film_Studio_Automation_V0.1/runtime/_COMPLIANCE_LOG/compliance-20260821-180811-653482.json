@@ -1,0 +1,81 @@
+{
+  "fixture": "RT-07-2",
+  "router": {
+    "routed_role": "Showrunner",
+    "mode": "SERIES_ENGINE",
+    "output_type": "Series Engine Report",
+    "activated_modules": [
+      "Series Engine",
+      "Continuing Drive"
+    ],
+    "trigger": "series/season/episode intent",
+    "boundary_contract": null,
+    "skill_name": "ai-film-studio-showrunner",
+    "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+    "file_exists": true,
+    "file_readable": true,
+    "skill_name_correct": true,
+    "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+    "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+    "hash_match": true,
+    "invocation_receipt": {
+      "timestamp": "2026-08-21T10:08:11+00:00",
+      "task": "以后每集结尾必须大悬念。",
+      "routed_role": "Showrunner",
+      "skill_name": "ai-film-studio-showrunner",
+      "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+      "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "hash_match": true,
+      "skill_name_match": true,
+      "project_state": "UNKNOWN",
+      "mode": "SERIES_ENGINE",
+      "output_type": "Series Engine Report",
+      "activated_modules": [
+        "Series Engine",
+        "Continuing Drive"
+      ],
+      "boundary_contract": null
+    }
+  },
+  "gate": {
+    "status": "GATE_RECOVERED",
+    "candidate_version": "V2",
+    "correction_count": 1,
+    "violations": [],
+    "receipt": {
+      "timestamp": "2026-08-21T10:08:11+00:00",
+      "task": "以后每集结尾必须大悬念。",
+      "routed_role": "Showrunner",
+      "skill_name": "ai-film-studio-showrunner",
+      "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+      "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "hash_match": true,
+      "skill_name_match": true,
+      "project_state": "DRAFT",
+      "mode": "SERIES_ENGINE",
+      "output_type": "Series Engine Report",
+      "activated_modules": [
+        "Series Engine",
+        "Continuing Drive"
+      ],
+      "boundary_contract": null
+    },
+    "active_rules": [
+      "GLOBAL",
+      "BOUNDARY_CONTRACT",
+      "ANTI_MECHANICAL",
+      "PRODUCTION_REALITY"
+    ],
+    "next": "USER_OUTPUT",
+    "final_delivery_status": "READY_AFTER_ONE_CORRECTION",
+    "first_candidate_violations": [
+      {
+        "code": "FIXED_EPISODE_QUOTA",
+        "offending_text": "以后每集结尾必须大悬念",
+        "expected_behavior": "Use an explicitly project-specific, conditional heuristic instead of a cross-project pacing or episode quota."
+      }
+    ]
+  }
+}

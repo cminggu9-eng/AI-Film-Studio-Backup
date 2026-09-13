@@ -1,0 +1,176 @@
+{
+  "receipt": {
+    "timestamp": "2026-08-24T02:39:34+00:00",
+    "task": "三个年轻人经营花店的轻松连续短剧，如何持续更新？",
+    "routed_role": "Showrunner",
+    "skill_name": "ai-film-studio-showrunner",
+    "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+    "installed_hash": "09CAC2F44C6E83BF58860481D05B28606DA99A4A80183AA36DC7AF1308EA2DFD",
+    "canonical_hash": "0847EE3521A915936E97FA1F72D081F0788876F003E071918F517B0A46AE999C",
+    "hash_match": false,
+    "skill_name_match": true,
+    "project_state": "DRAFT",
+    "mode": "FORMAT_FIT",
+    "output_type": "Concept Diagnosis",
+    "activated_modules": [
+      "Project State",
+      "Format Fit",
+      "Story Purpose",
+      "Character Engine"
+    ],
+    "boundary_contract": null
+  },
+  "candidate_v1": {
+    "task": "三个年轻人经营花店的轻松连续短剧，如何持续更新？",
+    "routed_role": "Showrunner",
+    "skill_name": "ai-film-studio-showrunner",
+    "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+    "mode": "FORMAT_FIT",
+    "output_type": "Concept Diagnosis",
+    "activated_modules": [
+      "Project State",
+      "Format Fit",
+      "Story Purpose",
+      "Character Engine"
+    ],
+    "boundary_contract": null,
+    "project_state": "DRAFT",
+    "candidate_version": "V1",
+    "candidate_output": "以顾客需求、三人关系、日常经营责任与未完成情绪作为系列发动机；每种单集形态都只是当前项目可选方案，不设固定公式、集数或节奏配额。"
+  },
+  "gate_v1": {
+    "status": "FAIL",
+    "candidate_version": "V1",
+    "correction_count": 0,
+    "violations": [
+      {
+        "code": "SKILL_HASH_MISMATCH",
+        "offending_text": "canonical=0847EE3521A915936E97FA1F72D081F0788876F003E071918F517B0A46AE999C installed=09CAC2F44C6E83BF58860481D05B28606DA99A4A80183AA36DC7AF1308EA2DFD",
+        "expected_behavior": "Block execution when installed Skill differs from canonical."
+      }
+    ],
+    "receipt": {
+      "timestamp": "2026-08-24T02:39:34+00:00",
+      "task": "三个年轻人经营花店的轻松连续短剧，如何持续更新？",
+      "routed_role": "Showrunner",
+      "skill_name": "ai-film-studio-showrunner",
+      "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+      "installed_hash": "09CAC2F44C6E83BF58860481D05B28606DA99A4A80183AA36DC7AF1308EA2DFD",
+      "canonical_hash": "0847EE3521A915936E97FA1F72D081F0788876F003E071918F517B0A46AE999C",
+      "hash_match": false,
+      "skill_name_match": true,
+      "project_state": "DRAFT",
+      "mode": "FORMAT_FIT",
+      "output_type": "Concept Diagnosis",
+      "activated_modules": [
+        "Project State",
+        "Format Fit",
+        "Story Purpose",
+        "Character Engine"
+      ],
+      "boundary_contract": null
+    },
+    "active_rules": [
+      "GLOBAL",
+      "BOUNDARY_CONTRACT",
+      "ANTI_MECHANICAL",
+      "PRODUCTION_REALITY"
+    ],
+    "next": "COMPLIANCE VIOLATION REPORT",
+    "final_delivery_status": "BLOCKED_PENDING"
+  },
+  "violations": [
+    {
+      "code": "SKILL_HASH_MISMATCH",
+      "offending_text": "canonical=0847EE3521A915936E97FA1F72D081F0788876F003E071918F517B0A46AE999C installed=09CAC2F44C6E83BF58860481D05B28606DA99A4A80183AA36DC7AF1308EA2DFD",
+      "expected_behavior": "Block execution when installed Skill differs from canonical."
+    }
+  ],
+  "correction_count": 0,
+  "candidate_v2": null,
+  "gate_v2": null,
+  "final_delivery_status": "BLOCKED",
+  "router": {
+    "routed_role": "Showrunner",
+    "mode": "FORMAT_FIT",
+    "output_type": "Concept Diagnosis",
+    "activated_modules": [
+      "Project State",
+      "Format Fit",
+      "Story Purpose",
+      "Character Engine"
+    ],
+    "trigger": "idea/format-fit intent",
+    "boundary_contract": null,
+    "skill_name": "ai-film-studio-showrunner",
+    "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+    "file_exists": true,
+    "file_readable": true,
+    "skill_name_correct": true,
+    "installed_hash": "09CAC2F44C6E83BF58860481D05B28606DA99A4A80183AA36DC7AF1308EA2DFD",
+    "canonical_hash": "0847EE3521A915936E97FA1F72D081F0788876F003E071918F517B0A46AE999C",
+    "hash_match": false,
+    "invocation_receipt": {
+      "timestamp": "2026-08-24T02:39:34+00:00",
+      "task": "三个年轻人经营花店的轻松连续短剧，如何持续更新？",
+      "routed_role": "Showrunner",
+      "skill_name": "ai-film-studio-showrunner",
+      "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+      "installed_hash": "09CAC2F44C6E83BF58860481D05B28606DA99A4A80183AA36DC7AF1308EA2DFD",
+      "canonical_hash": "0847EE3521A915936E97FA1F72D081F0788876F003E071918F517B0A46AE999C",
+      "hash_match": false,
+      "skill_name_match": true,
+      "project_state": "UNKNOWN",
+      "mode": "FORMAT_FIT",
+      "output_type": "Concept Diagnosis",
+      "activated_modules": [
+        "Project State",
+        "Format Fit",
+        "Story Purpose",
+        "Character Engine"
+      ],
+      "boundary_contract": null
+    }
+  },
+  "gate_final": {
+    "status": "FAIL",
+    "candidate_version": "V1",
+    "correction_count": 0,
+    "violations": [
+      {
+        "code": "SKILL_HASH_MISMATCH",
+        "offending_text": "canonical=0847EE3521A915936E97FA1F72D081F0788876F003E071918F517B0A46AE999C installed=09CAC2F44C6E83BF58860481D05B28606DA99A4A80183AA36DC7AF1308EA2DFD",
+        "expected_behavior": "Block execution when installed Skill differs from canonical."
+      }
+    ],
+    "receipt": {
+      "timestamp": "2026-08-24T02:39:34+00:00",
+      "task": "三个年轻人经营花店的轻松连续短剧，如何持续更新？",
+      "routed_role": "Showrunner",
+      "skill_name": "ai-film-studio-showrunner",
+      "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+      "installed_hash": "09CAC2F44C6E83BF58860481D05B28606DA99A4A80183AA36DC7AF1308EA2DFD",
+      "canonical_hash": "0847EE3521A915936E97FA1F72D081F0788876F003E071918F517B0A46AE999C",
+      "hash_match": false,
+      "skill_name_match": true,
+      "project_state": "DRAFT",
+      "mode": "FORMAT_FIT",
+      "output_type": "Concept Diagnosis",
+      "activated_modules": [
+        "Project State",
+        "Format Fit",
+        "Story Purpose",
+        "Character Engine"
+      ],
+      "boundary_contract": null
+    },
+    "active_rules": [
+      "GLOBAL",
+      "BOUNDARY_CONTRACT",
+      "ANTI_MECHANICAL",
+      "PRODUCTION_REALITY"
+    ],
+    "next": "BLOCKED FOR RUNTIME COMPLIANCE",
+    "final_delivery_status": "BLOCKED"
+  }
+}

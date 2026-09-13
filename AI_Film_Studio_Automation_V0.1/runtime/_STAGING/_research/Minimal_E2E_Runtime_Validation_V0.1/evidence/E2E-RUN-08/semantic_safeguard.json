@@ -1,0 +1,56 @@
+{
+  "integration_decision": "BLOCK",
+  "allowed_labels": [
+    "PASS",
+    "FLAG",
+    "BLOCK",
+    "HANDOFF"
+  ],
+  "layer_a": {
+    "name": "Deterministic Evidence / Contract Gate",
+    "findings": [
+      {
+        "label": "BLOCK",
+        "code": "UNAUTHORIZED_STATE_CHANGE",
+        "assertion_id": "AUTHORIZED-TRANSITION",
+        "detail": "State change has no supplied authorization.",
+        "authority_source": "E2E-FIX-01",
+        "evidence_locator": "scene_packages/E2E-FIX-01-S03"
+      }
+    ],
+    "source_role": "Scene Writer",
+    "source_record_id": "E2E-RUN-08/scene_writer/1",
+    "version": "1.0",
+    "locks": [
+      "A-17",
+      "brass_key",
+      "shared_storage_reveal",
+      "storage_room_opening"
+    ],
+    "current_state": {
+      "relationship_state": "疏远，被迫协商",
+      "knowledge_state": "许曼仍独知共享储物间事实",
+      "visual_state": "许宁湿透制服→换衣"
+    },
+    "authority_source": "Scene Writer canonical Skill output",
+    "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-08\\artifacts\\scene_writer_output.json"
+  },
+  "layer_b": {
+    "layer": "B",
+    "independent_review_required": false,
+    "review_candidates": [],
+    "allowed_labels": [
+      "PASS",
+      "FLAG",
+      "BLOCK",
+      "HANDOFF"
+    ],
+    "provider_execution": "NOT_AUTHORIZED",
+    "creative_output_sha256": "3ffe1f914c52e660115204ac2d6f313eedcd70ddb637b2526c2c659f0c19b52a",
+    "review_status": "PASS"
+  },
+  "legacy_verifier_result": "ABSENT",
+  "legacy_verifier_role": "SUPPLEMENTAL_SIGNAL_ONLY",
+  "creative_output_sha256": "3ffe1f914c52e660115204ac2d6f313eedcd70ddb637b2526c2c659f0c19b52a",
+  "creative_output_rewrite": "PROHIBITED"
+}

@@ -1,0 +1,188 @@
+{
+  "receipt": {
+    "timestamp": "2026-08-24T02:39:34+00:00",
+    "task": "Runtime Gate recovery proof",
+    "routed_role": "Unmatched",
+    "skill_name": null,
+    "skill_path": null,
+    "installed_hash": "09CAC2F44C6E83BF58860481D05B28606DA99A4A80183AA36DC7AF1308EA2DFD",
+    "canonical_hash": "0847EE3521A915936E97FA1F72D081F0788876F003E071918F517B0A46AE999C",
+    "hash_match": false,
+    "skill_name_match": true,
+    "project_state": "DRAFT",
+    "mode": "UNMATCHED",
+    "output_type": "No Showrunner Output",
+    "activated_modules": [],
+    "boundary_contract": null
+  },
+  "candidate_v1": {
+    "task": "Runtime Gate recovery proof",
+    "routed_role": "Unmatched",
+    "skill_name": null,
+    "skill_path": null,
+    "mode": "UNMATCHED",
+    "output_type": "No Showrunner Output",
+    "activated_modules": [],
+    "boundary_contract": null,
+    "project_state": "DRAFT",
+    "candidate_version": "V1",
+    "candidate_output": "以后所有项目每 60 秒必须发生一次有效变化，每三分钟至少一次反转，每集必须 cliffhanger。"
+  },
+  "gate_v1": {
+    "status": "FAIL",
+    "candidate_version": "V1",
+    "correction_count": 0,
+    "violations": [
+      {
+        "code": "FIXED_PACING_OR_REVERSAL",
+        "offending_text": "以后所有项目每 60 秒必须发生一次有效变化，每三分钟至少一次反转，每集必须 cliffhanger",
+        "expected_behavior": "Use an explicitly project-specific, conditional heuristic instead of a cross-project pacing or episode quota."
+      }
+    ],
+    "receipt": {
+      "timestamp": "2026-08-24T02:39:34+00:00",
+      "task": "Runtime Gate recovery proof",
+      "routed_role": "Unmatched",
+      "skill_name": null,
+      "skill_path": null,
+      "installed_hash": "09CAC2F44C6E83BF58860481D05B28606DA99A4A80183AA36DC7AF1308EA2DFD",
+      "canonical_hash": "0847EE3521A915936E97FA1F72D081F0788876F003E071918F517B0A46AE999C",
+      "hash_match": false,
+      "skill_name_match": true,
+      "project_state": "DRAFT",
+      "mode": "UNMATCHED",
+      "output_type": "No Showrunner Output",
+      "activated_modules": [],
+      "boundary_contract": null
+    },
+    "active_rules": [
+      "GLOBAL",
+      "BOUNDARY_CONTRACT",
+      "ANTI_MECHANICAL",
+      "PRODUCTION_REALITY"
+    ],
+    "next": "COMPLIANCE VIOLATION REPORT",
+    "final_delivery_status": "BLOCKED_PENDING"
+  },
+  "violations": [
+    {
+      "code": "FIXED_PACING_OR_REVERSAL",
+      "offending_text": "以后所有项目每 60 秒必须发生一次有效变化，每三分钟至少一次反转，每集必须 cliffhanger",
+      "expected_behavior": "Use an explicitly project-specific, conditional heuristic instead of a cross-project pacing or episode quota."
+    }
+  ],
+  "correction_count": 1,
+  "candidate_v2": {
+    "task": "Runtime Gate recovery proof",
+    "routed_role": "Unmatched",
+    "skill_name": null,
+    "skill_path": null,
+    "mode": "UNMATCHED",
+    "output_type": "No Showrunner Output",
+    "activated_modules": [],
+    "boundary_contract": null,
+    "project_state": "DRAFT",
+    "candidate_version": "V2",
+    "candidate_output": "当前项目可以根据时长与观众目标测试关系或信息状态变化；这是项目级启发式，不设固定配额。"
+  },
+  "gate_v2": {
+    "status": "PASS",
+    "candidate_version": "V2",
+    "correction_count": 0,
+    "violations": [],
+    "receipt": {
+      "timestamp": "2026-08-24T02:39:34+00:00",
+      "task": "Runtime Gate recovery proof",
+      "routed_role": "Unmatched",
+      "skill_name": null,
+      "skill_path": null,
+      "installed_hash": "09CAC2F44C6E83BF58860481D05B28606DA99A4A80183AA36DC7AF1308EA2DFD",
+      "canonical_hash": "0847EE3521A915936E97FA1F72D081F0788876F003E071918F517B0A46AE999C",
+      "hash_match": false,
+      "skill_name_match": true,
+      "project_state": "DRAFT",
+      "mode": "UNMATCHED",
+      "output_type": "No Showrunner Output",
+      "activated_modules": [],
+      "boundary_contract": null
+    },
+    "active_rules": [
+      "GLOBAL",
+      "BOUNDARY_CONTRACT",
+      "ANTI_MECHANICAL",
+      "PRODUCTION_REALITY"
+    ],
+    "next": "USER_OUTPUT",
+    "final_delivery_status": "READY"
+  },
+  "final_delivery_status": "READY_AFTER_ONE_CORRECTION",
+  "router": {
+    "routed_role": "Unmatched",
+    "mode": "UNMATCHED",
+    "output_type": "No Showrunner Output",
+    "activated_modules": [],
+    "trigger": "no configured intent",
+    "boundary_contract": null,
+    "skill_name": null,
+    "skill_path": null,
+    "file_exists": true,
+    "file_readable": true,
+    "skill_name_correct": true,
+    "installed_hash": "09CAC2F44C6E83BF58860481D05B28606DA99A4A80183AA36DC7AF1308EA2DFD",
+    "canonical_hash": "0847EE3521A915936E97FA1F72D081F0788876F003E071918F517B0A46AE999C",
+    "hash_match": false,
+    "invocation_receipt": {
+      "timestamp": "2026-08-24T02:39:34+00:00",
+      "task": "Runtime Gate recovery proof",
+      "routed_role": "Unmatched",
+      "skill_name": null,
+      "skill_path": null,
+      "installed_hash": "09CAC2F44C6E83BF58860481D05B28606DA99A4A80183AA36DC7AF1308EA2DFD",
+      "canonical_hash": "0847EE3521A915936E97FA1F72D081F0788876F003E071918F517B0A46AE999C",
+      "hash_match": false,
+      "skill_name_match": true,
+      "project_state": "UNKNOWN",
+      "mode": "UNMATCHED",
+      "output_type": "No Showrunner Output",
+      "activated_modules": [],
+      "boundary_contract": null
+    }
+  },
+  "gate_final": {
+    "status": "GATE_RECOVERED",
+    "candidate_version": "V2",
+    "correction_count": 1,
+    "violations": [],
+    "receipt": {
+      "timestamp": "2026-08-24T02:39:34+00:00",
+      "task": "Runtime Gate recovery proof",
+      "routed_role": "Unmatched",
+      "skill_name": null,
+      "skill_path": null,
+      "installed_hash": "09CAC2F44C6E83BF58860481D05B28606DA99A4A80183AA36DC7AF1308EA2DFD",
+      "canonical_hash": "0847EE3521A915936E97FA1F72D081F0788876F003E071918F517B0A46AE999C",
+      "hash_match": false,
+      "skill_name_match": true,
+      "project_state": "DRAFT",
+      "mode": "UNMATCHED",
+      "output_type": "No Showrunner Output",
+      "activated_modules": [],
+      "boundary_contract": null
+    },
+    "active_rules": [
+      "GLOBAL",
+      "BOUNDARY_CONTRACT",
+      "ANTI_MECHANICAL",
+      "PRODUCTION_REALITY"
+    ],
+    "next": "USER_OUTPUT",
+    "final_delivery_status": "READY_AFTER_ONE_CORRECTION",
+    "first_candidate_violations": [
+      {
+        "code": "FIXED_PACING_OR_REVERSAL",
+        "offending_text": "以后所有项目每 60 秒必须发生一次有效变化，每三分钟至少一次反转，每集必须 cliffhanger",
+        "expected_behavior": "Use an explicitly project-specific, conditional heuristic instead of a cross-project pacing or episode quota."
+      }
+    ]
+  }
+}

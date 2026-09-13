@@ -1,0 +1,48 @@
+{
+  "case_id": "BB-04",
+  "candidate_v1": {
+    "case_id": "BB-04",
+    "task": "咖啡馆这场戏到底用 35mm 还是 85mm？镜头怎么切？",
+    "candidate_version": "V1",
+    "candidate_output": "下游 Director / Cinematography 的结论：\n\n**以 35mm 为主，85mm 只在关系或信息发生转折时切入。**\n\n如果这是咖啡馆里的两人隐性对峙：\n\n1. **35mm 开场**：交代两人的座位、门口、邻桌和逃离路径，保留空间压力。\n2. **35mm 双人或过肩**：让对话先靠调度和视线关系推进，不要一句一切。\n3. **第一次关键隐瞒**：切 85mm 到听者，保留对方说完后的反应空白。\n4. **听者确认对方在撒谎**：切 85mm 到说话者，背景压缩，开始产生心理封闭感。\n5. **反击或信息揭露**：用动作或台词触发切换，不按固定秒数切。\n6. **关系状态改变后**：回到 35mm，让观众重新看见桌面、出口和两人的新距离。\n7. **结尾**：若人物选择沉默，用 85mm 收住；若重点是后果或离开，用 35mm 留出空间。\n\n如果整场只能选一个焦段，选 **35mm**。85mm 全程会抹掉咖啡馆的空间关系，让每句对白都变成同一种“心理特写”。\n\n核心规则是：\n\n> **35mm 负责关系和空间，85mm 负责判断和压迫。切镜发生在权力、信息或选择改变时。**\n\n另外，AI 生成时建议只保留一个 35mm 主视觉母版，85mm 限定在“听懂谎言”和“做出选择”两个节点，连戏会更稳定。\n\n",
+    "project_state": "DRAFT",
+    "routed_role": "Director / Cinematography Boundary",
+    "mode": "DIRECTOR_BOUNDARY",
+    "output_type": "Downstream Handoff Package",
+    "activated_modules": [
+      "Role Boundary"
+    ]
+  },
+  "gate_v1": {
+    "status": "PASS",
+    "candidate_version": "V1",
+    "correction_count": 0,
+    "violations": [],
+    "receipt": {
+      "timestamp": "2026-08-21T08:48:13+00:00",
+      "task": "咖啡馆这场戏到底用 35mm 还是 85mm？镜头怎么切？",
+      "routed_role": "Director / Cinematography Boundary",
+      "skill_name": "ai-film-studio-showrunner",
+      "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+      "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "hash_match": true,
+      "skill_name_match": true,
+      "project_state": "DRAFT",
+      "mode": "DIRECTOR_BOUNDARY",
+      "output_type": "Downstream Handoff Package",
+      "activated_modules": [
+        "Role Boundary"
+      ]
+    },
+    "active_rules": [
+      "GLOBAL",
+      "ANTI_MECHANICAL",
+      "PRODUCTION_REALITY"
+    ],
+    "next": "USER_OUTPUT"
+  },
+  "candidate_v2": null,
+  "gate_v2": null,
+  "final_delivery": "下游 Director / Cinematography 的结论：\n\n**以 35mm 为主，85mm 只在关系或信息发生转折时切入。**\n\n如果这是咖啡馆里的两人隐性对峙：\n\n1. **35mm 开场**：交代两人的座位、门口、邻桌和逃离路径，保留空间压力。\n2. **35mm 双人或过肩**：让对话先靠调度和视线关系推进，不要一句一切。\n3. **第一次关键隐瞒**：切 85mm 到听者，保留对方说完后的反应空白。\n4. **听者确认对方在撒谎**：切 85mm 到说话者，背景压缩，开始产生心理封闭感。\n5. **反击或信息揭露**：用动作或台词触发切换，不按固定秒数切。\n6. **关系状态改变后**：回到 35mm，让观众重新看见桌面、出口和两人的新距离。\n7. **结尾**：若人物选择沉默，用 85mm 收住；若重点是后果或离开，用 35mm 留出空间。\n\n如果整场只能选一个焦段，选 **35mm**。85mm 全程会抹掉咖啡馆的空间关系，让每句对白都变成同一种“心理特写”。\n\n核心规则是：\n\n> **35mm 负责关系和空间，85mm 负责判断和压迫。切镜发生在权力、信息或选择改变时。**\n\n另外，AI 生成时建议只保留一个 35mm 主视觉母版，85mm 限定在“听懂谎言”和“做出选择”两个节点，连戏会更稳定。\n\n"
+}

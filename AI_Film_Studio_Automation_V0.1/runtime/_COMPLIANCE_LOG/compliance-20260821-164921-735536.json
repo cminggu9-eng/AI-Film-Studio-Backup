@@ -1,0 +1,66 @@
+{
+  "case_id": "BB-03",
+  "candidate_v1": {
+    "case_id": "BB-03",
+    "task": "请帮我审查这个制作范围：我在开发一部 8 集、每集 8 分钟的 AI 城市惊悚连续剧。目标观众体验是：一个普通人置身组织系统中，逐渐失去安全感、信任感与主动权。核心故事价值是主角的主动选择；他与直属上司的信任关系；他和记者朋友之间的信息交换；法务代表施加的许可压力；并且每次调查都要付出资源或关系代价。当前草案有 18 个角色、14 个地点、港口人群冲突、董事会会议、车辆追逐和仓库事故。请降低 AI 制作复杂度，但保留这些核心戏剧价值，并给出最终可执行的范围决定。",
+    "candidate_output": "V1 omitted required Production Reality labels; original evidence: compliance-20260821-164811-991440.json",
+    "project_state": "DRAFT",
+    "candidate_version": "V1",
+    "routed_role": "Showrunner",
+    "mode": "PRODUCTION_SCOPE_REVIEW",
+    "output_type": "Production Scope Review",
+    "activated_modules": [
+      "Production Reality"
+    ]
+  },
+  "candidate_v2": {
+    "case_id": "BB-03",
+    "task": "请帮我审查这个制作范围：我在开发一部 8 集、每集 8 分钟的 AI 城市惊悚连续剧。目标观众体验是：一个普通人置身组织系统中，逐渐失去安全感、信任感与主动权。核心故事价值是主角的主动选择；他与直属上司的信任关系；他和记者朋友之间的信息交换；法务代表施加的许可压力；并且每次调查都要付出资源或关系代价。当前草案有 18 个角色、14 个地点、港口人群冲突、董事会会议、车辆追逐和仓库事故。请降低 AI 制作复杂度，但保留这些核心戏剧价值，并给出最终可执行的范围决定。",
+    "candidate_output": "### Creative Intent\n\n保留：一个普通人置身组织系统，逐渐失去安全感、信任感与主动权。\n\n核心价值：\n\n- 主角必须主动选择；\n- 上司关系经历保护、怀疑与重新选择；\n- 记者朋友通过信息交换承担风险；\n- 法务代表制造许可、披露、签字或时限压力；\n- 每次调查付出资源或关系代价。\n\n### Essential Dramatic Function\n\n保留 4 名核心角色：\n\n- 主角；\n- 直属上司；\n- 记者朋友；\n- 法务代表。\n\n保留 4 次主要调查，每次产生明确代价：权限、时间、资源、信任、安全或证据完整性。\n\n### Cost Driver\n\n原草案包含：\n\n- 18 个角色；\n- 14 个地点；\n- 港口人群冲突；\n- 完整董事会会议；\n- 车辆追逐；\n- 仓库事故。\n\n主要成本来自群演、地点切换、车辆动作、复杂空间连续性、事故特效和角色数量。\n\n### Alternate Execution\n\n- 角色压缩为 4 名核心角色，最多 2 个一次性功能位。\n- 地点压缩为 3 个地点族、最多 5 个可复用场景单元。\n- 港口人群冲突改为门禁对峙、局部人物、远处声音或手机画面。\n- 董事会会议改为同一会议室中的远程会议、屏幕、电话和文件压力。\n- 车辆追逐从基础范围删除，改为被跟踪、堵路、车辆内交换或定位压力。\n- 仓库事故保留事故后果，改为局部设备故障、警报、损坏物证和事故报告。\n\n### Scope Decision\n\n批准范围为：\n\n**8 集 × 每集 8 分钟；4 名核心角色；3 个地点族；4 次调查循环；取消大规模追车与群众冲突。**\n\n制作边界：\n\n- 单集通常不超过 3 名有台词角色；\n- 单集最多使用 2 个可见场景单元；\n- 不新增主要角色或地点族；\n- 每集最多 1 个高风险动作事件；\n- 不制作真实群众调度、完整董事会群像、连续车辆追逐或大型仓库破坏。\n\n如果坚持保留完整追车、群众冲突和实体董事会会议，则标记为 `BLOCKED FOR SCOPE`，改为分阶段制作或缩短形式。",
+    "project_state": "DRAFT",
+    "candidate_version": "V2",
+    "routed_role": "Showrunner",
+    "mode": "PRODUCTION_SCOPE_REVIEW",
+    "output_type": "Production Scope Review",
+    "activated_modules": [
+      "Production Reality"
+    ]
+  },
+  "gate_final": {
+    "status": "GATE_RECOVERED",
+    "candidate_version": "V2",
+    "correction_count": 1,
+    "violations": [],
+    "receipt": {
+      "timestamp": "2026-08-21T08:49:21+00:00",
+      "task": "请帮我审查这个制作范围：我在开发一部 8 集、每集 8 分钟的 AI 城市惊悚连续剧。目标观众体验是：一个普通人置身组织系统中，逐渐失去安全感、信任感与主动权。核心故事价值是主角的主动选择；他与直属上司的信任关系；他和记者朋友之间的信息交换；法务代表施加的许可压力；并且每次调查都要付出资源或关系代价。当前草案有 18 个角色、14 个地点、港口人群冲突、董事会会议、车辆追逐和仓库事故。请降低 AI 制作复杂度，但保留这些核心戏剧价值，并给出最终可执行的范围决定。",
+      "routed_role": "Showrunner",
+      "skill_name": "ai-film-studio-showrunner",
+      "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+      "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "hash_match": true,
+      "skill_name_match": true,
+      "project_state": "DRAFT",
+      "mode": "PRODUCTION_SCOPE_REVIEW",
+      "output_type": "Production Scope Review",
+      "activated_modules": [
+        "Production Reality"
+      ]
+    },
+    "active_rules": [
+      "GLOBAL",
+      "ANTI_MECHANICAL",
+      "PRODUCTION_REALITY"
+    ],
+    "next": "USER_OUTPUT",
+    "first_candidate_violations": [
+      {
+        "code": "PRODUCTION_SCOPE_FIELDS_MISSING",
+        "offending_text": "Creative Intent, Essential Dramatic Function, Cost Driver, Alternate Execution, Scope Decision",
+        "expected_behavior": "Expose all five Production Reality fields, including DEFERRED when input is insufficient."
+      }
+    ]
+  },
+  "final_delivery": "### Creative Intent\n\n保留：一个普通人置身组织系统，逐渐失去安全感、信任感与主动权。\n\n核心价值：\n\n- 主角必须主动选择；\n- 上司关系经历保护、怀疑与重新选择；\n- 记者朋友通过信息交换承担风险；\n- 法务代表制造许可、披露、签字或时限压力；\n- 每次调查付出资源或关系代价。\n\n### Essential Dramatic Function\n\n保留 4 名核心角色：\n\n- 主角；\n- 直属上司；\n- 记者朋友；\n- 法务代表。\n\n保留 4 次主要调查，每次产生明确代价：权限、时间、资源、信任、安全或证据完整性。\n\n### Cost Driver\n\n原草案包含：\n\n- 18 个角色；\n- 14 个地点；\n- 港口人群冲突；\n- 完整董事会会议；\n- 车辆追逐；\n- 仓库事故。\n\n主要成本来自群演、地点切换、车辆动作、复杂空间连续性、事故特效和角色数量。\n\n### Alternate Execution\n\n- 角色压缩为 4 名核心角色，最多 2 个一次性功能位。\n- 地点压缩为 3 个地点族、最多 5 个可复用场景单元。\n- 港口人群冲突改为门禁对峙、局部人物、远处声音或手机画面。\n- 董事会会议改为同一会议室中的远程会议、屏幕、电话和文件压力。\n- 车辆追逐从基础范围删除，改为被跟踪、堵路、车辆内交换或定位压力。\n- 仓库事故保留事故后果，改为局部设备故障、警报、损坏物证和事故报告。\n\n### Scope Decision\n\n批准范围为：\n\n**8 集 × 每集 8 分钟；4 名核心角色；3 个地点族；4 次调查循环；取消大规模追车与群众冲突。**\n\n制作边界：\n\n- 单集通常不超过 3 名有台词角色；\n- 单集最多使用 2 个可见场景单元；\n- 不新增主要角色或地点族；\n- 每集最多 1 个高风险动作事件；\n- 不制作真实群众调度、完整董事会群像、连续车辆追逐或大型仓库破坏。\n\n如果坚持保留完整追车、群众冲突和实体董事会会议，则标记为 `BLOCKED FOR SCOPE`，改为分阶段制作或缩短形式。"
+}

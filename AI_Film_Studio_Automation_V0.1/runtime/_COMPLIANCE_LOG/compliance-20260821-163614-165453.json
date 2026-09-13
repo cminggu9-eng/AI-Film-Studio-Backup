@@ -1,0 +1,46 @@
+{
+  "fixture": "BB-07-R2",
+  "result": {
+    "status": "FAIL",
+    "candidate_version": "V1",
+    "correction_count": 0,
+    "violations": [
+      {
+        "code": "FIXED_PACING_OR_REVERSAL",
+        "offending_text": "每三分钟左右至少发生一次有效变化"
+      },
+      {
+        "code": "FIXED_PACING_OR_REVERSAL",
+        "offending_text": "原则上每三分钟左右至少发生一次有效变化"
+      },
+      {
+        "code": "FIXED_CLIFFHANGER_QUOTA",
+        "offending_text": "每集结尾必须留下明确的未解决问题形成悬念"
+      }
+    ],
+    "receipt": {
+      "timestamp": "2026-08-21T08:36:14+00:00",
+      "task": "QA fixture",
+      "routed_role": "Showrunner",
+      "skill_name": "ai-film-studio-showrunner",
+      "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+      "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "hash_match": true,
+      "skill_name_match": true,
+      "project_state": "DRAFT",
+      "mode": "SERIES_ENGINE",
+      "output_type": "Series Engine Report",
+      "activated_modules": [
+        "Series Engine",
+        "Continuing Drive"
+      ]
+    },
+    "active_rules": [
+      "GLOBAL",
+      "ANTI_MECHANICAL",
+      "PRODUCTION_REALITY"
+    ],
+    "next": "COMPLIANCE VIOLATION REPORT"
+  }
+}

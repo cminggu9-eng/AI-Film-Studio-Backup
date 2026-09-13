@@ -1,0 +1,252 @@
+{
+  "run_id": "E2E-RUN-13",
+  "append_only": true,
+  "entries": [
+    {
+      "entry_id": "E2E-RUN-13:001",
+      "sequence": 1,
+      "envelope": {
+        "source_role": "Scene Writer",
+        "source_record_id": "E2E-RUN-13/scene_writer/E2E-FIX-01-S01",
+        "version": "1.0",
+        "timestamp": "2026-08-30T01:26:34.780587+00:00",
+        "intended_recipient": "Continuity",
+        "handoff_reason": "Per-scene state evidence",
+        "canon_assignment_locks": [
+          "A-17",
+          "brass_key",
+          "shared_storage_reveal not before scene 3",
+          "storage_room_opening"
+        ],
+        "prohibited_changes": [
+          "完全和解"
+        ],
+        "canonical_mode": "CREATE",
+        "primary_state_or_outcome": "SCENE_CREATED",
+        "flags": "ABSENT",
+        "handoffs": "ABSENT",
+        "required_outcome": "ABSENT",
+        "unresolved_decisions": [
+          "storage_room_opening"
+        ],
+        "relevant_prior_state": {
+          "key_identity": "A-17",
+          "custody": "许宁自雨中带来，放于桌面，向许曼出示"
+        },
+        "current_state": {
+          "key_identity": "A-17",
+          "custody": "许宁自雨中带来，放于桌面，向许曼出示",
+          "knowledge_holders": [
+            "许宁"
+          ],
+          "reveal_status": "NOT_YET_REVEALED",
+          "relationship_state": "久未联系，疏远试探",
+          "clothing_visual_state_code": "soaked_uniform",
+          "clothing_visual_state_display": "湿透制服，滴水，紧贴身上",
+          "location_presence": "玄关门口",
+          "authorized_transitions": [
+            "change_from_soaked_uniform"
+          ]
+        },
+        "proposed_state": {
+          "authorized_transitions": [
+            "change_from_soaked_uniform"
+          ]
+        },
+        "knowledge_timing": {
+          "knowledge_holders": [
+            "许宁"
+          ],
+          "reveal_status": "NOT_YET_REVEALED"
+        },
+        "relationship_state": "久未联系，疏远试探",
+        "visual_state": {
+          "clothing_visual_state_code": "soaked_uniform",
+          "clothing_visual_state_display": "湿透制服，滴水，紧贴身上",
+          "location_presence": "玄关门口"
+        },
+        "authority_source": "Scene Writer canonical CREATE output",
+        "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-13\\artifacts\\scene_writer_output.json#scene_packages/E2E-FIX-01-S01"
+      },
+      "state_snapshot": {
+        "key_identity": "A-17",
+        "custody": "许宁自雨中带来，放于桌面，向许曼出示",
+        "knowledge_holders": [
+          "许宁"
+        ],
+        "reveal_status": "NOT_YET_REVEALED",
+        "relationship_state": "久未联系，疏远试探",
+        "clothing_visual_state_code": "soaked_uniform",
+        "clothing_visual_state_display": "湿透制服，滴水，紧贴身上",
+        "location_presence": "玄关门口",
+        "authorized_transitions": [
+          "change_from_soaked_uniform"
+        ]
+      }
+    },
+    {
+      "entry_id": "E2E-RUN-13:002",
+      "sequence": 2,
+      "envelope": {
+        "source_role": "Scene Writer",
+        "source_record_id": "E2E-RUN-13/scene_writer/E2E-FIX-01-S02",
+        "version": "1.0",
+        "timestamp": "2026-08-30T01:26:34.792059+00:00",
+        "intended_recipient": "Continuity",
+        "handoff_reason": "Per-scene state evidence",
+        "canon_assignment_locks": [
+          "A-17",
+          "brass_key",
+          "shared_storage_reveal not before scene 3",
+          "storage_room_opening"
+        ],
+        "prohibited_changes": [
+          "完全和解"
+        ],
+        "canonical_mode": "CREATE",
+        "primary_state_or_outcome": "SCENE_CREATED",
+        "flags": "ABSENT",
+        "handoffs": "ABSENT",
+        "required_outcome": "ABSENT",
+        "unresolved_decisions": [
+          "storage_room_opening"
+        ],
+        "relevant_prior_state": {
+          "key_identity": "A-17",
+          "custody": "许宁自桌面上收回掌心保管"
+        },
+        "current_state": {
+          "key_identity": "A-17",
+          "custody": "许宁自桌面上收回掌心保管",
+          "knowledge_holders": [
+            "许宁"
+          ],
+          "reveal_status": "NOT_YET_REVEALED",
+          "relationship_state": "紧张，试探与回避",
+          "clothing_visual_state_code": "changed_clothes",
+          "clothing_visual_state_display": "已换下湿透制服，穿家常衣物",
+          "location_presence": "桌边",
+          "authorized_transitions": [
+            "change_from_soaked_uniform"
+          ]
+        },
+        "proposed_state": {
+          "authorized_transitions": [
+            "change_from_soaked_uniform"
+          ]
+        },
+        "knowledge_timing": {
+          "knowledge_holders": [
+            "许宁"
+          ],
+          "reveal_status": "NOT_YET_REVEALED"
+        },
+        "relationship_state": "紧张，试探与回避",
+        "visual_state": {
+          "clothing_visual_state_code": "changed_clothes",
+          "clothing_visual_state_display": "已换下湿透制服，穿家常衣物",
+          "location_presence": "桌边"
+        },
+        "authority_source": "Scene Writer canonical CREATE output",
+        "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-13\\artifacts\\scene_writer_output.json#scene_packages/E2E-FIX-01-S02"
+      },
+      "state_snapshot": {
+        "key_identity": "A-17",
+        "custody": "许宁自桌面上收回掌心保管",
+        "knowledge_holders": [
+          "许宁"
+        ],
+        "reveal_status": "NOT_YET_REVEALED",
+        "relationship_state": "紧张，试探与回避",
+        "clothing_visual_state_code": "changed_clothes",
+        "clothing_visual_state_display": "已换下湿透制服，穿家常衣物",
+        "location_presence": "桌边",
+        "authorized_transitions": [
+          "change_from_soaked_uniform"
+        ]
+      }
+    },
+    {
+      "entry_id": "E2E-RUN-13:003",
+      "sequence": 3,
+      "envelope": {
+        "source_role": "Scene Writer",
+        "source_record_id": "E2E-RUN-13/scene_writer/E2E-FIX-01-S03",
+        "version": "1.0",
+        "timestamp": "2026-08-30T01:26:34.795861+00:00",
+        "intended_recipient": "Continuity",
+        "handoff_reason": "Per-scene state evidence",
+        "canon_assignment_locks": [
+          "A-17",
+          "brass_key",
+          "shared_storage_reveal not before scene 3",
+          "storage_room_opening"
+        ],
+        "prohibited_changes": [
+          "完全和解"
+        ],
+        "canonical_mode": "CREATE",
+        "primary_state_or_outcome": "SCENE_CREATED",
+        "flags": "ABSENT",
+        "handoffs": "ABSENT",
+        "required_outcome": "ABSENT",
+        "unresolved_decisions": [
+          "storage_room_opening"
+        ],
+        "relevant_prior_state": {
+          "key_identity": "A-17",
+          "custody": "许宁握于手中，未交出"
+        },
+        "current_state": {
+          "key_identity": "A-17",
+          "custody": "许宁握于手中，未交出",
+          "knowledge_holders": [
+            "许宁"
+          ],
+          "reveal_status": "REVEALED_WITH_EVENT",
+          "relationship_state": "共享真相揭示，仍在责怪，未完全和解",
+          "clothing_visual_state_code": "changed_clothes",
+          "clothing_visual_state_display": "换衣后，天亮",
+          "location_presence": "窗边近门处",
+          "authorized_transitions": [
+            "change_from_soaked_uniform"
+          ]
+        },
+        "proposed_state": {
+          "authorized_transitions": [
+            "change_from_soaked_uniform"
+          ]
+        },
+        "knowledge_timing": {
+          "knowledge_holders": [
+            "许宁"
+          ],
+          "reveal_status": "REVEALED_WITH_EVENT"
+        },
+        "relationship_state": "共享真相揭示，仍在责怪，未完全和解",
+        "visual_state": {
+          "clothing_visual_state_code": "changed_clothes",
+          "clothing_visual_state_display": "换衣后，天亮",
+          "location_presence": "窗边近门处"
+        },
+        "authority_source": "Scene Writer canonical CREATE output",
+        "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-13\\artifacts\\scene_writer_output.json#scene_packages/E2E-FIX-01-S03"
+      },
+      "state_snapshot": {
+        "key_identity": "A-17",
+        "custody": "许宁握于手中，未交出",
+        "knowledge_holders": [
+          "许宁"
+        ],
+        "reveal_status": "REVEALED_WITH_EVENT",
+        "relationship_state": "共享真相揭示，仍在责怪，未完全和解",
+        "clothing_visual_state_code": "changed_clothes",
+        "clothing_visual_state_display": "换衣后，天亮",
+        "location_presence": "窗边近门处",
+        "authorized_transitions": [
+          "change_from_soaked_uniform"
+        ]
+      }
+    }
+  ]
+}

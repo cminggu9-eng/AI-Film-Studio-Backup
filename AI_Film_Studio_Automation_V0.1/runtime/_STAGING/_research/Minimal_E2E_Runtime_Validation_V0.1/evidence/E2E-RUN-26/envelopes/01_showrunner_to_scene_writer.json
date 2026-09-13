@@ -1,0 +1,65 @@
+{
+  "source_role": "Showrunner",
+  "source_record_id": "E2E-RUN-26/showrunner/1",
+  "version": "1.0",
+  "timestamp": "2026-09-04T07:47:46.460898+00:00",
+  "intended_recipient": "Scene Writer",
+  "handoff_reason": "Story / Canon Package",
+  "canon_assignment_locks": [
+    "C-09",
+    "memory_card",
+    "withheld_photo_reveal",
+    "battery_installed",
+    "battery_removed_and_sealed",
+    "view_memory_card_decision"
+  ],
+  "prohibited_changes": [
+    "resume_partnership",
+    "permanent_break"
+  ],
+  "canonical_mode": "ABSENT",
+  "primary_state_or_outcome": "INFO",
+  "flags": "ABSENT",
+  "handoffs": "ABSENT",
+  "required_outcome": "建立明确故事前提、两个绑定角色的状态与关系起始点、知识锁与揭露时序、主要结果约束，并输出一个可执行的三场结构分配，不创作完整对白或场景正文。",
+  "unresolved_decisions": [
+    "梁音是否在第二场后实际查看存储卡？",
+    "存储卡中未交出的照片内容是否会在当前三场结构中揭示？",
+    "沈泊是否最终接受梁音提出的封存电池条件？"
+  ],
+  "relevant_prior_state": {
+    "characters": [
+      "沈泊",
+      "梁音"
+    ],
+    "relationship": "已拆伙两年的前搭档",
+    "last_collaboration": "存在最后一次合作，且梁音未交出部分照片"
+  },
+  "current_state": {
+    "location": "清晨的渡口",
+    "camera_battery_state": "battery_installed",
+    "custody": "沈泊持有C-09存储卡"
+  },
+  "proposed_state": {
+    "camera_battery_state": "battery_removed_and_sealed",
+    "custody_of_memory_card": "由沈泊持有，但尚未查看",
+    "decision_locks": [
+      "view_memory_card_decision"
+    ]
+  },
+  "knowledge_timing": {
+    "withheld_photo_reveal": {
+      "holder": "梁音",
+      "not_before_scene": 2
+    }
+  },
+  "relationship_state": {
+    "status": "已拆伙，未复合也未彻底决裂",
+    "current_dynamic": "存在未解决的信任问题和未交付的照片"
+  },
+  "visual_state": {
+    "camera_battery_state": "battery_removed_and_sealed"
+  },
+  "authority_source": "Showrunner canonical Skill output",
+  "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-26\\artifacts\\showrunner_output.json"
+}

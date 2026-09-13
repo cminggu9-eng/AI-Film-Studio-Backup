@@ -1,0 +1,8 @@
+{
+  "lifecycle_stage": "PERSISTENCE_VERIFIED",
+  "invocation_id": "SCENE-WRITER-STRICT-PROBE-20-F03:scene_writer:1",
+  "role": "Scene Writer",
+  "verified": true,
+  "raw_response_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_20_Scene_Writer_Strict_Structured_Output_Completeness_Wire_Contract_Conformance_V0.1\\reports\\SCENE-WRITER-STRICT-PROBE-20-F03\\artifacts\\scene_writer_provider_response.json",
+  "invocation_metadata_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_20_Scene_Writer_Strict_Structured_Output_Completeness_Wire_Contract_Conformance_V0.1\\reports\\SCENE-WRITER-STRICT-PROBE-20-F03\\artifacts\\scene_writer_invocation.json"
+}

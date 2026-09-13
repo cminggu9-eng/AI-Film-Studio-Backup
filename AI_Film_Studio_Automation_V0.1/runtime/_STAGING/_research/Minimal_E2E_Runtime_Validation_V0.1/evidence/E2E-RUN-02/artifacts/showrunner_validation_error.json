@@ -1,0 +1,8 @@
+{
+  "lifecycle_stage": "LOCAL_VALIDATION_FAILURE_RECORDED",
+  "invocation_id": "E2E-RUN-02:showrunner:1",
+  "role": "Showrunner",
+  "validation_stage": "Local Role-Contract Validation",
+  "category": "EXECUTOR FAILURE",
+  "detail": "Model output did not match exact E2E transport schema"
+}

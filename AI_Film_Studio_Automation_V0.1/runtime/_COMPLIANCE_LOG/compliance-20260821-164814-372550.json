@@ -1,0 +1,50 @@
+{
+  "case_id": "BB-05",
+  "candidate_v1": {
+    "case_id": "BB-05",
+    "task": "女主知道对方骗她以后，应该怎么呼吸、眼睛看哪、手怎么动、停几秒？",
+    "candidate_version": "V1",
+    "candidate_output": "不要立刻哭或大喊，先让她经历“身体先知道，理智后承认”。\n\n**可执行节拍：**\n\n- **0–1秒：呼吸被截断**  \n  原本吸气到一半突然停住，嘴微张，但不夸张倒吸气。肩膀只轻微上提。\n\n- **1–2.5秒：眼睛锁住对方**  \n  先盯着对方的眼睛，眨眼延迟一次，像在确认自己有没有听错。目光变得更直、更冷。\n\n- **2.5–4秒：视线寻找证据**  \n  眼睛快速扫向对方手里的物件、手机或刚才暴露的细节，再回到对方脸上。不要马上移开视线。\n\n- **4–6秒：手部失去原动作**  \n  她原本正在做的动作停住；手指轻轻收紧，随后又松开。可以有一个想触碰对方、却在距离几厘米处停下的动作。\n\n- **6–8秒：沉默两秒**  \n  鼻腔缓慢呼气，喉结轻动，像咽下第一反应。嘴唇想说话但没有立即发声。\n\n- **8秒以后：情绪转为控制**  \n  她重新吸一口短而稳的气，抬一点下巴，保持眼神接触。此时再说台词，声音低、慢，比哭喊更有压迫感。\n\n核心状态是：**不是“我好震惊”，而是“我已经知道你在骗我，但我还在给你最后一次解释的机会”。**",
+    "project_state": "DRAFT",
+    "routed_role": "Character & Acting Boundary",
+    "mode": "ACTING_BOUNDARY",
+    "output_type": "Downstream Handoff Package",
+    "activated_modules": [
+      "Role Boundary",
+      "Character Engine"
+    ]
+  },
+  "gate_v1": {
+    "status": "PASS",
+    "candidate_version": "V1",
+    "correction_count": 0,
+    "violations": [],
+    "receipt": {
+      "timestamp": "2026-08-21T08:48:14+00:00",
+      "task": "女主知道对方骗她以后，应该怎么呼吸、眼睛看哪、手怎么动、停几秒？",
+      "routed_role": "Character & Acting Boundary",
+      "skill_name": "ai-film-studio-showrunner",
+      "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+      "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "hash_match": true,
+      "skill_name_match": true,
+      "project_state": "DRAFT",
+      "mode": "ACTING_BOUNDARY",
+      "output_type": "Downstream Handoff Package",
+      "activated_modules": [
+        "Role Boundary",
+        "Character Engine"
+      ]
+    },
+    "active_rules": [
+      "GLOBAL",
+      "ANTI_MECHANICAL",
+      "PRODUCTION_REALITY"
+    ],
+    "next": "USER_OUTPUT"
+  },
+  "candidate_v2": null,
+  "gate_v2": null,
+  "final_delivery": "不要立刻哭或大喊，先让她经历“身体先知道，理智后承认”。\n\n**可执行节拍：**\n\n- **0–1秒：呼吸被截断**  \n  原本吸气到一半突然停住，嘴微张，但不夸张倒吸气。肩膀只轻微上提。\n\n- **1–2.5秒：眼睛锁住对方**  \n  先盯着对方的眼睛，眨眼延迟一次，像在确认自己有没有听错。目光变得更直、更冷。\n\n- **2.5–4秒：视线寻找证据**  \n  眼睛快速扫向对方手里的物件、手机或刚才暴露的细节，再回到对方脸上。不要马上移开视线。\n\n- **4–6秒：手部失去原动作**  \n  她原本正在做的动作停住；手指轻轻收紧，随后又松开。可以有一个想触碰对方、却在距离几厘米处停下的动作。\n\n- **6–8秒：沉默两秒**  \n  鼻腔缓慢呼气，喉结轻动，像咽下第一反应。嘴唇想说话但没有立即发声。\n\n- **8秒以后：情绪转为控制**  \n  她重新吸一口短而稳的气，抬一点下巴，保持眼神接触。此时再说台词，声音低、慢，比哭喊更有压迫感。\n\n核心状态是：**不是“我好震惊”，而是“我已经知道你在骗我，但我还在给你最后一次解释的机会”。**"
+}

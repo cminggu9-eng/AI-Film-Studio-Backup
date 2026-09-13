@@ -1,0 +1,48 @@
+{
+  "integration_decision": "PASS",
+  "allowed_labels": [
+    "PASS",
+    "FLAG",
+    "BLOCK",
+    "HANDOFF"
+  ],
+  "layer_a": {
+    "name": "Deterministic Evidence / Contract Gate",
+    "findings": [],
+    "source_role": "Scene Writer",
+    "source_record_id": "E2E-RUN-05/scene_writer/1",
+    "version": "1.0",
+    "locks": [
+      "角色：许宁、许曼",
+      "关系：久未联系的姐弟；不得自动升级为完全和解",
+      "道具：黄铜钥匙，标记 A-17；身份与 custody 必须可追踪",
+      "知识：母亲留下钥匙和储物间共同开启用途必须由许曼的授权场内揭示承载；不得提前泄漏",
+      "视觉状态：暴雨夜、许宁夜班管理员、湿透制服；后续才可发生换下湿制服的授权视觉状态转换"
+    ],
+    "current_state": {
+      "relationship_state": "试探性接触，有限缓和",
+      "knowledge_state": "许曼已揭示共同开启用途，储物间内容尚未揭示",
+      "visual_state": "湿透制服过渡为换下湿制服"
+    },
+    "authority_source": "Scene Writer canonical Skill output",
+    "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-05\\artifacts\\scene_writer_output.json"
+  },
+  "layer_b": {
+    "layer": "B",
+    "independent_review_required": false,
+    "review_candidates": [],
+    "allowed_labels": [
+      "PASS",
+      "FLAG",
+      "BLOCK",
+      "HANDOFF"
+    ],
+    "provider_execution": "NOT_AUTHORIZED",
+    "creative_output_sha256": "18cb59fbb53c8cb923c1d9356f48f7110c078be435c3f3857afe8f19bc84b9be",
+    "review_status": "PASS"
+  },
+  "legacy_verifier_result": "ABSENT",
+  "legacy_verifier_role": "SUPPLEMENTAL_SIGNAL_ONLY",
+  "creative_output_sha256": "18cb59fbb53c8cb923c1d9356f48f7110c078be435c3f3857afe8f19bc84b9be",
+  "creative_output_rewrite": "PROHIBITED"
+}

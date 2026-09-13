@@ -1,0 +1,9 @@
+{
+  "classification": "REPAIR17 CANONICAL AND PRODUCTION LOCK INTEGRITY",
+  "canonical_skill_hashes_unchanged": "7/7",
+  "production_lock_hashes_unchanged": "6/6",
+  "canonical_skill_mutation": 0,
+  "production_lock_mutation": 0,
+  "role_semantic_mutation": 0,
+  "result": "PASS"
+}

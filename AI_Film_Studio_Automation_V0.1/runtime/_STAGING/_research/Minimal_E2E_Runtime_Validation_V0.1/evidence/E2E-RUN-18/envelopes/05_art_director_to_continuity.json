@@ -1,0 +1,63 @@
+{
+  "source_role": "Art Director",
+  "source_record_id": "E2E-RUN-18/art_director/1",
+  "version": "1.0",
+  "timestamp": "2026-08-31T05:12:32.593028+00:00",
+  "intended_recipient": "Continuity",
+  "handoff_reason": "Visual state and design intent",
+  "canon_assignment_locks": [
+    "A-17",
+    "brass_key",
+    "shared_storage_reveal",
+    "storage_room_opening",
+    "soaked_uniform",
+    "changed_clothes"
+  ],
+  "prohibited_changes": [
+    "完全和解"
+  ],
+  "canonical_mode": "DESIGN",
+  "primary_state_or_outcome": "DESIGN_RESPONSE_READY",
+  "flags": "ABSENT",
+  "handoffs": "ABSENT",
+  "required_outcome": "ABSENT",
+  "unresolved_decisions": [
+    "storage_room_opening"
+  ],
+  "relevant_prior_state": {
+    "relationship_state": "疏远且紧张，未达到完全和解",
+    "knowledge_state": "储物间信息仍由许曼掌握",
+    "visual_state": "soaked_uniform"
+  },
+  "current_state": {
+    "relationship_state": "疏远且紧张，未达到完全和解",
+    "knowledge_state": "shared_storage_reveal 已揭示，storage_room_opening 未决",
+    "visual_state": "scene_1: soaked_uniform, scene_2: changed_clothes, scene_3: changed_clothes"
+  },
+  "proposed_state": {
+    "visual_world": "以雨季旧式居民楼内部空间为统一视觉容器，突出湿、冷、昏暗与距离感",
+    "character_visual_identity": {
+      "许宁": "夜班管理员，湿制服贴身、深冷色、功能性强，换装后穿着不属于自己的干净旧便衣",
+      "许曼": "居家但戒备，素色旧衣，面料偏厚，与雨水和钥匙保持明确距离"
+    },
+    "key_prop": "A-17 黄铜钥匙，小体量、旧铜氧化痕，在矮柜、手中与门前形成视觉焦点",
+    "environment_logic": "玄关、客厅、储物间门前三个收窄空间，统一在阴雨清晨的冷灰调中，以灯光形成唯一暖点",
+    "visual_state": "soaked_uniform→changed_clothes→changed_clothes，无其他服装状态"
+  },
+  "knowledge_timing": {
+    "shared_storage_reveal": "第三场揭示",
+    "reveal_of_room_content": "未揭示"
+  },
+  "relationship_state": {
+    "initial": "疏远且紧张",
+    "after_scene_1": "进一步紧张，许宁不安",
+    "after_scene_3": "维持紧张，无完全和解"
+  },
+  "visual_state": {
+    "scene_1": "soaked_uniform",
+    "scene_2": "changed_clothes",
+    "scene_3": "changed_clothes"
+  },
+  "authority_source": "Art Director canonical Skill output",
+  "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-18\\artifacts\\art_director_output.json"
+}

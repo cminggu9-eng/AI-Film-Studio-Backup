@@ -1,0 +1,10 @@
+{
+  "classification": "NOT_TRUNCATED",
+  "truncated": false,
+  "finish_reason": "tool_calls",
+  "completion_tokens": 2205,
+  "requested_max_tokens": 3500,
+  "json_complete": true,
+  "signals": [],
+  "persistence_verification_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_22_Director_Provider_Wire_Tagged_Union_Codec_Strict_Native_Type_Reliability_V0.1\\reports\\DIRECTOR-TAGGED-WIRE-PROBE-22-F03\\artifacts\\director_persistence_verification.json"
+}

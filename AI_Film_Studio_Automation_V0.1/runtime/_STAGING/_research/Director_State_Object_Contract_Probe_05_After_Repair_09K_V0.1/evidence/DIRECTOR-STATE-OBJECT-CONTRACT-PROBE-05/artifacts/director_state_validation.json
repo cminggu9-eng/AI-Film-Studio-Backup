@@ -1,0 +1,16 @@
+{
+  "result": "PASS",
+  "dynamic_objects": {
+    "relevant_prior_state": true,
+    "current_state": true
+  },
+  "exact_absent": {
+    "proposed_state": true,
+    "knowledge_timing": true,
+    "visual_state": true
+  },
+  "source_owned_values_exact": true,
+  "source_trace_valid": true,
+  "legacy_string_path": "UNREACHABLE",
+  "auto_repair": 0
+}

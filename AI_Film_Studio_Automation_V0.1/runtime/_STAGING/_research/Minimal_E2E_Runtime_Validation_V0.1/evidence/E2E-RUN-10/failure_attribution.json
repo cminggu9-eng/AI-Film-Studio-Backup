@@ -1,0 +1,18 @@
+[
+  {
+    "role": "Showrunner",
+    "layer": "EXECUTOR / RESPONSE-BUDGET FAILURE",
+    "category": "EXECUTOR / RESPONSE-BUDGET FAILURE",
+    "owner": "Showrunner",
+    "expected_contract": "Authorized canonical role, transport, state, and handoff contract for E2E-RUN-05",
+    "actual_output": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-10\\artifacts\\showrunner_provider_response.json",
+    "raw_evidence": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-10\\artifacts\\showrunner_provider_response.json",
+    "parsed_evidence": "NOT AVAILABLE",
+    "semantic_content_existed": "UNKNOWN",
+    "blocking_reason": "ModelExecutionError: Provider response was not valid JSON",
+    "detail": "ModelExecutionError: Provider response was not valid JSON",
+    "recommended_repair_boundary": "Showrunner / EXECUTOR / RESPONSE-BUDGET FAILURE targeted repair only",
+    "blocking": true,
+    "safe_stop": true
+  }
+]

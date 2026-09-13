@@ -1,0 +1,42 @@
+{
+  "contract_version": "CHARACTER-ACTING-TRANSPORT-V0.1",
+  "assembly_stage": "INTEGRATION RESERVED-SLOT ASSEMBLY",
+  "inserted_transport_fields": [
+    "scene_packages"
+  ],
+  "transport_field_origins": {
+    "scene_packages": "INTEGRATION_TRANSPORT_ABSENCE_SENTINEL"
+  },
+  "upstream_scene_packages": {
+    "source_role": "Scene Writer",
+    "source_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-18\\artifacts\\scene_writer_output.json",
+    "source_artifact_sha256": "54dd63aa60760d96ed2701d6e3be4e5251c140c44906366fbbef6e17e220d425",
+    "source_schema_identity": "SCENE-WRITER-INTEGRATION-OUTPUT-CONTRACT-V0.1",
+    "scene_packages_sha256": "bbc676bd20623cb41f2a895052321ae9390c595227587902c9581f1342cbb449",
+    "scene_package_ids": [
+      "E2E-FIX-01-S01",
+      "E2E-FIX-01-S02",
+      "E2E-FIX-01-S03"
+    ],
+    "source_record_ids": [
+      "E2E-RUN-18/scene_writer/E2E-FIX-01-S01",
+      "E2E-RUN-18/scene_writer/E2E-FIX-01-S02",
+      "E2E-RUN-18/scene_writer/E2E-FIX-01-S03"
+    ],
+    "source_versions": [
+      "0.1",
+      "0.1",
+      "0.1"
+    ],
+    "evidence_locators": [
+      "scene_packages/E2E-FIX-01-S01",
+      "scene_packages/E2E-FIX-01-S02",
+      "scene_packages/E2E-FIX-01-S03"
+    ]
+  },
+  "raw_role_payload_sha256": "6707a3662bea2c7e0d131550c7f2be9a7ede2584ca8b4352a8448aa384012ac6",
+  "final_role_transport_sha256": "175cdc6573cde0a991ebe304443174c71b5821d3814b93b3c1400a372721fd4c",
+  "semantic_mutation": 0,
+  "canonical_token_mutation": 0,
+  "scene_package_semantic_copy": 0
+}

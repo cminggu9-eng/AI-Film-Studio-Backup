@@ -1,0 +1,234 @@
+{
+  "fixture": {
+    "id": "F05",
+    "title": "Internal State to Playable Behavior",
+    "focus": [
+      "internal_to_behavior",
+      "choice",
+      "observable_action",
+      "no_acting_system"
+    ],
+    "expected_boundaries": {
+      "must": [
+        "把提供的心理状态转为可观察行为、选择、停顿或对白策略",
+        "有明确状态变化"
+      ],
+      "must_not": [
+        "只写心理结论",
+        "建立微表情或情绪强度系统"
+      ]
+    },
+    "assignment": {
+      "requested_mode": "CREATE",
+      "output_language": "zh-CN",
+      "project_id": "FSV-SYNTHETIC",
+      "episode_id": "FSV-EP01",
+      "scene_id": "F05",
+      "scene_request": "把给定的内部心理信息转化为可观察、可演的短场景。",
+      "scene_purpose": "让不愿承认失误的学徒通过选择承担一次补救。",
+      "repair_target": null,
+      "canon_locks": [
+        "地点是空的陶艺工作台。",
+        "人物只有学徒吴棠和导师杜安。",
+        "吴棠打碎了一只练习杯，碎片已在托盘里。",
+        "杜安知道杯子打碎，但不知道吴棠是否愿意留下补做。"
+      ],
+      "showrunner_locks": [
+        "场景结束时，吴棠主动留下补做杯子，杜安把新的泥团推给她。"
+      ],
+      "participants": [
+        {
+          "name": "吴棠",
+          "role": "学徒",
+          "objective": "避免让导师失望。",
+          "knowledge": "她打碎了练习杯。",
+          "constraint": "内部状态是：她羞愧且焦虑，但不得只把这些词当作场景推进。"
+        },
+        {
+          "name": "杜安",
+          "role": "导师",
+          "objective": "确认吴棠是否愿意承担补救。",
+          "knowledge": "知道杯子已碎。",
+          "constraint": "不替吴棠解释她的心理。"
+        }
+      ],
+      "character_context": {
+        "relationship": "导师与学徒，工作关系稳定。",
+        "creative_freedom": "可用碎片、泥团、清理、停顿和简短对白。"
+      },
+      "required_event": "杜安把补做的选择留给吴棠。",
+      "required_information": "杯子已经碎了。",
+      "required_outcome": "吴棠留下补做，杜安提供泥团。",
+      "prior_scene_state": "吴棠正在把碎片扫进托盘，杜安走到工作台旁。",
+      "desired_post_state": "补救行动开始，而非只完成情绪说明。",
+      "production_constraints": null,
+      "requested_form": "短、可演场景；避免心理独白、镜头及表演方法。",
+      "downstream_requests": [],
+      "qa_requests": []
+    }
+  },
+  "sequence": 5,
+  "classification": "FULL SEMANTIC VALIDATION / SYNTHETIC / NON-CANON / REAL SEMANTIC EXECUTION",
+  "formal_execution_count_for_fixture": 1,
+  "resamples_for_fixture": 0,
+  "provider": "deepseek",
+  "model": "deepseek-v4-pro",
+  "assignment": {
+    "requested_mode": "CREATE",
+    "output_language": "zh-CN",
+    "project_id": "FSV-SYNTHETIC",
+    "episode_id": "FSV-EP01",
+    "scene_id": "F05",
+    "scene_request": "把给定的内部心理信息转化为可观察、可演的短场景。",
+    "scene_purpose": "让不愿承认失误的学徒通过选择承担一次补救。",
+    "repair_target": null,
+    "canon_locks": [
+      "地点是空的陶艺工作台。",
+      "人物只有学徒吴棠和导师杜安。",
+      "吴棠打碎了一只练习杯，碎片已在托盘里。",
+      "杜安知道杯子打碎，但不知道吴棠是否愿意留下补做。"
+    ],
+    "showrunner_locks": [
+      "场景结束时，吴棠主动留下补做杯子，杜安把新的泥团推给她。"
+    ],
+    "participants": [
+      {
+        "name": "吴棠",
+        "role": "学徒",
+        "objective": "避免让导师失望。",
+        "knowledge": "她打碎了练习杯。",
+        "constraint": "内部状态是：她羞愧且焦虑，但不得只把这些词当作场景推进。"
+      },
+      {
+        "name": "杜安",
+        "role": "导师",
+        "objective": "确认吴棠是否愿意承担补救。",
+        "knowledge": "知道杯子已碎。",
+        "constraint": "不替吴棠解释她的心理。"
+      }
+    ],
+    "character_context": {
+      "relationship": "导师与学徒，工作关系稳定。",
+      "creative_freedom": "可用碎片、泥团、清理、停顿和简短对白。"
+    },
+    "required_event": "杜安把补做的选择留给吴棠。",
+    "required_information": "杯子已经碎了。",
+    "required_outcome": "吴棠留下补做，杜安提供泥团。",
+    "prior_scene_state": "吴棠正在把碎片扫进托盘，杜安走到工作台旁。",
+    "desired_post_state": "补救行动开始，而非只完成情绪说明。",
+    "production_constraints": null,
+    "requested_form": "短、可演场景；避免心理独白、镜头及表演方法。",
+    "downstream_requests": [],
+    "qa_requests": [],
+    "request_id": "FSV-SW-F05"
+  },
+  "runtime_result": {
+    "runtime_status": "SUCCESS",
+    "runtime_failure_code": null,
+    "runtime_failure_message": null,
+    "request_id": "FSV-SW-F05",
+    "canonical_binding": {
+      "identity": "scene-writer",
+      "version": "V0.1",
+      "canonical_path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\02_Scene_Writer\\scene-writer\\SKILL.md",
+      "expected_sha256": "93e1be12988f8caa6cdd76acb5e6c1bf6ad3ca0dff5806a2ea93511e66052dfb",
+      "adapter_status": "REGISTERED",
+      "real_executor": "BOUND",
+      "semantic_integrity_verifier": "BOUND",
+      "synthetic_executor": "NOT_PRESENT",
+      "actual_sha256": "93e1be12988f8caa6cdd76acb5e6c1bf6ad3ca0dff5806a2ea93511e66052dfb",
+      "metadata": {
+        "name": "scene-writer",
+        "display_version": "V0.1"
+      },
+      "passed": true,
+      "reason": null
+    },
+    "idempotency": "NEW",
+    "scene_writer": {
+      "creative_deliverable": {
+        "kind": "scene",
+        "content": "空的陶艺工作台。\n\n吴棠把最后几片碎瓷扫进托盘，动作很慢。她抬眼看了一眼杜安，又立刻低下。\n\n杜安走到工作台旁，没说话。\n\n吴棠把托盘轻轻放在台面上。\n\n杜安伸手，从架子上取下一块湿泥，放在她面前的转盘上。\n\n吴棠没有动。\n\n杜安把泥团往前推了推。\n\n吴棠用手背擦了一下脸，把围裙重新系紧。她坐到转盘前，双手放上湿泥。\n\n杜安后退一步，让出空间。\n\n吴棠开始揉泥。"
+      },
+      "control_data": {
+        "primary_state": "SCENE_CREATED",
+        "flags": [],
+        "handoffs": [],
+        "scene_function": "学徒通过行动承担补救，导师不点破而是提供条件。",
+        "objectives": "吴棠：避免让导师失望；杜安：确认吴棠是否愿意留下补做。",
+        "resistance": "吴棠的羞愧与焦虑阻碍她主动行动，杜安不替她做决定。",
+        "before_state": "吴棠正在把碎片扫进托盘，杜安走到工作台旁。",
+        "turn": "吴棠接受留下的选择，开始揉泥，补救行动启动。",
+        "state_after": "补救行动开始，杜安提供泥团并后退让出空间。",
+        "entry_rationale": "从清理碎片的中途开始，直接进入补救选择的关键时刻。",
+        "exit_rationale": "以吴棠开始揉泥结束，因为补救行动已经启动，无需再追加情绪说明。",
+        "diagnosis_summary": "场景将内部心理转化为可观察行动：慢扫碎片、擦脸、系围裙、坐上转盘、开始揉泥。",
+        "rule_hits": [
+          "Shootability and Internal State",
+          "Entry and Exit"
+        ]
+      }
+    },
+    "output_language": "zh-CN",
+    "output_language_resolution": "EXPLICIT",
+    "assignment_fact_validation": {
+      "status": "PASS",
+      "guard_profile": [
+        "LOCKED_FACT_PRESERVATION",
+        "UNSPECIFIED_FACT_PROHIBITION",
+        "CHARACTER_KNOWLEDGE_SCOPE"
+      ],
+      "violations": []
+    },
+    "semantic_integrity_validation": {
+      "integrity_result": "PASS",
+      "violations": []
+    }
+  },
+  "unexpected_exception": null,
+  "generation_usage": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-pro",
+    "provider_invocation_id": "7f05a10f-db07-4da3-ac71-e355342a0e43",
+    "usage": {
+      "prompt_tokens": 4193,
+      "completion_tokens": 460,
+      "total_tokens": 4653,
+      "prompt_cache_hit_tokens": 3200,
+      "prompt_cache_miss_tokens": 993
+    },
+    "latency_ms": 10314,
+    "thinking_mode": "disabled",
+    "fixture_id": "F05",
+    "request_success": true
+  },
+  "verification_usage": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-pro",
+    "provider_invocation_id": "054a9892-11df-44c5-94a7-235fccc443d2",
+    "usage": {
+      "prompt_tokens": 1699,
+      "completion_tokens": 18,
+      "total_tokens": 1717,
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 931
+    },
+    "latency_ms": 2323,
+    "thinking_mode": "disabled",
+    "fixture_id": "semantic-assignment-integrity",
+    "request_success": true
+  },
+  "estimated_cost_cny": {
+    "generation": 0.005819,
+    "verification": 0.0029202,
+    "total": 0.0087392
+  },
+  "pricing_basis": {
+    "currency": "CNY",
+    "unit": "per_1M_tokens",
+    "input_cache_hit": 0.025,
+    "input_cache_miss": 3.0,
+    "output": 6.0,
+    "status": "ESTIMATED"
+  }
+}

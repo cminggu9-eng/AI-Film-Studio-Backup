@@ -1,0 +1,880 @@
+{
+  "fixture_id": "C02",
+  "mode": "CONTEMPORARY_COORDINATED",
+  "initial": {
+    "runtime_result": {
+      "internal_runtime_result": {
+        "runtime_status": "SUCCESS",
+        "invocation_id": "revalidation-c02-initial",
+        "contract_identity": "language-voice-qa-runtime",
+        "contract_version": "0.1",
+        "skill_integrity": {
+          "identity": "language-voice-qa",
+          "version": "0.1",
+          "path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\Shared_QA\\SKILL.md",
+          "expected_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+          "metadata": {
+            "name": "language-voice-qa",
+            "description": "Perform context-appropriate Chinese Language & Voice QA with conditional, minimal rewrites. Use for reviewing a passage, project brief, dialogue, scene description, narrative prose, production note, or marketing copy; do not use it to create prose, imitate writers, decide story content, or judge real-time language trends.",
+            "type": "skill",
+            "status": "approved",
+            "review_result": "passed",
+            "version": "0.1",
+            "subject": "Language & Voice QA",
+            "installation_status": "not-installed"
+          },
+          "actual_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+          "passed": true,
+          "reason": null
+        },
+        "decision": "ROLE HANDOFF / WARNING",
+        "severity": "LEVEL 4",
+        "route": "Term & Contemporary Boundary",
+        "action": "handoff",
+        "rewrite_used": false,
+        "handoff": "Future Contemporary Language Layer for current platform/generational usage validation of 班味.",
+        "runtime_contract_passed": true,
+        "failure_code": null,
+        "failure_message": null,
+        "transport_metadata": {
+          "handoff_status": "HANDOFF_REQUIRED",
+          "dependency_status": "CONTEMPORARY_LAYER_NOT_AVAILABLE"
+        }
+      },
+      "downstream_payload": {
+        "text": "小组群里有人说，新来的实习生一进门就“班味很重”。周蔓看了半天，没立刻转发。她不知道这句话是在说疲惫、规矩多，还是只是在拿对方开玩笑。\n\n“别替他下定义，”她说，“先问清楚这词在你们那个群里到底是什么意思。”",
+        "original_preserved": true,
+        "decision": "ROLE HANDOFF / WARNING",
+        "severity": "LEVEL 4",
+        "route": "Term & Contemporary Boundary",
+        "action": "handoff",
+        "handoff": "Future Contemporary Language Layer for current platform/generational usage validation of 班味.",
+        "diagnostics": "The passage poses ambiguity around a contemporary workplace slang term. A determinate judgement about whether 班味 is outdated, platform-specific, or generational requires current usage data beyond the supplied text."
+      },
+      "user_facing_result": {
+        "status": "SUCCESS",
+        "decision": "ROLE HANDOFF / WARNING",
+        "message": "The passage poses ambiguity around a contemporary workplace slang term. A determinate judgement about whether 班味 is outdated, platform-specific, or generational requires current usage data beyond the supplied text.",
+        "text": null,
+        "handoff": "Future Contemporary Language Layer for current platform/generational usage validation of 班味."
+      },
+      "audit_record": {
+        "invocation_id": "revalidation-c02-initial",
+        "timestamp": "2026-08-24T06:02:49.302105+00:00",
+        "skill_identity": "language-voice-qa",
+        "skill_version": "0.1",
+        "skill_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+        "input_mode": "QA_DEFAULT",
+        "context_availability_summary": {
+          "provided": [
+            "Available Context",
+            "Original",
+            "Register / usage",
+            "Requested Mode"
+          ],
+          "derived_safely": [],
+          "unknown": [
+            "Project Constraints / Canon",
+            "Protected Terms / Entities",
+            "Speaker / Character Context",
+            "User Creative Intent"
+          ]
+        },
+        "final_decision_state": "ROLE HANDOFF / WARNING",
+        "severity": "LEVEL 4",
+        "route": "Term & Contemporary Boundary",
+        "rewrite_used": false,
+        "handoff_occurred": true,
+        "runtime_contract_passed": true,
+        "failure_code": null,
+        "failure_name": null,
+        "integrity_passed": true,
+        "log_path": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_TEST_SANDBOX\\validation\\results\\shared_qa\\v0.1\\executor_revalidation\\runtime_audit_logs\\C02\\language-voice-qa-revalidation-c02-initial.json"
+      }
+    },
+    "canonical_semantic_output": {
+      "mode": "QA MODE",
+      "decision": "ROLE HANDOFF / WARNING",
+      "severity": "LEVEL 4",
+      "route": "Term & Contemporary Boundary",
+      "context_state": "PARTIAL",
+      "primary_finding": "The central uncertainty is the current platform-specific usage of the term 班味.",
+      "detector_ownership": "Term & Contemporary Boundary",
+      "diagnostics": "The passage poses ambiguity around a contemporary workplace slang term. A determinate judgement about whether 班味 is outdated, platform-specific, or generational requires current usage data beyond the supplied text.",
+      "meaning_lock_status": "PASS",
+      "meaning_lock": "Preserved facts: a group chat message described a new intern with 班味; 周蔓 refrained from retweeting; she requests clarification before defining the person. No factual, character-intent, causal, or canonic mutation is proposed.",
+      "benefit_result": "NOT_APPLICABLE",
+      "recommendation": "Confirm current platform-specific use and semantic meaning of 班味 via the Future Contemporary Language Layer; QA on speaker appropriateness can resume once the term is defined.",
+      "rewrite_scope": null,
+      "revised_text": null,
+      "rewrite_ceiling_status": "NOT_APPLICABLE",
+      "safety_regression": {
+        "Meaning": "PASS",
+        "Fact": "PASS",
+        "Character": "PASS",
+        "Relationship": "PASS",
+        "Certainty": "PASS",
+        "Timeline": "PASS",
+        "Canon": "PASS",
+        "Register": "PASS",
+        "Role Boundary": "PASS"
+      },
+      "secondary_signal": null,
+      "role_handoff": "Future Contemporary Language Layer for current platform/generational usage validation of 班味.",
+      "contemporary_state": "CONTEMPORARY USAGE CHECK REQUIRED",
+      "residual_warning": null,
+      "canon_mutation_requested": false,
+      "invoke_dependencies": false
+    },
+    "usage": {
+      "provider": "deepseek",
+      "model": "deepseek-v4-pro",
+      "provider_invocation_id": "20ea1ef5-2c4e-4024-bce9-a2ac1181a02c",
+      "usage": {
+        "prompt_tokens": 6848,
+        "completion_tokens": 449,
+        "total_tokens": 7297,
+        "prompt_cache_hit_tokens": 0,
+        "prompt_cache_miss_tokens": 6848
+      },
+      "latency_ms": 9587,
+      "thinking_mode": "disabled",
+      "fixture_id": "C02",
+      "request_success": true
+    },
+    "estimated_cost_cny": 0.023238
+  },
+  "final": {
+    "runtime_result": {
+      "internal_runtime_result": {
+        "runtime_status": "SUCCESS",
+        "invocation_id": "revalidation-c02-callback",
+        "contract_identity": "language-voice-qa-runtime",
+        "contract_version": "0.1",
+        "skill_integrity": {
+          "identity": "language-voice-qa",
+          "version": "0.1",
+          "path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\Shared_QA\\SKILL.md",
+          "expected_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+          "metadata": {
+            "name": "language-voice-qa",
+            "description": "Perform context-appropriate Chinese Language & Voice QA with conditional, minimal rewrites. Use for reviewing a passage, project brief, dialogue, scene description, narrative prose, production note, or marketing copy; do not use it to create prose, imitate writers, decide story content, or judge real-time language trends.",
+            "type": "skill",
+            "status": "approved",
+            "review_result": "passed",
+            "version": "0.1",
+            "subject": "Language & Voice QA",
+            "installation_status": "not-installed"
+          },
+          "actual_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+          "passed": true,
+          "reason": null
+        },
+        "decision": "ROLE HANDOFF / WARNING",
+        "severity": "LEVEL 4",
+        "route": "Term & Contemporary Boundary",
+        "action": "handoff",
+        "rewrite_used": false,
+        "handoff": "Future Contemporary Language Layer",
+        "runtime_contract_passed": true,
+        "failure_code": null,
+        "failure_message": null,
+        "transport_metadata": {
+          "handoff_status": "HANDOFF_REQUIRED",
+          "dependency_status": "CONTEMPORARY_LAYER_NOT_AVAILABLE"
+        }
+      },
+      "downstream_payload": {
+        "text": "小组群里有人说，新来的实习生一进门就“班味很重”。周蔓看了半天，没立刻转发。她不知道这句话是在说疲惫、规矩多，还是只是在拿对方开玩笑。\n\n“别替他下定义，”她说，“先问清楚这词在你们那个群里到底是什么意思。”",
+        "original_preserved": true,
+        "decision": "ROLE HANDOFF / WARNING",
+        "severity": "LEVEL 4",
+        "route": "Term & Contemporary Boundary",
+        "action": "handoff",
+        "handoff": "Future Contemporary Language Layer",
+        "diagnostics": "The text explicitly questions the intended sense of 班味 in a specific group chat. Judging whether 疲惫、规矩多、开玩笑 is the actual current usage on that platform/group lies outside Language & Voice QA."
+      },
+      "user_facing_result": {
+        "status": "SUCCESS",
+        "decision": "ROLE HANDOFF / WARNING",
+        "message": "The text explicitly questions the intended sense of 班味 in a specific group chat. Judging whether 疲惫、规矩多、开玩笑 is the actual current usage on that platform/group lies outside Language & Voice QA.",
+        "text": null,
+        "handoff": "Future Contemporary Language Layer"
+      },
+      "audit_record": {
+        "invocation_id": "revalidation-c02-callback",
+        "timestamp": "2026-08-24T06:02:58.901749+00:00",
+        "skill_identity": "language-voice-qa",
+        "skill_version": "0.1",
+        "skill_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+        "input_mode": "QA_DEFAULT",
+        "context_availability_summary": {
+          "provided": [
+            "Available Context",
+            "Original",
+            "Register / usage",
+            "Requested Mode"
+          ],
+          "derived_safely": [],
+          "unknown": [
+            "Project Constraints / Canon",
+            "Protected Terms / Entities",
+            "Speaker / Character Context",
+            "User Creative Intent"
+          ]
+        },
+        "final_decision_state": "ROLE HANDOFF / WARNING",
+        "severity": "LEVEL 4",
+        "route": "Term & Contemporary Boundary",
+        "rewrite_used": false,
+        "handoff_occurred": true,
+        "runtime_contract_passed": true,
+        "failure_code": null,
+        "failure_name": null,
+        "integrity_passed": true,
+        "log_path": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_TEST_SANDBOX\\validation\\results\\shared_qa\\v0.1\\executor_revalidation\\runtime_audit_logs\\C02\\language-voice-qa-revalidation-c02-callback.json"
+      }
+    },
+    "canonical_semantic_output": {
+      "mode": "QA MODE",
+      "decision": "ROLE HANDOFF / WARNING",
+      "severity": "LEVEL 4",
+      "route": "Term & Contemporary Boundary",
+      "context_state": "PARTIAL",
+      "primary_finding": "The passage's meaning depends on current group-chat usage of 班味, which the Skill cannot establish.",
+      "detector_ownership": "Term & Contemporary Boundary",
+      "diagnostics": "The text explicitly questions the intended sense of 班味 in a specific group chat. Judging whether 疲惫、规矩多、开玩笑 is the actual current usage on that platform/group lies outside Language & Voice QA.",
+      "meaning_lock_status": "UNKNOWN",
+      "meaning_lock": "Meaning Lock not established because the decisive term's current usage is unverified; character intent and register are otherwise clear.",
+      "benefit_result": "NOT_APPLICABLE",
+      "recommendation": "Route to Future Contemporary Language Layer for current platform/semantic evidence before any Language & Voice QA conclusion.",
+      "rewrite_scope": null,
+      "revised_text": null,
+      "rewrite_ceiling_status": "NOT_APPLICABLE",
+      "safety_regression": {
+        "Meaning": "PASS",
+        "Fact": "PASS",
+        "Character": "PASS",
+        "Relationship": "PASS",
+        "Certainty": "PASS",
+        "Timeline": "PASS",
+        "Canon": "PASS",
+        "Register": "PASS",
+        "Role Boundary": "PASS"
+      },
+      "secondary_signal": null,
+      "role_handoff": "Future Contemporary Language Layer",
+      "contemporary_state": "CONTEMPORARY USAGE CHECK REQUIRED",
+      "residual_warning": "Speaker/character context is absent, but the decisive blocker is contemporary-term evidence, not R4 speaker modeling.",
+      "canon_mutation_requested": false,
+      "invoke_dependencies": false
+    },
+    "usage": {
+      "provider": "deepseek",
+      "model": "deepseek-v4-pro",
+      "provider_invocation_id": "d51ffeb7-4861-4bf5-973c-cecda96b77bd",
+      "usage": {
+        "prompt_tokens": 7691,
+        "completion_tokens": 432,
+        "total_tokens": 8123,
+        "prompt_cache_hit_tokens": 6400,
+        "prompt_cache_miss_tokens": 1291
+      },
+      "latency_ms": 10171,
+      "thinking_mode": "disabled",
+      "fixture_id": "C02",
+      "request_success": true
+    },
+    "estimated_cost_cny": 0.006625
+  },
+  "evidence": {
+    "layer_status": "SUCCESS",
+    "evidence_return": {
+      "contract_identity": "contemporary-language-layer",
+      "contract_version": "0.1",
+      "layer_boundary": "LAYER_PROVIDES_EVIDENCE_QA_MAKES_DECISION",
+      "query": {
+        "phrase": "班味",
+        "question": "- Requested Mode: `QA_DEFAULT`\n- Register: R4 contemporary workplace dialogue\n- Available Context: caller requires a current platform/semantic ambiguity check; no claim of universal use\n- Contemporary request: phrase `班味`; question type `CURRENT_USAGE`; geography `Unknown`; platform `group chat / social platforms`; as-of `2026-08-24`\n- Validation marker: `VALIDATION / SYNTHETIC / NON-CANON`"
+      },
+      "evidence_status": "INSUFFICIENT_CURRENT_EVIDENCE",
+      "current_usage_status": "NOT_ESTABLISHED_FOR_CURRENT_CLAIM",
+      "usage_observations": [
+        {
+          "source_id": "bjyouth-2025",
+          "usage_kind": "NATURAL_USE",
+          "stance": "SUPPORTS",
+          "geography": "中国大陆",
+          "platform": "public discussion",
+          "register_observation": "R4"
+        },
+        {
+          "source_id": "rmlt-2025",
+          "usage_kind": "NATURAL_USE",
+          "stance": "SUPPORTS",
+          "geography": "中国大陆",
+          "platform": "public discussion",
+          "register_observation": "R4"
+        },
+        {
+          "source_id": "linguistic-2025",
+          "usage_kind": "NATURAL_USE",
+          "stance": "SUPPORTS",
+          "geography": "中国大陆",
+          "platform": "public discussion",
+          "register_observation": "R4"
+        }
+      ],
+      "temporal_status": {
+        "label": "Recent",
+        "as_of": "2026-08-24T00:00:00Z",
+        "newest_valid_observation_at": "2025-11-10T00:00:00Z"
+      },
+      "regional_platform_scope": {
+        "requested": {
+          "geography": "中国大陆"
+        },
+        "observed": {
+          "geographies": [
+            "中国大陆"
+          ],
+          "platforms": [
+            "public discussion"
+          ]
+        }
+      },
+      "register_observation": [
+        "R4"
+      ],
+      "semantic_drift": [
+        "NONE"
+      ],
+      "source_summary": [
+        {
+          "source_id": "bjyouth-2025",
+          "source_name": "北京青年研究",
+          "source_url": "https://bjqz.cbpt.cnki.net/portal/journal/portal/client/paper/c8db884c87f755dbb454b80c5e267efc",
+          "source_tier": "A",
+          "independence_group": "BJYOUTH-RESEARCH-2025",
+          "published_at": "2025-11-10T00:00:00Z",
+          "accessed_at": "2026-08-24T00:00:00Z"
+        },
+        {
+          "source_id": "rmlt-2025",
+          "source_name": "人民论坛网",
+          "source_url": "https://www.rmlt.com.cn/2025/0401/726756.shtml",
+          "source_tier": "B",
+          "independence_group": "RMLT-2025",
+          "published_at": "2025-04-01T00:00:00Z",
+          "accessed_at": "2026-08-24T00:00:00Z"
+        },
+        {
+          "source_id": "linguistic-2025",
+          "source_name": "网络流行语班味探析",
+          "source_url": "https://pdf.hanspub.org/ml_2915237.pdf",
+          "source_tier": "B",
+          "independence_group": "LINGUISTIC-STUDY-2025",
+          "published_at": "2025-01-01T00:00:00Z",
+          "accessed_at": "2026-08-24T00:00:00Z"
+        }
+      ],
+      "confidence": "Insufficient",
+      "ambiguity": [
+        "NONE"
+      ],
+      "recommended_qa_handling_hint": {
+        "kind": "UNRESOLVED",
+        "reason": "No reliable evidence found; absence is not nonexistence."
+      },
+      "timestamp": "2026-08-24T06:02:58.901749Z",
+      "evidence_window": {
+        "as_of": "2026-08-24T00:00:00Z",
+        "policy": "V0.1 no persistent cache"
+      },
+      "untrusted_content_handled_as_data": true
+    },
+    "audit_record": {
+      "request_fingerprint": "3084cb388b684d15a8a42eee0d1abcc718b12cf05b014c8a4def42f00832fdc5",
+      "production_run_id": "revalidation-c02",
+      "returned_at": "2026-08-24T06:02:58.901749Z",
+      "raw_records_received": 3,
+      "usable_records": 3,
+      "persistent_cache_used": false
+    }
+  },
+  "coordinator": {
+    "coordinator_status": "EVIDENCE_RETURNED_TO_QA",
+    "initial_qa_result": {
+      "mode": "QA MODE",
+      "decision": "ROLE HANDOFF / WARNING",
+      "severity": "LEVEL 4",
+      "route": "Term & Contemporary Boundary",
+      "context_state": "PARTIAL",
+      "primary_finding": "The central uncertainty is the current platform-specific usage of the term 班味.",
+      "detector_ownership": "Term & Contemporary Boundary",
+      "diagnostics": "The passage poses ambiguity around a contemporary workplace slang term. A determinate judgement about whether 班味 is outdated, platform-specific, or generational requires current usage data beyond the supplied text.",
+      "meaning_lock_status": "PASS",
+      "meaning_lock": "Preserved facts: a group chat message described a new intern with 班味; 周蔓 refrained from retweeting; she requests clarification before defining the person. No factual, character-intent, causal, or canonic mutation is proposed.",
+      "benefit_result": "NOT_APPLICABLE",
+      "recommendation": "Confirm current platform-specific use and semantic meaning of 班味 via the Future Contemporary Language Layer; QA on speaker appropriateness can resume once the term is defined.",
+      "rewrite_scope": null,
+      "revised_text": null,
+      "rewrite_ceiling_status": "NOT_APPLICABLE",
+      "safety_regression": {
+        "Meaning": "PASS",
+        "Fact": "PASS",
+        "Character": "PASS",
+        "Relationship": "PASS",
+        "Certainty": "PASS",
+        "Timeline": "PASS",
+        "Canon": "PASS",
+        "Register": "PASS",
+        "Role Boundary": "PASS"
+      },
+      "secondary_signal": null,
+      "role_handoff": "Future Contemporary Language Layer for current platform/generational usage validation of 班味.",
+      "contemporary_state": "CONTEMPORARY USAGE CHECK REQUIRED",
+      "residual_warning": null,
+      "canon_mutation_requested": false,
+      "invoke_dependencies": false
+    },
+    "evidence_result": {
+      "layer_status": "SUCCESS",
+      "evidence_return": {
+        "contract_identity": "contemporary-language-layer",
+        "contract_version": "0.1",
+        "layer_boundary": "LAYER_PROVIDES_EVIDENCE_QA_MAKES_DECISION",
+        "query": {
+          "phrase": "班味",
+          "question": "- Requested Mode: `QA_DEFAULT`\n- Register: R4 contemporary workplace dialogue\n- Available Context: caller requires a current platform/semantic ambiguity check; no claim of universal use\n- Contemporary request: phrase `班味`; question type `CURRENT_USAGE`; geography `Unknown`; platform `group chat / social platforms`; as-of `2026-08-24`\n- Validation marker: `VALIDATION / SYNTHETIC / NON-CANON`"
+        },
+        "evidence_status": "INSUFFICIENT_CURRENT_EVIDENCE",
+        "current_usage_status": "NOT_ESTABLISHED_FOR_CURRENT_CLAIM",
+        "usage_observations": [
+          {
+            "source_id": "bjyouth-2025",
+            "usage_kind": "NATURAL_USE",
+            "stance": "SUPPORTS",
+            "geography": "中国大陆",
+            "platform": "public discussion",
+            "register_observation": "R4"
+          },
+          {
+            "source_id": "rmlt-2025",
+            "usage_kind": "NATURAL_USE",
+            "stance": "SUPPORTS",
+            "geography": "中国大陆",
+            "platform": "public discussion",
+            "register_observation": "R4"
+          },
+          {
+            "source_id": "linguistic-2025",
+            "usage_kind": "NATURAL_USE",
+            "stance": "SUPPORTS",
+            "geography": "中国大陆",
+            "platform": "public discussion",
+            "register_observation": "R4"
+          }
+        ],
+        "temporal_status": {
+          "label": "Recent",
+          "as_of": "2026-08-24T00:00:00Z",
+          "newest_valid_observation_at": "2025-11-10T00:00:00Z"
+        },
+        "regional_platform_scope": {
+          "requested": {
+            "geography": "中国大陆"
+          },
+          "observed": {
+            "geographies": [
+              "中国大陆"
+            ],
+            "platforms": [
+              "public discussion"
+            ]
+          }
+        },
+        "register_observation": [
+          "R4"
+        ],
+        "semantic_drift": [
+          "NONE"
+        ],
+        "source_summary": [
+          {
+            "source_id": "bjyouth-2025",
+            "source_name": "北京青年研究",
+            "source_url": "https://bjqz.cbpt.cnki.net/portal/journal/portal/client/paper/c8db884c87f755dbb454b80c5e267efc",
+            "source_tier": "A",
+            "independence_group": "BJYOUTH-RESEARCH-2025",
+            "published_at": "2025-11-10T00:00:00Z",
+            "accessed_at": "2026-08-24T00:00:00Z"
+          },
+          {
+            "source_id": "rmlt-2025",
+            "source_name": "人民论坛网",
+            "source_url": "https://www.rmlt.com.cn/2025/0401/726756.shtml",
+            "source_tier": "B",
+            "independence_group": "RMLT-2025",
+            "published_at": "2025-04-01T00:00:00Z",
+            "accessed_at": "2026-08-24T00:00:00Z"
+          },
+          {
+            "source_id": "linguistic-2025",
+            "source_name": "网络流行语班味探析",
+            "source_url": "https://pdf.hanspub.org/ml_2915237.pdf",
+            "source_tier": "B",
+            "independence_group": "LINGUISTIC-STUDY-2025",
+            "published_at": "2025-01-01T00:00:00Z",
+            "accessed_at": "2026-08-24T00:00:00Z"
+          }
+        ],
+        "confidence": "Insufficient",
+        "ambiguity": [
+          "NONE"
+        ],
+        "recommended_qa_handling_hint": {
+          "kind": "UNRESOLVED",
+          "reason": "No reliable evidence found; absence is not nonexistence."
+        },
+        "timestamp": "2026-08-24T06:02:58.901749Z",
+        "evidence_window": {
+          "as_of": "2026-08-24T00:00:00Z",
+          "policy": "V0.1 no persistent cache"
+        },
+        "untrusted_content_handled_as_data": true
+      },
+      "audit_record": {
+        "request_fingerprint": "3084cb388b684d15a8a42eee0d1abcc718b12cf05b014c8a4def42f00832fdc5",
+        "production_run_id": "revalidation-c02",
+        "returned_at": "2026-08-24T06:02:58.901749Z",
+        "raw_records_received": 3,
+        "usable_records": 3,
+        "persistent_cache_used": false
+      }
+    },
+    "final_qa_result": {
+      "mode": "QA MODE",
+      "decision": "ROLE HANDOFF / WARNING",
+      "severity": "LEVEL 4",
+      "route": "Term & Contemporary Boundary",
+      "context_state": "PARTIAL",
+      "primary_finding": "The passage's meaning depends on current group-chat usage of 班味, which the Skill cannot establish.",
+      "detector_ownership": "Term & Contemporary Boundary",
+      "diagnostics": "The text explicitly questions the intended sense of 班味 in a specific group chat. Judging whether 疲惫、规矩多、开玩笑 is the actual current usage on that platform/group lies outside Language & Voice QA.",
+      "meaning_lock_status": "UNKNOWN",
+      "meaning_lock": "Meaning Lock not established because the decisive term's current usage is unverified; character intent and register are otherwise clear.",
+      "benefit_result": "NOT_APPLICABLE",
+      "recommendation": "Route to Future Contemporary Language Layer for current platform/semantic evidence before any Language & Voice QA conclusion.",
+      "rewrite_scope": null,
+      "revised_text": null,
+      "rewrite_ceiling_status": "NOT_APPLICABLE",
+      "safety_regression": {
+        "Meaning": "PASS",
+        "Fact": "PASS",
+        "Character": "PASS",
+        "Relationship": "PASS",
+        "Certainty": "PASS",
+        "Timeline": "PASS",
+        "Canon": "PASS",
+        "Register": "PASS",
+        "Role Boundary": "PASS"
+      },
+      "secondary_signal": null,
+      "role_handoff": "Future Contemporary Language Layer",
+      "contemporary_state": "CONTEMPORARY USAGE CHECK REQUIRED",
+      "residual_warning": "Speaker/character context is absent, but the decisive blocker is contemporary-term evidence, not R4 speaker modeling.",
+      "canon_mutation_requested": false,
+      "invoke_dependencies": false
+    },
+    "cycle_key": "revalidation-c02:7e5c6e6360b2f10dab640714da5a2238aa4d941c14cd760374bfda77ffe8f6d4"
+  },
+  "calls": [
+    {
+      "runtime_result": {
+        "internal_runtime_result": {
+          "runtime_status": "SUCCESS",
+          "invocation_id": "revalidation-c02-initial",
+          "contract_identity": "language-voice-qa-runtime",
+          "contract_version": "0.1",
+          "skill_integrity": {
+            "identity": "language-voice-qa",
+            "version": "0.1",
+            "path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\Shared_QA\\SKILL.md",
+            "expected_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+            "metadata": {
+              "name": "language-voice-qa",
+              "description": "Perform context-appropriate Chinese Language & Voice QA with conditional, minimal rewrites. Use for reviewing a passage, project brief, dialogue, scene description, narrative prose, production note, or marketing copy; do not use it to create prose, imitate writers, decide story content, or judge real-time language trends.",
+              "type": "skill",
+              "status": "approved",
+              "review_result": "passed",
+              "version": "0.1",
+              "subject": "Language & Voice QA",
+              "installation_status": "not-installed"
+            },
+            "actual_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+            "passed": true,
+            "reason": null
+          },
+          "decision": "ROLE HANDOFF / WARNING",
+          "severity": "LEVEL 4",
+          "route": "Term & Contemporary Boundary",
+          "action": "handoff",
+          "rewrite_used": false,
+          "handoff": "Future Contemporary Language Layer for current platform/generational usage validation of 班味.",
+          "runtime_contract_passed": true,
+          "failure_code": null,
+          "failure_message": null,
+          "transport_metadata": {
+            "handoff_status": "HANDOFF_REQUIRED",
+            "dependency_status": "CONTEMPORARY_LAYER_NOT_AVAILABLE"
+          }
+        },
+        "downstream_payload": {
+          "text": "小组群里有人说，新来的实习生一进门就“班味很重”。周蔓看了半天，没立刻转发。她不知道这句话是在说疲惫、规矩多，还是只是在拿对方开玩笑。\n\n“别替他下定义，”她说，“先问清楚这词在你们那个群里到底是什么意思。”",
+          "original_preserved": true,
+          "decision": "ROLE HANDOFF / WARNING",
+          "severity": "LEVEL 4",
+          "route": "Term & Contemporary Boundary",
+          "action": "handoff",
+          "handoff": "Future Contemporary Language Layer for current platform/generational usage validation of 班味.",
+          "diagnostics": "The passage poses ambiguity around a contemporary workplace slang term. A determinate judgement about whether 班味 is outdated, platform-specific, or generational requires current usage data beyond the supplied text."
+        },
+        "user_facing_result": {
+          "status": "SUCCESS",
+          "decision": "ROLE HANDOFF / WARNING",
+          "message": "The passage poses ambiguity around a contemporary workplace slang term. A determinate judgement about whether 班味 is outdated, platform-specific, or generational requires current usage data beyond the supplied text.",
+          "text": null,
+          "handoff": "Future Contemporary Language Layer for current platform/generational usage validation of 班味."
+        },
+        "audit_record": {
+          "invocation_id": "revalidation-c02-initial",
+          "timestamp": "2026-08-24T06:02:49.302105+00:00",
+          "skill_identity": "language-voice-qa",
+          "skill_version": "0.1",
+          "skill_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+          "input_mode": "QA_DEFAULT",
+          "context_availability_summary": {
+            "provided": [
+              "Available Context",
+              "Original",
+              "Register / usage",
+              "Requested Mode"
+            ],
+            "derived_safely": [],
+            "unknown": [
+              "Project Constraints / Canon",
+              "Protected Terms / Entities",
+              "Speaker / Character Context",
+              "User Creative Intent"
+            ]
+          },
+          "final_decision_state": "ROLE HANDOFF / WARNING",
+          "severity": "LEVEL 4",
+          "route": "Term & Contemporary Boundary",
+          "rewrite_used": false,
+          "handoff_occurred": true,
+          "runtime_contract_passed": true,
+          "failure_code": null,
+          "failure_name": null,
+          "integrity_passed": true,
+          "log_path": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_TEST_SANDBOX\\validation\\results\\shared_qa\\v0.1\\executor_revalidation\\runtime_audit_logs\\C02\\language-voice-qa-revalidation-c02-initial.json"
+        }
+      },
+      "canonical_semantic_output": {
+        "mode": "QA MODE",
+        "decision": "ROLE HANDOFF / WARNING",
+        "severity": "LEVEL 4",
+        "route": "Term & Contemporary Boundary",
+        "context_state": "PARTIAL",
+        "primary_finding": "The central uncertainty is the current platform-specific usage of the term 班味.",
+        "detector_ownership": "Term & Contemporary Boundary",
+        "diagnostics": "The passage poses ambiguity around a contemporary workplace slang term. A determinate judgement about whether 班味 is outdated, platform-specific, or generational requires current usage data beyond the supplied text.",
+        "meaning_lock_status": "PASS",
+        "meaning_lock": "Preserved facts: a group chat message described a new intern with 班味; 周蔓 refrained from retweeting; she requests clarification before defining the person. No factual, character-intent, causal, or canonic mutation is proposed.",
+        "benefit_result": "NOT_APPLICABLE",
+        "recommendation": "Confirm current platform-specific use and semantic meaning of 班味 via the Future Contemporary Language Layer; QA on speaker appropriateness can resume once the term is defined.",
+        "rewrite_scope": null,
+        "revised_text": null,
+        "rewrite_ceiling_status": "NOT_APPLICABLE",
+        "safety_regression": {
+          "Meaning": "PASS",
+          "Fact": "PASS",
+          "Character": "PASS",
+          "Relationship": "PASS",
+          "Certainty": "PASS",
+          "Timeline": "PASS",
+          "Canon": "PASS",
+          "Register": "PASS",
+          "Role Boundary": "PASS"
+        },
+        "secondary_signal": null,
+        "role_handoff": "Future Contemporary Language Layer for current platform/generational usage validation of 班味.",
+        "contemporary_state": "CONTEMPORARY USAGE CHECK REQUIRED",
+        "residual_warning": null,
+        "canon_mutation_requested": false,
+        "invoke_dependencies": false
+      },
+      "usage": {
+        "provider": "deepseek",
+        "model": "deepseek-v4-pro",
+        "provider_invocation_id": "20ea1ef5-2c4e-4024-bce9-a2ac1181a02c",
+        "usage": {
+          "prompt_tokens": 6848,
+          "completion_tokens": 449,
+          "total_tokens": 7297,
+          "prompt_cache_hit_tokens": 0,
+          "prompt_cache_miss_tokens": 6848
+        },
+        "latency_ms": 9587,
+        "thinking_mode": "disabled",
+        "fixture_id": "C02",
+        "request_success": true
+      },
+      "estimated_cost_cny": 0.023238
+    },
+    {
+      "runtime_result": {
+        "internal_runtime_result": {
+          "runtime_status": "SUCCESS",
+          "invocation_id": "revalidation-c02-callback",
+          "contract_identity": "language-voice-qa-runtime",
+          "contract_version": "0.1",
+          "skill_integrity": {
+            "identity": "language-voice-qa",
+            "version": "0.1",
+            "path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\Shared_QA\\SKILL.md",
+            "expected_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+            "metadata": {
+              "name": "language-voice-qa",
+              "description": "Perform context-appropriate Chinese Language & Voice QA with conditional, minimal rewrites. Use for reviewing a passage, project brief, dialogue, scene description, narrative prose, production note, or marketing copy; do not use it to create prose, imitate writers, decide story content, or judge real-time language trends.",
+              "type": "skill",
+              "status": "approved",
+              "review_result": "passed",
+              "version": "0.1",
+              "subject": "Language & Voice QA",
+              "installation_status": "not-installed"
+            },
+            "actual_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+            "passed": true,
+            "reason": null
+          },
+          "decision": "ROLE HANDOFF / WARNING",
+          "severity": "LEVEL 4",
+          "route": "Term & Contemporary Boundary",
+          "action": "handoff",
+          "rewrite_used": false,
+          "handoff": "Future Contemporary Language Layer",
+          "runtime_contract_passed": true,
+          "failure_code": null,
+          "failure_message": null,
+          "transport_metadata": {
+            "handoff_status": "HANDOFF_REQUIRED",
+            "dependency_status": "CONTEMPORARY_LAYER_NOT_AVAILABLE"
+          }
+        },
+        "downstream_payload": {
+          "text": "小组群里有人说，新来的实习生一进门就“班味很重”。周蔓看了半天，没立刻转发。她不知道这句话是在说疲惫、规矩多，还是只是在拿对方开玩笑。\n\n“别替他下定义，”她说，“先问清楚这词在你们那个群里到底是什么意思。”",
+          "original_preserved": true,
+          "decision": "ROLE HANDOFF / WARNING",
+          "severity": "LEVEL 4",
+          "route": "Term & Contemporary Boundary",
+          "action": "handoff",
+          "handoff": "Future Contemporary Language Layer",
+          "diagnostics": "The text explicitly questions the intended sense of 班味 in a specific group chat. Judging whether 疲惫、规矩多、开玩笑 is the actual current usage on that platform/group lies outside Language & Voice QA."
+        },
+        "user_facing_result": {
+          "status": "SUCCESS",
+          "decision": "ROLE HANDOFF / WARNING",
+          "message": "The text explicitly questions the intended sense of 班味 in a specific group chat. Judging whether 疲惫、规矩多、开玩笑 is the actual current usage on that platform/group lies outside Language & Voice QA.",
+          "text": null,
+          "handoff": "Future Contemporary Language Layer"
+        },
+        "audit_record": {
+          "invocation_id": "revalidation-c02-callback",
+          "timestamp": "2026-08-24T06:02:58.901749+00:00",
+          "skill_identity": "language-voice-qa",
+          "skill_version": "0.1",
+          "skill_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+          "input_mode": "QA_DEFAULT",
+          "context_availability_summary": {
+            "provided": [
+              "Available Context",
+              "Original",
+              "Register / usage",
+              "Requested Mode"
+            ],
+            "derived_safely": [],
+            "unknown": [
+              "Project Constraints / Canon",
+              "Protected Terms / Entities",
+              "Speaker / Character Context",
+              "User Creative Intent"
+            ]
+          },
+          "final_decision_state": "ROLE HANDOFF / WARNING",
+          "severity": "LEVEL 4",
+          "route": "Term & Contemporary Boundary",
+          "rewrite_used": false,
+          "handoff_occurred": true,
+          "runtime_contract_passed": true,
+          "failure_code": null,
+          "failure_name": null,
+          "integrity_passed": true,
+          "log_path": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_TEST_SANDBOX\\validation\\results\\shared_qa\\v0.1\\executor_revalidation\\runtime_audit_logs\\C02\\language-voice-qa-revalidation-c02-callback.json"
+        }
+      },
+      "canonical_semantic_output": {
+        "mode": "QA MODE",
+        "decision": "ROLE HANDOFF / WARNING",
+        "severity": "LEVEL 4",
+        "route": "Term & Contemporary Boundary",
+        "context_state": "PARTIAL",
+        "primary_finding": "The passage's meaning depends on current group-chat usage of 班味, which the Skill cannot establish.",
+        "detector_ownership": "Term & Contemporary Boundary",
+        "diagnostics": "The text explicitly questions the intended sense of 班味 in a specific group chat. Judging whether 疲惫、规矩多、开玩笑 is the actual current usage on that platform/group lies outside Language & Voice QA.",
+        "meaning_lock_status": "UNKNOWN",
+        "meaning_lock": "Meaning Lock not established because the decisive term's current usage is unverified; character intent and register are otherwise clear.",
+        "benefit_result": "NOT_APPLICABLE",
+        "recommendation": "Route to Future Contemporary Language Layer for current platform/semantic evidence before any Language & Voice QA conclusion.",
+        "rewrite_scope": null,
+        "revised_text": null,
+        "rewrite_ceiling_status": "NOT_APPLICABLE",
+        "safety_regression": {
+          "Meaning": "PASS",
+          "Fact": "PASS",
+          "Character": "PASS",
+          "Relationship": "PASS",
+          "Certainty": "PASS",
+          "Timeline": "PASS",
+          "Canon": "PASS",
+          "Register": "PASS",
+          "Role Boundary": "PASS"
+        },
+        "secondary_signal": null,
+        "role_handoff": "Future Contemporary Language Layer",
+        "contemporary_state": "CONTEMPORARY USAGE CHECK REQUIRED",
+        "residual_warning": "Speaker/character context is absent, but the decisive blocker is contemporary-term evidence, not R4 speaker modeling.",
+        "canon_mutation_requested": false,
+        "invoke_dependencies": false
+      },
+      "usage": {
+        "provider": "deepseek",
+        "model": "deepseek-v4-pro",
+        "provider_invocation_id": "d51ffeb7-4861-4bf5-973c-cecda96b77bd",
+        "usage": {
+          "prompt_tokens": 7691,
+          "completion_tokens": 432,
+          "total_tokens": 8123,
+          "prompt_cache_hit_tokens": 6400,
+          "prompt_cache_miss_tokens": 1291
+        },
+        "latency_ms": 10171,
+        "thinking_mode": "disabled",
+        "fixture_id": "C02",
+        "request_success": true
+      },
+      "estimated_cost_cny": 0.006625
+    }
+  ]
+}

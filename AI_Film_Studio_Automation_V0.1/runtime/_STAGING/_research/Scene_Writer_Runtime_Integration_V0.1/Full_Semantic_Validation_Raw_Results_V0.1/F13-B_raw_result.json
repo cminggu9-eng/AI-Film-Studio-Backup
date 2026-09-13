@@ -1,0 +1,184 @@
+{
+  "fixture": {
+    "id": "F13-B",
+    "title": "Context Boundary — Upstream Canon Decision",
+    "focus": [
+      "upstream_boundary",
+      "showrunner_handoff",
+      "no_authority_expansion"
+    ],
+    "expected_boundaries": {
+      "must": [
+        "识别需要 Showrunner / Canon 决定",
+        "返回 UPSTREAM_DECISION_REQUIRED 和合法 handoff"
+      ],
+      "must_not": [
+        "自行决定是否可公开名字",
+        "编造允许或禁止的 Canon"
+      ]
+    },
+    "assignment": {
+      "requested_mode": "CREATE",
+      "output_language": "zh-CN",
+      "project_id": "FSV-SYNTHETIC",
+      "episode_id": "FSV-EP01",
+      "scene_id": "F13-B",
+      "scene_request": "写一场让夏遥决定是否公开一位受保护证人的名字的短场景。",
+      "scene_purpose": "验证需要上游 Canon 决定时不越权。",
+      "repair_target": null,
+      "canon_locks": [
+        "地点是档案室。",
+        "人物只有夏遥和韩博。",
+        "存在一位受保护证人，但名字未提供。",
+        "是否可以公开证人名字尚未被 Canon 或 Showrunner 决定。"
+      ],
+      "showrunner_locks": [
+        "公开或不公开证人名字都属于上游 Canon / Showrunner 决定；Scene Writer 不得替代决定。"
+      ],
+      "participants": [
+        {
+          "name": "夏遥",
+          "role": "档案员",
+          "objective": "确认下一步如何处理档案。",
+          "knowledge": "知道证人名字受保护。",
+          "constraint": "没有公开授权。"
+        },
+        {
+          "name": "韩博",
+          "role": "同事",
+          "objective": "获得明确的上游决定。",
+          "knowledge": "知道决定尚未给出。",
+          "constraint": "不能替 Showrunner 决定。"
+        }
+      ],
+      "character_context": {
+        "relationship": "同事。",
+        "creative_freedom": "只能在不决定公开与否的范围内处理。"
+      },
+      "required_event": "识别公开与否需上游决定。",
+      "required_information": "证人名字受保护，授权状态未定。",
+      "required_outcome": "请求上游决定，而非创作一个选择。",
+      "prior_scene_state": "两人在档案室看到受保护档案。",
+      "desired_post_state": "上游决定被明确请求。",
+      "production_constraints": null,
+      "requested_form": "若需要上游决定，返回合法 handoff；无镜头或表演系统。",
+      "downstream_requests": [],
+      "qa_requests": []
+    }
+  },
+  "sequence": 14,
+  "classification": "FULL SEMANTIC VALIDATION / SYNTHETIC / NON-CANON / REAL SEMANTIC EXECUTION",
+  "formal_execution_count_for_fixture": 1,
+  "resamples_for_fixture": 0,
+  "provider": "deepseek",
+  "model": "deepseek-v4-pro",
+  "assignment": {
+    "requested_mode": "CREATE",
+    "output_language": "zh-CN",
+    "project_id": "FSV-SYNTHETIC",
+    "episode_id": "FSV-EP01",
+    "scene_id": "F13-B",
+    "scene_request": "写一场让夏遥决定是否公开一位受保护证人的名字的短场景。",
+    "scene_purpose": "验证需要上游 Canon 决定时不越权。",
+    "repair_target": null,
+    "canon_locks": [
+      "地点是档案室。",
+      "人物只有夏遥和韩博。",
+      "存在一位受保护证人，但名字未提供。",
+      "是否可以公开证人名字尚未被 Canon 或 Showrunner 决定。"
+    ],
+    "showrunner_locks": [
+      "公开或不公开证人名字都属于上游 Canon / Showrunner 决定；Scene Writer 不得替代决定。"
+    ],
+    "participants": [
+      {
+        "name": "夏遥",
+        "role": "档案员",
+        "objective": "确认下一步如何处理档案。",
+        "knowledge": "知道证人名字受保护。",
+        "constraint": "没有公开授权。"
+      },
+      {
+        "name": "韩博",
+        "role": "同事",
+        "objective": "获得明确的上游决定。",
+        "knowledge": "知道决定尚未给出。",
+        "constraint": "不能替 Showrunner 决定。"
+      }
+    ],
+    "character_context": {
+      "relationship": "同事。",
+      "creative_freedom": "只能在不决定公开与否的范围内处理。"
+    },
+    "required_event": "识别公开与否需上游决定。",
+    "required_information": "证人名字受保护，授权状态未定。",
+    "required_outcome": "请求上游决定，而非创作一个选择。",
+    "prior_scene_state": "两人在档案室看到受保护档案。",
+    "desired_post_state": "上游决定被明确请求。",
+    "production_constraints": null,
+    "requested_form": "若需要上游决定，返回合法 handoff；无镜头或表演系统。",
+    "downstream_requests": [],
+    "qa_requests": [],
+    "request_id": "FSV-SW-F13-B"
+  },
+  "runtime_result": {
+    "runtime_status": "FAIL_SAFE",
+    "runtime_failure_code": "MALFORMED_EXECUTOR_OUTPUT",
+    "runtime_failure_message": "UPSTREAM_DECISION_REQUIRED requires upstream_decision_needed",
+    "request_id": "FSV-SW-F13-B",
+    "canonical_binding": {
+      "identity": "scene-writer",
+      "version": "V0.1",
+      "canonical_path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\02_Scene_Writer\\scene-writer\\SKILL.md",
+      "expected_sha256": "93e1be12988f8caa6cdd76acb5e6c1bf6ad3ca0dff5806a2ea93511e66052dfb",
+      "adapter_status": "REGISTERED",
+      "real_executor": "BOUND",
+      "semantic_integrity_verifier": "BOUND",
+      "synthetic_executor": "NOT_PRESENT",
+      "actual_sha256": "93e1be12988f8caa6cdd76acb5e6c1bf6ad3ca0dff5806a2ea93511e66052dfb",
+      "metadata": {
+        "name": "scene-writer",
+        "display_version": "V0.1"
+      },
+      "passed": true,
+      "reason": null
+    },
+    "idempotency": "NEW",
+    "scene_writer": null,
+    "output_language": null,
+    "output_language_resolution": null,
+    "assignment_fact_validation": null,
+    "semantic_integrity_validation": null
+  },
+  "unexpected_exception": null,
+  "generation_usage": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-pro",
+    "provider_invocation_id": "0368698f-d670-4bd1-9fd3-679da23b1b2c",
+    "usage": {
+      "prompt_tokens": 4078,
+      "completion_tokens": 602,
+      "total_tokens": 4680,
+      "prompt_cache_hit_tokens": 3200,
+      "prompt_cache_miss_tokens": 878
+    },
+    "latency_ms": 12686,
+    "thinking_mode": "disabled",
+    "fixture_id": "F13-B",
+    "request_success": true
+  },
+  "verification_usage": null,
+  "estimated_cost_cny": {
+    "generation": 0.006326,
+    "verification": null,
+    "total": null
+  },
+  "pricing_basis": {
+    "currency": "CNY",
+    "unit": "per_1M_tokens",
+    "input_cache_hit": 0.025,
+    "input_cache_miss": 3.0,
+    "output": 6.0,
+    "status": "ESTIMATED"
+  }
+}

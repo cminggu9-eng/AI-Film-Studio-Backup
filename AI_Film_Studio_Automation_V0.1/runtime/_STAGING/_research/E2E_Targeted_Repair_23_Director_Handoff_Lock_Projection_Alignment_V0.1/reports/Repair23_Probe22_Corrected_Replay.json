@@ -1,0 +1,36 @@
+{
+  "classification": "REPAIR23 PROBE22 CORRECTED OFFLINE REPLAY",
+  "overall": "PASS",
+  "probe22_historical_result_preserved": true,
+  "probe22_historical_failure": "E2EBlocked: Received locks changed in transit",
+  "raw_provider_response_sha256": "d9f743c15c218624788639eaaa6d84c2c0dff239b24c2fbe9ac174649ab3a3d6",
+  "wire_validation": "PASS",
+  "tagged_decode": "PASS",
+  "canonical_15_field_validation": "PASS",
+  "corrected_authoritative_handoff_validation": "PASS",
+  "authoritative_source": "Scene Writer.role_result",
+  "projection_rule": "IDENTITY_PRESERVING_ORDERED_COPY",
+  "source_scene_writer_equals_director_input_snapshot": true,
+  "source_order_preserved": true,
+  "corrected_received_equals_sent": true,
+  "corrected_prohibitions_equal": true,
+  "legacy_probe_received_locks": [
+    "view_memory_card_decision"
+  ],
+  "authoritative_sent_locks": [
+    "C-09",
+    "memory_card",
+    "withheld_photo_reveal",
+    "battery_installed",
+    "battery_removed_and_sealed",
+    "view_memory_card_decision"
+  ],
+  "real_transit_mutation": false,
+  "provider_owned_lock_field": false,
+  "root_cause": "Probe22 independently rebuilt received locks from a one-lock fixture helper while sent/handoff validation used the immutable R26 Scene Writer six-lock authority.",
+  "provider_calls": 0,
+  "executor_calls": 0,
+  "role_calls": 0,
+  "probe_calls": 0,
+  "live_e2e_calls": 0
+}

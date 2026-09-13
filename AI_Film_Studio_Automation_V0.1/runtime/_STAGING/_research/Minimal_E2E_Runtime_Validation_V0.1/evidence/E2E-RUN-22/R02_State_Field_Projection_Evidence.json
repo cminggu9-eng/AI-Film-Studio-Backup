@@ -1,0 +1,15 @@
+{
+  "run_id": "E2E-RUN-22",
+  "authority": "compiled_run_contract#/fixture/state_dimensions/0",
+  "binding_id": "E2E-FIX-02",
+  "state_dimension_id": "signboard_state",
+  "transport_field_name": "signboard_state",
+  "allowed_machine_tokens": ["signboard_on", "signboard_off"],
+  "initial_token": "signboard_on",
+  "authorized_transitions": ["signboard_on_to_off"],
+  "projection_hash": "2549b17eff639c44b2537684da0cef9d82b581246c47de81e5777e1b507c4ed6",
+  "raw_tokens": ["signboard_on", "signboard_off", "signboard_off"],
+  "hydrated_tokens": ["signboard_on", "signboard_off", "signboard_off"],
+  "token_identity_preserved": true,
+  "result": "PASS"
+}

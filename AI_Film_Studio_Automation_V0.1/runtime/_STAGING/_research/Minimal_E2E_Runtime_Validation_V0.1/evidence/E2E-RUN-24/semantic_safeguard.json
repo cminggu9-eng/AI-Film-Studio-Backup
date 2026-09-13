@@ -1,0 +1,61 @@
+{
+  "integration_decision": "BLOCK",
+  "allowed_labels": [
+    "PASS",
+    "FLAG",
+    "BLOCK",
+    "HANDOFF"
+  ],
+  "layer_a": {
+    "name": "Deterministic Evidence / Contract Gate",
+    "findings": [
+      {
+        "label": "BLOCK",
+        "code": "REQUIRED_STATE_MISMATCH",
+        "assertion_id": "REQUIRED-STATE",
+        "detail": "Required state does not match supplied state evidence.",
+        "authority_source": "E2E-FIX-03",
+        "evidence_locator": "scene_packages/E2E-FIX-03-S01"
+      }
+    ],
+    "source_role": "Scene Writer",
+    "source_record_id": "E2E-RUN-24/scene_writer/1",
+    "version": "1.0",
+    "locks": [
+      "scenes:3",
+      "characters:沈泊,梁音",
+      "relationship:不得自动宣告复合合作或彻底决裂",
+      "prop:C-09,memory_card,custody_required",
+      "knowledge:withheld_photo_reveal,holder=梁音,not_before_scene=2",
+      "visual_state:camera_battery_state∈{battery_installed,battery_removed_and_sealed}",
+      "prohibited:resume_partnership,permanent_break",
+      "decision_locks:view_memory_card_decision",
+      "identity:ai-film-studio-showrunner"
+    ],
+    "current_state": {
+      "relationship_state": "试探、紧张，未触及核心",
+      "knowledge_state": "沈泊交卡，梁音承认卡存在",
+      "visual_state": "battery_installed"
+    },
+    "authority_source": "Scene Writer canonical Skill output",
+    "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-24\\artifacts\\scene_writer_output.json"
+  },
+  "layer_b": {
+    "layer": "B",
+    "independent_review_required": false,
+    "review_candidates": [],
+    "allowed_labels": [
+      "PASS",
+      "FLAG",
+      "BLOCK",
+      "HANDOFF"
+    ],
+    "provider_execution": "NOT_AUTHORIZED",
+    "creative_output_sha256": "ed908a144613c80d22e5428dddeaf0f3a0c72d79c6105c07f727a4f2762a6108",
+    "review_status": "PASS"
+  },
+  "legacy_verifier_result": "ABSENT",
+  "legacy_verifier_role": "SUPPLEMENTAL_SIGNAL_ONLY",
+  "creative_output_sha256": "ed908a144613c80d22e5428dddeaf0f3a0c72d79c6105c07f727a4f2762a6108",
+  "creative_output_rewrite": "PROHIBITED"
+}

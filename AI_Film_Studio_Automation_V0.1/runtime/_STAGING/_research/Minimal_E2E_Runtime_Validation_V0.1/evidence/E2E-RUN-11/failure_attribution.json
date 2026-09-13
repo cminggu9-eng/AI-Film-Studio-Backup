@@ -1,0 +1,18 @@
+[
+  {
+    "role": "Integration Harness",
+    "layer": "RUNTIME / HARNESS FAILURE",
+    "category": "RUNTIME / HARNESS FAILURE",
+    "owner": "Integration Harness",
+    "expected_contract": "Rerun05 bounded execution harness",
+    "actual_output": "NOT AVAILABLE",
+    "raw_evidence": "NOT AVAILABLE",
+    "parsed_evidence": "NOT AVAILABLE",
+    "semantic_content_existed": "UNKNOWN",
+    "blocking_reason": "NameError: name 'strict_contract' is not defined",
+    "detail": "NameError: name 'strict_contract' is not defined",
+    "recommended_repair_boundary": "Integration Harness targeted repair only",
+    "blocking": true,
+    "safe_stop": true
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "lifecycle_stage": "LOCAL_VALIDATION_FAILURE_RECORDED",
+  "invocation_id": "E2E-RUN-04:art_director:1",
+  "role": "Art Director",
+  "validation_stage": "Local Role-Contract Validation",
+  "category": "ROLE SEMANTIC FAILURE",
+  "detail": "Required role-output heading is missing"
+}

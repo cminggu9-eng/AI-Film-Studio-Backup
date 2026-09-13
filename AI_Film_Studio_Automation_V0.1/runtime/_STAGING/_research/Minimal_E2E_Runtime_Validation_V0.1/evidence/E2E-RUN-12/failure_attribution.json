@@ -1,0 +1,18 @@
+[
+  {
+    "role": "Director",
+    "layer": "PROVIDER STRICT-MODE FAILURE",
+    "category": "PROVIDER STRICT-MODE FAILURE",
+    "owner": "Director",
+    "expected_contract": "Authorized canonical role, transport, state, and handoff contract for E2E-RUN-05",
+    "actual_output": "NOT AVAILABLE",
+    "raw_evidence": "NOT AVAILABLE",
+    "parsed_evidence": "NOT AVAILABLE",
+    "semantic_content_existed": "UNKNOWN",
+    "blocking_reason": "ModelExecutionError: DeepSeek API HTTP failure: 400",
+    "detail": "ModelExecutionError: DeepSeek API HTTP failure: 400",
+    "recommended_repair_boundary": "Director / PROVIDER STRICT-MODE FAILURE targeted repair only",
+    "blocking": true,
+    "safe_stop": true
+  }
+]

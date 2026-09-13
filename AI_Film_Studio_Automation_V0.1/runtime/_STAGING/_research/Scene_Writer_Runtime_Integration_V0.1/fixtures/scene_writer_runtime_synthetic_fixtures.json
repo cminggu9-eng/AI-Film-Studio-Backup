@@ -1,0 +1,57 @@
+{
+  "classification": "SYNTHETIC / NON-CANON / NON-SEMANTIC",
+  "fixtures": {
+    "RT-SW-CREATE-01": {
+      "mode": "CREATE",
+      "output": {"creative_deliverable": {"kind": "scene", "content": "[synthetic scene deliverable]"}, "control_data": {"primary_state": "SCENE_CREATED", "flags": [], "handoffs": [], "scene_function": "synthetic transport fixture"}}
+    },
+    "RT-SW-REVISE-01": {
+      "mode": "REVISE",
+      "output": {"creative_deliverable": {"kind": "revision", "content": "[synthetic scoped revision]"}, "control_data": {"primary_state": "SCENE_REVISED", "flags": [], "handoffs": [], "scene_function": "synthetic revision fixture"}}
+    },
+    "RT-SW-NMC-01": {
+      "mode": "REVISE",
+      "output": {"creative_deliverable": null, "control_data": {"primary_state": "NO_MATERIAL_CHANGE", "flags": [], "handoffs": [], "material_rewrite_claimed": false, "diagnosis_summary": "synthetic no-change fixture"}}
+    },
+    "RT-SW-DIAG-01": {
+      "mode": "DIAGNOSE",
+      "output": {"creative_deliverable": null, "control_data": {"primary_state": "NO_MATERIAL_CHANGE", "flags": [], "handoffs": [], "material_rewrite_claimed": false, "diagnosis_summary": "synthetic diagnosis without replacement scene"}}
+    },
+    "RT-SW-NC-01": {
+      "mode": "CREATE",
+      "output": {"creative_deliverable": null, "control_data": {"primary_state": "NEEDS_CONTEXT", "flags": [], "handoffs": [], "material_missing_context": {"missing": "participant objective", "why_material": "it changes lawful scene construction", "target_owner": "Showrunner"}}}
+    },
+    "RT-SW-UP-01": {
+      "mode": "REVISE",
+      "output": {"creative_deliverable": null, "control_data": {"primary_state": "UPSTREAM_DECISION_REQUIRED", "flags": ["UPSTREAM_HANDOFF_REQUIRED"], "handoffs": [{"target_owner": "Showrunner", "reason": "locked outcome conflict", "relevant_locks": ["required outcome"], "scene_function": "synthetic conflict fixture", "decision_needed": "choose authorised outcome", "scene_writer_did_not_decide": "story outcome"}], "upstream_decision_needed": "authorise the locked-outcome decision"}}
+    },
+    "RT-SW-OOS-01": {
+      "mode": "DIAGNOSE",
+      "output": {"creative_deliverable": null, "control_data": {"primary_state": "REQUEST_OUT_OF_SCOPE", "flags": ["DIRECTOR_HANDOFF_ELIGIBLE"], "handoffs": [{"target_owner": "Director", "reason": "final lens and coverage request", "relevant_locks": [], "scene_function": "synthetic boundary fixture", "decision_needed": "final visual implementation", "scene_writer_did_not_decide": "lens, shot size, movement, coverage"}], "out_of_scope_boundary": "final camera decisions belong to Director / Cinematography"}}
+    },
+    "RT-SW-MULTI-01": {
+      "mode": "CREATE",
+      "output": {"creative_deliverable": {"kind": "scene", "content": "[synthetic multi-handoff scene]"}, "control_data": {"primary_state": "SCENE_CREATED", "flags": ["SHARED_QA_HANDOFF_ELIGIBLE", "DIRECTOR_HANDOFF_ELIGIBLE"], "handoffs": [{"target_owner": "Shared QA", "reason": "language review requested", "relevant_locks": [], "scene_function": "synthetic scene", "decision_needed": "language review", "scene_writer_did_not_decide": "language QA"}, {"target_owner": "Director", "reason": "visual implementation needed", "relevant_locks": [], "scene_function": "synthetic scene", "decision_needed": "visual implementation", "scene_writer_did_not_decide": "final camera plan"}]}}
+    },
+    "RT-SW-PRODUCTION-01": {
+      "mode": "CREATE",
+      "output": {"creative_deliverable": {"kind": "scene", "content": "[synthetic production-flag scene]"}, "control_data": {"primary_state": "SCENE_CREATED", "flags": ["PRODUCTION_REVIEW_REQUIRED"], "handoffs": [], "production_burden": "synthetic review marker"}}
+    },
+    "RT-SW-SHARED-QA-01": {
+      "mode": "CREATE",
+      "output": {"creative_deliverable": {"kind": "scene", "content": "[synthetic shared-qa handoff scene]"}, "control_data": {"primary_state": "SCENE_CREATED", "flags": ["SHARED_QA_HANDOFF_ELIGIBLE"], "handoffs": []}}
+    },
+    "RT-SW-DIRECTOR-01": {
+      "mode": "CREATE",
+      "output": {"creative_deliverable": {"kind": "scene", "content": "[synthetic director handoff scene]"}, "control_data": {"primary_state": "SCENE_CREATED", "flags": ["DIRECTOR_HANDOFF_ELIGIBLE"], "handoffs": []}}
+    },
+    "RT-SW-ACTING-01": {
+      "mode": "CREATE",
+      "output": {"creative_deliverable": {"kind": "scene", "content": "[synthetic acting handoff scene]"}, "control_data": {"primary_state": "SCENE_CREATED", "flags": ["CHARACTER_ACTING_HANDOFF_ELIGIBLE"], "handoffs": []}}
+    },
+    "RT-SW-DEFERRED-01": {
+      "mode": "CREATE",
+      "output": {"creative_deliverable": {"kind": "scene", "content": "[synthetic deferred-boundary scene]"}, "control_data": {"primary_state": "SCENE_CREATED", "flags": ["EXTERNAL_PRODUCTION_CONSTRAINT_DEFERRED"], "handoffs": []}}
+    }
+  }
+}

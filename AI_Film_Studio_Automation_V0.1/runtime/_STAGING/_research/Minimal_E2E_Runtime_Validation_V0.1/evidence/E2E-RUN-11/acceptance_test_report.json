@@ -1,0 +1,80 @@
+{
+  "run_id": "E2E-RUN-11",
+  "criteria": {
+    "E2E-INT-01": {
+      "result": "NOT REACHED",
+      "evidence": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-11\\failure_attribution.json"
+    },
+    "E2E-INT-02": {
+      "result": "NOT REACHED",
+      "evidence": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-11\\failure_attribution.json"
+    },
+    "E2E-INT-03": {
+      "result": "NOT REACHED",
+      "evidence": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-11\\failure_attribution.json"
+    },
+    "E2E-INT-04": {
+      "result": "NOT REACHED",
+      "evidence": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-11\\failure_attribution.json"
+    },
+    "E2E-INT-05": {
+      "result": "NOT REACHED",
+      "evidence": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-11\\failure_attribution.json"
+    },
+    "E2E-INT-06": {
+      "result": "NOT REACHED",
+      "evidence": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-11\\failure_attribution.json"
+    },
+    "E2E-INT-07": {
+      "result": "NOT REACHED",
+      "evidence": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-11\\failure_attribution.json"
+    },
+    "E2E-INT-08": {
+      "result": "NOT REACHED",
+      "evidence": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-11\\failure_attribution.json"
+    },
+    "E2E-INT-09": {
+      "result": "NOT REACHED",
+      "evidence": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-11\\failure_attribution.json"
+    },
+    "E2E-INT-10": {
+      "result": "NOT REACHED",
+      "evidence": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-11\\failure_attribution.json"
+    },
+    "E2E-INT-11": {
+      "result": "NOT REACHED",
+      "evidence": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-11\\failure_attribution.json"
+    },
+    "E2E-INT-12": {
+      "result": "NOT REACHED",
+      "evidence": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-11\\failure_attribution.json"
+    },
+    "E2E-INT-13": {
+      "result": "NOT REACHED",
+      "evidence": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-11\\failure_attribution.json"
+    },
+    "E2E-INT-14": {
+      "result": "NOT REACHED",
+      "evidence": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-11\\failure_attribution.json"
+    },
+    "E2E-INT-15": {
+      "result": "NOT REACHED",
+      "evidence": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-11\\failure_attribution.json"
+    },
+    "E2E-INT-16": {
+      "result": "NOT REACHED",
+      "evidence": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-11\\failure_attribution.json"
+    },
+    "E2E-INT-17": {
+      "result": "NOT REACHED",
+      "evidence": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-11\\failure_attribution.json"
+    },
+    "E2E-INT-18": {
+      "result": "NOT REACHED",
+      "evidence": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-11\\failure_attribution.json"
+    }
+  },
+  "passed": 0,
+  "total": 18,
+  "overall": "NOT REACHED"
+}

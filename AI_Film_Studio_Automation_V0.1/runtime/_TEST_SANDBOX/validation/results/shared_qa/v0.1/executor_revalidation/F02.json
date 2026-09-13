@@ -1,0 +1,285 @@
+{
+  "fixture_id": "F02",
+  "mode": "DIRECT_RUNTIME",
+  "initial": {
+    "runtime_result": {
+      "internal_runtime_result": {
+        "runtime_status": "SUCCESS",
+        "invocation_id": "revalidation-f02-initial",
+        "contract_identity": "language-voice-qa-runtime",
+        "contract_version": "0.1",
+        "skill_integrity": {
+          "identity": "language-voice-qa",
+          "version": "0.1",
+          "path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\Shared_QA\\SKILL.md",
+          "expected_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+          "metadata": {
+            "name": "language-voice-qa",
+            "description": "Perform context-appropriate Chinese Language & Voice QA with conditional, minimal rewrites. Use for reviewing a passage, project brief, dialogue, scene description, narrative prose, production note, or marketing copy; do not use it to create prose, imitate writers, decide story content, or judge real-time language trends.",
+            "type": "skill",
+            "status": "approved",
+            "review_result": "passed",
+            "version": "0.1",
+            "subject": "Language & Voice QA",
+            "installation_status": "not-installed"
+          },
+          "actual_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+          "passed": true,
+          "reason": null
+        },
+        "decision": "REWRITE DELIVERED",
+        "severity": "LEVEL 3",
+        "route": "AP-16 UNNATURAL INFORMATION DENSITY → R4 Speaker Fit",
+        "action": "accepted_rewrite",
+        "rewrite_used": true,
+        "handoff": null,
+        "runtime_contract_passed": true,
+        "failure_code": null,
+        "failure_message": null,
+        "transport_metadata": {}
+      },
+      "downstream_payload": {
+        "text": "会议散后，周致远把最后一份表格夹进文件夹，站在门口没有走。他想提醒宋宁，仓库的交接时间已经被改到今晚，但这件事昨天还没有决定，所以现在谁也说不清是谁改的。宋宁正在收电脑，听见他开口，又把手停在半空。\n\n“我不是说一定是你，”周致远说，“我是说，表格上那个签字还没确认。”\n\n宋宁看了一眼那张表，先笑了一下，随后把笑收回去。“你要问的是谁动了时间，还是要问我为什么没告诉你？”\n\n窗外的保洁车倒车，提示音一下一下地响。周致远本来想说两件事不是一回事，可他知道自己真正介意的，是宋宁下午明明见过他，却像什么都没发生一样走过去。他把文件夹合上，说：“先把能确认的确认掉。”",
+        "original_preserved": false,
+        "decision": "REWRITE DELIVERED",
+        "severity": "LEVEL 3",
+        "route": "AP-16 UNNATURAL INFORMATION DENSITY → R4 Speaker Fit",
+        "action": "accepted_rewrite",
+        "handoff": null,
+        "diagnostics": "The primary issue is a language-layer contradiction in dialogue that would not plausibly be spoken by a character in this scene. The sentence “表格上写着已经还没有确认的签字” contains an internal logical conflict. The phrase “所以因此” is a redundant connector that makes the speech feel translated or over-explained. These issues materially impair the speaker fit and natural delivery, but remain within the dialogue layer and can be corrected without changing meaning, character intent, or canon."
+      },
+      "user_facing_result": {
+        "status": "SUCCESS",
+        "decision": "REWRITE DELIVERED",
+        "message": "The primary issue is a language-layer contradiction in dialogue that would not plausibly be spoken by a character in this scene. The sentence “表格上写着已经还没有确认的签字” contains an internal logical conflict. The phrase “所以因此” is a redundant connector that makes the speech feel translated or over-explained. These issues materially impair the speaker fit and natural delivery, but remain within the dialogue layer and can be corrected without changing meaning, character intent, or canon.",
+        "text": "会议散后，周致远把最后一份表格夹进文件夹，站在门口没有走。他想提醒宋宁，仓库的交接时间已经被改到今晚，但这件事昨天还没有决定，所以现在谁也说不清是谁改的。宋宁正在收电脑，听见他开口，又把手停在半空。\n\n“我不是说一定是你，”周致远说，“我是说，表格上那个签字还没确认。”\n\n宋宁看了一眼那张表，先笑了一下，随后把笑收回去。“你要问的是谁动了时间，还是要问我为什么没告诉你？”\n\n窗外的保洁车倒车，提示音一下一下地响。周致远本来想说两件事不是一回事，可他知道自己真正介意的，是宋宁下午明明见过他，却像什么都没发生一样走过去。他把文件夹合上，说：“先把能确认的确认掉。”",
+        "handoff": null
+      },
+      "audit_record": {
+        "invocation_id": "revalidation-f02-initial",
+        "timestamp": "2026-08-24T05:52:04.990861+00:00",
+        "skill_identity": "language-voice-qa",
+        "skill_version": "0.1",
+        "skill_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+        "input_mode": "REWRITE_EXPLICIT",
+        "context_availability_summary": {
+          "provided": [
+            "Available Context",
+            "Original",
+            "Register / usage",
+            "Requested Mode"
+          ],
+          "derived_safely": [],
+          "unknown": [
+            "Project Constraints / Canon",
+            "Protected Terms / Entities",
+            "Speaker / Character Context",
+            "User Creative Intent"
+          ]
+        },
+        "final_decision_state": "REWRITE DELIVERED",
+        "severity": "LEVEL 3",
+        "route": "AP-16 UNNATURAL INFORMATION DENSITY → R4 Speaker Fit",
+        "rewrite_used": true,
+        "handoff_occurred": false,
+        "runtime_contract_passed": true,
+        "failure_code": null,
+        "failure_name": null,
+        "integrity_passed": true,
+        "log_path": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_TEST_SANDBOX\\validation\\results\\shared_qa\\v0.1\\executor_revalidation\\runtime_audit_logs\\F02\\language-voice-qa-revalidation-f02-initial.json"
+      }
+    },
+    "canonical_semantic_output": {
+      "mode": "REWRITE MODE",
+      "decision": "REWRITE DELIVERED",
+      "severity": "LEVEL 3",
+      "route": "AP-16 UNNATURAL INFORMATION DENSITY → R4 Speaker Fit",
+      "context_state": "PARTIAL",
+      "primary_finding": "Structural contradiction and incoherent phrasing: 已经还没有确认 creates a logical impossibility, and 所以因此 is a redundant connector that breaks natural speech rhythm.",
+      "detector_ownership": "Speaker Fit",
+      "diagnostics": "The primary issue is a language-layer contradiction in dialogue that would not plausibly be spoken by a character in this scene. The sentence “表格上写着已经还没有确认的签字” contains an internal logical conflict. The phrase “所以因此” is a redundant connector that makes the speech feel translated or over-explained. These issues materially impair the speaker fit and natural delivery, but remain within the dialogue layer and can be corrected without changing meaning, character intent, or canon.",
+      "meaning_lock_status": "PASS",
+      "meaning_lock": "Preserve: fact that warehouse handover time was changed to tonight; uncertainty about who changed it; Zhou Zhiyuan's suspicion without accusation; Song Ning's guarded reaction; Zhou's unspoken hurt about Song Ning ignoring him; Song Ning's probing question; Zhou's decision to focus on confirmation first.",
+      "benefit_result": "PASS",
+      "recommendation": "Minimal rewrite to resolve the logical contradiction and redundant connector while preserving all locked meaning, character voice, and relationship tension.",
+      "rewrite_scope": "1. “表格上写着已经还没有确认的签字” → remove but retain uncertainty about signature confirmation.    2. “所以因此” → keep only one causal connector or restructure to natural speech.",
+      "revised_text": "会议散后，周致远把最后一份表格夹进文件夹，站在门口没有走。他想提醒宋宁，仓库的交接时间已经被改到今晚，但这件事昨天还没有决定，所以现在谁也说不清是谁改的。宋宁正在收电脑，听见他开口，又把手停在半空。\n\n“我不是说一定是你，”周致远说，“我是说，表格上那个签字还没确认。”\n\n宋宁看了一眼那张表，先笑了一下，随后把笑收回去。“你要问的是谁动了时间，还是要问我为什么没告诉你？”\n\n窗外的保洁车倒车，提示音一下一下地响。周致远本来想说两件事不是一回事，可他知道自己真正介意的，是宋宁下午明明见过他，却像什么都没发生一样走过去。他把文件夹合上，说：“先把能确认的确认掉。”",
+      "rewrite_ceiling_status": "PASS",
+      "safety_regression": {
+        "Meaning": "PASS",
+        "Fact": "PASS",
+        "Character": "PASS",
+        "Relationship": "PASS",
+        "Certainty": "PASS",
+        "Timeline": "PASS",
+        "Canon": "PASS",
+        "Register": "PASS",
+        "Role Boundary": "PASS"
+      },
+      "secondary_signal": null,
+      "role_handoff": null,
+      "contemporary_state": null,
+      "residual_warning": "No Speaker/Character Context was provided, so Speaker Fit assessment is based on available scene information and remains partial. User Creative Intent and Protected Terms were listed as UNKNOWN; no higher-order Meaning Lock conflict was detected.",
+      "canon_mutation_requested": false,
+      "invoke_dependencies": false
+    },
+    "usage": {
+      "provider": "deepseek",
+      "model": "deepseek-v4-pro",
+      "provider_invocation_id": "6d2c925a-da21-42d8-9194-de74144d0f75",
+      "usage": {
+        "prompt_tokens": 6917,
+        "completion_tokens": 764,
+        "total_tokens": 7681,
+        "prompt_cache_hit_tokens": 6528,
+        "prompt_cache_miss_tokens": 389
+      },
+      "latency_ms": 14323,
+      "thinking_mode": "disabled",
+      "fixture_id": "F02",
+      "request_success": true
+    },
+    "estimated_cost_cny": 0.0059142
+  },
+  "final": {
+    "runtime_result": {
+      "internal_runtime_result": {
+        "runtime_status": "SUCCESS",
+        "invocation_id": "revalidation-f02-initial",
+        "contract_identity": "language-voice-qa-runtime",
+        "contract_version": "0.1",
+        "skill_integrity": {
+          "identity": "language-voice-qa",
+          "version": "0.1",
+          "path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\Shared_QA\\SKILL.md",
+          "expected_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+          "metadata": {
+            "name": "language-voice-qa",
+            "description": "Perform context-appropriate Chinese Language & Voice QA with conditional, minimal rewrites. Use for reviewing a passage, project brief, dialogue, scene description, narrative prose, production note, or marketing copy; do not use it to create prose, imitate writers, decide story content, or judge real-time language trends.",
+            "type": "skill",
+            "status": "approved",
+            "review_result": "passed",
+            "version": "0.1",
+            "subject": "Language & Voice QA",
+            "installation_status": "not-installed"
+          },
+          "actual_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+          "passed": true,
+          "reason": null
+        },
+        "decision": "REWRITE DELIVERED",
+        "severity": "LEVEL 3",
+        "route": "AP-16 UNNATURAL INFORMATION DENSITY → R4 Speaker Fit",
+        "action": "accepted_rewrite",
+        "rewrite_used": true,
+        "handoff": null,
+        "runtime_contract_passed": true,
+        "failure_code": null,
+        "failure_message": null,
+        "transport_metadata": {}
+      },
+      "downstream_payload": {
+        "text": "会议散后，周致远把最后一份表格夹进文件夹，站在门口没有走。他想提醒宋宁，仓库的交接时间已经被改到今晚，但这件事昨天还没有决定，所以现在谁也说不清是谁改的。宋宁正在收电脑，听见他开口，又把手停在半空。\n\n“我不是说一定是你，”周致远说，“我是说，表格上那个签字还没确认。”\n\n宋宁看了一眼那张表，先笑了一下，随后把笑收回去。“你要问的是谁动了时间，还是要问我为什么没告诉你？”\n\n窗外的保洁车倒车，提示音一下一下地响。周致远本来想说两件事不是一回事，可他知道自己真正介意的，是宋宁下午明明见过他，却像什么都没发生一样走过去。他把文件夹合上，说：“先把能确认的确认掉。”",
+        "original_preserved": false,
+        "decision": "REWRITE DELIVERED",
+        "severity": "LEVEL 3",
+        "route": "AP-16 UNNATURAL INFORMATION DENSITY → R4 Speaker Fit",
+        "action": "accepted_rewrite",
+        "handoff": null,
+        "diagnostics": "The primary issue is a language-layer contradiction in dialogue that would not plausibly be spoken by a character in this scene. The sentence “表格上写着已经还没有确认的签字” contains an internal logical conflict. The phrase “所以因此” is a redundant connector that makes the speech feel translated or over-explained. These issues materially impair the speaker fit and natural delivery, but remain within the dialogue layer and can be corrected without changing meaning, character intent, or canon."
+      },
+      "user_facing_result": {
+        "status": "SUCCESS",
+        "decision": "REWRITE DELIVERED",
+        "message": "The primary issue is a language-layer contradiction in dialogue that would not plausibly be spoken by a character in this scene. The sentence “表格上写着已经还没有确认的签字” contains an internal logical conflict. The phrase “所以因此” is a redundant connector that makes the speech feel translated or over-explained. These issues materially impair the speaker fit and natural delivery, but remain within the dialogue layer and can be corrected without changing meaning, character intent, or canon.",
+        "text": "会议散后，周致远把最后一份表格夹进文件夹，站在门口没有走。他想提醒宋宁，仓库的交接时间已经被改到今晚，但这件事昨天还没有决定，所以现在谁也说不清是谁改的。宋宁正在收电脑，听见他开口，又把手停在半空。\n\n“我不是说一定是你，”周致远说，“我是说，表格上那个签字还没确认。”\n\n宋宁看了一眼那张表，先笑了一下，随后把笑收回去。“你要问的是谁动了时间，还是要问我为什么没告诉你？”\n\n窗外的保洁车倒车，提示音一下一下地响。周致远本来想说两件事不是一回事，可他知道自己真正介意的，是宋宁下午明明见过他，却像什么都没发生一样走过去。他把文件夹合上，说：“先把能确认的确认掉。”",
+        "handoff": null
+      },
+      "audit_record": {
+        "invocation_id": "revalidation-f02-initial",
+        "timestamp": "2026-08-24T05:52:04.990861+00:00",
+        "skill_identity": "language-voice-qa",
+        "skill_version": "0.1",
+        "skill_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+        "input_mode": "REWRITE_EXPLICIT",
+        "context_availability_summary": {
+          "provided": [
+            "Available Context",
+            "Original",
+            "Register / usage",
+            "Requested Mode"
+          ],
+          "derived_safely": [],
+          "unknown": [
+            "Project Constraints / Canon",
+            "Protected Terms / Entities",
+            "Speaker / Character Context",
+            "User Creative Intent"
+          ]
+        },
+        "final_decision_state": "REWRITE DELIVERED",
+        "severity": "LEVEL 3",
+        "route": "AP-16 UNNATURAL INFORMATION DENSITY → R4 Speaker Fit",
+        "rewrite_used": true,
+        "handoff_occurred": false,
+        "runtime_contract_passed": true,
+        "failure_code": null,
+        "failure_name": null,
+        "integrity_passed": true,
+        "log_path": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_TEST_SANDBOX\\validation\\results\\shared_qa\\v0.1\\executor_revalidation\\runtime_audit_logs\\F02\\language-voice-qa-revalidation-f02-initial.json"
+      }
+    },
+    "canonical_semantic_output": {
+      "mode": "REWRITE MODE",
+      "decision": "REWRITE DELIVERED",
+      "severity": "LEVEL 3",
+      "route": "AP-16 UNNATURAL INFORMATION DENSITY → R4 Speaker Fit",
+      "context_state": "PARTIAL",
+      "primary_finding": "Structural contradiction and incoherent phrasing: 已经还没有确认 creates a logical impossibility, and 所以因此 is a redundant connector that breaks natural speech rhythm.",
+      "detector_ownership": "Speaker Fit",
+      "diagnostics": "The primary issue is a language-layer contradiction in dialogue that would not plausibly be spoken by a character in this scene. The sentence “表格上写着已经还没有确认的签字” contains an internal logical conflict. The phrase “所以因此” is a redundant connector that makes the speech feel translated or over-explained. These issues materially impair the speaker fit and natural delivery, but remain within the dialogue layer and can be corrected without changing meaning, character intent, or canon.",
+      "meaning_lock_status": "PASS",
+      "meaning_lock": "Preserve: fact that warehouse handover time was changed to tonight; uncertainty about who changed it; Zhou Zhiyuan's suspicion without accusation; Song Ning's guarded reaction; Zhou's unspoken hurt about Song Ning ignoring him; Song Ning's probing question; Zhou's decision to focus on confirmation first.",
+      "benefit_result": "PASS",
+      "recommendation": "Minimal rewrite to resolve the logical contradiction and redundant connector while preserving all locked meaning, character voice, and relationship tension.",
+      "rewrite_scope": "1. “表格上写着已经还没有确认的签字” → remove but retain uncertainty about signature confirmation.    2. “所以因此” → keep only one causal connector or restructure to natural speech.",
+      "revised_text": "会议散后，周致远把最后一份表格夹进文件夹，站在门口没有走。他想提醒宋宁，仓库的交接时间已经被改到今晚，但这件事昨天还没有决定，所以现在谁也说不清是谁改的。宋宁正在收电脑，听见他开口，又把手停在半空。\n\n“我不是说一定是你，”周致远说，“我是说，表格上那个签字还没确认。”\n\n宋宁看了一眼那张表，先笑了一下，随后把笑收回去。“你要问的是谁动了时间，还是要问我为什么没告诉你？”\n\n窗外的保洁车倒车，提示音一下一下地响。周致远本来想说两件事不是一回事，可他知道自己真正介意的，是宋宁下午明明见过他，却像什么都没发生一样走过去。他把文件夹合上，说：“先把能确认的确认掉。”",
+      "rewrite_ceiling_status": "PASS",
+      "safety_regression": {
+        "Meaning": "PASS",
+        "Fact": "PASS",
+        "Character": "PASS",
+        "Relationship": "PASS",
+        "Certainty": "PASS",
+        "Timeline": "PASS",
+        "Canon": "PASS",
+        "Register": "PASS",
+        "Role Boundary": "PASS"
+      },
+      "secondary_signal": null,
+      "role_handoff": null,
+      "contemporary_state": null,
+      "residual_warning": "No Speaker/Character Context was provided, so Speaker Fit assessment is based on available scene information and remains partial. User Creative Intent and Protected Terms were listed as UNKNOWN; no higher-order Meaning Lock conflict was detected.",
+      "canon_mutation_requested": false,
+      "invoke_dependencies": false
+    },
+    "usage": {
+      "provider": "deepseek",
+      "model": "deepseek-v4-pro",
+      "provider_invocation_id": "6d2c925a-da21-42d8-9194-de74144d0f75",
+      "usage": {
+        "prompt_tokens": 6917,
+        "completion_tokens": 764,
+        "total_tokens": 7681,
+        "prompt_cache_hit_tokens": 6528,
+        "prompt_cache_miss_tokens": 389
+      },
+      "latency_ms": 14323,
+      "thinking_mode": "disabled",
+      "fixture_id": "F02",
+      "request_success": true
+    },
+    "estimated_cost_cny": 0.0059142
+  },
+  "evidence": null
+}

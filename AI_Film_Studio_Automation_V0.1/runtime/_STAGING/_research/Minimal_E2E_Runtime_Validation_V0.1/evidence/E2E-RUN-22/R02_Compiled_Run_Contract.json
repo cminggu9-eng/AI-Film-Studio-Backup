@@ -1,0 +1,14 @@
+{
+  "run_id": "E2E-RUN-22",
+  "fixture_id": "E2E-FIX-02",
+  "source_binding": "E2E_FIX_02_Runtime_Binding_V0.1.json",
+  "source_binding_sha256": "31E041D9F963EEBC9100205C9267BF12FAEC011EC0DC61AF293B03F45F9E8774",
+  "scene_ids": ["E2E-FIX-02-S01", "E2E-FIX-02-S02", "E2E-FIX-02-S03"],
+  "tracked_entity_ids": ["cracked_white_porcelain_bowl"],
+  "tracked_entity_identity_locks": ["same_cracked_bowl"],
+  "state_enums": {"signboard_state": ["signboard_on", "signboard_off"]},
+  "authorized_transitions": ["signboard_on_to_off"],
+  "decision_locks": ["shop_transfer_decision"],
+  "prohibited_outcomes": ["SELL", "KEEP", "彻底和解"],
+  "result": "PASS"
+}

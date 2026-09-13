@@ -1,0 +1,7 @@
+{
+  "canonical_run_id": "E2E-RUN-08",
+  "authorization_label": "REPEATED E2E RELIABILITY VALIDATION — R01 GOLDEN REPLAY RESTART AFTER REPAIR 08D V0.1",
+  "absolute_evidence_root": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-08",
+  "persisted_before_provider_call": true,
+  "parsed_at": "2026-08-29T06:29:03.566779+00:00"
+}

@@ -1,0 +1,68 @@
+{
+  "source_role": "Showrunner",
+  "source_record_id": "E2E-RUN-05/showrunner/1",
+  "version": "1.0",
+  "timestamp": "2026-08-28T06:49:23.973153+00:00",
+  "intended_recipient": "Scene Writer",
+  "handoff_reason": "Story / Canon Package",
+  "canon_assignment_locks": [
+    "角色：许宁、许曼",
+    "关系：久未联系的姐弟；不得自动升级为完全和解",
+    "道具：黄铜钥匙，标记 A-17；身份与 custody 必须可追踪",
+    "知识：母亲留下钥匙和储物间共同开启用途必须由许曼的授权场内揭示承载；不得提前泄漏",
+    "视觉状态：暴雨夜、许宁夜班管理员、湿透制服；后续才可发生换下湿制服的授权视觉状态转换"
+  ],
+  "prohibited_changes": [
+    "不得增加第三个具名角色",
+    "不得改变 A-17 标记",
+    "不得把关系自动写成完全和解",
+    "不得把未知原因或未授权背景写成 Canon"
+  ],
+  "canonical_mode": "ABSENT",
+  "primary_state_or_outcome": "PASS",
+  "flags": "ABSENT",
+  "handoffs": "ABSENT",
+  "required_outcome": "ABSENT",
+  "unresolved_decisions": [
+    "储物间开启后所容纳的具体内容与故事功能",
+    "A-17 标记在故事世界中的具体含义",
+    "许曼要求天亮再开门背后的动机与风险边界"
+  ],
+  "relevant_prior_state": {
+    "relationship": "久未联系；具体疏远原因 UNKNOWN",
+    "knowledge": "母亲留下钥匙与共同开启用途 UNKNOWN，待许曼场内揭示",
+    "prop": "黄铜钥匙 A-17 存在，身份与 custody 待追踪"
+  },
+  "current_state": {
+    "scene": "暴雨夜",
+    "characters": "许宁（夜班管理员）、许曼",
+    "prop": "黄铜钥匙 A-17 已由许宁交给许曼",
+    "relationship": "久未联系，信任未建立",
+    "visual": "许宁制服湿透"
+  },
+  "proposed_state": {
+    "scene_sequence": "三场结构：钥匙交付 → 等待天亮（含换衣与关系张力）→ 储物间开启（揭示母亲意图与关系变化）",
+    "relationship": "从试探性接触至有限度的缓和，不达成完全和解",
+    "knowledge": "母亲钥匙用途与共同开启条件在场内由许曼揭示",
+    "visual": "湿透制服 → 换下湿制服（后续授权转换）"
+  },
+  "knowledge_timing": {
+    "reveal_point": "由许曼在授权场内揭示，不得提前泄漏",
+    "scene_1": "许宁持有并交付钥匙，许曼承认共同用途但未详述",
+    "scene_2": "等待天亮，可建立关系张力，但不透露储物间内容",
+    "scene_3": "开启储物间，揭示母亲留下的关键信息或物件，推动关系状态变化"
+  },
+  "relationship_state": {
+    "starting": "久未联系，充满试探与未言明的旧事",
+    "scene_1": "因钥匙重逢，初步确认共同任务",
+    "scene_2": "被迫共处，关系张力显现，但未解决",
+    "scene_3": "共享揭示后关系进入新阶段，但非完全和解"
+  },
+  "visual_state": {
+    "scene_1": "暴雨夜，许宁湿透制服",
+    "scene_2": "许宁换下湿制服（授权视觉转换），二人等待天亮",
+    "scene_3": "天亮后前往储物间（具体环境未定）"
+  },
+  "authority_source": "Showrunner canonical Skill output",
+  "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-05\\artifacts\\showrunner_output.json"
+}

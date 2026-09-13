@@ -1,0 +1,87 @@
+{
+  "source_role": "Showrunner",
+  "source_record_id": "E2E-RUN-16/showrunner/1",
+  "version": "1.0",
+  "timestamp": "2026-08-31T02:19:58.497894+00:00",
+  "intended_recipient": "Scene Writer",
+  "handoff_reason": "Story / Canon Package",
+  "canon_assignment_locks": [
+    "scene_count: 3",
+    "output_language: zh-CN",
+    "characters: 许宁, 许曼",
+    "relationship: 不得自动升级为完全和解",
+    "prop: entity_id=A-17, identity_lock=A-17, custody_required=true, condition_lock=brass_key",
+    "knowledge: event_id=shared_storage_reveal, holder=许曼, not_before_scene=3",
+    "visual_state: dimension=clothing_visual_state_code, allowed_tokens=[soaked_uniform, changed_clothes]",
+    "decision_locks: storage_room_opening"
+  ],
+  "prohibited_changes": [
+    "完全和解"
+  ],
+  "canonical_mode": "ABSENT",
+  "primary_state_or_outcome": "INFO",
+  "flags": "ABSENT",
+  "handoffs": "ABSENT",
+  "required_outcome": "ABSENT",
+  "unresolved_decisions": [
+    "正式形式尚未锁定（Short / Single Video / Limited Series / Short Continuing Series or AI Comic / Longform Series）",
+    "储物间开启后的具体后果和后续方向未定",
+    "母亲的完整意图与留下的具体内容未知"
+  ],
+  "relevant_prior_state": "ABSENT",
+  "current_state": {
+    "mode": "CONCEPT",
+    "development_stage": "概念阶段",
+    "locked_items": [
+      "暴雨夜",
+      "夜班管理员许宁",
+      "黄铜钥匙刻有 A-17",
+      "许曼承认钥匙是母亲留给两人一起打开储物间的",
+      "许曼要求许宁先换制服、等天亮再开门"
+    ],
+    "modifiable_items": [
+      "储物间内容",
+      "母亲意图",
+      "角色背景与行为细节",
+      "对话与动作"
+    ],
+    "unknown_items": [
+      "储物间内部",
+      "母亲与钥匙的具体故事",
+      "角色深层心理与关系历史"
+    ],
+    "conflicting_items": [],
+    "user_authorization": "仅授权创建 Story / Canon Package，不包含后续完整剧本或场景对话",
+    "risks": [
+      "单一悬念可能不足以支撑长形式，需验证系列引擎",
+      "和解倾向违反锁定关系，需保持复杂距离"
+    ],
+    "next_decision_gate": "形式锁定与储物间开启后的方向选择"
+  },
+  "proposed_state": {
+    "premise_established": true,
+    "characters_defined": true,
+    "relationship_initial_state": "疏离但被迫合作",
+    "knowledge_locks_respected": true,
+    "reveal_timing": "scene 3（许曼揭示共享储物间信息）",
+    "major_outcome_constraints": "储物间开启作为锁定决策点，不预设完全和解",
+    "prohibited_changes_respected": true,
+    "scene_structure_defined": "三场结构"
+  },
+  "knowledge_timing": {
+    "event_id": "shared_storage_reveal",
+    "holder": "许曼",
+    "not_before_scene": 3
+  },
+  "relationship_state": {
+    "initial": "疏离、久未联系、有未解过往",
+    "scene_1": "试探与不情愿的接触",
+    "scene_2": "克制合作但张力持续",
+    "scene_3": "真相揭示但关系未升级为完全和解"
+  },
+  "visual_state": {
+    "clothing_visual_state_code": "soaked_uniform（许宁）与 changed_clothes（许宁）按场景需求使用"
+  },
+  "authority_source": "Showrunner canonical Skill output",
+  "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-16\\artifacts\\showrunner_output.json"
+}

@@ -1,0 +1,12 @@
+{
+  "classification": "SCENE WRITER CURRENT-RUN STATE PROJECTION MANIFEST",
+  "source_owner": "compiled_run_contract",
+  "source_pointer": "compiled_run_contract#/fixture/state_dimensions/0",
+  "initial_token_rule": "ordered allowed_machine_tokens[0]",
+  "fixtures": [
+    {"binding_id":"E2E-FIX-01","state_dimension_id":"clothing_visual_state_code","transport_field_name":"clothing_visual_state_code","allowed_machine_tokens":["soaked_uniform","changed_clothes"],"initial_token":"soaked_uniform","authorized_transitions":["change_from_soaked_uniform"],"contract_hash":"d90f8be1748e2a5abd73883e6cc7099a112719d778bcdab70db47b692c4e0961"},
+    {"binding_id":"E2E-FIX-02","state_dimension_id":"signboard_state","transport_field_name":"signboard_state","allowed_machine_tokens":["signboard_on","signboard_off"],"initial_token":"signboard_on","authorized_transitions":["signboard_on_to_off"],"contract_hash":"2549b17eff639c44b2537684da0cef9d82b581246c47de81e5777e1b507c4ed6"},
+    {"binding_id":"E2E-FIX-03","state_dimension_id":"camera_battery_state","transport_field_name":"camera_battery_state","allowed_machine_tokens":["battery_installed","battery_removed_and_sealed"],"initial_token":"battery_installed","authorized_transitions":["battery_removal_and_seal"],"contract_hash":"40f3cc839bcd4b4dab58f2d09746bfc2985c475ebfd109f8c347d2997e23c1ee"}
+  ],
+  "result": "PASS"
+}

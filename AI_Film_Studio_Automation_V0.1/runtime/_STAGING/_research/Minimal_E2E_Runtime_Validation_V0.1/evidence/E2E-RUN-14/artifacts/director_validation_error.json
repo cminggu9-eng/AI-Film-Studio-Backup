@@ -1,0 +1,8 @@
+{
+  "lifecycle_stage": "LOCAL_VALIDATION_FAILURE_RECORDED",
+  "invocation_id": "E2E-RUN-14:director:1",
+  "role": "Director",
+  "validation_stage": "Strict Function Schema Validation",
+  "category": "SCHEMA VALIDATION FAILURE",
+  "detail": "DirectorStructuredSubmissionError: Director state_evidence.relevant_prior_state must be a JSON object string"
+}

@@ -1,0 +1,55 @@
+{
+  "run_id": "E2E-RUN-24",
+  "role": "Showrunner",
+  "canonical_binding": {
+    "identity": "ai-film-studio-showrunner",
+    "canonical_path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\01_Showrunner\\SKILL.md",
+    "sha256": "0847EE3521A915936E97FA1F72D081F0788876F003E071918F517B0A46AE999C"
+  },
+  "selected_mode": "ABSENT",
+  "output_language": "zh-CN",
+  "input": {
+    "sole_creative_input": "清晨的渡口，摄影师沈泊把一张标有“C-09”的存储卡交给已经拆伙两年的前搭档梁音；梁音承认卡里保存着他们最后一次合作时自己没有交出的照片，并要求沈泊先把相机电池取下封存，等第一班船离港后再决定是否查看存储卡。",
+    "fixture_constraints": {
+      "scene_count": 3,
+      "output_language": "zh-CN",
+      "characters": [
+        "沈泊",
+        "梁音"
+      ],
+      "relationship": [
+        "不得自动宣告复合合作或彻底决裂"
+      ],
+      "prop": {
+        "entity_id": "C-09",
+        "identity_lock": "C-09",
+        "custody_required": true,
+        "condition_lock": "memory_card"
+      },
+      "knowledge": [
+        {
+          "event_id": "withheld_photo_reveal",
+          "holder": "梁音",
+          "not_before_scene": 2
+        }
+      ],
+      "visual_state": [
+        {
+          "dimension": "camera_battery_state",
+          "allowed_tokens": [
+            "battery_installed",
+            "battery_removed_and_sealed"
+          ]
+        }
+      ],
+      "prohibited": [
+        "resume_partnership",
+        "permanent_break"
+      ],
+      "decision_locks": [
+        "view_memory_card_decision"
+      ]
+    },
+    "instruction_boundary": "No hidden Canon, adaptation input, pre-written plot, or Scene Writer dialogue."
+  }
+}

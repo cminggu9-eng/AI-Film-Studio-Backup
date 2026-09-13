@@ -1,0 +1,113 @@
+{
+  "classification": "TARGETED REPAIR / STAGING / SYNTHETIC / NON-CANON; TR-SW-17/18 ARE FROZEN-OUTPUT VERIFIER-ONLY REAL PROVIDER REPLAYS",
+  "result_policy": "ALL 20 REQUIRED",
+  "results": [
+    {
+      "id": "TR-SW-01",
+      "result": "PASS",
+      "detail": "CREATE allows success and lawful non-creative boundary states"
+    },
+    {
+      "id": "TR-SW-02",
+      "result": "PASS",
+      "detail": "REVISE projection permits local revision or lawful non-creative states"
+    },
+    {
+      "id": "TR-SW-03",
+      "result": "PASS",
+      "detail": "NO_MATERIAL_CHANGE validates with null creative and false rewrite claim"
+    },
+    {
+      "id": "TR-SW-04",
+      "result": "PASS",
+      "detail": "DIAGNOSE accepts diagnosis-only packet and rejects a replacement scene"
+    },
+    {
+      "id": "TR-SW-05",
+      "result": "PASS",
+      "detail": "NEEDS_CONTEXT accepts no creative deliverable"
+    },
+    {
+      "id": "TR-SW-06",
+      "result": "PASS",
+      "detail": "UPSTREAM_DECISION_REQUIRED accepts no creative deliverable"
+    },
+    {
+      "id": "TR-SW-07",
+      "result": "PASS",
+      "detail": "REQUEST_OUT_OF_SCOPE accepts non-creative boundary packet"
+    },
+    {
+      "id": "TR-SW-08",
+      "result": "PASS",
+      "detail": "all six state packets satisfy their required Runtime fields"
+    },
+    {
+      "id": "TR-SW-09",
+      "result": "PASS",
+      "detail": "all six non-null forbidden-field cases fail safe"
+    },
+    {
+      "id": "TR-SW-10",
+      "result": "PASS",
+      "detail": "all named constraint domains are structurally injected into generation request"
+    },
+    {
+      "id": "TR-SW-11",
+      "result": "PASS",
+      "detail": "explicit unknowns are carried by ledger and barred from concretization"
+    },
+    {
+      "id": "TR-SW-12",
+      "result": "PASS",
+      "detail": "world fact, entry knowledge, unknown, and in-scene discovery timing are distinct"
+    },
+    {
+      "id": "TR-SW-13",
+      "result": "PASS",
+      "detail": "generation prompt prohibits capability ranking"
+    },
+    {
+      "id": "TR-SW-14",
+      "result": "PASS",
+      "detail": "generation prompt prohibits pre-existing obligation"
+    },
+    {
+      "id": "TR-SW-15",
+      "result": "PASS",
+      "detail": "generation prompt permits a present scene-local proposal"
+    },
+    {
+      "id": "TR-SW-16",
+      "result": "PASS",
+      "detail": "REVISE prompt carries a fact-expansion ceiling"
+    },
+    {
+      "id": "TR-SW-17",
+      "result": "FAIL",
+      "detail": "AssertionError: {'id': 'F03', 'response': {'integrity_result': 'PASS', 'violations': []}, 'claim_audit': [{'generated_claim': '地点是共享办公区的打印机旁。', 'claim_class': 'EXISTING_STORY_FACT', 'classification': 'LEDGER_SUPPORTED', 'ledger_basis': 'LOCKED_FACTS.canon_locks: 地点是共享办公区的打印机旁。'}, {'generated_claim': '孟夏拿着打印好的提案', 'claim_class': 'EXISTING_STORY_FACT', 'classification': 'LEDGER_SUPPORTED', 'ledger_basis': 'LOCKED_FACTS.prior_scene_state: 孟夏拿着打印好的提案'}, {'generated_claim': '周原刚走到打印机旁', 'claim_class': 'EXISTING_STORY_FACT', 'classification': 'LEDGER_SUPPORTED', 'ledger_basis': 'LOCKED_FACTS.prior_scene_state: 周原刚走到打印机旁'}, {'generated_claim': '今晚就得交', 'claim_class': 'TEMPORAL', 'classification': 'LEDGER_SUPPORTED', 'ledger_basis': 'TEMPORAL_CONSTRAINTS: 今晚把提案提交出去。'}, {'generated_claim': '孟夏知道提案没有署名', 'claim_class': 'KNOWLEDGE_TIMING', 'classification': 'LEDGER_SUPPORTED', 'ledger_basis': 'CHARACTER_KNOWLEDGE_LIMITS.孟夏: 知道提案没有署名'}, {'generated_claim': '周原知道提案没有署名', 'claim_class': 'KNOWLEDGE_TIMING', 'classification': 'LEDGER_SUPPORTED', 'ledger_basis': '周原指出署名空着；LOCKED_FACTS.canon_locks: 桌上有一份未署名提案; 两人都知道提案尚未提交，也都不是彼此的上级。'}, {'generated_claim': '孟夏请求提交提案', 'claim_class': 'SCENE_LOCAL_PROPOSAL', 'classification': 'LAWFUL_SCENE_LOCAL', 'ledger_basis': 'REQUIRED_EVENTS: 孟夏请求提交提案'}, {'generated_claim': '周原提出共同署名条件', 'claim_class': 'SCENE_LOCAL_PROPOSAL', 'classification': 'LAWFUL_SCENE_LOCAL', 'ledger_basis': 'showrunner_locks: 周原要求孟夏在提交前写上共同署名'}, {'generated_claim': '孟夏同意条件并执行补签名', 'claim_class': 'NEUTRAL_BEHAVIOR', 'classification': 'NEUTRAL', 'ledger_basis': 'REQUIRED_OUTCOME: 两人决定共同署名后提交; OPEN_CREATIVE_SPACE.allowed: neutral immediate action'}, {'generated_claim': '周原命令发吧', 'claim_class': 'NEUTRAL_BEHAVIOR', 'classification': 'NEUTRAL', 'ledger_basis': 'OPEN_CREATIVE_SPACE.allowed: neutral immediate action'}, {'generated_claim': '孟夏俯身在提案首页上补上两个名字', 'claim_class': 'NEUTRAL_BEHAVIOR', 'classification': 'NEUTRAL', 'ledger_basis': 'OPEN_CREATIVE_SPACE.allowed: handling already-present objects'}, {'generated_claim': '提交决定成立，共同署名成为明确条件并已落实在提案上', 'claim_class': 'TEMPORAL', 'classification': 'LEDGER_SUPPORTED', 'ledger_basis': 'desired_post_state: 提交决定成立，但共同署名成为明确条件。'}, {'generated_claim': '两人都知道提案尚未提交，也都不是彼此的上级', 'claim_class': 'EXISTING_STORY_FACT', 'classification': 'LEDGER_SUPPORTED', 'ledger_basis': 'LOCKED_FACTS.canon_locks: 两人都知道提案尚未提交，也都不是彼此的上级。'}, {'generated_claim': '孟夏不能擅自替周原署名', 'claim_class': 'AUTHORITY', 'classification': 'LEDGER_SUPPORTED', 'ledger_basis': 'CHARACTER_KNOWLEDGE_LIMITS.孟夏.constraint: 不能擅自替周原署名'}, {'generated_claim': '周原不会无理由拒绝提交', 'claim_class': 'AUTHORITY', 'classification': 'LEDGER_SUPPORTED', 'ledger_basis': 'CHARACTER_KNOWLEDGE_LIMITS.周原.constraint: 不会无理由拒绝提交'}], 'usage': {'provider': 'deepseek', 'model': 'deepseek-v4-pro', 'provider_invocation_id': 'fc8846c5-833d-4f1f-ae36-edae4faba23f', 'usage': {'prompt_tokens': 2443, 'completion_tokens': 1119, 'total_tokens': 3562, 'prompt_cache_hit_tokens': 2432, 'prompt_cache_miss_tokens': 11}, 'latency_ms': 12092, 'thinking_mode': 'disabled', 'fixture_id': 'semantic-assignment-integrity', 'request_success': True}, 'adjudication_usage': {'provider': 'deepseek', 'model': 'deepseek-v4-pro', 'provider_invocation_id': '10f41f8d-56e5-4f7a-bd37-c8873d40da76', 'usage': {'prompt_tokens': 2474, 'completion_tokens': 18, 'total_tokens': 2492, 'prompt_cache_hit_tokens': 0, 'prompt_cache_miss_tokens': 2474}, 'latency_ms': 2293, 'thinking_mode': 'disabled', 'fixture_id': 'semantic-assignment-integrity-adjudication', 'request_success': True}, 'estimated_cost_cny': 0.0143378}"
+    },
+    {
+      "id": "TR-SW-18",
+      "result": "FAIL",
+      "detail": "ModelExecutionError: Provider response was not valid JSON"
+    },
+    {
+      "id": "TR-SW-19",
+      "result": "PASS",
+      "detail": "recall repair is prompt-level claim comparison, not a lexical catalogue"
+    },
+    {
+      "id": "TR-SW-20",
+      "result": "PASS",
+      "detail": "canonical hash unchanged"
+    }
+  ],
+  "passed": 18,
+  "total": 20,
+  "replay_details": {
+    "known_bad": [],
+    "known_clean": [],
+    "provider_called": false
+  }
+}

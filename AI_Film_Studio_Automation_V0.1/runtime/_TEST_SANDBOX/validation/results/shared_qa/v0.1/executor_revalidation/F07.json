@@ -1,0 +1,285 @@
+{
+  "fixture_id": "F07",
+  "mode": "DIRECT_RUNTIME",
+  "initial": {
+    "runtime_result": {
+      "internal_runtime_result": {
+        "runtime_status": "SUCCESS",
+        "invocation_id": "revalidation-f07-initial",
+        "contract_identity": "language-voice-qa-runtime",
+        "contract_version": "0.1",
+        "skill_integrity": {
+          "identity": "language-voice-qa",
+          "version": "0.1",
+          "path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\Shared_QA\\SKILL.md",
+          "expected_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+          "metadata": {
+            "name": "language-voice-qa",
+            "description": "Perform context-appropriate Chinese Language & Voice QA with conditional, minimal rewrites. Use for reviewing a passage, project brief, dialogue, scene description, narrative prose, production note, or marketing copy; do not use it to create prose, imitate writers, decide story content, or judge real-time language trends.",
+            "type": "skill",
+            "status": "approved",
+            "review_result": "passed",
+            "version": "0.1",
+            "subject": "Language & Voice QA",
+            "installation_status": "not-installed"
+          },
+          "actual_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+          "passed": true,
+          "reason": null
+        },
+        "decision": "PASS WITH NOTES",
+        "severity": "LEVEL 2",
+        "route": "Mixed Register Router: R2 record / R4 dialogue / formal professional speech",
+        "action": "return_diagnostic",
+        "rewrite_used": false,
+        "handoff": null,
+        "runtime_contract_passed": true,
+        "failure_code": null,
+        "failure_message": null,
+        "transport_metadata": {}
+      },
+      "downstream_payload": {
+        "text": "值班记录写得很短：二十三时十七分，东门门磁连续误报；二十三时二十二分，现场复位；未发现人员滞留。记录没有解释是谁先到，也没有解释为什么报警只响了五分钟。\n\n“反正不是我碰的。”阿澄把外套搭在椅背上，话说得很快，“我人还在便利店呢，刚拿了关东煮，手机一震，跑回来差点把汤洒鞋里。”\n\n顾问梁予翻着记录，没有抬头：“依据目前可核实的信息，不能排除门磁本体老化，也不能排除人为短时干预。两种可能的后续处置不同，请不要提前合并。”\n\n阿澄小声嘀咕：“他说话怎么像盖章。”\n\n“因为我明天要在盖章的纸上签字。”梁予说。",
+        "original_preserved": true,
+        "decision": "PASS WITH NOTES",
+        "severity": "LEVEL 2",
+        "route": "Mixed Register Router: R2 record / R4 dialogue / formal professional speech",
+        "action": "return_diagnostic",
+        "handoff": null,
+        "diagnostics": "梁予's sentence carries two distinct exclusions with different follow-up actions. The parallel '不能排除…也不能排除…' is grammatically clear, but the information order could be more direct for a professional oral reply; however, the formality is deliberate and the meaning is intact."
+      },
+      "user_facing_result": {
+        "status": "SUCCESS",
+        "decision": "PASS WITH NOTES",
+        "message": "梁予's sentence carries two distinct exclusions with different follow-up actions. The parallel '不能排除…也不能排除…' is grammatically clear, but the information order could be more direct for a professional oral reply; however, the formality is deliberate and the meaning is intact.",
+        "text": null,
+        "handoff": null
+      },
+      "audit_record": {
+        "invocation_id": "revalidation-f07-initial",
+        "timestamp": "2026-08-24T05:52:55.718532+00:00",
+        "skill_identity": "language-voice-qa",
+        "skill_version": "0.1",
+        "skill_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+        "input_mode": "QA_DEFAULT",
+        "context_availability_summary": {
+          "provided": [
+            "Available Context",
+            "Original",
+            "Register / usage",
+            "Requested Mode"
+          ],
+          "derived_safely": [],
+          "unknown": [
+            "Project Constraints / Canon",
+            "Protected Terms / Entities",
+            "Speaker / Character Context",
+            "User Creative Intent"
+          ]
+        },
+        "final_decision_state": "PASS WITH NOTES",
+        "severity": "LEVEL 2",
+        "route": "Mixed Register Router: R2 record / R4 dialogue / formal professional speech",
+        "rewrite_used": false,
+        "handoff_occurred": false,
+        "runtime_contract_passed": true,
+        "failure_code": null,
+        "failure_name": null,
+        "integrity_passed": true,
+        "log_path": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_TEST_SANDBOX\\validation\\results\\shared_qa\\v0.1\\executor_revalidation\\runtime_audit_logs\\F07\\language-voice-qa-revalidation-f07-initial.json"
+      }
+    },
+    "canonical_semantic_output": {
+      "mode": "QA MODE",
+      "decision": "PASS WITH NOTES",
+      "severity": "LEVEL 2",
+      "route": "Mixed Register Router: R2 record / R4 dialogue / formal professional speech",
+      "context_state": "SUFFICIENT for local QA; Speaker Context inferred from dialogue only, not from supplied structured fields",
+      "primary_finding": "A locatable but deliverable structural burden in 梁予's formal line: '依据目前可核实的信息，不能排除…也不能排除…' uses parallel nominal phrasing that slightly obscures the operational distinction he wants to preserve.",
+      "detector_ownership": "Structural Chinese",
+      "diagnostics": "梁予's sentence carries two distinct exclusions with different follow-up actions. The parallel '不能排除…也不能排除…' is grammatically clear, but the information order could be more direct for a professional oral reply; however, the formality is deliberate and the meaning is intact.",
+      "meaning_lock_status": "PASS",
+      "meaning_lock": "Facts: 东门门磁 at 23:17, false alarms, reset at 23:22, no personnel found; 阿澄 claims he was at convenience store and just got oden; 梁予 states both aging or short-term human intervention cannot be excluded. Canon not provided; no Canon risk. User creative intent: deliberate register asymmetry and sentence length differences must be preserved.",
+      "benefit_result": "NOT_APPLICABLE",
+      "recommendation": "Keep the text unchanged for production. If a minor structural smoothing is desired later, consider foregrounding the consequence ('两种可能的后续处置不同') before the parallel exclusions, but do not normalize 梁予's formal register.",
+      "rewrite_scope": null,
+      "revised_text": null,
+      "rewrite_ceiling_status": "NOT_APPLICABLE",
+      "safety_regression": {
+        "Meaning": "PASS",
+        "Fact": "PASS",
+        "Character": "PASS",
+        "Relationship": "PASS",
+        "Certainty": "PASS",
+        "Timeline": "PASS",
+        "Canon": "PASS",
+        "Register": "PASS",
+        "Role Boundary": "PASS"
+      },
+      "secondary_signal": null,
+      "role_handoff": null,
+      "contemporary_state": null,
+      "residual_warning": "Speaker Context is only inferred from dialogue because the structured Speaker / Character Context field was not provided; this limits a stricter R4 Speaker Fit check, but does not change the current QA decision.",
+      "canon_mutation_requested": false,
+      "invoke_dependencies": false
+    },
+    "usage": {
+      "provider": "deepseek",
+      "model": "deepseek-v4-pro",
+      "provider_invocation_id": "dde26bf4-fe73-4a39-a9bf-74c36a2c3219",
+      "usage": {
+        "prompt_tokens": 6904,
+        "completion_tokens": 578,
+        "total_tokens": 7482,
+        "prompt_cache_hit_tokens": 6528,
+        "prompt_cache_miss_tokens": 376
+      },
+      "latency_ms": 11903,
+      "thinking_mode": "disabled",
+      "fixture_id": "F07",
+      "request_success": true
+    },
+    "estimated_cost_cny": 0.0047592
+  },
+  "final": {
+    "runtime_result": {
+      "internal_runtime_result": {
+        "runtime_status": "SUCCESS",
+        "invocation_id": "revalidation-f07-initial",
+        "contract_identity": "language-voice-qa-runtime",
+        "contract_version": "0.1",
+        "skill_integrity": {
+          "identity": "language-voice-qa",
+          "version": "0.1",
+          "path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\Shared_QA\\SKILL.md",
+          "expected_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+          "metadata": {
+            "name": "language-voice-qa",
+            "description": "Perform context-appropriate Chinese Language & Voice QA with conditional, minimal rewrites. Use for reviewing a passage, project brief, dialogue, scene description, narrative prose, production note, or marketing copy; do not use it to create prose, imitate writers, decide story content, or judge real-time language trends.",
+            "type": "skill",
+            "status": "approved",
+            "review_result": "passed",
+            "version": "0.1",
+            "subject": "Language & Voice QA",
+            "installation_status": "not-installed"
+          },
+          "actual_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+          "passed": true,
+          "reason": null
+        },
+        "decision": "PASS WITH NOTES",
+        "severity": "LEVEL 2",
+        "route": "Mixed Register Router: R2 record / R4 dialogue / formal professional speech",
+        "action": "return_diagnostic",
+        "rewrite_used": false,
+        "handoff": null,
+        "runtime_contract_passed": true,
+        "failure_code": null,
+        "failure_message": null,
+        "transport_metadata": {}
+      },
+      "downstream_payload": {
+        "text": "值班记录写得很短：二十三时十七分，东门门磁连续误报；二十三时二十二分，现场复位；未发现人员滞留。记录没有解释是谁先到，也没有解释为什么报警只响了五分钟。\n\n“反正不是我碰的。”阿澄把外套搭在椅背上，话说得很快，“我人还在便利店呢，刚拿了关东煮，手机一震，跑回来差点把汤洒鞋里。”\n\n顾问梁予翻着记录，没有抬头：“依据目前可核实的信息，不能排除门磁本体老化，也不能排除人为短时干预。两种可能的后续处置不同，请不要提前合并。”\n\n阿澄小声嘀咕：“他说话怎么像盖章。”\n\n“因为我明天要在盖章的纸上签字。”梁予说。",
+        "original_preserved": true,
+        "decision": "PASS WITH NOTES",
+        "severity": "LEVEL 2",
+        "route": "Mixed Register Router: R2 record / R4 dialogue / formal professional speech",
+        "action": "return_diagnostic",
+        "handoff": null,
+        "diagnostics": "梁予's sentence carries two distinct exclusions with different follow-up actions. The parallel '不能排除…也不能排除…' is grammatically clear, but the information order could be more direct for a professional oral reply; however, the formality is deliberate and the meaning is intact."
+      },
+      "user_facing_result": {
+        "status": "SUCCESS",
+        "decision": "PASS WITH NOTES",
+        "message": "梁予's sentence carries two distinct exclusions with different follow-up actions. The parallel '不能排除…也不能排除…' is grammatically clear, but the information order could be more direct for a professional oral reply; however, the formality is deliberate and the meaning is intact.",
+        "text": null,
+        "handoff": null
+      },
+      "audit_record": {
+        "invocation_id": "revalidation-f07-initial",
+        "timestamp": "2026-08-24T05:52:55.718532+00:00",
+        "skill_identity": "language-voice-qa",
+        "skill_version": "0.1",
+        "skill_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+        "input_mode": "QA_DEFAULT",
+        "context_availability_summary": {
+          "provided": [
+            "Available Context",
+            "Original",
+            "Register / usage",
+            "Requested Mode"
+          ],
+          "derived_safely": [],
+          "unknown": [
+            "Project Constraints / Canon",
+            "Protected Terms / Entities",
+            "Speaker / Character Context",
+            "User Creative Intent"
+          ]
+        },
+        "final_decision_state": "PASS WITH NOTES",
+        "severity": "LEVEL 2",
+        "route": "Mixed Register Router: R2 record / R4 dialogue / formal professional speech",
+        "rewrite_used": false,
+        "handoff_occurred": false,
+        "runtime_contract_passed": true,
+        "failure_code": null,
+        "failure_name": null,
+        "integrity_passed": true,
+        "log_path": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_TEST_SANDBOX\\validation\\results\\shared_qa\\v0.1\\executor_revalidation\\runtime_audit_logs\\F07\\language-voice-qa-revalidation-f07-initial.json"
+      }
+    },
+    "canonical_semantic_output": {
+      "mode": "QA MODE",
+      "decision": "PASS WITH NOTES",
+      "severity": "LEVEL 2",
+      "route": "Mixed Register Router: R2 record / R4 dialogue / formal professional speech",
+      "context_state": "SUFFICIENT for local QA; Speaker Context inferred from dialogue only, not from supplied structured fields",
+      "primary_finding": "A locatable but deliverable structural burden in 梁予's formal line: '依据目前可核实的信息，不能排除…也不能排除…' uses parallel nominal phrasing that slightly obscures the operational distinction he wants to preserve.",
+      "detector_ownership": "Structural Chinese",
+      "diagnostics": "梁予's sentence carries two distinct exclusions with different follow-up actions. The parallel '不能排除…也不能排除…' is grammatically clear, but the information order could be more direct for a professional oral reply; however, the formality is deliberate and the meaning is intact.",
+      "meaning_lock_status": "PASS",
+      "meaning_lock": "Facts: 东门门磁 at 23:17, false alarms, reset at 23:22, no personnel found; 阿澄 claims he was at convenience store and just got oden; 梁予 states both aging or short-term human intervention cannot be excluded. Canon not provided; no Canon risk. User creative intent: deliberate register asymmetry and sentence length differences must be preserved.",
+      "benefit_result": "NOT_APPLICABLE",
+      "recommendation": "Keep the text unchanged for production. If a minor structural smoothing is desired later, consider foregrounding the consequence ('两种可能的后续处置不同') before the parallel exclusions, but do not normalize 梁予's formal register.",
+      "rewrite_scope": null,
+      "revised_text": null,
+      "rewrite_ceiling_status": "NOT_APPLICABLE",
+      "safety_regression": {
+        "Meaning": "PASS",
+        "Fact": "PASS",
+        "Character": "PASS",
+        "Relationship": "PASS",
+        "Certainty": "PASS",
+        "Timeline": "PASS",
+        "Canon": "PASS",
+        "Register": "PASS",
+        "Role Boundary": "PASS"
+      },
+      "secondary_signal": null,
+      "role_handoff": null,
+      "contemporary_state": null,
+      "residual_warning": "Speaker Context is only inferred from dialogue because the structured Speaker / Character Context field was not provided; this limits a stricter R4 Speaker Fit check, but does not change the current QA decision.",
+      "canon_mutation_requested": false,
+      "invoke_dependencies": false
+    },
+    "usage": {
+      "provider": "deepseek",
+      "model": "deepseek-v4-pro",
+      "provider_invocation_id": "dde26bf4-fe73-4a39-a9bf-74c36a2c3219",
+      "usage": {
+        "prompt_tokens": 6904,
+        "completion_tokens": 578,
+        "total_tokens": 7482,
+        "prompt_cache_hit_tokens": 6528,
+        "prompt_cache_miss_tokens": 376
+      },
+      "latency_ms": 11903,
+      "thinking_mode": "disabled",
+      "fixture_id": "F07",
+      "request_success": true
+    },
+    "estimated_cost_cny": 0.0047592
+  },
+  "evidence": null
+}

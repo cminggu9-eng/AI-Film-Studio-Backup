@@ -1,0 +1,39 @@
+{
+  "fixture": "ROUTER-A",
+  "result": {
+    "routed_role": "Showrunner",
+    "skill_name": "ai-film-studio-showrunner",
+    "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+    "trigger": "showrunner story-development request",
+    "mode": "CONCEPT_DEVELOPMENT",
+    "output_type": "Concept Diagnosis",
+    "activated_modules": [
+      "Format Fit",
+      "Story Purpose"
+    ],
+    "file_exists": true,
+    "file_readable": true,
+    "skill_name_correct": true,
+    "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+    "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+    "hash_match": true,
+    "invocation_receipt": {
+      "timestamp": "2026-08-21T08:36:14+00:00",
+      "task": "我有一个故事 idea，帮我判断是否值得继续开发。",
+      "routed_role": "Showrunner",
+      "skill_name": "ai-film-studio-showrunner",
+      "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+      "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "hash_match": true,
+      "skill_name_match": true,
+      "project_state": "UNKNOWN",
+      "mode": "CONCEPT_DEVELOPMENT",
+      "output_type": "Concept Diagnosis",
+      "activated_modules": [
+        "Format Fit",
+        "Story Purpose"
+      ]
+    }
+  }
+}

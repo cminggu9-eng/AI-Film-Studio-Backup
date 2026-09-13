@@ -1,0 +1,50 @@
+{
+  "classification": "SCENE_WRITER_PROMPT_FUNCTION_VALIDATOR_ID_IDENTITY",
+  "authority": "compiled_run_contract#/scene_ids",
+  "contract_version": "0.1",
+  "fixtures": [
+    {
+      "binding_id": "E2E-FIX-01",
+      "binding_file_sha256": "89d019a64e371c050fe8df25645875b8772d1a91ddd521a80af3dc2b97c5871f",
+      "compiled_run_contract_sha256": "181975fa44f96d389bd5470db756f5471e0b88bf2e95e9215dfc5df2c337d6aa",
+      "contract_hash": "bd00f1368ada023066e1e7021d640f4183c60002ed0901a30c5e6fdfd2604436",
+      "ordered_scene_ids": ["E2E-FIX-01-S01", "E2E-FIX-01-S02", "E2E-FIX-01-S03"],
+      "prompt_occurrences_per_id": 1,
+      "provider_parameters_schema_sha256": "3f59ddcf02b09115e5fcda36c9a34f11763a2cb139c3d6569c73fa0f5edc6972",
+      "prompt_sha256": "5b0563b2fc4ea1b8634ff94f49d31a6328bb4c5a696372bffaf519d2501c4c77",
+      "validator_manifest_sha256": "b3f2319cec6c03991ee4566b2ef71a951321b067934d0f9c7e91e8788100e298",
+      "prompt_function_validator_identity": true
+    },
+    {
+      "binding_id": "E2E-FIX-02",
+      "binding_file_sha256": "31e041d9f963eebc9100205c9267bf12faec011ec0dc61af293b03f45f9e8774",
+      "compiled_run_contract_sha256": "12a3eb5f9b165ee18fb68a79741b087ea76d5241e3da367525b39b55f4315d3e",
+      "contract_hash": "c78689eb208d07c126e5fae8f2537f3ac43f23edbeeca967635b3d5d6649d113",
+      "ordered_scene_ids": ["E2E-FIX-02-S01", "E2E-FIX-02-S02", "E2E-FIX-02-S03"],
+      "prompt_occurrences_per_id": 1,
+      "provider_parameters_schema_sha256": "549131d8b55f2f99e289bb0cfe8bec352b66f3732d70c790a5906d33c6927c24",
+      "prompt_sha256": "c9988c6c13f01450eb8bf143bae29db9f158a30d2ecdc7c746492a1e8497f0e3",
+      "validator_manifest_sha256": "1ba743228f99130c330b3c028f6b2142507d9822aacb1860cebb0afd152d440f",
+      "prompt_function_validator_identity": true
+    },
+    {
+      "binding_id": "E2E-FIX-03",
+      "binding_file_sha256": "ee7fcb2df74442b6e58a97710bb61406b2131e21e0322f0123708555f84f12bb",
+      "compiled_run_contract_sha256": "82363f0f61e0014e39a75fa253b7281f5beba66cb1cbe6ebf71dbb71835c42eb",
+      "contract_hash": "f3245c9c745046fb35773b5a1f875975fdeb2252fb2c2aaaa108858ebd121aab",
+      "ordered_scene_ids": ["E2E-FIX-03-S01", "E2E-FIX-03-S02", "E2E-FIX-03-S03"],
+      "prompt_occurrences_per_id": 1,
+      "provider_parameters_schema_sha256": "f422839ce843f2e411d285ae85d35438830784332e7274883222ccdb78895fbb",
+      "prompt_sha256": "2d435eb4c60fa2b512c06c24bee66ee140376585242b93bc96860c44a2e9e49d",
+      "validator_manifest_sha256": "20c8989a846e4b617a0217c2070e8473f899b178379655175344d633206d1f32",
+      "prompt_function_validator_identity": true
+    }
+  ],
+  "fixture_literal_leak_matches": 0,
+  "provider_calls": 0,
+  "executor_calls": 0,
+  "role_calls": 0,
+  "probe_calls": 0,
+  "real_e2e_runs": 0,
+  "result": "PASS"
+}

@@ -1,0 +1,63 @@
+{
+  "provider": "deepseek",
+  "model": "deepseek-v4-pro",
+  "call_count": 2,
+  "calls": [
+    {
+      "role": "Showrunner",
+      "invocation_id": "E2E-RUN-01:showrunner:1",
+      "model": "deepseek-v4-pro",
+      "timestamp": "2026-08-26T09:36:04.841198+00:00",
+      "input_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-01-RECOVERY-01\\artifacts\\showrunner_input.json",
+      "output_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-01-RECOVERY-01\\artifacts\\showrunner_output.json",
+      "success": true,
+      "usage": {
+        "provider": "deepseek",
+        "model": "deepseek-v4-pro",
+        "provider_invocation_id": "0958f463-2fa5-4f93-90de-03144d889fd4",
+        "usage": {
+          "prompt_tokens": 4947,
+          "completion_tokens": 1335,
+          "total_tokens": 6282,
+          "prompt_cache_hit_tokens": 0,
+          "prompt_cache_miss_tokens": 4947
+        },
+        "latency_ms": 28436,
+        "thinking_mode": "disabled",
+        "fixture_id": "E2E-FIX-01",
+        "request_success": true
+      },
+      "estimated_cost_cny": 0.022851,
+      "retry_count": 0
+    },
+    {
+      "role": "Scene Writer",
+      "invocation_id": "E2E-RUN-01:scene_writer:1",
+      "model": "deepseek-v4-pro",
+      "timestamp": "2026-08-26T09:36:33.295422+00:00",
+      "input_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-01-RECOVERY-01\\artifacts\\scene_writer_input.json",
+      "output_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-01-RECOVERY-01\\artifacts\\scene_writer_output.json",
+      "success": true,
+      "usage": {
+        "provider": "deepseek",
+        "model": "deepseek-v4-pro",
+        "provider_invocation_id": "161b3a02-4ad2-4f32-ba2b-d8d22dbe8661",
+        "usage": {
+          "prompt_tokens": 5709,
+          "completion_tokens": 2393,
+          "total_tokens": 8102,
+          "prompt_cache_hit_tokens": 0,
+          "prompt_cache_miss_tokens": 5709
+        },
+        "latency_ms": 33185,
+        "thinking_mode": "disabled",
+        "fixture_id": "E2E-FIX-01",
+        "request_success": true
+      },
+      "estimated_cost_cny": 0.031485,
+      "retry_count": 0
+    }
+  ],
+  "retry_count": 0,
+  "automatic_fallback": 0
+}

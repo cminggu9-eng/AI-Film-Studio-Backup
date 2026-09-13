@@ -1,0 +1,36 @@
+{
+  "lifecycle_stage": "PROVIDER_HTTP_ERROR_PERSISTED_BEFORE_CLASSIFICATION",
+  "invocation_id": "DIRECTOR-COMPAT-PROBE-03:director:1",
+  "status": 400,
+  "endpoint": "https://api.deepseek.com/beta/chat/completions",
+  "body": "{\"error\":{\"message\":\"Invalid tool parameters schema : one of `type`, `anyOf`, `$ref` field is required\",\"type\":\"invalid_request_error\",\"param\":null,\"code\":\"invalid_request_error\"}}",
+  "parsed_body": {
+    "error": {
+      "message": "Invalid tool parameters schema : one of `type`, `anyOf`, `$ref` field is required",
+      "type": "invalid_request_error",
+      "param": null,
+      "code": "invalid_request_error"
+    }
+  },
+  "headers": {
+    "Content-Type": "application/octet-stream",
+    "Content-Length": "180",
+    "Connection": "close",
+    "Date": "Sat, 29 Aug 2026 09:37:50 GMT",
+    "Server": "elb",
+    "vary": "origin, access-control-request-method, access-control-request-headers",
+    "access-control-allow-credentials": "true",
+    "x-ds-trace-id": "eb5b97b249e1c8810ebd214c9bb4cf90",
+    "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+    "X-Content-Type-Options": "nosniff",
+    "X-Cache": "Error from cloudfront",
+    "Via": "1.1 8503c4e41a6c03b7a98bda9d3e10bf22.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Pop": "LAX54-P2",
+    "X-Amz-Cf-Id": "tJvvoCsixUCSMDHCvPLz-7o3ozrqWuu9KObk3dozOATl7qlm8-F5VQ=="
+  },
+  "provider_error_code": "invalid_request_error",
+  "provider_error_type": "invalid_request_error",
+  "provider_error_param": null,
+  "provider_error_message": "Invalid tool parameters schema : one of `type`, `anyOf`, `$ref` field is required",
+  "timestamp": "2026-08-29T09:37:51.271308+00:00"
+}

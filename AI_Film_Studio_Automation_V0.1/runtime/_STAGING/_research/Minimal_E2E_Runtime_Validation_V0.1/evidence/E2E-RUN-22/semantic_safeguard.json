@@ -1,0 +1,71 @@
+{
+  "integration_decision": "BLOCK",
+  "allowed_labels": [
+    "PASS",
+    "FLAG",
+    "BLOCK",
+    "HANDOFF"
+  ],
+  "layer_a": {
+    "name": "Deterministic Evidence / Contract Gate",
+    "findings": [
+      {
+        "label": "BLOCK",
+        "code": "REQUIRED_PROP_MISMATCH",
+        "assertion_id": "PROP-1",
+        "detail": "Required prop identity differs from supplied evidence.",
+        "authority_source": "E2E-FIX-02",
+        "evidence_locator": "scene_packages/E2E-FIX-02-S01"
+      },
+      {
+        "label": "BLOCK",
+        "code": "REQUIRED_PROP_MISMATCH",
+        "assertion_id": "PROP-2",
+        "detail": "Required prop identity differs from supplied evidence.",
+        "authority_source": "E2E-FIX-02",
+        "evidence_locator": "scene_packages/E2E-FIX-02-S02"
+      },
+      {
+        "label": "BLOCK",
+        "code": "REQUIRED_PROP_MISMATCH",
+        "assertion_id": "PROP-3",
+        "detail": "Required prop identity differs from supplied evidence.",
+        "authority_source": "E2E-FIX-02",
+        "evidence_locator": "scene_packages/E2E-FIX-02-S03"
+      }
+    ],
+    "source_role": "Scene Writer",
+    "source_record_id": "E2E-RUN-22/scene_writer/1",
+    "version": "1.0",
+    "locks": [
+      "same_cracked_bowl",
+      "crack_preserved",
+      "signboard_state allowed_tokens: signboard_on, signboard_off"
+    ],
+    "current_state": {
+      "relationship_state": "周启承认早知道碗的意义，但未达成彻底和解",
+      "knowledge_state": "周启已明确承认早知道碗的意义",
+      "visual_state": "signboard_off"
+    },
+    "authority_source": "Scene Writer canonical Skill output",
+    "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-22\\artifacts\\scene_writer_output.json"
+  },
+  "layer_b": {
+    "layer": "B",
+    "independent_review_required": false,
+    "review_candidates": [],
+    "allowed_labels": [
+      "PASS",
+      "FLAG",
+      "BLOCK",
+      "HANDOFF"
+    ],
+    "provider_execution": "NOT_AUTHORIZED",
+    "creative_output_sha256": "bde781020a49f28ce815ebea95fc5e6b1d7fd7fe03543a7e42461558c1260420",
+    "review_status": "PASS"
+  },
+  "legacy_verifier_result": "ABSENT",
+  "legacy_verifier_role": "SUPPLEMENTAL_SIGNAL_ONLY",
+  "creative_output_sha256": "bde781020a49f28ce815ebea95fc5e6b1d7fd7fe03543a7e42461558c1260420",
+  "creative_output_rewrite": "PROHIBITED"
+}

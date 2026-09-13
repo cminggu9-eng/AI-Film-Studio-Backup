@@ -1,0 +1,196 @@
+{
+  "classification": "DIRECTOR STATE OBJECT CONTRACT TESTS",
+  "passed": 20,
+  "total": 20,
+  "result": "PASS",
+  "results": [
+    {
+      "id": "DIR-OBJ-01",
+      "result": "PASS",
+      "detail": "09J frozen authority contracts loaded and hashed"
+    },
+    {
+      "id": "DIR-OBJ-02",
+      "result": "PASS",
+      "detail": "compiler output deterministic"
+    },
+    {
+      "id": "DIR-OBJ-03",
+      "result": "PASS",
+      "detail": "prior dynamic scene schema"
+    },
+    {
+      "id": "DIR-OBJ-04",
+      "result": "PASS",
+      "detail": "current dynamic scene schema"
+    },
+    {
+      "id": "DIR-OBJ-05",
+      "result": "PASS",
+      "detail": "proposed exact ABSENT"
+    },
+    {
+      "id": "DIR-OBJ-06",
+      "result": "PASS",
+      "detail": "knowledge exact ABSENT"
+    },
+    {
+      "id": "DIR-OBJ-07",
+      "result": "PASS",
+      "detail": "visual exact ABSENT"
+    },
+    {
+      "id": "DIR-OBJ-08",
+      "result": "PASS",
+      "detail": "source trace complete"
+    },
+    {
+      "id": "DIR-OBJ-09",
+      "result": "PASS",
+      "detail": "Prompt/Function/Validator identity"
+    },
+    {
+      "id": "DIR-OBJ-10",
+      "result": "PASS",
+      "detail": "DeepSeek strict schema lint"
+    },
+    {
+      "id": "DIR-OBJ-11",
+      "result": "PASS",
+      "detail": "downstream Envelope object carriage"
+    },
+    {
+      "id": "DIR-OBJ-12",
+      "result": "PASS",
+      "detail": "legacy string live path unreachable"
+    },
+    {
+      "id": "DIR-OBJ-13",
+      "result": "PASS",
+      "detail": "E2E-FIX-01 compile and final request capture"
+    },
+    {
+      "id": "DIR-OBJ-14",
+      "result": "PASS",
+      "detail": "E2E-FIX-02 compile and final request capture"
+    },
+    {
+      "id": "DIR-OBJ-15",
+      "result": "PASS",
+      "detail": "E2E-FIX-03 compile and final request capture"
+    },
+    {
+      "id": "DIR-OBJ-16",
+      "result": "PASS",
+      "detail": "cross-fixture dimensions and schemas remain isolated"
+    },
+    {
+      "id": "DIR-OBJ-17",
+      "result": "PASS",
+      "detail": "R14 immutable payload classified NON-CONFORMING under new contract"
+    },
+    {
+      "id": "DIR-OBJ-18",
+      "result": "PASS",
+      "detail": "Repair11 exact role/function lifecycle registry unchanged"
+    },
+    {
+      "id": "DIR-OBJ-19",
+      "result": "PASS",
+      "detail": "Scene Writer strict regression"
+    },
+    {
+      "id": "DIR-OBJ-20",
+      "result": "PASS",
+      "detail": "Unified Phase2 Gate PASS"
+    }
+  ],
+  "provider_calls": 0,
+  "executor_calls": 0,
+  "role_calls": 0,
+  "probe_calls": 0,
+  "e2e_runs": 0,
+  "capture_summary": {
+    "classification": "DIRECTOR FINAL REQUEST CAPTURE",
+    "passed": 3,
+    "total": 3,
+    "result": "PASS",
+    "captures": [
+      {
+        "fixture_id": "E2E-FIX-01",
+        "artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_09K_Director_State_Object_Contract_Implementation_V0.1\\evidence\\director_request_captures\\E2E-FIX-01_director_final_request_capture.json",
+        "result": "PASS",
+        "authority_bundle_hash": "0cf9224f7b32f0b75d792ebccd3ac34c4382cd74cb1a9a69c1e4bc123949e070",
+        "compiled_run_contract_hash": "181975fa44f96d389bd5470db756f5471e0b88bf2e95e9215dfc5df2c337d6aa",
+        "state_schema_hash": "ed0baf41818b4aff532594483113c8b81a781175843081fcd5f15617ac88032d",
+        "source_trace_hash": "ebf4fbfc205997f82dc215743b3a4f5ccd22932f979398aff46c5b25457e8df9",
+        "provider_neutral_schema_hash": "2494a854cf3593a83d6c506c461bfa0427254477a7e9f0c434eeed4498645d36",
+        "deepseek_projection_schema_hash": "53786f950536bc2c74a18064d5d4df6f39b6c6de69f6eed0b3334854196c6f80",
+        "final_request_schema_hash": "53786f950536bc2c74a18064d5d4df6f39b6c6de69f6eed0b3334854196c6f80",
+        "final_wire_hash": "c42e8a01e73caa3c5f9886725752bc22d068e2772046b0045ee4d80e386a2a78",
+        "strict": true,
+        "tool_name": "submit_director_package",
+        "tool_choice": {
+          "type": "function",
+          "function": {
+            "name": "submit_director_package"
+          }
+        },
+        "provider_calls": 0,
+        "network_send_reached": false
+      },
+      {
+        "fixture_id": "E2E-FIX-02",
+        "artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_09K_Director_State_Object_Contract_Implementation_V0.1\\evidence\\director_request_captures\\E2E-FIX-02_director_final_request_capture.json",
+        "result": "PASS",
+        "authority_bundle_hash": "0cf9224f7b32f0b75d792ebccd3ac34c4382cd74cb1a9a69c1e4bc123949e070",
+        "compiled_run_contract_hash": "12a3eb5f9b165ee18fb68a79741b087ea76d5241e3da367525b39b55f4315d3e",
+        "state_schema_hash": "499dc01a22287984aeefe035e04e4909273c89eff8808c384550582d30037b4e",
+        "source_trace_hash": "f0e7b5e449cd36cefafb54e6e0919dd94d8115595348fe10b98b6de75675246c",
+        "provider_neutral_schema_hash": "d46b9734c6e356a47b3d91bafb92c42495019ed6bb15f0d08fd14fe3c1aab060",
+        "deepseek_projection_schema_hash": "12f7cbc66fddf65f67a24090b12b5f61e4e22ce9b62f1e626e51cbbfe8581f87",
+        "final_request_schema_hash": "12f7cbc66fddf65f67a24090b12b5f61e4e22ce9b62f1e626e51cbbfe8581f87",
+        "final_wire_hash": "dd9e403d704c87caf64b7c8331c44eb8745ad9f5237532cbe8d38b8a0fd63a9e",
+        "strict": true,
+        "tool_name": "submit_director_package",
+        "tool_choice": {
+          "type": "function",
+          "function": {
+            "name": "submit_director_package"
+          }
+        },
+        "provider_calls": 0,
+        "network_send_reached": false
+      },
+      {
+        "fixture_id": "E2E-FIX-03",
+        "artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_09K_Director_State_Object_Contract_Implementation_V0.1\\evidence\\director_request_captures\\E2E-FIX-03_director_final_request_capture.json",
+        "result": "PASS",
+        "authority_bundle_hash": "0cf9224f7b32f0b75d792ebccd3ac34c4382cd74cb1a9a69c1e4bc123949e070",
+        "compiled_run_contract_hash": "82363f0f61e0014e39a75fa253b7281f5beba66cb1cbe6ebf71dbb71835c42eb",
+        "state_schema_hash": "eb2bca6a08b903bb848b9a55434b6d6134d9173b4c499ce60a013a7f2a1e552a",
+        "source_trace_hash": "9e023238f502387bc6dd866e6c15a747609b1bf57d897e08d56ecbed10e7845a",
+        "provider_neutral_schema_hash": "1d88ba68e64465bb472948c10dc4e932765497c0dc640c5cc63e355da8b73d3d",
+        "deepseek_projection_schema_hash": "980ea9a773b54c5c94b6dd643573f914baf5bb9807472231e3b8eccb6071a8e5",
+        "final_request_schema_hash": "980ea9a773b54c5c94b6dd643573f914baf5bb9807472231e3b8eccb6071a8e5",
+        "final_wire_hash": "213da168b64a62919c19a9a60ce295d3d9fe19981a6f65a6228d26695cea07bb",
+        "strict": true,
+        "tool_name": "submit_director_package",
+        "tool_choice": {
+          "type": "function",
+          "function": {
+            "name": "submit_director_package"
+          }
+        },
+        "provider_calls": 0,
+        "network_send_reached": false
+      }
+    ],
+    "provider_calls": 0,
+    "executor_calls": 0,
+    "role_calls": 0,
+    "probe_calls": 0,
+    "e2e_runs": 0
+  },
+  "phase2_overall": "PASS"
+}

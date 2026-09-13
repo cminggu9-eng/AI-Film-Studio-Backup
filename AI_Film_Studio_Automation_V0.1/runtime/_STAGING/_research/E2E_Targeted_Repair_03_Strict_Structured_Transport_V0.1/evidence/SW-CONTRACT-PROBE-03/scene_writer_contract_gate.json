@@ -1,0 +1,17 @@
+{
+  "contract_version": "0.1",
+  "fixture_id": "E2E-FIX-01",
+  "structural_gate": {
+    "gate": "Scene Writer Structural Contract Gate",
+    "contract_version": "0.1",
+    "passed": true,
+    "diagnostics": []
+  },
+  "state_token_gate": {
+    "gate": "Scene Writer State Token Gate",
+    "contract_version": "0.1",
+    "passed": true,
+    "diagnostics": []
+  },
+  "passed": true
+}

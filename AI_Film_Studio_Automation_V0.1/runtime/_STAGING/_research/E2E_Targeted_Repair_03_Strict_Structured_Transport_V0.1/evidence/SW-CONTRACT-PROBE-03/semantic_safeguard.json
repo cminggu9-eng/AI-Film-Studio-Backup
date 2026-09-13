@@ -1,0 +1,48 @@
+{
+  "integration_decision": "PASS",
+  "allowed_labels": [
+    "PASS",
+    "FLAG",
+    "BLOCK",
+    "HANDOFF"
+  ],
+  "layer_a": {
+    "name": "Deterministic Evidence / Contract Gate",
+    "findings": [],
+    "source_role": "Scene Writer",
+    "source_record_id": "SW-CONTRACT-PROBE-03/scene_writer/1",
+    "version": "1.0",
+    "locks": [
+      "母亲留下钥匙和储物间共同开启用途必须由许曼的授权场内揭示承载；不得提前泄漏。",
+      "不得增加第三个具名角色。",
+      "不得改变 A-17 标记。",
+      "不得把关系自动写成完全和解。",
+      "不得把未知原因或未授权背景写成 Canon。"
+    ],
+    "current_state": {
+      "relationship_state": "许宁携带 A-17 钥匙找到许曼；许曼承认钥匙是母亲留给两人共同打开储物间的，并劝许宁先换下湿制服、等天亮。",
+      "knowledge_state": "已揭示钥匙的共享属性与用途；具体内容仍未知。",
+      "visual_state": "许宁湿透制服，钥匙已被出示。"
+    },
+    "authority_source": "Scene Writer canonical Skill output",
+    "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_03_Strict_Structured_Transport_V0.1\\evidence\\SW-CONTRACT-PROBE-03\\artifacts\\scene_writer_output.json"
+  },
+  "layer_b": {
+    "layer": "B",
+    "independent_review_required": false,
+    "review_candidates": [],
+    "allowed_labels": [
+      "PASS",
+      "FLAG",
+      "BLOCK",
+      "HANDOFF"
+    ],
+    "provider_execution": "NOT_AUTHORIZED",
+    "creative_output_sha256": "f94e1df50cd2922c02019d8835ba6a9a937988b93b5cd0f4505ffc4ecf35a624",
+    "review_status": "PASS"
+  },
+  "legacy_verifier_result": "ABSENT",
+  "legacy_verifier_role": "SUPPLEMENTAL_SIGNAL_ONLY",
+  "creative_output_sha256": "f94e1df50cd2922c02019d8835ba6a9a937988b93b5cd0f4505ffc4ecf35a624",
+  "creative_output_rewrite": "PROHIBITED"
+}

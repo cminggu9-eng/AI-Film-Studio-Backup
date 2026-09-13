@@ -1,0 +1,137 @@
+{
+  "classification": "VALIDATION / SYNTHETIC / NON-CANON / REAL SEMANTIC EXECUTION",
+  "real_execution": true,
+  "mock": false,
+  "stub": false,
+  "canonical_binding": {
+    "identity": "scene-writer",
+    "version": "V0.1",
+    "canonical_path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\02_Scene_Writer\\scene-writer\\SKILL.md",
+    "expected_sha256": "93e1be12988f8caa6cdd76acb5e6c1bf6ad3ca0dff5806a2ea93511e66052dfb",
+    "adapter_status": "REGISTERED",
+    "real_executor": "BOUND",
+    "semantic_integrity_verifier": "BOUND",
+    "synthetic_executor": "NOT_PRESENT",
+    "actual_sha256": "93e1be12988f8caa6cdd76acb5e6c1bf6ad3ca0dff5806a2ea93511e66052dfb",
+    "metadata": {
+      "name": "scene-writer",
+      "display_version": "V0.1"
+    },
+    "passed": true,
+    "reason": null
+  },
+  "runtime_result": {
+    "runtime_status": "SUCCESS",
+    "runtime_failure_code": null,
+    "runtime_failure_message": null,
+    "request_id": "SMOKE-SW-EXEC-01",
+    "canonical_binding": {
+      "identity": "scene-writer",
+      "version": "V0.1",
+      "canonical_path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\02_Scene_Writer\\scene-writer\\SKILL.md",
+      "expected_sha256": "93e1be12988f8caa6cdd76acb5e6c1bf6ad3ca0dff5806a2ea93511e66052dfb",
+      "adapter_status": "REGISTERED",
+      "real_executor": "BOUND",
+      "semantic_integrity_verifier": "BOUND",
+      "synthetic_executor": "NOT_PRESENT",
+      "actual_sha256": "93e1be12988f8caa6cdd76acb5e6c1bf6ad3ca0dff5806a2ea93511e66052dfb",
+      "metadata": {
+        "name": "scene-writer",
+        "display_version": "V0.1"
+      },
+      "passed": true,
+      "reason": null
+    },
+    "idempotency": "NEW",
+    "scene_writer": {
+      "creative_deliverable": {
+        "kind": "scene",
+        "content": "办公室会议室\n会议刚结束，只剩林妍和陈默。\n\n林妍站在桌边，手指无意识地翻着一页材料，还没开口。\n陈默正在收拾自己的东西。\n\n林妍：（停了一下）陈默，明天的演示，你能接吗？\n\n陈默动作没停，把电脑放进包里。\n\n陈默：我本来想明天上午早走的。\n\n林妍：我知道。可是原来的主讲人明天上午来不了。\n\n陈默停下手，看向她。\n\n陈默：来不了？\n\n林妍：具体原因我不清楚，也不好替别人解释。\n\n她把手里的材料轻轻放回桌面。\n\n陈默：（沉默片刻）……资料，有多少是现成的？\n\n林妍：有的已经理过，今晚可以直接给你。\n\n陈默低头看了一眼已经拉好的包。\n\n陈默：今晚给我？\n\n林妍：对，我今晚把手上所有现成材料都发你。\n\n陈默又把包拉开一点，把电脑拿出来，重新放到桌上。\n\n陈默：行，我先接。但你今晚要发全，别明天一早才发现漏了。\n\n林妍点头。\n\n林妍：今晚一定发。漏了的，我这边再补。\n\n陈默打开电脑，林妍走向自己的位置开始整理文件。\n\n（陈默接受讲解任务，条件是今晚收到全部现有材料。）"
+      },
+      "control_data": {
+        "primary_state": "SCENE_CREATED",
+        "flags": [],
+        "handoffs": [],
+        "scene_function": "推进工作安排：林妍请求陈默接手明天上午的演示，并确认条件。",
+        "objectives": "林妍：确认今晚由谁负责；陈默：避免被强加责任。",
+        "resistance": "陈默原计划明早离开，不愿被临时施压。",
+        "before_state": "会议刚结束，仅林妍和陈默留在会议室。",
+        "turn": "陈默从犹豫转为有条件接受，并打开电脑开始准备。",
+        "state_after": "陈默已同意接手，但要求林妍今晚必须提供全部现有材料。",
+        "entry_rationale": "从会议刚结束、只剩两人开始，自然承接请求场景。",
+        "exit_rationale": "在条件明确、双方开始整理文件时结束，完成状态转变。",
+        "diagnosis_summary": null,
+        "rule_hits": [
+          "AUTHORITY_LOCK_PRESERVED",
+          "SCENE_FUNCTION_CLEAR",
+          "OBJECTIVE_RESISTANCE_ESTABLISHED",
+          "MEANINGFUL_STATE_CHANGE_ACHIEVED"
+        ]
+      }
+    },
+    "output_language": "zh-CN",
+    "output_language_resolution": "EXPLICIT",
+    "assignment_fact_validation": {
+      "status": "PASS",
+      "guard_profile": [
+        "LOCKED_FACT_PRESERVATION",
+        "UNSPECIFIED_FACT_PROHIBITION",
+        "CHARACTER_KNOWLEDGE_SCOPE",
+        "EXPLICIT_UNKNOWN_REASON",
+        "COARSE_TIME_TONIGHT"
+      ],
+      "violations": []
+    },
+    "semantic_integrity_validation": {
+      "integrity_result": "PASS",
+      "violations": []
+    }
+  },
+  "provider": "deepseek",
+  "model": "deepseek-v4-pro",
+  "generation_usage": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-pro",
+    "provider_invocation_id": "ada91a70-fcb0-4f96-a055-db319249a717",
+    "usage": {
+      "prompt_tokens": 4483,
+      "completion_tokens": 637,
+      "total_tokens": 5120,
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 4483
+    },
+    "latency_ms": 12810,
+    "thinking_mode": "disabled",
+    "fixture_id": "SMOKE-SW-EXEC-01",
+    "request_success": true
+  },
+  "verification_usage": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-pro",
+    "provider_invocation_id": "668fff8d-2db3-496a-affa-ba56cd3088e8",
+    "usage": {
+      "prompt_tokens": 2072,
+      "completion_tokens": 18,
+      "total_tokens": 2090,
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 2072
+    },
+    "latency_ms": 2733,
+    "thinking_mode": "disabled",
+    "fixture_id": "semantic-assignment-integrity",
+    "request_success": true
+  },
+  "cost_cny": {
+    "generation": 0.017271,
+    "verification": 0.006324,
+    "total": 0.023595
+  },
+  "pricing_basis": {
+    "currency": "CNY",
+    "unit": "per_1M_tokens",
+    "input_cache_hit": 0.025,
+    "input_cache_miss": 3.0,
+    "output": 6.0,
+    "status": "ESTIMATED"
+  }
+}

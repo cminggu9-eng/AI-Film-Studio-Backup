@@ -1,0 +1,8 @@
+{
+  "lifecycle_stage": "LOCAL_VALIDATION_FAILURE_RECORDED",
+  "invocation_id": "DIRECTOR-TAGGED-WIRE-PROBE-22-F03:director:1",
+  "role": "Director",
+  "validation_stage": "Local Role-Contract Validation",
+  "category": "HANDOFF CONTRACT FAILURE",
+  "detail": "Received locks changed in transit"
+}

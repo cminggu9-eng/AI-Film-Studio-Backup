@@ -1,0 +1,113 @@
+{
+  "classification": "TARGETED REPAIR / STAGING / SYNTHETIC / NON-CANON; TR-SW-17/18 ARE FROZEN-OUTPUT VERIFIER-ONLY REAL PROVIDER REPLAYS",
+  "result_policy": "ALL 20 REQUIRED",
+  "results": [
+    {
+      "id": "TR-SW-01",
+      "result": "PASS",
+      "detail": "CREATE allows success and lawful non-creative boundary states"
+    },
+    {
+      "id": "TR-SW-02",
+      "result": "PASS",
+      "detail": "REVISE projection permits local revision or lawful non-creative states"
+    },
+    {
+      "id": "TR-SW-03",
+      "result": "PASS",
+      "detail": "NO_MATERIAL_CHANGE validates with null creative and false rewrite claim"
+    },
+    {
+      "id": "TR-SW-04",
+      "result": "PASS",
+      "detail": "DIAGNOSE accepts diagnosis-only packet and rejects a replacement scene"
+    },
+    {
+      "id": "TR-SW-05",
+      "result": "PASS",
+      "detail": "NEEDS_CONTEXT accepts no creative deliverable"
+    },
+    {
+      "id": "TR-SW-06",
+      "result": "PASS",
+      "detail": "UPSTREAM_DECISION_REQUIRED accepts no creative deliverable"
+    },
+    {
+      "id": "TR-SW-07",
+      "result": "PASS",
+      "detail": "REQUEST_OUT_OF_SCOPE accepts non-creative boundary packet"
+    },
+    {
+      "id": "TR-SW-08",
+      "result": "PASS",
+      "detail": "all six state packets satisfy their required Runtime fields"
+    },
+    {
+      "id": "TR-SW-09",
+      "result": "PASS",
+      "detail": "all six non-null forbidden-field cases fail safe"
+    },
+    {
+      "id": "TR-SW-10",
+      "result": "PASS",
+      "detail": "all named constraint domains are structurally injected into generation request"
+    },
+    {
+      "id": "TR-SW-11",
+      "result": "PASS",
+      "detail": "explicit unknowns are carried by ledger and barred from concretization"
+    },
+    {
+      "id": "TR-SW-12",
+      "result": "PASS",
+      "detail": "world fact, entry knowledge, unknown, and in-scene discovery timing are distinct"
+    },
+    {
+      "id": "TR-SW-13",
+      "result": "PASS",
+      "detail": "generation prompt prohibits capability ranking"
+    },
+    {
+      "id": "TR-SW-14",
+      "result": "PASS",
+      "detail": "generation prompt prohibits pre-existing obligation"
+    },
+    {
+      "id": "TR-SW-15",
+      "result": "PASS",
+      "detail": "generation prompt permits a present scene-local proposal"
+    },
+    {
+      "id": "TR-SW-16",
+      "result": "PASS",
+      "detail": "REVISE prompt carries a fact-expansion ceiling"
+    },
+    {
+      "id": "TR-SW-17",
+      "result": "FAIL",
+      "detail": "AssertionError: {'id': 'F03', 'response': {'integrity_result': 'PASS', 'violations': []}, 'usage': {'provider': 'deepseek', 'model': 'deepseek-v4-pro', 'provider_invocation_id': '3e8acf27-5343-4c1a-a5dc-67e8e4766eb7', 'usage': {'prompt_tokens': 2443, 'completion_tokens': 720, 'total_tokens': 3163, 'prompt_cache_hit_tokens': 256, 'prompt_cache_miss_tokens': 2187}, 'latency_ms': 9132, 'thinking_mode': 'disabled', 'fixture_id': 'semantic-assignment-integrity', 'request_success': True}, 'estimated_cost_cny': 0.0108874}"
+    },
+    {
+      "id": "TR-SW-18",
+      "result": "FAIL",
+      "detail": "ModelExecutionError: Provider response was not valid JSON"
+    },
+    {
+      "id": "TR-SW-19",
+      "result": "PASS",
+      "detail": "recall repair is prompt-level claim comparison, not a lexical catalogue"
+    },
+    {
+      "id": "TR-SW-20",
+      "result": "PASS",
+      "detail": "canonical hash unchanged"
+    }
+  ],
+  "passed": 18,
+  "total": 20,
+  "replay_details": {
+    "known_bad": [],
+    "known_clean": [],
+    "provider_called": false
+  }
+}

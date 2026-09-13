@@ -1,0 +1,285 @@
+{
+  "fixture_id": "F08",
+  "mode": "DIRECT_RUNTIME",
+  "initial": {
+    "runtime_result": {
+      "internal_runtime_result": {
+        "runtime_status": "SUCCESS",
+        "invocation_id": "revalidation-f08-initial",
+        "contract_identity": "language-voice-qa-runtime",
+        "contract_version": "0.1",
+        "skill_integrity": {
+          "identity": "language-voice-qa",
+          "version": "0.1",
+          "path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\Shared_QA\\SKILL.md",
+          "expected_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+          "metadata": {
+            "name": "language-voice-qa",
+            "description": "Perform context-appropriate Chinese Language & Voice QA with conditional, minimal rewrites. Use for reviewing a passage, project brief, dialogue, scene description, narrative prose, production note, or marketing copy; do not use it to create prose, imitate writers, decide story content, or judge real-time language trends.",
+            "type": "skill",
+            "status": "approved",
+            "review_result": "passed",
+            "version": "0.1",
+            "subject": "Language & Voice QA",
+            "installation_status": "not-installed"
+          },
+          "actual_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+          "passed": true,
+          "reason": null
+        },
+        "decision": "REWRITE DELIVERED",
+        "severity": "LEVEL 1",
+        "route": "Structural Chinese",
+        "action": "accepted_rewrite",
+        "rewrite_used": true,
+        "handoff": null,
+        "runtime_contract_passed": true,
+        "failure_code": null,
+        "failure_message": null,
+        "transport_metadata": {}
+      },
+      "downstream_payload": {
+        "text": "程雁把文件袋合上，起身太快，椅子向后滑了一下，撞到墙角。",
+        "original_preserved": false,
+        "decision": "REWRITE DELIVERED",
+        "severity": "LEVEL 1",
+        "route": "Structural Chinese",
+        "action": "accepted_rewrite",
+        "handoff": null,
+        "diagnostics": "A minor connective/verb-complement pattern issue in a single clause. The phrase is intelligible but causes a small hesitation. No impact on facts, character intent, uncertainty, ownership, timing, or dialogue force."
+      },
+      "user_facing_result": {
+        "status": "SUCCESS",
+        "decision": "REWRITE DELIVERED",
+        "message": "A minor connective/verb-complement pattern issue in a single clause. The phrase is intelligible but causes a small hesitation. No impact on facts, character intent, uncertainty, ownership, timing, or dialogue force.",
+        "text": "程雁把文件袋合上，起身太快，椅子向后滑了一下，撞到墙角。",
+        "handoff": null
+      },
+      "audit_record": {
+        "invocation_id": "revalidation-f08-initial",
+        "timestamp": "2026-08-24T06:45:45.583080+00:00",
+        "skill_identity": "language-voice-qa",
+        "skill_version": "0.1",
+        "skill_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+        "input_mode": "REWRITE_EXPLICIT",
+        "context_availability_summary": {
+          "provided": [
+            "Available Context",
+            "Original",
+            "Register / usage",
+            "Requested Mode"
+          ],
+          "derived_safely": [],
+          "unknown": [
+            "Project Constraints / Canon",
+            "Protected Terms / Entities",
+            "Speaker / Character Context",
+            "User Creative Intent"
+          ]
+        },
+        "final_decision_state": "REWRITE DELIVERED",
+        "severity": "LEVEL 1",
+        "route": "Structural Chinese",
+        "rewrite_used": true,
+        "handoff_occurred": false,
+        "runtime_contract_passed": true,
+        "failure_code": null,
+        "failure_name": null,
+        "integrity_passed": true,
+        "log_path": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_TEST_SANDBOX\\validation\\results\\shared_qa\\v0.1\\executor_revalidation\\runtime_audit_logs\\F08\\language-voice-qa-revalidation-f08-initial.json"
+      }
+    },
+    "canonical_semantic_output": {
+      "mode": "REWRITE MODE",
+      "decision": "REWRITE DELIVERED",
+      "severity": "LEVEL 1",
+      "route": "Structural Chinese",
+      "context_state": "SUFFICIENT",
+      "primary_finding": "Connection wording \"站起得太快\" in the sentence \"程雁把文件袋合上，站起得太快，椅子向后滑了一下，撞到墙角。\" is slightly awkward and momentarily interrupts narrative flow; a minimal local revision can improve structural readability without altering any locked meaning.",
+      "detector_ownership": "Structural Chinese",
+      "diagnostics": "A minor connective/verb-complement pattern issue in a single clause. The phrase is intelligible but causes a small hesitation. No impact on facts, character intent, uncertainty, ownership, timing, or dialogue force.",
+      "meaning_lock_status": "PASS",
+      "meaning_lock": "Protected and preserved: facts (time, place, events), character intent (uncertainty, caution, tension), Canon (风鉴 remains untouched), causal relationships, theme direction, information reveals, power relationships, emotional states, register and task contract.",
+      "benefit_result": "PASS",
+      "recommendation": "Deliver a minimal rewording of the clause to improve natural flow; no other edits are warranted.",
+      "rewrite_scope": "Replace only the phrase \"站起得太快\" within the original sentence.",
+      "revised_text": "程雁把文件袋合上，起身太快，椅子向后滑了一下，撞到墙角。",
+      "rewrite_ceiling_status": "PASS",
+      "safety_regression": {
+        "Meaning": "PASS",
+        "Fact": "PASS",
+        "Character": "PASS",
+        "Relationship": "PASS",
+        "Certainty": "PASS",
+        "Timeline": "PASS",
+        "Canon": "PASS",
+        "Register": "PASS",
+        "Role Boundary": "PASS"
+      },
+      "secondary_signal": null,
+      "role_handoff": null,
+      "contemporary_state": null,
+      "residual_warning": null,
+      "canon_mutation_requested": false,
+      "invoke_dependencies": false
+    },
+    "usage": {
+      "provider": "deepseek",
+      "model": "deepseek-v4-pro",
+      "provider_invocation_id": "ce860583-c46d-4907-98cb-60bb1f21f65e",
+      "usage": {
+        "prompt_tokens": 7968,
+        "completion_tokens": 486,
+        "total_tokens": 8454,
+        "prompt_cache_hit_tokens": 6528,
+        "prompt_cache_miss_tokens": 1440
+      },
+      "latency_ms": 8532,
+      "thinking_mode": "disabled",
+      "fixture_id": "F08",
+      "request_success": true
+    },
+    "estimated_cost_cny": 0.0073992
+  },
+  "final": {
+    "runtime_result": {
+      "internal_runtime_result": {
+        "runtime_status": "SUCCESS",
+        "invocation_id": "revalidation-f08-initial",
+        "contract_identity": "language-voice-qa-runtime",
+        "contract_version": "0.1",
+        "skill_integrity": {
+          "identity": "language-voice-qa",
+          "version": "0.1",
+          "path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\Shared_QA\\SKILL.md",
+          "expected_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+          "metadata": {
+            "name": "language-voice-qa",
+            "description": "Perform context-appropriate Chinese Language & Voice QA with conditional, minimal rewrites. Use for reviewing a passage, project brief, dialogue, scene description, narrative prose, production note, or marketing copy; do not use it to create prose, imitate writers, decide story content, or judge real-time language trends.",
+            "type": "skill",
+            "status": "approved",
+            "review_result": "passed",
+            "version": "0.1",
+            "subject": "Language & Voice QA",
+            "installation_status": "not-installed"
+          },
+          "actual_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+          "passed": true,
+          "reason": null
+        },
+        "decision": "REWRITE DELIVERED",
+        "severity": "LEVEL 1",
+        "route": "Structural Chinese",
+        "action": "accepted_rewrite",
+        "rewrite_used": true,
+        "handoff": null,
+        "runtime_contract_passed": true,
+        "failure_code": null,
+        "failure_message": null,
+        "transport_metadata": {}
+      },
+      "downstream_payload": {
+        "text": "程雁把文件袋合上，起身太快，椅子向后滑了一下，撞到墙角。",
+        "original_preserved": false,
+        "decision": "REWRITE DELIVERED",
+        "severity": "LEVEL 1",
+        "route": "Structural Chinese",
+        "action": "accepted_rewrite",
+        "handoff": null,
+        "diagnostics": "A minor connective/verb-complement pattern issue in a single clause. The phrase is intelligible but causes a small hesitation. No impact on facts, character intent, uncertainty, ownership, timing, or dialogue force."
+      },
+      "user_facing_result": {
+        "status": "SUCCESS",
+        "decision": "REWRITE DELIVERED",
+        "message": "A minor connective/verb-complement pattern issue in a single clause. The phrase is intelligible but causes a small hesitation. No impact on facts, character intent, uncertainty, ownership, timing, or dialogue force.",
+        "text": "程雁把文件袋合上，起身太快，椅子向后滑了一下，撞到墙角。",
+        "handoff": null
+      },
+      "audit_record": {
+        "invocation_id": "revalidation-f08-initial",
+        "timestamp": "2026-08-24T06:45:45.583080+00:00",
+        "skill_identity": "language-voice-qa",
+        "skill_version": "0.1",
+        "skill_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+        "input_mode": "REWRITE_EXPLICIT",
+        "context_availability_summary": {
+          "provided": [
+            "Available Context",
+            "Original",
+            "Register / usage",
+            "Requested Mode"
+          ],
+          "derived_safely": [],
+          "unknown": [
+            "Project Constraints / Canon",
+            "Protected Terms / Entities",
+            "Speaker / Character Context",
+            "User Creative Intent"
+          ]
+        },
+        "final_decision_state": "REWRITE DELIVERED",
+        "severity": "LEVEL 1",
+        "route": "Structural Chinese",
+        "rewrite_used": true,
+        "handoff_occurred": false,
+        "runtime_contract_passed": true,
+        "failure_code": null,
+        "failure_name": null,
+        "integrity_passed": true,
+        "log_path": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_TEST_SANDBOX\\validation\\results\\shared_qa\\v0.1\\executor_revalidation\\runtime_audit_logs\\F08\\language-voice-qa-revalidation-f08-initial.json"
+      }
+    },
+    "canonical_semantic_output": {
+      "mode": "REWRITE MODE",
+      "decision": "REWRITE DELIVERED",
+      "severity": "LEVEL 1",
+      "route": "Structural Chinese",
+      "context_state": "SUFFICIENT",
+      "primary_finding": "Connection wording \"站起得太快\" in the sentence \"程雁把文件袋合上，站起得太快，椅子向后滑了一下，撞到墙角。\" is slightly awkward and momentarily interrupts narrative flow; a minimal local revision can improve structural readability without altering any locked meaning.",
+      "detector_ownership": "Structural Chinese",
+      "diagnostics": "A minor connective/verb-complement pattern issue in a single clause. The phrase is intelligible but causes a small hesitation. No impact on facts, character intent, uncertainty, ownership, timing, or dialogue force.",
+      "meaning_lock_status": "PASS",
+      "meaning_lock": "Protected and preserved: facts (time, place, events), character intent (uncertainty, caution, tension), Canon (风鉴 remains untouched), causal relationships, theme direction, information reveals, power relationships, emotional states, register and task contract.",
+      "benefit_result": "PASS",
+      "recommendation": "Deliver a minimal rewording of the clause to improve natural flow; no other edits are warranted.",
+      "rewrite_scope": "Replace only the phrase \"站起得太快\" within the original sentence.",
+      "revised_text": "程雁把文件袋合上，起身太快，椅子向后滑了一下，撞到墙角。",
+      "rewrite_ceiling_status": "PASS",
+      "safety_regression": {
+        "Meaning": "PASS",
+        "Fact": "PASS",
+        "Character": "PASS",
+        "Relationship": "PASS",
+        "Certainty": "PASS",
+        "Timeline": "PASS",
+        "Canon": "PASS",
+        "Register": "PASS",
+        "Role Boundary": "PASS"
+      },
+      "secondary_signal": null,
+      "role_handoff": null,
+      "contemporary_state": null,
+      "residual_warning": null,
+      "canon_mutation_requested": false,
+      "invoke_dependencies": false
+    },
+    "usage": {
+      "provider": "deepseek",
+      "model": "deepseek-v4-pro",
+      "provider_invocation_id": "ce860583-c46d-4907-98cb-60bb1f21f65e",
+      "usage": {
+        "prompt_tokens": 7968,
+        "completion_tokens": 486,
+        "total_tokens": 8454,
+        "prompt_cache_hit_tokens": 6528,
+        "prompt_cache_miss_tokens": 1440
+      },
+      "latency_ms": 8532,
+      "thinking_mode": "disabled",
+      "fixture_id": "F08",
+      "request_success": true
+    },
+    "estimated_cost_cny": 0.0073992
+  },
+  "evidence": null
+}

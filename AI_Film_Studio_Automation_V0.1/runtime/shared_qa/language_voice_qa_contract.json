@@ -1,0 +1,71 @@
+{
+  "contract_identity": "language-voice-qa-runtime",
+  "contract_version": "0.1",
+  "skill": {
+    "identity": "language-voice-qa",
+    "version": "0.1",
+    "status": "approved",
+    "review_result": "passed",
+    "sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+    "canonical_relative_path": "01_SKILLS/Shared_QA/SKILL.md",
+    "critical_references": [
+      "01_SKILLS/Shared_QA/Language & Voice QA｜综合能力模型 V0.1.md",
+      "02_DISTILLATION/方法论/Language & Voice QA｜五人交叉蒸馏 V0.1.md"
+    ]
+  },
+  "input": {
+    "original_aliases": ["original", "text", "passage"],
+    "canonical_fields": {
+      "original": "Original",
+      "requested_mode": "Requested Mode",
+      "register": "Register / usage",
+      "available_context": "Available Context",
+      "speaker_character_context": "Speaker / Character Context",
+      "project_constraints_canon": "Project Constraints / Canon",
+      "user_creative_intent": "User Creative Intent",
+      "protected_terms_entities": "Protected Terms / Entities"
+    },
+    "allowed_modes": ["QA_DEFAULT", "REWRITE_EXPLICIT"],
+    "allowed_register_codes": ["R1", "R2", "R3", "R4", "R5", "R6", "R7", "R8"]
+  },
+  "output": {
+    "allowed_severities": ["LEVEL 0", "LEVEL 1", "LEVEL 2", "LEVEL 3", "LEVEL 4", "LEVEL 5"],
+    "decision_mapping": {
+      "PASS / NO CHANGE": "pass_through",
+      "PASS WITH NOTES": "return_diagnostic",
+      "RETURN FOR LANGUAGE REVISION": "return_diagnostic",
+      "NEEDS CONTEXT": "request_context",
+      "ROLE HANDOFF / WARNING": "handoff",
+      "REWRITE DELIVERED": "accepted_rewrite",
+      "BLOCKED": "safe_stop"
+    },
+    "rewrite_safety_lenses": [
+      "Meaning",
+      "Fact",
+      "Character",
+      "Relationship",
+      "Certainty",
+      "Timeline",
+      "Canon",
+      "Register",
+      "Role Boundary"
+    ]
+  },
+  "failure_codes": {
+    "F1": "INVALID_INPUT",
+    "F2": "INSUFFICIENT_REQUIRED_DATA",
+    "F3": "SKILL_INVOCATION_FAILURE",
+    "F4": "MALFORMED_SKILL_OUTPUT",
+    "F5": "STATE_CONTRACT_VIOLATION",
+    "F6": "REWRITE_CONTRACT_VIOLATION",
+    "F7": "UNAUTHORIZED_FUTURE_DEPENDENCY",
+    "F8": "INTEGRITY_FAILURE"
+  },
+  "forbidden_runtime_dependencies": [
+    "Contemporary Language Layer",
+    "Scene Writer",
+    "Canon mutation",
+    "Showrunner Runtime mutation",
+    "Showrunner Production Lock mutation"
+  ]
+}

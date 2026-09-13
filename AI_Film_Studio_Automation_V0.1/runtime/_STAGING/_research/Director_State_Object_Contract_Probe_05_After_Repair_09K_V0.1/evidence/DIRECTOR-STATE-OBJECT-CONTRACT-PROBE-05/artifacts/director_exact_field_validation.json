@@ -1,0 +1,8 @@
+{
+  "result": "PASS",
+  "exact_function": true,
+  "exactly_15_fields": true,
+  "required_fields_present": true,
+  "additional_fields": [],
+  "outer_coercion": 0
+}

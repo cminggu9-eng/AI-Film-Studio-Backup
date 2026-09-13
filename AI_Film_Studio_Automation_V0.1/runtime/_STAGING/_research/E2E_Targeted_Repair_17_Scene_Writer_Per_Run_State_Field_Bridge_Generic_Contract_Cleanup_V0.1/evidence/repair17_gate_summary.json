@@ -1,0 +1,19 @@
+{
+  "classification": "REPAIR17 OFFLINE GATE SUMMARY",
+  "positive": "20/20 PASS",
+  "negative": "15/15 PASS",
+  "genericity": "18/18 PASS",
+  "cross_fixture_state_isolation": "PASS",
+  "generic_story_literal_leaks": 0,
+  "generic_scene_id_literal_leaks": 0,
+  "generic_state_field_business_literal_leaks": 0,
+  "repair15_environment_isolation": "18/18 PASS",
+  "mandatory_preflight": "15/15 PASS",
+  "unified_phase2": "25/25 PASS",
+  "provider_calls": 0,
+  "executor_calls": 0,
+  "role_calls": 0,
+  "probe_calls": 0,
+  "live_e2e_runs": 0,
+  "result": "PASS"
+}

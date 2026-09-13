@@ -1,0 +1,29 @@
+{
+  "run_id": "E2E-RUN-01",
+  "adjudication_method": "Evidence-based closure evaluation. The live runner correctly stopped before its full acceptance function when the semantic gate returned BLOCK; no Provider call was made for this report.",
+  "criteria": {
+    "E2E-INT-01": {"result": "PASS", "detail": "Frozen fixture ID is E2E-FIX-01.", "evidence": "preflight.json"},
+    "E2E-INT-02": {"result": "PASS", "detail": "Showrunner story package contains Canon Locks.", "evidence": "artifacts/showrunner_output.json"},
+    "E2E-INT-03": {"result": "FAIL", "detail": "Integration Semantic Safeguard decision is BLOCK.", "evidence": "semantic_safeguard.json"},
+    "E2E-INT-04": {"result": "FAIL", "detail": "Three scenes exist, but none contains all required labels: 目标, 阻力, 对白行动, 转折, 入场, 出场.", "evidence": "artifacts/scene_writer_output.json"},
+    "E2E-INT-05": {"result": "NOT REACHED", "detail": "Director was not invoked after the semantic BLOCK.", "evidence": "artifacts/director_not_reached.json"},
+    "E2E-INT-06": {"result": "NOT REACHED", "detail": "Character & Acting was not invoked after the semantic BLOCK.", "evidence": "artifacts/character_acting_not_reached.json"},
+    "E2E-INT-07": {"result": "NOT REACHED", "detail": "Art Director was not invoked after the semantic BLOCK.", "evidence": "artifacts/art_director_not_reached.json"},
+    "E2E-INT-08": {"result": "NOT REACHED", "detail": "No append-only scene ledger entries may be written after the semantic BLOCK.", "evidence": "AI_Film_Studio_E2E_Run_01_State_Ledger_V0.1.md"},
+    "E2E-INT-09": {"result": "FAIL", "detail": "A-17 and the final authorized transition are preserved, but scene 1 clothing_visual_state is 湿透制服 instead of exact required token soaked_uniform.", "evidence": "artifacts/scene_writer_output.json"},
+    "E2E-INT-10": {"result": "PASS", "detail": "Scene state evidence contains REVEALED_WITH_EVENT.", "evidence": "artifacts/scene_writer_output.json"},
+    "E2E-INT-11": {"result": "NOT REACHED", "detail": "Character & Acting and Art Director were not invoked.", "evidence": "artifacts/character_acting_not_reached.json"},
+    "E2E-INT-12": {"result": "PASS", "detail": "Produced Showrunner and Scene Writer State & Evidence Envelopes preserve their exact canonical tokens.", "evidence": "envelopes/01_showrunner_to_scene_writer.json; envelopes/02_scene_writer_to_director.json"},
+    "E2E-INT-13": {"result": "NOT REACHED", "detail": "Shared QA QA MODE was not invoked.", "evidence": "artifacts/shared_qa_not_reached.json"},
+    "E2E-INT-14": {"result": "PASS", "detail": "Configured output_language is zh-CN; produced human-language content is Chinese while canonical tokens remain exact English tokens.", "evidence": "artifacts/showrunner_output.json; artifacts/scene_writer_output.json"},
+    "E2E-INT-15": {"result": "PASS", "detail": "Legacy verifier is recorded only as SUPPLEMENTAL_SIGNAL_ONLY.", "evidence": "semantic_safeguard.json"},
+    "E2E-INT-16": {"result": "PASS", "detail": "Creative output rewrite is recorded as PROHIBITED.", "evidence": "semantic_safeguard.json"},
+    "E2E-INT-17": {"result": "PASS", "detail": "Required preflight artifact exists and passed all execution prerequisites.", "evidence": "preflight.json"},
+    "E2E-INT-18": {"result": "FAIL", "detail": "Provider manifest exists, but only two recovery role outputs were created; seven outputs were required for a full E2E pass.", "evidence": "provider_manifest.json; artifacts/"}
+  },
+  "passed": 8,
+  "failed": 4,
+  "not_reached": 6,
+  "total": 18,
+  "overall": "FAIL"
+}

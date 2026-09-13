@@ -1,0 +1,59 @@
+{
+  "source_role": "Director",
+  "source_record_id": "E2E-RUN-16/director/1",
+  "version": "1.0",
+  "timestamp": "2026-08-31T02:21:22.365418+00:00",
+  "intended_recipient": "Character & Acting",
+  "handoff_reason": "Direction constraints",
+  "canon_assignment_locks": [
+    "scene_count: 3",
+    "output_language: zh-CN",
+    "characters: 许宁, 许曼",
+    "relationship: 不得自动升级为完全和解",
+    "prop: entity_id=A-17, identity_lock=A-17, custody_required=true, condition_lock=brass_key",
+    "knowledge: event_id=shared_storage_reveal, holder=许曼, not_before_scene=3",
+    "visual_state: dimension=clothing_visual_state_code, allowed_tokens=[soaked_uniform, changed_clothes]",
+    "decision_locks: storage_room_opening"
+  ],
+  "prohibited_changes": [
+    "完全和解"
+  ],
+  "canonical_mode": "PLAN",
+  "primary_state_or_outcome": "DIRECTION_PLAN_PRODUCED",
+  "flags": "ABSENT",
+  "handoffs": "ABSENT",
+  "required_outcome": "产出三场戏的合法导演计划：以场景功能、锁定的材料事件与结局为依据，确定舞台调度、空间地理、观众信息、机位/覆盖意图、节奏/转场意图，并标注制作负担与未决可行性问题；不改写对白与故事，不得触碰完全和解禁令、shared_storage_reveal 揭示时序与 A-17 共同保管规则。",
+  "unresolved_decisions": [
+    "储物间内部物件（旧物与信封）的具体视觉形态未定，属 Art Director 叙事视觉需求，非导演可私有设计",
+    "母亲意图与开门后后续方向未定，须保留开放性钩子且不由导演擅自填补",
+    "正式形式尚未锁定（短片/系列等），影响节奏密度与转场跨度选择，需 Showrunner 在不改变锁定的前提下确认"
+  ],
+  "relevant_prior_state": {
+    "E2E-FIX-01-S01": {
+      "clothing_visual_state_code": "soaked_uniform"
+    },
+    "E2E-FIX-01-S02": {
+      "clothing_visual_state_code": "soaked_uniform"
+    },
+    "E2E-FIX-01-S03": {
+      "clothing_visual_state_code": "changed_clothes"
+    }
+  },
+  "current_state": {
+    "E2E-FIX-01-S01": {
+      "clothing_visual_state_code": "soaked_uniform"
+    },
+    "E2E-FIX-01-S02": {
+      "clothing_visual_state_code": "changed_clothes"
+    },
+    "E2E-FIX-01-S03": {
+      "clothing_visual_state_code": "changed_clothes"
+    }
+  },
+  "proposed_state": "ABSENT",
+  "knowledge_timing": "ABSENT",
+  "relationship_state": "疏离、未解过往；三场内由防备经克制合作走向真相揭示但未完全和解",
+  "visual_state": "ABSENT",
+  "authority_source": "Director canonical Skill output",
+  "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-16\\artifacts\\director_output.json"
+}

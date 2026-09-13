@@ -1,0 +1,51 @@
+{
+  "baseline_version": "0.1",
+  "captured_at": "2026-08-24T10:31:11+08:00",
+  "algorithm": "SHA-256",
+  "frozen_assets": {
+    "showrunner_canonical_skill": {
+      "path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\01_Showrunner\\SKILL.md",
+      "sha256": "0847EE3521A915936E97FA1F72D081F0788876F003E071918F517B0A46AE999C"
+    },
+    "showrunner_production_runtime": {
+      "path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\01_Showrunner\\Showrunner｜Production Runtime V0.2 RC2.md",
+      "sha256": "BF8C47E595886010E3816AD49F21BC0C030E33EF3494FC1D935AA148F0ECCEB0"
+    },
+    "showrunner_production_lock": {
+      "path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\01_Showrunner\\PRODUCTION_LOCK.md",
+      "sha256": "9637F923D2ED46EDA92B82C08266DF1C879D45F1B82F195CAC8F50F6EDBB8272"
+    },
+    "vault_rules": {
+      "path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\00_HOME\\📌 项目规则.md",
+      "sha256": "8E9DB23E0ABD0FDDC0E945CB3AEA22328A76768B7B3F3A0CF6EFBB23BF6CA719"
+    },
+    "language_voice_capability_model": {
+      "path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\Shared_QA\\Language & Voice QA｜综合能力模型 V0.1.md",
+      "sha256": "0C67DDD4425A7A2357F916D1163380DDB6EABC047AD5F3F0C91FCF9451870ECF"
+    },
+    "language_voice_cross_distillation": {
+      "path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\02_DISTILLATION\\方法论\\Language & Voice QA｜五人交叉蒸馏 V0.1.md",
+      "sha256": "79A16485B4957F392C17E63F279CD345C9AB1CF2977F70D844A644E6D39A7DDF"
+    },
+    "language_voice_canonical_skill": {
+      "path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\Shared_QA\\SKILL.md",
+      "sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D"
+    },
+    "showrunner_runtime_pipeline_code": {
+      "path": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\compliance\\runtime_pipeline.py",
+      "sha256": "DA104890BE3BA8F785D46D19E6473C990D6964F96A7B1F0344B971479673481B"
+    },
+    "showrunner_compliance_gate_code": {
+      "path": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\compliance\\compliance_gate.py",
+      "sha256": "8A551E757BC05CB4F8407B8DDDF8A271346A781EE5DE693304CDA8C7152AC17C"
+    },
+    "showrunner_compliance_rules": {
+      "path": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\compliance\\showrunner_compliance_rules.json",
+      "sha256": "21EDC8C6684A00696F8698BD5E6B110A7BFBD088D7B8025CB8E76F723FEB8B27"
+    },
+    "showrunner_role_router_code": {
+      "path": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\scripts\\showrunner_role_router.py",
+      "sha256": "4DC3319D86A43F219C26EBC7344F70B73AC2AA24B1EE0D5984D385B47C4023D0"
+    }
+  }
+}

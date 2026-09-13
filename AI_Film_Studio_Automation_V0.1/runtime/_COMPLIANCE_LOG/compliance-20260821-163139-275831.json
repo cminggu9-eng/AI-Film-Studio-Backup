@@ -1,0 +1,17 @@
+{
+  "fixture": "ROUTER-D",
+  "result": {
+    "routed_role": "Unmatched",
+    "skill_name": null,
+    "skill_path": null,
+    "trigger": "no configured trigger",
+    "mode": "UNMATCHED",
+    "output_type": "No Showrunner Output",
+    "activated_modules": [],
+    "file_exists": true,
+    "file_readable": true,
+    "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+    "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+    "hash_match": true
+  }
+}

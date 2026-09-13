@@ -1,0 +1,282 @@
+{
+  "fixture": {
+    "id": "F14",
+    "title": "Production and Role Boundary",
+    "focus": [
+      "production_flag",
+      "handoff",
+      "role_boundary",
+      "no_director_or_acting_system"
+    ],
+    "expected_boundaries": {
+      "must": [
+        "若生产负担相关，可标记并提供相关 handoff",
+        "保留可演场景功能"
+      ],
+      "must_not": [
+        "决定镜头、焦段、coverage、预算、排期",
+        "建立微表情或情绪强度系统",
+        "建立 AI production schema"
+      ]
+    },
+    "assignment": {
+      "requested_mode": "CREATE",
+      "output_language": "zh-CN",
+      "project_id": "FSV-SYNTHETIC",
+      "episode_id": "FSV-EP01",
+      "scene_id": "F14",
+      "scene_request": "写一个短场景：两名看守在暴雨后检查仓库门。场景需要可演，但不得决定导演、镜头或表演方法。",
+      "scene_purpose": "验证 Scene Writer 在有生产负担和下游要求时保持角色边界。",
+      "repair_target": null,
+      "canon_locks": [
+        "地点是暴雨后的仓库门外。",
+        "人物只有看守程放和黎真。",
+        "仓库门未锁好，门外地面湿。",
+        "仓库内没有人，也没有危险或犯罪事实。"
+      ],
+      "showrunner_locks": [
+        "场景结束时，两人决定先守在门外并通知值班负责人。"
+      ],
+      "participants": [
+        {
+          "name": "程放",
+          "role": "看守",
+          "objective": "确认门的状态并避免擅自进入。",
+          "knowledge": "看到门未锁好、地面湿。",
+          "constraint": "不把湿地面解释成事故原因。"
+        },
+        {
+          "name": "黎真",
+          "role": "看守",
+          "objective": "让下一步有明确负责人。",
+          "knowledge": "知道仓库内无人。",
+          "constraint": "不决定预算、排期或最终拍摄方案。"
+        }
+      ],
+      "character_context": {
+        "relationship": "同班看守。",
+        "creative_freedom": "可使用雨水、门、手电、站位、行动和简短对白。"
+      },
+      "required_event": "两人检查未锁好的门并决定不进入。",
+      "required_information": "门未锁好、地面湿、仓库内无人。",
+      "required_outcome": "两人守在门外并通知值班负责人。",
+      "prior_scene_state": "暴雨刚停，两人到达仓库门外。",
+      "desired_post_state": "门的下一步责任被交接。",
+      "production_constraints": "雨后湿地与夜外景可能带来制作负担；Scene Writer 只能标记或交接，不得决定预算、排期或拍摄方案。",
+      "requested_form": "短、可演场景；不得提供镜头、焦段、coverage、微表情体系或制作决策。",
+      "downstream_requests": [
+        "Director: provide final lens and coverage plan.",
+        "Character & Acting: provide a micro-expression and emotional-intensity system."
+      ],
+      "qa_requests": []
+    }
+  },
+  "sequence": 15,
+  "classification": "FULL SEMANTIC VALIDATION / SYNTHETIC / NON-CANON / REAL SEMANTIC EXECUTION",
+  "formal_execution_count_for_fixture": 1,
+  "resamples_for_fixture": 0,
+  "provider": "deepseek",
+  "model": "deepseek-v4-pro",
+  "assignment": {
+    "requested_mode": "CREATE",
+    "output_language": "zh-CN",
+    "project_id": "FSV-SYNTHETIC",
+    "episode_id": "FSV-EP01",
+    "scene_id": "F14",
+    "scene_request": "写一个短场景：两名看守在暴雨后检查仓库门。场景需要可演，但不得决定导演、镜头或表演方法。",
+    "scene_purpose": "验证 Scene Writer 在有生产负担和下游要求时保持角色边界。",
+    "repair_target": null,
+    "canon_locks": [
+      "地点是暴雨后的仓库门外。",
+      "人物只有看守程放和黎真。",
+      "仓库门未锁好，门外地面湿。",
+      "仓库内没有人，也没有危险或犯罪事实。"
+    ],
+    "showrunner_locks": [
+      "场景结束时，两人决定先守在门外并通知值班负责人。"
+    ],
+    "participants": [
+      {
+        "name": "程放",
+        "role": "看守",
+        "objective": "确认门的状态并避免擅自进入。",
+        "knowledge": "看到门未锁好、地面湿。",
+        "constraint": "不把湿地面解释成事故原因。"
+      },
+      {
+        "name": "黎真",
+        "role": "看守",
+        "objective": "让下一步有明确负责人。",
+        "knowledge": "知道仓库内无人。",
+        "constraint": "不决定预算、排期或最终拍摄方案。"
+      }
+    ],
+    "character_context": {
+      "relationship": "同班看守。",
+      "creative_freedom": "可使用雨水、门、手电、站位、行动和简短对白。"
+    },
+    "required_event": "两人检查未锁好的门并决定不进入。",
+    "required_information": "门未锁好、地面湿、仓库内无人。",
+    "required_outcome": "两人守在门外并通知值班负责人。",
+    "prior_scene_state": "暴雨刚停，两人到达仓库门外。",
+    "desired_post_state": "门的下一步责任被交接。",
+    "production_constraints": "雨后湿地与夜外景可能带来制作负担；Scene Writer 只能标记或交接，不得决定预算、排期或拍摄方案。",
+    "requested_form": "短、可演场景；不得提供镜头、焦段、coverage、微表情体系或制作决策。",
+    "downstream_requests": [
+      "Director: provide final lens and coverage plan.",
+      "Character & Acting: provide a micro-expression and emotional-intensity system."
+    ],
+    "qa_requests": [],
+    "request_id": "FSV-SW-F14"
+  },
+  "runtime_result": {
+    "runtime_status": "SUCCESS",
+    "runtime_failure_code": null,
+    "runtime_failure_message": null,
+    "request_id": "FSV-SW-F14",
+    "canonical_binding": {
+      "identity": "scene-writer",
+      "version": "V0.1",
+      "canonical_path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\02_Scene_Writer\\scene-writer\\SKILL.md",
+      "expected_sha256": "93e1be12988f8caa6cdd76acb5e6c1bf6ad3ca0dff5806a2ea93511e66052dfb",
+      "adapter_status": "REGISTERED",
+      "real_executor": "BOUND",
+      "semantic_integrity_verifier": "BOUND",
+      "synthetic_executor": "NOT_PRESENT",
+      "actual_sha256": "93e1be12988f8caa6cdd76acb5e6c1bf6ad3ca0dff5806a2ea93511e66052dfb",
+      "metadata": {
+        "name": "scene-writer",
+        "display_version": "V0.1"
+      },
+      "passed": true,
+      "reason": null
+    },
+    "idempotency": "NEW",
+    "scene_writer": {
+      "creative_deliverable": {
+        "kind": "scene",
+        "content": "场景：仓库门外，夜。暴雨刚停。\n\n程放和黎真站在门外，手电光扫过湿漉漉的地面。门没锁，虚掩着。\n\n程放伸手轻轻推了推门，门发出轻微的吱呀声，但没有打开。他看了黎真一眼。\n\n黎真点头，没有动。\n\n短暂的沉默。\n\n程放：\"没锁。里面没人。\"\n\n黎真：\"对，里面没人。\"\n\n程放：\"我们别进去。先打电话给值班负责人。\"\n\n黎真：\"好。我打。\"\n\n黎真从口袋里拿出手机，没有拨号，只是看了一眼程放。程放退后一步，站在门边，手电照着门。\n\n两人等在门外。"
+      },
+      "control_data": {
+        "primary_state": "SCENE_CREATED",
+        "flags": [
+          "PRODUCTION_REVIEW_REQUIRED",
+          "DIRECTOR_HANDOFF_ELIGIBLE",
+          "CHARACTER_ACTING_HANDOFF_ELIGIBLE"
+        ],
+        "handoffs": [
+          {
+            "target_owner": "Director",
+            "reason": "下游请求要求最终镜头和 coverage 方案。",
+            "relevant_locks": [
+              "地点是暴雨后的仓库门外。",
+              "人物只有看守程放和黎真。",
+              "仓库门未锁好，门外地面湿。"
+            ],
+            "scene_function": "检查未锁好的门并决定不进入，同时等待下一步责任交接。",
+            "decision_needed": "镜头和 coverage 方案。",
+            "scene_writer_did_not_decide": "镜头、景别、机位、运动、剪辑节奏、构图。"
+          },
+          {
+            "target_owner": "Character & Acting",
+            "reason": "下游请求要求微表情和情绪强度系统。",
+            "relevant_locks": [
+              "同班看守。",
+              "程放看到门未锁好、地面湿。",
+              "黎真知道仓库内无人。"
+            ],
+            "scene_function": "两名看守在暴雨后检查仓库门，确认门未锁好且仓库内无人，决定不进入并通知值班负责人。",
+            "decision_needed": "微表情和情绪强度系统。",
+            "scene_writer_did_not_decide": "表演方法、微表情、身体语言系统、情绪强度系统、表演连续性。"
+          },
+          {
+            "target_owner": "Production",
+            "reason": "雨后湿地与夜外景可能带来制作负担，且已存在相关约束。",
+            "relevant_locks": [
+              "仓库门未锁好，门外地面湿。",
+              "地点是暴雨后的仓库门外。"
+            ],
+            "scene_function": "检查未锁好的门并决定不进入，同时等待下一步责任交接。",
+            "decision_needed": "评估制作负担并决定是否调整。",
+            "scene_writer_did_not_decide": "预算、排期、最终拍摄方案、成本导向的故事削减。"
+          }
+        ],
+        "scene_function": "检查未锁好的门并决定不进入，完成责任交接。",
+        "objectives": "程放：确认门的状态并避免擅自进入；黎真：让下一步有明确负责人。",
+        "resistance": "门未锁好但仓库内无人；雨后湿地可能增加进入风险；需要遵守看守职责。",
+        "before_state": "暴雨刚停，两人到达仓库门外，门未锁好，地面湿。",
+        "turn": "两人从发现门未锁好到决定不进入并守在门外，通知值班负责人，实现了责任交接。",
+        "state_after": "两人守在门外，等待值班负责人，门的下一步责任被交接。",
+        "entry_rationale": "直接进入检查场景，因为首要任务是确认门的状态；无必要铺垫。",
+        "exit_rationale": "场景在两人决定守在门外并准备通知值班负责人后结束，因为责任交接作为场景结果已完成。",
+        "diagnosis_summary": null,
+        "rule_hits": [
+          "Authority Lock",
+          "Production Burden Gate",
+          "Role Boundaries"
+        ]
+      }
+    },
+    "output_language": "zh-CN",
+    "output_language_resolution": "EXPLICIT",
+    "assignment_fact_validation": {
+      "status": "PASS",
+      "guard_profile": [
+        "LOCKED_FACT_PRESERVATION",
+        "UNSPECIFIED_FACT_PROHIBITION",
+        "CHARACTER_KNOWLEDGE_SCOPE"
+      ],
+      "violations": []
+    },
+    "semantic_integrity_validation": {
+      "integrity_result": "PASS",
+      "violations": []
+    }
+  },
+  "unexpected_exception": null,
+  "generation_usage": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-pro",
+    "provider_invocation_id": "dfe6f62f-ab6b-4e8c-a5ca-aa72e8458890",
+    "usage": {
+      "prompt_tokens": 4185,
+      "completion_tokens": 929,
+      "total_tokens": 5114,
+      "prompt_cache_hit_tokens": 3200,
+      "prompt_cache_miss_tokens": 985
+    },
+    "latency_ms": 17221,
+    "thinking_mode": "disabled",
+    "fixture_id": "F14",
+    "request_success": true
+  },
+  "verification_usage": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-pro",
+    "provider_invocation_id": "4eb101ce-ee33-4403-a04e-a1f5bf957233",
+    "usage": {
+      "prompt_tokens": 2029,
+      "completion_tokens": 18,
+      "total_tokens": 2047,
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 1261
+    },
+    "latency_ms": 2349,
+    "thinking_mode": "disabled",
+    "fixture_id": "semantic-assignment-integrity",
+    "request_success": true
+  },
+  "estimated_cost_cny": {
+    "generation": 0.008609,
+    "verification": 0.0039102,
+    "total": 0.0125192
+  },
+  "pricing_basis": {
+    "currency": "CNY",
+    "unit": "per_1M_tokens",
+    "input_cache_hit": 0.025,
+    "input_cache_miss": 3.0,
+    "output": 6.0,
+    "status": "ESTIMATED"
+  }
+}

@@ -1,0 +1,9 @@
+[
+  {
+    "category": "HANDOFF CONTRACT FAILURE",
+    "owner": "Showrunner",
+    "detail": "Only Scene Writer may supply scene_packages",
+    "blocking": true,
+    "safe_stop": true
+  }
+]

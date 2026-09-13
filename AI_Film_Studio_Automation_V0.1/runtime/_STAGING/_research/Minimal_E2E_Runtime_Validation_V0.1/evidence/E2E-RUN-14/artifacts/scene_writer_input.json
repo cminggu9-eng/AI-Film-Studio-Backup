@@ -1,0 +1,207 @@
+{
+  "run_id": "E2E-RUN-14",
+  "role": "Scene Writer",
+  "canonical_binding": {
+    "identity": "scene-writer",
+    "canonical_path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\02_Scene_Writer\\scene-writer\\SKILL.md",
+    "sha256": "93E1BE12988F8CAA6CDD76ACB5E6C1BF6AD3CA0DFF5806A2EA93511E66052DFB"
+  },
+  "selected_mode": "CREATE",
+  "output_language": "zh-CN",
+  "input": {
+    "upstream_artifacts": {
+      "showrunner": {
+        "primary_state_or_outcome": "INFO",
+        "flags": "ABSENT",
+        "handoffs": "ABSENT",
+        "canon_assignment_locks": [
+          "copy every received lock exactly; Showrunner may establish only fixture-supported locks"
+        ],
+        "prohibited_changes": [
+          "完全和解"
+        ],
+        "required_outcome": "ABSENT",
+        "unresolved_decisions": [
+          "storage_room_opening"
+        ],
+        "state_evidence": {
+          "relevant_prior_state": {
+            "source": "sole_creative_input",
+            "characters": [
+              "许宁",
+              "许曼"
+            ],
+            "relationship_starting_state": "久未联系",
+            "prop": {
+              "A-17": "brass_key"
+            },
+            "event_lock": "许宁在暴雨夜把A-17钥匙交给许曼",
+            "knowledge_state": {
+              "shared_storage_reveal": {
+                "holder": "许曼",
+                "not_before_scene": 3
+              }
+            }
+          },
+          "current_state": "ABSENT",
+          "proposed_state": {
+            "story_structure": {
+              "scene_count": 3,
+              "assigned_structure": "三场结构"
+            },
+            "knowledge_timing": {
+              "shared_storage_reveal": "not_before_scene_3"
+            },
+            "visual_contraints": {
+              "clothing_visual_state_code": [
+                "soaked_uniform",
+                "changed_clothes"
+              ]
+            }
+          },
+          "knowledge_timing": {
+            "shared_storage_reveal": "许曼持有，不得早于第三场揭示"
+          },
+          "relationship_state": {
+            "initial": "疏远/久未联系",
+            "prohibited": "完全和解"
+          },
+          "visual_state": {
+            "clothing_visual_state_code": {
+              "allowed_tokens": [
+                "soaked_uniform",
+                "changed_clothes"
+              ]
+            }
+          }
+        },
+        "content": "## 故事前提\n暴雨夜，夜班管理员许宁带着一把刻有“A-17”的黄铜钥匙，来到久未联系的姐姐许曼的住处。许宁将钥匙交给许曼，许曼承认这是母亲留给两人一起打开储物间的钥匙，但她要求许宁先换下湿透的制服，等天亮再开门。这一夜，两人在等待中重新触碰彼此的生活状态，而储物间的秘密成为悬而未决的牵引。故事不追求和解，而是呈现两人如何在共同遗产前各自保持距离与选择。\n\n## 角色\n**许宁**：夜班管理员，身上穿着湿透的制服，主动带来钥匙，内心有急切或不安，但具体动机在早期不需完全说明。与姐姐久未联系，关系疏远。\n\n**许曼**：姐姐，久未联系的亲人。她承认钥匙的来源，但坚持让许宁换衣服、等天亮。她对储物间了解更多，但不会在第三场前透露关键信息。她保持冷静与界限。\n\n## Canon Locks\n- 角色：许宁、许曼\n- 道具：黄铜钥匙，刻有“A-17”，必须由二人之一保管（custody_required）\n- 关系：不得自动升级为完全和解\n- 视觉：许宁的服装状态只能是“soaked_uniform”或“changed_clothes”\n- 知识揭示：“shared_storage_reveal”（母亲留给两人一起打开储物间）由许曼持有，不得早于第三场揭示\n- 决策锁：“storage_room_opening” 保持未决，不在本包内决定是否打开\n\n## 三场结构\n**第一场**：许宁在暴雨中来到许曼住处，将A-17钥匙交给许曼。许曼确认钥匙，并说出这是母亲留下的、用于一起打开储物间的钥匙，但要求许宁先换下湿透的制服。\n- 场景目的：建立两人关系现状，引入钥匙与储物间信息（但储物间揭示推迟到第三场），呈现许曼对许宁的克制要求。\n- 角色目标：许宁想尽快处理钥匙相关事务；许曼想先处理许宁的湿衣服，维持秩序与控制。\n- 冲突点：许宁可能不愿换衣服或想立刻谈钥匙，许曼坚持先换衣并等天亮。\n- 必需信息：许宁湿透；许曼认识钥匙；A-17是黄铜钥匙；许曼要求换衣和等待。\n- 起始状态：许宁湿透，许曼保持距离。\n- 必需结束状态：许宁同意或被迫同意换衣，但关系依然疏远；储物间事实未被揭示。\n\n**第二场**：许宁换好衣服（changed_clothes），两人在等待天亮的过程中相处。对话围绕日常、过去、或沉默，但避免触及和解。许曼可能试探许宁的现状，许宁可能对许曼的谨慎感到不解或不安。\n- 场景目的：深化关系状态，展现两人之间的旧有模式与距离，为第三场的知识揭示做铺垫。\n- 角色目标：许宁想了解更多关于钥匙或促使许曼透露信息；许曼想保持界限，只谈无关紧要的事。\n- 冲突点：许宁的追问与许曼的回避；或者许曼的关心与许宁的疏离。\n- 必需信息：两人过往的联系为何中断（可暗示，不完整）；许曼为何要求等天亮（不明说，可暗示习惯或恐惧）。\n- 起始状态：许宁换了干燥衣服，两人在室内等待。\n- 必需结束状态：关系未改善，但两人之间的张力或未言明内容增加；许曼仍不透露储物间信息。\n\n**第三场**：接近天亮，许曼在某个触发点（可能是许宁再次提起或外部信号）下，揭示“shared_storage_reveal”：母亲留给两人一起打开储物间的钥匙。揭示后，故事在两人面对这一事实的反应中结束，不解决是否打开储物间。\n- 场景目的：交付知识揭示，将关系推到新的但依然未解决的节点。\n- 角色目标：许宁想得到答案或行动；许曼在揭示后可能收回或再次延迟。\n- 冲突点：许宁可能要求现在就去储物间，许曼可能拒绝或坚持原条件（如天亮后再议），或两人对母亲意图理解不同。\n- 必需信息：储物间是母亲留给两人共同打开的；许曼此前隐瞒的原因可能部分暗示但不清。\n- 起始状态：第二场结束时的张力状态。\n- 必需结束状态：知识揭示完成；关系未达成和解；储物间是否打开保持未决（decision_lock 遵守）。\n\n*注意：本包不写完整场景对白，只提供每场的戏剧目标、状态变化和约束。Scene Writer 应基于此包创作具体场景。*",
+        "scene_packages": "ABSENT"
+      }
+    },
+    "state_evidence_envelopes": {
+      "showrunner": {
+        "source_role": "Showrunner",
+        "source_record_id": "E2E-RUN-14/showrunner/1",
+        "version": "1.0",
+        "timestamp": "2026-08-30T02:22:42.833876+00:00",
+        "intended_recipient": "Scene Writer",
+        "handoff_reason": "Story / Canon Package",
+        "canon_assignment_locks": [
+          "copy every received lock exactly; Showrunner may establish only fixture-supported locks"
+        ],
+        "prohibited_changes": [
+          "完全和解"
+        ],
+        "canonical_mode": "ABSENT",
+        "primary_state_or_outcome": "INFO",
+        "flags": "ABSENT",
+        "handoffs": "ABSENT",
+        "required_outcome": "ABSENT",
+        "unresolved_decisions": [
+          "storage_room_opening"
+        ],
+        "relevant_prior_state": {
+          "source": "sole_creative_input",
+          "characters": [
+            "许宁",
+            "许曼"
+          ],
+          "relationship_starting_state": "久未联系",
+          "prop": {
+            "A-17": "brass_key"
+          },
+          "event_lock": "许宁在暴雨夜把A-17钥匙交给许曼",
+          "knowledge_state": {
+            "shared_storage_reveal": {
+              "holder": "许曼",
+              "not_before_scene": 3
+            }
+          }
+        },
+        "current_state": "ABSENT",
+        "proposed_state": {
+          "story_structure": {
+            "scene_count": 3,
+            "assigned_structure": "三场结构"
+          },
+          "knowledge_timing": {
+            "shared_storage_reveal": "not_before_scene_3"
+          },
+          "visual_contraints": {
+            "clothing_visual_state_code": [
+              "soaked_uniform",
+              "changed_clothes"
+            ]
+          }
+        },
+        "knowledge_timing": {
+          "shared_storage_reveal": "许曼持有，不得早于第三场揭示"
+        },
+        "relationship_state": {
+          "initial": "疏远/久未联系",
+          "prohibited": "完全和解"
+        },
+        "visual_state": {
+          "clothing_visual_state_code": {
+            "allowed_tokens": [
+              "soaked_uniform",
+              "changed_clothes"
+            ]
+          }
+        },
+        "authority_source": "Showrunner canonical Skill output",
+        "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-14\\artifacts\\showrunner_output.json"
+      }
+    },
+    "run_local_ledger": "ABSENT",
+    "role_constraints": {
+      "mode": "CREATE",
+      "scene_count": 3,
+      "fixture_constraints": {
+        "scene_count": 3,
+        "output_language": "zh-CN",
+        "characters": [
+          "许宁",
+          "许曼"
+        ],
+        "relationship": [
+          "不得自动升级为完全和解"
+        ],
+        "prop": {
+          "entity_id": "A-17",
+          "identity_lock": "A-17",
+          "custody_required": true,
+          "condition_lock": "brass_key"
+        },
+        "knowledge": [
+          {
+            "event_id": "shared_storage_reveal",
+            "holder": "许曼",
+            "not_before_scene": 3
+          }
+        ],
+        "visual_state": [
+          {
+            "dimension": "clothing_visual_state_code",
+            "allowed_tokens": [
+              "soaked_uniform",
+              "changed_clothes"
+            ]
+          }
+        ],
+        "prohibited": [
+          "完全和解"
+        ],
+        "decision_locks": [
+          "storage_room_opening"
+        ]
+      },
+      "strict_structured_transport": {
+        "function": "submit_scene_writer_package",
+        "response_format_route": "PROHIBITED",
+        "no_auto_repair": true
+      }
+    }
+  }
+}

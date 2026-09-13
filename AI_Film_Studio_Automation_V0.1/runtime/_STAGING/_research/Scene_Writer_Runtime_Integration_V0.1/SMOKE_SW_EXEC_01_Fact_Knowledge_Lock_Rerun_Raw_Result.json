@@ -1,0 +1,68 @@
+{
+  "classification": "VALIDATION / SYNTHETIC / NON-CANON / REAL SEMANTIC EXECUTION",
+  "real_execution": true,
+  "mock": false,
+  "stub": false,
+  "canonical_binding": {
+    "identity": "scene-writer",
+    "version": "V0.1",
+    "canonical_path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\02_Scene_Writer\\scene-writer\\SKILL.md",
+    "expected_sha256": "93e1be12988f8caa6cdd76acb5e6c1bf6ad3ca0dff5806a2ea93511e66052dfb",
+    "adapter_status": "REGISTERED",
+    "real_executor": "BOUND",
+    "synthetic_executor": "NOT_PRESENT",
+    "actual_sha256": "93e1be12988f8caa6cdd76acb5e6c1bf6ad3ca0dff5806a2ea93511e66052dfb",
+    "metadata": {"name": "scene-writer", "display_version": "V0.1"},
+    "passed": true,
+    "reason": null
+  },
+  "runtime_result": {
+    "runtime_status": "SUCCESS",
+    "runtime_failure_code": null,
+    "runtime_failure_message": null,
+    "request_id": "SMOKE-SW-EXEC-01",
+    "idempotency": "NEW",
+    "output_language": "zh-CN",
+    "output_language_resolution": "EXPLICIT",
+    "assignment_fact_validation": {
+      "status": "PASS",
+      "guard_profile": ["LOCKED_FACT_PRESERVATION", "UNSPECIFIED_FACT_PROHIBITION", "CHARACTER_KNOWLEDGE_SCOPE", "EXPLICIT_UNKNOWN_REASON", "COARSE_TIME_TONIGHT"],
+      "violations": []
+    },
+    "scene_writer": {
+      "creative_deliverable": {
+        "kind": "scene",
+        "content": "会议室里只剩下林妍和陈默。林妍合上笔记本电脑，走近陈默，后者已经把外套搭在椅背上，准备离开。\n\n林妍：明天早上的演示，原定的人来不了了。\n\n陈默看着她，手指停在袖口上。\n\n陈默：所以？\n\n林妍：我需要有人顶上。\n\n陈默：现在？\n\n林妍点头。陈默重新把外套放回椅背，但没有坐下。\n\n陈默：为什么是我？\n\n林妍：你是项目组里最熟悉整体内容的人之一。而且材料是现成的。\n\n陈默：材料是现成的。\n\n他重复了一遍，语气不重，但意思清楚。\n\n林妍：我把所有现有资料今晚发给你。\n\n陈默：全部？\n\n林妍：全部。\n\n陈默看了她一会儿，把外套拿起来，搭在手臂上。\n\n陈默：好，我临时接。但今晚我要收到所有资料，一份都不能少。\n\n林妍：我会整理好发给你。\n\n陈默：发到邮箱。\n\n林妍：好。\n\n陈默没有再多问原定的人为什么来不了。林妍也没有说。"
+      },
+      "control_data": {
+        "primary_state": "SCENE_CREATED",
+        "flags": [],
+        "handoffs": [],
+        "scene_function": "确认明天早上的演示由陈默临时接手，并确立资料交接条件。",
+        "objectives": "林妍：今晚确认由陈默顶上演示；陈默：避免被强加责任，除非条件明确。",
+        "resistance": "陈默对临时安排有保留，要求明确条件。",
+        "before_state": "会议结束，只有林妍和陈默留在会议室；原定演示者无法出席，原因不明。",
+        "turn": "陈默同意临时接手，但以今晚收到所有现有资料为条件；林妍承诺发送。",
+        "state_after": "陈默有条件接受；林妍需今晚发送所有现有资料。",
+        "entry_rationale": "会议刚结束，两人仍在场，适合直接提出请求。",
+        "exit_rationale": "条件达成一致，陈默准备离开，林妍确认发送资料；未展开原因。",
+        "diagnosis_summary": "所有锁定条件均满足：未发明缺席原因；林妍未替缺席者解释；陈默未立即无条件同意；两人非敌对；无第三角色；地点未变；陈默最终有条件同意并要求今晚接收全部资料。",
+        "rule_hits": ["authority_lock", "shootability", "internal_state", "dialogue_and_information", "entry_and_exit"]
+      }
+    }
+  },
+  "provider": "deepseek",
+  "model": "deepseek-v4-pro",
+  "usage": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-pro",
+    "provider_invocation_id": "7b32a35b-746a-4f97-b7f7-30c2cfdd9c83",
+    "usage": {"prompt_tokens": 3776, "completion_tokens": 642, "total_tokens": 4418, "prompt_cache_hit_tokens": 0, "prompt_cache_miss_tokens": 3776},
+    "latency_ms": 12627,
+    "thinking_mode": "disabled",
+    "fixture_id": "SMOKE-SW-EXEC-01",
+    "request_success": true
+  },
+  "estimated_cost_cny": 0.01518,
+  "pricing_basis": {"currency": "CNY", "unit": "per_1M_tokens", "input_cache_hit": 0.025, "input_cache_miss": 3.0, "output": 6.0, "status": "ESTIMATED"}
+}

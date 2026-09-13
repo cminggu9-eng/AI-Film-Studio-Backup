@@ -1,0 +1,8 @@
+{
+  "lifecycle_stage": "LOCAL_VALIDATION_FAILURE_RECORDED",
+  "invocation_id": "E2E-RUN-26:director:1",
+  "role": "Director",
+  "validation_stage": "Strict Function Schema Validation",
+  "category": "SCHEMA VALIDATION FAILURE",
+  "detail": "DirectorStructuredSubmissionError: Director unresolved_decisions must be ABSENT or text list"
+}

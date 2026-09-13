@@ -1,0 +1,56 @@
+{
+  "source_role": "Continuity",
+  "source_record_id": "E2E-RUN-13/continuity/1",
+  "version": "1.0",
+  "timestamp": "2026-08-30T01:28:48.132555+00:00",
+  "intended_recipient": "Shared QA",
+  "handoff_reason": "Continuity result for horizontal QA context",
+  "canon_assignment_locks": [
+    "A-17",
+    "brass_key",
+    "shared_storage_reveal not before scene 3",
+    "storage_room_opening"
+  ],
+  "prohibited_changes": [
+    "完全和解"
+  ],
+  "canonical_mode": "ABSENT",
+  "primary_state_or_outcome": "CONTINUITY PRESERVED",
+  "flags": "ABSENT",
+  "handoffs": "ABSENT",
+  "required_outcome": "ABSENT",
+  "unresolved_decisions": [
+    "storage_room_opening"
+  ],
+  "relevant_prior_state": {
+    "relationship_state": "久未联系",
+    "knowledge_state": "许宁不知母亲留钥匙共享储物间；许曼已知",
+    "visual_state": "许宁湿透制服"
+  },
+  "current_state": {
+    "relationship_state": "紧张、未解决",
+    "knowledge_state": "共享储物间真相仅许曼知，未揭示",
+    "visual_state": "场景1湿透制服；场景2、3已换衣"
+  },
+  "proposed_state": {
+    "relationship_state": "未完全和解，关系缓和但未解决",
+    "knowledge_state": "场景3许曼揭示共享真相",
+    "visual_state": "场景2起许宁换下湿透制服"
+  },
+  "knowledge_timing": {
+    "shared_storage_reveal": "不早于场景3，由许曼揭示",
+    "storage_room_opening": "未决"
+  },
+  "relationship_state": {
+    "initial": "久未联系",
+    "after_scene_1": "交出钥匙与要求换衣，仍疏远",
+    "after_scene_3": "共享真相揭开，未完全和解"
+  },
+  "visual_state": {
+    "scene_1": "soaked_uniform",
+    "scene_2": "changed_clothes",
+    "scene_3": "changed_clothes"
+  },
+  "authority_source": "Continuity canonical Skill output",
+  "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-13\\artifacts\\continuity_output.json"
+}

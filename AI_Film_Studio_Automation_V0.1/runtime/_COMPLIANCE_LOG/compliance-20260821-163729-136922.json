@@ -1,0 +1,37 @@
+{
+  "fixture": "ROUTER-C",
+  "result": {
+    "routed_role": "Showrunner",
+    "skill_name": "ai-film-studio-showrunner",
+    "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+    "trigger": "showrunner story-development request",
+    "mode": "PRODUCTION_SCOPE_REVIEW",
+    "output_type": "Production Scope Review",
+    "activated_modules": [
+      "Production Reality"
+    ],
+    "file_exists": true,
+    "file_readable": true,
+    "skill_name_correct": true,
+    "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+    "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+    "hash_match": true,
+    "invocation_receipt": {
+      "timestamp": "2026-08-21T08:37:29+00:00",
+      "task": "AI 做不了这么多角色，帮我做制作范围审查。",
+      "routed_role": "Showrunner",
+      "skill_name": "ai-film-studio-showrunner",
+      "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+      "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "hash_match": true,
+      "skill_name_match": true,
+      "project_state": "UNKNOWN",
+      "mode": "PRODUCTION_SCOPE_REVIEW",
+      "output_type": "Production Scope Review",
+      "activated_modules": [
+        "Production Reality"
+      ]
+    }
+  }
+}

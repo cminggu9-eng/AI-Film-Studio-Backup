@@ -1,0 +1,88 @@
+{
+  "run_id": "SW-CONTRACT-PROBE-02",
+  "authorization": "E2E Targeted Repair 02 — Scene Writer Response Budget & Serialization V0.1",
+  "status": "BLOCKED",
+  "started_at": "2026-08-28T00:41:29.719242+00:00",
+  "provider": "deepseek",
+  "model": "deepseek-v4-pro",
+  "provider_call_budget": 1,
+  "selected_completion_budget": 5000,
+  "response_budget_preflight": {
+    "expected_deliverable_type": "LARGE_STRUCTURED_DELIVERABLE",
+    "scenes": 3,
+    "structural_contract_enabled": true,
+    "state_contract_enabled": true,
+    "selected_completion_budget": 5000,
+    "previous_failed_cap": 3500,
+    "additional_headroom_tokens": 1500,
+    "additional_headroom_ratio": 0.428571,
+    "local_policy_ceiling": 6000,
+    "provider_capabilities": {
+      "provider": "deepseek",
+      "model": "deepseek-v4-pro",
+      "provider_documented_max_output_tokens": 384000,
+      "source": "DeepSeek API Docs / Models & Pricing, checked 2026-08-28",
+      "adapter_enforced_ceiling": null,
+      "request_parameter": "max_tokens"
+    },
+    "selected_below_local_policy_ceiling": true,
+    "selected_below_provider_documented_ceiling": true,
+    "bounded_not_unlimited": true,
+    "headroom_rationale": "The prior response reached 3500 completion tokens while incomplete. 5000 adds 1500 tokens (42.9%) and is paired with compact serialization; it remains below the local 6000-token policy ceiling and far below the documented model maximum.",
+    "passed": true
+  },
+  "retry_count": 0,
+  "automatic_fallback": 0,
+  "showrunner_real_calls": 0,
+  "downstream_role_calls": 0,
+  "provider_call_count": 1,
+  "frozen_showrunner_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-01-RECOVERY-01\\artifacts\\showrunner_output.json",
+  "frozen_showrunner_artifact_sha256": "bddee6efbba18ba9f1a2a60df8f426ed23c62b2266adfe71f37f9fca18e407f8",
+  "completed_at": "2026-08-28T00:41:58.785512+00:00",
+  "provider_calls": [
+    {
+      "role": "Scene Writer",
+      "invocation_id": "SW-CONTRACT-PROBE-02:scene_writer:1",
+      "model": "deepseek-v4-pro",
+      "timestamp": "2026-08-28T00:41:33.932735+00:00",
+      "input_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_02_Scene_Writer_Response_Budget_Serialization_V0.1\\evidence\\SW-CONTRACT-PROBE-02-EXECUTION\\artifacts\\scene_writer_input.json",
+      "output_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_02_Scene_Writer_Response_Budget_Serialization_V0.1\\evidence\\SW-CONTRACT-PROBE-02-EXECUTION\\artifacts\\scene_writer_provider_response.json",
+      "provider_success": true,
+      "persistence_verified": true,
+      "success": false,
+      "usage": {
+        "provider": "deepseek",
+        "model": "deepseek-v4-pro",
+        "provider_invocation_id": "9d042a95-743c-4f88-8e07-8cde1b7229d0",
+        "usage": {
+          "prompt_tokens": 6211,
+          "completion_tokens": 1756,
+          "total_tokens": 7967,
+          "prompt_cache_hit_tokens": 0,
+          "prompt_cache_miss_tokens": 6211
+        },
+        "latency_ms": 24835,
+        "thinking_mode": "disabled",
+        "fixture_id": "E2E-FIX-01",
+        "request_success": true,
+        "requested_max_tokens": 5000,
+        "finish_reason": "stop"
+      },
+      "selected_completion_budget": 5000,
+      "truncation_assessment": {
+        "classification": "NOT_TRUNCATED",
+        "truncated": false,
+        "finish_reason": "stop",
+        "completion_tokens": 1756,
+        "requested_max_tokens": 5000,
+        "json_complete": false,
+        "signals": [
+          "INCOMPLETE_JSON"
+        ],
+        "persistence_verification_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_02_Scene_Writer_Response_Budget_Serialization_V0.1\\evidence\\SW-CONTRACT-PROBE-02-EXECUTION\\artifacts\\scene_writer_persistence_verification.json"
+      },
+      "failure": "ModelExecutionError: Provider response was not valid JSON",
+      "retry_count": 0
+    }
+  ]
+}

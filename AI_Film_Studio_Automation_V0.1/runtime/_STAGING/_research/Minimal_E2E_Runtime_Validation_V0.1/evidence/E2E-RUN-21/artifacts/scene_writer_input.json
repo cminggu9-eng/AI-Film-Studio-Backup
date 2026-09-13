@@ -1,0 +1,177 @@
+{
+  "run_id": "E2E-RUN-21",
+  "role": "Scene Writer",
+  "canonical_binding": {
+    "identity": "scene-writer",
+    "canonical_path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\02_Scene_Writer\\scene-writer\\SKILL.md",
+    "sha256": "93E1BE12988F8CAA6CDD76ACB5E6C1BF6AD3CA0DFF5806A2EA93511E66052DFB"
+  },
+  "selected_mode": "CREATE",
+  "output_language": "zh-CN",
+  "input": {
+    "upstream_artifacts": {
+      "showrunner": {
+        "primary_state_or_outcome": "INFO",
+        "flags": "ABSENT",
+        "handoffs": "ABSENT",
+        "canon_assignment_locks": [
+          "cracked_white_porcelain_bowl: entity_id=cracked_white_porcelain_bowl, identity_lock=same_cracked_bowl, custody_required=true, condition_lock=crack_preserved",
+          "shop_transfer_decision: decision must remain unresolved until user decision",
+          "last_bowl_reveal: knowledge holder=周启, not_before_scene=2",
+          "signboard_state: allowed_tokens=[signboard_on, signboard_off]"
+        ],
+        "prohibited_changes": [
+          "SELL",
+          "KEEP",
+          "彻底和解"
+        ],
+        "required_outcome": "ABSENT",
+        "unresolved_decisions": [
+          "shop_transfer_decision"
+        ],
+        "state_evidence": {
+          "relevant_prior_state": "ABSENT",
+          "current_state": {
+            "characters": [
+              "周岚",
+              "周启"
+            ],
+            "relationship": "母子，多年未见的紧张与未言明情感",
+            "knowledge": {
+              "last_bowl_reveal": {
+                "holder": "周启",
+                "not_before_scene": 2
+              }
+            },
+            "visual_state": {
+              "signboard_state": "signboard_on"
+            }
+          },
+          "proposed_state": "故事由 frozen one-line concept 展开，三场结构下逐步揭示关系与决策",
+          "knowledge_timing": {
+            "last_bowl_reveal": {
+              "holder": "周启",
+              "not_before_scene": 2
+            }
+          },
+          "relationship_state": "不得自动升级为彻底和解",
+          "visual_state": {
+            "signboard_state": "signboard_on"
+          }
+        },
+        "content": "故事前提\n打烊后的老面馆里，老板娘周岚把一只裂了口的白瓷碗交给多年没有回家的儿子周启；周启承认自己早就知道这是父亲留下的最后一只店碗，并要求母亲先把门外仍亮着的招牌灯关掉，等雨停后再决定是否把店盘出去。核心与冲突：一只裂碗成为连接过去与现在的信物，母子二人通过这只碗重新面对家庭记忆与店面的未来，但彼此态度分歧且不可轻易调和。观众入口：雨夜、老店、裂碗与久别重逢的母子，情感与悬念并置。值得讲述的原因：关于继承、遗憾与不可逆的失去，以及亲情中无法简单解决的张力。主题/戏剧论点：面对无法修复的裂痕，人如何选择铭记或放手？\n\n角色\n周岚：面馆老板娘，丈夫已故，独自经营多年。性格坚韧，对店和家庭有深厚感情，但内心有未被儿子理解的委屈与期待。对儿子归来既渴望又防备。当前状态：试图通过移交裂碗开启对话，但未明确表达自己的真实意图。目标：希望在雨停前得到儿子的一个态度，但又不愿直接要求。需求：获得情感回应或对店未来的确定性。恐惧：儿子再次离开，店面无人继承。矛盾：想留店又怕拖累儿子；想放手又不甘。潜在变化：可能从防御转为坦诚，或进一步失望。权限/资源：店主，拥有决策权。限制：身体或情感上的疲惫，且尊重儿子意愿。\n周启：多年未归的儿子，对父亲的碗有秘密认知。性格内敛，有愧疚和疏离，但仍有责任感。他的归来不是偶然，而是带着某种决定或观察。当前状态：承认知道碗的秘密，但要求先关招牌灯，表现出对外界关注和雨的在意。目标：希望母亲面对现实，不要仓促决定。需求：被理解或不被迫立即表态。恐惧：母亲的期望压垮自己，或重蹈父亲的遗憾。矛盾：想逃离又无法真正放下。潜在变化：可能从回避走向承担，也可能选择有限度的参与。权限/资源：无决策权，但有知情权。限制：自身生活与心理负担。\n关系起始状态：母子，多年未见，彼此有爱但缺乏沟通，存在未解决的积怨；不能自动升级为彻底和解。\n\nCanon Locks\n- 裂口白瓷碗：同一只碗，裂纹保留，必须处于保管状态。\n- 知识锁：周启在第二场前不得揭示他知道这是父亲留下的最后一只店碗。\n- 视觉状态锁：招牌灯初始状态为亮着（signboard_on），后续可变为关（signboard_off），但场次变动需由故事决定。\n- 决策锁：店铺转让决定（shop_transfer_decision）在故事内不可解决，需保持待定，最终由用户决定。\n- 禁止项：SELL、KEEP、彻底和解。\n\n三场结构\n场景一：建立人物状态与核心冲突。周岚在打烊后的店内，拿出裂碗准备交给周启。周启刚到，两人简短寒暄，关系紧张。周岚递碗，周启未接或迟疑。门外招牌灯亮着。本场功能：交代裂碗的存在与母子疏离关系，建立视觉状态（signboard_on）。\n场景二：揭示知识锁与关系深化。周启承认自己早就知道这是父亲留下的最后一只店碗（揭示点，满足 not_before_scene=2）。他要求母亲先关掉招牌灯。周岚对儿子的知情感到意外，但未完全相信或接受。两人围绕店和父亲展开回忆或争执，但不可和解。本场功能：信息揭示，关系张力升级，招牌灯状态可能由周岚或周启动作改变（视觉状态变化需注明），但决策未定。\n场景三：雨停前的情感对峙与开放结局。周岚或周启提议等待雨停再决定是否盘店。两人可能达成某种暂时性默契，或继续分歧。但店铺转让决定依然未决（保留决策锁）。碗的归属或保管状态需维持。招牌灯状态根据前场发展确定。本场功能：收束情绪，留下未解决问题，保持不和解的基调，同时为观众留下悬念。",
+        "scene_packages": "ABSENT"
+      }
+    },
+    "state_evidence_envelopes": {
+      "showrunner": {
+        "source_role": "Showrunner",
+        "source_record_id": "E2E-RUN-21/showrunner/1",
+        "version": "1.0",
+        "timestamp": "2026-09-01T05:04:56.444255+00:00",
+        "intended_recipient": "Scene Writer",
+        "handoff_reason": "Story / Canon Package",
+        "canon_assignment_locks": [
+          "cracked_white_porcelain_bowl: entity_id=cracked_white_porcelain_bowl, identity_lock=same_cracked_bowl, custody_required=true, condition_lock=crack_preserved",
+          "shop_transfer_decision: decision must remain unresolved until user decision",
+          "last_bowl_reveal: knowledge holder=周启, not_before_scene=2",
+          "signboard_state: allowed_tokens=[signboard_on, signboard_off]"
+        ],
+        "prohibited_changes": [
+          "SELL",
+          "KEEP",
+          "彻底和解"
+        ],
+        "canonical_mode": "ABSENT",
+        "primary_state_or_outcome": "INFO",
+        "flags": "ABSENT",
+        "handoffs": "ABSENT",
+        "required_outcome": "ABSENT",
+        "unresolved_decisions": [
+          "shop_transfer_decision"
+        ],
+        "relevant_prior_state": "ABSENT",
+        "current_state": {
+          "characters": [
+            "周岚",
+            "周启"
+          ],
+          "relationship": "母子，多年未见的紧张与未言明情感",
+          "knowledge": {
+            "last_bowl_reveal": {
+              "holder": "周启",
+              "not_before_scene": 2
+            }
+          },
+          "visual_state": {
+            "signboard_state": "signboard_on"
+          }
+        },
+        "proposed_state": "故事由 frozen one-line concept 展开，三场结构下逐步揭示关系与决策",
+        "knowledge_timing": {
+          "last_bowl_reveal": {
+            "holder": "周启",
+            "not_before_scene": 2
+          }
+        },
+        "relationship_state": "不得自动升级为彻底和解",
+        "visual_state": {
+          "signboard_state": "signboard_on"
+        },
+        "authority_source": "Showrunner canonical Skill output",
+        "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-21\\artifacts\\showrunner_output.json"
+      }
+    },
+    "run_local_ledger": "ABSENT",
+    "role_constraints": {
+      "mode": "CREATE",
+      "scene_count": 3,
+      "fixture_constraints": {
+        "scene_count": 3,
+        "output_language": "zh-CN",
+        "characters": [
+          "周岚",
+          "周启"
+        ],
+        "relationship": [
+          "不得自动升级为彻底和解"
+        ],
+        "prop": {
+          "entity_id": "cracked_white_porcelain_bowl",
+          "identity_lock": "same_cracked_bowl",
+          "custody_required": true,
+          "condition_lock": "crack_preserved"
+        },
+        "knowledge": [
+          {
+            "event_id": "last_bowl_reveal",
+            "holder": "周启",
+            "not_before_scene": 2
+          }
+        ],
+        "visual_state": [
+          {
+            "dimension": "signboard_state",
+            "allowed_tokens": [
+              "signboard_on",
+              "signboard_off"
+            ]
+          }
+        ],
+        "prohibited": [
+          "SELL",
+          "KEEP",
+          "彻底和解"
+        ],
+        "decision_locks": [
+          "shop_transfer_decision"
+        ]
+      },
+      "strict_structured_transport": {
+        "function": "submit_scene_writer_package",
+        "response_format_route": "PROHIBITED",
+        "no_auto_repair": true
+      }
+    }
+  }
+}

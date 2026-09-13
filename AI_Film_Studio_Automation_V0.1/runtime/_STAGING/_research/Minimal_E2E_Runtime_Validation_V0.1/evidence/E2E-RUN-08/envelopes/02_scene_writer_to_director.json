@@ -1,0 +1,57 @@
+{
+  "source_role": "Scene Writer",
+  "source_record_id": "E2E-RUN-08/scene_writer/1",
+  "version": "1.0",
+  "timestamp": "2026-08-29T06:30:25.377484+00:00",
+  "intended_recipient": "Director",
+  "handoff_reason": "Three-scene locked package",
+  "canon_assignment_locks": [
+    "A-17",
+    "brass_key",
+    "shared_storage_reveal",
+    "storage_room_opening"
+  ],
+  "prohibited_changes": [
+    "完全和解"
+  ],
+  "canonical_mode": "CREATE",
+  "primary_state_or_outcome": "SCENE_CREATED",
+  "flags": "ABSENT",
+  "handoffs": "ABSENT",
+  "required_outcome": "创建三个可演场景",
+  "unresolved_decisions": [
+    "储物间打开后发生什么（由后续场景揭示或用户决定）",
+    "许宁是否换下湿透制服的具体时机（由导演/场景执行决定）"
+  ],
+  "relevant_prior_state": {
+    "relationship_state": "疏远、有未说出口的过去",
+    "knowledge_state": "许曼独知母亲遗留钥匙",
+    "visual_state": "许宁湿透制服"
+  },
+  "current_state": {
+    "relationship_state": "疏远，被迫协商",
+    "knowledge_state": "许曼仍独知共享储物间事实",
+    "visual_state": "许宁湿透制服→换衣"
+  },
+  "proposed_state": {
+    "relationship_state": "有限合作，保留距离",
+    "knowledge_state": "许曼仍独知共享储物间事实",
+    "visual_state": "许宁换下湿制服"
+  },
+  "knowledge_timing": {
+    "reveal_of_shared_use": "第三场前不揭示",
+    "reveal_of_room_content": "储物间内容未锁定"
+  },
+  "relationship_state": {
+    "initial": "疏远，有未说出口的过去",
+    "after_scene_1": "被动接受条件，未和解",
+    "after_scene_3": "更新但保留距离，未完全和解"
+  },
+  "visual_state": {
+    "scene_1": "许宁湿透制服",
+    "scene_2": "许宁换下湿制服",
+    "scene_3": "许宁换衣后"
+  },
+  "authority_source": "Scene Writer canonical Skill output",
+  "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-08\\artifacts\\scene_writer_output.json"
+}

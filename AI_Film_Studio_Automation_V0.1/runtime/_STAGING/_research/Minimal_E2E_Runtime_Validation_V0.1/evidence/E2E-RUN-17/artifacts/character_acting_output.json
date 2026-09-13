@@ -1,0 +1,51 @@
+{
+  "primary_state_or_outcome": "PERFORMANCE_INTERPRETATION_READY",
+  "flags": "ABSENT",
+  "handoffs": "ABSENT",
+  "canon_assignment_locks": [
+    "characters: 许宁, 许曼",
+    "prop: entity_id=A-17, identity_lock=A-17, custody_required=true, condition_lock=brass_key",
+    "knowledge: event_id=shared_storage_reveal, holder=许曼, not_before_scene=3",
+    "visual_state: dimension=clothing_visual_state_code, allowed_tokens=[soaked_uniform, changed_clothes]",
+    "decision_locks: storage_room_opening"
+  ],
+  "prohibited_changes": [
+    "完全和解",
+    "relationship: 不得自动升级为完全和解"
+  ],
+  "required_outcome": "ABSENT",
+  "unresolved_decisions": "ABSENT",
+  "state_evidence": {
+    "relevant_prior_state": {
+      "relationship_state": "久未联系，关系疏离，未和解",
+      "knowledge_state": "许宁不知 shared_storage_reveal",
+      "visual_state": "许宁 clothing_visual_state_code = soaked_uniform"
+    },
+    "current_state": {
+      "relationship_state": "许宁将钥匙交给许曼，许曼承认母亲遗留钥匙并要求换衣等天亮",
+      "knowledge_state": "许曼持有 shared_storage_reveal（仅场景3前揭示）",
+      "visual_state": "许宁 clothing_visual_state_code = soaked_uniform"
+    },
+    "proposed_state": {
+      "relationship_state": "关系未和解，但开始有接触，许宁产生好奇与不安",
+      "knowledge_state": "场景3时 shared_storage_reveal 由许曼揭示",
+      "visual_state": "许宁 clothing_visual_state_code 可由 soaked_uniform 变为 changed_clothes"
+    },
+    "knowledge_timing": {
+      "reveal_of_shared_use": "not_before_scene=3",
+      "reveal_of_room_content": "ABSENT"
+    },
+    "relationship_state": {
+      "initial": "疏离、久未联系",
+      "after_scene_1": "许曼提出条件，许宁未服从，关系转为对峙张力",
+      "after_scene_3": "揭示后关系未和解，但出现微妙靠近与更深的悬置"
+    },
+    "visual_state": {
+      "scene_1": "许宁 clothing_visual_state_code = soaked_uniform",
+      "scene_2": "许宁 clothing_visual_state_code = changed_clothes",
+      "scene_3": "许宁 clothing_visual_state_code = changed_clothes"
+    }
+  },
+  "content": "## Character Knowledge\n许宁在场景1、2中只知道：钥匙是母亲留下的，刻有“A-17”，是自己冒雨带来的。他不知道储物间、共同开启或许曼早已知情的内容。因此场景1的逼问是试探性的，语气应带着“你该认得”的怀疑，但不能包含“我早知道你隐瞒”的确认。场景2中“你早都知道”是针对许曼对母亲物件的反应，仍属于推测，不是确定事实。场景3揭示后，许宁才知道钥匙属于两人共同开启，此时“没问储物间在哪”是一种有意识的停顿——她选择暂时不追问，但内心已种下更大的悬置。\n\n## Playable Objective\n- 场景1：用钥匙逼许曼承认并解释，同时保持自己不越界的坚持；行动是“试探+拒绝交出”。\n- 场景2：换衣后继续向许曼施压，目标从“认钥匙”变成“逼出隐瞒”；行动是“追问+收回保管权”。\n- 场景3：接受揭示的同时，选择不追问更多，保留自己的控制感；行动是“求证后收住，让悬置停在自己这一侧”。\n\n## Partner Action\n- 场景1：许曼不接钥匙，只要求进门换衣；许宁感到被推到门外，但用攥回钥匙来维持自己的节奏。\n- 场景2：许曼回避钥匙话题，倒水、看雨、说“不是现在该讲”；许宁的反逼是把钥匙往自己这边挪，用物件位置表达“你不说，钥匙还是我的”。\n- 场景3：许曼先沉默，然后揭示“两人一起才能开”；许宁愣住后只问“你一直知道？”，得到确认后不再追问。她的注意力从钥匙移到许曼脸上，但身体不移动，保持隔桌的距离。\n\n## Body/Voice/Timing\n- 场景1：因为浑身湿透，身体应带有受寒的绷紧感；动作上“慢慢把钥匙收回掌心，攥住”要有清晰的节奏，从摊开到收回之间留一小段停顿，让对方看到拒绝。声音可因雨声而稍微提高，但不要情绪宣泄，保持克制的逼问。\n- 场景2：换衣的动作要背对许曼，给自己一个整理和重新组织策略的时间；放钥匙、挪钥匙的动作要小而明确，不夸张。对话节奏比场景1慢，用沉默和雨声来填充等待。\n- 场景3：拿起钥匙的动作要轻，像是在确认一个未知之物；揭示后的“愣住”不要做大幅度表情，用静止和快速的内心处理来表现。最后一句“你早都知道”的语气要平静但带着控诉，之后保持静默，不主动打开下一轮追问。\n\n## Behavioral Consequence\n整场表演必须避免和解或关系升级，许宁对许曼始终保持一种审视的距离。钥匙是她唯一的安全感来源，所以她的所有动作都围绕保护或确认这把钥匙。在场景3揭示后，她虽然不再追问，但不代表接受或释怀，而是进入更深的悬置。这种未解感应通过身体不靠近、沉默不打破来延续到场景结束。",
+  "scene_packages": "ABSENT"
+}

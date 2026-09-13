@@ -1,0 +1,12 @@
+{
+  "test_id": "RC2-RECEIPT-FIRST-PASS",
+  "sandbox_root": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_TEST_SANDBOX\\RC2-RECEIPT-FIRST-PASS\\20260824-103934-256974-749067c3",
+  "formal_vault_write_allowed": false,
+  "allowed_write_roots": [
+    "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_TEST_SANDBOX\\RC2-RECEIPT-FIRST-PASS\\20260824-103934-256974-749067c3\\canon",
+    "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_TEST_SANDBOX\\RC2-RECEIPT-FIRST-PASS\\20260824-103934-256974-749067c3\\character_files",
+    "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_TEST_SANDBOX\\RC2-RECEIPT-FIRST-PASS\\20260824-103934-256974-749067c3\\project_state",
+    "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_TEST_SANDBOX\\RC2-RECEIPT-FIRST-PASS\\20260824-103934-256974-749067c3\\logs",
+    "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_TEST_SANDBOX\\RC2-RECEIPT-FIRST-PASS\\20260824-103934-256974-749067c3\\temporary_outputs"
+  ]
+}

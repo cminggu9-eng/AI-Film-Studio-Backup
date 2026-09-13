@@ -1,0 +1,52 @@
+{
+  "source_role": "Showrunner",
+  "source_record_id": "E2E-RUN-07/showrunner/1",
+  "version": "1.0",
+  "timestamp": "2026-08-29T03:34:23.965020+00:00",
+  "intended_recipient": "Scene Writer",
+  "handoff_reason": "Story / Canon Package",
+  "canon_assignment_locks": [
+    "A-17",
+    "brass_key",
+    "shared_storage_reveal",
+    "storage_room_opening"
+  ],
+  "prohibited_changes": [
+    "完全和解"
+  ],
+  "canonical_mode": "ABSENT",
+  "primary_state_or_outcome": "INFO",
+  "flags": "ABSENT",
+  "handoffs": "ABSENT",
+  "required_outcome": "ABSENT",
+  "unresolved_decisions": [],
+  "relevant_prior_state": {
+    "relationship": "久未联系",
+    "mother": "母亲遗留钥匙",
+    "storage_room": "未打开"
+  },
+  "current_state": {
+    "许宁": "夜班管理员，制服湿透",
+    "许曼": "承认钥匙归属，要求先换衣、等天亮"
+  },
+  "proposed_state": {
+    "三场结构": "三天亮前决定是否打开储物间",
+    "relationship": "不自动升级为完全和解"
+  },
+  "knowledge_timing": {
+    "shared_storage_reveal": "许曼在第3场揭示"
+  },
+  "relationship_state": {
+    "starting_state": "疏远但存在共同责任（母亲遗物）",
+    "allowed_change": "有限接近或保持疏离，禁止完全和解"
+  },
+  "visual_state": {
+    "clothing_visual_state_code": "soaked_uniform",
+    "allowed_tokens": [
+      "soaked_uniform",
+      "changed_clothes"
+    ]
+  },
+  "authority_source": "Showrunner canonical Skill output",
+  "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-07\\artifacts\\showrunner_output.json"
+}

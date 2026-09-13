@@ -1,0 +1,93 @@
+{
+  "classification": "DIRECTOR DEEPSEEK TAGGED WIRE PROBE 22",
+  "probe_id": "DIRECTOR-TAGGED-WIRE-PROBE-22-F03",
+  "source_run": "E2E-RUN-26",
+  "source_input": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-26\\artifacts\\director_input.json",
+  "source_input_sha256": "4548f22f0b67c43f2a035632ed127152e968999589e5a95c19e4143235ce5f8a",
+  "provider_calls": 1,
+  "retry_count": 0,
+  "fallback_count": 0,
+  "r03_restarted": false,
+  "strict_function_name": "submit_director_package",
+  "codec_id": "DIRECTOR_DEEPSEEK_TAGGED_UNION_CODEC_V1",
+  "overall": "FAIL",
+  "failure_category": "HANDOFF CONTRACT FAILURE",
+  "failure": "E2EBlocked: Received locks changed in transit",
+  "call_record": {
+    "role": "Director",
+    "invocation_id": "DIRECTOR-TAGGED-WIRE-PROBE-22-F03:director:1",
+    "model": "deepseek-v4-pro",
+    "timestamp": "2026-09-04T09:11:37.453655+00:00",
+    "input_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_22_Director_Provider_Wire_Tagged_Union_Codec_Strict_Native_Type_Reliability_V0.1\\reports\\DIRECTOR-TAGGED-WIRE-PROBE-22-F03\\artifacts\\director_input.json",
+    "output_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_22_Director_Provider_Wire_Tagged_Union_Codec_Strict_Native_Type_Reliability_V0.1\\reports\\DIRECTOR-TAGGED-WIRE-PROBE-22-F03\\artifacts\\director_provider_response.json",
+    "raw_response_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_22_Director_Provider_Wire_Tagged_Union_Codec_Strict_Native_Type_Reliability_V0.1\\reports\\DIRECTOR-TAGGED-WIRE-PROBE-22-F03\\artifacts\\director_provider_response.json",
+    "invocation_metadata_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_22_Director_Provider_Wire_Tagged_Union_Codec_Strict_Native_Type_Reliability_V0.1\\reports\\DIRECTOR-TAGGED-WIRE-PROBE-22-F03\\artifacts\\director_invocation.json",
+    "persistence_verification_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_22_Director_Provider_Wire_Tagged_Union_Codec_Strict_Native_Type_Reliability_V0.1\\reports\\DIRECTOR-TAGGED-WIRE-PROBE-22-F03\\artifacts\\director_persistence_verification.json",
+    "provider_success": true,
+    "persistence_verified": true,
+    "role_contract_success": false,
+    "success": false,
+    "usage": {
+      "provider": "deepseek",
+      "model": "deepseek-v4-pro",
+      "provider_invocation_id": "79198e50-e30b-4904-9c09-0515f768922c",
+      "usage": {
+        "prompt_tokens": 13986,
+        "completion_tokens": 2205,
+        "total_tokens": 16191,
+        "prompt_cache_hit_tokens": 1152,
+        "prompt_cache_miss_tokens": 12834
+      },
+      "latency_ms": 36118,
+      "thinking_mode": "disabled",
+      "fixture_id": "E2E-FIX-03",
+      "request_success": true,
+      "requested_max_tokens": 3500,
+      "finish_reason": "tool_calls",
+      "http_status": 200,
+      "trace_headers": {
+        "x-ds-trace-id": "47da970cbb25f9887efd52996447701b",
+        "x-request-id": "ABSENT",
+        "request-id": "ABSENT",
+        "traceparent": "ABSENT",
+        "x-amzn-trace-id": "ABSENT"
+      },
+      "structured_output": {
+        "function_name": "submit_director_package",
+        "transport": "forced_function"
+      }
+    },
+    "estimated_cost_cny": 0.0517608,
+    "selected_completion_budget": 3500,
+    "provider_finish_reason": "tool_calls",
+    "response_characters": 4415,
+    "response_utf8_bytes": 9003,
+    "retry_count": 0,
+    "transport_auto_repairs": 0,
+    "structured_transport": {
+      "enabled": true,
+      "function_name": "submit_director_package",
+      "beta_provider_feature_used": true,
+      "required_tool_call_verified": true,
+      "arguments_parsed": true,
+      "schema_validated": true,
+      "provider_wire_schema_validated": true,
+      "provider_wire_decoded": true
+    },
+    "truncation_detection_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_22_Director_Provider_Wire_Tagged_Union_Codec_Strict_Native_Type_Reliability_V0.1\\reports\\DIRECTOR-TAGGED-WIRE-PROBE-22-F03\\artifacts\\director_truncation_detection.json",
+    "truncation_assessment": {
+      "classification": "NOT_TRUNCATED",
+      "truncated": false,
+      "finish_reason": "tool_calls",
+      "completion_tokens": 2205,
+      "requested_max_tokens": 3500,
+      "json_complete": true,
+      "signals": [],
+      "persistence_verification_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_22_Director_Provider_Wire_Tagged_Union_Codec_Strict_Native_Type_Reliability_V0.1\\reports\\DIRECTOR-TAGGED-WIRE-PROBE-22-F03\\artifacts\\director_persistence_verification.json"
+    },
+    "validation_error_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_22_Director_Provider_Wire_Tagged_Union_Codec_Strict_Native_Type_Reliability_V0.1\\reports\\DIRECTOR-TAGGED-WIRE-PROBE-22-F03\\artifacts\\director_validation_error.json",
+    "failure": "Received locks changed in transit"
+  },
+  "raw_first_persisted": true,
+  "retry_performed": false
+}

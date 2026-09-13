@@ -1,0 +1,24 @@
+{
+  "classification": "SCENE_WRITER_CURRENT_RUN_STATE_FIELD_BRIDGE_FAILURE",
+  "historical_run": "E2E-RUN-21",
+  "fixture_id": "E2E-FIX-02",
+  "provider_schema_validated": true,
+  "scene_id_sequence": ["E2E-FIX-02-S01", "E2E-FIX-02-S02", "E2E-FIX-02-S03"],
+  "scene_id_contract_result": "PASS",
+  "provider_state_domain": ["signboard_on", "signboard_off"],
+  "provider_state_values": ["signboard_on", "signboard_on", "signboard_off"],
+  "compact_field": "clothing_code",
+  "hydrated_field": "clothing_visual_state_code",
+  "dynamic_validator_field": "signboard_state",
+  "dynamic_validator_field_present_after_hydration": false,
+  "diagnostics": [
+    "scene_packages[0].state_evidence.signboard_state: INVALID_MACHINE_STATE_CODE",
+    "scene_packages[1].state_evidence.signboard_state: INVALID_MACHINE_STATE_CODE",
+    "scene_packages[2].state_evidence.signboard_state: INVALID_MACHINE_STATE_CODE"
+  ],
+  "structural_gate": "PASS",
+  "state_token_gate": "FAIL",
+  "semantic_safeguard": "NOT_REACHED",
+  "automatic_repair": 0,
+  "recommended_repair_boundary": "Scene Writer compact hydration and binding-derived state-field projection only"
+}

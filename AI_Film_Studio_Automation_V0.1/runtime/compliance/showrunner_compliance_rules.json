@@ -1,0 +1,68 @@
+{
+  "version": "0.2-rc2",
+  "skill": {
+    "name": "ai-film-studio-showrunner",
+    "installed_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+    "canonical_path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\01_Showrunner\\SKILL.md",
+    "expected_sha256": "09CAC2F44C6E83BF58860481D05B28606DA99A4A80183AA36DC7AF1308EA2DFD"
+  },
+  "router": {
+    "intent_priority": ["CANON_CONFLICT", "ROLE_BOUNDARY", "STORY_DIAGNOSIS", "PRODUCTION_SCOPE", "FORMAT_FIT", "SERIES_DEVELOPMENT", "GENERIC_SHOWRUNNER"],
+    "intent_groups": {
+      "canon_conflict": ["已锁定", "locked canon", "locked", "正史", "不得擅自改动", "从未有孩子", "亲生女儿直接登场"],
+      "director_boundary": ["35mm", "50mm", "85mm", "焦段", "机位", "镜头怎么切", "摄影", "推轨", "摇镜"],
+      "acting_boundary": ["怎么呼吸", "呼吸", "眼睛看哪", "眼睛看哪里", "眼神放哪里", "手怎么动", "手部动作", "表演节拍", "怎么演", "停几秒"],
+      "dialogue_boundary": ["对白润色", "台词润色", "改写对白", "对白风格", "润色这一段对白", "润色对白"],
+      "story_diagnosis": ["哪里有问题", "为什么不好看", "越来越拖", "人物被剧情推着走", "人物像在配合剧情", "人物不自然", "反转很多还是不好看", "帮我检查", "帮我诊断", "找根因", "不要直接重写", "怎么修", "后面写崩了", "故事诊断", "story diagnosis", "story repair"],
+      "production_scope": ["制作范围", "production scope", "ai 做不了", "ai制作困难", "成本", "生成很难", "太多角色", "太多地点", "压缩范围", "降低 ai 制作复杂度", "制作复杂度"],
+      "format_fit": ["适合电影", "适合短篇", "适合连续漫剧", "连续漫剧", "系列漫剧", "连续短剧", "系列短剧", "长篇连续故事", "多集故事", "能不能撑很多集", "能不能持续更新", "适合什么形式", "形式判断", "format fit", "story idea", "设定", "idea"],
+      "series_development": ["整季", "第一季", "季架构", "season architecture", "series engine", "continuing drive", "单集架构", "episode structure", "分集", "持续更新", "系列开发", "完播率", "反转", "cliffhanger", "悬念", "节奏", "pacing", "retention", "固定每", "通用规范", "统一写作规范"],
+      "generic_showrunner": ["故事", "概念", "人物发动机", "character engine", "世界系统", "world institution", "机构", "showrunner", "完播率", "反转", "cliffhanger", "悬念", "节奏", "pacing", "retention"]
+    },
+    "boundary_contracts": {
+      "director": {
+        "boundary_role": "Director / Cinematography",
+        "forbidden_output": ["focal_length_recommendation", "camera_position", "shot_sequence", "edit_pattern"],
+        "allowed_output": ["dramatic_goal", "relationship_state", "information_strategy", "handoff_requirements"]
+      },
+      "acting": {
+        "boundary_role": "Character & Acting",
+        "forbidden_output": ["breathing_instruction", "exact_eye_direction", "hand_gesture_instruction", "timed_pause", "micro_performance_blocking"],
+        "allowed_output": ["character_state", "objective", "hidden_need", "relationship_risk", "acting_handoff"]
+      },
+      "dialogue": {
+        "boundary_role": "Scene Writer",
+        "forbidden_output": ["dialogue_rewrite", "line_polish"],
+        "allowed_output": ["dramatic_function", "subtext_goal", "handoff_requirements"]
+      }
+    }
+  },
+  "gate": {
+    "max_corrections": 1,
+    "production": {
+      "unknown_statuses": ["UNKNOWN", "NEEDS INPUT", "NEEDS_INPUT", "DEFERRED"],
+      "deferred_statuses": ["UNKNOWN", "NEEDS INPUT", "NEEDS_INPUT", "DEFERRED", "PRELIMINARY"],
+      "deletion_regexes": ["(?:直接|全部|一律)?删(?:除|掉)", "删除\\s*\\d+", "drop\\s*\\d+", "remove\\s*\\d+"],
+      "required_labels": ["Creative Intent", "Essential Dramatic Function", "Cost Driver", "Alternate Execution", "Scope Decision"]
+    },
+    "anti_mechanical": {
+      "broad_scope_markers": ["以后", "所有项目", "通用规范", "统一写作规范", "团队标准", "跨项目", "统一", "默认", "始终"],
+      "conditional_markers": ["当前项目", "本项目", "当前版本", "这一版", "本集", "这一集", "试播", "实验", "试验", "项目级", "对于当前", "如果目标是", "候选方案", "option"],
+      "recommendation_markers": ["建议", "可以", "可测试", "建议尝试", "实验", "试验", "启发式", "heuristic", "recommendation", "仅用于", "候选"],
+      "event_markers": ["反转", "cliffhanger", "悬念", "有效变化", "变化", "转向", "升级", "钩子", "状态变化", "新信息", "冲突", "continuing drive", "后续驱动力", "更大的问题", "结构", "公式", "主线", "副线", "故事线"],
+      "obligation_markers": ["必须", "一定", "至少", "都", "固定", "始终", "应该", "应当", "默认", "统一", "作为规则"],
+      "fixed_interval_regexes": ["每(?:约|大约|近)?\\s*[0-9一二三四五六七八九十百]+\\s*(?:秒|分钟|分)[^。！？\\n]{0,50}", "每\\s*[0-9一二三四五六七八九十百]+\\s*(?:秒|分钟|分)[^。！？\\n]{0,50}"],
+      "episode_unit_regexes": ["每(?:一)?集", "每个单集", "集尾", "每集结尾", "每一集"],
+      "numeric_structure_regexes": ["每(?:一)?集[^。！？\\n]{0,35}[0-9一二三四五六七八九十百]+\\s*(?:秒|分钟|分|集|条|线|结构)", "[0-9一二三四五六七八九十百]+\\s*[—-]\\s*[0-9一二三四五六七八九十百]+\\s*分钟"],
+      "negation_markers": ["不接受", "拒绝", "不得", "不能", "不应", "避免", "不要", "不是", "不把", "不建议", "不建立", "不设", "交给", "属于"]
+    },
+    "boundary": {
+      "handoff_markers": ["交给", "下游", "handoff", "不决定", "不提供", "不指定", "由导演", "由表演", "由演员"],
+      "director_patterns": ["(?:建议|采用|使用|选|以)\\s*(?:35mm|50mm|85mm|广角|长焦)", "(?:35mm|50mm|85mm)[^。！？\\n]{0,30}(?:为主|再切|切到|开场|结尾|镜头)", "(?:推轨|摇镜|机位|反打|特写)[^。！？\\n]{0,30}(?:安排|使用|切|镜头|开场|结尾)"],
+      "acting_patterns": ["(?:屏息|屏住呼吸|呼吸)[^。！？\\n]{0,20}(?:秒|停住|吸气|呼气)", "(?:眼睛|视线|目光)[^。！？\\n]{0,20}(?:看向|移到|盯着|扫向)", "(?:手指|手部|手掌|手)[^。！？\\n]{0,25}(?:收紧|松开|抬起|放下|动作)", "(?:停顿|沉默)[^。！？\\n]{0,12}(?:秒|一会)"]
+    },
+    "global": {
+      "canon_conflict_regexes": ["LOCKED[^。！？\\n]{0,30}(?:修改|改为|覆盖|silently)", "静默(?:修改|覆盖)"]
+    }
+  }
+}

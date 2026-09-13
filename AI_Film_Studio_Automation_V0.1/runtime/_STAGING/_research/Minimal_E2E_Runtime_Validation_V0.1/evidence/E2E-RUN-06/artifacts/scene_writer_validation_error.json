@@ -1,0 +1,8 @@
+{
+  "lifecycle_stage": "LOCAL_VALIDATION_FAILURE_RECORDED",
+  "invocation_id": "E2E-RUN-06:scene_writer:1",
+  "role": "Scene Writer",
+  "validation_stage": "Strict Function Schema Validation",
+  "category": "SCHEMA VALIDATION FAILURE",
+  "detail": "StrictTransportSchemaError: JSON Schema validation failed at <root>: 'format' is a required property"
+}

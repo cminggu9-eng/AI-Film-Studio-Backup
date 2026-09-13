@@ -1,0 +1,207 @@
+{
+  "offline": {
+    "persistence": {
+      "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_01_Scene_Writer_Integration_Contract_V0.1\\tests\\run_provider_response_persistence_tests.py",
+      "returncode": 0,
+      "result": {
+        "suite": "Provider Response Persistence Regression",
+        "results": [
+          {
+            "id": "PERSIST-01",
+            "result": "PASS",
+            "detail": "raw content is persisted before local validation and survives the validation failure"
+          },
+          {
+            "id": "PERSIST-02",
+            "result": "PASS",
+            "detail": "usage metadata survives the validation failure"
+          },
+          {
+            "id": "PERSIST-03",
+            "result": "PASS",
+            "detail": "invocation ID is retained in both durable records"
+          },
+          {
+            "id": "PERSIST-04",
+            "result": "PASS",
+            "detail": "role, provider, and model identities survive"
+          },
+          {
+            "id": "PERSIST-05",
+            "result": "PASS",
+            "detail": "validation error is separate from persisted raw response and metadata"
+          },
+          {
+            "id": "PERSIST-06",
+            "result": "PASS",
+            "detail": "recorded-response regression performed no Provider call"
+          },
+          {
+            "id": "PERSIST-07",
+            "result": "PASS",
+            "detail": "recorded-response regression performed no ModelExecutor call"
+          },
+          {
+            "id": "PERSIST-08",
+            "result": "PASS",
+            "detail": "the prior invalid non-Scene-Writer scene_packages pattern retains raw, usage, invocation, and separate error evidence"
+          }
+        ],
+        "passed": 8,
+        "total": 8,
+        "counters": {
+          "provider_calls": 0,
+          "executor_calls": 0
+        }
+      },
+      "stderr": ""
+    },
+    "scene_writer_contract": {
+      "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_01_Scene_Writer_Integration_Contract_V0.1\\tests\\run_scene_writer_integration_contract_tests.py",
+      "returncode": 0,
+      "result": {
+        "suite": "Scene Writer Integration Contract",
+        "results": [
+          {
+            "id": "SW-INT-01",
+            "result": "PASS",
+            "detail": "valid exact machine-state codes are accepted through the integrated Scene Writer role-contract path"
+          },
+          {
+            "id": "SW-INT-02",
+            "result": "PASS",
+            "detail": "Chinese display prose is accepted without token aliasing"
+          },
+          {
+            "id": "SW-INT-03",
+            "result": "PASS",
+            "detail": "display prose cannot replace the exact machine code"
+          },
+          {
+            "id": "SW-INT-04",
+            "result": "PASS",
+            "detail": "missing machine code is attributable structural failure"
+          },
+          {
+            "id": "SW-INT-05",
+            "result": "PASS",
+            "detail": "wrong exact machine code is rejected"
+          },
+          {
+            "id": "SW-INT-06",
+            "result": "PASS",
+            "detail": "all six frozen structural fields are present for every scene"
+          },
+          {
+            "id": "SW-INT-07",
+            "result": "PASS",
+            "detail": "one missing frozen structural item is rejected"
+          },
+          {
+            "id": "SW-INT-08",
+            "result": "PASS",
+            "detail": "all three scenes are validated independently"
+          },
+          {
+            "id": "SW-INT-09",
+            "result": "PASS",
+            "detail": "Scene Writer canonical tokens are preserved exactly"
+          },
+          {
+            "id": "SW-INT-10",
+            "result": "PASS",
+            "detail": "unsupported structural field invention is rejected"
+          },
+          {
+            "id": "SW-INT-11",
+            "result": "PASS",
+            "detail": "structural/state-token gate returns a deep copy without rewriting output"
+          },
+          {
+            "id": "SW-INT-12",
+            "result": "PASS",
+            "detail": "semantic safeguard remains a separate later gate"
+          },
+          {
+            "id": "SW-INT-13",
+            "result": "PASS",
+            "detail": "legacy verifier is neither invoked nor elevated by the structural gate"
+          },
+          {
+            "id": "SW-INT-14",
+            "result": "PASS",
+            "detail": "raw response and invocation metadata are verified before the contract gate; no Provider or executor call is made"
+          },
+          {
+            "id": "SW-INT-15",
+            "result": "PASS",
+            "detail": "Scene Writer canonical SKILL hash remains unchanged"
+          }
+        ],
+        "frozen_failed_output_regression": {
+          "id": "FROZEN-FAILED-OUTPUT",
+          "result": "PASS",
+          "detail": "frozen failed output is diagnosed for missing exact machine state code and six-item structural deliverable"
+        },
+        "passed": 15,
+        "total": 15,
+        "counters": {
+          "provider_calls": 0,
+          "executor_calls": 0,
+          "semantic_safeguard_calls": 0,
+          "legacy_verifier_calls": 0
+        }
+      },
+      "stderr": ""
+    }
+  },
+  "existing_preflight": {
+    "state_contract": true,
+    "semantic_safeguard": true,
+    "provider_free_startup": true,
+    "minimal_harness_startup": true,
+    "provider_initialization_during_import": 0,
+    "executor_initialization_during_import": 0,
+    "canonical_hashes": {
+      "showrunner": "0847EE3521A915936E97FA1F72D081F0788876F003E071918F517B0A46AE999C",
+      "scene_writer": "93E1BE12988F8CAA6CDD76ACB5E6C1BF6AD3CA0DFF5806A2EA93511E66052DFB",
+      "director": "807D5B398A247A69C3F54FB58F256E8E87AE3B245540071A8B3F6832B49A7781",
+      "character_acting": "CD96A794D37371B855552C23A2670EBD78A9F2E2D3218152CE568C3B4356B09F",
+      "art_director": "8C8DB2370D69863BBA71138A5BBC123B5BC9BBA73E5CCF2F02D8764FFE933C75",
+      "continuity": "C64475BD0578BE6C159DF5A0FA0D90A96636160215B00E17AA3C5CC8E7F0B64C",
+      "shared_qa": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D"
+    },
+    "canonical_hashes_unchanged": true,
+    "deepseek_key_available": true,
+    "tests": [
+      {
+        "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Integration_Contract_Repair_V0.1\\tests\\run_state_contract_tests.py",
+        "returncode": 0,
+        "stdout": "{\n  \"classification\": \"OFFLINE STATE CONTRACT TEST\",\n  \"results\": [\n    {\n      \"id\": \"STATE-01\",\n      \"result\": \"PASS\",\n      \"detail\": \"source/version preserved\"\n    },\n    {\n      \"id\": \"STATE-02\",\n      \"result\": \"PASS\",\n      \"detail\": \"locks preserved\"\n    },\n    {\n      \"id\": \"STATE-03\",\n      \"result\": \"PASS\",\n      \"detail\": \"canonical tokens unchanged\"\n    },\n    {\n      \"id\": \"STATE-04\",\n      \"result\": \"PASS\",\n      \"detail\": \"ABSENT preserved without synthesis\"\n    },\n    {\n      \"id\": \"STATE-05\",\n      \"result\": \"PASS\",\n      \"detail\": \"knowledge timing attributable\"\n    },\n    {\n      \"id\": \"STATE-06\",\n      \"result\": \"PASS\",\n      \"detail\": \"prior/current/proposed distinguishable\"\n    },\n    {\n      \"id\": \"STATE-07\",\n      \"result\": \"PASS\",\n      \"detail\": \"visual state attributable\"\n    },\n    {\n      \"id\": \"STATE-08\",\n      \"result\": \"PASS\",\n      \"detail\": \"relationship state attributable\"\n    },\n    {\n      \"id\": \"STATE-09\",\n      \"result\": \"PASS\",\n      \"detail\": \"authority owner preserved\"\n    },\n    {\n      \"id\": \"STATE-10\",\n      \"result\": \"PASS\",\n      \"detail\": \"comparison evidence supplied without a Continuity decision\"\n    },\n    {\n      \"id\": \"STATE-11\",\n      \"result\": \"PASS\",\n      \"detail\": \"missing current state was not repaired\"\n    },\n    {\n      \"id\": \"STATE-12\",\n      \"result\": \"PASS\",\n      \"detail\": \"run-local in-memory ledger has no database dependency\"\n    }\n  ],\n  \"passed\": 12,\n  \"total\": 12\n}\n",
+        "stderr": "",
+        "passed": true
+      },
+      {
+        "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Integration_Contract_Repair_V0.1\\tests\\run_semantic_safeguard_tests.py",
+        "returncode": 0,
+        "stdout": "{\n  \"classification\": \"OFFLINE SEMANTIC SAFEGUARD TEST\",\n  \"results\": [\n    {\n      \"id\": \"SEM-01\",\n      \"result\": \"PASS\",\n      \"detail\": \"A-17 change blocked\"\n    },\n    {\n      \"id\": \"SEM-02\",\n      \"result\": \"PASS\",\n      \"detail\": \"custody trace accepted\"\n    },\n    {\n      \"id\": \"SEM-03\",\n      \"result\": \"PASS\",\n      \"detail\": \"early knowledge blocked\"\n    },\n    {\n      \"id\": \"SEM-04\",\n      \"result\": \"PASS\",\n      \"detail\": \"unsupported micro-fact blocked\"\n    },\n    {\n      \"id\": \"SEM-05\",\n      \"result\": \"PASS\",\n      \"detail\": \"wet uniform preserved\"\n    },\n    {\n      \"id\": \"SEM-06\",\n      \"result\": \"PASS\",\n      \"detail\": \"authorized clothing transition accepted\"\n    },\n    {\n      \"id\": \"SEM-07\",\n      \"result\": \"PASS\",\n      \"detail\": \"automatic reconciliation blocked\"\n    },\n    {\n      \"id\": \"SEM-08\",\n      \"result\": \"PASS\",\n      \"detail\": \"unknown state flags without contradiction\"\n    },\n    {\n      \"id\": \"SEM-09\",\n      \"result\": \"PASS\",\n      \"detail\": \"authorized change not misclassified\"\n    },\n    {\n      \"id\": \"SEM-10\",\n      \"result\": \"PASS\",\n      \"detail\": \"issue keeps evidence locator\"\n    },\n    {\n      \"id\": \"SEM-11\",\n      \"result\": \"PASS\",\n      \"detail\": \"gate returns a report without rewriting scene material\"\n    },\n    {\n      \"id\": \"SEM-12\",\n      \"result\": \"PASS\",\n      \"detail\": \"legacy verifier alone blocked\"\n    }\n  ],\n  \"passed\": 12,\n  \"total\": 12,\n  \"provider_calls\": 0,\n  \"real_role_executions\": 0\n}\n",
+        "stderr": "",
+        "passed": true
+      },
+      {
+        "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Integration_Contract_Repair_V0.1\\tests\\run_provider_free_startup_test.py",
+        "returncode": 0,
+        "stdout": "{\n  \"classification\": \"PROVIDER-FREE IMPORT / DISCOVERY / STATIC STARTUP\",\n  \"checks\": [\n    \"clean import\",\n    \"harness import\",\n    \"configuration load\",\n    \"role discovery\",\n    \"adapter discovery\",\n    \"state-envelope load\",\n    \"fixture load\",\n    \"legacy smoke runner import\",\n    \"legacy synthetic runner import\"\n  ],\n  \"provider_calls\": 0,\n  \"executor_calls\": 0,\n  \"counters\": {\n    \"provider_initializations\": 0,\n    \"provider_completions\": 0,\n    \"executor_initializations\": 0,\n    \"executor_calls\": 0\n  },\n  \"result\": \"PASS\"\n}\n",
+        "stderr": "",
+        "passed": true
+      },
+      {
+        "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\tests\\test_minimal_e2e_harness_startup.py",
+        "returncode": 0,
+        "stdout": "{\n  \"result\": \"PASS\",\n  \"classification\": \"MINIMAL E2E HARNESS IMPORT\",\n  \"counters\": {\n    \"provider_initializations\": 0,\n    \"provider_calls\": 0,\n    \"executor_initializations\": 0,\n    \"executor_calls\": 0\n  },\n  \"provider_calls\": 0,\n  \"executor_calls\": 0\n}\n",
+        "stderr": "",
+        "passed": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "primary_state_or_outcome": "DIRECTION_PLAN_PRODUCED",
+  "flags": "ABSENT",
+  "handoffs": "ABSENT",
+  "canon_assignment_locks": [
+    "scene_count: 3",
+    "output_language: zh-CN",
+    "characters: 许宁, 许曼",
+    "relationship: 不得自动升级为完全和解",
+    "prop: entity_id=A-17, identity_lock=A-17, custody_required=true, condition_lock=brass_key",
+    "knowledge: event_id=shared_storage_reveal, holder=许曼, not_before_scene=3",
+    "visual_state: dimension=clothing_visual_state_code, allowed_tokens=[soaked_uniform, changed_clothes]",
+    "decision_locks: storage_room_opening"
+  ],
+  "prohibited_changes": [
+    "完全和解"
+  ],
+  "required_outcome": "产出三场戏的合法导演计划：以场景功能、锁定的材料事件与结局为依据，确定舞台调度、空间地理、观众信息、机位/覆盖意图、节奏/转场意图，并标注制作负担与未决可行性问题；不改写对白与故事，不得触碰完全和解禁令、shared_storage_reveal 揭示时序与 A-17 共同保管规则。",
+  "unresolved_decisions": [
+    "储物间内部物件（旧物与信封）的具体视觉形态未定，属 Art Director 叙事视觉需求，非导演可私有设计",
+    "母亲意图与开门后后续方向未定，须保留开放性钩子且不由导演擅自填补",
+    "正式形式尚未锁定（短片/系列等），影响节奏密度与转场跨度选择，需 Showrunner 在不改变锁定的前提下确认"
+  ],
+  "state_evidence": {
+    "relevant_prior_state": {
+      "E2E-FIX-01-S01": {
+        "clothing_visual_state_code": "soaked_uniform"
+      },
+      "E2E-FIX-01-S02": {
+        "clothing_visual_state_code": "soaked_uniform"
+      },
+      "E2E-FIX-01-S03": {
+        "clothing_visual_state_code": "changed_clothes"
+      }
+    },
+    "current_state": {
+      "E2E-FIX-01-S01": {
+        "clothing_visual_state_code": "soaked_uniform"
+      },
+      "E2E-FIX-01-S02": {
+        "clothing_visual_state_code": "changed_clothes"
+      },
+      "E2E-FIX-01-S03": {
+        "clothing_visual_state_code": "changed_clothes"
+      }
+    },
+    "proposed_state": "ABSENT",
+    "knowledge_timing": "ABSENT",
+    "visual_state": "ABSENT",
+    "relationship_state": "疏离、未解过往；三场内由防备经克制合作走向真相揭示但未完全和解"
+  },
+  "content": "DIRECTORIAL INTENT\n以「共同保管 A-17、共同面对过去」为贯穿主线：三场戏把距离感作为可被看见、可被测量的空间关系来呈现，而非依赖表演心理。第一场建立「门槛两侧」的阻隔与入侵；第二场建立「桌面中央的钥匙」作为共同却未被共同握住的支点；第三场建立「并排而立、半臂间隙」的真相揭示。每场都以一个具体的空间/物件关系承载锁定的关系状态，确保完全和解禁令不在调度层面被突破。\n\nSTAGING / BLOCKING\n第一场：许宁停在门廊外不动，许曼在门内不迎、不让他进；许宁递钥匙的手越过门槛悬停，许曼拒接后退半步。许宁收手攥紧钥匙后自行跨进门，许曼侧身为他让出通道但不碰他。调度用「门槛」作权力的分界，钥匙始终只在单手中传递、被拒，成为共同保管的前兆而非完成。第二场：两人对坐，湿制服搭椅背作为换装的物证；钥匙放在桌面两人之间等距的中点，谁都不先触碰；倒水、停住动作、望向别处等位移都围绕桌面进行，但身体始终不越过桌面中线。第三场：两人到 A-17 柜前并肩而站，共同插入并转动钥匙（遵守 custody_required）；开门后许宁因惊愕自然停留，不动、不取信封，许曼不解释细节，两人保持半臂距离。封锁「拥抱、触碰、拉近」等任何可能读作和解的调度。\n\nAUDIENCE INFORMATION\n第一场观众须确认：二人多年未见、关系疏离；钥匙 A-17 是母亲留给「两人一起」开的，单一交接不算数；许宁湿制服限制其深入谈话。观众此刻与许宁同步，只知钥匙与「一起开」，不知储物间内情。第二场观众须察觉：母亲只留模糊线索（「等你们都想通了，一起去」）；两人各有不说破之事；钥匙是被共同看管但无人先触碰的悬置物。许曼隐瞒 shared_storage_reveal 的真相继续被隐藏，观众与许宁同样不知道。第三场观众须获得：shared_storage_reveal 由许曼明确说出「我一直知道，妈把它留给我们一起开，只是没先告诉你」，与第一场的措辞形成反差（第一场她说「妈留给咱俩一起开」，但迟至此刻才承认自己早已知情）；开门后物件不解释、不解决矛盾，留待后续。观众应感到真相被揭示但情感未靠近。\n\nSPATIAL GEOGRAPHY\n确立两个可重复锚定的空间：值班室（门廊→室内，含门、门槛、桌、椅背）与储物区（一排储物柜中的 A-17 门）。第一场门廊与室内由门槛明确分隔，两人分处内外，屏幕方向稳定（许宁在雨侧/外，许曼在室内/干侧）。第二场为室内闭合空间，桌为二人之间的中立物，门窗外的雨提供持续的环境声与光。第三场转至储物区，镜头沿储物柜排布的纵深方向找到 A-17 号门，门开后视线落于柜内旧物与信封。三个空间之间以「钥匙」为航标：从单手握持→桌面中央→锁孔，共同保管在空间上的推进被逐场显影。地理切换服从场面需要，不做无目的的透视或轴线破坏。\n\nCAMERA / COVERAGE INTENT\n全程以「距离与物件」为镜头目的，不做装饰性移动。第一场：用门槛作为景框中线，让许宁与许曼分处两侧，借机位展示门槛这一物理与心理分界；对钥匙的悬停递出给一个低压特写，强调「只在自己手里、尚未成共同」。第二场：以覆盖展示桌面中央的钥匙与两端的坐姿，倒水时给许曼不看向许宁的背部侧面，强调回避；对「等你们都想通了，一起去」这句给停顿留白，不急着切近景。第三场：以中景覆盖二人并排与半臂间距，开门动作用一个不跳轴的正面/过肩覆盖展示「二人共同转动」这一 custody 动作；门开后镜头落在旧物与信封，再由信封反打到许宁未伸手的静止，用「未取」而非物件本身承载开放钩子。整体覆盖密度偏克制，优先保留沉默与停顿。\n\nRHYTHM / TRANSITION INTENT\n第一场节奏偏慢、以雨声与沉默填充，许宁跨门槛作为第一次注意力的收束与场景落点。第二场节奏更静，围绕「想通什么」的追问制造一次加速后回落，钥匙影子的拉长作为静止的视觉延续，为第三场蓄势。三场之间以「门」为转场锚：第一场止于跨入门槛，第二场始于室内换装（湿制服搭椅背，用物证衔接换衣），第三场始于天亮、钥匙插进锁孔，形成「门槛→桌面→锁孔」逐场逼近的递进。第三场在开门后放慢，把许宁的沉默与不取信封作为持续时长的收束，不落到拥抱或和解式的转场。转场意图为动作/物件关系关联式，而非任意蒙太奇。\n\nPRODUCTION BURDEN\n三场只涉及值班室（门廊+室内）与一处储物区两个可控场景单元，可在单一场地内完成，制作负担低。需注意的是第三场储物间内「旧物与信封」的具体视觉形态尚未由 Art Director 提供，拍摄计划中应为其预留揭示机位而不过度设计；湿制服与换装的连续性（第一场 soaked_uniform，第二场起 changed_clothes）需由 Continuity 校验，导演仅标注依赖。雨声、小灯、灯影等氛围元素可复用同一场景照明与音轨，避免额外搭建。不要求以特效或额外场景支撑叙事，效率优先但不删减必需节拍与揭示。\n\nHANDOFFS / UNRESOLVED ISSUES\n无上游强制阻塞，采用 DIRECTION_PLAN_PRODUCED。需交还的未决项：① 第三场储物间内部旧物与信封的具体视觉形态，交 Art Director（导演仅提出「情感/象征物件」的叙事视觉需求）；② 湿制服→干衣的跨场连续性确认，交 Continuity（导演标注依赖，不自行认证）；③ 正式形式（短片/系列等）影响节奏密度与转场跨度，交 Showrunner（不改变锁定，仅请求在不影响三场结构与完全和解禁令的前提下确认形式）；④ 母亲意图及开门后后续方向属 Showrunner/Canon 范畴，不由导演填补。DP、Character & Acting、Editor/Post 为下游接收方：导演提供机位「目的」而非镜头规格，提供调度空间而非表演方法，提供节奏意图而非最终剪辑。",
+  "scene_packages": "ABSENT"
+}

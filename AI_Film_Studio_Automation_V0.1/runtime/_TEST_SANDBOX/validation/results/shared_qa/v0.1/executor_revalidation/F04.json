@@ -1,0 +1,285 @@
+{
+  "fixture_id": "F04",
+  "mode": "DIRECT_RUNTIME",
+  "initial": {
+    "runtime_result": {
+      "internal_runtime_result": {
+        "runtime_status": "SUCCESS",
+        "invocation_id": "revalidation-f04-initial",
+        "contract_identity": "language-voice-qa-runtime",
+        "contract_version": "0.1",
+        "skill_integrity": {
+          "identity": "language-voice-qa",
+          "version": "0.1",
+          "path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\Shared_QA\\SKILL.md",
+          "expected_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+          "metadata": {
+            "name": "language-voice-qa",
+            "description": "Perform context-appropriate Chinese Language & Voice QA with conditional, minimal rewrites. Use for reviewing a passage, project brief, dialogue, scene description, narrative prose, production note, or marketing copy; do not use it to create prose, imitate writers, decide story content, or judge real-time language trends.",
+            "type": "skill",
+            "status": "approved",
+            "review_result": "passed",
+            "version": "0.1",
+            "subject": "Language & Voice QA",
+            "installation_status": "not-installed"
+          },
+          "actual_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+          "passed": true,
+          "reason": null
+        },
+        "decision": "PASS WITH NOTES",
+        "severity": "LEVEL 1",
+        "route": "Structural Chinese / Natural Expression",
+        "action": "return_diagnostic",
+        "rewrite_used": false,
+        "handoff": null,
+        "runtime_contract_passed": true,
+        "failure_code": null,
+        "failure_message": null,
+        "transport_metadata": {}
+      },
+      "downstream_payload": {
+        "text": "雾港的早班钟敲过三次，灰巡署才把北堤封起来。阮槐从盐灯桥下钻出时，袖口已经沾了蓝灰色的潮粉。那不是煤灰，是潮汐局用来标记回流线的“息砂”；外人踩上去会觉得鞋底发黏，本地人却能从颜色看出水闸会不会倒灌。\n\n署里的记录员把一枚薄铁牌递给她。牌上刻着“栖潮证”，边缘有一道像错别字的刻痕：`滉`。阮槐没有问。雾港人把它叫“滉印”，意思不是晃动，而是持证人曾在禁潮时段穿过内湾。\n\n“黑帆会的人呢？”她问。\n\n记录员指向堤外。“被静潮令留在对岸。巡缆队已经把浮标收了，等白潮仪降下来，才能接人。”\n\n阮槐把铁牌放进内袋，转身往灰巡署的侧门走。门上那盏潮灯还亮着，说明今天的封堤不是演练。",
+        "original_preserved": true,
+        "decision": "PASS WITH NOTES",
+        "severity": "LEVEL 1",
+        "route": "Structural Chinese / Natural Expression",
+        "action": "return_diagnostic",
+        "handoff": null,
+        "diagnostics": "R5 narrative flows with stable visible actions, protected terminology, and appropriate observational register; minor connector repetition and one cumulative clause slightly increase scanning effort but do not obscure meaning."
+      },
+      "user_facing_result": {
+        "status": "SUCCESS",
+        "decision": "PASS WITH NOTES",
+        "message": "R5 narrative flows with stable visible actions, protected terminology, and appropriate observational register; minor connector repetition and one cumulative clause slightly increase scanning effort but do not obscure meaning.",
+        "text": null,
+        "handoff": null
+      },
+      "audit_record": {
+        "invocation_id": "revalidation-f04-initial",
+        "timestamp": "2026-08-24T05:52:29.343189+00:00",
+        "skill_identity": "language-voice-qa",
+        "skill_version": "0.1",
+        "skill_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+        "input_mode": "QA_DEFAULT",
+        "context_availability_summary": {
+          "provided": [
+            "Available Context",
+            "Original",
+            "Register / usage",
+            "Requested Mode"
+          ],
+          "derived_safely": [],
+          "unknown": [
+            "Project Constraints / Canon",
+            "Protected Terms / Entities",
+            "Speaker / Character Context",
+            "User Creative Intent"
+          ]
+        },
+        "final_decision_state": "PASS WITH NOTES",
+        "severity": "LEVEL 1",
+        "route": "Structural Chinese / Natural Expression",
+        "rewrite_used": false,
+        "handoff_occurred": false,
+        "runtime_contract_passed": true,
+        "failure_code": null,
+        "failure_name": null,
+        "integrity_passed": true,
+        "log_path": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_TEST_SANDBOX\\validation\\results\\shared_qa\\v0.1\\executor_revalidation\\runtime_audit_logs\\F04\\language-voice-qa-revalidation-f04-initial.json"
+      }
+    },
+    "canonical_semantic_output": {
+      "mode": "QA MODE",
+      "decision": "PASS WITH NOTES",
+      "severity": "LEVEL 1",
+      "route": "Structural Chinese / Natural Expression",
+      "context_state": "SUFFICIENT",
+      "primary_finding": "Minor connective and phrasing signals, no task impairment.",
+      "detector_ownership": "Structural Chinese",
+      "diagnostics": "R5 narrative flows with stable visible actions, protected terminology, and appropriate observational register; minor connector repetition and one cumulative clause slightly increase scanning effort but do not obscure meaning.",
+      "meaning_lock_status": "PASS",
+      "meaning_lock": "Facts: 雾港, 灰巡署, 封堤, 阮槐 movement; Canon terms preserved; Character intent and information reveal unchanged.",
+      "benefit_result": "NOT_APPLICABLE",
+      "recommendation": "No revision required. Optional future polish could reduce repeated sequential connectors and tighten the clause beginning with '等白潮仪降下来，才能接人', but only if the production style calls for that.",
+      "rewrite_scope": null,
+      "revised_text": null,
+      "rewrite_ceiling_status": "NOT_APPLICABLE",
+      "safety_regression": {
+        "Meaning": "PASS",
+        "Fact": "PASS",
+        "Character": "PASS",
+        "Relationship": "PASS",
+        "Certainty": "PASS",
+        "Timeline": "PASS",
+        "Canon": "PASS",
+        "Register": "PASS",
+        "Role Boundary": "PASS"
+      },
+      "secondary_signal": null,
+      "role_handoff": null,
+      "contemporary_state": null,
+      "residual_warning": "Register and protected terms strongly anchor this as fictional narrative; no character or contemporary-usage risk is introduced by the minor structural findings.",
+      "canon_mutation_requested": false,
+      "invoke_dependencies": false
+    },
+    "usage": {
+      "provider": "deepseek",
+      "model": "deepseek-v4-pro",
+      "provider_invocation_id": "4ffc6c8a-d204-40c9-a881-ce2459361ef0",
+      "usage": {
+        "prompt_tokens": 7016,
+        "completion_tokens": 427,
+        "total_tokens": 7443,
+        "prompt_cache_hit_tokens": 6528,
+        "prompt_cache_miss_tokens": 488
+      },
+      "latency_ms": 9240,
+      "thinking_mode": "disabled",
+      "fixture_id": "F04",
+      "request_success": true
+    },
+    "estimated_cost_cny": 0.0041892
+  },
+  "final": {
+    "runtime_result": {
+      "internal_runtime_result": {
+        "runtime_status": "SUCCESS",
+        "invocation_id": "revalidation-f04-initial",
+        "contract_identity": "language-voice-qa-runtime",
+        "contract_version": "0.1",
+        "skill_integrity": {
+          "identity": "language-voice-qa",
+          "version": "0.1",
+          "path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\Shared_QA\\SKILL.md",
+          "expected_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+          "metadata": {
+            "name": "language-voice-qa",
+            "description": "Perform context-appropriate Chinese Language & Voice QA with conditional, minimal rewrites. Use for reviewing a passage, project brief, dialogue, scene description, narrative prose, production note, or marketing copy; do not use it to create prose, imitate writers, decide story content, or judge real-time language trends.",
+            "type": "skill",
+            "status": "approved",
+            "review_result": "passed",
+            "version": "0.1",
+            "subject": "Language & Voice QA",
+            "installation_status": "not-installed"
+          },
+          "actual_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+          "passed": true,
+          "reason": null
+        },
+        "decision": "PASS WITH NOTES",
+        "severity": "LEVEL 1",
+        "route": "Structural Chinese / Natural Expression",
+        "action": "return_diagnostic",
+        "rewrite_used": false,
+        "handoff": null,
+        "runtime_contract_passed": true,
+        "failure_code": null,
+        "failure_message": null,
+        "transport_metadata": {}
+      },
+      "downstream_payload": {
+        "text": "雾港的早班钟敲过三次，灰巡署才把北堤封起来。阮槐从盐灯桥下钻出时，袖口已经沾了蓝灰色的潮粉。那不是煤灰，是潮汐局用来标记回流线的“息砂”；外人踩上去会觉得鞋底发黏，本地人却能从颜色看出水闸会不会倒灌。\n\n署里的记录员把一枚薄铁牌递给她。牌上刻着“栖潮证”，边缘有一道像错别字的刻痕：`滉`。阮槐没有问。雾港人把它叫“滉印”，意思不是晃动，而是持证人曾在禁潮时段穿过内湾。\n\n“黑帆会的人呢？”她问。\n\n记录员指向堤外。“被静潮令留在对岸。巡缆队已经把浮标收了，等白潮仪降下来，才能接人。”\n\n阮槐把铁牌放进内袋，转身往灰巡署的侧门走。门上那盏潮灯还亮着，说明今天的封堤不是演练。",
+        "original_preserved": true,
+        "decision": "PASS WITH NOTES",
+        "severity": "LEVEL 1",
+        "route": "Structural Chinese / Natural Expression",
+        "action": "return_diagnostic",
+        "handoff": null,
+        "diagnostics": "R5 narrative flows with stable visible actions, protected terminology, and appropriate observational register; minor connector repetition and one cumulative clause slightly increase scanning effort but do not obscure meaning."
+      },
+      "user_facing_result": {
+        "status": "SUCCESS",
+        "decision": "PASS WITH NOTES",
+        "message": "R5 narrative flows with stable visible actions, protected terminology, and appropriate observational register; minor connector repetition and one cumulative clause slightly increase scanning effort but do not obscure meaning.",
+        "text": null,
+        "handoff": null
+      },
+      "audit_record": {
+        "invocation_id": "revalidation-f04-initial",
+        "timestamp": "2026-08-24T05:52:29.343189+00:00",
+        "skill_identity": "language-voice-qa",
+        "skill_version": "0.1",
+        "skill_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+        "input_mode": "QA_DEFAULT",
+        "context_availability_summary": {
+          "provided": [
+            "Available Context",
+            "Original",
+            "Register / usage",
+            "Requested Mode"
+          ],
+          "derived_safely": [],
+          "unknown": [
+            "Project Constraints / Canon",
+            "Protected Terms / Entities",
+            "Speaker / Character Context",
+            "User Creative Intent"
+          ]
+        },
+        "final_decision_state": "PASS WITH NOTES",
+        "severity": "LEVEL 1",
+        "route": "Structural Chinese / Natural Expression",
+        "rewrite_used": false,
+        "handoff_occurred": false,
+        "runtime_contract_passed": true,
+        "failure_code": null,
+        "failure_name": null,
+        "integrity_passed": true,
+        "log_path": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_TEST_SANDBOX\\validation\\results\\shared_qa\\v0.1\\executor_revalidation\\runtime_audit_logs\\F04\\language-voice-qa-revalidation-f04-initial.json"
+      }
+    },
+    "canonical_semantic_output": {
+      "mode": "QA MODE",
+      "decision": "PASS WITH NOTES",
+      "severity": "LEVEL 1",
+      "route": "Structural Chinese / Natural Expression",
+      "context_state": "SUFFICIENT",
+      "primary_finding": "Minor connective and phrasing signals, no task impairment.",
+      "detector_ownership": "Structural Chinese",
+      "diagnostics": "R5 narrative flows with stable visible actions, protected terminology, and appropriate observational register; minor connector repetition and one cumulative clause slightly increase scanning effort but do not obscure meaning.",
+      "meaning_lock_status": "PASS",
+      "meaning_lock": "Facts: 雾港, 灰巡署, 封堤, 阮槐 movement; Canon terms preserved; Character intent and information reveal unchanged.",
+      "benefit_result": "NOT_APPLICABLE",
+      "recommendation": "No revision required. Optional future polish could reduce repeated sequential connectors and tighten the clause beginning with '等白潮仪降下来，才能接人', but only if the production style calls for that.",
+      "rewrite_scope": null,
+      "revised_text": null,
+      "rewrite_ceiling_status": "NOT_APPLICABLE",
+      "safety_regression": {
+        "Meaning": "PASS",
+        "Fact": "PASS",
+        "Character": "PASS",
+        "Relationship": "PASS",
+        "Certainty": "PASS",
+        "Timeline": "PASS",
+        "Canon": "PASS",
+        "Register": "PASS",
+        "Role Boundary": "PASS"
+      },
+      "secondary_signal": null,
+      "role_handoff": null,
+      "contemporary_state": null,
+      "residual_warning": "Register and protected terms strongly anchor this as fictional narrative; no character or contemporary-usage risk is introduced by the minor structural findings.",
+      "canon_mutation_requested": false,
+      "invoke_dependencies": false
+    },
+    "usage": {
+      "provider": "deepseek",
+      "model": "deepseek-v4-pro",
+      "provider_invocation_id": "4ffc6c8a-d204-40c9-a881-ce2459361ef0",
+      "usage": {
+        "prompt_tokens": 7016,
+        "completion_tokens": 427,
+        "total_tokens": 7443,
+        "prompt_cache_hit_tokens": 6528,
+        "prompt_cache_miss_tokens": 488
+      },
+      "latency_ms": 9240,
+      "thinking_mode": "disabled",
+      "fixture_id": "F04",
+      "request_success": true
+    },
+    "estimated_cost_cny": 0.0041892
+  },
+  "evidence": null
+}

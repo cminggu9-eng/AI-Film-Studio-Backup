@@ -1,0 +1,50 @@
+{
+  "case_id": "BB-07",
+  "candidate_v1": {
+    "case_id": "BB-07",
+    "task": "为了提高完播率，我们以后定个统一规则：每三分钟必须反转一次，每集结尾必须大悬念。",
+    "candidate_version": "V1",
+    "candidate_output": "我建议把规则修正为：\n\n> 每约三分钟至少发生一次“有效叙事变化”；每集结尾必须形成明确的后续驱动力。反转服从因果与人物，不服从机械计时。\n\n“有效变化”可以是新信息、目标改变、关系重排、风险升级、计划受阻或不可逆决定，不必每次都强行反转。\n\n我已将这版建议发回源任务。",
+    "project_state": "DRAFT",
+    "routed_role": "Showrunner",
+    "mode": "SERIES_ENGINE",
+    "output_type": "Series Engine Report",
+    "activated_modules": [
+      "Series Engine",
+      "Continuing Drive"
+    ]
+  },
+  "gate_v1": {
+    "status": "PASS",
+    "candidate_version": "V1",
+    "correction_count": 0,
+    "violations": [],
+    "receipt": {
+      "timestamp": "2026-08-21T08:48:16+00:00",
+      "task": "为了提高完播率，我们以后定个统一规则：每三分钟必须反转一次，每集结尾必须大悬念。",
+      "routed_role": "Showrunner",
+      "skill_name": "ai-film-studio-showrunner",
+      "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+      "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "hash_match": true,
+      "skill_name_match": true,
+      "project_state": "DRAFT",
+      "mode": "SERIES_ENGINE",
+      "output_type": "Series Engine Report",
+      "activated_modules": [
+        "Series Engine",
+        "Continuing Drive"
+      ]
+    },
+    "active_rules": [
+      "GLOBAL",
+      "ANTI_MECHANICAL",
+      "PRODUCTION_REALITY"
+    ],
+    "next": "USER_OUTPUT"
+  },
+  "candidate_v2": null,
+  "gate_v2": null,
+  "final_delivery": "我建议把规则修正为：\n\n> 每约三分钟至少发生一次“有效叙事变化”；每集结尾必须形成明确的后续驱动力。反转服从因果与人物，不服从机械计时。\n\n“有效变化”可以是新信息、目标改变、关系重排、风险升级、计划受阻或不可逆决定，不必每次都强行反转。\n\n我已将这版建议发回源任务。"
+}

@@ -1,0 +1,242 @@
+{
+  "receipt": {
+    "timestamp": "2026-08-21T10:09:34+00:00",
+    "task": "女主知道对方骗她以后，应该怎么呼吸、眼睛看哪、手怎么动、停几秒？",
+    "routed_role": "Character & Acting Boundary",
+    "skill_name": null,
+    "skill_path": null,
+    "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+    "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+    "hash_match": true,
+    "skill_name_match": true,
+    "project_state": "DRAFT",
+    "mode": "ACTING_BOUNDARY",
+    "output_type": "Downstream Handoff Package",
+    "activated_modules": [
+      "Role Boundary",
+      "Character Engine"
+    ],
+    "boundary_contract": {
+      "boundary_role": "Character & Acting",
+      "forbidden_output": [
+        "breathing_instruction",
+        "exact_eye_direction",
+        "hand_gesture_instruction",
+        "timed_pause",
+        "micro_performance_blocking"
+      ],
+      "allowed_output": [
+        "character_state",
+        "objective",
+        "hidden_need",
+        "relationship_risk",
+        "acting_handoff"
+      ]
+    }
+  },
+  "candidate_v1": {
+    "task": "女主知道对方骗她以后，应该怎么呼吸、眼睛看哪、手怎么动、停几秒？",
+    "routed_role": "Character & Acting Boundary",
+    "skill_name": null,
+    "skill_path": null,
+    "mode": "ACTING_BOUNDARY",
+    "output_type": "Downstream Handoff Package",
+    "activated_modules": [
+      "Role Boundary",
+      "Character Engine"
+    ],
+    "boundary_contract": {
+      "boundary_role": "Character & Acting",
+      "forbidden_output": [
+        "breathing_instruction",
+        "exact_eye_direction",
+        "hand_gesture_instruction",
+        "timed_pause",
+        "micro_performance_blocking"
+      ],
+      "allowed_output": [
+        "character_state",
+        "objective",
+        "hidden_need",
+        "relationship_risk",
+        "acting_handoff"
+      ]
+    },
+    "project_state": "DRAFT",
+    "candidate_version": "V1",
+    "candidate_output": "她的表演任务是隐藏已经识破谎言，同时测试对方是否会继续欺骗；具体呼吸、视线和动作交由演员与表演指导。"
+  },
+  "gate_v1": {
+    "status": "PASS",
+    "candidate_version": "V1",
+    "correction_count": 0,
+    "violations": [],
+    "receipt": {
+      "timestamp": "2026-08-21T10:09:34+00:00",
+      "task": "女主知道对方骗她以后，应该怎么呼吸、眼睛看哪、手怎么动、停几秒？",
+      "routed_role": "Character & Acting Boundary",
+      "skill_name": null,
+      "skill_path": null,
+      "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "hash_match": true,
+      "skill_name_match": true,
+      "project_state": "DRAFT",
+      "mode": "ACTING_BOUNDARY",
+      "output_type": "Downstream Handoff Package",
+      "activated_modules": [
+        "Role Boundary",
+        "Character Engine"
+      ],
+      "boundary_contract": {
+        "boundary_role": "Character & Acting",
+        "forbidden_output": [
+          "breathing_instruction",
+          "exact_eye_direction",
+          "hand_gesture_instruction",
+          "timed_pause",
+          "micro_performance_blocking"
+        ],
+        "allowed_output": [
+          "character_state",
+          "objective",
+          "hidden_need",
+          "relationship_risk",
+          "acting_handoff"
+        ]
+      }
+    },
+    "active_rules": [
+      "GLOBAL",
+      "BOUNDARY_CONTRACT",
+      "ANTI_MECHANICAL",
+      "PRODUCTION_REALITY"
+    ],
+    "next": "USER_OUTPUT",
+    "final_delivery_status": "READY"
+  },
+  "violations": [],
+  "correction_count": 0,
+  "candidate_v2": null,
+  "gate_v2": null,
+  "final_delivery_status": "READY",
+  "router": {
+    "routed_role": "Character & Acting Boundary",
+    "mode": "ACTING_BOUNDARY",
+    "output_type": "Downstream Handoff Package",
+    "activated_modules": [
+      "Role Boundary",
+      "Character Engine"
+    ],
+    "trigger": "acting micro-direction request",
+    "boundary_contract": {
+      "boundary_role": "Character & Acting",
+      "forbidden_output": [
+        "breathing_instruction",
+        "exact_eye_direction",
+        "hand_gesture_instruction",
+        "timed_pause",
+        "micro_performance_blocking"
+      ],
+      "allowed_output": [
+        "character_state",
+        "objective",
+        "hidden_need",
+        "relationship_risk",
+        "acting_handoff"
+      ]
+    },
+    "skill_name": null,
+    "skill_path": null,
+    "file_exists": true,
+    "file_readable": true,
+    "skill_name_correct": true,
+    "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+    "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+    "hash_match": true,
+    "invocation_receipt": {
+      "timestamp": "2026-08-21T10:09:34+00:00",
+      "task": "女主知道对方骗她以后，应该怎么呼吸、眼睛看哪、手怎么动、停几秒？",
+      "routed_role": "Character & Acting Boundary",
+      "skill_name": null,
+      "skill_path": null,
+      "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "hash_match": true,
+      "skill_name_match": true,
+      "project_state": "UNKNOWN",
+      "mode": "ACTING_BOUNDARY",
+      "output_type": "Downstream Handoff Package",
+      "activated_modules": [
+        "Role Boundary",
+        "Character Engine"
+      ],
+      "boundary_contract": {
+        "boundary_role": "Character & Acting",
+        "forbidden_output": [
+          "breathing_instruction",
+          "exact_eye_direction",
+          "hand_gesture_instruction",
+          "timed_pause",
+          "micro_performance_blocking"
+        ],
+        "allowed_output": [
+          "character_state",
+          "objective",
+          "hidden_need",
+          "relationship_risk",
+          "acting_handoff"
+        ]
+      }
+    }
+  },
+  "gate_final": {
+    "status": "PASS",
+    "candidate_version": "V1",
+    "correction_count": 0,
+    "violations": [],
+    "receipt": {
+      "timestamp": "2026-08-21T10:09:34+00:00",
+      "task": "女主知道对方骗她以后，应该怎么呼吸、眼睛看哪、手怎么动、停几秒？",
+      "routed_role": "Character & Acting Boundary",
+      "skill_name": null,
+      "skill_path": null,
+      "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "hash_match": true,
+      "skill_name_match": true,
+      "project_state": "DRAFT",
+      "mode": "ACTING_BOUNDARY",
+      "output_type": "Downstream Handoff Package",
+      "activated_modules": [
+        "Role Boundary",
+        "Character Engine"
+      ],
+      "boundary_contract": {
+        "boundary_role": "Character & Acting",
+        "forbidden_output": [
+          "breathing_instruction",
+          "exact_eye_direction",
+          "hand_gesture_instruction",
+          "timed_pause",
+          "micro_performance_blocking"
+        ],
+        "allowed_output": [
+          "character_state",
+          "objective",
+          "hidden_need",
+          "relationship_risk",
+          "acting_handoff"
+        ]
+      }
+    },
+    "active_rules": [
+      "GLOBAL",
+      "BOUNDARY_CONTRACT",
+      "ANTI_MECHANICAL",
+      "PRODUCTION_REALITY"
+    ],
+    "next": "USER_OUTPUT",
+    "final_delivery_status": "READY"
+  }
+}

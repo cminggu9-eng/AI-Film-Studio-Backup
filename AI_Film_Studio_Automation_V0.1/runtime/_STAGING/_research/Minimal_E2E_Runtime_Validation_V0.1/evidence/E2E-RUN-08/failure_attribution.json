@@ -1,0 +1,18 @@
+[
+  {
+    "role": "Integration Semantic Safeguard",
+    "layer": "SEMANTIC SAFEGUARD FAILURE",
+    "category": "SEMANTIC SAFEGUARD FAILURE",
+    "owner": "Integration Semantic Safeguard",
+    "expected_contract": "Authorized canonical role, transport, state, and handoff contract for E2E-RUN-05",
+    "actual_output": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-08\\artifacts\\scene_writer_output.json",
+    "raw_evidence": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-08\\artifacts\\scene_writer_provider_response.json",
+    "parsed_evidence": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-08\\artifacts\\scene_writer_output.json",
+    "semantic_content_existed": false,
+    "blocking_reason": "Scene Writer output was blocked; downstream roles are not reached",
+    "detail": "Scene Writer output was blocked; downstream roles are not reached",
+    "recommended_repair_boundary": "Integration Semantic Safeguard / SEMANTIC SAFEGUARD FAILURE targeted repair only",
+    "blocking": true,
+    "safe_stop": true
+  }
+]

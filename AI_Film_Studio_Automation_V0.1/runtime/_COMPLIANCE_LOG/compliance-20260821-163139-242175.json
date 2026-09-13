@@ -1,0 +1,37 @@
+{
+  "fixture": "GATE-07",
+  "result": {
+    "status": "FAIL",
+    "candidate_version": "V1",
+    "correction_count": 0,
+    "violations": [
+      {
+        "code": "ROLE_BOUNDARY",
+        "offending_text": "采用 85mm",
+        "expected_behavior": "Hand off Director/Cinematography or Character & Acting micro-decisions."
+      }
+    ],
+    "receipt": {
+      "timestamp": "2026-08-21T08:31:39+00:00",
+      "task": "QA fixture",
+      "routed_role": "Showrunner",
+      "skill_name": "ai-film-studio-showrunner",
+      "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+      "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "hash_match": true,
+      "project_state": "DRAFT",
+      "mode": "DIRECTOR_BOUNDARY",
+      "output_type": "Downstream Handoff Package",
+      "activated_modules": [
+        "Role Boundary"
+      ]
+    },
+    "active_rules": [
+      "GLOBAL",
+      "ANTI_MECHANICAL",
+      "PRODUCTION_REALITY"
+    ],
+    "next": "COMPLIANCE VIOLATION REPORT"
+  }
+}

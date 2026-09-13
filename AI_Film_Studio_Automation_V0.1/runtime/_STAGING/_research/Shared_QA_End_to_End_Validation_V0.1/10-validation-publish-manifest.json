@@ -1,0 +1,27 @@
+{
+  "archive_identity": "Shared_QA_End_to_End_Validation_V0.1",
+  "archive_kind": "VALIDATION / NON-CANON",
+  "archive_date": "2026-08-24",
+  "fixture_pack": {"total": 10, "frozen_core_candidates": 8, "contemporary_rolling": 2, "freeze_status": "PENDING_HUMAN_ACCEPTANCE"},
+  "technical_execution": {"formal_runtime_invocations": 10, "canonical_executor_binding": "MISSING", "semantic_e2e_passed": 0, "semantic_e2e_blocked": 10, "contemporary_handoff_reached": 0},
+  "regression": {"qa_runtime": "30/30 PASS", "contemporary_layer": "54/54 PASS", "frozen_assets": "13/13 PASS"},
+  "adversarial": {"component_or_transport_pass": 2, "semantic_cases_blocked": 6},
+  "technical_recommendation": "NO-GO",
+  "human_acceptance": "PENDING",
+  "production_assets_modified": false,
+  "scene_writer_started": false,
+  "files": {
+    "scripts/run_shared_qa_e2e_validation.py": "8836AC217219F3E36E666D5E5D310B25C94CD533EAFB42BFF2CDBCE3DFF41D1A",
+    "fixtures/README.md": "52C397F64AE90B688BC177C082F83510DDEC06A0906A80FFA31563ED71D81499",
+    "00-architecture-and-binding-audit.md": "FC0D77CBAAAD6B611343EDD07260D39FE596910BA8F166E42C2F26E9EF2BEB9C",
+    "01-integrity-baseline.json": "227E753BEEEA2EEE6F9413437BBBB1093B9C5AE3A3163F7F559505D70A736030",
+    "02-gold-criteria.md": "D9170D134F1A177E5DADB8A77FF2C74DE37144385BD9ADE88BCFE0C8AFF74036",
+    "03-fixture-manifest.json": "67E780E15AD9D59317B081B1FB4E66AD8991F17F56A2009B57C2BB686750319A",
+    "04-contemporary-evidence-receipts.md": "EAF636E3ACB96D61B92CF31CD95833F781A898632DE00088AD0FB9BABD287C60",
+    "05-raw-outputs-index.md": "A3A2EEF6F85EC628A943F0D9E2535F97FA415F2C812F2E33025E26149027200F",
+    "06-Human_Review_Sheet_V0.1.md": "1CCF2BB82F6B6AAD22C94CCEB9B8636FCFB2597368D934C46991EE157ACBD8EB",
+    "07-automated-evaluation.md": "67F77481252961745D8BE11E0B634D230970218C0DDE35F4340D898A686C4A23",
+    "08-adversarial-validation-report.md": "00301BF43D158052DA6064E7DBA60B595F4774290EAE7ADCD4478C0006BAAE44",
+    "09-final-technical-review.md": "FD438FFE26CD67224B376D0E43EDC245C7D6C789C07E70FA8AFF5912B98776ED"
+  }
+}

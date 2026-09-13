@@ -1,0 +1,16 @@
+{
+  "output_policy": "MINIMUM_SUFFICIENT_UNTEMPLATED_RECORDS",
+  "required_display_headings": [],
+  "content_nonempty": true,
+  "forbidden_ai_production_tokens": [],
+  "required_semantic_fields_present": [
+    "a17_visual_identity",
+    "clothing_visual_state",
+    "environment_prop_state",
+    "state_transport",
+    "unresolved_feasibility"
+  ],
+  "missing_required_semantic_fields": [],
+  "semantic_mutation": 0,
+  "canonical_token_mutation": 0
+}

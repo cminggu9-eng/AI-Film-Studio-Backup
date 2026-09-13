@@ -1,0 +1,18 @@
+[
+  {
+    "role": "Character & Acting",
+    "layer": "EXECUTOR FAILURE",
+    "category": "EXECUTOR FAILURE",
+    "owner": "Character & Acting",
+    "expected_contract": "Authorized canonical role, transport, state, and handoff contract for E2E-RUN-16",
+    "actual_output": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-16\\artifacts\\character_&_acting_provider_response.json",
+    "raw_evidence": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-16\\artifacts\\character_&_acting_provider_response.json",
+    "parsed_evidence": "NOT AVAILABLE",
+    "semantic_content_existed": true,
+    "blocking_reason": "Model output did not match exact E2E transport schema",
+    "detail": "Model output did not match exact E2E transport schema",
+    "recommended_repair_boundary": "Character & Acting / EXECUTOR FAILURE targeted repair only",
+    "blocking": true,
+    "safe_stop": true
+  }
+]

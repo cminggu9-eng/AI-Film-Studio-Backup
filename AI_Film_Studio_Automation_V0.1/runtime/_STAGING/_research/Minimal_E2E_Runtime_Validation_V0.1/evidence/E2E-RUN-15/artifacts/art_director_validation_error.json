@@ -1,0 +1,8 @@
+{
+  "lifecycle_stage": "LOCAL_VALIDATION_FAILURE_RECORDED",
+  "invocation_id": "E2E-RUN-15:art_director:1",
+  "role": "Art Director",
+  "validation_stage": "Local Role-Contract Validation",
+  "category": "ROLE SEMANTIC FAILURE",
+  "detail": "Art Director DESIGN_RESPONSE_READY is missing required E2E semantic fields: state_transport, unresolved_feasibility"
+}

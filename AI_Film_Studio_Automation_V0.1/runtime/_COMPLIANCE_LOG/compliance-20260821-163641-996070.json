@@ -1,0 +1,79 @@
+{
+  "fixture": "RT-07-1",
+  "router": {
+    "routed_role": "Showrunner",
+    "skill_name": "ai-film-studio-showrunner",
+    "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+    "trigger": "showrunner story-development request",
+    "mode": "SERIES_ENGINE",
+    "output_type": "Series Engine Report",
+    "activated_modules": [
+      "Series Engine",
+      "Continuing Drive"
+    ],
+    "file_exists": true,
+    "file_readable": true,
+    "skill_name_correct": true,
+    "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+    "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+    "hash_match": true,
+    "invocation_receipt": {
+      "timestamp": "2026-08-21T08:36:41+00:00",
+      "task": "为了提高完播率，所有项目都要固定每三分钟反转。",
+      "routed_role": "Showrunner",
+      "skill_name": "ai-film-studio-showrunner",
+      "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+      "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "hash_match": true,
+      "skill_name_match": true,
+      "project_state": "UNKNOWN",
+      "mode": "SERIES_ENGINE",
+      "output_type": "Series Engine Report",
+      "activated_modules": [
+        "Series Engine",
+        "Continuing Drive"
+      ]
+    }
+  },
+  "gate": {
+    "status": "GATE_RECOVERED",
+    "candidate_version": "V2",
+    "correction_count": 1,
+    "violations": [],
+    "receipt": {
+      "timestamp": "2026-08-21T08:36:41+00:00",
+      "task": "为了提高完播率，所有项目都要固定每三分钟反转。",
+      "routed_role": "Showrunner",
+      "skill_name": "ai-film-studio-showrunner",
+      "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+      "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "hash_match": true,
+      "skill_name_match": true,
+      "project_state": "DRAFT",
+      "mode": "SERIES_ENGINE",
+      "output_type": "Series Engine Report",
+      "activated_modules": [
+        "Series Engine",
+        "Continuing Drive"
+      ]
+    },
+    "active_rules": [
+      "GLOBAL",
+      "ANTI_MECHANICAL",
+      "PRODUCTION_REALITY"
+    ],
+    "next": "USER_OUTPUT",
+    "first_candidate_violations": [
+      {
+        "code": "FIXED_PACING_OR_REVERSAL",
+        "offending_text": "每三分钟反转"
+      },
+      {
+        "code": "FIXED_PACING_OR_REVERSAL",
+        "offending_text": "固定每三分钟反转"
+      }
+    ]
+  }
+}

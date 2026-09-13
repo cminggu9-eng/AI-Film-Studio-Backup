@@ -1,0 +1,50 @@
+[
+  {
+    "id": "AV-01",
+    "status": "NOT EVALUABLE — EXECUTION BINDING MISSING",
+    "runtime_failure_code": "F3",
+    "ownership": "Runtime Integration / execution binding"
+  },
+  {
+    "id": "AV-02",
+    "status": "NOT EVALUABLE — EXECUTION BINDING MISSING",
+    "runtime_failure_code": "F3",
+    "ownership": "Runtime Integration / execution binding"
+  },
+  {
+    "id": "AV-03",
+    "status": "NOT EVALUABLE — EXECUTION BINDING MISSING",
+    "runtime_failure_code": "F3",
+    "ownership": "Runtime Integration / execution binding"
+  },
+  {
+    "id": "AV-04",
+    "status": "NOT EVALUABLE — EXECUTION BINDING MISSING",
+    "runtime_failure_code": "F3",
+    "ownership": "Runtime Integration / execution binding"
+  },
+  {
+    "id": "AV-05",
+    "status": "NOT EVALUABLE — EXECUTION BINDING MISSING",
+    "runtime_failure_code": "F3",
+    "ownership": "Runtime Integration / execution binding"
+  },
+  {
+    "id": "AV-06",
+    "status": "NOT EVALUABLE — EXECUTION BINDING MISSING",
+    "runtime_failure_code": "F3",
+    "ownership": "Runtime Integration / execution binding"
+  },
+  {
+    "id": "AV-07",
+    "status": "PASS — COMPONENT SAFETY ONLY",
+    "runtime_failure_code": null,
+    "ownership": "Contemporary Layer component"
+  },
+  {
+    "id": "AV-08",
+    "status": "PASS — TRANSPORT SAFETY",
+    "runtime_failure_code": "F7",
+    "ownership": "LanguageVoiceQARuntime transport gate"
+  }
+]

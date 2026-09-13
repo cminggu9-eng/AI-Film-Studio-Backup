@@ -1,0 +1,63 @@
+{
+  "source_role": "Scene Writer",
+  "source_record_id": "E2E-RUN-12/scene_writer/1",
+  "version": "1.0",
+  "timestamp": "2026-08-29T09:22:20.955712+00:00",
+  "intended_recipient": "Director",
+  "handoff_reason": "Three-scene locked package",
+  "canon_assignment_locks": [
+    "scene_count: 3",
+    "output_language: zh-CN",
+    "characters: [许宁, 许曼]",
+    "relationship: [不得自动升级为完全和解]",
+    "prop: {entity_id: A-17, identity_lock: A-17, custody_required: true, condition_lock: brass_key}",
+    "knowledge: [{event_id: shared_storage_reveal, holder: 许曼, not_before_scene: 3}]",
+    "visual_state: [{dimension: clothing_visual_state_code, allowed_tokens: [soaked_uniform, changed_clothes]}]",
+    "prohibited: [完全和解]",
+    "decision_locks: [storage_room_opening]"
+  ],
+  "prohibited_changes": [
+    "完全和解",
+    "不得自动升级为完全和解"
+  ],
+  "canonical_mode": "CREATE",
+  "primary_state_or_outcome": "SCENE_CREATED",
+  "flags": "ABSENT",
+  "handoffs": "ABSENT",
+  "required_outcome": "ABSENT",
+  "unresolved_decisions": [
+    "是否打开储物间（storage_room_opening）需由后续场景或用户决定",
+    "许宁换衣（changed_clothes）的具体时机保留在第一场末尾"
+  ],
+  "relevant_prior_state": {
+    "relationship_state": "疏远、久未联系、互有猜疑",
+    "knowledge_state": "许曼独知 shared_storage_reveal；许宁仅知钥匙存在",
+    "visual_state": "许宁 soaked_uniform"
+  },
+  "current_state": {
+    "relationship_state": "试探与保留并存，未和解",
+    "knowledge_state": "许曼未提前透露 shared_storage_reveal",
+    "visual_state": "scene1 soaked_uniform；scene2/3 changed_clothes"
+  },
+  "proposed_state": {
+    "relationship_state": "揭示后关系松动或更紧绷，但非完全和解",
+    "knowledge_state": "scene3 许曼揭示 shared_storage_reveal",
+    "visual_state": "scene3 许宁 changed_clothes"
+  },
+  "knowledge_timing": {
+    "reveal_of_shared_use": "NOT_BEFORE_SCENE_3",
+    "reveal_of_room_content": "未定，storage_room_opening 保持开放"
+  },
+  "relationship_state": {
+    "initial": "疏远、互有猜疑",
+    "after_scene_1": "暂时留下，隔阂未消",
+    "after_scene_3": "揭示后保留张力，未达成完全和解"
+  },
+  "visual_state": {
+    "scene_1": "soaked_uniform",
+    "scene_2": "changed_clothes",
+    "scene_3": "changed_clothes"
+  },
+  "authority_source": "Scene Writer canonical Skill output",
+  "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-12\\artifacts\\scene_writer_output.json"
+}

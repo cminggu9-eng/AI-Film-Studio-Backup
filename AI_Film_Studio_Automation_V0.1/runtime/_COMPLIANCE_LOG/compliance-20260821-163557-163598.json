@@ -1,0 +1,44 @@
+{
+  "fixture": "SECOND-FAILURE",
+  "result": {
+    "status": "FAIL",
+    "candidate_version": "V1",
+    "correction_count": 1,
+    "violations": [
+      {
+        "code": "FIXED_CLIFFHANGER_QUOTA",
+        "offending_text": "每集结尾必须大悬念"
+      }
+    ],
+    "receipt": {
+      "timestamp": "2026-08-21T08:35:57+00:00",
+      "task": "second failure",
+      "routed_role": "Showrunner",
+      "skill_name": "ai-film-studio-showrunner",
+      "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+      "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "hash_match": true,
+      "skill_name_match": true,
+      "project_state": "DRAFT",
+      "mode": "SERIES_ENGINE",
+      "output_type": "Series Engine Report",
+      "activated_modules": [
+        "Series Engine",
+        "Continuing Drive"
+      ]
+    },
+    "active_rules": [
+      "GLOBAL",
+      "ANTI_MECHANICAL",
+      "PRODUCTION_REALITY"
+    ],
+    "next": "BLOCKED FOR RUNTIME COMPLIANCE",
+    "first_candidate_violations": [
+      {
+        "code": "FIXED_PACING_OR_REVERSAL",
+        "offending_text": "每三分钟必须反转"
+      }
+    ]
+  }
+}

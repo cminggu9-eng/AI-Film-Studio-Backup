@@ -1,0 +1,210 @@
+{
+  "classification": "TARGETED REPAIR / STAGING / SYNTHETIC / NON-CANON; TR-SW-17/18 ARE FROZEN-OUTPUT VERIFIER-ONLY REAL PROVIDER REPLAYS",
+  "result_policy": "ALL 20 REQUIRED",
+  "results": [
+    {
+      "id": "TR-SW-01",
+      "result": "PASS",
+      "detail": "CREATE allows success and lawful non-creative boundary states"
+    },
+    {
+      "id": "TR-SW-02",
+      "result": "PASS",
+      "detail": "REVISE projection permits local revision or lawful non-creative states"
+    },
+    {
+      "id": "TR-SW-03",
+      "result": "PASS",
+      "detail": "NO_MATERIAL_CHANGE validates with null creative and false rewrite claim"
+    },
+    {
+      "id": "TR-SW-04",
+      "result": "PASS",
+      "detail": "DIAGNOSE accepts diagnosis-only packet and rejects a replacement scene"
+    },
+    {
+      "id": "TR-SW-05",
+      "result": "PASS",
+      "detail": "NEEDS_CONTEXT accepts no creative deliverable"
+    },
+    {
+      "id": "TR-SW-06",
+      "result": "PASS",
+      "detail": "UPSTREAM_DECISION_REQUIRED accepts no creative deliverable"
+    },
+    {
+      "id": "TR-SW-07",
+      "result": "PASS",
+      "detail": "REQUEST_OUT_OF_SCOPE accepts non-creative boundary packet"
+    },
+    {
+      "id": "TR-SW-08",
+      "result": "PASS",
+      "detail": "all six state packets satisfy their required Runtime fields"
+    },
+    {
+      "id": "TR-SW-09",
+      "result": "PASS",
+      "detail": "all six non-null forbidden-field cases fail safe"
+    },
+    {
+      "id": "TR-SW-10",
+      "result": "PASS",
+      "detail": "all named constraint domains are structurally injected into generation request"
+    },
+    {
+      "id": "TR-SW-11",
+      "result": "PASS",
+      "detail": "explicit unknowns are carried by ledger and barred from concretization"
+    },
+    {
+      "id": "TR-SW-12",
+      "result": "PASS",
+      "detail": "world fact, entry knowledge, unknown, and in-scene discovery timing are distinct"
+    },
+    {
+      "id": "TR-SW-13",
+      "result": "PASS",
+      "detail": "generation prompt prohibits capability ranking"
+    },
+    {
+      "id": "TR-SW-14",
+      "result": "PASS",
+      "detail": "generation prompt prohibits pre-existing obligation"
+    },
+    {
+      "id": "TR-SW-15",
+      "result": "PASS",
+      "detail": "generation prompt permits a present scene-local proposal"
+    },
+    {
+      "id": "TR-SW-16",
+      "result": "PASS",
+      "detail": "REVISE prompt carries a fact-expansion ceiling"
+    },
+    {
+      "id": "TR-SW-17",
+      "result": "FAIL",
+      "detail": "AssertionError: {'id': 'F03', 'response': {'integrity_result': 'PASS', 'violations': []}, 'usage': {'provider': 'deepseek', 'model': 'deepseek-v4-pro', 'provider_invocation_id': '544bd91e-8be9-4645-aa79-46409c0b22b5', 'usage': {'prompt_tokens': 2182, 'completion_tokens': 18, 'total_tokens': 2200, 'prompt_cache_hit_tokens': 0, 'prompt_cache_miss_tokens': 2182}, 'latency_ms': 2550, 'thinking_mode': 'disabled', 'fixture_id': 'semantic-assignment-integrity', 'request_success': True}, 'estimated_cost_cny': 0.006654}"
+    },
+    {
+      "id": "TR-SW-18",
+      "result": "PASS",
+      "detail": "four frozen human-clean outputs remain PASS"
+    },
+    {
+      "id": "TR-SW-19",
+      "result": "PASS",
+      "detail": "recall repair is prompt-level claim comparison, not a lexical catalogue"
+    },
+    {
+      "id": "TR-SW-20",
+      "result": "PASS",
+      "detail": "canonical hash unchanged"
+    }
+  ],
+  "passed": 19,
+  "total": 20,
+  "replay_details": {
+    "known_bad": [],
+    "known_clean": [
+      {
+        "id": "F04",
+        "response": {
+          "integrity_result": "PASS",
+          "violations": []
+        },
+        "usage": {
+          "provider": "deepseek",
+          "model": "deepseek-v4-pro",
+          "provider_invocation_id": "2e073348-cd49-461d-ba9e-13ea2779f34b",
+          "usage": {
+            "prompt_tokens": 2371,
+            "completion_tokens": 18,
+            "total_tokens": 2389,
+            "prompt_cache_hit_tokens": 1024,
+            "prompt_cache_miss_tokens": 1347
+          },
+          "latency_ms": 2231,
+          "thinking_mode": "disabled",
+          "fixture_id": "semantic-assignment-integrity",
+          "request_success": true
+        },
+        "estimated_cost_cny": 0.0041746
+      },
+      {
+        "id": "F05",
+        "response": {
+          "integrity_result": "PASS",
+          "violations": []
+        },
+        "usage": {
+          "provider": "deepseek",
+          "model": "deepseek-v4-pro",
+          "provider_invocation_id": "b8eeabe5-5973-4ade-bf67-66c2fbb66df8",
+          "usage": {
+            "prompt_tokens": 2279,
+            "completion_tokens": 18,
+            "total_tokens": 2297,
+            "prompt_cache_hit_tokens": 1024,
+            "prompt_cache_miss_tokens": 1255
+          },
+          "latency_ms": 2172,
+          "thinking_mode": "disabled",
+          "fixture_id": "semantic-assignment-integrity",
+          "request_success": true
+        },
+        "estimated_cost_cny": 0.0038986
+      },
+      {
+        "id": "F07",
+        "response": {
+          "integrity_result": "PASS",
+          "violations": []
+        },
+        "usage": {
+          "provider": "deepseek",
+          "model": "deepseek-v4-pro",
+          "provider_invocation_id": "9801b787-80b5-4996-837a-d64896b2af10",
+          "usage": {
+            "prompt_tokens": 2304,
+            "completion_tokens": 18,
+            "total_tokens": 2322,
+            "prompt_cache_hit_tokens": 1024,
+            "prompt_cache_miss_tokens": 1280
+          },
+          "latency_ms": 2335,
+          "thinking_mode": "disabled",
+          "fixture_id": "semantic-assignment-integrity",
+          "request_success": true
+        },
+        "estimated_cost_cny": 0.0039736
+      },
+      {
+        "id": "F08",
+        "response": {
+          "integrity_result": "PASS",
+          "violations": []
+        },
+        "usage": {
+          "provider": "deepseek",
+          "model": "deepseek-v4-pro",
+          "provider_invocation_id": "6d9cc508-58d5-483d-b57b-2fb1033bbda3",
+          "usage": {
+            "prompt_tokens": 2562,
+            "completion_tokens": 18,
+            "total_tokens": 2580,
+            "prompt_cache_hit_tokens": 1024,
+            "prompt_cache_miss_tokens": 1538
+          },
+          "latency_ms": 1935,
+          "thinking_mode": "disabled",
+          "fixture_id": "semantic-assignment-integrity",
+          "request_success": true
+        },
+        "estimated_cost_cny": 0.0047476
+      }
+    ],
+    "provider_called": true
+  }
+}

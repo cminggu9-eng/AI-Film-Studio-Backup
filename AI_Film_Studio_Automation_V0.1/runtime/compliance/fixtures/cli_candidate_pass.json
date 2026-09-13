@@ -1,0 +1,10 @@
+{
+  "task": "current 90 second pilot pacing experiment",
+  "routed_role": "Showrunner",
+  "skill_name": "ai-film-studio-showrunner",
+  "mode": "SERIES_ENGINE",
+  "output_type": "Series Engine Report",
+  "activated_modules": ["Series Engine", "Continuing Drive"],
+  "project_state": "DRAFT",
+  "candidate_output": "对于当前 90 秒试播集，可以测试一次中段状态变化；这是项目级节奏实验，不是跨项目硬规则。"
+}

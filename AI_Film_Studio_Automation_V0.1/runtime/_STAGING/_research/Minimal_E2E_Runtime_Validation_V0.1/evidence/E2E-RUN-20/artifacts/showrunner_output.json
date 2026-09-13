@@ -1,0 +1,91 @@
+{
+  "primary_state_or_outcome": "INFO",
+  "flags": "ABSENT",
+  "handoffs": "ABSENT",
+  "canon_assignment_locks": [
+    "scene_count: 3",
+    "output_language: zh-CN",
+    "characters: 周岚, 周启",
+    "relationship: 不得自动升级为彻底和解",
+    "prop: cracked_white_porcelain_bowl, identity_lock: same_cracked_bowl, custody_required: true, condition_lock: crack_preserved",
+    "knowledge: last_bowl_reveal, holder: 周启, not_before_scene: 2",
+    "visual_state: signboard_state, allowed_tokens: signboard_on, signboard_off",
+    "decision_locks: shop_transfer_decision"
+  ],
+  "prohibited_changes": [
+    "SELL",
+    "KEEP",
+    "彻底和解"
+  ],
+  "required_outcome": "ABSENT",
+  "unresolved_decisions": [
+    "店铺未来处置方向未定",
+    "父子关系历史细节未提供",
+    "雨停与决定的时间关联未明确"
+  ],
+  "state_evidence": {
+    "relevant_prior_state": "ABSENT",
+    "current_state": {
+      "mode": "CONCEPT",
+      "stage": "frozen one-line concept with fixture constraints",
+      "locked": [
+        "scene_count: 3",
+        "characters: 周岚, 周启",
+        "relationship: 不得自动升级为彻底和解",
+        "prop: cracked_white_porcelain_bowl",
+        "knowledge: last_bowl_reveal",
+        "visual_state: signboard_state",
+        "decision_locks: shop_transfer_decision"
+      ],
+      "approved": "ABSENT",
+      "draft": "premise and scene structure to be developed",
+      "unknown": [
+        "父子过去具体矛盾",
+        "周启多年未归原因",
+        "母亲对盘店真实态度",
+        "父亲去世相关细节"
+      ],
+      "conflicting": "ABSENT",
+      "user_authorization": "limited to single concept expansion",
+      "risk": "relationship state may tip into reconciliation if not carefully constrained"
+    },
+    "proposed_state": {
+      "mode": "CONCEPT",
+      "stage": "Showrunner-developed Story/Canon Package with three-scene assignment",
+      "locked": "from fixture only",
+      "prohibited": "SELL, KEEP, 彻底和解",
+      "knowledge_timing": {
+        "last_bowl_reveal": {
+          "holder": "周启",
+          "not_before_scene": 2
+        }
+      },
+      "visual_state": {
+        "signboard_state": "to be set per scene within allowed tokens"
+      },
+      "relationship_state": "starting strained; may shift but must not reach 彻底和解",
+      "outcome_constraint": "no explicit SELL or KEEP decision; no complete reconciliation"
+    },
+    "knowledge_timing": {
+      "last_bowl_reveal": {
+        "holder": "周启",
+        "not_before_scene": 2
+      }
+    },
+    "relationship_state": {
+      "initial": "疏离，有未解心结",
+      "allowed_evolution": "有限靠近或维持张力",
+      "prohibited_endpoint": "彻底和解"
+    },
+    "visual_state": {
+      "dimension": "signboard_state",
+      "allowed_tokens": [
+        "signboard_on",
+        "signboard_off"
+      ],
+      "current_value": "ABSENT"
+    }
+  },
+  "content": "## 故事前提\n\n打烊后的老面馆，外面下着雨。老板娘周岚把一只裂了口的白瓷碗交到多年未归的儿子周启手中。这只碗是父亲留下的最后一只店碗，也是父子关系与店铺命运的一个沉默象征。周启承认自己早就知道这只碗的存在，却要求母亲先把门外仍亮着的招牌灯关掉，等雨停后再决定是否把店盘出去。故事围绕一个夜晚、一只破碗、一盏招牌灯，在不直接给出卖或不卖答案的前提下，呈现母子之间尚未解决的心结、对父亲遗产的不同理解，以及一个被推延却无法回避的决定。\n\n## 角色\n\n- **周岚**：面馆老板娘，坚持把碗交给儿子，似乎想借这只碗传递某种关于父亲、店面或责任的讯息。她可能对盘店有自己的倾向，但不会在故事中直接说死。\n- **周启**：多年没有回家的儿子，早就知道这只碗的存在，却要求先关招牌灯、等雨停后再谈盘店。他的“早就知道”暗示他与父亲之间曾有过母亲不了解的交流，或对父亲留下的东西有自己的解读。\n- **关系起点**：母子关系疏离，彼此都有未说出口的话。周岚试图用碗拉近距离，周启则用“等雨停”延后决定，也延后情感交锋。\n- **关系约束**：不得自动升级为彻底和解。任何靠近都必须保留未解决的张力、误解或未说清的事实。\n\n## Canon Locks\n\n1. **场景数量**：故事严格分为 3 场，每场只定义功能与状态，不写完整对白。\n2. **角色固定**：只有周岚、周启两人，不新增有名有姓的新角色。\n3. **核心道具**：cracked_white_porcelain_bowl，必须是同一只碗，碗的裂口必须在整个故事中保持不变，不得修复、更换或改变裂口形态。\n4. **道具流转**：碗必须处于保管状态（custody_required），从周岚交到周启手中后，故事中必须明确谁在保管，且不能无故消失。\n5. **知识锁定**：周启知道“这是父亲留下的最后一只店碗”这一信息，但这一揭示（last_bowl_reveal）最早只能出现在第 2 场；第 1 场不得让周启明确说出或让观众确定他知道。\n6. **视觉状态**：招牌灯（signboard_state）只能使用“signboard_on”或“signboard_off”两种状态。\n7. **决策锁定**：店铺是否盘出（shop_transfer_decision）必须被推到故事结尾仍悬而未决，不得出现明确卖、明确不卖或默认倾向成事实。\n8. **禁止变更**：不得出现 SELL、KEEP 行为或明确结论；不得出现“彻底和解”的关系终点。\n\n## 三场结构\n\n### 第 1 场\n- **场景目的**：建立雨夜、打烊后的面馆空间，建立母子之间的疏离感，引入白瓷碗的交接动作。\n- **角色目标**：周岚希望把碗交给周启，并试探他对店和父亲的看法；周启试图保持距离，不愿立刻进入情感或店务话题。\n- **冲突**：周岚的靠近与周启的回避；碗的交接被接受，但并未打开真正对话。\n- **必须信息**：碗是父亲留下的最后一只店碗；周岚把碗交给周启；招牌灯此刻是亮着的（signboard_on）。\n- **起始状态**：周启刚回来或已坐了一会儿，气氛沉默；店已打烊，外面下雨。\n- **要求结束状态**：碗已到周启手中或明确由他保管；周启没有透露自己早已知道碗的事；招牌灯仍亮。\n- **Canon 约束**：不得在本场揭示周启“早就知道”；碗的裂口必须可见或被提及但不得改变；不得出现卖店决定。\n- **关系状态**：疏离、警惕，交流停留在表面。\n- **不可改变项**：碗的同一性与裂口；周启的“早知道”不得提前泄露；招牌灯状态为 on。\n\n### 第 2 场\n- **场景目的**：周启首次显露出他对父亲、碗和店面有自己的认知，揭示“早就知道”这一信息，并推动话题转向盘店。\n- **角色目标**：周岚想从周启口中确认他对父亲遗物的理解；周启想先处理招牌灯和雨，延后决定，同时透露出自己与父亲之间有母亲不知道的联系。\n- **冲突**：周启要求先关招牌灯，周岚可能不愿关或觉得关灯意味着某种放弃；周启“早就知道”的事实让周岚意外，关系张力升高。\n- **必须信息**：周启承认自己早就知道这只碗是父亲留下的最后一只店碗；周启明确要求关掉招牌灯，等雨停后再决定是否盘店。\n- **起始状态**：碗在周启或周岚手中，但周启已知道碗的故事；招牌灯仍亮。\n- **要求结束状态**：周启的“早知道”已明确说出；招牌灯可能被关掉或处于关灯被拒绝的状态，但必须落在“等雨停再决定”的约定上；店务决定被推延。\n- **Canon 约束**：允许本场首次揭示 last_bowl_reveal，但不能早于本场；不得出现卖店或不卖店的结论；不得出现彻底和解。\n- **关系状态**：从疏离转向更尖锐的相互试探，但未解决核心心结。\n- **不可改变项**：碗的同一性与裂口；周启“早知道”的事实不得被改写成刚知道；招牌灯状态变化必须符合允许令牌。\n\n### 第 3 场\n- **场景目的**：在雨未停、店未定、关系未和解的状态下收束，把盘店决定悬置，并保留母子之间未说完的话。\n- **角色目标**：周岚可能想得到一个更明确的答案或至少一份责任承接；周启希望维持“等雨停”的缓冲，不让情感或决定被逼到墙角。\n- **冲突**：一个要答案，一个要时间；碗的保管与店面的未来成为悬而未决的象征。\n- **必须信息**：雨未停或刚停但决定仍被延后；店铺是否盘出没有被确定；碗仍在故事中处于保管状态；招牌灯最终状态必须回到允许的 on 或 off 之一。\n- **起始状态**：周启的“等雨停”提议已被接受或默认；店务决定未做；母子之间仍有距离。\n- **要求结束状态**：故事结束于未决状态；没有任何 SELL 或 KEEP 的明确行为或言语；关系停留在有张力但未彻底和解的位置；碗的保管状态明确。\n- **Canon 约束**：不得在本场解决店务、修复碗、让母子彻底和解；必须保留至少一个未解心结或未说清的事实。\n- **关系状态**：可能比第 1 场稍近，但仍有明显隔阂；不得出现拥抱、完全理解、原谅等“彻底和解”信号。\n- **不可改变项**：碗的同一性与裂口；决策锁定（shop_transfer_decision 不得在本场或整体故事中解除）；禁止 SELL、KEEP、彻底和解。",
+  "scene_packages": "ABSENT"
+}

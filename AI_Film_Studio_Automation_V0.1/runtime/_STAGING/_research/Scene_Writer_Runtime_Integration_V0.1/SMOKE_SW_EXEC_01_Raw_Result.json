@@ -1,0 +1,74 @@
+{
+  "classification": "VALIDATION / SYNTHETIC / NON-CANON / REAL SEMANTIC EXECUTION",
+  "real_execution": true,
+  "mock": false,
+  "stub": false,
+  "canonical_binding": {
+    "identity": "scene-writer",
+    "version": "V0.1",
+    "canonical_path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\02_Scene_Writer\\scene-writer\\SKILL.md",
+    "expected_sha256": "93e1be12988f8caa6cdd76acb5e6c1bf6ad3ca0dff5806a2ea93511e66052dfb",
+    "adapter_status": "REGISTERED",
+    "real_executor": "BOUND",
+    "synthetic_executor": "NOT_PRESENT",
+    "actual_sha256": "93e1be12988f8caa6cdd76acb5e6c1bf6ad3ca0dff5806a2ea93511e66052dfb",
+    "metadata": {"name": "scene-writer", "display_version": "V0.1"},
+    "passed": true,
+    "reason": null
+  },
+  "runtime_result": {
+    "runtime_status": "SUCCESS",
+    "runtime_failure_code": null,
+    "runtime_failure_message": null,
+    "request_id": "SMOKE-SW-EXEC-01",
+    "idempotency": "NEW",
+    "scene_writer": {
+      "creative_deliverable": {
+        "kind": "scene",
+        "content": "SCENE START\n\nINT. OFFICE MEETING ROOM - CONTINUOUS\n\nThe meeting has just ended. Only LIN YAN and CHEN MO remain. Lin Yan glances at the door, then turns to Chen Mo, who is gathering his notebook and sliding his laptop into his bag.\n\nLIN YAN\nBefore you go—there's a change for tomorrow. The morning presentation still has to happen, but the person who was going to give it can't be there.\n\nChen Mo pauses, one hand on the bag strap.\n\nCHEN MO\nWhat happened?\n\nLIN YAN\nI couldn't get into details. I was only told they're unavailable.\n\nChen Mo looks at her, waiting.\n\nLIN YAN\nI need someone to take it over. You know the material better than almost anyone in the room today.\n\nChen Mo resumes packing, slower this time.\n\nCHEN MO\nThat's very short notice.\n\nLIN YAN\nIt is. I know you had plans to leave, but we need a decision before tonight.\n\nChen Mo zips the bag halfway, then stops.\n\nCHEN MO\nIf I do this, I'm not walking in cold. I'll need all existing materials sent to me tonight—everything they've already prepared.\n\nLIN YAN\nI can send you what we have by the end of the evening.\n\nChen Mo pulls the zipper to the end and picks up the bag.\n\nCHEN MO\nThen I'll take it, for now. But it's conditional on receiving the materials tonight. If anything's missing, we'll need another plan.\n\nLin Yan nods.\n\nLIN YAN\nUnderstood. I'll get them to you.\n\nChen Mo leaves. Lin Yan remains, looking at the door for a moment before gathering her own things.\n\nSCENE END"
+      },
+      "control_data": {
+        "primary_state": "SCENE_CREATED",
+        "flags": [],
+        "handoffs": [],
+        "scene_function": "Negotiate who covers tomorrow morning's presentation under uncertainty and time pressure.",
+        "objectives": "Lin Yan: obtain a confirmed presenter. Chen Mo: avoid unmanaged responsibility unless conditions are clear.",
+        "resistance": "Chen Mo's need for materials and concern about unreasonable pressure vs. Lin Yan's urgency and incomplete information.",
+        "before_state": "Meeting ended; Lin Yan uncertain about staffing; Chen Mo preparing to leave.",
+        "turn": "Lin Yan asks; Chen Mo initially resists, then conditionally accepts with a material and time requirement.",
+        "state_after": "Chen Mo has conditionally accepted; Lin Yan must send all existing materials tonight.",
+        "entry_rationale": "Start immediately after meeting ends to preserve time pressure and private setting; no preamble required because the change is already urgent.",
+        "exit_rationale": "End after Chen Mo's conditional acceptance and exit; Lin Yan's lingering reaction shows the unresolved logistics without implying a new scene event.",
+        "diagnosis_summary": "No blockers.",
+        "rule_hits": []
+      }
+    }
+  },
+  "provider": "deepseek",
+  "model": "deepseek-v4-pro",
+  "usage": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-pro",
+    "provider_invocation_id": "8a8738c2-1090-4127-b833-4d0682f3707c",
+    "usage": {
+      "prompt_tokens": 3481,
+      "completion_tokens": 683,
+      "total_tokens": 4164,
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 3481
+    },
+    "latency_ms": 14362,
+    "thinking_mode": "disabled",
+    "fixture_id": "SMOKE-SW-EXEC-01",
+    "request_success": true
+  },
+  "estimated_cost_cny": 0.014541,
+  "pricing_basis": {
+    "currency": "CNY",
+    "unit": "per_1M_tokens",
+    "input_cache_hit": 0.025,
+    "input_cache_miss": 3.0,
+    "output": 6.0,
+    "status": "ESTIMATED"
+  }
+}

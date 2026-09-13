@@ -1,0 +1,140 @@
+{
+  "receipt": {
+    "timestamp": "2026-08-21T10:08:10+00:00",
+    "task": "AI 城市惊悚连续剧，降低制作复杂度但保留核心故事价值。",
+    "routed_role": "Showrunner",
+    "skill_name": "ai-film-studio-showrunner",
+    "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+    "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+    "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+    "hash_match": true,
+    "skill_name_match": true,
+    "project_state": "DRAFT",
+    "mode": "PRODUCTION_SCOPE_REVIEW",
+    "output_type": "Production Scope Review",
+    "activated_modules": [
+      "Production Reality"
+    ],
+    "boundary_contract": null
+  },
+  "candidate_v1": {
+    "task": "AI 城市惊悚连续剧，降低制作复杂度但保留核心故事价值。",
+    "routed_role": "Showrunner",
+    "skill_name": "ai-film-studio-showrunner",
+    "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+    "mode": "PRODUCTION_SCOPE_REVIEW",
+    "output_type": "Production Scope Review",
+    "activated_modules": [
+      "Production Reality"
+    ],
+    "boundary_contract": null,
+    "project_state": "DRAFT",
+    "candidate_version": "V1",
+    "candidate_output": "Creative Intent: 普通人在组织中失去安全感、信任感与主动权\nEssential Dramatic Function: 主角主动选择、四条关系压力与调查代价必须保留\nCost Driver: 18 个角色、14 个地点、群众、追车与事故\nAlternate Execution: 合并为四个核心角色、三个地点族，并以局部后果替代大场面\nScope Decision: 8 集 x 8 分钟、四名核心角色、三个地点族；批准按压缩范围开发\n"
+  },
+  "gate_v1": {
+    "status": "PASS",
+    "candidate_version": "V1",
+    "correction_count": 0,
+    "violations": [],
+    "receipt": {
+      "timestamp": "2026-08-21T10:08:10+00:00",
+      "task": "AI 城市惊悚连续剧，降低制作复杂度但保留核心故事价值。",
+      "routed_role": "Showrunner",
+      "skill_name": "ai-film-studio-showrunner",
+      "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+      "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "hash_match": true,
+      "skill_name_match": true,
+      "project_state": "DRAFT",
+      "mode": "PRODUCTION_SCOPE_REVIEW",
+      "output_type": "Production Scope Review",
+      "activated_modules": [
+        "Production Reality"
+      ],
+      "boundary_contract": null
+    },
+    "active_rules": [
+      "GLOBAL",
+      "BOUNDARY_CONTRACT",
+      "ANTI_MECHANICAL",
+      "PRODUCTION_REALITY"
+    ],
+    "next": "USER_OUTPUT",
+    "final_delivery_status": "READY"
+  },
+  "violations": [],
+  "correction_count": 0,
+  "candidate_v2": null,
+  "gate_v2": null,
+  "final_delivery_status": "READY",
+  "router": {
+    "routed_role": "Showrunner",
+    "mode": "PRODUCTION_SCOPE_REVIEW",
+    "output_type": "Production Scope Review",
+    "activated_modules": [
+      "Production Reality"
+    ],
+    "trigger": "production-scope intent",
+    "boundary_contract": null,
+    "skill_name": "ai-film-studio-showrunner",
+    "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+    "file_exists": true,
+    "file_readable": true,
+    "skill_name_correct": true,
+    "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+    "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+    "hash_match": true,
+    "invocation_receipt": {
+      "timestamp": "2026-08-21T10:08:10+00:00",
+      "task": "AI 城市惊悚连续剧，降低制作复杂度但保留核心故事价值。",
+      "routed_role": "Showrunner",
+      "skill_name": "ai-film-studio-showrunner",
+      "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+      "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "hash_match": true,
+      "skill_name_match": true,
+      "project_state": "UNKNOWN",
+      "mode": "PRODUCTION_SCOPE_REVIEW",
+      "output_type": "Production Scope Review",
+      "activated_modules": [
+        "Production Reality"
+      ],
+      "boundary_contract": null
+    }
+  },
+  "gate_final": {
+    "status": "PASS",
+    "candidate_version": "V1",
+    "correction_count": 0,
+    "violations": [],
+    "receipt": {
+      "timestamp": "2026-08-21T10:08:10+00:00",
+      "task": "AI 城市惊悚连续剧，降低制作复杂度但保留核心故事价值。",
+      "routed_role": "Showrunner",
+      "skill_name": "ai-film-studio-showrunner",
+      "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+      "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "hash_match": true,
+      "skill_name_match": true,
+      "project_state": "DRAFT",
+      "mode": "PRODUCTION_SCOPE_REVIEW",
+      "output_type": "Production Scope Review",
+      "activated_modules": [
+        "Production Reality"
+      ],
+      "boundary_contract": null
+    },
+    "active_rules": [
+      "GLOBAL",
+      "BOUNDARY_CONTRACT",
+      "ANTI_MECHANICAL",
+      "PRODUCTION_REALITY"
+    ],
+    "next": "USER_OUTPUT",
+    "final_delivery_status": "READY"
+  }
+}

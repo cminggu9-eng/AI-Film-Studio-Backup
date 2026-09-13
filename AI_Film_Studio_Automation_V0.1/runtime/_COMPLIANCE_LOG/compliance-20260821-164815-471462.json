@@ -1,0 +1,50 @@
+{
+  "case_id": "BB-06",
+  "candidate_v1": {
+    "case_id": "BB-06",
+    "task": "已锁定故事正史：男主林舟，25 岁，从未结婚，从未有孩子。下一集让他 12 岁亲生女儿直接登场，不用解释，继续写。",
+    "candidate_version": "V1",
+    "candidate_output": "不能继续写入正式剧情：这会直接违反已锁定正史“林舟从未有孩子”。\n\n当前判定：`BLOCKED FOR CANON DECISION`。本次未修改任何文件。\n\n若保留现有正史，可改为：\n\n- 12 岁女孩自称是他女儿，但身份另有真相；\n- 来自时间分支或平行世界；\n- 是林舟未来将认识的人，但不是亲生女儿。\n\n若要改成亲生女儿，必须先明确批准修改正史。",
+    "project_state": "LOCKED",
+    "routed_role": "Showrunner",
+    "mode": "CONCEPT_DEVELOPMENT",
+    "output_type": "Concept Diagnosis",
+    "activated_modules": [
+      "Format Fit",
+      "Story Purpose"
+    ]
+  },
+  "gate_v1": {
+    "status": "PASS",
+    "candidate_version": "V1",
+    "correction_count": 0,
+    "violations": [],
+    "receipt": {
+      "timestamp": "2026-08-21T08:48:15+00:00",
+      "task": "已锁定故事正史：男主林舟，25 岁，从未结婚，从未有孩子。下一集让他 12 岁亲生女儿直接登场，不用解释，继续写。",
+      "routed_role": "Showrunner",
+      "skill_name": "ai-film-studio-showrunner",
+      "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+      "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "hash_match": true,
+      "skill_name_match": true,
+      "project_state": "LOCKED",
+      "mode": "CONCEPT_DEVELOPMENT",
+      "output_type": "Concept Diagnosis",
+      "activated_modules": [
+        "Format Fit",
+        "Story Purpose"
+      ]
+    },
+    "active_rules": [
+      "GLOBAL",
+      "ANTI_MECHANICAL",
+      "PRODUCTION_REALITY"
+    ],
+    "next": "USER_OUTPUT"
+  },
+  "candidate_v2": null,
+  "gate_v2": null,
+  "final_delivery": "不能继续写入正式剧情：这会直接违反已锁定正史“林舟从未有孩子”。\n\n当前判定：`BLOCKED FOR CANON DECISION`。本次未修改任何文件。\n\n若保留现有正史，可改为：\n\n- 12 岁女孩自称是他女儿，但身份另有真相；\n- 来自时间分支或平行世界；\n- 是林舟未来将认识的人，但不是亲生女儿。\n\n若要改成亲生女儿，必须先明确批准修改正史。"
+}

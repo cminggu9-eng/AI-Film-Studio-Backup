@@ -1,0 +1,61 @@
+{
+  "source_role": "Scene Writer",
+  "source_record_id": "E2E-RUN-26/scene_writer/1",
+  "version": "1.0",
+  "timestamp": "2026-09-04T07:48:05.685425+00:00",
+  "intended_recipient": "Director",
+  "handoff_reason": "Three-scene locked package",
+  "canon_assignment_locks": [
+    "C-09",
+    "memory_card",
+    "withheld_photo_reveal",
+    "battery_installed",
+    "battery_removed_and_sealed",
+    "view_memory_card_decision"
+  ],
+  "prohibited_changes": [
+    "resume_partnership",
+    "permanent_break"
+  ],
+  "canonical_mode": "CREATE",
+  "primary_state_or_outcome": "SCENE_CREATED",
+  "flags": "ABSENT",
+  "handoffs": "ABSENT",
+  "required_outcome": "建立三场剧本结构：第一场完成存储卡交接与封存电池条件提出，第二场部分揭露未交出照片背景，第三场船离港后决定悬置。",
+  "unresolved_decisions": [
+    "沈泊最终是否查看存储卡",
+    "照片具体内容是否揭示",
+    "沈泊是否真正接受封存条件"
+  ],
+  "relevant_prior_state": {
+    "relationship_state": "已拆伙两年的前搭档，未复合未决裂",
+    "knowledge_state": "梁音未交出部分照片的事实沈泊未知",
+    "visual_state": "相机电池已安装"
+  },
+  "current_state": {
+    "relationship_state": "清晨渡口，疏离且试探",
+    "knowledge_state": "沈泊知悉卡内有未交出照片",
+    "visual_state": "电池已安装，待封存"
+  },
+  "proposed_state": {
+    "relationship_state": "未决，信任裂痕仍在",
+    "knowledge_state": "照片内容未被查看",
+    "visual_state": "相机电池已移除并封存"
+  },
+  "knowledge_timing": {
+    "reveal_of_shared_use": "第二场由梁音部分揭露持卡原因",
+    "reveal_of_room_content": "照片具体内容不揭示"
+  },
+  "relationship_state": {
+    "initial": "疏离、互有戒备",
+    "after_scene_1": "达成封存交易，试探延续",
+    "after_scene_3": "未复合未决裂，决定悬置"
+  },
+  "visual_state": {
+    "scene_1": "清晨渡口，电池已安装",
+    "scene_2": "等待中，电池已封存",
+    "scene_3": "船离港，电池已封存"
+  },
+  "authority_source": "Scene Writer canonical Skill output",
+  "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-26\\artifacts\\scene_writer_output.json"
+}

@@ -1,0 +1,17 @@
+{
+  "run_id": "E2E-RUN-22",
+  "function_name": "submit_scene_writer_package",
+  "function_description": "Submit one complete compact Scene Writer integration package through the current compiled-run contract as the sole structured response transport.",
+  "strict": true,
+  "tool_choice": "submit_scene_writer_package",
+  "scene_id_domain": ["E2E-FIX-02-S01", "E2E-FIX-02-S02", "E2E-FIX-02-S03"],
+  "state_field": "signboard_state",
+  "state_token_domain": ["signboard_on", "signboard_off"],
+  "compiled_schema_equals_final_request_schema": true,
+  "fixture01_scene_id_leaks": 0,
+  "fixture03_scene_id_leaks": 0,
+  "fixture01_state_field_leaks": 0,
+  "fixture03_state_field_leaks": 0,
+  "generic_story_literal_leaks": 0,
+  "result": "PASS"
+}

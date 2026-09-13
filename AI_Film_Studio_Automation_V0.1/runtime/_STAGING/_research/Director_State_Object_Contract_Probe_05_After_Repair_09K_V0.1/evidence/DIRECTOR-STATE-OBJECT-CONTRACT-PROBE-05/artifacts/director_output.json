@@ -1,0 +1,55 @@
+{
+  "primary_state_or_outcome": "DIRECTION_PLAN_PRODUCED",
+  "flags": "ABSENT",
+  "handoffs": "ABSENT",
+  "canon_assignment_locks": [
+    "scene_count: 3",
+    "output_language: zh-CN",
+    "characters: [许宁, 许曼]",
+    "relationship: [不得自动升级为完全和解]",
+    "prop: {entity_id: A-17, identity_lock: A-17, custody_required: true, condition_lock: brass_key}",
+    "knowledge: [{event_id: shared_storage_reveal, holder: 许曼, not_before_scene: 3}]",
+    "visual_state: [{dimension: clothing_visual_state_code, allowed_tokens: [soaked_uniform, changed_clothes]}]",
+    "prohibited: [完全和解]",
+    "decision_locks: [storage_room_opening]"
+  ],
+  "prohibited_changes": [
+    "完全和解",
+    "不得自动升级为完全和解"
+  ],
+  "required_outcome": "产出一份三场导演方案，锁定场景功能、人物状态与关键道具/知识节点不变的前提下，定义每场的舞台调度、空间地理、观众信息、镜头与覆盖意图、节奏与转场意图，并降低可避免的制作负担。",
+  "unresolved_decisions": [
+    "是否打开储物间（storage_room_opening）保留开放，导演调度仅将其呈现为悬置抉择，不做开门结果",
+    "许宁换衣（changed_clothes）触发点在第一场末尾，具体换衣动作发生在场间，仅在第二场呈现其结果"
+  ],
+  "state_evidence": {
+    "relevant_prior_state": {
+      "E2E-FIX-01-S01": {
+        "clothing_visual_state_code": "soaked_uniform"
+      },
+      "E2E-FIX-01-S02": {
+        "clothing_visual_state_code": "soaked_uniform"
+      },
+      "E2E-FIX-01-S03": {
+        "clothing_visual_state_code": "changed_clothes"
+      }
+    },
+    "current_state": {
+      "E2E-FIX-01-S01": {
+        "clothing_visual_state_code": "soaked_uniform"
+      },
+      "E2E-FIX-01-S02": {
+        "clothing_visual_state_code": "changed_clothes"
+      },
+      "E2E-FIX-01-S03": {
+        "clothing_visual_state_code": "changed_clothes"
+      }
+    },
+    "proposed_state": "ABSENT",
+    "knowledge_timing": "ABSENT",
+    "visual_state": "ABSENT",
+    "relationship_state": "疏远、互有猜疑，共处但未和解，揭示后张力保留"
+  },
+  "content": "DIRECTORIAL INTENT\n三场统一围绕\"一枚未交出的钥匙\"建立权力与信任的视觉博弈：第一场确立隔阂与钥匙的归属悬置，第二场以室内静态对峙把不信任推高，第三场在走廊尽头门前把共享揭示与开门抉择压成一个未完成的动作。每一处调度只服务于观众对\"谁掌握钥匙、谁掌握信息、门是否打开\"的理解，不推动故事材料，不暗示和解，不规定表演方法。\n\nSTAGING / BLOCKING\n第一场：门口门槛作为隔阂线。许宁立于门外湿垫，许曼在内侧，二人以门框为界；许曼伸手方向朝钥匙但被许宁摊开的掌心将动作悬在半空。许曼转身取毛巾时退出画内主位，许宁保持原位，水渍滴落把\"未进入\"具象化。第二场：两人隔桌对坐，桌面成为中轴；钥匙被置于两人之间的桌面正中，谁都不触碰，形成谈判桌式僵持。许曼起身倒水时背对许宁，把\"回避\"转为一次撤离与再返回的路径；许宁始终坐定，用静止反衬对方移动。第三场：从屋内迁至走廊尽头，门成为垂直压制的背景；许曼把钥匙向许宁一侧推，许宁不接，钥匙最终停在掌心；两人并立门前但不并列，留出一人身位的空隙，谁都不先伸手，门未开。\n\nAUDIENCE INFORMATION\n观众已知：钥匙A-17在许宁手中且未交出，母亲留下钥匙的事实已由许曼承认。观众应在第一场理解钥匙是控制权的载体而非礼物；第二场应察觉许曼回避并怀疑其有所隐瞒；第三场应得知母亲\"两人一起开、一人不进去\"的安排，但仍不知道储物间内容，也看不到开门结果。全程观众不得先于许宁获知shared_storage_reveal的内容，储物间内部始终不可见。\n\nSPATIAL GEOGRAPHY\n整体为暴雨夜封闭公寓，从门口（第一场）经屋内（第二场）到走廊尽头储物间门前（第三场），形成由外向内、再由内到门前的单向纵深推进。门口湿垫与雨声界定外部威胁；屋内饭桌界定对抗与等待；走廊尽头垂直的门界定最终未解点。屏幕方向：钥匙始终处于许宁身体一侧或两人之间，许曼的接近均从许宁对侧切入，保持\"要而不得\"的张力。\n\nCAMERA / COVERAGE INTENT\n第一场以门槛为轴：固定机位保门槛线与二人关系，近景对准许宁摊开的掌心与钥匙，强调\"未交出\"这一信息；不拍许曼完整伸手。第二场以低密度静态覆盖：桌上钥匙作为前景符号，双人镜维持隔桌距离，许曼起身时用关系镜头带出背影回避，不用装饰性移动。第三场以覆盖密度升高制造收敛感：门作为背景压迫，把钥匙推近的动作给插入特写，最后并立镜头维持空隙、留出\"谁先伸手\"的悬点，门始终不进入清晰开启状态。\n\nRHYTHM / TRANSITION INTENT\n第一场节奏偏紧，以湿衣滴水与短暂沉默制造门槛对峙的顿挫；换衣发生在场间，第二场开场即呈现\"已换衣+头发未干\"的中间状态，用衣着变化标记时间流逝而无需换衣过程。第二场以雨声填充的静止为主，节奏偏缓，仅在\"话到嘴边收住\"与\"起身倒水\"两处加速。第三场由静转敛，节奏收束到门前并立，揭示信息后突然停顿，把开门动作悬置为不完成；场间转场以雨声→屋内静默→渐亮的天光与门前作听觉与光线的衔接，而非情绪跳切。\n\nPRODUCTION BURDEN\n全片两主演、一主道具、三处室内区（门口/屋内/走廊门前），无需实拍暴雨外景或开门动作。将换衣过程置于场间，省去湿衣到干衣的连续调度。钥匙始终实体可见、不被替换，满足custody_required与brass key锁。第三场储物间不打开，避免门内布景与内容制作负担。所有镜头均可用低密度覆盖完成，不设技术规格或外部制作约束。\n\nHANDOFFS / UNRESOLVED ISSUES\n1. storage_room_opening为决策锁，导演仅呈现悬置，不决定开门结果——后续由用户或上游角色决定；2. 许宁换衣具体方式（谁提供衣物、在何处换）由成本/美术协调，导演只锁定其场间发生与第二场结果呈现；3. 储物间门内布景与内容由Art Director负责，导演只规定\"门不进入开启状态\"；4. 雨声/天光等声音与光线实现属DP与后期职责，导演只给节奏与情绪意图，不指定技术实现。",
+  "scene_packages": "ABSENT"
+}

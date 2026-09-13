@@ -1,0 +1,60 @@
+{
+  "primary_state_or_outcome": "INFO",
+  "flags": "ABSENT",
+  "handoffs": "ABSENT",
+  "canon_assignment_locks": [
+    "C-09",
+    "memory_card",
+    "withheld_photo_reveal",
+    "battery_installed",
+    "battery_removed_and_sealed",
+    "view_memory_card_decision"
+  ],
+  "prohibited_changes": [
+    "resume_partnership",
+    "permanent_break"
+  ],
+  "required_outcome": "建立明确故事前提、两个绑定角色的状态与关系起始点、知识锁与揭露时序、主要结果约束，并输出一个可执行的三场结构分配，不创作完整对白或场景正文。",
+  "unresolved_decisions": [
+    "梁音是否在第二场后实际查看存储卡？",
+    "存储卡中未交出的照片内容是否会在当前三场结构中揭示？",
+    "沈泊是否最终接受梁音提出的封存电池条件？"
+  ],
+  "state_evidence": {
+    "relevant_prior_state": {
+      "characters": [
+        "沈泊",
+        "梁音"
+      ],
+      "relationship": "已拆伙两年的前搭档",
+      "last_collaboration": "存在最后一次合作，且梁音未交出部分照片"
+    },
+    "current_state": {
+      "location": "清晨的渡口",
+      "camera_battery_state": "battery_installed",
+      "custody": "沈泊持有C-09存储卡"
+    },
+    "proposed_state": {
+      "camera_battery_state": "battery_removed_and_sealed",
+      "custody_of_memory_card": "由沈泊持有，但尚未查看",
+      "decision_locks": [
+        "view_memory_card_decision"
+      ]
+    },
+    "knowledge_timing": {
+      "withheld_photo_reveal": {
+        "holder": "梁音",
+        "not_before_scene": 2
+      }
+    },
+    "relationship_state": {
+      "status": "已拆伙，未复合也未彻底决裂",
+      "current_dynamic": "存在未解决的信任问题和未交付的照片"
+    },
+    "visual_state": {
+      "camera_battery_state": "battery_removed_and_sealed"
+    }
+  },
+  "content": "### 故事前提\n\n清晨的渡口，摄影师沈泊将一张标有“C-09”的存储卡交给已拆伙两年的前搭档梁音。梁音承认卡中保存着他们最后一次合作时自己未交出的照片，并要求沈泊先取下相机电池封存，等第一班船离港后再决定是否查看存储卡。这一举动迫使两人在渡口封闭的时间里，重新面对两年前未解决的信任裂痕与那些被隐瞒的影像。\n\n故事核心不是照片内容本身，而是“是否查看”这个决定所引发的责任、猜疑与关系再定义。\n\n### 角色\n\n**沈泊**（摄影师）\n- 欲望：想知道梁音当年隐瞒了什么，但又害怕真相会进一步破坏两人关系。\n- 恐惧：发现梁音的隐瞒背后有更深的背叛，或证明自己当年的判断错误。\n- 现状：已独立工作，对过去合作仍有未解心结。\n- 选择：是听从梁音封存电池、等待船离港，还是立即查看存储卡。\n\n**梁音**（前搭档）\n- 欲望：把存储卡交出，但又不希望沈泊立刻查看；似乎需要沈泊先完成“封存”动作，才能继续对话。\n- 恐惧：照片内容被过早揭露，导致沈泊拒绝倾听或彻底离开。\n- 现状：掌握着“未交出的照片”这一关键信息，主动提出封存条件。\n- 选择：在沈泊未封存电池前，是否透露更多关于照片的信息，或继续坚持条件。\n\n### Canon Locks\n\n- 实体锁：`C-09`，身份为 `memory_card`，必须由沈泊保管。\n- 知识锁：`withheld_photo_reveal` 由梁音持有，最早在第二场揭露。\n- 视觉状态锁：`camera_battery_state` 仅允许 `battery_installed` 或 `battery_removed_and_sealed`。\n- 关系锁：不得自动宣告复合合作或彻底决裂。\n- 决策锁：`view_memory_card_decision` 是核心未决选择，不得提前解决。\n\n### 三场结构\n\n**第一场：渡口交接与条件提出**\n- 场景目的：建立渡口环境、两人疏离关系，完成存储卡交接。\n- 人物目标：沈泊试图获取更多信息；梁音坚持必须先封存电池。\n- 冲突：沈泊质疑封存电池的必要性，梁音拒绝解释原因。\n- 必需信息：C-09存储卡在沈泊手中；梁音承认卡内有未交出的照片；提出封存电池条件。\n- 起始状态：沈泊持卡，相机电池已安装。\n- 必需结束状态：沈泊同意封存电池，但未查看存储卡。\n- Canon约束：不揭露照片内容；关系不复合不决裂。\n\n**第二场：等待与部分揭露**\n- 场景目的：在等待第一班船离港期间，梁音选择性地透露关于“未交出的照片”的某些背景。\n- 人物目标：沈泊试图诱导梁音说出更多；梁音在保持控制的同时，可能用有限信息换取沈泊的信任。\n- 冲突：信息不对称加剧，沈泊对封存电池的决定产生动摇。\n- 必需信息：梁音揭露持卡原因或照片来历的片段（不揭示具体内容）；沈泊对查看与否的心理压力增加。\n- 起始状态：电池已封存，两人在渡口等待。\n- 必需结束状态：沈泊仍未查看存储卡，但已获得部分背景信息。\n- Canon约束：`withheld_photo_reveal` 在本场首次出现，由梁音持有；不揭示照片内容。\n\n**第三场：船离港与决定悬置**\n- 场景目的：第一班船离港，沈泊面临最终是否查看存储卡的选择，但决定被悬置。\n- 人物目标：沈泊想做出决定；梁音观察沈泊的反应，可能有意无意影响其选择。\n- 冲突：外部时间压力（船离港）与内部关系压力（是否查看）交汇。\n- 必需信息：船已离港；沈泊仍然持卡，但未查看；两人的关系状态停留在未决。\n- 起始状态：部分揭露后，沈泊仍有疑虑。\n- 必需结束状态：沈泊未查看存储卡，决定仍处于悬置；关系未复合未决裂。\n- Canon约束：不得解决 `view_memory_card_decision`；不得宣告复合或决裂。",
+  "scene_packages": "ABSENT"
+}

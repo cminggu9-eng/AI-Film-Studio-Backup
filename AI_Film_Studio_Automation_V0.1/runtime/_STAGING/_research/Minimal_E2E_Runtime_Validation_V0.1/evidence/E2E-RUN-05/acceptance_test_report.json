@@ -1,0 +1,80 @@
+{
+  "run_id": "E2E-RUN-05",
+  "criteria": {
+    "E2E-INT-01": {
+      "result": "PASS",
+      "evidence": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-05\\artifacts\\continuity_output.json"
+    },
+    "E2E-INT-02": {
+      "result": "PASS",
+      "evidence": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-05\\artifacts\\continuity_output.json"
+    },
+    "E2E-INT-03": {
+      "result": "PASS",
+      "evidence": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-05\\artifacts\\scene_writer_output.json"
+    },
+    "E2E-INT-04": {
+      "result": "PASS",
+      "evidence": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-05\\artifacts\\scene_writer_output.json"
+    },
+    "E2E-INT-05": {
+      "result": "PASS",
+      "evidence": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-05\\artifacts\\continuity_output.json"
+    },
+    "E2E-INT-06": {
+      "result": "PASS",
+      "evidence": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-05\\artifacts\\continuity_output.json"
+    },
+    "E2E-INT-07": {
+      "result": "PASS",
+      "evidence": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-05\\artifacts\\continuity_output.json"
+    },
+    "E2E-INT-08": {
+      "result": "PASS",
+      "evidence": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-05\\artifacts\\continuity_output.json"
+    },
+    "E2E-INT-09": {
+      "result": "PASS",
+      "evidence": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-05\\artifacts\\scene_writer_output.json"
+    },
+    "E2E-INT-10": {
+      "result": "PASS",
+      "evidence": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-05\\artifacts\\scene_writer_output.json"
+    },
+    "E2E-INT-11": {
+      "result": "PASS",
+      "evidence": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-05\\artifacts\\continuity_output.json"
+    },
+    "E2E-INT-12": {
+      "result": "PASS",
+      "evidence": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-05\\artifacts\\continuity_output.json"
+    },
+    "E2E-INT-13": {
+      "result": "PASS",
+      "evidence": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-05\\artifacts\\continuity_output.json"
+    },
+    "E2E-INT-14": {
+      "result": "PASS",
+      "evidence": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-05\\artifacts\\continuity_output.json"
+    },
+    "E2E-INT-15": {
+      "result": "PASS",
+      "evidence": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-05\\artifacts\\continuity_output.json"
+    },
+    "E2E-INT-16": {
+      "result": "PASS",
+      "evidence": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-05\\artifacts\\continuity_output.json"
+    },
+    "E2E-INT-17": {
+      "result": "PASS",
+      "evidence": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-05\\preflight.json"
+    },
+    "E2E-INT-18": {
+      "result": "PASS",
+      "evidence": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-05\\provider_manifest.json"
+    }
+  },
+  "passed": 18,
+  "total": 18,
+  "overall": "PASS"
+}

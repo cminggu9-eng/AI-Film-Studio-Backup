@@ -1,0 +1,166 @@
+{
+  "run_id": "DIRECTOR-CONTRACT-PROBE-01",
+  "classification": "DIRECTOR-ONLY REAL CONTRACT PROBE",
+  "status": "FAIL",
+  "results": [
+    {
+      "id": "DIR-PROBE-01",
+      "result": "PASS",
+      "detail": "response complete"
+    },
+    {
+      "id": "DIR-PROBE-02",
+      "result": "PASS",
+      "detail": "JSON transport parse PASS; no Scene Writer package emitted"
+    },
+    {
+      "id": "DIR-PROBE-03",
+      "result": "PASS",
+      "detail": "canonical Mode exact"
+    },
+    {
+      "id": "DIR-PROBE-04",
+      "result": "PASS",
+      "detail": "canonical Primary State exact"
+    },
+    {
+      "id": "DIR-PROBE-05",
+      "result": "PASS",
+      "detail": "Directorial Intent present"
+    },
+    {
+      "id": "DIR-PROBE-06",
+      "result": "PASS",
+      "detail": "Staging / Blocking present"
+    },
+    {
+      "id": "DIR-PROBE-07",
+      "result": "PASS",
+      "detail": "Spatial Geography present"
+    },
+    {
+      "id": "DIR-PROBE-08",
+      "result": "PASS",
+      "detail": "Audience Information present"
+    },
+    {
+      "id": "DIR-PROBE-09",
+      "result": "PASS",
+      "detail": "Camera / Coverage Intent present"
+    },
+    {
+      "id": "DIR-PROBE-10",
+      "result": "PASS",
+      "detail": "Rhythm / Transition Intent present"
+    },
+    {
+      "id": "DIR-PROBE-11",
+      "result": "PASS",
+      "detail": "production burden and unresolved constraints represented"
+    },
+    {
+      "id": "DIR-PROBE-12",
+      "result": "PASS",
+      "detail": "no upstream Scene package rewrite"
+    },
+    {
+      "id": "DIR-PROBE-13",
+      "result": "PASS",
+      "detail": "Canon locks and prohibitions unchanged"
+    },
+    {
+      "id": "DIR-PROBE-14",
+      "result": "FAIL",
+      "detail": "no acting-method takeover signal"
+    },
+    {
+      "id": "DIR-PROBE-15",
+      "result": "PASS",
+      "detail": "State & Evidence handoff PASS"
+    },
+    {
+      "id": "DIR-PROBE-16",
+      "result": "FAIL",
+      "detail": "raw response and usage persisted before local validation"
+    }
+  ],
+  "passed": 14,
+  "total": 16,
+  "input_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_05_Director_Output_Contract_Transport_Alignment_V0.1\\evidence\\DIRECTOR-CONTRACT-PROBE-01\\artifacts\\director_input.json",
+  "output_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_05_Director_Output_Contract_Transport_Alignment_V0.1\\evidence\\DIRECTOR-CONTRACT-PROBE-01\\artifacts\\director_output.json",
+  "envelope_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_05_Director_Output_Contract_Transport_Alignment_V0.1\\evidence\\DIRECTOR-CONTRACT-PROBE-01\\envelopes\\01_director_to_character_acting.json",
+  "frozen_scene_writer_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-03\\artifacts\\scene_writer_output.json",
+  "frozen_scene_writer_artifact_sha256": "0ec913f33ad6fa23ed7488bb7765c2a6de68e6f76212ca29b54f7310f9193f7c",
+  "provider_call_budget": 1,
+  "provider_calls": 1,
+  "calls": [
+    {
+      "role": "Director",
+      "invocation_id": "DIRECTOR-CONTRACT-PROBE-01:director:1",
+      "model": "deepseek-v4-pro",
+      "timestamp": "2026-08-28T05:45:52.040466+00:00",
+      "input_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_05_Director_Output_Contract_Transport_Alignment_V0.1\\evidence\\DIRECTOR-CONTRACT-PROBE-01\\artifacts\\director_input.json",
+      "output_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_05_Director_Output_Contract_Transport_Alignment_V0.1\\evidence\\DIRECTOR-CONTRACT-PROBE-01\\artifacts\\director_output.json",
+      "raw_response_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_05_Director_Output_Contract_Transport_Alignment_V0.1\\evidence\\DIRECTOR-CONTRACT-PROBE-01\\artifacts\\director_provider_response.json",
+      "invocation_metadata_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_05_Director_Output_Contract_Transport_Alignment_V0.1\\evidence\\DIRECTOR-CONTRACT-PROBE-01\\artifacts\\director_invocation.json",
+      "persistence_verification_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_05_Director_Output_Contract_Transport_Alignment_V0.1\\evidence\\DIRECTOR-CONTRACT-PROBE-01\\artifacts\\director_persistence_verification.json",
+      "provider_success": true,
+      "persistence_verified": true,
+      "role_contract_success": true,
+      "success": true,
+      "usage": {
+        "provider": "deepseek",
+        "model": "deepseek-v4-pro",
+        "provider_invocation_id": "3ed5250b-9fcc-4570-8add-f47e1b0a940d",
+        "usage": {
+          "prompt_tokens": 10621,
+          "completion_tokens": 1999,
+          "total_tokens": 12620,
+          "prompt_cache_hit_tokens": 0,
+          "prompt_cache_miss_tokens": 10621
+        },
+        "latency_ms": 39185,
+        "thinking_mode": "disabled",
+        "fixture_id": "E2E-FIX-01",
+        "request_success": true,
+        "requested_max_tokens": 3500,
+        "finish_reason": "stop",
+        "structured_output": null
+      },
+      "estimated_cost_cny": 0.043857,
+      "selected_completion_budget": 3500,
+      "provider_finish_reason": "stop",
+      "response_characters": 3746,
+      "response_utf8_bytes": 8304,
+      "retry_count": 0,
+      "transport_auto_repairs": 0,
+      "structured_transport": {
+        "enabled": false,
+        "function_name": null,
+        "beta_provider_feature_used": false,
+        "required_tool_call_verified": false,
+        "arguments_parsed": false,
+        "schema_validated": false
+      },
+      "truncation_detection_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_05_Director_Output_Contract_Transport_Alignment_V0.1\\evidence\\DIRECTOR-CONTRACT-PROBE-01\\artifacts\\director_truncation_detection.json",
+      "truncation_assessment": {
+        "classification": "NOT_TRUNCATED",
+        "truncated": false,
+        "finish_reason": "stop",
+        "completion_tokens": 1999,
+        "requested_max_tokens": 3500,
+        "json_complete": true,
+        "signals": [],
+        "persistence_verification_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_05_Director_Output_Contract_Transport_Alignment_V0.1\\evidence\\DIRECTOR-CONTRACT-PROBE-01\\artifacts\\director_persistence_verification.json"
+      }
+    }
+  ],
+  "showrunner_calls": 0,
+  "scene_writer_calls": 0,
+  "downstream_calls": 0,
+  "retries": 0,
+  "fallbacks": 0,
+  "full_e2e_reruns": 0,
+  "semantic_mutation": 0,
+  "auto_repairs": 0
+}

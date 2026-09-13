@@ -1,0 +1,11 @@
+{
+  "run_id": "E2E-RUN-22",
+  "authority": "compiled_run_contract#/scene_ids",
+  "ordered_scene_ids": ["E2E-FIX-02-S01", "E2E-FIX-02-S02", "E2E-FIX-02-S03"],
+  "provider_schema_domain": ["E2E-FIX-02-S01", "E2E-FIX-02-S02", "E2E-FIX-02-S03"],
+  "raw_argument_ids": ["E2E-FIX-02-S01", "E2E-FIX-02-S02", "E2E-FIX-02-S03"],
+  "exact_count": true,
+  "exact_order": true,
+  "foreign_fixture_ids": 0,
+  "result": "PASS"
+}

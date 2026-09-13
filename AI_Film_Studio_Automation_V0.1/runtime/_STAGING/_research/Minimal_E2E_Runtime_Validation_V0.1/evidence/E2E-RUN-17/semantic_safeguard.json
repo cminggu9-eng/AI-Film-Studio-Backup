@@ -1,0 +1,48 @@
+{
+  "integration_decision": "PASS",
+  "allowed_labels": [
+    "PASS",
+    "FLAG",
+    "BLOCK",
+    "HANDOFF"
+  ],
+  "layer_a": {
+    "name": "Deterministic Evidence / Contract Gate",
+    "findings": [],
+    "source_role": "Scene Writer",
+    "source_record_id": "E2E-RUN-17/scene_writer/1",
+    "version": "1.0",
+    "locks": [
+      "characters: 许宁, 许曼",
+      "prop: entity_id=A-17, identity_lock=A-17, custody_required=true, condition_lock=brass_key",
+      "knowledge: event_id=shared_storage_reveal, holder=许曼, not_before_scene=3",
+      "visual_state: dimension=clothing_visual_state_code, allowed_tokens=[soaked_uniform, changed_clothes]",
+      "decision_locks: storage_room_opening"
+    ],
+    "current_state": {
+      "relationship_state": "许宁将钥匙交给许曼，许曼承认母亲遗留钥匙并要求换衣等天亮",
+      "knowledge_state": "许曼持有 shared_storage_reveal（仅场景3前揭示）",
+      "visual_state": "许宁 clothing_visual_state_code = soaked_uniform"
+    },
+    "authority_source": "Scene Writer canonical Skill output",
+    "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-17\\artifacts\\scene_writer_output.json"
+  },
+  "layer_b": {
+    "layer": "B",
+    "independent_review_required": false,
+    "review_candidates": [],
+    "allowed_labels": [
+      "PASS",
+      "FLAG",
+      "BLOCK",
+      "HANDOFF"
+    ],
+    "provider_execution": "NOT_AUTHORIZED",
+    "creative_output_sha256": "84fade59c1ea59c5cc10edf26346852d9616de68e5f615baefd8edfe054ed372",
+    "review_status": "PASS"
+  },
+  "legacy_verifier_result": "ABSENT",
+  "legacy_verifier_role": "SUPPLEMENTAL_SIGNAL_ONLY",
+  "creative_output_sha256": "84fade59c1ea59c5cc10edf26346852d9616de68e5f615baefd8edfe054ed372",
+  "creative_output_rewrite": "PROHIBITED"
+}

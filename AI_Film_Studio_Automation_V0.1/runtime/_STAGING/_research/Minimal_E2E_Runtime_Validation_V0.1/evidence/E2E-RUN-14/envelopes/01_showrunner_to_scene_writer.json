@@ -1,0 +1,73 @@
+{
+  "source_role": "Showrunner",
+  "source_record_id": "E2E-RUN-14/showrunner/1",
+  "version": "1.0",
+  "timestamp": "2026-08-30T02:22:42.833876+00:00",
+  "intended_recipient": "Scene Writer",
+  "handoff_reason": "Story / Canon Package",
+  "canon_assignment_locks": [
+    "copy every received lock exactly; Showrunner may establish only fixture-supported locks"
+  ],
+  "prohibited_changes": [
+    "完全和解"
+  ],
+  "canonical_mode": "ABSENT",
+  "primary_state_or_outcome": "INFO",
+  "flags": "ABSENT",
+  "handoffs": "ABSENT",
+  "required_outcome": "ABSENT",
+  "unresolved_decisions": [
+    "storage_room_opening"
+  ],
+  "relevant_prior_state": {
+    "source": "sole_creative_input",
+    "characters": [
+      "许宁",
+      "许曼"
+    ],
+    "relationship_starting_state": "久未联系",
+    "prop": {
+      "A-17": "brass_key"
+    },
+    "event_lock": "许宁在暴雨夜把A-17钥匙交给许曼",
+    "knowledge_state": {
+      "shared_storage_reveal": {
+        "holder": "许曼",
+        "not_before_scene": 3
+      }
+    }
+  },
+  "current_state": "ABSENT",
+  "proposed_state": {
+    "story_structure": {
+      "scene_count": 3,
+      "assigned_structure": "三场结构"
+    },
+    "knowledge_timing": {
+      "shared_storage_reveal": "not_before_scene_3"
+    },
+    "visual_contraints": {
+      "clothing_visual_state_code": [
+        "soaked_uniform",
+        "changed_clothes"
+      ]
+    }
+  },
+  "knowledge_timing": {
+    "shared_storage_reveal": "许曼持有，不得早于第三场揭示"
+  },
+  "relationship_state": {
+    "initial": "疏远/久未联系",
+    "prohibited": "完全和解"
+  },
+  "visual_state": {
+    "clothing_visual_state_code": {
+      "allowed_tokens": [
+        "soaked_uniform",
+        "changed_clothes"
+      ]
+    }
+  },
+  "authority_source": "Showrunner canonical Skill output",
+  "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-14\\artifacts\\showrunner_output.json"
+}

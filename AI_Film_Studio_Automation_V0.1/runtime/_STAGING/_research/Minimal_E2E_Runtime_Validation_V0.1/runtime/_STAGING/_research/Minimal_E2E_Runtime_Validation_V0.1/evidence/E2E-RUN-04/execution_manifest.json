@@ -1,0 +1,18 @@
+{
+  "run_id": "E2E-RUN-04",
+  "fixture_id": "E2E-FIX-01",
+  "status": "BLOCKED",
+  "started_at": "2026-08-28T05:56:56.881443+00:00",
+  "provider": "deepseek",
+  "model": "deepseek-v4-pro",
+  "call_budget": 7,
+  "recovery_budget": 0,
+  "retries_used": 0,
+  "real_execution_authorization": "Minimal E2E Runtime Validation Rerun 04 V0.1",
+  "fixture_source": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\00_HOME\\AI_Film_Studio_E2E_Fixture_01_V0.1.md",
+  "fixture_source_sha256": "72e62b3443b1e7d4d244c8c710344ba5d5a7f3e71d28e808057d5f0e8cb3b41a",
+  "completed_at": "2026-08-28T05:59:33.432113+00:00",
+  "provider_call_count": 5,
+  "retry_count": 0,
+  "automatic_provider_fallback": 0
+}

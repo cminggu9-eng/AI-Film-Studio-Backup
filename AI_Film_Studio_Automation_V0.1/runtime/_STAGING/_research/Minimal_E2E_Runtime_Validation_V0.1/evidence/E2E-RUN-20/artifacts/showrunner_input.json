@@ -1,0 +1,56 @@
+{
+  "run_id": "E2E-RUN-20",
+  "role": "Showrunner",
+  "canonical_binding": {
+    "identity": "ai-film-studio-showrunner",
+    "canonical_path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\01_Showrunner\\SKILL.md",
+    "sha256": "0847EE3521A915936E97FA1F72D081F0788876F003E071918F517B0A46AE999C"
+  },
+  "selected_mode": "ABSENT",
+  "output_language": "zh-CN",
+  "input": {
+    "sole_creative_input": "打烊后的老面馆里，老板娘周岚把一只裂了口的白瓷碗交给多年没有回家的儿子周启；周启承认自己早就知道这是父亲留下的最后一只店碗，并要求母亲先把门外仍亮着的招牌灯关掉，等雨停后再决定是否把店盘出去。",
+    "fixture_constraints": {
+      "scene_count": 3,
+      "output_language": "zh-CN",
+      "characters": [
+        "周岚",
+        "周启"
+      ],
+      "relationship": [
+        "不得自动升级为彻底和解"
+      ],
+      "prop": {
+        "entity_id": "cracked_white_porcelain_bowl",
+        "identity_lock": "same_cracked_bowl",
+        "custody_required": true,
+        "condition_lock": "crack_preserved"
+      },
+      "knowledge": [
+        {
+          "event_id": "last_bowl_reveal",
+          "holder": "周启",
+          "not_before_scene": 2
+        }
+      ],
+      "visual_state": [
+        {
+          "dimension": "signboard_state",
+          "allowed_tokens": [
+            "signboard_on",
+            "signboard_off"
+          ]
+        }
+      ],
+      "prohibited": [
+        "SELL",
+        "KEEP",
+        "彻底和解"
+      ],
+      "decision_locks": [
+        "shop_transfer_decision"
+      ]
+    },
+    "instruction_boundary": "No hidden Canon, adaptation input, pre-written plot, or Scene Writer dialogue."
+  }
+}

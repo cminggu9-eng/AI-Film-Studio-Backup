@@ -1,0 +1,157 @@
+{
+  "run_id": "E2E-RUN-01",
+  "role": "Scene Writer",
+  "canonical_binding": {
+    "identity": "scene-writer",
+    "canonical_path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\02_Scene_Writer\\scene-writer\\SKILL.md",
+    "sha256": "93E1BE12988F8CAA6CDD76ACB5E6C1BF6AD3CA0DFF5806A2EA93511E66052DFB"
+  },
+  "selected_mode": "CREATE",
+  "output_language": "zh-CN",
+  "input": {
+    "upstream_artifacts": {
+      "showrunner": {
+        "primary_state_or_outcome": "PASS",
+        "flags": "ABSENT",
+        "handoffs": "ABSENT",
+        "canon_assignment_locks": [
+          "母亲留下钥匙和储物间共同开启用途必须由许曼的授权场内揭示承载；不得提前泄漏。",
+          "不得增加第三个具名角色。",
+          "不得改变 A-17 标记。",
+          "不得把关系自动写成完全和解。",
+          "不得把未知原因或未授权背景写成 Canon。"
+        ],
+        "prohibited_changes": [
+          "不得增加第三个具名角色。",
+          "不得改变 A-17 标记。",
+          "不得把关系自动写成完全和解。",
+          "不得把未知原因或未授权背景写成 Canon。"
+        ],
+        "required_outcome": "ABSENT",
+        "unresolved_decisions": [
+          "储物间开启后具体内容与后续事件方向需用户授权或等待后续场景揭示。",
+          "许宁与许曼当前关系的具体张力点及演变节奏是否在本次三场结构中深入展开，或仅建立初始状态。"
+        ],
+        "state_evidence": {
+          "relevant_prior_state": {
+            "relationship_state": "久未联系的姐弟，关系疏远但存在共同母亲留下的未知事件。",
+            "knowledge_state": "双方不知道储物间具体内容；母亲已故（或至少不在故事现场），留下钥匙和共同开启的意图。",
+            "visual_state": "暴雨夜，许宁穿着夜班管理员湿透制服，处于室外或刚进入室内。"
+          },
+          "current_state": {
+            "relationship_state": "许宁携带 A-17 钥匙找到许曼；许曼承认钥匙是母亲留给两人共同打开储物间的，并劝许宁先换下湿制服、等天亮再开门。",
+            "knowledge_state": "已揭示钥匙的共享属性与用途（储物间、共同开启）；具体内容仍未知。",
+            "visual_state": "许宁湿透制服，可能已在许曼住所或约定地点；钥匙已被出示。"
+          },
+          "proposed_state": {
+            "relationship_state": "保持疏离但被迫合作；不升级为和解，但可能产生新的互动张力。",
+            "knowledge_state": "储物间内容仍未知；天亮后共同开启成为下一步行动。",
+            "visual_state": "许宁换下湿制服（授权视觉状态转换），等待天亮。"
+          },
+          "knowledge_timing": {
+            "reveal_of_shared_use": "在场景1中由许曼告知，已激活。",
+            "reveal_of_room_content": "仅在三场结构结束时仍未揭示，作为未来悬念。"
+          },
+          "relationship_state": {
+            "initial": "久未联系，见面时带有生疏与试探。",
+            "after_scene_1": "许曼承认钥匙来源并劝许宁留下，关系进入被迫共处。",
+            "after_scene_3": "仍是未和解状态，但因共同任务产生临时合作，关系有细微变化但不彻底。"
+          },
+          "visual_state": {
+            "scene_1": "暴雨夜，许宁湿透制服，出示钥匙。",
+            "scene_2": "许宁在许曼提议下换下湿制服，待天亮。",
+            "scene_3": "天亮（或临门）时刻，两人准备共同打开储物间。"
+          }
+        },
+        "content": "故事前提：暴雨夜，夜班管理员许宁将一把刻有“A-17”的黄铜钥匙交给久未联系的姐姐许曼。许曼承认这是母亲留给两人共同开启储物间的钥匙，并劝许宁先换下湿透的制服、等天亮再开门。三场结构将围绕这个夜晚的等待与密约展开，保持情感克制与信息悬念。\n\n角色：\n- 许宁：弟弟，夜班管理员，在暴雨夜穿着湿透的制服找到姐姐。他带着钥匙，可能已察觉某些反常或内心不安，但没有完全理解钥匙的意义。行为动机：寻求解释或交付责任（待定，不锁定）。\n- 许曼：姐姐，知晓更多关于母亲和钥匙的信息，但未全部透露。她以冷静、务实的态度建议许宁换下湿衣并等待天亮，透露出共同开启储物间的必要性，但未说明内容。\n\nCanon Locks：\n- 钥匙为黄铜制，刻有“A-17”，由母亲留给两人，用于共同打开储物间。\n- 许宁是夜班管理员，在暴雨夜身穿湿透制服；换下湿制服发生在后续视觉状态转换中。\n- 许曼是姐姐，与许宁久未联系，但承认钥匙的存在和用途。\n- 母亲已不在现场（可能已故或离开），但她的意图通过钥匙传递。\n- 储物间内容未知，且在三场结构结束前不得揭示。\n- 不得增加第三个具名角色。\n- 不得改变 A-17 标记。\n- 不得把关系自动写成完全和解。\n- 不得把未知原因或未授权背景写成 Canon。\n\n三场结构：\n场景一：许宁湿透登场，将 A-17 钥匙交给许曼。许曼承认钥匙来源，并揭示母亲留下两人共同开启储物间的意图。许宁可能质疑或沉默，但被迫接受许曼的建议：先换下湿制服，等天亮再开门。\n场景二：许宁换下湿制服，短暂休息。两人在等待中产生对话，涉及记忆、母亲或疏远的过去，但不解决彼此矛盾。氛围紧张但克制，为后续合作埋下伏笔。\n场景三：天将亮或黎明时分，两人准备共同前往储物间。许曼再次确认共同开启的规则，许宁同意。两人走到门前或准备开启，但场景在开启前结束，留下悬念。\n\n（注：本内容仅为 Showrunner 层级的故事包，不包含 Scene Writer 的具体对话、动作或视觉细节。）",
+        "scene_packages": "ABSENT"
+      }
+    },
+    "state_evidence_envelopes": {
+      "showrunner": {
+        "source_role": "Showrunner",
+        "source_record_id": "E2E-RUN-01/showrunner/1",
+        "version": "1.0",
+        "timestamp": "2026-08-26T09:36:33.282424+00:00",
+        "intended_recipient": "Scene Writer",
+        "handoff_reason": "Story / Canon Package",
+        "canon_assignment_locks": [
+          "母亲留下钥匙和储物间共同开启用途必须由许曼的授权场内揭示承载；不得提前泄漏。",
+          "不得增加第三个具名角色。",
+          "不得改变 A-17 标记。",
+          "不得把关系自动写成完全和解。",
+          "不得把未知原因或未授权背景写成 Canon。"
+        ],
+        "prohibited_changes": [
+          "不得增加第三个具名角色。",
+          "不得改变 A-17 标记。",
+          "不得把关系自动写成完全和解。",
+          "不得把未知原因或未授权背景写成 Canon。"
+        ],
+        "canonical_mode": "ABSENT",
+        "primary_state_or_outcome": "PASS",
+        "flags": "ABSENT",
+        "handoffs": "ABSENT",
+        "required_outcome": "ABSENT",
+        "unresolved_decisions": [
+          "储物间开启后具体内容与后续事件方向需用户授权或等待后续场景揭示。",
+          "许宁与许曼当前关系的具体张力点及演变节奏是否在本次三场结构中深入展开，或仅建立初始状态。"
+        ],
+        "relevant_prior_state": {
+          "relationship_state": "久未联系的姐弟，关系疏远但存在共同母亲留下的未知事件。",
+          "knowledge_state": "双方不知道储物间具体内容；母亲已故（或至少不在故事现场），留下钥匙和共同开启的意图。",
+          "visual_state": "暴雨夜，许宁穿着夜班管理员湿透制服，处于室外或刚进入室内。"
+        },
+        "current_state": {
+          "relationship_state": "许宁携带 A-17 钥匙找到许曼；许曼承认钥匙是母亲留给两人共同打开储物间的，并劝许宁先换下湿制服、等天亮再开门。",
+          "knowledge_state": "已揭示钥匙的共享属性与用途（储物间、共同开启）；具体内容仍未知。",
+          "visual_state": "许宁湿透制服，可能已在许曼住所或约定地点；钥匙已被出示。"
+        },
+        "proposed_state": {
+          "relationship_state": "保持疏离但被迫合作；不升级为和解，但可能产生新的互动张力。",
+          "knowledge_state": "储物间内容仍未知；天亮后共同开启成为下一步行动。",
+          "visual_state": "许宁换下湿制服（授权视觉状态转换），等待天亮。"
+        },
+        "knowledge_timing": {
+          "reveal_of_shared_use": "在场景1中由许曼告知，已激活。",
+          "reveal_of_room_content": "仅在三场结构结束时仍未揭示，作为未来悬念。"
+        },
+        "relationship_state": {
+          "initial": "久未联系，见面时带有生疏与试探。",
+          "after_scene_1": "许曼承认钥匙来源并劝许宁留下，关系进入被迫共处。",
+          "after_scene_3": "仍是未和解状态，但因共同任务产生临时合作，关系有细微变化但不彻底。"
+        },
+        "visual_state": {
+          "scene_1": "暴雨夜，许宁湿透制服，出示钥匙。",
+          "scene_2": "许宁在许曼提议下换下湿制服，待天亮。",
+          "scene_3": "天亮（或临门）时刻，两人准备共同打开储物间。"
+        },
+        "authority_source": "Showrunner canonical Skill output",
+        "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-01-RECOVERY-01\\artifacts\\showrunner_output.json"
+      }
+    },
+    "run_local_ledger": "ABSENT",
+    "role_constraints": {
+      "mode": "CREATE",
+      "scene_count": 3,
+      "fixture_constraints": {
+        "scene_count": 3,
+        "output_language": "zh-CN",
+        "characters": [
+          "许宁",
+          "许曼"
+        ],
+        "relationship": "久未联系的姐弟；不得自动升级为完全和解。",
+        "prop": "黄铜钥匙，标记 A-17；身份与 custody 必须可追踪。",
+        "knowledge": "母亲留下钥匙和储物间共同开启用途必须由许曼的授权场内揭示承载；不得提前泄漏。",
+        "visual_state": "暴雨夜、许宁夜班管理员、湿透制服；后续才可发生换下湿制服的授权视觉状态转换。",
+        "prohibited": [
+          "不得增加第三个具名角色。",
+          "不得改变 A-17 标记。",
+          "不得把关系自动写成完全和解。",
+          "不得把未知原因或未授权背景写成 Canon。"
+        ]
+      }
+    }
+  }
+}

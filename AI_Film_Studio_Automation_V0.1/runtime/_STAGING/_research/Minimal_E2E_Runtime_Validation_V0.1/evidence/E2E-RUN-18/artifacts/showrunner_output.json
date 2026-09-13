@@ -1,0 +1,70 @@
+{
+  "primary_state_or_outcome": "INFO",
+  "flags": "ABSENT",
+  "handoffs": "ABSENT",
+  "canon_assignment_locks": [
+    "A-17",
+    "brass_key",
+    "shared_storage_reveal",
+    "storage_room_opening",
+    "soaked_uniform",
+    "changed_clothes"
+  ],
+  "prohibited_changes": [
+    "完全和解"
+  ],
+  "required_outcome": "ABSENT",
+  "unresolved_decisions": [
+    "storage_room_opening"
+  ],
+  "state_evidence": {
+    "relevant_prior_state": {
+      "concept": "暴雨夜，夜班管理员许宁把一把刻有“A-17”的黄铜钥匙交给久未联系的姐姐许曼；许曼承认这是母亲留给两人一起打开储物间的钥匙，要求许宁先换下湿透的制服、等天亮再开门。",
+      "canon": "LOCKED"
+    },
+    "current_state": {
+      "mode": "CONCEPT",
+      "stage": "Story / Canon Package",
+      "locks": [
+        "A-17",
+        "brass_key",
+        "shared_storage_reveal",
+        "storage_room_opening",
+        "soaked_uniform",
+        "changed_clothes"
+      ],
+      "prohibitions": [
+        "完全和解"
+      ]
+    },
+    "proposed_state": {
+      "premise": "一对久未联系的姐妹因母亲遗留的黄铜钥匙在暴雨夜重逢，被迫面对共同的过去与尚未打开的房间。",
+      "characters": [
+        {
+          "name": "许宁",
+          "state": "夜班管理员，浑身湿透，带着黄铜钥匙来找姐姐。"
+        },
+        {
+          "name": "许曼",
+          "state": "许宁的姐姐，久未联系，知晓钥匙与母亲的储物间有关。"
+        }
+      ],
+      "relationship": "疏远且紧张，未达到完全和解。",
+      "knowledge_timing": {
+        "shared_storage_reveal": "许曼在第三场才完全揭示母亲留下储物间的信息。"
+      },
+      "visual_state": {
+        "clothing_visual_state_code": "soaked_uniform"
+      }
+    },
+    "knowledge_timing": {
+      "shared_storage_reveal": "许曼在第三场才完全揭示母亲留下储物间的信息。"
+    },
+    "relationship_state": "疏远且紧张，未达到完全和解。",
+    "visual_state": {
+      "clothing_visual_state_code": "soaked_uniform"
+    }
+  },
+  "content": "## 故事前提\n\n暴雨夜，夜班管理员许宁带着一把刻有“A-17”的黄铜钥匙，找到久未联系的姐姐许曼。许曼认出这把钥匙是母亲留给她们共同打开储物间的，但要求许宁先换下湿透的制服，等天亮再开门。姐妹俩因此被迫面对彼此疏远的关系，以及那间尚未打开的储物间背后的秘密。\n\n## 角色\n\n- **许宁**：夜班管理员，浑身湿透，带着黄铜钥匙来找姐姐。她希望尽快打开储物间，但内心对姐姐有所保留。\n- **许曼**：许宁的姐姐，久未联系，知晓钥匙与母亲的储物间有关。她坚持让许宁先换衣服、等天亮再开门，似乎另有隐情。\n\n## Canon Locks\n\n- 钥匙实体标识：`A-17`\n- 钥匙材质与状态：`brass_key`\n- 信息锁定：`shared_storage_reveal` 必须由许曼掌握，且不得早于第三场揭示。\n- 决策锁定：`storage_room_opening` 为未决事项，需在后续由用户或更高授权决定。\n- 视觉状态锁定：第一场中许宁的服装状态为 `soaked_uniform`，后续可变为 `changed_clothes`，但不得出现其他状态。\n- 关系锁定：不得自动升级为完全和解。\n\n## 三场结构\n\n### 第一场：雨夜交接\n- 场景目的：建立人物、关系和核心道具。\n- 起始状态：许宁浑身湿透，带着钥匙出现在许曼住处。\n- 必须发生：许宁交出黄铜钥匙（A-17），许曼认出并承认这是母亲留下的储物间钥匙。\n- 结束状态：许曼要求许宁先换下湿制服、等天亮再开门；许宁对拖延感到不安。\n- 约束：视觉状态为 `soaked_uniform`；不得出现完全和解；许曼不得透露更多储物间信息。\n\n### 第二场：等待天亮\n- 场景目的：深化姐妹间的紧张关系与信息差。\n- 起始状态：许宁换下湿制服（`changed_clothes`），两人在等待天亮。\n- 必须发生：通过对话或行为揭示姐妹久未联系的原因，以及许曼为何坚持等待；许宁试图获取信息，但许曼拒绝提前透露。\n- 结束状态：许宁对许曼的隐瞒更加怀疑，关系进一步紧张，但尚未爆发。\n- 约束：储物间具体信息仍由许曼掌握，不得提前泄露；不得完全和解。\n\n### 第三场：开门之前\n- 场景目的：揭示关键信息，为开门决策制造压力。\n- 起始状态：天将亮，姐妹来到储物间前。\n- 必须发生：许曼揭示母亲留给她们共同打开储物间的信息（`shared_storage_reveal`）；许宁得知后必须做出反应。\n- 结束状态：姐妹面对是否打开储物间的选择（`storage_room_opening` 未决）；关系状态维持紧张，无完全和解。\n- 约束：本场为允许揭示 `shared_storage_reveal` 的最早节点；开门与否在此场不解决。",
+  "scene_packages": "ABSENT"
+}

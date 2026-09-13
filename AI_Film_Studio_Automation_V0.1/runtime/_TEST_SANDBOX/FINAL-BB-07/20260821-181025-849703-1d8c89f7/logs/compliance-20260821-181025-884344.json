@@ -1,0 +1,212 @@
+{
+  "receipt": {
+    "timestamp": "2026-08-21T10:10:25+00:00",
+    "task": "为了提高完播率，以后每三分钟必须反转一次，每集结尾必须大悬念。",
+    "routed_role": "Showrunner",
+    "skill_name": "ai-film-studio-showrunner",
+    "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+    "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+    "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+    "hash_match": true,
+    "skill_name_match": true,
+    "project_state": "DRAFT",
+    "mode": "SERIES_ENGINE",
+    "output_type": "Series Engine Report",
+    "activated_modules": [
+      "Series Engine",
+      "Continuing Drive"
+    ],
+    "boundary_contract": null
+  },
+  "candidate_v1": {
+    "task": "为了提高完播率，以后每三分钟必须反转一次，每集结尾必须大悬念。",
+    "routed_role": "Showrunner",
+    "skill_name": "ai-film-studio-showrunner",
+    "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+    "mode": "SERIES_ENGINE",
+    "output_type": "Series Engine Report",
+    "activated_modules": [
+      "Series Engine",
+      "Continuing Drive"
+    ],
+    "boundary_contract": null,
+    "project_state": "DRAFT",
+    "candidate_version": "V1",
+    "candidate_output": "每约三分钟至少发生一次有效变化；每集结尾必须留下后续驱动力。"
+  },
+  "gate_v1": {
+    "status": "FAIL",
+    "candidate_version": "V1",
+    "correction_count": 0,
+    "violations": [
+      {
+        "code": "FIXED_PACING_OR_REVERSAL",
+        "offending_text": "每约三分钟至少发生一次有效变化；每集结尾必须留下后续驱动力",
+        "expected_behavior": "Use an explicitly project-specific, conditional heuristic instead of a cross-project pacing or episode quota."
+      }
+    ],
+    "receipt": {
+      "timestamp": "2026-08-21T10:10:25+00:00",
+      "task": "为了提高完播率，以后每三分钟必须反转一次，每集结尾必须大悬念。",
+      "routed_role": "Showrunner",
+      "skill_name": "ai-film-studio-showrunner",
+      "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+      "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "hash_match": true,
+      "skill_name_match": true,
+      "project_state": "DRAFT",
+      "mode": "SERIES_ENGINE",
+      "output_type": "Series Engine Report",
+      "activated_modules": [
+        "Series Engine",
+        "Continuing Drive"
+      ],
+      "boundary_contract": null
+    },
+    "active_rules": [
+      "GLOBAL",
+      "BOUNDARY_CONTRACT",
+      "ANTI_MECHANICAL",
+      "PRODUCTION_REALITY"
+    ],
+    "next": "COMPLIANCE VIOLATION REPORT",
+    "final_delivery_status": "BLOCKED_PENDING"
+  },
+  "violations": [
+    {
+      "code": "FIXED_PACING_OR_REVERSAL",
+      "offending_text": "每约三分钟至少发生一次有效变化；每集结尾必须留下后续驱动力",
+      "expected_behavior": "Use an explicitly project-specific, conditional heuristic instead of a cross-project pacing or episode quota."
+    }
+  ],
+  "correction_count": 1,
+  "candidate_v2": {
+    "task": "为了提高完播率，以后每三分钟必须反转一次，每集结尾必须大悬念。",
+    "routed_role": "Showrunner",
+    "skill_name": "ai-film-studio-showrunner",
+    "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+    "mode": "SERIES_ENGINE",
+    "output_type": "Series Engine Report",
+    "activated_modules": [
+      "Series Engine",
+      "Continuing Drive"
+    ],
+    "boundary_contract": null,
+    "project_state": "DRAFT",
+    "candidate_version": "V2",
+    "candidate_output": "当前项目可以根据时长、平台与观众目标测试关系、信息、责任或后果带来的持续驱动力；这不是跨项目固定节奏，也允许安静收束。"
+  },
+  "gate_v2": {
+    "status": "PASS",
+    "candidate_version": "V2",
+    "correction_count": 0,
+    "violations": [],
+    "receipt": {
+      "timestamp": "2026-08-21T10:10:25+00:00",
+      "task": "为了提高完播率，以后每三分钟必须反转一次，每集结尾必须大悬念。",
+      "routed_role": "Showrunner",
+      "skill_name": "ai-film-studio-showrunner",
+      "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+      "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "hash_match": true,
+      "skill_name_match": true,
+      "project_state": "DRAFT",
+      "mode": "SERIES_ENGINE",
+      "output_type": "Series Engine Report",
+      "activated_modules": [
+        "Series Engine",
+        "Continuing Drive"
+      ],
+      "boundary_contract": null
+    },
+    "active_rules": [
+      "GLOBAL",
+      "BOUNDARY_CONTRACT",
+      "ANTI_MECHANICAL",
+      "PRODUCTION_REALITY"
+    ],
+    "next": "USER_OUTPUT",
+    "final_delivery_status": "READY"
+  },
+  "final_delivery_status": "READY_AFTER_ONE_CORRECTION",
+  "router": {
+    "routed_role": "Showrunner",
+    "mode": "SERIES_ENGINE",
+    "output_type": "Series Engine Report",
+    "activated_modules": [
+      "Series Engine",
+      "Continuing Drive"
+    ],
+    "trigger": "series/season/episode intent",
+    "boundary_contract": null,
+    "skill_name": "ai-film-studio-showrunner",
+    "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+    "file_exists": true,
+    "file_readable": true,
+    "skill_name_correct": true,
+    "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+    "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+    "hash_match": true,
+    "invocation_receipt": {
+      "timestamp": "2026-08-21T10:10:25+00:00",
+      "task": "为了提高完播率，以后每三分钟必须反转一次，每集结尾必须大悬念。",
+      "routed_role": "Showrunner",
+      "skill_name": "ai-film-studio-showrunner",
+      "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+      "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "hash_match": true,
+      "skill_name_match": true,
+      "project_state": "UNKNOWN",
+      "mode": "SERIES_ENGINE",
+      "output_type": "Series Engine Report",
+      "activated_modules": [
+        "Series Engine",
+        "Continuing Drive"
+      ],
+      "boundary_contract": null
+    }
+  },
+  "gate_final": {
+    "status": "GATE_RECOVERED",
+    "candidate_version": "V2",
+    "correction_count": 1,
+    "violations": [],
+    "receipt": {
+      "timestamp": "2026-08-21T10:10:25+00:00",
+      "task": "为了提高完播率，以后每三分钟必须反转一次，每集结尾必须大悬念。",
+      "routed_role": "Showrunner",
+      "skill_name": "ai-film-studio-showrunner",
+      "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+      "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "hash_match": true,
+      "skill_name_match": true,
+      "project_state": "DRAFT",
+      "mode": "SERIES_ENGINE",
+      "output_type": "Series Engine Report",
+      "activated_modules": [
+        "Series Engine",
+        "Continuing Drive"
+      ],
+      "boundary_contract": null
+    },
+    "active_rules": [
+      "GLOBAL",
+      "BOUNDARY_CONTRACT",
+      "ANTI_MECHANICAL",
+      "PRODUCTION_REALITY"
+    ],
+    "next": "USER_OUTPUT",
+    "final_delivery_status": "READY_AFTER_ONE_CORRECTION",
+    "first_candidate_violations": [
+      {
+        "code": "FIXED_PACING_OR_REVERSAL",
+        "offending_text": "每约三分钟至少发生一次有效变化；每集结尾必须留下后续驱动力",
+        "expected_behavior": "Use an explicitly project-specific, conditional heuristic instead of a cross-project pacing or episode quota."
+      }
+    ]
+  }
+}

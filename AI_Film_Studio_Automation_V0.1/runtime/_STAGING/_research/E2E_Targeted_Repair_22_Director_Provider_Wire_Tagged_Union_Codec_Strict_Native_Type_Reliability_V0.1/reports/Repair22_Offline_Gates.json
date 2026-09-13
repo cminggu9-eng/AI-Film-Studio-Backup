@@ -1,0 +1,8 @@
+{
+  "classification": "REPAIR22 OFFLINE GATE RUN",
+  "mandatory_preflight": {"passed": true, "suite_count": 15},
+  "genericity": {"returncode": 0, "passed": 18, "total": 18},
+  "unified_phase2": {"returncode": 0, "overall": "PASS", "record_count": 25},
+  "provider_calls": 0,
+  "overall": "PASS"
+}

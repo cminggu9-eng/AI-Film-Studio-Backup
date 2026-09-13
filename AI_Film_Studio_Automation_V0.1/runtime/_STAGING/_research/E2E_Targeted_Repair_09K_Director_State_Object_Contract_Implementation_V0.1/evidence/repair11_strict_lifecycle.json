@@ -1,0 +1,161 @@
+{
+  "classification": "STRICT TRANSPORT LIFECYCLE AUTHORIZATION",
+  "results": [
+    {
+      "id": "STRICT-LIFE-01",
+      "result": "PASS",
+      "detail": "old Scene Writer-only provenance is preserved in immutable R13 failure evidence"
+    },
+    {
+      "id": "STRICT-LIFE-02",
+      "result": "PASS",
+      "detail": "new lifecycle invariant is represented by a closed registry"
+    },
+    {
+      "id": "STRICT-LIFE-03",
+      "result": "PASS",
+      "detail": "registry contains exactly two approved pairs"
+    },
+    {
+      "id": "STRICT-LIFE-04",
+      "result": "PASS",
+      "detail": "Scene Writer exact pair is authorized"
+    },
+    {
+      "id": "STRICT-LIFE-05",
+      "result": "PASS",
+      "detail": "Director exact pair is authorized"
+    },
+    {
+      "id": "STRICT-LIFE-06",
+      "result": "PASS",
+      "detail": "other five roles remain non-strict"
+    },
+    {
+      "id": "STRICT-LIFE-07",
+      "result": "PASS",
+      "detail": "immutable E2E-RUN-13 recorded calls satisfy the corrected lifecycle gate"
+    },
+    {
+      "id": "STRICT-LIFE-08",
+      "result": "PASS",
+      "detail": "strict:true lifecycle validation is preserved"
+    },
+    {
+      "id": "STRICT-LIFE-09",
+      "result": "PASS",
+      "detail": "exact tool choice remains bound to the declared function"
+    },
+    {
+      "id": "STRICT-LIFE-10",
+      "result": "PASS",
+      "detail": "provider strict mechanics remain adapter-scoped"
+    },
+    {
+      "id": "STRICT-LIFE-11",
+      "result": "PASS",
+      "detail": "Scene Writer strict schema regression passes"
+    },
+    {
+      "id": "STRICT-LIFE-12",
+      "result": "PASS",
+      "detail": "historical Probe 04 remains PASS while the current Director 09K object contract regression passes"
+    },
+    {
+      "id": "STRICT-LIFE-13",
+      "result": "PASS",
+      "detail": "raw-first lifecycle evidence remains complete"
+    },
+    {
+      "id": "STRICT-LIFE-14",
+      "result": "PASS",
+      "detail": "registry has no wildcard authorization"
+    },
+    {
+      "id": "STRICT-LIFE-15",
+      "result": "PASS",
+      "detail": "Provider-Free Startup passes"
+    },
+    {
+      "id": "STRICT-LIFE-16",
+      "result": "PASS",
+      "detail": "GEN-01 through GEN-18 pass"
+    },
+    {
+      "id": "STRICT-LIFE-17",
+      "result": "PASS",
+      "detail": "Unified Phase 2 gate registers the strict lifecycle suite"
+    },
+    {
+      "id": "STRICT-LIFE-18",
+      "result": "PASS",
+      "detail": "seven canonical Skill hashes remain unchanged"
+    },
+    {
+      "id": "STRICT-LIFE-NEG-01",
+      "result": "PASS",
+      "detail": "Showrunner strict transport is rejected"
+    },
+    {
+      "id": "STRICT-LIFE-NEG-02",
+      "result": "PASS",
+      "detail": "Character & Acting strict transport is rejected"
+    },
+    {
+      "id": "STRICT-LIFE-NEG-03",
+      "result": "PASS",
+      "detail": "Art Director strict transport is rejected"
+    },
+    {
+      "id": "STRICT-LIFE-NEG-04",
+      "result": "PASS",
+      "detail": "Continuity strict transport is rejected"
+    },
+    {
+      "id": "STRICT-LIFE-NEG-05",
+      "result": "PASS",
+      "detail": "Shared QA strict transport is rejected"
+    },
+    {
+      "id": "STRICT-LIFE-NEG-06",
+      "result": "PASS",
+      "detail": "Scene Writer plus Director function is rejected"
+    },
+    {
+      "id": "STRICT-LIFE-NEG-07",
+      "result": "PASS",
+      "detail": "Director plus Scene Writer function is rejected"
+    },
+    {
+      "id": "STRICT-LIFE-NEG-08",
+      "result": "PASS",
+      "detail": "authorized role plus unknown function is rejected"
+    },
+    {
+      "id": "STRICT-LIFE-NEG-09",
+      "result": "PASS",
+      "detail": "unknown role plus authorized function is rejected"
+    },
+    {
+      "id": "STRICT-LIFE-NEG-10",
+      "result": "PASS",
+      "detail": "strict:false on an authorized strict pair is rejected"
+    },
+    {
+      "id": "STRICT-LIFE-NEG-11",
+      "result": "PASS",
+      "detail": "tool choice mismatch is rejected"
+    },
+    {
+      "id": "STRICT-LIFE-NEG-12",
+      "result": "PASS",
+      "detail": "provider strict mechanics outside adapter scope are rejected"
+    }
+  ],
+  "passed": 30,
+  "total": 30,
+  "provider_calls": 0,
+  "executor_calls": 0,
+  "role_calls": 0,
+  "real_e2e_runs": 0
+}

@@ -1,0 +1,55 @@
+{
+  "source_role": "Art Director",
+  "source_record_id": "E2E-RUN-17/art_director/1",
+  "version": "1.0",
+  "timestamp": "2026-08-31T03:36:57.716803+00:00",
+  "intended_recipient": "Continuity",
+  "handoff_reason": "Visual state and design intent",
+  "canon_assignment_locks": [
+    "characters: 许宁, 许曼",
+    "prop: entity_id=A-17, identity_lock=A-17, custody_required=true, condition_lock=brass_key",
+    "knowledge: event_id=shared_storage_reveal, holder=许曼, not_before_scene=3",
+    "visual_state: dimension=clothing_visual_state_code, allowed_tokens=[soaked_uniform, changed_clothes]",
+    "decision_locks: storage_room_opening"
+  ],
+  "prohibited_changes": [
+    "完全和解",
+    "relationship: 不得自动升级为完全和解"
+  ],
+  "canonical_mode": "DESIGN",
+  "primary_state_or_outcome": "DESIGN_RESPONSE_READY",
+  "flags": "ABSENT",
+  "handoffs": "ABSENT",
+  "required_outcome": "ABSENT",
+  "unresolved_decisions": [],
+  "relevant_prior_state": {
+    "relationship_state": "久未联系，关系疏离，未和解",
+    "knowledge_state": "许宁不知 shared_storage_reveal",
+    "visual_state": "许宁 clothing_visual_state_code = soaked_uniform"
+  },
+  "current_state": {
+    "relationship_state": "许宁将钥匙交给许曼，许曼要求换衣等天亮；关系未和解",
+    "knowledge_state": "许曼持有 shared_storage_reveal，未揭示",
+    "visual_state": "许宁 clothing_visual_state_code = soaked_uniform"
+  },
+  "proposed_state": {
+    "relationship_state": "关系未和解，保持张力与悬置",
+    "knowledge_state": "场景3时 shared_storage_reveal 由许曼揭示",
+    "visual_state": "许宁 clothing_visual_state_code 由 soaked_uniform 变为 changed_clothes"
+  },
+  "knowledge_timing": {
+    "shared_storage_reveal": "not_before_scene=3"
+  },
+  "relationship_state": {
+    "initial": "疏离、久未联系",
+    "after_scene_1": "门外对峙，未和解",
+    "after_scene_3": "揭示后未和解，但出现微妙靠近与悬置"
+  },
+  "visual_state": {
+    "scene_1": "许宁 clothing_visual_state_code = soaked_uniform",
+    "scene_2": "许宁 clothing_visual_state_code = changed_clothes",
+    "scene_3": "许宁 clothing_visual_state_code = changed_clothes"
+  },
+  "authority_source": "Art Director canonical Skill output",
+  "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-17\\artifacts\\art_director_output.json"
+}

@@ -1,0 +1,9 @@
+[
+  {
+    "category": "EXECUTOR FAILURE",
+    "owner": "Showrunner",
+    "detail": "Model output did not match exact E2E transport schema",
+    "blocking": true,
+    "safe_stop": true
+  }
+]

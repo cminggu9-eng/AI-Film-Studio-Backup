@@ -1,0 +1,181 @@
+{
+  "run_id": "E2E-RUN-22",
+  "role": "Scene Writer",
+  "canonical_binding": {
+    "identity": "scene-writer",
+    "canonical_path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\02_Scene_Writer\\scene-writer\\SKILL.md",
+    "sha256": "93E1BE12988F8CAA6CDD76ACB5E6C1BF6AD3CA0DFF5806A2EA93511E66052DFB"
+  },
+  "selected_mode": "CREATE",
+  "output_language": "zh-CN",
+  "input": {
+    "upstream_artifacts": {
+      "showrunner": {
+        "primary_state_or_outcome": "INFO",
+        "flags": "ABSENT",
+        "handoffs": "ABSENT",
+        "canon_assignment_locks": [
+          "same_cracked_bowl",
+          "crack_preserved",
+          "signboard_state allowed_tokens: signboard_on, signboard_off"
+        ],
+        "prohibited_changes": [
+          "SELL",
+          "KEEP",
+          "彻底和解"
+        ],
+        "required_outcome": "ABSENT",
+        "unresolved_decisions": [
+          "shop_transfer_decision"
+        ],
+        "state_evidence": {
+          "relevant_prior_state": {
+            "relationship_prior": "多年没有回家的儿子周启",
+            "father_prior": "父亲已故，留下最后一只店碗",
+            "shop_prior": "面馆打烊后，店铺状态未明"
+          },
+          "current_state": {
+            "props": {
+              "cracked_white_porcelain_bowl": {
+                "condition": "crack_preserved",
+                "custody": "transfer_pending"
+              }
+            },
+            "signboard": "on",
+            "relationship": "母子关系疏离，未达成彻底和解"
+          },
+          "proposed_state": {
+            "shop_transfer_decision": "deferred_until_rain_stops"
+          },
+          "knowledge_timing": {
+            "last_bowl_reveal": {
+              "holder": "周启",
+              "not_before_scene": 2
+            }
+          },
+          "relationship_state": {
+            "current": "周启承认早就知道碗的意义，但未与母亲达成彻底和解",
+            "next_allowed": "可增进理解或保持距离，但不得升级为彻底和解"
+          },
+          "visual_state": {
+            "signboard_state": "on"
+          }
+        },
+        "content": "### 故事前提\n\n打烊后的老面馆里，雨夜未歇。老板娘周岚把一只裂了口的白瓷碗交给多年没有回家的儿子周启。这只碗是父亲留下的最后一只店碗。周启承认自己早就知道这只碗的存在与意义，却要求母亲先把门外仍亮着的招牌灯关掉——等雨停后再决定是否把店盘出去。于是，一场关于记忆、亏欠与去留的对话，在碗的裂缝和未关的灯之间展开。故事探讨：当一个人无法继承过去，又无法真正告别时，他该如何面对一个即将熄灭的“家”？\n\n核心张力：周启早已知道碗的意义，却选择多年不归；周岚交出碗，但未放下店。两人都未准备好“彻底和解”，也不愿此刻就决定“卖”或“留”。雨停前，他们只能先关掉灯，让决定悬置。\n\n### 角色\n\n**周岚**  \n- 身份：老面馆老板娘，周启的母亲。  \n- 当前欲望：把父亲的碗交给儿子，也许是最后一次确认。  \n- 深层需求：得到儿子对“家”与“店”的明确回应，但不敢逼问。  \n- 恐惧：店被盘出后，与丈夫的联结彻底断裂；或儿子再次离开。  \n- 行为倾向：先交出碗，但不直接问“你回不回来”；对关灯的要求可能犹豫。  \n- 关系状态：对儿子有期待，但多年疏离让她保持克制。  \n\n**周启**  \n- 身份：多年未归的儿子。  \n- 当前欲望：让母亲关掉招牌灯，创造一个“暂停”的时刻。  \n- 深层需求：确认自己是否有资格决定店的去留，而不必认领某种继承。  \n- 恐惧：被母亲逼着表态，或被迫成为店的“主人”。  \n- 行为倾向：承认早就知道碗，但不解释为何不归；用“等雨停”拖延决定。  \n- 关系状态：对母亲有愧疚或疏离，但不准备彻底和解。  \n\n人物引擎：两人都围绕“是否盘店”和“是否回家”产生压力，但都不主动宣判；碗是父亲留下的物证，灯是母亲对店最后的执念。周启要求关灯，是试图制造一个“非营业”的时空，以便谈论去留；周岚交出碗，是给出一个可能被拒绝的邀请。\n\n### Canon Locks\n\n以下锁定为不可违反：\n\n1. **破碗锁定**：白瓷碗必须保持裂口，且是同一只碗；不得修复、更换或掩盖其裂缝。  \n2. **招牌灯视觉锁定**：门外招牌灯在故事引入时处于“signboard_on”状态；后续允许变为“signboard_off”，但不得出现其他状态。  \n3. **信息揭示锁定**：周启早在第二场之前就已知晓“这只碗是父亲留下的最后一只店碗”，但该事实不得在第二场之前由周启明确承认；第一场只能展示碗的交接，不能展示周启的“早知道”。  \n4. **关系锁定**：周岚与周启在本故事范围内不得升级为“彻底和解”；可以出现理解、缓和、沉默或进一步疏离，但不得让二人达成明确的和解或拥抱。  \n5. **店铺决策锁定**：是否盘店（SELL）或保留（KEEP）在本故事中不得被人物决定；最后状态必须是“决定被悬置”，至少悬置到雨停。  \n\n### 三场结构\n\n以下为三场任务分配，仅定义戏剧目标与状态变化，不写作任何对白正文或表演细节。\n\n**第一场：交碗**  \n- 场景目的：建立面馆打烊后的封闭空间，让周岚将破碗交给周启，并让观众看到碗的裂口与仍亮着的招牌灯。  \n- 角色目标：周岚希望把碗交给儿子，并观察他的反应；周启试图接过碗，但不解释自己是否知道其意义。  \n- 冲突：周岚的期待（让儿子理解碗）与周启的回避（不表态）之间形成张力。  \n- 必须信息：碗是父亲留下的；碗有裂口；招牌灯亮着；母子关系疏离。  \n- 起始状态：周岚站在店内，手中拿着碗；周启刚进门或已经在场；灯亮。  \n- 要求结束状态：周启手中已拿着碗；周岚对他是否“明白”感到不安；灯仍亮。  \n- Canon 约束：破碗条件保持；周启不能说出“我早就知道”；不能出现彻底和解。\n\n**第二场：关灯**  \n- 场景目的：周启提出关掉招牌灯，从而制造一个“暂停营业”的时刻；在此场景中，周启承认自己早就知道碗的意义。  \n- 角色目标：周启希望让母亲脱离“守店”状态，以便谈论去留；周岚可能在关灯与否上犹豫，因为这代表她是否愿意放下。  \n- 冲突：关灯等于承认某种结束或暂停，这正是母子二人既需要又害怕的。  \n- 必须信息：周启表明已知碗的来历；周岚意识到儿子并非完全不知情；招牌灯状态由 on 变为 off（或开始讨论关灯）。  \n- 起始状态：周启拿着碗；灯亮；周岚仍对店有执念。  \n- 要求结束状态：招牌灯变为 off（或已做出关灯动作）；周启已承认早知道；周岚因这一信息而调整对儿子的判断，但无彻底和解。  \n- Canon 约束：周启的承认必须发生在第二场（不得早于第二场）；破碗条件保持；灯若关闭则必须明确为 off，不得出现其他状态。\n\n**第三场：等雨停**  \n- 场景目的：在灯灭后的安静中，母子二人面对是否盘店的问题，但最终决定悬置，等待雨停。  \n- 角色目标：周启引导母亲不要现在做决定；周岚可能表达疲惫、不舍或某种动摇，但不给出承诺。  \n- 冲突：情感上，两人可能都想得到一个答案（卖或留、走或留），但现实和彼此的关系都不允许此刻决定。  \n- 必须信息：店铺去留仍未决定；雨仍在下或有停的可能；灯已关闭；碗仍在场，作为未完成的象征。  \n- 起始状态：灯灭；周启与周岚各自面对碗与店；情绪处于紧张或疲惫。  \n- 要求结束状态：二人没有决定 SELL 或 KEEP，而是同意等待雨停；招牌灯保持 off；破碗保持有裂口；关系状态未达到彻底和解。  \n- Canon 约束：不得出现 SELL 或 KEEP 的明确决定；不得和解；必须为“雨停后”留下未决空间。\n\n**全局验收检查**  \n- 三场均需保持破碗的同一性与裂口。  \n- 招牌灯状态：第一场 on，第二场转 off，第三场保持 off（或至少明确其状态）。  \n- 周启“早知道碗是父亲最后一只店碗”只能在第二场或之后被承认，不得提前。  \n- 周岚与周启不得在故事内达到彻底和解。  \n- 店铺去留决定必须被悬置，直至雨停（故事结束前不得有结果）。  \n\n**下游交接提示**  \n本包仅交付给 Scene Writer 以下内容：每场的 `Scene Purpose`、`Character Objective`、`Conflict`、`Required Information`、起始与结束状态、Canon 约束、关系状态与不可变项。不写作任何对白、动作描述或镜头提示。",
+        "scene_packages": "ABSENT"
+      }
+    },
+    "state_evidence_envelopes": {
+      "showrunner": {
+        "source_role": "Showrunner",
+        "source_record_id": "E2E-RUN-22/showrunner/1",
+        "version": "1.0",
+        "timestamp": "2026-09-01T08:54:47.340661+00:00",
+        "intended_recipient": "Scene Writer",
+        "handoff_reason": "Story / Canon Package",
+        "canon_assignment_locks": [
+          "same_cracked_bowl",
+          "crack_preserved",
+          "signboard_state allowed_tokens: signboard_on, signboard_off"
+        ],
+        "prohibited_changes": [
+          "SELL",
+          "KEEP",
+          "彻底和解"
+        ],
+        "canonical_mode": "ABSENT",
+        "primary_state_or_outcome": "INFO",
+        "flags": "ABSENT",
+        "handoffs": "ABSENT",
+        "required_outcome": "ABSENT",
+        "unresolved_decisions": [
+          "shop_transfer_decision"
+        ],
+        "relevant_prior_state": {
+          "relationship_prior": "多年没有回家的儿子周启",
+          "father_prior": "父亲已故，留下最后一只店碗",
+          "shop_prior": "面馆打烊后，店铺状态未明"
+        },
+        "current_state": {
+          "props": {
+            "cracked_white_porcelain_bowl": {
+              "condition": "crack_preserved",
+              "custody": "transfer_pending"
+            }
+          },
+          "signboard": "on",
+          "relationship": "母子关系疏离，未达成彻底和解"
+        },
+        "proposed_state": {
+          "shop_transfer_decision": "deferred_until_rain_stops"
+        },
+        "knowledge_timing": {
+          "last_bowl_reveal": {
+            "holder": "周启",
+            "not_before_scene": 2
+          }
+        },
+        "relationship_state": {
+          "current": "周启承认早就知道碗的意义，但未与母亲达成彻底和解",
+          "next_allowed": "可增进理解或保持距离，但不得升级为彻底和解"
+        },
+        "visual_state": {
+          "signboard_state": "on"
+        },
+        "authority_source": "Showrunner canonical Skill output",
+        "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-22\\artifacts\\showrunner_output.json"
+      }
+    },
+    "run_local_ledger": "ABSENT",
+    "role_constraints": {
+      "mode": "CREATE",
+      "scene_count": 3,
+      "fixture_constraints": {
+        "scene_count": 3,
+        "output_language": "zh-CN",
+        "characters": [
+          "周岚",
+          "周启"
+        ],
+        "relationship": [
+          "不得自动升级为彻底和解"
+        ],
+        "prop": {
+          "entity_id": "cracked_white_porcelain_bowl",
+          "identity_lock": "same_cracked_bowl",
+          "custody_required": true,
+          "condition_lock": "crack_preserved"
+        },
+        "knowledge": [
+          {
+            "event_id": "last_bowl_reveal",
+            "holder": "周启",
+            "not_before_scene": 2
+          }
+        ],
+        "visual_state": [
+          {
+            "dimension": "signboard_state",
+            "allowed_tokens": [
+              "signboard_on",
+              "signboard_off"
+            ]
+          }
+        ],
+        "prohibited": [
+          "SELL",
+          "KEEP",
+          "彻底和解"
+        ],
+        "decision_locks": [
+          "shop_transfer_decision"
+        ]
+      },
+      "strict_structured_transport": {
+        "function": "submit_scene_writer_package",
+        "response_format_route": "PROHIBITED",
+        "no_auto_repair": true
+      }
+    }
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "fixture": {
+    "id": "F01",
+    "title": "Normal CREATE",
+    "focus": [
+      "scene_function",
+      "objective",
+      "resistance",
+      "action",
+      "dialogue",
+      "turn",
+      "entry",
+      "exit"
+    ],
+    "expected_boundaries": {
+      "must": [
+        "one short complete playable scene",
+        "a request meets resistance and changes the state",
+        "no third character",
+        "no camera or acting-system directions"
+      ],
+      "must_not": [
+        "invent a past betrayal",
+        "solve the larger story",
+        "leave before a meaningful turn"
+      ]
+    },
+    "assignment": {
+      "requested_mode": "CREATE",
+      "output_language": "zh-CN",
+      "project_id": "FSV-SYNTHETIC",
+      "episode_id": "FSV-EP01",
+      "scene_id": "F01",
+      "scene_request": "写一个短、完整、可演的场景；不要扩展为后续剧情。",
+      "scene_purpose": "让一件必须当场决定的小事迫使两个兄妹重新分配责任。",
+      "repair_target": null,
+      "canon_locks": [
+        "地点是傍晚的旧公寓楼道。",
+        "人物只有唐澈和唐宁，是关系尚可的成年兄妹。",
+        "父亲留下的一把储物间钥匙在唐宁手中。",
+        "没有人偷钥匙，也没有第三人出现。"
+      ],
+      "showrunner_locks": [
+        "场景结束时，唐宁暂时把钥匙交给唐澈，但约定两人第二天一起打开储物间。"
+      ],
+      "participants": [
+        {
+          "name": "唐澈",
+          "role": "哥哥",
+          "objective": "今晚拿到钥匙，先确认储物间里的旧箱子还在。",
+          "knowledge": "知道钥匙在唐宁手里。",
+          "constraint": "不能强抢，也不能把妹妹写成敌人。"
+        },
+        {
+          "name": "唐宁",
+          "role": "妹妹",
+          "objective": "不让哥哥独自处理父亲留下的东西。",
+          "knowledge": "知道哥哥想马上进去。",
+          "constraint": "不会无故拒绝，但会要求共同承担。"
+        }
+      ],
+      "character_context": {
+        "relationship": "成年兄妹，关系尚可但处理父亲遗物的方式不同。",
+        "creative_freedom": "可使用对白、停顿、钥匙和楼道空间行为。"
+      },
+      "required_event": "唐澈向唐宁要钥匙。",
+      "required_information": "钥匙在唐宁手中；储物间今晚不开。",
+      "required_outcome": "唐宁交钥匙，唐澈接受明天一起打开的条件。",
+      "prior_scene_state": "唐宁刚从储物间门口回来，唐澈在楼道等她。",
+      "desired_post_state": "钥匙暂由唐澈保管，两人明天共同进入储物间。",
+      "production_constraints": null,
+      "requested_form": "短、正常可读的场景；无镜头、焦段、coverage或表演系统。",
+      "downstream_requests": [],
+      "qa_requests": []
+    }
+  },
+  "sequence": 1,
+  "classification": "FULL SEMANTIC VALIDATION / SYNTHETIC / NON-CANON / REAL SEMANTIC EXECUTION",
+  "formal_execution_count_for_fixture": 1,
+  "resamples_for_fixture": 0,
+  "provider": "deepseek",
+  "model": "deepseek-v4-pro",
+  "assignment": {
+    "requested_mode": "CREATE",
+    "output_language": "zh-CN",
+    "project_id": "FSV-SYNTHETIC",
+    "episode_id": "FSV-EP01",
+    "scene_id": "F01",
+    "scene_request": "写一个短、完整、可演的场景；不要扩展为后续剧情。",
+    "scene_purpose": "让一件必须当场决定的小事迫使两个兄妹重新分配责任。",
+    "repair_target": null,
+    "canon_locks": [
+      "地点是傍晚的旧公寓楼道。",
+      "人物只有唐澈和唐宁，是关系尚可的成年兄妹。",
+      "父亲留下的一把储物间钥匙在唐宁手中。",
+      "没有人偷钥匙，也没有第三人出现。"
+    ],
+    "showrunner_locks": [
+      "场景结束时，唐宁暂时把钥匙交给唐澈，但约定两人第二天一起打开储物间。"
+    ],
+    "participants": [
+      {
+        "name": "唐澈",
+        "role": "哥哥",
+        "objective": "今晚拿到钥匙，先确认储物间里的旧箱子还在。",
+        "knowledge": "知道钥匙在唐宁手里。",
+        "constraint": "不能强抢，也不能把妹妹写成敌人。"
+      },
+      {
+        "name": "唐宁",
+        "role": "妹妹",
+        "objective": "不让哥哥独自处理父亲留下的东西。",
+        "knowledge": "知道哥哥想马上进去。",
+        "constraint": "不会无故拒绝，但会要求共同承担。"
+      }
+    ],
+    "character_context": {
+      "relationship": "成年兄妹，关系尚可但处理父亲遗物的方式不同。",
+      "creative_freedom": "可使用对白、停顿、钥匙和楼道空间行为。"
+    },
+    "required_event": "唐澈向唐宁要钥匙。",
+    "required_information": "钥匙在唐宁手中；储物间今晚不开。",
+    "required_outcome": "唐宁交钥匙，唐澈接受明天一起打开的条件。",
+    "prior_scene_state": "唐宁刚从储物间门口回来，唐澈在楼道等她。",
+    "desired_post_state": "钥匙暂由唐澈保管，两人明天共同进入储物间。",
+    "production_constraints": null,
+    "requested_form": "短、正常可读的场景；无镜头、焦段、coverage或表演系统。",
+    "downstream_requests": [],
+    "qa_requests": [],
+    "request_id": "FSV-SW-F01"
+  },
+  "runtime_result": {
+    "runtime_status": "SUCCESS",
+    "runtime_failure_code": null,
+    "runtime_failure_message": null,
+    "request_id": "FSV-SW-F01",
+    "canonical_binding": {
+      "identity": "scene-writer",
+      "version": "V0.1",
+      "canonical_path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\02_Scene_Writer\\scene-writer\\SKILL.md",
+      "expected_sha256": "93e1be12988f8caa6cdd76acb5e6c1bf6ad3ca0dff5806a2ea93511e66052dfb",
+      "adapter_status": "REGISTERED",
+      "real_executor": "BOUND",
+      "semantic_integrity_verifier": "BOUND",
+      "synthetic_executor": "NOT_PRESENT",
+      "actual_sha256": "93e1be12988f8caa6cdd76acb5e6c1bf6ad3ca0dff5806a2ea93511e66052dfb",
+      "metadata": {
+        "name": "scene-writer",
+        "display_version": "V0.1"
+      },
+      "passed": true,
+      "reason": null
+    },
+    "idempotency": "NEW",
+    "scene_writer": {
+      "creative_deliverable": {
+        "kind": "scene",
+        "content": "【旧公寓楼道·傍晚】\n\n唐宁从储物间方向走回来，手里攥着那把旧钥匙。唐澈靠在楼道墙边等她，影子被楼道尽头的窗户光拉长。\n\n唐澈（迎上一步）\n钥匙给我吧，今晚我先进去确认一下。\n\n唐宁（停下，没松手）\n你确认完，打算今晚就把箱子搬走？\n\n唐澈（摇头）\n不搬，就看一眼，心里踏实。\n\n唐宁（把钥匙举到两人之间，钥匙在昏暗光线下反着一点光）\n那明天一起看，不更踏实？\n\n唐澈（看着钥匙，稍顿）\n明天我怕有事，今晚正好顺路。\n\n唐宁（轻轻晃了晃钥匙）\n顺路不算理由，哥，你是不是想一个人先找什么？\n\n唐澈（目光从钥匙移到她脸上）\n我就想确认爸留下的那个旧箱子还在，别的没想。\n\n唐宁（收起钥匙，握在掌心）\n那更该一起。爸的东西，你一个人碰了，回头又要一个人想一晚上。\n\n唐澈（沉默两秒，点头）\n好，明天一起。钥匙先放我这儿，我保证今晚不开门。\n\n唐宁（看着他，把钥匙递过去）\n行，明天早上，我来找你，一起上去。\n\n唐澈接过钥匙，掂了掂，再放进外套内袋。两人都没再说话，唐宁转身往自己家门走，唐澈留在原地，抬手碰了一下衣袋。\n\n（完）"
+      },
+      "control_data": {
+        "primary_state": "SCENE_CREATED",
+        "flags": [],
+        "handoffs": [],
+        "scene_function": "通过钥匙的交接，让兄妹两人从分歧走向约定共同行动，落实明天一起打开储物间的条件，并完成责任再分配。",
+        "objectives": "唐澈：今晚拿到钥匙，确认旧箱子还在；唐宁：不让哥哥独自处理父亲遗物，要求共同承担。",
+        "resistance": "唐宁不立即交钥匙，坚持共同行动，质疑唐澈的独自动机；唐澈解释并让步接受条件。",
+        "before_state": "唐宁刚从储物间门口回来，唐澈在楼道等她，两人尚未达成一致。",
+        "turn": "唐澈从想今晚独自进入，转变为接受共同进入，并得到钥匙保管权；唐宁从不同意独自处理，转变为信任哥哥保管但坚持共同进入。关系从分歧走向合作。",
+        "state_after": "钥匙由唐澈保管，两人约定第二天一起进入储物间；唐宁离开回家，唐澈留下。",
+        "entry_rationale": "场景开始于唐宁从储物间回来，唐澈已等候，直接进入冲突话题——要钥匙，避免不必要的铺垫。",
+        "exit_rationale": "在完成钥匙交接和约定后，以唐宁离开、唐澈独自停留的简短动作收束，暗示其内心波动但不额外延伸剧情。",
+        "diagnosis_summary": "本场景按CREATE模式创作，满足所有锁和要求的结局，无越界内容。",
+        "rule_hits": []
+      }
+    },
+    "output_language": "zh-CN",
+    "output_language_resolution": "EXPLICIT",
+    "assignment_fact_validation": {
+      "status": "PASS",
+      "guard_profile": [
+        "LOCKED_FACT_PRESERVATION",
+        "UNSPECIFIED_FACT_PROHIBITION",
+        "CHARACTER_KNOWLEDGE_SCOPE",
+        "COARSE_TIME_TONIGHT"
+      ],
+      "violations": []
+    },
+    "semantic_integrity_validation": {
+      "integrity_result": "PASS",
+      "violations": []
+    }
+  },
+  "unexpected_exception": null,
+  "generation_usage": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-pro",
+    "provider_invocation_id": "9fdc5500-7b57-4860-8057-7e7d22e7160f",
+    "usage": {
+      "prompt_tokens": 4268,
+      "completion_tokens": 742,
+      "total_tokens": 5010,
+      "prompt_cache_hit_tokens": 3072,
+      "prompt_cache_miss_tokens": 1196
+    },
+    "latency_ms": 16176,
+    "thinking_mode": "disabled",
+    "fixture_id": "F01",
+    "request_success": true
+  },
+  "verification_usage": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-pro",
+    "provider_invocation_id": "0841906d-0bf8-48e5-8a9d-77bc9047503b",
+    "usage": {
+      "prompt_tokens": 2037,
+      "completion_tokens": 18,
+      "total_tokens": 2055,
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 1269
+    },
+    "latency_ms": 1936,
+    "thinking_mode": "disabled",
+    "fixture_id": "semantic-assignment-integrity",
+    "request_success": true
+  },
+  "estimated_cost_cny": {
+    "generation": 0.0081168,
+    "verification": 0.0039342,
+    "total": 0.012051
+  },
+  "pricing_basis": {
+    "currency": "CNY",
+    "unit": "per_1M_tokens",
+    "input_cache_hit": 0.025,
+    "input_cache_miss": 3.0,
+    "output": 6.0,
+    "status": "ESTIMATED"
+  }
+}

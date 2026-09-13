@@ -1,0 +1,21 @@
+{
+  "result": "PASS",
+  "envelope_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Director_Strict_Compatibility_Probe_04_After_Repair_09F_V0.1\\evidence\\DIRECTOR-STRICT-COMPATIBILITY-PROBE-04\\envelopes\\director_to_character_acting.json",
+  "deterministic_display_projection": true,
+  "display_projection_source": "validated Director machine fields",
+  "carry_forward_locks": [
+    "scene_count: 3",
+    "output_language: zh-CN",
+    "characters: [许宁, 许曼]",
+    "relationship: [不得自动升级为完全和解]",
+    "prop: {entity_id: A-17, identity_lock: A-17, custody_required: true, condition_lock: brass_key}",
+    "knowledge: [{event_id: shared_storage_reveal, holder: 许曼, not_before_scene: 3}]",
+    "visual_state: [{dimension: clothing_visual_state_code, allowed_tokens: [soaked_uniform, changed_clothes]}]",
+    "prohibited: [完全和解]",
+    "decision_locks: [storage_room_opening]"
+  ],
+  "carry_forward_prohibited_changes": [
+    "完全和解",
+    "不得自动升级为完全和解"
+  ]
+}

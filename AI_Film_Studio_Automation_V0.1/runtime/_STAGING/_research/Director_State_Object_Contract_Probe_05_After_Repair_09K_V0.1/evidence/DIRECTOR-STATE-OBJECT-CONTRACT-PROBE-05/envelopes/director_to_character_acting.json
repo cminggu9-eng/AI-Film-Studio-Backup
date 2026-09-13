@@ -1,0 +1,60 @@
+{
+  "source_role": "Director",
+  "source_record_id": "DIRECTOR-STATE-OBJECT-CONTRACT-PROBE-05/director/1",
+  "version": "1.0",
+  "timestamp": "2026-08-30T08:07:47.651145+00:00",
+  "intended_recipient": "Character & Acting",
+  "handoff_reason": "Direction constraints",
+  "canon_assignment_locks": [
+    "scene_count: 3",
+    "output_language: zh-CN",
+    "characters: [许宁, 许曼]",
+    "relationship: [不得自动升级为完全和解]",
+    "prop: {entity_id: A-17, identity_lock: A-17, custody_required: true, condition_lock: brass_key}",
+    "knowledge: [{event_id: shared_storage_reveal, holder: 许曼, not_before_scene: 3}]",
+    "visual_state: [{dimension: clothing_visual_state_code, allowed_tokens: [soaked_uniform, changed_clothes]}]",
+    "prohibited: [完全和解]",
+    "decision_locks: [storage_room_opening]"
+  ],
+  "prohibited_changes": [
+    "完全和解",
+    "不得自动升级为完全和解"
+  ],
+  "canonical_mode": "PLAN",
+  "primary_state_or_outcome": "DIRECTION_PLAN_PRODUCED",
+  "flags": "ABSENT",
+  "handoffs": "ABSENT",
+  "required_outcome": "产出一份三场导演方案，锁定场景功能、人物状态与关键道具/知识节点不变的前提下，定义每场的舞台调度、空间地理、观众信息、镜头与覆盖意图、节奏与转场意图，并降低可避免的制作负担。",
+  "unresolved_decisions": [
+    "是否打开储物间（storage_room_opening）保留开放，导演调度仅将其呈现为悬置抉择，不做开门结果",
+    "许宁换衣（changed_clothes）触发点在第一场末尾，具体换衣动作发生在场间，仅在第二场呈现其结果"
+  ],
+  "relevant_prior_state": {
+    "E2E-FIX-01-S01": {
+      "clothing_visual_state_code": "soaked_uniform"
+    },
+    "E2E-FIX-01-S02": {
+      "clothing_visual_state_code": "soaked_uniform"
+    },
+    "E2E-FIX-01-S03": {
+      "clothing_visual_state_code": "changed_clothes"
+    }
+  },
+  "current_state": {
+    "E2E-FIX-01-S01": {
+      "clothing_visual_state_code": "soaked_uniform"
+    },
+    "E2E-FIX-01-S02": {
+      "clothing_visual_state_code": "changed_clothes"
+    },
+    "E2E-FIX-01-S03": {
+      "clothing_visual_state_code": "changed_clothes"
+    }
+  },
+  "proposed_state": "ABSENT",
+  "knowledge_timing": "ABSENT",
+  "relationship_state": "疏远、互有猜疑，共处但未和解，揭示后张力保留",
+  "visual_state": "ABSENT",
+  "authority_source": "Director canonical Skill output",
+  "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Director_State_Object_Contract_Probe_05_After_Repair_09K_V0.1\\evidence\\DIRECTOR-STATE-OBJECT-CONTRACT-PROBE-05\\artifacts\\director_output.json"
+}

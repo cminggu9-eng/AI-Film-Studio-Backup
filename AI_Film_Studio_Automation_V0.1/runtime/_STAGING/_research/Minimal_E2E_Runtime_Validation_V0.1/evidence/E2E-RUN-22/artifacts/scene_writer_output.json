@@ -1,0 +1,156 @@
+{
+  "primary_state_or_outcome": "SCENE_CREATED",
+  "flags": "ABSENT",
+  "handoffs": "ABSENT",
+  "canon_assignment_locks": [
+    "same_cracked_bowl",
+    "crack_preserved",
+    "signboard_state allowed_tokens: signboard_on, signboard_off"
+  ],
+  "prohibited_changes": [
+    "SELL",
+    "KEEP",
+    "彻底和解"
+  ],
+  "required_outcome": "ABSENT",
+  "unresolved_decisions": [
+    "shop_transfer_decision"
+  ],
+  "state_evidence": {
+    "relevant_prior_state": {
+      "relationship_state": "母子关系疏离，未达成彻底和解",
+      "knowledge_state": "周启已知晓碗的意义，但未承认",
+      "visual_state": "signboard_on"
+    },
+    "current_state": {
+      "relationship_state": "周启承认早知道碗的意义，但未达成彻底和解",
+      "knowledge_state": "周启已明确承认早知道碗的意义",
+      "visual_state": "signboard_off"
+    },
+    "proposed_state": {
+      "relationship_state": "可增进理解或保持距离，不升级为彻底和解",
+      "knowledge_state": "碗的意义已被双方知晓",
+      "visual_state": "signboard_off"
+    },
+    "knowledge_timing": {
+      "reveal_of_shared_use": "周启承认早知道，仅发生于第二场",
+      "reveal_of_room_content": "碗的交接发生于第一场"
+    },
+    "relationship_state": {
+      "initial": "周岚与周启疏离，未和解",
+      "after_scene_1": "周岚不安，周启接过碗但回避表态",
+      "after_scene_3": "两人同意等待雨停，未达成彻底和解"
+    },
+    "visual_state": {
+      "scene_1": "招牌灯亮，店门紧闭，雨声不停",
+      "scene_2": "招牌灯由亮转灭",
+      "scene_3": "招牌灯灭，店内只剩雨声与暗影"
+    }
+  },
+  "content": "场景 1\n场景 1\n\n打烊后的老面馆，雨声贴着玻璃淌下。周岚伏在案前擦拭一只裂了口的白瓷碗，灯光把她与碗的裂缝都照得发白。店门半掩，招牌灯仍亮着，映得门口积水一片晃动的红。\n\n周启推门进来，带进一股潮气。周岚没有抬头，只把碗往他面前推了推。\n\n周启：店里还亮着灯。\n\n周岚：你爸留下的，最后一只店碗。\n\n周启没接话，伸手去接碗。周岚的手在碗边停了一下，才松开。周启把碗托在手里，指尖正好压在那道裂口上。\n\n周岚：裂了，一直没换。\n\n周启轻轻点头，没看她，也没说自己早不早知道。他转过身，望着门外仍亮着的招牌灯。\n\n雨还在下。\n\n场景 2\n场景 2\n\n周启仍托着碗，背对周岚，看门外的灯。\n\n周启：把招牌灯关了吧。\n\n周岚的手停住，抬头看他。\n\n周岚：那是你爸留下的灯。\n\n周启：这碗，我早就知道。\n\n周岚愣了愣。周启转过身，指腹在碗的裂口上慢慢碾过。\n\n周启：爸走之前，跟我说过这只碗。裂口也是。\n\n周岚扶着桌沿，想说什么，又没开口。\n\n周启：所以先关灯。雨停之前，别把我当成回来接店的人。\n\n周岚没动。周启抬手，轻轻拉下门边那根灯绳。招牌灯灭了，门外只剩雨声和一片暗红褪去的水迹。\n\n周启：今晚谁也别说卖不卖。\n\n场景 3\n场景 3\n\n灯灭后，面馆暗下来，只有雨声和案上一盏微亮的小灯。周岚慢慢坐下，周启把碗放在她和自己之间。\n\n周岚：你这一走，我守了这么些年。\n\n周启：我没让你守。\n\n周岚没接，只看着碗上的裂口。\n\n周启：雨停之前，别想盘店的事。\n\n周岚：那雨停了呢？\n\n周启没答。他看着那盏小灯，又看窗外。雨仍在下，没有要停的意思。\n\n周岚轻声：那就先等。\n\n两人都没再说话。碗在中间，裂缝朝上。门外招牌灯灭着，屋里只剩雨声。",
+  "scene_packages": [
+    {
+      "scene_id": "E2E-FIX-02-S01",
+      "content": "场景 1\n\n打烊后的老面馆，雨声贴着玻璃淌下。周岚伏在案前擦拭一只裂了口的白瓷碗，灯光把她与碗的裂缝都照得发白。店门半掩，招牌灯仍亮着，映得门口积水一片晃动的红。\n\n周启推门进来，带进一股潮气。周岚没有抬头，只把碗往他面前推了推。\n\n周启：店里还亮着灯。\n\n周岚：你爸留下的，最后一只店碗。\n\n周启没接话，伸手去接碗。周岚的手在碗边停了一下，才松开。周启把碗托在手里，指尖正好压在那道裂口上。\n\n周岚：裂了，一直没换。\n\n周启轻轻点头，没看她，也没说自己早不早知道。他转过身，望着门外仍亮着的招牌灯。\n\n雨还在下。",
+      "structural_deliverable": {
+        "目标": "周岚把父亲最后一只店碗交给周启，观察他的反应",
+        "阻力": "周启只问灯、不问碗，回避对碗的意义表态",
+        "对白行动": "周岚以介绍碗的来历探问儿子，周启以灯转移话题",
+        "转折": "周启接过碗，却把注意转向仍亮着的招牌灯",
+        "入场": "周启带潮气推门，引入雨夜与隔阂",
+        "出场": "周启转身望招牌灯，回避已成，灯仍亮"
+      },
+      "state_evidence": {
+        "entity_identity": "cracked_white_porcelain_bowl",
+        "entity_custody": "碗由周岚递给周启，周启正用手托着",
+        "knowledge_holders": [
+          "周启"
+        ],
+        "reveal_status": "NOT_YET_REVEALED",
+        "relationship_state": "周岚期待却不逼问，周启接过却回避",
+        "signboard_state": "signboard_on",
+        "machine_state_display": "招牌灯仍亮，映出门外积水",
+        "location_presence": "打烊后的老面馆内",
+        "authorized_transitions": [
+          "signboard_on_to_off"
+        ]
+      },
+      "source_attribution": {
+        "source_role": "Scene Writer",
+        "source_record_id": "E2E-RUN-22/scene_writer/E2E-FIX-02-S01",
+        "version": "0.1",
+        "evidence_locator": "scene_packages/E2E-FIX-02-S01"
+      },
+      "evidence_locator": "scene_packages/E2E-FIX-02-S01"
+    },
+    {
+      "scene_id": "E2E-FIX-02-S02",
+      "content": "场景 2\n\n周启仍托着碗，背对周岚，看门外的灯。\n\n周启：把招牌灯关了吧。\n\n周岚的手停住，抬头看他。\n\n周岚：那是你爸留下的灯。\n\n周启：这碗，我早就知道。\n\n周岚愣了愣。周启转过身，指腹在碗的裂口上慢慢碾过。\n\n周启：爸走之前，跟我说过这只碗。裂口也是。\n\n周岚扶着桌沿，想说什么，又没开口。\n\n周启：所以先关灯。雨停之前，别把我当成回来接店的人。\n\n周岚没动。周启抬手，轻轻拉下门边那根灯绳。招牌灯灭了，门外只剩雨声和一片暗红褪去的水迹。\n\n周启：今晚谁也别说卖不卖。",
+      "structural_deliverable": {
+        "目标": "周启让母亲关灯，制造暂停营业的时刻",
+        "阻力": "周岚把灯视为父亲与店的执念，不想关",
+        "对白行动": "周启以承认早知道碗为筹码，换取周岚暂且放下灯",
+        "转折": "周启自己拉灭招牌灯，明确自己不等于接店的人",
+        "入场": "周启背对周岚看灯，从碗切入提议",
+        "出场": "灯灭，周启立下今晚不议卖不卖的界限"
+      },
+      "state_evidence": {
+        "entity_identity": "cracked_white_porcelain_bowl",
+        "entity_custody": "周启仍托着碗，指腹压过裂口",
+        "knowledge_holders": [
+          "周启"
+        ],
+        "reveal_status": "REVEALED_WITH_EVENT",
+        "relationship_state": "周岚发觉儿子并非不知情，但二人仍不和解",
+        "signboard_state": "signboard_off",
+        "machine_state_display": "招牌灯由亮转灭，门外只剩雨声",
+        "location_presence": "老面馆门边，灯绳被拉下",
+        "authorized_transitions": [
+          "signboard_on_to_off"
+        ]
+      },
+      "source_attribution": {
+        "source_role": "Scene Writer",
+        "source_record_id": "E2E-RUN-22/scene_writer/E2E-FIX-02-S02",
+        "version": "0.1",
+        "evidence_locator": "scene_packages/E2E-FIX-02-S02"
+      },
+      "evidence_locator": "scene_packages/E2E-FIX-02-S02"
+    },
+    {
+      "scene_id": "E2E-FIX-02-S03",
+      "content": "场景 3\n\n灯灭后，面馆暗下来，只有雨声和案上一盏微亮的小灯。周岚慢慢坐下，周启把碗放在她和自己之间。\n\n周岚：你这一走，我守了这么些年。\n\n周启：我没让你守。\n\n周岚没接，只看着碗上的裂口。\n\n周启：雨停之前，别想盘店的事。\n\n周岚：那雨停了呢？\n\n周启没答。他看着那盏小灯，又看窗外。雨仍在下，没有要停的意思。\n\n周岚轻声：那就先等。\n\n两人都没再说话。碗在中间，裂缝朝上。门外招牌灯灭着，屋里只剩雨声。",
+      "structural_deliverable": {
+        "目标": "周启引母亲不要现在决定店铺去留，周岚表达疲惫与不舍",
+        "阻力": "二人都想求一个卖或留、走或留的答案，却都答不出",
+        "对白行动": "周启以不答复维系悬置，周岚以先等让渡决定",
+        "转折": "周岚主动说出先等，两人把决定交给雨停之后",
+        "入场": "灯灭后的暗里，周启把碗放回二人之间",
+        "出场": "二人无言，碗在中间，决定悬置到雨停"
+      },
+      "state_evidence": {
+        "entity_identity": "cracked_white_porcelain_bowl",
+        "entity_custody": "碗被放回周岚与周启之间，无人再托",
+        "knowledge_holders": [
+          "周岚",
+          "周启"
+        ],
+        "reveal_status": "REVEALED_WITH_EVENT",
+        "relationship_state": "二人同意等待，但未达成彻底和解",
+        "signboard_state": "signboard_off",
+        "machine_state_display": "招牌灯灭，屋里只剩小灯与雨声",
+        "location_presence": "老面馆内，碗置于二人之间",
+        "authorized_transitions": [
+          "signboard_on_to_off"
+        ]
+      },
+      "source_attribution": {
+        "source_role": "Scene Writer",
+        "source_record_id": "E2E-RUN-22/scene_writer/E2E-FIX-02-S03",
+        "version": "0.1",
+        "evidence_locator": "scene_packages/E2E-FIX-02-S03"
+      },
+      "evidence_locator": "scene_packages/E2E-FIX-02-S03"
+    }
+  ]
+}

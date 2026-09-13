@@ -1,0 +1,249 @@
+{
+  "run_id": "E2E-RUN-15",
+  "append_only": true,
+  "entries": [
+    {
+      "entry_id": "E2E-RUN-15:001",
+      "sequence": 1,
+      "envelope": {
+        "source_role": "Scene Writer",
+        "source_record_id": "E2E-RUN-15/scene_writer/E2E-FIX-01-S01",
+        "version": "1.0",
+        "timestamp": "2026-08-30T08:16:07.659112+00:00",
+        "intended_recipient": "Continuity",
+        "handoff_reason": "Per-scene state evidence",
+        "canon_assignment_locks": [
+          "storage_room_opening",
+          "A-17 identity_lock",
+          "A-17 custody_required",
+          "brass_key condition_lock",
+          "shared_storage_reveal holder=许曼 not_before_scene=3",
+          "clothing_visual_state_code allowed_tokens=[soaked_uniform, changed_clothes]",
+          "relationship: 不得自动升级为完全和解"
+        ],
+        "prohibited_changes": [
+          "完全和解"
+        ],
+        "canonical_mode": "CREATE",
+        "primary_state_or_outcome": "SCENE_CREATED",
+        "flags": "ABSENT",
+        "handoffs": "ABSENT",
+        "required_outcome": "ABSENT",
+        "unresolved_decisions": [],
+        "relevant_prior_state": {
+          "key_identity": "A-17",
+          "custody": "钥匙由许宁握于掌中，许曼先递毛巾后接过收入手中"
+        },
+        "current_state": {
+          "key_identity": "A-17",
+          "custody": "钥匙由许宁握于掌中，许曼先递毛巾后接过收入手中",
+          "knowledge_holders": [
+            "许宁",
+            "许曼"
+          ],
+          "reveal_status": "NOT_YET_REVEALED",
+          "relationship_state": "许曼主导节奏，许宁顺从但压抑不满",
+          "clothing_visual_state_code": "soaked_uniform",
+          "clothing_visual_state_display": "夜班制服被暴雨浸透，紧贴身体，不断滴水",
+          "location_presence": "许曼住处门内走廊",
+          "authorized_transitions": []
+        },
+        "proposed_state": {
+          "authorized_transitions": []
+        },
+        "knowledge_timing": {
+          "knowledge_holders": [
+            "许宁",
+            "许曼"
+          ],
+          "reveal_status": "NOT_YET_REVEALED"
+        },
+        "relationship_state": "许曼主导节奏，许宁顺从但压抑不满",
+        "visual_state": {
+          "clothing_visual_state_code": "soaked_uniform",
+          "clothing_visual_state_display": "夜班制服被暴雨浸透，紧贴身体，不断滴水",
+          "location_presence": "许曼住处门内走廊"
+        },
+        "authority_source": "Scene Writer canonical CREATE output",
+        "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-15\\artifacts\\scene_writer_output.json#scene_packages/E2E-FIX-01-S01"
+      },
+      "state_snapshot": {
+        "key_identity": "A-17",
+        "custody": "钥匙由许宁握于掌中，许曼先递毛巾后接过收入手中",
+        "knowledge_holders": [
+          "许宁",
+          "许曼"
+        ],
+        "reveal_status": "NOT_YET_REVEALED",
+        "relationship_state": "许曼主导节奏，许宁顺从但压抑不满",
+        "clothing_visual_state_code": "soaked_uniform",
+        "clothing_visual_state_display": "夜班制服被暴雨浸透，紧贴身体，不断滴水",
+        "location_presence": "许曼住处门内走廊",
+        "authorized_transitions": []
+      }
+    },
+    {
+      "entry_id": "E2E-RUN-15:002",
+      "sequence": 2,
+      "envelope": {
+        "source_role": "Scene Writer",
+        "source_record_id": "E2E-RUN-15/scene_writer/E2E-FIX-01-S02",
+        "version": "1.0",
+        "timestamp": "2026-08-30T08:16:07.659112+00:00",
+        "intended_recipient": "Continuity",
+        "handoff_reason": "Per-scene state evidence",
+        "canon_assignment_locks": [
+          "storage_room_opening",
+          "A-17 identity_lock",
+          "A-17 custody_required",
+          "brass_key condition_lock",
+          "shared_storage_reveal holder=许曼 not_before_scene=3",
+          "clothing_visual_state_code allowed_tokens=[soaked_uniform, changed_clothes]",
+          "relationship: 不得自动升级为完全和解"
+        ],
+        "prohibited_changes": [
+          "完全和解"
+        ],
+        "canonical_mode": "CREATE",
+        "primary_state_or_outcome": "SCENE_CREATED",
+        "flags": "ABSENT",
+        "handoffs": "ABSENT",
+        "required_outcome": "ABSENT",
+        "unresolved_decisions": [],
+        "relevant_prior_state": {
+          "key_identity": "A-17",
+          "custody": "钥匙由许曼贴身或握在手心保管"
+        },
+        "current_state": {
+          "key_identity": "A-17",
+          "custody": "钥匙由许曼贴身或握在手心保管",
+          "knowledge_holders": [
+            "许曼"
+          ],
+          "reveal_status": "NOT_YET_REVEALED",
+          "relationship_state": "旧怨被勾起，更显紧张，未和解",
+          "clothing_visual_state_code": "changed_clothes",
+          "clothing_visual_state_display": "许宁换上许曼备下的干衣，袖口微长",
+          "location_presence": "许曼住处室内窄桌旁",
+          "authorized_transitions": [
+            "change_from_soaked_uniform"
+          ]
+        },
+        "proposed_state": {
+          "authorized_transitions": [
+            "change_from_soaked_uniform"
+          ]
+        },
+        "knowledge_timing": {
+          "knowledge_holders": [
+            "许曼"
+          ],
+          "reveal_status": "NOT_YET_REVEALED"
+        },
+        "relationship_state": "旧怨被勾起，更显紧张，未和解",
+        "visual_state": {
+          "clothing_visual_state_code": "changed_clothes",
+          "clothing_visual_state_display": "许宁换上许曼备下的干衣，袖口微长",
+          "location_presence": "许曼住处室内窄桌旁"
+        },
+        "authority_source": "Scene Writer canonical CREATE output",
+        "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-15\\artifacts\\scene_writer_output.json#scene_packages/E2E-FIX-01-S02"
+      },
+      "state_snapshot": {
+        "key_identity": "A-17",
+        "custody": "钥匙由许曼贴身或握在手心保管",
+        "knowledge_holders": [
+          "许曼"
+        ],
+        "reveal_status": "NOT_YET_REVEALED",
+        "relationship_state": "旧怨被勾起，更显紧张，未和解",
+        "clothing_visual_state_code": "changed_clothes",
+        "clothing_visual_state_display": "许宁换上许曼备下的干衣，袖口微长",
+        "location_presence": "许曼住处室内窄桌旁",
+        "authorized_transitions": [
+          "change_from_soaked_uniform"
+        ]
+      }
+    },
+    {
+      "entry_id": "E2E-RUN-15:003",
+      "sequence": 3,
+      "envelope": {
+        "source_role": "Scene Writer",
+        "source_record_id": "E2E-RUN-15/scene_writer/E2E-FIX-01-S03",
+        "version": "1.0",
+        "timestamp": "2026-08-30T08:16:07.659112+00:00",
+        "intended_recipient": "Continuity",
+        "handoff_reason": "Per-scene state evidence",
+        "canon_assignment_locks": [
+          "storage_room_opening",
+          "A-17 identity_lock",
+          "A-17 custody_required",
+          "brass_key condition_lock",
+          "shared_storage_reveal holder=许曼 not_before_scene=3",
+          "clothing_visual_state_code allowed_tokens=[soaked_uniform, changed_clothes]",
+          "relationship: 不得自动升级为完全和解"
+        ],
+        "prohibited_changes": [
+          "完全和解"
+        ],
+        "canonical_mode": "CREATE",
+        "primary_state_or_outcome": "SCENE_CREATED",
+        "flags": "ABSENT",
+        "handoffs": "ABSENT",
+        "required_outcome": "ABSENT",
+        "unresolved_decisions": [],
+        "relevant_prior_state": {
+          "key_identity": "A-17",
+          "custody": "钥匙被许曼放到许宁伸手可及的桌面上，归属未决"
+        },
+        "current_state": {
+          "key_identity": "A-17",
+          "custody": "钥匙被许曼放到许宁伸手可及的桌面上，归属未决",
+          "knowledge_holders": [
+            "许曼",
+            "许宁"
+          ],
+          "reveal_status": "REVEALED_WITH_EVENT",
+          "relationship_state": "因揭示产生新层次紧张，仍未完全和解",
+          "clothing_visual_state_code": "changed_clothes",
+          "clothing_visual_state_display": "许宁仍穿干衣，略显疲惫，未再回湿制服",
+          "location_presence": "许曼住处室内窗前桌边",
+          "authorized_transitions": []
+        },
+        "proposed_state": {
+          "authorized_transitions": []
+        },
+        "knowledge_timing": {
+          "knowledge_holders": [
+            "许曼",
+            "许宁"
+          ],
+          "reveal_status": "REVEALED_WITH_EVENT"
+        },
+        "relationship_state": "因揭示产生新层次紧张，仍未完全和解",
+        "visual_state": {
+          "clothing_visual_state_code": "changed_clothes",
+          "clothing_visual_state_display": "许宁仍穿干衣，略显疲惫，未再回湿制服",
+          "location_presence": "许曼住处室内窗前桌边"
+        },
+        "authority_source": "Scene Writer canonical CREATE output",
+        "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-15\\artifacts\\scene_writer_output.json#scene_packages/E2E-FIX-01-S03"
+      },
+      "state_snapshot": {
+        "key_identity": "A-17",
+        "custody": "钥匙被许曼放到许宁伸手可及的桌面上，归属未决",
+        "knowledge_holders": [
+          "许曼",
+          "许宁"
+        ],
+        "reveal_status": "REVEALED_WITH_EVENT",
+        "relationship_state": "因揭示产生新层次紧张，仍未完全和解",
+        "clothing_visual_state_code": "changed_clothes",
+        "clothing_visual_state_display": "许宁仍穿干衣，略显疲惫，未再回湿制服",
+        "location_presence": "许曼住处室内窗前桌边",
+        "authorized_transitions": []
+      }
+    }
+  ]
+}

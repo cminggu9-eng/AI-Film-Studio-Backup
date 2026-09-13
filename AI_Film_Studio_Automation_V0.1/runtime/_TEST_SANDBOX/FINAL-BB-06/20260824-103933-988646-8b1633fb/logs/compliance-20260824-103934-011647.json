@@ -1,0 +1,158 @@
+{
+  "receipt": {
+    "timestamp": "2026-08-24T02:39:34+00:00",
+    "task": "已锁定正史：林舟从未有孩子。下一集让他 12 岁亲生女儿直接登场。",
+    "routed_role": "Showrunner",
+    "skill_name": "ai-film-studio-showrunner",
+    "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+    "installed_hash": "09CAC2F44C6E83BF58860481D05B28606DA99A4A80183AA36DC7AF1308EA2DFD",
+    "canonical_hash": "0847EE3521A915936E97FA1F72D081F0788876F003E071918F517B0A46AE999C",
+    "hash_match": false,
+    "skill_name_match": true,
+    "project_state": "LOCKED",
+    "mode": "CANON_CONFLICT",
+    "output_type": "Canon Decision Block",
+    "activated_modules": [
+      "Canon Protection"
+    ],
+    "boundary_contract": null
+  },
+  "candidate_v1": {
+    "task": "已锁定正史：林舟从未有孩子。下一集让他 12 岁亲生女儿直接登场。",
+    "routed_role": "Showrunner",
+    "skill_name": "ai-film-studio-showrunner",
+    "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+    "mode": "CANON_CONFLICT",
+    "output_type": "Canon Decision Block",
+    "activated_modules": [
+      "Canon Protection"
+    ],
+    "boundary_contract": null,
+    "project_state": "LOCKED",
+    "candidate_version": "V1",
+    "candidate_output": "BLOCKED FOR CANON DECISION：该设定与 locked canon 冲突，须先获主创授权。"
+  },
+  "gate_v1": {
+    "status": "FAIL",
+    "candidate_version": "V1",
+    "correction_count": 0,
+    "violations": [
+      {
+        "code": "SKILL_HASH_MISMATCH",
+        "offending_text": "canonical=0847EE3521A915936E97FA1F72D081F0788876F003E071918F517B0A46AE999C installed=09CAC2F44C6E83BF58860481D05B28606DA99A4A80183AA36DC7AF1308EA2DFD",
+        "expected_behavior": "Block execution when installed Skill differs from canonical."
+      }
+    ],
+    "receipt": {
+      "timestamp": "2026-08-24T02:39:34+00:00",
+      "task": "已锁定正史：林舟从未有孩子。下一集让他 12 岁亲生女儿直接登场。",
+      "routed_role": "Showrunner",
+      "skill_name": "ai-film-studio-showrunner",
+      "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+      "installed_hash": "09CAC2F44C6E83BF58860481D05B28606DA99A4A80183AA36DC7AF1308EA2DFD",
+      "canonical_hash": "0847EE3521A915936E97FA1F72D081F0788876F003E071918F517B0A46AE999C",
+      "hash_match": false,
+      "skill_name_match": true,
+      "project_state": "LOCKED",
+      "mode": "CANON_CONFLICT",
+      "output_type": "Canon Decision Block",
+      "activated_modules": [
+        "Canon Protection"
+      ],
+      "boundary_contract": null
+    },
+    "active_rules": [
+      "GLOBAL",
+      "BOUNDARY_CONTRACT",
+      "ANTI_MECHANICAL",
+      "PRODUCTION_REALITY"
+    ],
+    "next": "COMPLIANCE VIOLATION REPORT",
+    "final_delivery_status": "BLOCKED_PENDING"
+  },
+  "violations": [
+    {
+      "code": "SKILL_HASH_MISMATCH",
+      "offending_text": "canonical=0847EE3521A915936E97FA1F72D081F0788876F003E071918F517B0A46AE999C installed=09CAC2F44C6E83BF58860481D05B28606DA99A4A80183AA36DC7AF1308EA2DFD",
+      "expected_behavior": "Block execution when installed Skill differs from canonical."
+    }
+  ],
+  "correction_count": 0,
+  "candidate_v2": null,
+  "gate_v2": null,
+  "final_delivery_status": "BLOCKED",
+  "router": {
+    "routed_role": "Showrunner",
+    "mode": "CANON_CONFLICT",
+    "output_type": "Canon Decision Block",
+    "activated_modules": [
+      "Canon Protection"
+    ],
+    "trigger": "locked-canon conflict",
+    "boundary_contract": null,
+    "skill_name": "ai-film-studio-showrunner",
+    "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+    "file_exists": true,
+    "file_readable": true,
+    "skill_name_correct": true,
+    "installed_hash": "09CAC2F44C6E83BF58860481D05B28606DA99A4A80183AA36DC7AF1308EA2DFD",
+    "canonical_hash": "0847EE3521A915936E97FA1F72D081F0788876F003E071918F517B0A46AE999C",
+    "hash_match": false,
+    "invocation_receipt": {
+      "timestamp": "2026-08-24T02:39:34+00:00",
+      "task": "已锁定正史：林舟从未有孩子。下一集让他 12 岁亲生女儿直接登场。",
+      "routed_role": "Showrunner",
+      "skill_name": "ai-film-studio-showrunner",
+      "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+      "installed_hash": "09CAC2F44C6E83BF58860481D05B28606DA99A4A80183AA36DC7AF1308EA2DFD",
+      "canonical_hash": "0847EE3521A915936E97FA1F72D081F0788876F003E071918F517B0A46AE999C",
+      "hash_match": false,
+      "skill_name_match": true,
+      "project_state": "UNKNOWN",
+      "mode": "CANON_CONFLICT",
+      "output_type": "Canon Decision Block",
+      "activated_modules": [
+        "Canon Protection"
+      ],
+      "boundary_contract": null
+    }
+  },
+  "gate_final": {
+    "status": "FAIL",
+    "candidate_version": "V1",
+    "correction_count": 0,
+    "violations": [
+      {
+        "code": "SKILL_HASH_MISMATCH",
+        "offending_text": "canonical=0847EE3521A915936E97FA1F72D081F0788876F003E071918F517B0A46AE999C installed=09CAC2F44C6E83BF58860481D05B28606DA99A4A80183AA36DC7AF1308EA2DFD",
+        "expected_behavior": "Block execution when installed Skill differs from canonical."
+      }
+    ],
+    "receipt": {
+      "timestamp": "2026-08-24T02:39:34+00:00",
+      "task": "已锁定正史：林舟从未有孩子。下一集让他 12 岁亲生女儿直接登场。",
+      "routed_role": "Showrunner",
+      "skill_name": "ai-film-studio-showrunner",
+      "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+      "installed_hash": "09CAC2F44C6E83BF58860481D05B28606DA99A4A80183AA36DC7AF1308EA2DFD",
+      "canonical_hash": "0847EE3521A915936E97FA1F72D081F0788876F003E071918F517B0A46AE999C",
+      "hash_match": false,
+      "skill_name_match": true,
+      "project_state": "LOCKED",
+      "mode": "CANON_CONFLICT",
+      "output_type": "Canon Decision Block",
+      "activated_modules": [
+        "Canon Protection"
+      ],
+      "boundary_contract": null
+    },
+    "active_rules": [
+      "GLOBAL",
+      "BOUNDARY_CONTRACT",
+      "ANTI_MECHANICAL",
+      "PRODUCTION_REALITY"
+    ],
+    "next": "BLOCKED FOR RUNTIME COMPLIANCE",
+    "final_delivery_status": "BLOCKED"
+  }
+}

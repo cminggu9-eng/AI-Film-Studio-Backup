@@ -1,0 +1,8 @@
+{
+  "lifecycle_stage": "LOCAL_VALIDATION_FAILURE_RECORDED",
+  "invocation_id": "E2E-RUN-20:scene_writer:1",
+  "role": "Scene Writer",
+  "validation_stage": "Strict Function Schema Validation",
+  "category": "SCHEMA VALIDATION FAILURE",
+  "detail": "StrictTransportSchemaError: JSON Schema validation failed at scenes/0/id: 'E2E-FIX-02-S01' is not one of ['E2E-FIX-01-S01', 'E2E-FIX-01-S02', 'E2E-FIX-01-S03']"
+}

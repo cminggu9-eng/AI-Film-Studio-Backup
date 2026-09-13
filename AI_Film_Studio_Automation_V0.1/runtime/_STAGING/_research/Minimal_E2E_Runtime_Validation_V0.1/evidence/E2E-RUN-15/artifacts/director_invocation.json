@@ -1,0 +1,50 @@
+{
+  "lifecycle_stage": "USAGE_AND_INVOCATION_METADATA_PERSISTED",
+  "invocation_id": "E2E-RUN-15:director:1",
+  "role": "Director",
+  "timestamp": "2026-08-30T08:16:07.689685+00:00",
+  "input_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-15\\artifacts\\director_input.json",
+  "provider": "deepseek",
+  "model": "deepseek-v4-pro",
+  "provider_invocation_id": "4a0f246a-b8d8-43ab-8eaf-9520e5954039",
+  "finish_reason": "tool_calls",
+  "requested_max_tokens": 3500,
+  "http_status": 200,
+  "trace_headers": {
+    "x-ds-trace-id": "420af4a80a30c617b6dac5d06d9b650f",
+    "x-request-id": "ABSENT",
+    "request-id": "ABSENT",
+    "traceparent": "ABSENT",
+    "x-amzn-trace-id": "ABSENT"
+  },
+  "usage": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-pro",
+    "provider_invocation_id": "4a0f246a-b8d8-43ab-8eaf-9520e5954039",
+    "usage": {
+      "prompt_tokens": 16111,
+      "completion_tokens": 2025,
+      "total_tokens": 18136,
+      "prompt_cache_hit_tokens": 512,
+      "prompt_cache_miss_tokens": 15599
+    },
+    "latency_ms": 49399,
+    "thinking_mode": "disabled",
+    "fixture_id": "E2E-FIX-01",
+    "request_success": true,
+    "requested_max_tokens": 3500,
+    "finish_reason": "tool_calls",
+    "http_status": 200,
+    "trace_headers": {
+      "x-ds-trace-id": "420af4a80a30c617b6dac5d06d9b650f",
+      "x-request-id": "ABSENT",
+      "request-id": "ABSENT",
+      "traceparent": "ABSENT",
+      "x-amzn-trace-id": "ABSENT"
+    },
+    "structured_output": {
+      "function_name": "submit_director_package",
+      "transport": "forced_function"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "provider": "deepseek",
+  "model": "deepseek-v4-pro",
+  "call_count": 1,
+  "calls": [
+    {
+      "invocation_id": "E2E-RUN-01:showrunner:1",
+      "role": "Showrunner",
+      "provider": "deepseek",
+      "model": "deepseek-v4-pro",
+      "input_artifact": "artifacts/showrunner_input.json",
+      "provider_success": true,
+      "role_contract_success": false,
+      "success": false,
+      "failure_class": "POST_RESPONSE_ROLE_CONTRACT_FAILURE",
+      "failure_detail": "Only Scene Writer may supply scene_packages",
+      "exact_call_timestamp": "UNAVAILABLE — the original runner failed before it persisted the call record",
+      "observed_execution_window_start_utc": "2026-08-26T09:30:54.587770+00:00",
+      "observed_execution_window_end_utc": "2026-08-26T09:31:49.165971+00:00",
+      "token_usage": "UNAVAILABLE — not fabricated after pre-record failure",
+      "estimated_cost": "UNAVAILABLE — not fabricated after pre-record failure",
+      "retry_count": 0,
+      "automatic_fallback": 0
+    }
+  ],
+  "retry_count": 0,
+  "automatic_fallback": 0
+}

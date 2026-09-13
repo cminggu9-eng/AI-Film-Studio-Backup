@@ -1,0 +1,9 @@
+[
+  {
+    "category": "SEMANTIC SAFEGUARD FAILURE",
+    "owner": "Integration Semantic Safeguard",
+    "detail": "Scene Writer output was blocked; downstream roles are not reached",
+    "blocking": true,
+    "safe_stop": true
+  }
+]

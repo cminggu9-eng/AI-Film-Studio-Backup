@@ -1,0 +1,33 @@
+{
+  "invocation_id": "eb03",
+  "timestamp": "2026-08-24T06:06:41.670251+00:00",
+  "skill_identity": "language-voice-qa",
+  "skill_version": "0.1",
+  "skill_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+  "input_mode": "QA_DEFAULT",
+  "context_availability_summary": {
+    "provided": [
+      "Original"
+    ],
+    "derived_safely": [
+      "Requested Mode"
+    ],
+    "unknown": [
+      "Available Context",
+      "Project Constraints / Canon",
+      "Protected Terms / Entities",
+      "Register / usage",
+      "Speaker / Character Context",
+      "User Creative Intent"
+    ]
+  },
+  "final_decision_state": "PASS / NO CHANGE",
+  "severity": "LEVEL 0",
+  "route": "Early Exit",
+  "rewrite_used": false,
+  "handoff_occurred": false,
+  "runtime_contract_passed": true,
+  "failure_code": null,
+  "failure_name": null,
+  "integrity_passed": true
+}

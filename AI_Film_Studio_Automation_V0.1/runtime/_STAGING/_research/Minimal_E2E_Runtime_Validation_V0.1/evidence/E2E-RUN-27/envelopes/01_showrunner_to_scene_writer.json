@@ -1,0 +1,64 @@
+{
+  "source_role": "Showrunner",
+  "source_record_id": "E2E-RUN-27/showrunner/1",
+  "version": "1.0",
+  "timestamp": "2026-09-12T05:50:54.583499+00:00",
+  "intended_recipient": "Scene Writer",
+  "handoff_reason": "Story / Canon Package",
+  "canon_assignment_locks": [
+    "C-09标识保持不变，始终为一张存储卡，且必须保管好",
+    "梁音在第二场之前不得揭示未交出的照片内容",
+    "相机电池状态只能是battery_installed或battery_removed_and_sealed之一",
+    "沈泊在第一班船离港后再决定是否查看存储卡",
+    "沈泊和梁音已经拆伙两年"
+  ],
+  "prohibited_changes": [
+    "resume_partnership",
+    "permanent_break",
+    "不得在场景中宣告沈泊和梁音复合合作或彻底决裂"
+  ],
+  "canonical_mode": "ABSENT",
+  "primary_state_or_outcome": "INFO",
+  "flags": "ABSENT",
+  "handoffs": "ABSENT",
+  "required_outcome": "建立以沈泊和梁音为核心、围绕C-09存储卡和拆伙两年的关系展开的三场故事结构，明确人物状态、知识锁定、揭示时机和结局约束，但不写完整场景对白。",
+  "unresolved_decisions": [
+    "沈泊最终是否查看存储卡"
+  ],
+  "relevant_prior_state": {
+    "relationship": "沈泊和梁音曾是搭档，已拆伙两年",
+    "knowledge": "梁音持有C-09存储卡，卡内有最后一次合作时未交出的照片",
+    "prop": "C-09存储卡由梁音保管，身份锁定",
+    "visual": "相机电池初始状态未定，但必须在电池已取出封存或仍安装之间选择"
+  },
+  "current_state": {
+    "relationship": "拆伙两年，当前在渡口重逢",
+    "knowledge": "沈泊尚未查看存储卡，梁音承认卡的存在并要求封存电池",
+    "prop": "梁音将C-09存储卡交给沈泊，要求先取出相机电池封存",
+    "visual": "行动涉及相机电池，必须符合允许状态"
+  },
+  "proposed_state": {
+    "relationship": "在拆伙状态下，围绕存储卡和照片的处理产生张力，但不复合也不决裂",
+    "knowledge": "照片内容在第一场后、第二场前保持隐藏，由梁音持有；沈泊在第一班船离港后才能决定是否查看",
+    "prop": "存储卡由沈泊保管，但查看决定延后；电池状态按场景需要呈现",
+    "visual": "电池处于battery_removed_and_sealed状态，以满足封存要求（或保留battery_installed状态并在后续转为封存，需在场景中明确）"
+  },
+  "knowledge_timing": {
+    "withheld_photo_reveal": "not_before_scene 2：梁音不得在第二场之前揭示照片内容"
+  },
+  "relationship_state": {
+    "starting_state": "拆伙两年，彼此疏离但有未了结的过去",
+    "allowed_changes": "关系在拆伙前提下可以因存储卡交涉产生波动，但不得复合或彻底决裂"
+  },
+  "visual_state": {
+    "camera_battery_state": {
+      "allowed_tokens": [
+        "battery_installed",
+        "battery_removed_and_sealed"
+      ],
+      "current_requirement": "根据场景描述，电池状态应明确为battery_removed_and_sealed（封存），但允许在场景中处理为从battery_installed转换为battery_removed_and_sealed"
+    }
+  },
+  "authority_source": "Showrunner canonical Skill output",
+  "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-27\\artifacts\\showrunner_output.json"
+}

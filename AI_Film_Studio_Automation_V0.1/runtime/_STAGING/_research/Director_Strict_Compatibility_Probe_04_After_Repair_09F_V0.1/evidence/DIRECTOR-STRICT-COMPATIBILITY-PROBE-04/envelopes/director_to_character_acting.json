@@ -1,0 +1,70 @@
+{
+  "source_role": "Director",
+  "source_record_id": "DIRECTOR-STRICT-COMPATIBILITY-PROBE-04/director/1",
+  "version": "1.0",
+  "timestamp": "2026-08-30T01:21:27.809208+00:00",
+  "intended_recipient": "Character & Acting",
+  "handoff_reason": "Direction constraints",
+  "canon_assignment_locks": [
+    "scene_count: 3",
+    "output_language: zh-CN",
+    "characters: [许宁, 许曼]",
+    "relationship: [不得自动升级为完全和解]",
+    "prop: {entity_id: A-17, identity_lock: A-17, custody_required: true, condition_lock: brass_key}",
+    "knowledge: [{event_id: shared_storage_reveal, holder: 许曼, not_before_scene: 3}]",
+    "visual_state: [{dimension: clothing_visual_state_code, allowed_tokens: [soaked_uniform, changed_clothes]}]",
+    "prohibited: [完全和解]",
+    "decision_locks: [storage_room_opening]"
+  ],
+  "prohibited_changes": [
+    "完全和解",
+    "不得自动升级为完全和解"
+  ],
+  "canonical_mode": "PLAN",
+  "primary_state_or_outcome": "DIRECTION_PLAN_PRODUCED",
+  "flags": "ABSENT",
+  "handoffs": "ABSENT",
+  "required_outcome": "三场连续空间内的直接场面调度方案：以钥匙A-17的保管转移与视线轨迹为核心，将风暴/门厅、等待的屋内、走廊尽头的储物间门串联为一个心理被压缩的封闭几何体，同时锁住关系张力、知识揭示时序与视觉状态代码。",
+  "unresolved_decisions": [
+    "是否打开储物间（storage_room_opening）需由后续场景或用户决定，不得由导演锁定",
+    "储物间内容未定义，导演不得预设门后可见物",
+    "许宁换衣（changed_clothes）时机锁定在第一场末尾/第二场开头，具体执行由场景材料确定"
+  ],
+  "relevant_prior_state": {
+    "relationship_state": "疏远、久未联系、互有猜疑",
+    "knowledge_state": "许曼独知 shared_storage_reveal；许宁仅知钥匙A-17存在",
+    "visual_state": "许宁 soaked_uniform",
+    "key_custody": "A-17由许宁持有"
+  },
+  "current_state": {
+    "relationship_state": "试探与保留并存，未和解",
+    "knowledge_state": "许曼未提前透露 shared_storage_reveal",
+    "visual_state": "scene1 soaked_uniform；scene2/3 changed_clothes",
+    "key_custody": "A-17始终可追溯持有，归属未交接"
+  },
+  "proposed_state": {
+    "relationship_state": "揭示后张力保留，未达成完全和解",
+    "knowledge_state": "scene3 许曼揭示 shared_storage_reveal",
+    "visual_state": "scene3 许宁 changed_clothes",
+    "key_custody": "scene3 钥匙推回许宁掌心，门未开"
+  },
+  "knowledge_timing": {
+    "shared_storage_reveal": {
+      "holder": "许曼",
+      "not_before_scene": 3,
+      "status": "REVEALED_WITH_EVENT"
+    },
+    "storage_room_opening": "未定，保持开放"
+  },
+  "relationship_state": "疏远→试探保留→揭示后张力保留，未达成完全和解",
+  "visual_state": {
+    "clothing_visual_state_code": {
+      "scene_1": "soaked_uniform",
+      "scene_2": "changed_clothes",
+      "scene_3": "changed_clothes"
+    },
+    "authorized_transition": "change_from_soaked_uniform"
+  },
+  "authority_source": "Director canonical Skill output",
+  "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Director_Strict_Compatibility_Probe_04_After_Repair_09F_V0.1\\evidence\\DIRECTOR-STRICT-COMPATIBILITY-PROBE-04\\artifacts\\director_output.json"
+}

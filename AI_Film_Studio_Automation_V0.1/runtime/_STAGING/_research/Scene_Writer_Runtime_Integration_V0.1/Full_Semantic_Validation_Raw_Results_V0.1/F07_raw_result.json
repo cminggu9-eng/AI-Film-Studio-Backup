@@ -1,0 +1,238 @@
+{
+  "fixture": {
+    "id": "F07",
+    "title": "Exposition Through Dramatic Action",
+    "focus": [
+      "information_handling",
+      "discovery",
+      "resistance",
+      "dramatic_action"
+    ],
+    "expected_boundaries": {
+      "must": [
+        "必要信息通过发现、抵抗或行动进入场景",
+        "信息改变人物下一步"
+      ],
+      "must_not": [
+        "让双方互相朗读双方都已知道的背景",
+        "新增事故原因或外部命令"
+      ]
+    },
+    "assignment": {
+      "requested_mode": "CREATE",
+      "output_language": "zh-CN",
+      "project_id": "FSV-SYNTHETIC",
+      "episode_id": "FSV-EP01",
+      "scene_id": "F07",
+      "scene_request": "写一个必须交付信息的短场景；让信息通过行动、发现或抵抗产生戏剧功能。",
+      "scene_purpose": "让一张通知改变两人的排练安排。",
+      "repair_target": null,
+      "canon_locks": [
+        "地点是学校排练室。",
+        "人物只有陆遥和陈寻。",
+        "门缝下塞进一张通知：明天的排练室改到B馆。",
+        "陆遥先看到通知；陈寻尚未看到。",
+        "没有人知道改场地的原因。"
+      ],
+      "showrunner_locks": [
+        "场景结束时，陈寻接受改到B馆，但要求陆遥一起搬走桌上的道具箱。"
+      ],
+      "participants": [
+        {
+          "name": "陆遥",
+          "role": "学生",
+          "objective": "让排练不被取消。",
+          "knowledge": "先看见场地改到B馆的通知。",
+          "constraint": "不能编造改场地的原因。"
+        },
+        {
+          "name": "陈寻",
+          "role": "学生",
+          "objective": "不想在没有准备的情况下搬动道具。",
+          "knowledge": "尚未看见通知。",
+          "constraint": "不应被写成一开始就知道改场地。"
+        }
+      ],
+      "character_context": {
+        "relationship": "同组同学。",
+        "creative_freedom": "可用门缝、通知、道具箱、排练动作和对白。"
+      },
+      "required_event": "通知被发现并影响排练安排。",
+      "required_information": "明天排练室改到B馆；原因未知。",
+      "required_outcome": "陈寻接受改场地，并提出共同搬道具箱。",
+      "prior_scene_state": "两人正在排练室收尾，通知刚从门缝滑进来。",
+      "desired_post_state": "改场地成为已接受的行动安排。",
+      "production_constraints": null,
+      "requested_form": "短、可演场景；不把信息写成说明书。",
+      "downstream_requests": [],
+      "qa_requests": []
+    }
+  },
+  "sequence": 7,
+  "classification": "FULL SEMANTIC VALIDATION / SYNTHETIC / NON-CANON / REAL SEMANTIC EXECUTION",
+  "formal_execution_count_for_fixture": 1,
+  "resamples_for_fixture": 0,
+  "provider": "deepseek",
+  "model": "deepseek-v4-pro",
+  "assignment": {
+    "requested_mode": "CREATE",
+    "output_language": "zh-CN",
+    "project_id": "FSV-SYNTHETIC",
+    "episode_id": "FSV-EP01",
+    "scene_id": "F07",
+    "scene_request": "写一个必须交付信息的短场景；让信息通过行动、发现或抵抗产生戏剧功能。",
+    "scene_purpose": "让一张通知改变两人的排练安排。",
+    "repair_target": null,
+    "canon_locks": [
+      "地点是学校排练室。",
+      "人物只有陆遥和陈寻。",
+      "门缝下塞进一张通知：明天的排练室改到B馆。",
+      "陆遥先看到通知；陈寻尚未看到。",
+      "没有人知道改场地的原因。"
+    ],
+    "showrunner_locks": [
+      "场景结束时，陈寻接受改到B馆，但要求陆遥一起搬走桌上的道具箱。"
+    ],
+    "participants": [
+      {
+        "name": "陆遥",
+        "role": "学生",
+        "objective": "让排练不被取消。",
+        "knowledge": "先看见场地改到B馆的通知。",
+        "constraint": "不能编造改场地的原因。"
+      },
+      {
+        "name": "陈寻",
+        "role": "学生",
+        "objective": "不想在没有准备的情况下搬动道具。",
+        "knowledge": "尚未看见通知。",
+        "constraint": "不应被写成一开始就知道改场地。"
+      }
+    ],
+    "character_context": {
+      "relationship": "同组同学。",
+      "creative_freedom": "可用门缝、通知、道具箱、排练动作和对白。"
+    },
+    "required_event": "通知被发现并影响排练安排。",
+    "required_information": "明天排练室改到B馆；原因未知。",
+    "required_outcome": "陈寻接受改场地，并提出共同搬道具箱。",
+    "prior_scene_state": "两人正在排练室收尾，通知刚从门缝滑进来。",
+    "desired_post_state": "改场地成为已接受的行动安排。",
+    "production_constraints": null,
+    "requested_form": "短、可演场景；不把信息写成说明书。",
+    "downstream_requests": [],
+    "qa_requests": [],
+    "request_id": "FSV-SW-F07"
+  },
+  "runtime_result": {
+    "runtime_status": "SUCCESS",
+    "runtime_failure_code": null,
+    "runtime_failure_message": null,
+    "request_id": "FSV-SW-F07",
+    "canonical_binding": {
+      "identity": "scene-writer",
+      "version": "V0.1",
+      "canonical_path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\02_Scene_Writer\\scene-writer\\SKILL.md",
+      "expected_sha256": "93e1be12988f8caa6cdd76acb5e6c1bf6ad3ca0dff5806a2ea93511e66052dfb",
+      "adapter_status": "REGISTERED",
+      "real_executor": "BOUND",
+      "semantic_integrity_verifier": "BOUND",
+      "synthetic_executor": "NOT_PRESENT",
+      "actual_sha256": "93e1be12988f8caa6cdd76acb5e6c1bf6ad3ca0dff5806a2ea93511e66052dfb",
+      "metadata": {
+        "name": "scene-writer",
+        "display_version": "V0.1"
+      },
+      "passed": true,
+      "reason": null
+    },
+    "idempotency": "NEW",
+    "scene_writer": {
+      "creative_deliverable": {
+        "kind": "scene",
+        "content": "排练室。陆遥和陈寻正在收尾。  陆遥走向门边，弯腰捡起一张纸。  陆遥（念）：“明天的排练室改到B馆。”  陈寻抬头，手里还拿着道具。  陈寻：什么？  陆遥把通知递过去。  陈寻（扫一眼）：“就这一句？没说为什么？”  陆遥：“不知道。上面没写。”  陈寻皱眉，放下道具。  陈寻：那明天我们直接去B馆？  陆遥点头。  陈寻看向桌上的道具箱。  陈寻：行。那这个箱子，你跟我一起搬过去。  陆遥：好。  两人开始收拾道具箱。"
+      },
+      "control_data": {
+        "primary_state": "SCENE_CREATED",
+        "flags": [],
+        "handoffs": [],
+        "scene_function": "通过发现通知传递改场地信息，并转化为共同搬道具箱的行动共识。",
+        "objectives": "陆遥：让排练不被取消；陈寻：不想在没有准备的情况下搬动道具。",
+        "resistance": "陈寻对临时改场地和无人解释原因有轻微抵触，体现在对通知内容简短的质疑和搬道具的抗拒情绪。",
+        "before_state": "两人在排练室收尾，陆遥刚看到通知，陈寻尚未看到。",
+        "turn": "陈寻接受改场地，并提出共同搬道具箱，形成新的行动安排。",
+        "state_after": "改场地成为已接受的行动安排，两人准备共同搬道具箱。",
+        "entry_rationale": "从陆遥捡起通知开始，直接进入信息发现环节，无多余铺垫。",
+        "exit_rationale": "以两人开始收拾道具箱结束，完成共同搬道具的约定，进入执行状态。",
+        "diagnosis_summary": "场景通过行动展示信息传递，未将信息写成说明书；双方目标在对话中自然展现；改场地原因未知，符合角色知识限制。",
+        "rule_hits": [
+          "信息通过行动/对话传递",
+          "角色知识限制遵守",
+          "无导演/表演指令"
+        ]
+      }
+    },
+    "output_language": "zh-CN",
+    "output_language_resolution": "EXPLICIT",
+    "assignment_fact_validation": {
+      "status": "PASS",
+      "guard_profile": [
+        "LOCKED_FACT_PRESERVATION",
+        "UNSPECIFIED_FACT_PROHIBITION",
+        "CHARACTER_KNOWLEDGE_SCOPE",
+        "EXPLICIT_UNKNOWN_REASON"
+      ],
+      "violations": []
+    },
+    "semantic_integrity_validation": {
+      "integrity_result": "PASS",
+      "violations": []
+    }
+  },
+  "unexpected_exception": null,
+  "generation_usage": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-pro",
+    "provider_invocation_id": "db9e62e0-b9e0-4f91-a5f3-9cb2df955197",
+    "usage": {
+      "prompt_tokens": 4183,
+      "completion_tokens": 491,
+      "total_tokens": 4674,
+      "prompt_cache_hit_tokens": 3200,
+      "prompt_cache_miss_tokens": 983
+    },
+    "latency_ms": 12337,
+    "thinking_mode": "disabled",
+    "fixture_id": "F07",
+    "request_success": true
+  },
+  "verification_usage": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-pro",
+    "provider_invocation_id": "ebfaf534-9443-4489-a207-b4ec7cfb37a9",
+    "usage": {
+      "prompt_tokens": 1725,
+      "completion_tokens": 18,
+      "total_tokens": 1743,
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 957
+    },
+    "latency_ms": 2550,
+    "thinking_mode": "disabled",
+    "fixture_id": "semantic-assignment-integrity",
+    "request_success": true
+  },
+  "estimated_cost_cny": {
+    "generation": 0.005975,
+    "verification": 0.0029982,
+    "total": 0.0089732
+  },
+  "pricing_basis": {
+    "currency": "CNY",
+    "unit": "per_1M_tokens",
+    "input_cache_hit": 0.025,
+    "input_cache_miss": 3.0,
+    "output": 6.0,
+    "status": "ESTIMATED"
+  }
+}

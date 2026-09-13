@@ -1,0 +1,76 @@
+{
+  "classification": "VALIDATION / SYNTHETIC / NON-CANON / REAL SEMANTIC EXECUTION",
+  "real_execution": true,
+  "mock": false,
+  "stub": false,
+  "canonical_binding": {
+    "identity": "scene-writer",
+    "version": "V0.1",
+    "canonical_path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\02_Scene_Writer\\scene-writer\\SKILL.md",
+    "expected_sha256": "93e1be12988f8caa6cdd76acb5e6c1bf6ad3ca0dff5806a2ea93511e66052dfb",
+    "adapter_status": "REGISTERED",
+    "real_executor": "BOUND",
+    "synthetic_executor": "NOT_PRESENT",
+    "actual_sha256": "93e1be12988f8caa6cdd76acb5e6c1bf6ad3ca0dff5806a2ea93511e66052dfb",
+    "metadata": {"name": "scene-writer", "display_version": "V0.1"},
+    "passed": true,
+    "reason": null
+  },
+  "runtime_result": {
+    "runtime_status": "SUCCESS",
+    "runtime_failure_code": null,
+    "runtime_failure_message": null,
+    "request_id": "SMOKE-SW-EXEC-01",
+    "idempotency": "NEW",
+    "output_language": "zh-CN",
+    "output_language_resolution": "EXPLICIT",
+    "scene_writer": {
+      "creative_deliverable": {
+        "kind": "scene",
+        "content": "会议室的灯光暗了一半。\n\n林妍走到陈默桌旁，手里捏着手机，语速比平时快：‘明天的晨会报告，能麻烦你接手吗？原定主讲人明天早上来不了。’\n\n陈默正在收电脑，动作没停：‘怎么这么突然？’\n\n‘具体情况我不清楚，他那边临时有状况。’林妍顿了顿，‘但资料都在，今晚我发你，过一遍就能上。’\n\n陈默把电脑放进包里，拉上拉链，抬头看她：‘条件是什么？’\n\n‘没有条件。就是今晚你花点时间过一下，有问题随时找我。’\n\n陈默沉默几秒，手指在包带上敲了一下：‘我可以接，但所有材料今晚十二点前必须发给我，少一份都不行。’\n\n‘行，我回去就整理，一小时内发你。’林妍点了下手机屏幕，‘先谢谢了。’\n\n陈默拎起包：‘别谢太早，我现在只想回家睡觉。’\n\n两人一前一后走出会议室。林妍顺手关了灯。"
+      },
+      "control_data": {
+        "primary_state": "SCENE_CREATED",
+        "flags": [],
+        "handoffs": [],
+        "scene_function": "林妍请求陈默接手明早报告，并达成条件性同意。",
+        "objectives": "林妍：确认今晚有人接手明早报告；陈默：避免被强加责任，确保条件明确。",
+        "resistance": "陈默不想临时被安排，且准备离开；原因不明但不可突破。",
+        "before_state": "会议刚结束，两人单独留在会议室。",
+        "turn": "陈默有条件同意接手：今晚12点前必须收到全部材料。",
+        "state_after": "陈默同意接手，林妍承诺今晚整理并发送材料。",
+        "entry_rationale": "从林妍走向陈默开始，直接进入请求，避免无关铺垫。",
+        "exit_rationale": "陈默有条件接受并离场，场景结束于林妍关灯，体现状态改变。",
+        "diagnosis_summary": null,
+        "rule_hits": []
+      }
+    }
+  },
+  "provider": "deepseek",
+  "model": "deepseek-v4-pro",
+  "usage": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-pro",
+    "provider_invocation_id": "270cf170-834b-4d68-ad03-709bc9bf2b1f",
+    "usage": {
+      "prompt_tokens": 3580,
+      "completion_tokens": 499,
+      "total_tokens": 4079,
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 3580
+    },
+    "latency_ms": 10150,
+    "thinking_mode": "disabled",
+    "fixture_id": "SMOKE-SW-EXEC-01",
+    "request_success": true
+  },
+  "estimated_cost_cny": 0.013734,
+  "pricing_basis": {
+    "currency": "CNY",
+    "unit": "per_1M_tokens",
+    "input_cache_hit": 0.025,
+    "input_cache_miss": 3.0,
+    "output": 6.0,
+    "status": "ESTIMATED"
+  }
+}

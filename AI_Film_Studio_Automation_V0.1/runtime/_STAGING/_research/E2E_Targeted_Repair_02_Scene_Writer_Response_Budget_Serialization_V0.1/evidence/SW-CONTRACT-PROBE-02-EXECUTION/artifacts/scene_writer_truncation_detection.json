@@ -1,0 +1,12 @@
+{
+  "classification": "NOT_TRUNCATED",
+  "truncated": false,
+  "finish_reason": "stop",
+  "completion_tokens": 1756,
+  "requested_max_tokens": 5000,
+  "json_complete": false,
+  "signals": [
+    "INCOMPLETE_JSON"
+  ],
+  "persistence_verification_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_02_Scene_Writer_Response_Budget_Serialization_V0.1\\evidence\\SW-CONTRACT-PROBE-02-EXECUTION\\artifacts\\scene_writer_persistence_verification.json"
+}

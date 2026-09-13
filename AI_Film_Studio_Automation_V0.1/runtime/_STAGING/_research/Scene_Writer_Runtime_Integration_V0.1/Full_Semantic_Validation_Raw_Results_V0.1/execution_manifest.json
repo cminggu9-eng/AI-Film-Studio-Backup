@@ -1,0 +1,25 @@
+{
+  "classification": "FULL SEMANTIC VALIDATION / SYNTHETIC / NON-CANON / REAL SEMANTIC EXECUTION",
+  "started_at_utc": "2026-08-25T01:32:23.344390+00:00",
+  "fixture_count": 15,
+  "formal_execution_count_planned": 15,
+  "resample_policy": "PROHIBITED",
+  "technical_retry_policy": "NO_AUTOMATIC_RETRY",
+  "fixture_ids": [
+    "F01",
+    "F02",
+    "F03",
+    "F04",
+    "F05",
+    "F06",
+    "F07",
+    "F08",
+    "F09",
+    "F10",
+    "F11",
+    "F12",
+    "F13-A",
+    "F13-B",
+    "F14"
+  ]
+}

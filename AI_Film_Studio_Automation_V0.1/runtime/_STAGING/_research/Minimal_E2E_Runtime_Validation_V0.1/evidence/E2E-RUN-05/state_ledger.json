@@ -1,0 +1,252 @@
+{
+  "run_id": "E2E-RUN-05",
+  "append_only": true,
+  "entries": [
+    {
+      "entry_id": "E2E-RUN-05:001",
+      "sequence": 1,
+      "envelope": {
+        "source_role": "Scene Writer",
+        "source_record_id": "E2E-RUN-05/scene_writer/E2E-FIX-01-S01",
+        "version": "1.0",
+        "timestamp": "2026-08-28T06:49:51.285007+00:00",
+        "intended_recipient": "Continuity",
+        "handoff_reason": "Per-scene state evidence",
+        "canon_assignment_locks": [
+          "角色：许宁、许曼",
+          "关系：久未联系的姐弟；不得自动升级为完全和解",
+          "道具：黄铜钥匙，标记 A-17；身份与 custody 必须可追踪",
+          "知识：母亲留下钥匙和储物间共同开启用途必须由许曼的授权场内揭示承载；不得提前泄漏",
+          "视觉状态：暴雨夜、许宁夜班管理员、湿透制服；后续才可发生换下湿制服的授权视觉状态转换"
+        ],
+        "prohibited_changes": [
+          "不得增加第三个具名角色",
+          "不得改变 A-17 标记",
+          "不得把关系自动写成完全和解",
+          "不得把未知原因或未授权背景写成 Canon"
+        ],
+        "canonical_mode": "CREATE",
+        "primary_state_or_outcome": "SCENE_CREATED",
+        "flags": "ABSENT",
+        "handoffs": "ABSENT",
+        "required_outcome": "ABSENT",
+        "unresolved_decisions": "ABSENT",
+        "relevant_prior_state": {
+          "key_identity": "A-17",
+          "custody": "许宁持钥匙置于桌面中间，未交付许曼"
+        },
+        "current_state": {
+          "key_identity": "A-17",
+          "custody": "许宁持钥匙置于桌面中间，未交付许曼",
+          "knowledge_holders": [
+            "许宁"
+          ],
+          "reveal_status": "NOT_YET_REVEALED",
+          "relationship_state": "久未联系，信任未建立，试探性接触",
+          "clothing_visual_state_code": "soaked_uniform",
+          "clothing_visual_state_display": "许宁制服湿透，紧贴身上",
+          "location_presence": "暴雨夜值班室内，钥匙在桌面",
+          "authorized_transitions": []
+        },
+        "proposed_state": {
+          "authorized_transitions": []
+        },
+        "knowledge_timing": {
+          "knowledge_holders": [
+            "许宁"
+          ],
+          "reveal_status": "NOT_YET_REVEALED"
+        },
+        "relationship_state": "久未联系，信任未建立，试探性接触",
+        "visual_state": {
+          "clothing_visual_state_code": "soaked_uniform",
+          "clothing_visual_state_display": "许宁制服湿透，紧贴身上",
+          "location_presence": "暴雨夜值班室内，钥匙在桌面"
+        },
+        "authority_source": "Scene Writer canonical CREATE output",
+        "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-05\\artifacts\\scene_writer_output.json#scene_packages/E2E-FIX-01-S01"
+      },
+      "state_snapshot": {
+        "key_identity": "A-17",
+        "custody": "许宁持钥匙置于桌面中间，未交付许曼",
+        "knowledge_holders": [
+          "许宁"
+        ],
+        "reveal_status": "NOT_YET_REVEALED",
+        "relationship_state": "久未联系，信任未建立，试探性接触",
+        "clothing_visual_state_code": "soaked_uniform",
+        "clothing_visual_state_display": "许宁制服湿透，紧贴身上",
+        "location_presence": "暴雨夜值班室内，钥匙在桌面",
+        "authorized_transitions": []
+      }
+    },
+    {
+      "entry_id": "E2E-RUN-05:002",
+      "sequence": 2,
+      "envelope": {
+        "source_role": "Scene Writer",
+        "source_record_id": "E2E-RUN-05/scene_writer/E2E-FIX-01-S02",
+        "version": "1.0",
+        "timestamp": "2026-08-28T06:49:51.286001+00:00",
+        "intended_recipient": "Continuity",
+        "handoff_reason": "Per-scene state evidence",
+        "canon_assignment_locks": [
+          "角色：许宁、许曼",
+          "关系：久未联系的姐弟；不得自动升级为完全和解",
+          "道具：黄铜钥匙，标记 A-17；身份与 custody 必须可追踪",
+          "知识：母亲留下钥匙和储物间共同开启用途必须由许曼的授权场内揭示承载；不得提前泄漏",
+          "视觉状态：暴雨夜、许宁夜班管理员、湿透制服；后续才可发生换下湿制服的授权视觉状态转换"
+        ],
+        "prohibited_changes": [
+          "不得增加第三个具名角色",
+          "不得改变 A-17 标记",
+          "不得把关系自动写成完全和解",
+          "不得把未知原因或未授权背景写成 Canon"
+        ],
+        "canonical_mode": "CREATE",
+        "primary_state_or_outcome": "SCENE_CREATED",
+        "flags": "ABSENT",
+        "handoffs": "ABSENT",
+        "required_outcome": "ABSENT",
+        "unresolved_decisions": "ABSENT",
+        "relevant_prior_state": {
+          "key_identity": "A-17",
+          "custody": "许宁重新握回钥匙，双方均未独掌"
+        },
+        "current_state": {
+          "key_identity": "A-17",
+          "custody": "许宁重新握回钥匙，双方均未独掌",
+          "knowledge_holders": [
+            "许宁"
+          ],
+          "reveal_status": "NOT_YET_REVEALED",
+          "relationship_state": "被迫共处，关系张力显现，未解决",
+          "clothing_visual_state_code": "changed_clothes",
+          "clothing_visual_state_display": "许宁已换下湿制服，着干衣",
+          "location_presence": "值班室内共处，等待天亮",
+          "authorized_transitions": [
+            "change_from_soaked_uniform"
+          ]
+        },
+        "proposed_state": {
+          "authorized_transitions": [
+            "change_from_soaked_uniform"
+          ]
+        },
+        "knowledge_timing": {
+          "knowledge_holders": [
+            "许宁"
+          ],
+          "reveal_status": "NOT_YET_REVEALED"
+        },
+        "relationship_state": "被迫共处，关系张力显现，未解决",
+        "visual_state": {
+          "clothing_visual_state_code": "changed_clothes",
+          "clothing_visual_state_display": "许宁已换下湿制服，着干衣",
+          "location_presence": "值班室内共处，等待天亮"
+        },
+        "authority_source": "Scene Writer canonical CREATE output",
+        "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-05\\artifacts\\scene_writer_output.json#scene_packages/E2E-FIX-01-S02"
+      },
+      "state_snapshot": {
+        "key_identity": "A-17",
+        "custody": "许宁重新握回钥匙，双方均未独掌",
+        "knowledge_holders": [
+          "许宁"
+        ],
+        "reveal_status": "NOT_YET_REVEALED",
+        "relationship_state": "被迫共处，关系张力显现，未解决",
+        "clothing_visual_state_code": "changed_clothes",
+        "clothing_visual_state_display": "许宁已换下湿制服，着干衣",
+        "location_presence": "值班室内共处，等待天亮",
+        "authorized_transitions": [
+          "change_from_soaked_uniform"
+        ]
+      }
+    },
+    {
+      "entry_id": "E2E-RUN-05:003",
+      "sequence": 3,
+      "envelope": {
+        "source_role": "Scene Writer",
+        "source_record_id": "E2E-RUN-05/scene_writer/E2E-FIX-01-S03",
+        "version": "1.0",
+        "timestamp": "2026-08-28T06:49:51.289819+00:00",
+        "intended_recipient": "Continuity",
+        "handoff_reason": "Per-scene state evidence",
+        "canon_assignment_locks": [
+          "角色：许宁、许曼",
+          "关系：久未联系的姐弟；不得自动升级为完全和解",
+          "道具：黄铜钥匙，标记 A-17；身份与 custody 必须可追踪",
+          "知识：母亲留下钥匙和储物间共同开启用途必须由许曼的授权场内揭示承载；不得提前泄漏",
+          "视觉状态：暴雨夜、许宁夜班管理员、湿透制服；后续才可发生换下湿制服的授权视觉状态转换"
+        ],
+        "prohibited_changes": [
+          "不得增加第三个具名角色",
+          "不得改变 A-17 标记",
+          "不得把关系自动写成完全和解",
+          "不得把未知原因或未授权背景写成 Canon"
+        ],
+        "canonical_mode": "CREATE",
+        "primary_state_or_outcome": "SCENE_CREATED",
+        "flags": "ABSENT",
+        "handoffs": "ABSENT",
+        "required_outcome": "ABSENT",
+        "unresolved_decisions": "ABSENT",
+        "relevant_prior_state": {
+          "key_identity": "A-17",
+          "custody": "钥匙由许曼取出开门，开门后钥匙在她手中"
+        },
+        "current_state": {
+          "key_identity": "A-17",
+          "custody": "钥匙由许曼取出开门，开门后钥匙在她手中",
+          "knowledge_holders": [
+            "许曼"
+          ],
+          "reveal_status": "REVEALED_WITH_EVENT",
+          "relationship_state": "共享揭示后进入新阶段，非完全和解",
+          "clothing_visual_state_code": "changed_clothes",
+          "clothing_visual_state_display": "许宁着干衣，二人天亮站在储物间前",
+          "location_presence": "储物间门前，门已开启",
+          "authorized_transitions": [
+            "change_from_soaked_uniform"
+          ]
+        },
+        "proposed_state": {
+          "authorized_transitions": [
+            "change_from_soaked_uniform"
+          ]
+        },
+        "knowledge_timing": {
+          "knowledge_holders": [
+            "许曼"
+          ],
+          "reveal_status": "REVEALED_WITH_EVENT"
+        },
+        "relationship_state": "共享揭示后进入新阶段，非完全和解",
+        "visual_state": {
+          "clothing_visual_state_code": "changed_clothes",
+          "clothing_visual_state_display": "许宁着干衣，二人天亮站在储物间前",
+          "location_presence": "储物间门前，门已开启"
+        },
+        "authority_source": "Scene Writer canonical CREATE output",
+        "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-05\\artifacts\\scene_writer_output.json#scene_packages/E2E-FIX-01-S03"
+      },
+      "state_snapshot": {
+        "key_identity": "A-17",
+        "custody": "钥匙由许曼取出开门，开门后钥匙在她手中",
+        "knowledge_holders": [
+          "许曼"
+        ],
+        "reveal_status": "REVEALED_WITH_EVENT",
+        "relationship_state": "共享揭示后进入新阶段，非完全和解",
+        "clothing_visual_state_code": "changed_clothes",
+        "clothing_visual_state_display": "许宁着干衣，二人天亮站在储物间前",
+        "location_presence": "储物间门前，门已开启",
+        "authorized_transitions": [
+          "change_from_soaked_uniform"
+        ]
+      }
+    }
+  ]
+}

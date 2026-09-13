@@ -1,0 +1,8 @@
+{
+  "lifecycle_stage": "LOCAL_VALIDATION_FAILURE_RECORDED",
+  "invocation_id": "DIRECTOR-STRICT-COMPATIBILITY-PROBE-03:director:1",
+  "role": "Director",
+  "validation_stage": "Strict Function Schema Validation",
+  "category": "SCHEMA VALIDATION FAILURE",
+  "detail": "DirectorStructuredSubmissionError: Director payload did not match exact required field set"
+}

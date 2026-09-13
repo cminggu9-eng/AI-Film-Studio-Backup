@@ -1,0 +1,243 @@
+{
+  "fixture": {
+    "id": "F08",
+    "title": "Assignment Fact Integrity",
+    "focus": [
+      "explicit_unknown",
+      "capability_limit",
+      "temporal_breadth",
+      "fact_integrity"
+    ],
+    "expected_boundaries": {
+      "must": [
+        "保留原因未知",
+        "保留今晚这一宽泛时间",
+        "只使用有限能力描述",
+        "条件接受"
+      ],
+      "must_not": [
+        "新增原因、知识来源、能力排名、关系历史、外部授权或精确deadline"
+      ]
+    },
+    "assignment": {
+      "requested_mode": "CREATE",
+      "output_language": "zh-CN",
+      "project_id": "FSV-SYNTHETIC",
+      "episode_id": "FSV-EP01",
+      "scene_id": "F08",
+      "scene_request": "写一个短场景，严格保留 Assignment 的事实、未知项和时间粒度。",
+      "scene_purpose": "确认今晚谁接替明早的登记台。",
+      "repair_target": null,
+      "canon_locks": [
+        "地点是社区中心前台。",
+        "人物只有林禾和陈遇，是同事而非敌人。",
+        "原定值班人明早不能到场，具体原因未知。",
+        "林禾不知道原因，也不能声称知道来源。",
+        "没有第三人。"
+      ],
+      "showrunner_locks": [
+        "场景结束时，陈遇有条件同意接替，条件是林禾今晚发送全部现有登记材料。"
+      ],
+      "participants": [
+        {
+          "name": "林禾",
+          "role": "前台协调人",
+          "objective": "确认明早登记台的替补。",
+          "knowledge": "知道原定值班人不能到场，原因未知。",
+          "constraint": "不替对方解释，也不施压。"
+        },
+        {
+          "name": "陈遇",
+          "role": "同事",
+          "objective": "确认工作条件后再决定。",
+          "knowledge": "不知道缺席原因。",
+          "capacity": "可以接替登记台。",
+          "constraint": "没有获授团队排名、过往历史或额外授权。"
+        }
+      ],
+      "character_context": {
+        "relationship": "同事，非敌对；没有提供共同历史。",
+        "creative_freedom": "可用现有登记材料、柜台、停顿和条件谈判。"
+      },
+      "required_event": "林禾请求陈遇接替明早登记台。",
+      "required_information": "原定值班人不能到场，原因未知。",
+      "required_outcome": "陈遇有条件同意；林禾今晚发送全部现有材料。",
+      "prior_scene_state": "社区中心刚关门，林禾和陈遇留在前台。",
+      "desired_post_state": "陈遇暂时接替，材料发送义务留给林禾。",
+      "production_constraints": null,
+      "requested_form": "短、可演场景；无镜头或表演系统。",
+      "downstream_requests": [],
+      "qa_requests": []
+    }
+  },
+  "sequence": 8,
+  "classification": "FULL SEMANTIC VALIDATION / SYNTHETIC / NON-CANON / REAL SEMANTIC EXECUTION",
+  "formal_execution_count_for_fixture": 1,
+  "resamples_for_fixture": 0,
+  "provider": "deepseek",
+  "model": "deepseek-v4-pro",
+  "assignment": {
+    "requested_mode": "CREATE",
+    "output_language": "zh-CN",
+    "project_id": "FSV-SYNTHETIC",
+    "episode_id": "FSV-EP01",
+    "scene_id": "F08",
+    "scene_request": "写一个短场景，严格保留 Assignment 的事实、未知项和时间粒度。",
+    "scene_purpose": "确认今晚谁接替明早的登记台。",
+    "repair_target": null,
+    "canon_locks": [
+      "地点是社区中心前台。",
+      "人物只有林禾和陈遇，是同事而非敌人。",
+      "原定值班人明早不能到场，具体原因未知。",
+      "林禾不知道原因，也不能声称知道来源。",
+      "没有第三人。"
+    ],
+    "showrunner_locks": [
+      "场景结束时，陈遇有条件同意接替，条件是林禾今晚发送全部现有登记材料。"
+    ],
+    "participants": [
+      {
+        "name": "林禾",
+        "role": "前台协调人",
+        "objective": "确认明早登记台的替补。",
+        "knowledge": "知道原定值班人不能到场，原因未知。",
+        "constraint": "不替对方解释，也不施压。"
+      },
+      {
+        "name": "陈遇",
+        "role": "同事",
+        "objective": "确认工作条件后再决定。",
+        "knowledge": "不知道缺席原因。",
+        "capacity": "可以接替登记台。",
+        "constraint": "没有获授团队排名、过往历史或额外授权。"
+      }
+    ],
+    "character_context": {
+      "relationship": "同事，非敌对；没有提供共同历史。",
+      "creative_freedom": "可用现有登记材料、柜台、停顿和条件谈判。"
+    },
+    "required_event": "林禾请求陈遇接替明早登记台。",
+    "required_information": "原定值班人不能到场，原因未知。",
+    "required_outcome": "陈遇有条件同意；林禾今晚发送全部现有材料。",
+    "prior_scene_state": "社区中心刚关门，林禾和陈遇留在前台。",
+    "desired_post_state": "陈遇暂时接替，材料发送义务留给林禾。",
+    "production_constraints": null,
+    "requested_form": "短、可演场景；无镜头或表演系统。",
+    "downstream_requests": [],
+    "qa_requests": [],
+    "request_id": "FSV-SW-F08"
+  },
+  "runtime_result": {
+    "runtime_status": "SUCCESS",
+    "runtime_failure_code": null,
+    "runtime_failure_message": null,
+    "request_id": "FSV-SW-F08",
+    "canonical_binding": {
+      "identity": "scene-writer",
+      "version": "V0.1",
+      "canonical_path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\02_Scene_Writer\\scene-writer\\SKILL.md",
+      "expected_sha256": "93e1be12988f8caa6cdd76acb5e6c1bf6ad3ca0dff5806a2ea93511e66052dfb",
+      "adapter_status": "REGISTERED",
+      "real_executor": "BOUND",
+      "semantic_integrity_verifier": "BOUND",
+      "synthetic_executor": "NOT_PRESENT",
+      "actual_sha256": "93e1be12988f8caa6cdd76acb5e6c1bf6ad3ca0dff5806a2ea93511e66052dfb",
+      "metadata": {
+        "name": "scene-writer",
+        "display_version": "V0.1"
+      },
+      "passed": true,
+      "reason": null
+    },
+    "idempotency": "NEW",
+    "scene_writer": {
+      "creative_deliverable": {
+        "kind": "scene",
+        "content": "社区中心前台，灯还亮着。林禾和陈遇站在柜台两侧，桌上摊着签到表和笔筒。\n\n林禾（拿起签到表，又放下）：明早登记台原定的人来不了。\n\n陈遇（抬头）：嗯？\n\n林禾：你能接一下吗？\n\n陈遇（略顿）：可以。不过，登记材料得今晚发我。\n\n林禾：行，今晚发你现有材料。\n\n陈遇（点头）：好，那我明早来。\n\n林禾：谢了。\n\n陈遇拿起自己的包，检查了一下，离开前台。林禾把签到表放回原位。"
+      },
+      "control_data": {
+        "primary_state": "SCENE_CREATED",
+        "flags": [],
+        "handoffs": [],
+        "scene_function": "建立明早登记台的替补安排，并锁定材料交接条件。",
+        "objectives": "林禾：确认替补；陈遇：确认工作条件。",
+        "resistance": "陈遇提出需要材料作为答应条件，形成轻微条件交换。",
+        "before_state": "社区中心刚关门，林禾和陈遇留在前台；林禾知道原定值班人无法到场但原因未知，陈遇不知原因。",
+        "turn": "陈遇有条件同意接替，林禾承诺今晚发送材料；从无替补状态到有条件下达成的替补安排。",
+        "state_after": "陈遇同意明早接替登记台，条件成立；林禾承担今晚发送材料的义务。",
+        "entry_rationale": "从事件核心进入：林禾直接提出替补请求，省略关门后的冗余过渡，保留现有场景压力。",
+        "exit_rationale": "在条件达成、陈遇离开前台时结束；场景功能完成，无需额外事后描写。",
+        "diagnosis_summary": "成功创建短场景，保留所有锁定事实和未知项，无新增授权或背景，仅使用规定动作和台词完成请求与有条件同意。",
+        "rule_hits": [
+          "UNKNOWN_REASON_NOT_IMPLIED",
+          "CHARACTER_KNOWLEDGE_LIMIT_RESPECTED",
+          "TEMPORAL_GRANULARITY_PRESERVED",
+          "NO_PROHIBITED_FACT_CREATED"
+        ]
+      }
+    },
+    "output_language": "zh-CN",
+    "output_language_resolution": "EXPLICIT",
+    "assignment_fact_validation": {
+      "status": "PASS",
+      "guard_profile": [
+        "LOCKED_FACT_PRESERVATION",
+        "UNSPECIFIED_FACT_PROHIBITION",
+        "CHARACTER_KNOWLEDGE_SCOPE",
+        "EXPLICIT_UNKNOWN_REASON",
+        "COARSE_TIME_TONIGHT"
+      ],
+      "violations": []
+    },
+    "semantic_integrity_validation": {
+      "integrity_result": "PASS",
+      "violations": []
+    }
+  },
+  "unexpected_exception": null,
+  "generation_usage": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-pro",
+    "provider_invocation_id": "5e842d62-19d5-4f6e-b59e-18726fcdbfa7",
+    "usage": {
+      "prompt_tokens": 4359,
+      "completion_tokens": 535,
+      "total_tokens": 4894,
+      "prompt_cache_hit_tokens": 3200,
+      "prompt_cache_miss_tokens": 1159
+    },
+    "latency_ms": 11982,
+    "thinking_mode": "disabled",
+    "fixture_id": "F08",
+    "request_success": true
+  },
+  "verification_usage": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-pro",
+    "provider_invocation_id": "56293894-558b-4ba5-a78b-00967fe574e8",
+    "usage": {
+      "prompt_tokens": 1919,
+      "completion_tokens": 18,
+      "total_tokens": 1937,
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 1151
+    },
+    "latency_ms": 1816,
+    "thinking_mode": "disabled",
+    "fixture_id": "semantic-assignment-integrity",
+    "request_success": true
+  },
+  "estimated_cost_cny": {
+    "generation": 0.006767,
+    "verification": 0.0035802,
+    "total": 0.0103472
+  },
+  "pricing_basis": {
+    "currency": "CNY",
+    "unit": "per_1M_tokens",
+    "input_cache_hit": 0.025,
+    "input_cache_miss": 3.0,
+    "output": 6.0,
+    "status": "ESTIMATED"
+  }
+}

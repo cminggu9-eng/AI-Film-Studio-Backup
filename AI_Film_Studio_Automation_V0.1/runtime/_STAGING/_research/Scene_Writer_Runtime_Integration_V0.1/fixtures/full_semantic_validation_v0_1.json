@@ -1,0 +1,466 @@
+[
+  {
+    "id": "F01",
+    "title": "Normal CREATE",
+    "focus": ["scene_function", "objective", "resistance", "action", "dialogue", "turn", "entry", "exit"],
+    "expected_boundaries": {
+      "must": ["one short complete playable scene", "a request meets resistance and changes the state", "no third character", "no camera or acting-system directions"],
+      "must_not": ["invent a past betrayal", "solve the larger story", "leave before a meaningful turn"]
+    },
+    "assignment": {
+      "requested_mode": "CREATE",
+      "output_language": "zh-CN",
+      "project_id": "FSV-SYNTHETIC", "episode_id": "FSV-EP01", "scene_id": "F01",
+      "scene_request": "写一个短、完整、可演的场景；不要扩展为后续剧情。",
+      "scene_purpose": "让一件必须当场决定的小事迫使两个兄妹重新分配责任。",
+      "repair_target": null,
+      "canon_locks": ["地点是傍晚的旧公寓楼道。", "人物只有唐澈和唐宁，是关系尚可的成年兄妹。", "父亲留下的一把储物间钥匙在唐宁手中。", "没有人偷钥匙，也没有第三人出现。"],
+      "showrunner_locks": ["场景结束时，唐宁暂时把钥匙交给唐澈，但约定两人第二天一起打开储物间。"],
+      "participants": [
+        {"name": "唐澈", "role": "哥哥", "objective": "今晚拿到钥匙，先确认储物间里的旧箱子还在。", "knowledge": "知道钥匙在唐宁手里。", "constraint": "不能强抢，也不能把妹妹写成敌人。"},
+        {"name": "唐宁", "role": "妹妹", "objective": "不让哥哥独自处理父亲留下的东西。", "knowledge": "知道哥哥想马上进去。", "constraint": "不会无故拒绝，但会要求共同承担。"}
+      ],
+      "character_context": {"relationship": "成年兄妹，关系尚可但处理父亲遗物的方式不同。", "creative_freedom": "可使用对白、停顿、钥匙和楼道空间行为。"},
+      "required_event": "唐澈向唐宁要钥匙。",
+      "required_information": "钥匙在唐宁手中；储物间今晚不开。",
+      "required_outcome": "唐宁交钥匙，唐澈接受明天一起打开的条件。",
+      "prior_scene_state": "唐宁刚从储物间门口回来，唐澈在楼道等她。",
+      "desired_post_state": "钥匙暂由唐澈保管，两人明天共同进入储物间。",
+      "production_constraints": null,
+      "requested_form": "短、正常可读的场景；无镜头、焦段、coverage或表演系统。",
+      "downstream_requests": [], "qa_requests": []
+    }
+  },
+  {
+    "id": "F02",
+    "title": "Action-Driven Scene",
+    "focus": ["action", "object_interaction", "spatial_behavior", "reaction", "low_dialogue"],
+    "expected_boundaries": {
+      "must": ["主要靠行动、道具和空间变化推进", "对白为零或极少", "形成可见选择与状态改变"],
+      "must_not": ["退化为两人站着解释", "新增物品来源或人物关系"]
+    },
+    "assignment": {
+      "requested_mode": "CREATE", "output_language": "zh-CN",
+      "project_id": "FSV-SYNTHETIC", "episode_id": "FSV-EP01", "scene_id": "F02",
+      "scene_request": "写一个以行动、道具互动、空间行为和反应为主的短场景；正常对白最多一句。",
+      "scene_purpose": "让一个未被信任的交接通过可见行动完成。",
+      "repair_target": null,
+      "canon_locks": ["地点是空的社区图书室。", "人物只有管理员顾岚和志愿者许舟。", "桌上有一只贴着归还标签的木盒和一串图书室钥匙。", "木盒属于图书室，不含秘密信件或贵重物。"],
+      "showrunner_locks": ["场景结束时，顾岚把钥匙交给许舟，许舟把木盒放进上锁的柜子。"],
+      "participants": [
+        {"name": "顾岚", "role": "管理员", "objective": "确认许舟能独自完成闭馆交接。", "knowledge": "知道木盒和钥匙都在桌上。", "constraint": "不通过长篇解释测试对方。"},
+        {"name": "许舟", "role": "志愿者", "objective": "完成一次可靠的交接。", "knowledge": "知道木盒需要入柜。", "constraint": "不把自己写成已有经验最丰富的人。"}
+      ],
+      "character_context": {"relationship": "刚开始合作的管理员与志愿者。", "creative_freedom": "可用整理、试钥匙、移动、停顿、手势和空间距离推进。"},
+      "required_event": "许舟选择如何处理木盒与钥匙。",
+      "required_information": "木盒需入柜，钥匙需交接。",
+      "required_outcome": "顾岚交钥匙，许舟完成入柜。",
+      "prior_scene_state": "闭馆前，木盒和钥匙放在桌上。",
+      "desired_post_state": "许舟被允许承担下一次闭馆交接。",
+      "production_constraints": null,
+      "requested_form": "短场景，动作主导；无镜头或表演方法说明。",
+      "downstream_requests": [], "qa_requests": []
+    }
+  },
+  {
+    "id": "F03",
+    "title": "Dialogue-Driven Scene",
+    "focus": ["dialogue_as_action", "request", "resistance", "deflection", "condition_exchange", "turn"],
+    "expected_boundaries": {
+      "must": ["对白承担请求、抵抗、试探或交换条件", "不能只互相解释双方已知的设定", "结尾有状态变化"],
+      "must_not": ["加入共同往事", "把角色写成敌人"]
+    },
+    "assignment": {
+      "requested_mode": "CREATE", "output_language": "zh-CN",
+      "project_id": "FSV-SYNTHETIC", "episode_id": "FSV-EP01", "scene_id": "F03",
+      "scene_request": "写一个以对白为主要行动的短场景；每段对白都应推动请求、抵抗、试探或条件交换。",
+      "scene_purpose": "让两位合作者决定是否把一份未署名提案交出去。",
+      "repair_target": null,
+      "canon_locks": ["地点是共享办公区的打印机旁。", "人物只有合作者孟夏和周原。", "桌上有一份未署名提案。", "两人都知道提案尚未提交，也都不是彼此的上级。"],
+      "showrunner_locks": ["场景结束时，周原同意提交提案，但要求孟夏在提交前写上共同署名。"],
+      "participants": [
+        {"name": "孟夏", "role": "合作者", "objective": "今晚把提案提交出去。", "knowledge": "知道提案没有署名。", "constraint": "不能擅自替周原署名。"},
+        {"name": "周原", "role": "合作者", "objective": "避免自己的工作被隐去。", "knowledge": "知道孟夏想尽快提交。", "constraint": "不会无理由拒绝提交。"}
+      ],
+      "character_context": {"relationship": "平等合作者，有工作分歧但非敌对。", "creative_freedom": "可用对白、打印机、纸张和短暂停顿。"},
+      "required_event": "孟夏请求提交提案，周原提出共同署名条件。",
+      "required_information": "提案尚未提交且未署名。",
+      "required_outcome": "两人决定共同署名后提交。",
+      "prior_scene_state": "孟夏拿着打印好的提案，周原刚走到打印机旁。",
+      "desired_post_state": "提交决定成立，但共同署名成为明确条件。",
+      "production_constraints": null,
+      "requested_form": "短、可演的对白场景；无镜头或表演系统。",
+      "downstream_requests": [], "qa_requests": []
+    }
+  },
+  {
+    "id": "F04",
+    "title": "Silent / Near-Silent Scene",
+    "focus": ["silence", "physical_choice", "reaction", "object_use", "turn"],
+    "expected_boundaries": {
+      "must": ["正常对白为零或极少", "用物件、停顿、行动与选择完成状态改变"],
+      "must_not": ["把沉默解释成内心独白", "引入新人物或新往事"]
+    },
+    "assignment": {
+      "requested_mode": "CREATE", "output_language": "zh-CN",
+      "project_id": "FSV-SYNTHETIC", "episode_id": "FSV-EP01", "scene_id": "F04",
+      "scene_request": "写一个近乎无对白的短场景；允许一句必要对白，其余通过沉默、行动和物件推进。",
+      "scene_purpose": "让一个归还物品的选择替代直接和解。",
+      "repair_target": null,
+      "canon_locks": ["地点是夜间自助洗衣店。", "人物只有叶青和罗沐。", "一条灰色围巾挂在烘干机门把上。", "围巾属于罗沐；没有遗失、盗窃或第三方含义。"],
+      "showrunner_locks": ["场景结束时，叶青把围巾递给罗沐，罗沐接过并留在店里等待洗衣结束。"],
+      "participants": [
+        {"name": "叶青", "role": "顾客", "objective": "归还围巾后离开。", "knowledge": "知道围巾属于罗沐。", "constraint": "不以解释往事来完成场景。"},
+        {"name": "罗沐", "role": "顾客", "objective": "决定是否接过围巾。", "knowledge": "看见叶青拿着围巾。", "constraint": "不需通过言语原谅或控诉。"}
+      ],
+      "character_context": {"relationship": "认识但当前疏远；具体历史未提供。", "creative_freedom": "可使用洗衣机、围巾、座位、距离、沉默和动作。"},
+      "required_event": "叶青尝试归还围巾，罗沐作出选择。",
+      "required_information": "围巾属于罗沐。",
+      "required_outcome": "罗沐接过围巾并留在店内。",
+      "prior_scene_state": "围巾挂在烘干机门把上，叶青站在旁边。",
+      "desired_post_state": "围巾回到罗沐手中，双方不再僵持在同一物件上。",
+      "production_constraints": null,
+      "requested_form": "近乎无对白的短场景；无镜头或微表情说明。",
+      "downstream_requests": [], "qa_requests": []
+    }
+  },
+  {
+    "id": "F05",
+    "title": "Internal State to Playable Behavior",
+    "focus": ["internal_to_behavior", "choice", "observable_action", "no_acting_system"],
+    "expected_boundaries": {
+      "must": ["把提供的心理状态转为可观察行为、选择、停顿或对白策略", "有明确状态变化"],
+      "must_not": ["只写心理结论", "建立微表情或情绪强度系统"]
+    },
+    "assignment": {
+      "requested_mode": "CREATE", "output_language": "zh-CN",
+      "project_id": "FSV-SYNTHETIC", "episode_id": "FSV-EP01", "scene_id": "F05",
+      "scene_request": "把给定的内部心理信息转化为可观察、可演的短场景。",
+      "scene_purpose": "让不愿承认失误的学徒通过选择承担一次补救。",
+      "repair_target": null,
+      "canon_locks": ["地点是空的陶艺工作台。", "人物只有学徒吴棠和导师杜安。", "吴棠打碎了一只练习杯，碎片已在托盘里。", "杜安知道杯子打碎，但不知道吴棠是否愿意留下补做。"],
+      "showrunner_locks": ["场景结束时，吴棠主动留下补做杯子，杜安把新的泥团推给她。"],
+      "participants": [
+        {"name": "吴棠", "role": "学徒", "objective": "避免让导师失望。", "knowledge": "她打碎了练习杯。", "constraint": "内部状态是：她羞愧且焦虑，但不得只把这些词当作场景推进。"},
+        {"name": "杜安", "role": "导师", "objective": "确认吴棠是否愿意承担补救。", "knowledge": "知道杯子已碎。", "constraint": "不替吴棠解释她的心理。"}
+      ],
+      "character_context": {"relationship": "导师与学徒，工作关系稳定。", "creative_freedom": "可用碎片、泥团、清理、停顿和简短对白。"},
+      "required_event": "杜安把补做的选择留给吴棠。",
+      "required_information": "杯子已经碎了。",
+      "required_outcome": "吴棠留下补做，杜安提供泥团。",
+      "prior_scene_state": "吴棠正在把碎片扫进托盘，杜安走到工作台旁。",
+      "desired_post_state": "补救行动开始，而非只完成情绪说明。",
+      "production_constraints": null,
+      "requested_form": "短、可演场景；避免心理独白、镜头及表演方法。",
+      "downstream_requests": [], "qa_requests": []
+    }
+  },
+  {
+    "id": "F06",
+    "title": "Subtext",
+    "focus": ["surface_goal", "hidden_intent", "subtext", "dialogue_tactic"],
+    "expected_boundaries": {
+      "must": ["让表面请求与未明说意图不同", "通过行动或措辞保留潜台词"],
+      "must_not": ["直接说出隐藏意图", "新增偷听来源或关系历史"]
+    },
+    "assignment": {
+      "requested_mode": "CREATE", "output_language": "zh-CN",
+      "project_id": "FSV-SYNTHETIC", "episode_id": "FSV-EP01", "scene_id": "F06",
+      "scene_request": "写一个有潜台词的短场景；表面请求与真实意图不同，不能让人物直接说破真实意图。",
+      "scene_purpose": "让韩澄试探工作室钥匙是否仍在周澈手中。",
+      "repair_target": null,
+      "canon_locks": ["地点是工作室门外。", "人物只有韩澄和周澈。", "周澈手里有工作室钥匙。", "韩澄不知道周澈是否愿意继续使用工作室。", "没有人偷听、出售或签署任何协议。"],
+      "showrunner_locks": ["场景结束时，周澈没有交出钥匙，但同意第二天把钥匙带来再谈。"],
+      "participants": [
+        {"name": "韩澄", "role": "合作者", "objective": "表面上借钥匙拿工具。", "knowledge": "知道周澈持有钥匙。", "constraint": "真实意图是试探周澈是否准备退出工作室；不得直接说出此意图。"},
+        {"name": "周澈", "role": "合作者", "objective": "不立刻表态工作室安排。", "knowledge": "知道韩澄来找钥匙。", "constraint": "不必解释自己全部想法。"}
+      ],
+      "character_context": {"relationship": "合作者，未提供更深历史。", "creative_freedom": "可用钥匙、门、借工具的表面请求、停顿和回避。"},
+      "required_event": "韩澄提出借钥匙，周澈不立刻交出。",
+      "required_information": "钥匙在周澈手中。",
+      "required_outcome": "周澈同意第二天带钥匙再谈。",
+      "prior_scene_state": "韩澄在门外等到周澈出来。",
+      "desired_post_state": "钥匙仍在周澈手中，但下一次谈话被约定。",
+      "production_constraints": null,
+      "requested_form": "短、可演的潜台词场景；无镜头、表演系统。",
+      "downstream_requests": [], "qa_requests": []
+    }
+  },
+  {
+    "id": "F07",
+    "title": "Exposition Through Dramatic Action",
+    "focus": ["information_handling", "discovery", "resistance", "dramatic_action"],
+    "expected_boundaries": {
+      "must": ["必要信息通过发现、抵抗或行动进入场景", "信息改变人物下一步"],
+      "must_not": ["让双方互相朗读双方都已知道的背景", "新增事故原因或外部命令"]
+    },
+    "assignment": {
+      "requested_mode": "CREATE", "output_language": "zh-CN",
+      "project_id": "FSV-SYNTHETIC", "episode_id": "FSV-EP01", "scene_id": "F07",
+      "scene_request": "写一个必须交付信息的短场景；让信息通过行动、发现或抵抗产生戏剧功能。",
+      "scene_purpose": "让一张通知改变两人的排练安排。",
+      "repair_target": null,
+      "canon_locks": ["地点是学校排练室。", "人物只有陆遥和陈寻。", "门缝下塞进一张通知：明天的排练室改到B馆。", "陆遥先看到通知；陈寻尚未看到。", "没有人知道改场地的原因。"],
+      "showrunner_locks": ["场景结束时，陈寻接受改到B馆，但要求陆遥一起搬走桌上的道具箱。"],
+      "participants": [
+        {"name": "陆遥", "role": "学生", "objective": "让排练不被取消。", "knowledge": "先看见场地改到B馆的通知。", "constraint": "不能编造改场地的原因。"},
+        {"name": "陈寻", "role": "学生", "objective": "不想在没有准备的情况下搬动道具。", "knowledge": "尚未看见通知。", "constraint": "不应被写成一开始就知道改场地。"}
+      ],
+      "character_context": {"relationship": "同组同学。", "creative_freedom": "可用门缝、通知、道具箱、排练动作和对白。"},
+      "required_event": "通知被发现并影响排练安排。",
+      "required_information": "明天排练室改到B馆；原因未知。",
+      "required_outcome": "陈寻接受改场地，并提出共同搬道具箱。",
+      "prior_scene_state": "两人正在排练室收尾，通知刚从门缝滑进来。",
+      "desired_post_state": "改场地成为已接受的行动安排。",
+      "production_constraints": null,
+      "requested_form": "短、可演场景；不把信息写成说明书。",
+      "downstream_requests": [], "qa_requests": []
+    }
+  },
+  {
+    "id": "F08",
+    "title": "Assignment Fact Integrity",
+    "focus": ["explicit_unknown", "capability_limit", "temporal_breadth", "fact_integrity"],
+    "expected_boundaries": {
+      "must": ["保留原因未知", "保留今晚这一宽泛时间", "只使用有限能力描述", "条件接受"],
+      "must_not": ["新增原因、知识来源、能力排名、关系历史、外部授权或精确deadline"]
+    },
+    "assignment": {
+      "requested_mode": "CREATE", "output_language": "zh-CN",
+      "project_id": "FSV-SYNTHETIC", "episode_id": "FSV-EP01", "scene_id": "F08",
+      "scene_request": "写一个短场景，严格保留 Assignment 的事实、未知项和时间粒度。",
+      "scene_purpose": "确认今晚谁接替明早的登记台。",
+      "repair_target": null,
+      "canon_locks": ["地点是社区中心前台。", "人物只有林禾和陈遇，是同事而非敌人。", "原定值班人明早不能到场，具体原因未知。", "林禾不知道原因，也不能声称知道来源。", "没有第三人。"],
+      "showrunner_locks": ["场景结束时，陈遇有条件同意接替，条件是林禾今晚发送全部现有登记材料。"],
+      "participants": [
+        {"name": "林禾", "role": "前台协调人", "objective": "确认明早登记台的替补。", "knowledge": "知道原定值班人不能到场，原因未知。", "constraint": "不替对方解释，也不施压。"},
+        {"name": "陈遇", "role": "同事", "objective": "确认工作条件后再决定。", "knowledge": "不知道缺席原因。", "capacity": "可以接替登记台。", "constraint": "没有获授团队排名、过往历史或额外授权。"}
+      ],
+      "character_context": {"relationship": "同事，非敌对；没有提供共同历史。", "creative_freedom": "可用现有登记材料、柜台、停顿和条件谈判。"},
+      "required_event": "林禾请求陈遇接替明早登记台。",
+      "required_information": "原定值班人不能到场，原因未知。",
+      "required_outcome": "陈遇有条件同意；林禾今晚发送全部现有材料。",
+      "prior_scene_state": "社区中心刚关门，林禾和陈遇留在前台。",
+      "desired_post_state": "陈遇暂时接替，材料发送义务留给林禾。",
+      "production_constraints": null,
+      "requested_form": "短、可演场景；无镜头或表演系统。",
+      "downstream_requests": [], "qa_requests": []
+    }
+  },
+  {
+    "id": "F09",
+    "title": "Character Knowledge Integrity",
+    "focus": ["world_fact", "knowledge_scope", "uncertain_inference", "revelation"],
+    "expected_boundaries": {
+      "must": ["区分世界事实与人物是否知道", "未知人物只能推测并保持不确定", "若信息被告知，呈现可见交接"],
+      "must_not": ["让未知人物在告知前说出确定事实", "新增拒绝原因或第三方信息源"]
+    },
+    "assignment": {
+      "requested_mode": "CREATE", "output_language": "zh-CN",
+      "project_id": "FSV-SYNTHETIC", "episode_id": "FSV-EP01", "scene_id": "F09",
+      "scene_request": "写一个明确区分世界事实和人物知识范围的短场景。",
+      "scene_purpose": "让一份申请结果被选择性地告知。",
+      "repair_target": null,
+      "canon_locks": ["地点是医院外的长椅。", "人物只有顾晴和岳临。", "世界事实：岳临的住院申请已被拒绝。", "顾晴知道申请被拒绝；岳临尚不知道。", "拒绝原因未提供，任何人都不知道原因。"],
+      "showrunner_locks": ["场景结束时，顾晴把拒绝结果告诉岳临；岳临要求先看通知，不追问未提供的原因。"],
+      "participants": [
+        {"name": "顾晴", "role": "陪同者", "objective": "决定如何告知结果。", "knowledge": "知道申请被拒绝；不知道原因。", "constraint": "不能给出拒绝原因。"},
+        {"name": "岳临", "role": "申请人", "objective": "确认申请进展。", "knowledge": "尚不知道申请已被拒绝。", "constraint": "在收到告知前只能不确定地询问或推测。"}
+      ],
+      "character_context": {"relationship": "相互陪同的熟人；未提供更深历史。", "creative_freedom": "可用通知、长椅、停顿、询问和选择。"},
+      "required_event": "岳临询问进展，顾晴选择告知。",
+      "required_information": "申请被拒绝；原因未知。",
+      "required_outcome": "岳临要求先看通知。",
+      "prior_scene_state": "顾晴拿着通知，岳临刚从窗口回来。",
+      "desired_post_state": "岳临已知结果，但原因仍未知。",
+      "production_constraints": null,
+      "requested_form": "短、可演场景；无镜头或表演系统。",
+      "downstream_requests": [], "qa_requests": []
+    }
+  },
+  {
+    "id": "F10",
+    "title": "Targeted REVISE",
+    "focus": ["revision_scope", "local_repair", "turn", "lock_preservation"],
+    "expected_boundaries": {
+      "must": ["只修复指定的局部问题", "保留地点、人物关系、已锁定事实与结局", "形成更清楚的条件性转折"],
+      "must_not": ["重写整个场景", "改人物关系", "新增原因、历史或新角色"]
+    },
+    "assignment": {
+      "requested_mode": "REVISE", "output_language": "zh-CN",
+      "project_id": "FSV-SYNTHETIC", "episode_id": "FSV-EP01", "scene_id": "F10",
+      "scene_request": "待修订场景：\n办公室茶水间。\n沈言把一份值班表递给方微。\n沈言：明早你能替我吗？\n方微：可以。\n沈言：谢谢。\n\n只修复：方微过快同意，场景没有抵抗或清楚的 turn。",
+      "scene_purpose": "验证局部修订能补出抵抗和转折而不重写全部。",
+      "repair_target": "仅修复方微过快同意、缺少抵抗和条件性转折的问题；保留地点、两个人、明早代班请求和最终方微同意。",
+      "canon_locks": ["地点是办公室茶水间。", "人物只有沈言和方微，是同事。", "沈言需要方微明早代班。", "没有提供沈言缺席或调班的原因。"],
+      "showrunner_locks": ["修订后方微仍同意明早代班，但可提出一个场景内条件。"],
+      "participants": [
+        {"name": "沈言", "role": "同事", "objective": "获得明早代班确认。", "knowledge": "知道值班表在手。", "constraint": "不能编造缺席原因。"},
+        {"name": "方微", "role": "同事", "objective": "不无条件接下临时责任。", "knowledge": "知道沈言需要代班。", "constraint": "最终会同意，但不应立即同意。"}
+      ],
+      "character_context": {"relationship": "同事，非敌对。", "creative_freedom": "只可在茶水间、值班表和短对白范围内局部修订。"},
+      "required_event": "沈言请求方微代班。",
+      "required_information": "需要明早代班；原因未提供。",
+      "required_outcome": "方微在提出条件后同意。",
+      "prior_scene_state": "沈言把值班表递给方微。",
+      "desired_post_state": "方微同意代班，条件明确。",
+      "production_constraints": null,
+      "requested_form": "返回局部 revision，不扩展为完整新剧情；无镜头或表演系统。",
+      "downstream_requests": [], "qa_requests": []
+    }
+  },
+  {
+    "id": "F11",
+    "title": "NO_MATERIAL_CHANGE",
+    "focus": ["revision_ceiling", "no_mechanical_rewrite", "material_benefit"],
+    "expected_boundaries": {
+      "must": ["若无实质收益则返回 NO_MATERIAL_CHANGE", "不得输出替换场景"],
+      "must_not": ["为展示能力而机械重写", "虚构新的问题"]
+    },
+    "assignment": {
+      "requested_mode": "REVISE", "output_language": "zh-CN",
+      "project_id": "FSV-SYNTHETIC", "episode_id": "FSV-EP01", "scene_id": "F11",
+      "scene_request": "待评估场景：\n楼道里，唐澈向唐宁要储物间钥匙。唐宁没有立刻给，说：‘明天一起开。’唐澈停了一下，接过她递来的钥匙：‘好，明天一起。’两人离开楼道。\n\n评估此场景是否需要实质修订。",
+      "scene_purpose": "验证 REVISE 不会机械产生改写。",
+      "repair_target": "没有指定缺陷；只有在存在 material benefit 时才修订。",
+      "canon_locks": ["地点是旧公寓楼道。", "人物只有唐澈和唐宁，是关系尚可的成年兄妹。", "钥匙在唐宁手中。"],
+      "showrunner_locks": ["结局是唐宁交钥匙，唐澈接受明天一起开储物间。"],
+      "participants": [
+        {"name": "唐澈", "role": "哥哥", "objective": "拿到钥匙。", "knowledge": "知道钥匙在唐宁手中。", "constraint": "不强抢。"},
+        {"name": "唐宁", "role": "妹妹", "objective": "要求共同承担。", "knowledge": "知道哥哥想进储物间。", "constraint": "不无故拒绝。"}
+      ],
+      "character_context": {"relationship": "成年兄妹，关系尚可。", "creative_freedom": "只做必要评估。"},
+      "required_event": "索要钥匙并得到共同开启条件。",
+      "required_information": "钥匙在唐宁手中。",
+      "required_outcome": "钥匙交出，明天共同开启。",
+      "prior_scene_state": "唐澈在楼道等唐宁。",
+      "desired_post_state": "钥匙交接且条件明确。",
+      "production_constraints": null,
+      "requested_form": "如果没有 material benefit，返回 NO_MATERIAL_CHANGE；无镜头或表演系统。",
+      "downstream_requests": [], "qa_requests": []
+    }
+  },
+  {
+    "id": "F12",
+    "title": "DIAGNOSE",
+    "focus": ["diagnosis", "scene_function", "resistance", "turn", "no_replacement_scene"],
+    "expected_boundaries": {
+      "must": ["指出 material structural problem", "诊断 Scene Function、Resistance 或 Turn", "不输出 replacement Scene"],
+      "must_not": ["偷偷执行 REVISE", "提供镜头或表演方法"]
+    },
+    "assignment": {
+      "requested_mode": "DIAGNOSE", "output_language": "zh-CN",
+      "project_id": "FSV-SYNTHETIC", "episode_id": "FSV-EP01", "scene_id": "F12",
+      "scene_request": "只诊断以下短场景：\n会议室里，何川对梁舟说：‘这个项目去年启动，预算很紧，客户也很重要。你知道我们之前开过三次会。现在文件在桌上。’梁舟说：‘是。’何川说：‘所以我们继续吧。’两人离开。",
+      "scene_purpose": "诊断缺少戏剧功能、抵抗和转折的说明性场景。",
+      "repair_target": "只诊断，不输出 replacement Scene 或 revision。",
+      "canon_locks": ["诊断对象只有何川和梁舟在会议室。", "原场景提供的信息可被视为双方已知。"],
+      "showrunner_locks": ["不得生成替换场景。"],
+      "participants": [
+        {"name": "何川", "role": "原场景人物", "objective": "未明确。", "knowledge": "未明确。", "constraint": "不得为诊断补写人物事实。"},
+        {"name": "梁舟", "role": "原场景人物", "objective": "未明确。", "knowledge": "未明确。", "constraint": "不得为诊断补写人物事实。"}
+      ],
+      "character_context": {"relationship": "未提供。", "creative_freedom": "仅输出诊断。"},
+      "required_event": "找出场景结构问题。",
+      "required_information": "原场景信息主要为双方已知背景。",
+      "required_outcome": "输出诊断，不输出场景。",
+      "prior_scene_state": "提供待诊断文本。",
+      "desired_post_state": "问题被清楚命名。",
+      "production_constraints": null,
+      "requested_form": "诊断文本；无替换场景、无镜头或表演系统。",
+      "downstream_requests": [], "qa_requests": []
+    }
+  },
+  {
+    "id": "F13-A",
+    "title": "Context Boundary — Material Context Missing",
+    "focus": ["context_sufficiency", "needs_context", "no_context_hunger"],
+    "expected_boundaries": {
+      "must": ["承认缺少完成场景必需的 material context", "返回 NEEDS_CONTEXT"],
+      "must_not": ["猜人物、关系、事件、地点或结果", "把一般创作自由误当作事实来源"]
+    },
+    "assignment": {
+      "requested_mode": "CREATE", "output_language": "zh-CN",
+      "project_id": "FSV-SYNTHETIC", "episode_id": "FSV-EP01", "scene_id": "F13-A",
+      "scene_request": "写一场关于‘承诺被打破’的短场景。",
+      "scene_purpose": "验证真正缺失 material context 时能正确停止。",
+      "repair_target": null,
+      "canon_locks": ["没有提供人物、地点、承诺内容、事件、关系或结果。"],
+      "showrunner_locks": ["不得自行补全缺失事实。"],
+      "participants": [],
+      "character_context": {"relationship": null, "creative_freedom": "只能在已有 material context 足够时使用。"},
+      "required_event": null,
+      "required_information": null,
+      "required_outcome": null,
+      "prior_scene_state": null,
+      "desired_post_state": null,
+      "production_constraints": null,
+      "requested_form": "若无法完成，返回需要的 material context；无镜头或表演系统。",
+      "downstream_requests": [], "qa_requests": []
+    }
+  },
+  {
+    "id": "F13-B",
+    "title": "Context Boundary — Upstream Canon Decision",
+    "focus": ["upstream_boundary", "showrunner_handoff", "no_authority_expansion"],
+    "expected_boundaries": {
+      "must": ["识别需要 Showrunner / Canon 决定", "返回 UPSTREAM_DECISION_REQUIRED 和合法 handoff"],
+      "must_not": ["自行决定是否可公开名字", "编造允许或禁止的 Canon"]
+    },
+    "assignment": {
+      "requested_mode": "CREATE", "output_language": "zh-CN",
+      "project_id": "FSV-SYNTHETIC", "episode_id": "FSV-EP01", "scene_id": "F13-B",
+      "scene_request": "写一场让夏遥决定是否公开一位受保护证人的名字的短场景。",
+      "scene_purpose": "验证需要上游 Canon 决定时不越权。",
+      "repair_target": null,
+      "canon_locks": ["地点是档案室。", "人物只有夏遥和韩博。", "存在一位受保护证人，但名字未提供。", "是否可以公开证人名字尚未被 Canon 或 Showrunner 决定。"],
+      "showrunner_locks": ["公开或不公开证人名字都属于上游 Canon / Showrunner 决定；Scene Writer 不得替代决定。"],
+      "participants": [
+        {"name": "夏遥", "role": "档案员", "objective": "确认下一步如何处理档案。", "knowledge": "知道证人名字受保护。", "constraint": "没有公开授权。"},
+        {"name": "韩博", "role": "同事", "objective": "获得明确的上游决定。", "knowledge": "知道决定尚未给出。", "constraint": "不能替 Showrunner 决定。"}
+      ],
+      "character_context": {"relationship": "同事。", "creative_freedom": "只能在不决定公开与否的范围内处理。"},
+      "required_event": "识别公开与否需上游决定。",
+      "required_information": "证人名字受保护，授权状态未定。",
+      "required_outcome": "请求上游决定，而非创作一个选择。",
+      "prior_scene_state": "两人在档案室看到受保护档案。",
+      "desired_post_state": "上游决定被明确请求。",
+      "production_constraints": null,
+      "requested_form": "若需要上游决定，返回合法 handoff；无镜头或表演系统。",
+      "downstream_requests": [], "qa_requests": []
+    }
+  },
+  {
+    "id": "F14",
+    "title": "Production and Role Boundary",
+    "focus": ["production_flag", "handoff", "role_boundary", "no_director_or_acting_system"],
+    "expected_boundaries": {
+      "must": ["若生产负担相关，可标记并提供相关 handoff", "保留可演场景功能"],
+      "must_not": ["决定镜头、焦段、coverage、预算、排期", "建立微表情或情绪强度系统", "建立 AI production schema"]
+    },
+    "assignment": {
+      "requested_mode": "CREATE", "output_language": "zh-CN",
+      "project_id": "FSV-SYNTHETIC", "episode_id": "FSV-EP01", "scene_id": "F14",
+      "scene_request": "写一个短场景：两名看守在暴雨后检查仓库门。场景需要可演，但不得决定导演、镜头或表演方法。",
+      "scene_purpose": "验证 Scene Writer 在有生产负担和下游要求时保持角色边界。",
+      "repair_target": null,
+      "canon_locks": ["地点是暴雨后的仓库门外。", "人物只有看守程放和黎真。", "仓库门未锁好，门外地面湿。", "仓库内没有人，也没有危险或犯罪事实。"],
+      "showrunner_locks": ["场景结束时，两人决定先守在门外并通知值班负责人。"],
+      "participants": [
+        {"name": "程放", "role": "看守", "objective": "确认门的状态并避免擅自进入。", "knowledge": "看到门未锁好、地面湿。", "constraint": "不把湿地面解释成事故原因。"},
+        {"name": "黎真", "role": "看守", "objective": "让下一步有明确负责人。", "knowledge": "知道仓库内无人。", "constraint": "不决定预算、排期或最终拍摄方案。"}
+      ],
+      "character_context": {"relationship": "同班看守。", "creative_freedom": "可使用雨水、门、手电、站位、行动和简短对白。"},
+      "required_event": "两人检查未锁好的门并决定不进入。",
+      "required_information": "门未锁好、地面湿、仓库内无人。",
+      "required_outcome": "两人守在门外并通知值班负责人。",
+      "prior_scene_state": "暴雨刚停，两人到达仓库门外。",
+      "desired_post_state": "门的下一步责任被交接。",
+      "production_constraints": "雨后湿地与夜外景可能带来制作负担；Scene Writer 只能标记或交接，不得决定预算、排期或拍摄方案。",
+      "requested_form": "短、可演场景；不得提供镜头、焦段、coverage、微表情体系或制作决策。",
+      "downstream_requests": ["Director: provide final lens and coverage plan.", "Character & Acting: provide a micro-expression and emotional-intensity system."],
+      "qa_requests": []
+    }
+  }
+]

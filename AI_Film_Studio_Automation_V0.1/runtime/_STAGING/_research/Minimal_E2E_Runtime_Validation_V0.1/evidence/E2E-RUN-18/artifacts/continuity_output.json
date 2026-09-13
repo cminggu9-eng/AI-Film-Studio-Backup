@@ -1,0 +1,49 @@
+{
+  "primary_state_or_outcome": "CONTINUITY PRESERVED",
+  "flags": "ABSENT",
+  "handoffs": "ABSENT",
+  "canon_assignment_locks": [
+    "A-17",
+    "brass_key",
+    "shared_storage_reveal",
+    "storage_room_opening",
+    "soaked_uniform",
+    "changed_clothes"
+  ],
+  "prohibited_changes": [
+    "完全和解"
+  ],
+  "required_outcome": "ABSENT",
+  "unresolved_decisions": [
+    "storage_room_opening"
+  ],
+  "state_evidence": {
+    "relevant_prior_state": {
+      "relationship_state": "疏远且紧张，未达到完全和解",
+      "knowledge_state": "许曼掌握储物间信息，尚未揭示",
+      "visual_state": "soaked_uniform"
+    },
+    "current_state": {
+      "relationship_state": "疏远且紧张，未达到完全和解",
+      "knowledge_state": "shared_storage_reveal 已揭示，storage_room_opening 未决",
+      "visual_state": "changed_clothes"
+    },
+    "proposed_state": "ABSENT",
+    "knowledge_timing": {
+      "reveal_of_shared_use": "第三场揭示",
+      "reveal_of_room_content": "未揭示"
+    },
+    "relationship_state": {
+      "initial": "疏远且紧张",
+      "after_scene_1": "进一步紧张，许宁不安",
+      "after_scene_3": "维持紧张，无完全和解"
+    },
+    "visual_state": {
+      "scene_1": "soaked_uniform",
+      "scene_2": "changed_clothes",
+      "scene_3": "changed_clothes"
+    }
+  },
+  "content": "连续性核查完成。核查对象为 E2E-RUN-18 三场锁定包及其下游导演、表演与美术指导的状态证据。\n\n核查事实与状态：\n- 视觉状态按锁定顺序 soaked_uniform→changed_clothes→changed_clothes 保持一致，换装过渡由场景二文本与 authorized_transitions 支撑。\n- 关系状态始终保持“疏远且紧张”，未出现“完全和解”，未发生禁止变更。\n- 信息时序：shared_storage_reveal 于第三场由许曼按压钥匙后揭示；储物间内部内容仍未揭示。\n- 钥匙实体身份为 A-17 黄铜钥匙；保管状态从矮柜暂置到许宁持钥匙递向锁孔，轨迹无冲突。\n- storage_room_opening 在场景三结尾保持悬置，各角色输出均未擅自解决。\n\n比较理由：所有被比较的命名维度均兼容，未发现事实、因果、人物知识、场景合法或跨部门不一致。唯一未决事项为 storage_room_opening，属于有意保留的叙事悬置而非连续性冲突。\n\n结论：保持连续性。",
+  "scene_packages": "ABSENT"
+}

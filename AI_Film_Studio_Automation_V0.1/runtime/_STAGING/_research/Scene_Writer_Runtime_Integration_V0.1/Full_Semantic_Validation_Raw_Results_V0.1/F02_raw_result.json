@@ -1,0 +1,233 @@
+{
+  "fixture": {
+    "id": "F02",
+    "title": "Action-Driven Scene",
+    "focus": [
+      "action",
+      "object_interaction",
+      "spatial_behavior",
+      "reaction",
+      "low_dialogue"
+    ],
+    "expected_boundaries": {
+      "must": [
+        "主要靠行动、道具和空间变化推进",
+        "对白为零或极少",
+        "形成可见选择与状态改变"
+      ],
+      "must_not": [
+        "退化为两人站着解释",
+        "新增物品来源或人物关系"
+      ]
+    },
+    "assignment": {
+      "requested_mode": "CREATE",
+      "output_language": "zh-CN",
+      "project_id": "FSV-SYNTHETIC",
+      "episode_id": "FSV-EP01",
+      "scene_id": "F02",
+      "scene_request": "写一个以行动、道具互动、空间行为和反应为主的短场景；正常对白最多一句。",
+      "scene_purpose": "让一个未被信任的交接通过可见行动完成。",
+      "repair_target": null,
+      "canon_locks": [
+        "地点是空的社区图书室。",
+        "人物只有管理员顾岚和志愿者许舟。",
+        "桌上有一只贴着归还标签的木盒和一串图书室钥匙。",
+        "木盒属于图书室，不含秘密信件或贵重物。"
+      ],
+      "showrunner_locks": [
+        "场景结束时，顾岚把钥匙交给许舟，许舟把木盒放进上锁的柜子。"
+      ],
+      "participants": [
+        {
+          "name": "顾岚",
+          "role": "管理员",
+          "objective": "确认许舟能独自完成闭馆交接。",
+          "knowledge": "知道木盒和钥匙都在桌上。",
+          "constraint": "不通过长篇解释测试对方。"
+        },
+        {
+          "name": "许舟",
+          "role": "志愿者",
+          "objective": "完成一次可靠的交接。",
+          "knowledge": "知道木盒需要入柜。",
+          "constraint": "不把自己写成已有经验最丰富的人。"
+        }
+      ],
+      "character_context": {
+        "relationship": "刚开始合作的管理员与志愿者。",
+        "creative_freedom": "可用整理、试钥匙、移动、停顿、手势和空间距离推进。"
+      },
+      "required_event": "许舟选择如何处理木盒与钥匙。",
+      "required_information": "木盒需入柜，钥匙需交接。",
+      "required_outcome": "顾岚交钥匙，许舟完成入柜。",
+      "prior_scene_state": "闭馆前，木盒和钥匙放在桌上。",
+      "desired_post_state": "许舟被允许承担下一次闭馆交接。",
+      "production_constraints": null,
+      "requested_form": "短场景，动作主导；无镜头或表演方法说明。",
+      "downstream_requests": [],
+      "qa_requests": []
+    }
+  },
+  "sequence": 2,
+  "classification": "FULL SEMANTIC VALIDATION / SYNTHETIC / NON-CANON / REAL SEMANTIC EXECUTION",
+  "formal_execution_count_for_fixture": 1,
+  "resamples_for_fixture": 0,
+  "provider": "deepseek",
+  "model": "deepseek-v4-pro",
+  "assignment": {
+    "requested_mode": "CREATE",
+    "output_language": "zh-CN",
+    "project_id": "FSV-SYNTHETIC",
+    "episode_id": "FSV-EP01",
+    "scene_id": "F02",
+    "scene_request": "写一个以行动、道具互动、空间行为和反应为主的短场景；正常对白最多一句。",
+    "scene_purpose": "让一个未被信任的交接通过可见行动完成。",
+    "repair_target": null,
+    "canon_locks": [
+      "地点是空的社区图书室。",
+      "人物只有管理员顾岚和志愿者许舟。",
+      "桌上有一只贴着归还标签的木盒和一串图书室钥匙。",
+      "木盒属于图书室，不含秘密信件或贵重物。"
+    ],
+    "showrunner_locks": [
+      "场景结束时，顾岚把钥匙交给许舟，许舟把木盒放进上锁的柜子。"
+    ],
+    "participants": [
+      {
+        "name": "顾岚",
+        "role": "管理员",
+        "objective": "确认许舟能独自完成闭馆交接。",
+        "knowledge": "知道木盒和钥匙都在桌上。",
+        "constraint": "不通过长篇解释测试对方。"
+      },
+      {
+        "name": "许舟",
+        "role": "志愿者",
+        "objective": "完成一次可靠的交接。",
+        "knowledge": "知道木盒需要入柜。",
+        "constraint": "不把自己写成已有经验最丰富的人。"
+      }
+    ],
+    "character_context": {
+      "relationship": "刚开始合作的管理员与志愿者。",
+      "creative_freedom": "可用整理、试钥匙、移动、停顿、手势和空间距离推进。"
+    },
+    "required_event": "许舟选择如何处理木盒与钥匙。",
+    "required_information": "木盒需入柜，钥匙需交接。",
+    "required_outcome": "顾岚交钥匙，许舟完成入柜。",
+    "prior_scene_state": "闭馆前，木盒和钥匙放在桌上。",
+    "desired_post_state": "许舟被允许承担下一次闭馆交接。",
+    "production_constraints": null,
+    "requested_form": "短场景，动作主导；无镜头或表演方法说明。",
+    "downstream_requests": [],
+    "qa_requests": [],
+    "request_id": "FSV-SW-F02"
+  },
+  "runtime_result": {
+    "runtime_status": "SUCCESS",
+    "runtime_failure_code": null,
+    "runtime_failure_message": null,
+    "request_id": "FSV-SW-F02",
+    "canonical_binding": {
+      "identity": "scene-writer",
+      "version": "V0.1",
+      "canonical_path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\02_Scene_Writer\\scene-writer\\SKILL.md",
+      "expected_sha256": "93e1be12988f8caa6cdd76acb5e6c1bf6ad3ca0dff5806a2ea93511e66052dfb",
+      "adapter_status": "REGISTERED",
+      "real_executor": "BOUND",
+      "semantic_integrity_verifier": "BOUND",
+      "synthetic_executor": "NOT_PRESENT",
+      "actual_sha256": "93e1be12988f8caa6cdd76acb5e6c1bf6ad3ca0dff5806a2ea93511e66052dfb",
+      "metadata": {
+        "name": "scene-writer",
+        "display_version": "V0.1"
+      },
+      "passed": true,
+      "reason": null
+    },
+    "idempotency": "NEW",
+    "scene_writer": {
+      "creative_deliverable": {
+        "kind": "scene",
+        "content": "空荡的社区图书室。\n\n顾岚站在桌旁，目光扫过桌面上的木盒和钥匙，然后看向许舟。\n\n许舟走近桌子，先看了看木盒上的归还标签，又看了看那串钥匙。她没有碰任何东西，只是站在那里，仿佛在估计重量和锁的位置。\n\n顾岚用下巴朝柜子方向一点，没有开口。\n\n许舟顺着她的视线看去，然后俯身，双手捧起木盒。她转身朝柜子走去，步子平稳，没让木盒碰到桌沿。\n\n顾岚留在原处，抱起手臂，目送她。\n\n许舟走到柜前，把木盒放在柜旁的地上，然后回到桌边，拿起钥匙。她试了试柜门，但柜门是锁着的。她把钥匙插入锁孔，转动。锁开了。\n\n许舟拉开柜门，把木盒放进去，关上门，再锁上。她拔出钥匙，转身看向顾岚。\n\n顾岚伸手接过钥匙，在手里掂了掂，又递回给许舟。\n\n许舟接过钥匙，轻轻握紧。\n\n顾岚看着她，点了点头。\n\n许舟走向门口，关掉最后一盏灯。"
+      },
+      "control_data": {
+        "primary_state": "SCENE_CREATED",
+        "flags": [],
+        "handoffs": [],
+        "scene_function": "通过可见行动完成一次闭馆交接，确立许舟的可靠性。",
+        "objectives": "顾岚：确认许舟能独自完成闭馆交接；许舟：完成一次可靠的交接。",
+        "resistance": "无对话测试；需通过动作和准确流程证明能力。",
+        "before_state": "闭馆前，木盒和钥匙放在桌上。两人开始合作。",
+        "turn": "许舟完成入柜并接过钥匙，顾岚通过点头和递钥匙表示认可。",
+        "state_after": "许舟被允许承担下一次闭馆交接。",
+        "entry_rationale": "从现有物品和站位直接进入，无多余铺垫。",
+        "exit_rationale": "在钥匙交接和点头认可后，以关灯动作结束，隐含收尾。",
+        "diagnosis_summary": "场景符合锁定事实和结果，只使用姿态和动作推进。",
+        "rule_hits": []
+      }
+    },
+    "output_language": "zh-CN",
+    "output_language_resolution": "EXPLICIT",
+    "assignment_fact_validation": {
+      "status": "PASS",
+      "guard_profile": [
+        "LOCKED_FACT_PRESERVATION",
+        "UNSPECIFIED_FACT_PROHIBITION",
+        "CHARACTER_KNOWLEDGE_SCOPE"
+      ],
+      "violations": []
+    },
+    "semantic_integrity_validation": {
+      "integrity_result": "PASS",
+      "violations": []
+    }
+  },
+  "unexpected_exception": null,
+  "generation_usage": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-pro",
+    "provider_invocation_id": "6123bcac-c6ef-4b53-a0b5-545b5689a2fc",
+    "usage": {
+      "prompt_tokens": 4153,
+      "completion_tokens": 548,
+      "total_tokens": 4701,
+      "prompt_cache_hit_tokens": 3072,
+      "prompt_cache_miss_tokens": 1081
+    },
+    "latency_ms": 13302,
+    "thinking_mode": "disabled",
+    "fixture_id": "F02",
+    "request_success": true
+  },
+  "verification_usage": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-pro",
+    "provider_invocation_id": "81128690-b165-4bcc-a07d-401196779430",
+    "usage": {
+      "prompt_tokens": 1751,
+      "completion_tokens": 18,
+      "total_tokens": 1769,
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 983
+    },
+    "latency_ms": 3066,
+    "thinking_mode": "disabled",
+    "fixture_id": "semantic-assignment-integrity",
+    "request_success": true
+  },
+  "estimated_cost_cny": {
+    "generation": 0.0066078,
+    "verification": 0.0030762,
+    "total": 0.009684
+  },
+  "pricing_basis": {
+    "currency": "CNY",
+    "unit": "per_1M_tokens",
+    "input_cache_hit": 0.025,
+    "input_cache_miss": 3.0,
+    "output": 6.0,
+    "status": "ESTIMATED"
+  }
+}

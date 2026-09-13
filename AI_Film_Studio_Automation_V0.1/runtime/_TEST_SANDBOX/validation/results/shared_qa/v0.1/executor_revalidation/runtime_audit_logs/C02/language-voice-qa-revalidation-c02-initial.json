@@ -1,0 +1,32 @@
+{
+  "invocation_id": "revalidation-c02-initial",
+  "timestamp": "2026-08-24T06:02:49.302105+00:00",
+  "skill_identity": "language-voice-qa",
+  "skill_version": "0.1",
+  "skill_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+  "input_mode": "QA_DEFAULT",
+  "context_availability_summary": {
+    "provided": [
+      "Available Context",
+      "Original",
+      "Register / usage",
+      "Requested Mode"
+    ],
+    "derived_safely": [],
+    "unknown": [
+      "Project Constraints / Canon",
+      "Protected Terms / Entities",
+      "Speaker / Character Context",
+      "User Creative Intent"
+    ]
+  },
+  "final_decision_state": "ROLE HANDOFF / WARNING",
+  "severity": "LEVEL 4",
+  "route": "Term & Contemporary Boundary",
+  "rewrite_used": false,
+  "handoff_occurred": true,
+  "runtime_contract_passed": true,
+  "failure_code": null,
+  "failure_name": null,
+  "integrity_passed": true
+}

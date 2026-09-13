@@ -1,0 +1,57 @@
+{
+  "source_role": "Scene Writer",
+  "source_record_id": "E2E-RUN-04/scene_writer/1",
+  "version": "1.0",
+  "timestamp": "2026-08-28T05:58:02.175953+00:00",
+  "intended_recipient": "Director",
+  "handoff_reason": "Three-scene locked package",
+  "canon_assignment_locks": [
+    "黄铜钥匙，标记 A-17；身份与 custody 必须可追踪。",
+    "母亲留下钥匙和储物间共同开启用途必须由许曼的授权场内揭示承载；不得提前泄漏。",
+    "暴雨夜、许宁夜班管理员、湿透制服；后续才可发生换下湿制服的授权视觉状态转换。",
+    "久未联系的姐弟；不得自动升级为完全和解。"
+  ],
+  "prohibited_changes": [
+    "不得增加第三个具名角色。",
+    "不得改变 A-17 标记。",
+    "不得把关系自动写成完全和解。",
+    "不得把未知原因或未授权背景写成 Canon。"
+  ],
+  "canonical_mode": "CREATE",
+  "primary_state_or_outcome": "SCENE_CREATED",
+  "flags": "ABSENT",
+  "handoffs": "ABSENT",
+  "required_outcome": "ABSENT",
+  "unresolved_decisions": "ABSENT",
+  "relevant_prior_state": {
+    "relationship_state": "久未联系，未自动和解",
+    "knowledge_state": "钥匙用途未揭示",
+    "visual_state": "暴雨夜，许宁湿透制服"
+  },
+  "current_state": {
+    "relationship_state": "久未联系，未自动和解",
+    "knowledge_state": "母亲留下钥匙和储物间共同开启用途未揭示",
+    "visual_state": "暴雨夜，许宁湿透制服"
+  },
+  "proposed_state": {
+    "relationship_state": "试探性理解，保留距离",
+    "knowledge_state": "母亲意图被暗示但不完全解释",
+    "visual_state": "许宁换上干衣，暴雨渐歇"
+  },
+  "knowledge_timing": {
+    "reveal_of_shared_use": "场景二，许曼授权场内揭示",
+    "reveal_of_room_content": "本三场不揭示"
+  },
+  "relationship_state": {
+    "initial": "久未联系，有隔阂",
+    "after_scene_1": "疏远，有警惕",
+    "after_scene_3": "试探性理解，保留距离"
+  },
+  "visual_state": {
+    "scene_1": "暴雨夜，许宁湿透制服",
+    "scene_2": "换下湿制服，场景二",
+    "scene_3": "干衣，暴雨渐歇"
+  },
+  "authority_source": "Scene Writer canonical Skill output",
+  "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-04\\artifacts\\scene_writer_output.json"
+}

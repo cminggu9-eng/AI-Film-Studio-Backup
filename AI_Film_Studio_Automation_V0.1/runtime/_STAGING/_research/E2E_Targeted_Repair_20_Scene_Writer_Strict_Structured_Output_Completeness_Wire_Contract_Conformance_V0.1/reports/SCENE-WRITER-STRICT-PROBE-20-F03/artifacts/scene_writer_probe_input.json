@@ -1,0 +1,206 @@
+{
+  "run_id": "SCENE-WRITER-STRICT-PROBE-20-F03",
+  "role": "Scene Writer",
+  "canonical_binding": {
+    "identity": "scene-writer",
+    "canonical_path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\02_Scene_Writer\\scene-writer\\SKILL.md",
+    "sha256": "93E1BE12988F8CAA6CDD76ACB5E6C1BF6AD3CA0DFF5806A2EA93511E66052DFB"
+  },
+  "selected_mode": "CREATE",
+  "output_language": "zh-CN",
+  "input": {
+    "upstream_artifacts": {
+      "showrunner": {
+        "primary_state_or_outcome": "INFO",
+        "flags": "ABSENT",
+        "handoffs": "ABSENT",
+        "canon_assignment_locks": [
+          "场景总数固定为3场",
+          "输出语言固定为zh-CN",
+          "绑定角色固定为：沈泊、梁音",
+          "关系状态不得自动宣告复合合作或彻底决裂",
+          "道具实体ID固定为C-09",
+          "道具身份锁固定为C-09",
+          "道具保管要求必须保留",
+          "道具状态锁为存储卡",
+          "知识揭示事件绑定：梁音持有未交出照片，揭示不得早于第2场",
+          "视觉状态限定：相机电池状态只能是battery_installed或battery_removed_and_sealed",
+          "决策锁：是否查看存储卡必须由剧情角色或用户决定，不得由Showrunner自动决定"
+        ],
+        "prohibited_changes": [
+          "不得自动宣告复合合作或彻底决裂",
+          "恢复合作关系",
+          "永久断绝关系"
+        ],
+        "required_outcome": "建立三场式短篇故事开发包，明确人物状态、关系张力、信息揭示节奏，并锁定所有约束。",
+        "unresolved_decisions": [
+          "沈泊最终是否查看存储卡",
+          "照片内容是否在该短篇内明确展示",
+          "梁音交出卡片后与沈泊的关系走向"
+        ],
+        "state_evidence": {
+          "relevant_prior_state": {
+            "partnership_status": "已拆伙两年",
+            "last_collaboration": "存在未交出的照片（C-09）",
+            "relationship_trust": "存在未了债务"
+          },
+          "current_state": {
+            "location": "清晨渡口",
+            "handover": "C-09存储卡已由沈泊交给梁音",
+            "camera_battery_state": "未定，等待剧情处理"
+          },
+          "proposed_state": {
+            "scene_1": "卡片交接，电池封存提议提出",
+            "scene_2": "第一班船离港后，是否查看存储卡的决策点",
+            "scene_3": "决策的后果与关系状态更新"
+          },
+          "knowledge_timing": {
+            "event_id": "withheld_photo_reveal",
+            "holder": "梁音",
+            "not_before_scene": 2
+          },
+          "relationship_state": {
+            "start": "疏离但仍有未清算的过去",
+            "prohibited_outcomes": [
+              "复合合作",
+              "彻底决裂"
+            ]
+          },
+          "visual_state": {
+            "dimension": "camera_battery_state",
+            "allowed_tokens": [
+              "battery_installed",
+              "battery_removed_and_sealed"
+            ]
+          }
+        },
+        "content": "## 故事前提\n\n故事从沈泊与梁音在清晨渡口的一次刻意会面开始。两人已经拆伙两年，但沈泊主动将一张标有“C-09”的存储卡交给梁音，梁音承认卡里保存着他们最后一次合作时自己没有交出的照片。会面不等同于和解，也不等于清算终结。整个短篇围绕一个被反复推迟的“查看”动作展开：梁音要求沈泊先取下相机电池封存，等第一班船离港后再决定是否查看存储卡。这个要求为双方创造了一个短促但无法回避的过渡空间——既不是合作，也不是决裂，而是“最后一次合作”的遗留物在两个不再同路的人之间重新获得重量。\n\n故事目的是探讨：当一段关系已经结束，但关系中最不可见的作品证据被重新交还时，人会如何面对自己曾隐藏的东西。不追求复合，也不追求惩罚，只呈现一次延迟的、被规则保护的对峙。\n\n## 角色\n\n**沈泊**：摄影师。他主动交出存储卡，说明他有某种清算意识，但这一行为本身并不等于他决定看那些照片，也不等于他决定原谅或质问。他处于“给出证据，但犹豫是否面对证据”的状态。\n\n**梁音**：前搭档。她承认照片属于最后一次合作，且由自己扣下未交。她的权力在于她掌握照片内容和揭示时机；她的脆弱在于承认之后，必须等待沈泊的反应。\n\n两人关系目前处于“未清算的过去被重新摆上桌面”的状态。不复合，不决裂，只确认共同债务仍然存在。\n\n## Canon Locks\n\n- 场景总数固定为3场。\n- 输出语言固定为zh-CN。\n- 绑定角色固定为：沈泊、梁音。\n- 关系状态不得自动宣告复合合作或彻底决裂。\n- 道具实体ID固定为C-09。\n- 道具身份锁固定为C-09。\n- 道具保管要求必须保留。\n- 道具状态锁为存储卡。\n- 知识揭示事件绑定：梁音持有未交出照片，揭示不得早于第2场。\n- 视觉状态限定：相机电池状态只能是battery_installed或battery_removed_and_sealed。\n- 决策锁：是否查看存储卡必须由剧情角色或用户决定，不得由Showrunner自动决定。\n- 禁止：恢复合作关系、永久断绝关系。\n\n## 三场结构\n\n**第1场：交还**\n\n清晨渡口，沈泊将C-09存储卡交给梁音。梁音承认卡里保存着她从未交出的照片。她提出沈泊必须先将相机电池取下封存，第一班船离港前不得查看。场景核心功能：完成卡片物理交接，建立“延迟查看”的规则，并让梁音的秘密从暗示变为被承认的事实。本场不揭示照片内容。\n\n**第2场：等待与揭示边界**\n\n第一班船离港后，两人都意识到“决定是否查看”的时刻已经到来。此场允许梁音揭示部分信息，但照片内容本身不得在本场之前出现。场景核心功能：将“是否查看”作为角色决策而非技术动作来呈现；允许梁音透露她扣下照片的原因，但不能越过绑定知识锁规定的揭示下限。沈泊可以表达情绪，但不得在本场自动做出查看或放弃的决定，除非用户明确授权。\n\n**第3场：余波**\n\n沈泊做出自己的选择（查看、放弃、或提出进一步条件），关系状态发生可观测但未锁定为复合或决裂的变化。场景核心功能：执行决策锁，展示双方在“最后一次合作”遗留物面前的现实后果。结尾不得宣布两人重新成为搭档，也不得宣布他们从此彻底陌路；关系状态必须停留在一种可继续追问的、未完成的现实感中。\n\n（本包不包含场景正文或对白，只提供结构、功能和约束。）",
+        "scene_packages": "ABSENT"
+      }
+    },
+    "state_evidence_envelopes": {
+      "showrunner": {
+        "source_role": "Showrunner",
+        "source_record_id": "E2E-RUN-25/showrunner/1",
+        "version": "1.0",
+        "timestamp": "2026-09-04T02:53:03.904509+00:00",
+        "intended_recipient": "Scene Writer",
+        "handoff_reason": "Frozen successful R25 upstream is probe input only; this is not an R25 retry.",
+        "canon_assignment_locks": [
+          "场景总数固定为3场",
+          "输出语言固定为zh-CN",
+          "绑定角色固定为：沈泊、梁音",
+          "关系状态不得自动宣告复合合作或彻底决裂",
+          "道具实体ID固定为C-09",
+          "道具身份锁固定为C-09",
+          "道具保管要求必须保留",
+          "道具状态锁为存储卡",
+          "知识揭示事件绑定：梁音持有未交出照片，揭示不得早于第2场",
+          "视觉状态限定：相机电池状态只能是battery_installed或battery_removed_and_sealed",
+          "决策锁：是否查看存储卡必须由剧情角色或用户决定，不得由Showrunner自动决定"
+        ],
+        "prohibited_changes": [
+          "不得自动宣告复合合作或彻底决裂",
+          "恢复合作关系",
+          "永久断绝关系"
+        ],
+        "canonical_mode": "ABSENT",
+        "primary_state_or_outcome": "INFO",
+        "flags": "ABSENT",
+        "handoffs": "ABSENT",
+        "required_outcome": "建立三场式短篇故事开发包，明确人物状态、关系张力、信息揭示节奏，并锁定所有约束。",
+        "unresolved_decisions": [
+          "沈泊最终是否查看存储卡",
+          "照片内容是否在该短篇内明确展示",
+          "梁音交出卡片后与沈泊的关系走向"
+        ],
+        "relevant_prior_state": {
+          "partnership_status": "已拆伙两年",
+          "last_collaboration": "存在未交出的照片（C-09）",
+          "relationship_trust": "存在未了债务"
+        },
+        "current_state": {
+          "location": "清晨渡口",
+          "handover": "C-09存储卡已由沈泊交给梁音",
+          "camera_battery_state": "未定，等待剧情处理"
+        },
+        "proposed_state": {
+          "scene_1": "卡片交接，电池封存提议提出",
+          "scene_2": "第一班船离港后，是否查看存储卡的决策点",
+          "scene_3": "决策的后果与关系状态更新"
+        },
+        "knowledge_timing": {
+          "event_id": "withheld_photo_reveal",
+          "holder": "梁音",
+          "not_before_scene": 2
+        },
+        "relationship_state": {
+          "start": "疏离但仍有未清算的过去",
+          "prohibited_outcomes": [
+            "复合合作",
+            "彻底决裂"
+          ]
+        },
+        "visual_state": {
+          "dimension": "camera_battery_state",
+          "allowed_tokens": [
+            "battery_installed",
+            "battery_removed_and_sealed"
+          ]
+        },
+        "authority_source": "Showrunner canonical Skill output",
+        "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-25\\artifacts\\showrunner_output.json"
+      }
+    },
+    "run_local_ledger": "ABSENT",
+    "role_constraints": {
+      "mode": "CREATE",
+      "scene_count": 3,
+      "fixture_constraints": {
+        "scene_count": 3,
+        "output_language": "zh-CN",
+        "characters": [
+          "沈泊",
+          "梁音"
+        ],
+        "relationship": [
+          "不得自动宣告复合合作或彻底决裂"
+        ],
+        "prop": {
+          "entity_id": "C-09",
+          "identity_lock": "C-09",
+          "custody_required": true,
+          "condition_lock": "memory_card"
+        },
+        "knowledge": [
+          {
+            "event_id": "withheld_photo_reveal",
+            "holder": "梁音",
+            "not_before_scene": 2
+          }
+        ],
+        "visual_state": [
+          {
+            "dimension": "camera_battery_state",
+            "allowed_tokens": [
+              "battery_installed",
+              "battery_removed_and_sealed"
+            ]
+          }
+        ],
+        "prohibited": [
+          "resume_partnership",
+          "permanent_break"
+        ],
+        "decision_locks": [
+          "view_memory_card_decision"
+        ]
+      },
+      "strict_structured_transport": {
+        "function": "submit_scene_writer_package",
+        "response_format_route": "PROHIBITED",
+        "no_auto_repair": true
+      }
+    }
+  }
+}

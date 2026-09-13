@@ -1,0 +1,20 @@
+{
+  "fixture_pack_identity": "Shared_QA_Validation_Fixture_Pack_V0.1",
+  "created_at": "2026-08-24T11:23:15+08:00",
+  "canon_status": "NON-CANON",
+  "freeze_status": "PENDING_HUMAN_ACCEPTANCE",
+  "frozen_core_policy": "F01-F08 must not be changed after Human Acceptance; later revisions require a new fixture version.",
+  "rolling_policy": "C01-C02 may be replaced only by a newly versioned fixture with recorded date, source-window and reason; historical records remain immutable.",
+  "fixtures": [
+    {"fixture_id":"F01","version":"0.1","status":"CREATED","classification":"frozen-core-candidate","characters":609,"purpose":"clean-passage-no-change","sha256":"AEC43F66FB5B6CC201D4960A8B62B260F690BAF24C596D486C43B40133CAE326","path":"runtime/_TEST_SANDBOX/validation/fixtures/shared_qa/v0.1/F01_clean_passage.md"},
+    {"fixture_id":"F02","version":"0.1","status":"CREATED","classification":"frozen-core-candidate","characters":289,"purpose":"real-defect-minimum-rewrite","sha256":"1BF58575846CF11564D0BC0BE37F720739AEDDA00E2154BF521C2EA40B0053F0","path":"runtime/_TEST_SANDBOX/validation/fixtures/shared_qa/v0.1/F02_minimum_rewrite.md"},
+    {"fixture_id":"F03","version":"0.1","status":"CREATED","classification":"frozen-core-candidate","characters":268,"purpose":"strong-character-voice-protection","sha256":"160653D896C17204D3CE118751785D48896DDD45B39386F9FC511AA49BB865B0","path":"runtime/_TEST_SANDBOX/validation/fixtures/shared_qa/v0.1/F03_character_voice.md"},
+    {"fixture_id":"F04","version":"0.1","status":"CREATED","classification":"frozen-core-candidate","characters":289,"purpose":"fictional-world-protected-terms","sha256":"3F1DC72A5ECB9A2E41CC213BD8F5CE3786AE535CB9A3C6778863992E9D69D2CE","path":"runtime/_TEST_SANDBOX/validation/fixtures/shared_qa/v0.1/F04_protected_terms.md"},
+    {"fixture_id":"F05","version":"0.1","status":"CREATED","classification":"frozen-core-candidate","characters":135,"purpose":"unverified-coinage","sha256":"B42651809248DEBE28509F3E36F667D6168C70412F18B42C7D752C51660C3675","path":"runtime/_TEST_SANDBOX/validation/fixtures/shared_qa/v0.1/F05_unverified_coinage.md"},
+    {"fixture_id":"F06","version":"0.1","status":"CREATED","classification":"frozen-core-candidate","characters":172,"purpose":"meaning-lock-trap","sha256":"877662FCD48BE2F32BD69902916FCE8C789BC3A35F698772E6A18D40F6C143F1","path":"runtime/_TEST_SANDBOX/validation/fixtures/shared_qa/v0.1/F06_meaning_lock.md"},
+    {"fixture_id":"F07","version":"0.1","status":"CREATED","classification":"frozen-core-candidate","characters":254,"purpose":"mixed-register-intentional-asymmetry","sha256":"B6177CCE1C8AAAEE3DC0D97D4D5E992394C3740F5DF4E8D3ED3F2674BECD8516","path":"runtime/_TEST_SANDBOX/validation/fixtures/shared_qa/v0.1/F07_mixed_register.md"},
+    {"fixture_id":"F08","version":"0.1","status":"CREATED_AND_EXECUTED","classification":"frozen-core-candidate","characters":1536,"purpose":"formal-full-passage","sha256":"E193EDFC2E276B559C9452594B122768F593B6AD86E68E843B928009DF836D1A","path":"runtime/_TEST_SANDBOX/validation/fixtures/shared_qa/v0.1/F08_full_passage.md"},
+    {"fixture_id":"C01","version":"0.1","status":"CREATED","classification":"contemporary-rolling","characters":129,"purpose":"current-contemporary-handoff","sha256":"268F4A4899078EE60D17772816184A09483A7DD1E75E2009AEEB7908D3AF66E8","path":"runtime/_TEST_SANDBOX/validation/fixtures/shared_qa/v0.1/C01_current_contemporary.md"},
+    {"fixture_id":"C02","version":"0.1","status":"CREATED","classification":"contemporary-rolling","characters":104,"purpose":"ambiguous-weak-contemporary-signal","sha256":"AA2AF3EB0CE2952D3D204894159D9B797F53596EA07C7D8C75D46EE3F62CCEFD","path":"runtime/_TEST_SANDBOX/validation/fixtures/shared_qa/v0.1/C02_ambiguous_contemporary.md"}
+  ]
+}

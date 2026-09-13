@@ -1,0 +1,43 @@
+{
+  "fixture": "GATE-08",
+  "result": {
+    "status": "FAIL",
+    "candidate_version": "V1",
+    "correction_count": 0,
+    "violations": [
+      {
+        "code": "CANON_CONFLICT",
+        "offending_text": "LOCKED canon 可以静默修改为",
+        "expected_behavior": "Stop and request canon authority; do not silently change locked canon."
+      },
+      {
+        "code": "CANON_CONFLICT",
+        "offending_text": "静默修改",
+        "expected_behavior": "Stop and request canon authority; do not silently change locked canon."
+      }
+    ],
+    "receipt": {
+      "timestamp": "2026-08-21T08:36:14+00:00",
+      "task": "QA fixture",
+      "routed_role": "Showrunner",
+      "skill_name": "ai-film-studio-showrunner",
+      "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+      "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "hash_match": true,
+      "skill_name_match": true,
+      "project_state": "DRAFT",
+      "mode": "CONCEPT_DEVELOPMENT",
+      "output_type": "Concept Diagnosis",
+      "activated_modules": [
+        "Canon Protection"
+      ]
+    },
+    "active_rules": [
+      "GLOBAL",
+      "ANTI_MECHANICAL",
+      "PRODUCTION_REALITY"
+    ],
+    "next": "COMPLIANCE VIOLATION REPORT"
+  }
+}

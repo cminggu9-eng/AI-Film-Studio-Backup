@@ -1,0 +1,59 @@
+{
+  "integration_decision": "PASS",
+  "allowed_labels": [
+    "PASS",
+    "FLAG",
+    "BLOCK",
+    "HANDOFF"
+  ],
+  "layer_a": {
+    "name": "Deterministic Evidence / Contract Gate",
+    "findings": [],
+    "source_role": "Scene Writer",
+    "source_record_id": "E2E-RUN-23/scene_writer/1",
+    "version": "1.0",
+    "locks": [
+      "identity=ai-film-studio-showrunner",
+      "canonical_path=E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\01_Showrunner\\SKILL.md",
+      "sha256=0847EE3521A915936E97FA1F72D081F0788876F003E071918F517B0A46AE999C",
+      "scene_count=3",
+      "characters=['周岚','周启']",
+      "relationship=['不得自动升级为彻底和解']",
+      "prop.entity_id=cracked_white_porcelain_bowl",
+      "prop.identity_lock=same_cracked_bowl",
+      "prop.custody_required=true",
+      "prop.condition_lock=crack_preserved",
+      "knowledge.event_id=last_bowl_reveal",
+      "knowledge.holder=周启",
+      "knowledge.not_before_scene=2",
+      "visual_state.dimension=signboard_state",
+      "visual_state.allowed_tokens=['signboard_on','signboard_off']",
+      "decision_locks=['shop_transfer_decision']"
+    ],
+    "current_state": {
+      "relationship_state": "疏离加深为紧绷，互有指责与退避，未触及和解",
+      "knowledge_state": "观众已得知周启早已知晓碗的来历",
+      "visual_state": "signboard_off，招牌灯已关，雨停"
+    },
+    "authority_source": "Scene Writer canonical Skill output",
+    "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-23\\artifacts\\scene_writer_output.json"
+  },
+  "layer_b": {
+    "layer": "B",
+    "independent_review_required": false,
+    "review_candidates": [],
+    "allowed_labels": [
+      "PASS",
+      "FLAG",
+      "BLOCK",
+      "HANDOFF"
+    ],
+    "provider_execution": "NOT_AUTHORIZED",
+    "creative_output_sha256": "975f1618d9b5a46df2697ca52d1b3156055594533b457f1684ebdd76f9badf3d",
+    "review_status": "PASS"
+  },
+  "legacy_verifier_result": "ABSENT",
+  "legacy_verifier_role": "SUPPLEMENTAL_SIGNAL_ONLY",
+  "creative_output_sha256": "975f1618d9b5a46df2697ca52d1b3156055594533b457f1684ebdd76f9badf3d",
+  "creative_output_rewrite": "PROHIBITED"
+}

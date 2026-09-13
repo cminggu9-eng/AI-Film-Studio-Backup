@@ -1,0 +1,158 @@
+{
+  "receipt": {
+    "timestamp": "2026-08-21T10:08:10+00:00",
+    "task": "每天凌晨收到未来语音的连续漫剧设定，适合电影、短篇还是连续漫剧？",
+    "routed_role": "Showrunner",
+    "skill_name": "ai-film-studio-showrunner",
+    "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+    "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+    "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+    "hash_match": true,
+    "skill_name_match": true,
+    "project_state": "DRAFT",
+    "mode": "FORMAT_FIT",
+    "output_type": "Concept Diagnosis",
+    "activated_modules": [
+      "Project State",
+      "Format Fit",
+      "Story Purpose",
+      "Character Engine"
+    ],
+    "boundary_contract": null
+  },
+  "candidate_v1": {
+    "task": "每天凌晨收到未来语音的连续漫剧设定，适合电影、短篇还是连续漫剧？",
+    "routed_role": "Showrunner",
+    "skill_name": "ai-film-studio-showrunner",
+    "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+    "mode": "FORMAT_FIT",
+    "output_type": "Concept Diagnosis",
+    "activated_modules": [
+      "Project State",
+      "Format Fit",
+      "Story Purpose",
+      "Character Engine"
+    ],
+    "boundary_contract": null,
+    "project_state": "DRAFT",
+    "candidate_version": "V1",
+    "candidate_output": "Format Fit：先做形式压力测试，不直接写完整剧情；检查故事目的、人物欲望与连续发动机。"
+  },
+  "gate_v1": {
+    "status": "PASS",
+    "candidate_version": "V1",
+    "correction_count": 0,
+    "violations": [],
+    "receipt": {
+      "timestamp": "2026-08-21T10:08:10+00:00",
+      "task": "每天凌晨收到未来语音的连续漫剧设定，适合电影、短篇还是连续漫剧？",
+      "routed_role": "Showrunner",
+      "skill_name": "ai-film-studio-showrunner",
+      "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+      "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "hash_match": true,
+      "skill_name_match": true,
+      "project_state": "DRAFT",
+      "mode": "FORMAT_FIT",
+      "output_type": "Concept Diagnosis",
+      "activated_modules": [
+        "Project State",
+        "Format Fit",
+        "Story Purpose",
+        "Character Engine"
+      ],
+      "boundary_contract": null
+    },
+    "active_rules": [
+      "GLOBAL",
+      "BOUNDARY_CONTRACT",
+      "ANTI_MECHANICAL",
+      "PRODUCTION_REALITY"
+    ],
+    "next": "USER_OUTPUT",
+    "final_delivery_status": "READY"
+  },
+  "violations": [],
+  "correction_count": 0,
+  "candidate_v2": null,
+  "gate_v2": null,
+  "final_delivery_status": "READY",
+  "router": {
+    "routed_role": "Showrunner",
+    "mode": "FORMAT_FIT",
+    "output_type": "Concept Diagnosis",
+    "activated_modules": [
+      "Project State",
+      "Format Fit",
+      "Story Purpose",
+      "Character Engine"
+    ],
+    "trigger": "idea/format-fit intent",
+    "boundary_contract": null,
+    "skill_name": "ai-film-studio-showrunner",
+    "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+    "file_exists": true,
+    "file_readable": true,
+    "skill_name_correct": true,
+    "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+    "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+    "hash_match": true,
+    "invocation_receipt": {
+      "timestamp": "2026-08-21T10:08:10+00:00",
+      "task": "每天凌晨收到未来语音的连续漫剧设定，适合电影、短篇还是连续漫剧？",
+      "routed_role": "Showrunner",
+      "skill_name": "ai-film-studio-showrunner",
+      "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+      "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "hash_match": true,
+      "skill_name_match": true,
+      "project_state": "UNKNOWN",
+      "mode": "FORMAT_FIT",
+      "output_type": "Concept Diagnosis",
+      "activated_modules": [
+        "Project State",
+        "Format Fit",
+        "Story Purpose",
+        "Character Engine"
+      ],
+      "boundary_contract": null
+    }
+  },
+  "gate_final": {
+    "status": "PASS",
+    "candidate_version": "V1",
+    "correction_count": 0,
+    "violations": [],
+    "receipt": {
+      "timestamp": "2026-08-21T10:08:10+00:00",
+      "task": "每天凌晨收到未来语音的连续漫剧设定，适合电影、短篇还是连续漫剧？",
+      "routed_role": "Showrunner",
+      "skill_name": "ai-film-studio-showrunner",
+      "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+      "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "hash_match": true,
+      "skill_name_match": true,
+      "project_state": "DRAFT",
+      "mode": "FORMAT_FIT",
+      "output_type": "Concept Diagnosis",
+      "activated_modules": [
+        "Project State",
+        "Format Fit",
+        "Story Purpose",
+        "Character Engine"
+      ],
+      "boundary_contract": null
+    },
+    "active_rules": [
+      "GLOBAL",
+      "BOUNDARY_CONTRACT",
+      "ANTI_MECHANICAL",
+      "PRODUCTION_REALITY"
+    ],
+    "next": "USER_OUTPUT",
+    "final_delivery_status": "READY"
+  }
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "role": "Integration Harness",
+    "layer": "P0 RUNTIME LIFECYCLE CONSISTENCY",
+    "category": "RUNTIME / HARNESS FAILURE",
+    "owner": "Integration Harness",
+    "expected_contract": "Run-local manifest, provider calls, invocation IDs, handoffs, and ledger agree",
+    "actual_output": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-13\\execution_manifest.json",
+    "raw_evidence": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-13\\provider_manifest.json",
+    "parsed_evidence": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-13\\handoff_trace.json",
+    "semantic_content_existed": "NOT APPLICABLE",
+    "blocking_reason": "Beta strict transport is not isolated to Scene Writer",
+    "detail": "Beta strict transport is not isolated to Scene Writer",
+    "recommended_repair_boundary": "P0 lifecycle metadata / evidence linkage only",
+    "blocking": true,
+    "safe_stop": true
+  }
+]

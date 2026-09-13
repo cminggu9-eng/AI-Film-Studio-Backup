@@ -1,0 +1,55 @@
+{
+  "source_role": "Director",
+  "source_record_id": "E2E-RUN-18/director/1",
+  "version": "1.0",
+  "timestamp": "2026-08-31T05:11:45.321792+00:00",
+  "intended_recipient": "Character & Acting",
+  "handoff_reason": "Direction constraints",
+  "canon_assignment_locks": [
+    "A-17",
+    "brass_key",
+    "shared_storage_reveal",
+    "storage_room_opening",
+    "soaked_uniform",
+    "changed_clothes"
+  ],
+  "prohibited_changes": [
+    "完全和解"
+  ],
+  "canonical_mode": "PLAN",
+  "primary_state_or_outcome": "DIRECTION_PLAN_PRODUCED",
+  "flags": "ABSENT",
+  "handoffs": "ABSENT",
+  "required_outcome": "在不改动 Canon、Showrunner 决策、Scene Writer 锁定事件与结局的前提下，产出三场戏的舞台调度、空间地理、观众信息、机位/覆盖意图、节奏/转场意图与制作负担说明；保留 storage_room_opening 未决，遵守 soaked_uniform→changed_clothes 视觉状态锁，绝不升级为完全和解。",
+  "unresolved_decisions": [
+    "storage_room_opening（是否打开储物间）由用户或更高授权在后续决定，本计划不解决"
+  ],
+  "relevant_prior_state": {
+    "E2E-FIX-01-S01": {
+      "clothing_visual_state_code": "soaked_uniform"
+    },
+    "E2E-FIX-01-S02": {
+      "clothing_visual_state_code": "soaked_uniform"
+    },
+    "E2E-FIX-01-S03": {
+      "clothing_visual_state_code": "changed_clothes"
+    }
+  },
+  "current_state": {
+    "E2E-FIX-01-S01": {
+      "clothing_visual_state_code": "soaked_uniform"
+    },
+    "E2E-FIX-01-S02": {
+      "clothing_visual_state_code": "changed_clothes"
+    },
+    "E2E-FIX-01-S03": {
+      "clothing_visual_state_code": "changed_clothes"
+    }
+  },
+  "proposed_state": "ABSENT",
+  "knowledge_timing": "ABSENT",
+  "relationship_state": "疏远且紧张，未达到完全和解",
+  "visual_state": "ABSENT",
+  "authority_source": "Director canonical Skill output",
+  "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-18\\artifacts\\director_output.json"
+}

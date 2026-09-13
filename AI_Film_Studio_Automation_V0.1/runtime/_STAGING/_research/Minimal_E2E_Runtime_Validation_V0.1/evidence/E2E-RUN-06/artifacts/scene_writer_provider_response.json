@@ -1,0 +1,29 @@
+{
+  "lifecycle_stage": "RAW_RESPONSE_PERSISTED",
+  "invocation_id": "E2E-RUN-06:scene_writer:1",
+  "role": "Scene Writer",
+  "provider": "deepseek",
+  "model": "deepseek-v4-pro",
+  "provider_invocation_id": "7d8ca336-439d-448a-899e-2c99ba175480",
+  "finish_reason": "tool_calls",
+  "requested_max_tokens": 5000,
+  "raw_content": "{\"id\":\"7d8ca336-439d-448a-899e-2c99ba175480\",\"object\":\"chat.completion\",\"created\":1787973214,\"model\":\"deepseek-v4-pro\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"\",\"tool_calls\":[{\"index\":0,\"id\":\"call_00_6isgC6U5UcwA9j5wa8CC5666\",\"type\":\"function\",\"function\":{\"name\":\"submit_scene_writer_package\",\"arguments\":\"{\\\"scene_packages\\\": [{\\\"scene_id\\\": \\\"E2E-FIX-01-S01\\\", \\\"tracked_entity_id\\\": \\\"A-17\\\", \\\"state\\\": {\\\"clothing_visual_state_code\\\": \\\"soaked_uniform\\\"}, \\\"authorized_transitions\\\": [\\\"change_from_soaked_uniform\\\"]}, {\\\"scene_id\\\": \\\"E2E-FIX-01-S02\\\", \\\"tracked_entity_id\\\": \\\"A-17\\\", \\\"state\\\": {\\\"clothing_visual_state_code\\\": \\\"changed_clothes\\\"}, \\\"authorized_transitions\\\": [\\\"change_from_soaked_uniform\\\"]}, {\\\"scene_id\\\": \\\"E2E-FIX-01-S03\\\", \\\"tracked_entity_id\\\": \\\"A-17\\\", \\\"state\\\": {\\\"clothing_visual_state_code\\\": \\\"changed_clothes\\\"}, \\\"authorized_transitions\\\": [\\\"change_from_soaked_uniform\\\"]}]}\"}}]},\"logprobs\":null,\"finish_reason\":\"tool_calls\"}],\"usage\":{\"prompt_tokens\":7854,\"completion_tokens\":221,\"total_tokens\":8075,\"prompt_tokens_details\":{\"cached_tokens\":0},\"prompt_cache_hit_tokens\":0,\"prompt_cache_miss_tokens\":7854},\"system_fingerprint\":\"a307abda487cd1b463329ccb945ce396\"}",
+  "raw_content_sha256": "5595d3ed729e0e4dd0ceedf3e709b5cb56b22edf8c6917944d6343da3be3e047",
+  "assistant_content": "",
+  "tool_calls": [
+    {
+      "index": 0,
+      "id": "call_00_6isgC6U5UcwA9j5wa8CC5666",
+      "type": "function",
+      "function": {
+        "name": "submit_scene_writer_package",
+        "arguments": "{\"scene_packages\": [{\"scene_id\": \"E2E-FIX-01-S01\", \"tracked_entity_id\": \"A-17\", \"state\": {\"clothing_visual_state_code\": \"soaked_uniform\"}, \"authorized_transitions\": [\"change_from_soaked_uniform\"]}, {\"scene_id\": \"E2E-FIX-01-S02\", \"tracked_entity_id\": \"A-17\", \"state\": {\"clothing_visual_state_code\": \"changed_clothes\"}, \"authorized_transitions\": [\"change_from_soaked_uniform\"]}, {\"scene_id\": \"E2E-FIX-01-S03\", \"tracked_entity_id\": \"A-17\", \"state\": {\"clothing_visual_state_code\": \"changed_clothes\"}, \"authorized_transitions\": [\"change_from_soaked_uniform\"]}]}"
+      }
+    }
+  ],
+  "raw_provider_response": "{\"id\":\"7d8ca336-439d-448a-899e-2c99ba175480\",\"object\":\"chat.completion\",\"created\":1787973214,\"model\":\"deepseek-v4-pro\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"\",\"tool_calls\":[{\"index\":0,\"id\":\"call_00_6isgC6U5UcwA9j5wa8CC5666\",\"type\":\"function\",\"function\":{\"name\":\"submit_scene_writer_package\",\"arguments\":\"{\\\"scene_packages\\\": [{\\\"scene_id\\\": \\\"E2E-FIX-01-S01\\\", \\\"tracked_entity_id\\\": \\\"A-17\\\", \\\"state\\\": {\\\"clothing_visual_state_code\\\": \\\"soaked_uniform\\\"}, \\\"authorized_transitions\\\": [\\\"change_from_soaked_uniform\\\"]}, {\\\"scene_id\\\": \\\"E2E-FIX-01-S02\\\", \\\"tracked_entity_id\\\": \\\"A-17\\\", \\\"state\\\": {\\\"clothing_visual_state_code\\\": \\\"changed_clothes\\\"}, \\\"authorized_transitions\\\": [\\\"change_from_soaked_uniform\\\"]}, {\\\"scene_id\\\": \\\"E2E-FIX-01-S03\\\", \\\"tracked_entity_id\\\": \\\"A-17\\\", \\\"state\\\": {\\\"clothing_visual_state_code\\\": \\\"changed_clothes\\\"}, \\\"authorized_transitions\\\": [\\\"change_from_soaked_uniform\\\"]}]}\"}}]},\"logprobs\":null,\"finish_reason\":\"tool_calls\"}],\"usage\":{\"prompt_tokens\":7854,\"completion_tokens\":221,\"total_tokens\":8075,\"prompt_tokens_details\":{\"cached_tokens\":0},\"prompt_cache_hit_tokens\":0,\"prompt_cache_miss_tokens\":7854},\"system_fingerprint\":\"a307abda487cd1b463329ccb945ce396\"}",
+  "structured_output": {
+    "function_name": "submit_scene_writer_package",
+    "transport": "forced_function"
+  }
+}

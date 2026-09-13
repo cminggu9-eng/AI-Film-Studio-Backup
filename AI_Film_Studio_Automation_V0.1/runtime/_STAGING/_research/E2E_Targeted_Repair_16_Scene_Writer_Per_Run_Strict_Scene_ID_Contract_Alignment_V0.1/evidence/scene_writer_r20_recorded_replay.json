@@ -1,0 +1,16 @@
+{
+  "classification": "R20_RECORDED_RESPONSE_READ_ONLY_REPLAY",
+  "historical_run": "E2E-RUN-20",
+  "compiled_binding": "E2E-FIX-02",
+  "expected_ordered_scene_ids": ["E2E-FIX-02-S01", "E2E-FIX-02-S02", "E2E-FIX-02-S03"],
+  "recorded_scene_ids": ["E2E-FIX-02-S01", "E2E-FIX-02-S02", "E2E-FIX-03-S03"],
+  "legal_fixture02_prefix_accepted": true,
+  "foreign_fixture03_third_id_rejected": true,
+  "recorded_response_sha256": "223df1462ada4159634fc4d8a39871bb9d14cd9b9f63ec018f24ee88ef8e8dfd",
+  "recorded_response_mutated": false,
+  "historical_final_wire_payload_retained": false,
+  "provider_violation_claimed": false,
+  "historical_outcome": "BLOCKED",
+  "replay_mode": "READ_ONLY",
+  "result": "PASS"
+}

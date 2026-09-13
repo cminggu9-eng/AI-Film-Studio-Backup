@@ -1,0 +1,19 @@
+{
+  "classification": "E2E-RUN-21 RECORDED STATE-FIELD BRIDGE REPLAY",
+  "result": "PASS",
+  "decision": "RECORDED SCENE WRITER STATE-FIELD BRIDGE SATISFIES CORRECTED CONTRACT",
+  "state_field": "signboard_state",
+  "raw_machine_tokens": ["signboard_on", "signboard_on", "signboard_off"],
+  "hydrated_machine_tokens": ["signboard_on", "signboard_on", "signboard_off"],
+  "scene_ids": ["E2E-FIX-02-S01", "E2E-FIX-02-S02", "E2E-FIX-02-S03"],
+  "raw_response_sha256_before": "e3d690ac2cab689e6262134d8979da0c17a807f26fa710b10748b3b5f2077e82",
+  "raw_response_sha256_after": "e3d690ac2cab689e6262134d8979da0c17a807f26fa710b10748b3b5f2077e82",
+  "raw_arguments_unchanged": true,
+  "historical_status": "BLOCKED",
+  "historical_status_preserved": true,
+  "provider_calls": 0,
+  "executor_calls": 0,
+  "role_calls": 0,
+  "probe_calls": 0,
+  "live_e2e_runs": 0
+}

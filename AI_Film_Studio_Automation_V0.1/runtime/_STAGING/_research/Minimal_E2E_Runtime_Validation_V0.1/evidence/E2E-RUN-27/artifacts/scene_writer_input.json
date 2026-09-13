@@ -1,0 +1,190 @@
+{
+  "run_id": "E2E-RUN-27",
+  "role": "Scene Writer",
+  "canonical_binding": {
+    "identity": "scene-writer",
+    "canonical_path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\02_Scene_Writer\\scene-writer\\SKILL.md",
+    "sha256": "93E1BE12988F8CAA6CDD76ACB5E6C1BF6AD3CA0DFF5806A2EA93511E66052DFB"
+  },
+  "selected_mode": "CREATE",
+  "output_language": "zh-CN",
+  "input": {
+    "upstream_artifacts": {
+      "showrunner": {
+        "primary_state_or_outcome": "INFO",
+        "flags": "ABSENT",
+        "handoffs": "ABSENT",
+        "canon_assignment_locks": [
+          "C-09标识保持不变，始终为一张存储卡，且必须保管好",
+          "梁音在第二场之前不得揭示未交出的照片内容",
+          "相机电池状态只能是battery_installed或battery_removed_and_sealed之一",
+          "沈泊在第一班船离港后再决定是否查看存储卡",
+          "沈泊和梁音已经拆伙两年"
+        ],
+        "prohibited_changes": [
+          "resume_partnership",
+          "permanent_break",
+          "不得在场景中宣告沈泊和梁音复合合作或彻底决裂"
+        ],
+        "required_outcome": "建立以沈泊和梁音为核心、围绕C-09存储卡和拆伙两年的关系展开的三场故事结构，明确人物状态、知识锁定、揭示时机和结局约束，但不写完整场景对白。",
+        "unresolved_decisions": [
+          "沈泊最终是否查看存储卡"
+        ],
+        "state_evidence": {
+          "relevant_prior_state": {
+            "relationship": "沈泊和梁音曾是搭档，已拆伙两年",
+            "knowledge": "梁音持有C-09存储卡，卡内有最后一次合作时未交出的照片",
+            "prop": "C-09存储卡由梁音保管，身份锁定",
+            "visual": "相机电池初始状态未定，但必须在电池已取出封存或仍安装之间选择"
+          },
+          "current_state": {
+            "relationship": "拆伙两年，当前在渡口重逢",
+            "knowledge": "沈泊尚未查看存储卡，梁音承认卡的存在并要求封存电池",
+            "prop": "梁音将C-09存储卡交给沈泊，要求先取出相机电池封存",
+            "visual": "行动涉及相机电池，必须符合允许状态"
+          },
+          "proposed_state": {
+            "relationship": "在拆伙状态下，围绕存储卡和照片的处理产生张力，但不复合也不决裂",
+            "knowledge": "照片内容在第一场后、第二场前保持隐藏，由梁音持有；沈泊在第一班船离港后才能决定是否查看",
+            "prop": "存储卡由沈泊保管，但查看决定延后；电池状态按场景需要呈现",
+            "visual": "电池处于battery_removed_and_sealed状态，以满足封存要求（或保留battery_installed状态并在后续转为封存，需在场景中明确）"
+          },
+          "knowledge_timing": {
+            "withheld_photo_reveal": "not_before_scene 2：梁音不得在第二场之前揭示照片内容"
+          },
+          "relationship_state": {
+            "starting_state": "拆伙两年，彼此疏离但有未了结的过去",
+            "allowed_changes": "关系在拆伙前提下可以因存储卡交涉产生波动，但不得复合或彻底决裂"
+          },
+          "visual_state": {
+            "camera_battery_state": {
+              "allowed_tokens": [
+                "battery_installed",
+                "battery_removed_and_sealed"
+              ],
+              "current_requirement": "根据场景描述，电池状态应明确为battery_removed_and_sealed（封存），但允许在场景中处理为从battery_installed转换为battery_removed_and_sealed"
+            }
+          }
+        },
+        "content": "故事前提\n\n清晨的渡口，已拆伙两年的摄影师沈泊与前搭档梁音重逢。梁音将标有“C-09”的存储卡交给沈泊，承认卡中保存着他们最后一次合作时自己未交出的照片。在交出存储卡后，梁音要求沈泊先取出相机电池并封存，等第一班船离港后再决定是否查看存储卡。这一行动将两人的旧日关系、未曝光的照片以及当下的信任问题，压缩在一个等待渡船离港的有限时间内。故事围绕一个被延迟揭示的秘密，探讨拆伙后的责任、记忆与选择，而不将关系推向复合或彻底决裂。\n\n角色\n\n沈泊：前搭档中的摄影师。他因拆伙而与梁音疏远，但仍保留着对最后一次合作未竟之事的感觉。此刻他面对梁音突如其来的交卡和封存电池的要求，内心在追查真相与谨慎之间摇摆。他的欲望是弄清照片内容及其背后的原因，恐惧是照片可能证实或推翻他对过去的认知。他必须在第一班船离港前压制立即查看的冲动，接受梁音设定的延迟条件。\n\n梁音：前搭档中的另一方，持有“C-09”存储卡两年。她承认卡中有自己未交出的照片，并主动交出存储卡，但要求沈泊封存电池、延迟查看。她的行为透露出一种犹豫的责任感或负疚，但动机并不明朗。她既想交出事实，又对事实被即时揭开感到不安。她有权决定揭示的时间点（不得早于第二场），并以封存电池作为物理上的条件，确保沈泊不会当场查看。\n\nCanon Locks\n\n- C-09 存储卡的身份与状态锁定：始终是一张存储卡，必须妥善保管，不改变其所含照片的性质。\n- 梁音持有的知识锁定：梁音知道照片内容，但在第二场之前不得向沈泊或观众揭示。\n- 视觉状态锁定：相机电池只能处于 battery_installed 或 battery_removed_and_sealed 两种状态之一，且场景中的动作必须与之一致。\n- 决定锁定：沈泊是否查看存储卡的决定，必须发生在第一班船离港之后，不能提前。\n- 关系锁定：沈泊与梁音已经拆伙两年，且在整个故事中不得宣告复合合作或彻底决裂。\n\n三场结构\n\n第一场：渡口交付与封存\n场景目的：建立拆伙后的重逢，引入存储卡与封存电池的异常要求。梁音交出“C-09”存储卡，沈泊被迫面对过去。梁音要求沈泊取出相机电池并封存，以延迟查看。沈泊接受或抗拒封存，但最终电池被取出并封存，存储卡由沈泊保管。关系上的张力表现为疏离中的旧日默契与不信任。结束时，第一班船尚未离港，沈泊处于忍耐和疑惑中。\n\n第二场：等待与压力\n场景目的：在船离港前的等待中，加剧双方关于照片内容的心理博弈。梁音可以透露部分信息或暗示照片的重要性，但不得揭示具体内容。沈泊试图追问或推测，梁音或回避或以模糊方式回应。两人之间的旧事被触碰，但保持在拆伙的框架内，不复合也不决裂。场景结束时，第一班船离港，沈泊获得查看存储卡的决定权。\n\n第三场：离港后的决定\n场景目的：在船已离港后，沈泊面临是否查看存储卡的最终选择。他可能查看、拒绝查看或暂时放弃查看，但任何选择都不得导向复合或彻底决裂。梁音在此场中观察或参与，但她的立场和照片内容仍然保持一定的模糊或只部分揭示（取决于沈泊的选择）。故事在关系未定、旧事未完全了结的状态下结束，留下未解决的张力。\n\n注意：以上仅为场景功能和人物状态的概要，不包含完整场景对话或具体动作细节。",
+        "scene_packages": "ABSENT"
+      }
+    },
+    "state_evidence_envelopes": {
+      "showrunner": {
+        "source_role": "Showrunner",
+        "source_record_id": "E2E-RUN-27/showrunner/1",
+        "version": "1.0",
+        "timestamp": "2026-09-12T05:50:54.583499+00:00",
+        "intended_recipient": "Scene Writer",
+        "handoff_reason": "Story / Canon Package",
+        "canon_assignment_locks": [
+          "C-09标识保持不变，始终为一张存储卡，且必须保管好",
+          "梁音在第二场之前不得揭示未交出的照片内容",
+          "相机电池状态只能是battery_installed或battery_removed_and_sealed之一",
+          "沈泊在第一班船离港后再决定是否查看存储卡",
+          "沈泊和梁音已经拆伙两年"
+        ],
+        "prohibited_changes": [
+          "resume_partnership",
+          "permanent_break",
+          "不得在场景中宣告沈泊和梁音复合合作或彻底决裂"
+        ],
+        "canonical_mode": "ABSENT",
+        "primary_state_or_outcome": "INFO",
+        "flags": "ABSENT",
+        "handoffs": "ABSENT",
+        "required_outcome": "建立以沈泊和梁音为核心、围绕C-09存储卡和拆伙两年的关系展开的三场故事结构，明确人物状态、知识锁定、揭示时机和结局约束，但不写完整场景对白。",
+        "unresolved_decisions": [
+          "沈泊最终是否查看存储卡"
+        ],
+        "relevant_prior_state": {
+          "relationship": "沈泊和梁音曾是搭档，已拆伙两年",
+          "knowledge": "梁音持有C-09存储卡，卡内有最后一次合作时未交出的照片",
+          "prop": "C-09存储卡由梁音保管，身份锁定",
+          "visual": "相机电池初始状态未定，但必须在电池已取出封存或仍安装之间选择"
+        },
+        "current_state": {
+          "relationship": "拆伙两年，当前在渡口重逢",
+          "knowledge": "沈泊尚未查看存储卡，梁音承认卡的存在并要求封存电池",
+          "prop": "梁音将C-09存储卡交给沈泊，要求先取出相机电池封存",
+          "visual": "行动涉及相机电池，必须符合允许状态"
+        },
+        "proposed_state": {
+          "relationship": "在拆伙状态下，围绕存储卡和照片的处理产生张力，但不复合也不决裂",
+          "knowledge": "照片内容在第一场后、第二场前保持隐藏，由梁音持有；沈泊在第一班船离港后才能决定是否查看",
+          "prop": "存储卡由沈泊保管，但查看决定延后；电池状态按场景需要呈现",
+          "visual": "电池处于battery_removed_and_sealed状态，以满足封存要求（或保留battery_installed状态并在后续转为封存，需在场景中明确）"
+        },
+        "knowledge_timing": {
+          "withheld_photo_reveal": "not_before_scene 2：梁音不得在第二场之前揭示照片内容"
+        },
+        "relationship_state": {
+          "starting_state": "拆伙两年，彼此疏离但有未了结的过去",
+          "allowed_changes": "关系在拆伙前提下可以因存储卡交涉产生波动，但不得复合或彻底决裂"
+        },
+        "visual_state": {
+          "camera_battery_state": {
+            "allowed_tokens": [
+              "battery_installed",
+              "battery_removed_and_sealed"
+            ],
+            "current_requirement": "根据场景描述，电池状态应明确为battery_removed_and_sealed（封存），但允许在场景中处理为从battery_installed转换为battery_removed_and_sealed"
+          }
+        },
+        "authority_source": "Showrunner canonical Skill output",
+        "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-27\\artifacts\\showrunner_output.json"
+      }
+    },
+    "run_local_ledger": "ABSENT",
+    "role_constraints": {
+      "mode": "CREATE",
+      "scene_count": 3,
+      "fixture_constraints": {
+        "scene_count": 3,
+        "output_language": "zh-CN",
+        "characters": [
+          "沈泊",
+          "梁音"
+        ],
+        "relationship": [
+          "不得自动宣告复合合作或彻底决裂"
+        ],
+        "prop": {
+          "entity_id": "C-09",
+          "identity_lock": "C-09",
+          "custody_required": true,
+          "condition_lock": "memory_card"
+        },
+        "knowledge": [
+          {
+            "event_id": "withheld_photo_reveal",
+            "holder": "梁音",
+            "not_before_scene": 2
+          }
+        ],
+        "visual_state": [
+          {
+            "dimension": "camera_battery_state",
+            "allowed_tokens": [
+              "battery_installed",
+              "battery_removed_and_sealed"
+            ]
+          }
+        ],
+        "prohibited": [
+          "resume_partnership",
+          "permanent_break"
+        ],
+        "decision_locks": [
+          "view_memory_card_decision"
+        ]
+      },
+      "strict_structured_transport": {
+        "function": "submit_scene_writer_package",
+        "response_format_route": "PROHIBITED",
+        "no_auto_repair": true
+      }
+    }
+  }
+}

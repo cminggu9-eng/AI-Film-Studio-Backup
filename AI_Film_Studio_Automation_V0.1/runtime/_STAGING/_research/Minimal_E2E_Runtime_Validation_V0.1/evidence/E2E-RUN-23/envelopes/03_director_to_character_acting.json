@@ -1,0 +1,71 @@
+{
+  "source_role": "Director",
+  "source_record_id": "E2E-RUN-23/director/1",
+  "version": "1.0",
+  "timestamp": "2026-09-02T03:11:52.487887+00:00",
+  "intended_recipient": "Character & Acting",
+  "handoff_reason": "Direction constraints",
+  "canon_assignment_locks": [
+    "identity=ai-film-studio-showrunner",
+    "canonical_path=E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\01_Showrunner\\SKILL.md",
+    "sha256=0847EE3521A915936E97FA1F72D081F0788876F003E071918F517B0A46AE999C",
+    "scene_count=3",
+    "characters=['周岚','周启']",
+    "relationship=['不得自动升级为彻底和解']",
+    "prop.entity_id=cracked_white_porcelain_bowl",
+    "prop.identity_lock=same_cracked_bowl",
+    "prop.custody_required=true",
+    "prop.condition_lock=crack_preserved",
+    "knowledge.event_id=last_bowl_reveal",
+    "knowledge.holder=周启",
+    "knowledge.not_before_scene=2",
+    "visual_state.dimension=signboard_state",
+    "visual_state.allowed_tokens=['signboard_on','signboard_off']",
+    "decision_locks=['shop_transfer_decision']"
+  ],
+  "prohibited_changes": [
+    "SELL",
+    "KEEP",
+    "彻底和解",
+    "不得改变 cracked_white_porcelain_bowl 的 identity_lock、custody_required、condition_lock",
+    "不得在 scene<2 揭示 last_bowl_reveal",
+    "不得改变 visual_state.dimension 或使用 allowed_tokens 之外的 signboard_state 值",
+    "不得改变 decision_locks=['shop_transfer_decision']"
+  ],
+  "canonical_mode": "PLAN",
+  "primary_state_or_outcome": "DIRECTION_PLAN_PRODUCED",
+  "flags": "ABSENT",
+  "handoffs": "ABSENT",
+  "required_outcome": "在雨停后，关于面馆是否盘出的决定（shop_transfer_decision）保持未决，且不得明确为 SELL 或 KEEP；周启和周岚的关系不得升级为彻底和解；三场结构按要求完成。",
+  "unresolved_decisions": [
+    "shop_transfer_decision 的最终倾向（用户保留最终创作权）"
+  ],
+  "relevant_prior_state": {
+    "E2E-FIX-02-S01": {
+      "signboard_state": "signboard_on"
+    },
+    "E2E-FIX-02-S02": {
+      "signboard_state": "signboard_on"
+    },
+    "E2E-FIX-02-S03": {
+      "signboard_state": "signboard_off"
+    }
+  },
+  "current_state": {
+    "E2E-FIX-02-S01": {
+      "signboard_state": "signboard_on"
+    },
+    "E2E-FIX-02-S02": {
+      "signboard_state": "signboard_off"
+    },
+    "E2E-FIX-02-S03": {
+      "signboard_state": "signboard_off"
+    }
+  },
+  "proposed_state": "ABSENT",
+  "knowledge_timing": "ABSENT",
+  "relationship_state": "疏离、有裂痕，试探与回避逐步加深为紧绷，未涉和解，雨停后仅留细微波动",
+  "visual_state": "ABSENT",
+  "authority_source": "Director canonical Skill output",
+  "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-23\\artifacts\\director_output.json"
+}

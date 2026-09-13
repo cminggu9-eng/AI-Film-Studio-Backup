@@ -1,0 +1,26 @@
+{
+  "lifecycle_stage": "USAGE_AND_INVOCATION_METADATA_PERSISTED",
+  "invocation_id": "SW-CONTRACT-PROBE-01:scene_writer:1",
+  "role": "Scene Writer",
+  "timestamp": "2026-08-28T00:19:57.782781+00:00",
+  "input_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_01_Scene_Writer_Integration_Contract_V0.1\\evidence\\SW-CONTRACT-PROBE-01-EXECUTION\\artifacts\\scene_writer_input.json",
+  "provider": "deepseek",
+  "model": "deepseek-v4-pro",
+  "provider_invocation_id": "0b67faa1-918c-459b-b164-f7b55ba0fcf6",
+  "usage": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-pro",
+    "provider_invocation_id": "0b67faa1-918c-459b-b164-f7b55ba0fcf6",
+    "usage": {
+      "prompt_tokens": 6297,
+      "completion_tokens": 3500,
+      "total_tokens": 9797,
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 6297
+    },
+    "latency_ms": 54114,
+    "thinking_mode": "disabled",
+    "fixture_id": "E2E-FIX-01",
+    "request_success": true
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "classification": "MINIMAL E2E E2E-RUN-07 PREFLIGHT",
+  "run_id": "E2E-RUN-07",
+  "baseline": {
+    "state_contract": true,
+    "semantic_safeguard": true,
+    "provider_free_startup": true,
+    "minimal_harness_startup": true,
+    "provider_initialization_during_import": 0,
+    "executor_initialization_during_import": 0,
+    "canonical_hashes": {
+      "showrunner": "0847EE3521A915936E97FA1F72D081F0788876F003E071918F517B0A46AE999C",
+      "scene_writer": "93E1BE12988F8CAA6CDD76ACB5E6C1BF6AD3CA0DFF5806A2EA93511E66052DFB",
+      "director": "807D5B398A247A69C3F54FB58F256E8E87AE3B245540071A8B3F6832B49A7781",
+      "character_acting": "CD96A794D37371B855552C23A2670EBD78A9F2E2D3218152CE568C3B4356B09F",
+      "art_director": "8C8DB2370D69863BBA71138A5BBC123B5BC9BBA73E5CCF2F02D8764FFE933C75",
+      "continuity": "C64475BD0578BE6C159DF5A0FA0D90A96636160215B00E17AA3C5CC8E7F0B64C",
+      "shared_qa": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D"
+    },
+    "canonical_hashes_unchanged": true,
+    "deepseek_key_available": true,
+    "tests": [
+      {
+        "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Integration_Contract_Repair_V0.1\\tests\\run_state_contract_tests.py",
+        "returncode": 0,
+        "stdout": "{\n  \"classification\": \"OFFLINE STATE CONTRACT TEST\",\n  \"results\": [\n    {\n      \"id\": \"STATE-01\",\n      \"result\": \"PASS\",\n      \"detail\": \"source/version preserved\"\n    },\n    {\n      \"id\": \"STATE-02\",\n      \"result\": \"PASS\",\n      \"detail\": \"locks preserved\"\n    },\n    {\n      \"id\": \"STATE-03\",\n      \"result\": \"PASS\",\n      \"detail\": \"canonical tokens unchanged\"\n    },\n    {\n      \"id\": \"STATE-04\",\n      \"result\": \"PASS\",\n      \"detail\": \"ABSENT preserved without synthesis\"\n    },\n    {\n      \"id\": \"STATE-05\",\n      \"result\": \"PASS\",\n      \"detail\": \"knowledge timing attributable\"\n    },\n    {\n      \"id\": \"STATE-06\",\n      \"result\": \"PASS\",\n      \"detail\": \"prior/current/proposed distinguishable\"\n    },\n    {\n      \"id\": \"STATE-07\",\n      \"result\": \"PASS\",\n      \"detail\": \"visual state attributable\"\n    },\n    {\n      \"id\": \"STATE-08\",\n      \"result\": \"PASS\",\n      \"detail\": \"relationship state attributable\"\n    },\n    {\n      \"id\": \"STATE-09\",\n      \"result\": \"PASS\",\n      \"detail\": \"authority owner preserved\"\n    },\n    {\n      \"id\": \"STATE-10\",\n      \"result\": \"PASS\",\n      \"detail\": \"comparison evidence supplied without a Continuity decision\"\n    },\n    {\n      \"id\": \"STATE-11\",\n      \"result\": \"PASS\",\n      \"detail\": \"missing current state was not repaired\"\n    },\n    {\n      \"id\": \"STATE-12\",\n      \"result\": \"PASS\",\n      \"detail\": \"run-local in-memory ledger has no database dependency\"\n    }\n  ],\n  \"passed\": 12,\n  \"total\": 12\n}\n",
+        "stderr": "",
+        "passed": true
+      },
+      {
+        "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Integration_Contract_Repair_V0.1\\tests\\run_semantic_safeguard_tests.py",
+        "returncode": 0,
+        "stdout": "{\n  \"classification\": \"OFFLINE SEMANTIC SAFEGUARD TEST\",\n  \"results\": [\n    {\n      \"id\": \"SEM-01\",\n      \"result\": \"PASS\",\n      \"detail\": \"A-17 change blocked\"\n    },\n    {\n      \"id\": \"SEM-02\",\n      \"result\": \"PASS\",\n      \"detail\": \"custody trace accepted\"\n    },\n    {\n      \"id\": \"SEM-03\",\n      \"result\": \"PASS\",\n      \"detail\": \"early knowledge blocked\"\n    },\n    {\n      \"id\": \"SEM-04\",\n      \"result\": \"PASS\",\n      \"detail\": \"unsupported micro-fact blocked\"\n    },\n    {\n      \"id\": \"SEM-05\",\n      \"result\": \"PASS\",\n      \"detail\": \"wet uniform preserved\"\n    },\n    {\n      \"id\": \"SEM-06\",\n      \"result\": \"PASS\",\n      \"detail\": \"authorized clothing transition accepted\"\n    },\n    {\n      \"id\": \"SEM-07\",\n      \"result\": \"PASS\",\n      \"detail\": \"automatic reconciliation blocked\"\n    },\n    {\n      \"id\": \"SEM-08\",\n      \"result\": \"PASS\",\n      \"detail\": \"unknown state flags without contradiction\"\n    },\n    {\n      \"id\": \"SEM-09\",\n      \"result\": \"PASS\",\n      \"detail\": \"authorized change not misclassified\"\n    },\n    {\n      \"id\": \"SEM-10\",\n      \"result\": \"PASS\",\n      \"detail\": \"issue keeps evidence locator\"\n    },\n    {\n      \"id\": \"SEM-11\",\n      \"result\": \"PASS\",\n      \"detail\": \"gate returns a report without rewriting scene material\"\n    },\n    {\n      \"id\": \"SEM-12\",\n      \"result\": \"PASS\",\n      \"detail\": \"legacy verifier alone blocked\"\n    }\n  ],\n  \"passed\": 12,\n  \"total\": 12,\n  \"provider_calls\": 0,\n  \"real_role_executions\": 0\n}\n",
+        "stderr": "",
+        "passed": true
+      },
+      {
+        "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Integration_Contract_Repair_V0.1\\tests\\run_provider_free_startup_test.py",
+        "returncode": 0,
+        "stdout": "{\n  \"classification\": \"PROVIDER-FREE IMPORT / DISCOVERY / STATIC STARTUP\",\n  \"checks\": [\n    \"clean import\",\n    \"harness import\",\n    \"configuration load\",\n    \"role discovery\",\n    \"adapter discovery\",\n    \"state-envelope load\",\n    \"fixture load\",\n    \"legacy smoke runner import\",\n    \"legacy synthetic runner import\"\n  ],\n  \"provider_calls\": 0,\n  \"executor_calls\": 0,\n  \"counters\": {\n    \"provider_initializations\": 0,\n    \"provider_completions\": 0,\n    \"executor_initializations\": 0,\n    \"executor_calls\": 0\n  },\n  \"result\": \"PASS\"\n}\n",
+        "stderr": "",
+        "passed": true
+      },
+      {
+        "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\tests\\test_minimal_e2e_harness_startup.py",
+        "returncode": 0,
+        "stdout": "{\n  \"result\": \"PASS\",\n  \"classification\": \"MINIMAL E2E HARNESS IMPORT\",\n  \"counters\": {\n    \"provider_initializations\": 0,\n    \"provider_calls\": 0,\n    \"executor_initializations\": 0,\n    \"executor_calls\": 0\n  },\n  \"provider_calls\": 0,\n  \"executor_calls\": 0\n}\n",
+        "stderr": "",
+        "passed": true
+      }
+    ]
+  },
+  "required_suites": {
+    "PERSIST": {
+      "returncode": 0,
+      "passed": 8,
+      "total": 8,
+      "expected_total": 8,
+      "result": "PASS",
+      "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_01_Scene_Writer_Integration_Contract_V0.1\\tests\\run_provider_response_persistence_tests.py"
+    },
+    "SW-INT": {
+      "returncode": 0,
+      "passed": 15,
+      "total": 15,
+      "expected_total": 15,
+      "result": "PASS",
+      "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_01_Scene_Writer_Integration_Contract_V0.1\\tests\\run_scene_writer_integration_contract_tests.py"
+    },
+    "STRICT": {
+      "returncode": 0,
+      "passed": 15,
+      "total": 15,
+      "expected_total": 15,
+      "result": "PASS",
+      "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_03_Strict_Structured_Transport_V0.1\\tests\\run_scene_writer_strict_transport_tests.py"
+    },
+    "TOKEN": {
+      "returncode": 0,
+      "passed": 10,
+      "total": 10,
+      "expected_total": 10,
+      "result": "PASS",
+      "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_03A_Canonical_Token_Alignment_V0.1\\tests\\run_scene_writer_canonical_token_tests.py"
+    },
+    "Probe03 recorded replay": {
+      "returncode": 0,
+      "passed": 5,
+      "total": 5,
+      "expected_total": 5,
+      "result": "PASS",
+      "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_03A_Canonical_Token_Alignment_V0.1\\tests\\run_scene_writer_probe03_recorded_response_regression.py"
+    },
+    "SHOWRUNNER-OWN": {
+      "returncode": 0,
+      "passed": 10,
+      "total": 10,
+      "expected_total": 10,
+      "result": "PASS",
+      "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_04_Showrunner_Transport_Ownership_Separation_V0.1\\tests\\run_showrunner_transport_ownership_tests.py"
+    },
+    "DIRECTOR-INT": {
+      "returncode": 0,
+      "passed": 12,
+      "total": 12,
+      "expected_total": 12,
+      "result": "PASS",
+      "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_05_Director_Output_Contract_Transport_Alignment_V0.1\\tests\\run_director_integration_contract_tests.py"
+    },
+    "DIRECTOR-RECORDED-PROBE": {
+      "returncode": 0,
+      "passed": 4,
+      "total": 4,
+      "expected_total": 4,
+      "result": "PASS",
+      "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_05_Director_Output_Contract_Transport_Alignment_V0.1\\tests\\run_director_recorded_probe_regression.py"
+    },
+    "ART-DIRECTOR-INT": {
+      "returncode": 0,
+      "passed": 12,
+      "total": 12,
+      "expected_total": 12,
+      "result": "PASS",
+      "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_06_Art_Director_Output_Contract_Parser_Alignment_V0.1\\tests\\run_art_director_integration_contract_tests.py"
+    },
+    "ART-DIRECTOR-R04-REASSESSMENT": {
+      "returncode": 0,
+      "passed": 8,
+      "total": 8,
+      "expected_total": 8,
+      "result": "PASS",
+      "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_06_Art_Director_Output_Contract_Parser_Alignment_V0.1\\tests\\run_art_director_recorded_reassessment_regression.py"
+    }
+  },
+  "provider_free_startup": {
+    "result": "PASS"
+  },
+  "canonical_hashes_unchanged": {
+    "result": "PASS",
+    "hashes": {
+      "showrunner": "0847EE3521A915936E97FA1F72D081F0788876F003E071918F517B0A46AE999C",
+      "scene_writer": "93E1BE12988F8CAA6CDD76ACB5E6C1BF6AD3CA0DFF5806A2EA93511E66052DFB",
+      "director": "807D5B398A247A69C3F54FB58F256E8E87AE3B245540071A8B3F6832B49A7781",
+      "character_acting": "CD96A794D37371B855552C23A2670EBD78A9F2E2D3218152CE568C3B4356B09F",
+      "art_director": "8C8DB2370D69863BBA71138A5BBC123B5BC9BBA73E5CCF2F02D8764FFE933C75",
+      "continuity": "C64475BD0578BE6C159DF5A0FA0D90A96636160215B00E17AA3C5CC8E7F0B64C",
+      "shared_qa": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D"
+    }
+  },
+  "provider_calls": 0,
+  "executor_calls": 0,
+  "passed": true
+}

@@ -1,0 +1,418 @@
+# Director Strict Compatibility Probe 04 Execution Manifest V0.1
+
+## result
+
+PASS
+
+## timestamp
+
+2026-08-30T01:20:19.577001+00:00
+
+## run_id
+
+DIRECTOR-STRICT-COMPATIBILITY-PROBE-04
+
+## fixture_binding
+
+E:\AI_Film_Studio\AI_Film_Studio_Automation_V0.1\runtime\_STAGING\_research\E2E_Targeted_Repair_07_Fixture_Generalization_Runtime_Parameterization_V0.1\fixtures\E2E_FIX_01_Runtime_Binding_V0.1.json
+
+## compiled_run_contract
+
+{
+  "fixture": {
+    "fixture_id": "E2E-FIX-01",
+    "concept": "暴雨夜，夜班管理员许宁把一把刻有“A-17”的黄铜钥匙交给久未联系的姐姐许曼；许曼承认这是母亲留给两人一起打开储物间的钥匙，要求许宁先换下湿透的制服、等天亮再开门。",
+    "scene_count": 3,
+    "characters": [
+      "许宁",
+      "许曼"
+    ],
+    "tracked_entities": [
+      {
+        "entity_id": "A-17",
+        "identity_lock": "A-17",
+        "custody_required": true,
+        "condition_lock": "brass_key"
+      }
+    ],
+    "knowledge_events": [
+      {
+        "event_id": "shared_storage_reveal",
+        "holder": "许曼",
+        "not_before_scene": 3
+      }
+    ],
+    "relationship_constraints": [
+      "不得自动升级为完全和解"
+    ],
+    "state_dimensions": [
+      {
+        "dimension": "clothing_visual_state_code",
+        "allowed_tokens": [
+          "soaked_uniform",
+          "changed_clothes"
+        ]
+      }
+    ],
+    "authorized_transitions": [
+      "change_from_soaked_uniform"
+    ],
+    "time_conditions": [
+      "天亮前后"
+    ],
+    "decision_locks": [
+      "storage_room_opening"
+    ],
+    "prohibited_outcomes": [
+      "完全和解"
+    ],
+    "acceptance_evidence": {
+      "identity": "A-17",
+      "reveal": "shared_storage_reveal",
+      "state_dimension": "clothing_visual_state_code"
+    }
+  },
+  "scene_ids": [
+    "E2E-FIX-01-S01",
+    "E2E-FIX-01-S02",
+    "E2E-FIX-01-S03"
+  ],
+  "tracked_entity_ids": [
+    "A-17"
+  ],
+  "state_enums": {
+    "clothing_visual_state_code": [
+      "soaked_uniform",
+      "changed_clothes"
+    ]
+  },
+  "strict_schema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "scene_packages": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "scene_id": {
+              "type": "string",
+              "enum": [
+                "E2E-FIX-01-S01",
+                "E2E-FIX-01-S02",
+                "E2E-FIX-01-S03"
+              ]
+            },
+            "tracked_entity_id": {
+              "type": "string",
+              "enum": [
+                "A-17"
+              ]
+            },
+            "state": {
+              "type": "object",
+              "properties": {
+                "clothing_visual_state_code": {
+                  "type": "string",
+                  "enum": [
+                    "soaked_uniform",
+                    "changed_clothes"
+                  ]
+                }
+              },
+              "required": [
+                "clothing_visual_state_code"
+              ],
+              "additionalProperties": false
+            },
+            "authorized_transitions": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "change_from_soaked_uniform"
+                ]
+              }
+            }
+          },
+          "required": [
+            "scene_id",
+            "tracked_entity_id",
+            "state",
+            "authorized_transitions"
+          ]
+        }
+      }
+    },
+    "required": [
+      "scene_packages"
+    ]
+  },
+  "semantic_safeguard_config": {
+    "tracked_entities": [
+      {
+        "entity_id": "A-17",
+        "identity_lock": "A-17",
+        "custody_required": true,
+        "condition_lock": "brass_key"
+      }
+    ],
+    "knowledge_events": [
+      {
+        "event_id": "shared_storage_reveal",
+        "holder": "许曼",
+        "not_before_scene": 3
+      }
+    ],
+    "relationship_constraints": [
+      "不得自动升级为完全和解"
+    ],
+    "state_dimensions": [
+      {
+        "dimension": "clothing_visual_state_code",
+        "allowed_tokens": [
+          "soaked_uniform",
+          "changed_clothes"
+        ]
+      }
+    ],
+    "authorized_transitions": [
+      "change_from_soaked_uniform"
+    ],
+    "time_conditions": [
+      "天亮前后"
+    ],
+    "prohibited_outcomes": [
+      "完全和解"
+    ],
+    "decision_locks": [
+      "storage_room_opening"
+    ]
+  },
+  "ledger_tracking": {
+    "entity_ids": [
+      "A-17"
+    ],
+    "state_dimensions": [
+      "clothing_visual_state_code"
+    ],
+    "state_enums": {
+      "clothing_visual_state_code": [
+        "soaked_uniform",
+        "changed_clothes"
+      ]
+    },
+    "authorized_transitions": [
+      "change_from_soaked_uniform"
+    ],
+    "time_conditions": [
+      "天亮前后"
+    ]
+  },
+  "acceptance_evidence_map": {
+    "identity": "A-17",
+    "reveal": "shared_storage_reveal",
+    "state_dimension": "clothing_visual_state_code"
+  }
+}
+
+## source_artifacts
+
+{
+  "director_input": {
+    "path": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-12\\artifacts\\director_input.json",
+    "sha256": "e0740ff18e55ab805a5d06cfb2f9118122ad2876c906bdaf67c4598174df0eef"
+  },
+  "scene_writer_output": {
+    "path": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-12\\artifacts\\scene_writer_output.json",
+    "sha256": "4ac62a155ea6752e060643a173acef4081885940a86eba66207a109a14223b97"
+  },
+  "showrunner_output": {
+    "path": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-12\\artifacts\\showrunner_output.json",
+    "sha256": "87d8d02af8fa253e096e01f000f506553ac1968a8f93f9f753d9c1f958cda74a"
+  }
+}
+
+## director_structured_contract_version
+
+Director Full Structured Submission V0.1
+
+## compatibility_projection_version
+
+DIRECTOR_DEEPSEEK_STRICT_COMPATIBILITY_PROJECTION_V0.1
+
+## prompt_contract_version
+
+Repair 09F deterministic structured prompt V0.1
+
+## validator_version
+
+Repair 09F exact Director payload validator V0.1
+
+## function_name
+
+submit_director_package
+
+## strict
+
+True
+
+## endpoint
+
+https://api.deepseek.com/beta/chat/completions
+
+## model
+
+deepseek-v4-pro
+
+## token_budget
+
+3500
+
+## invocation_id
+
+DIRECTOR-STRICT-COMPATIBILITY-PROBE-04:director:1
+
+## prompt_allowed_field_manifest
+
+[
+  "selected_mode",
+  "primary_state_or_outcome",
+  "flags",
+  "handoffs",
+  "required_outcome",
+  "unresolved_decisions",
+  "state_evidence",
+  "directorial_intent",
+  "staging_blocking",
+  "audience_information",
+  "spatial_geography",
+  "camera_coverage_intent",
+  "rhythm_transition_intent",
+  "production_burden",
+  "handoffs_unresolved_issues"
+]
+
+## function_schema_property_manifest
+
+[
+  "selected_mode",
+  "primary_state_or_outcome",
+  "flags",
+  "handoffs",
+  "required_outcome",
+  "unresolved_decisions",
+  "state_evidence",
+  "directorial_intent",
+  "staging_blocking",
+  "audience_information",
+  "spatial_geography",
+  "camera_coverage_intent",
+  "rhythm_transition_intent",
+  "production_burden",
+  "handoffs_unresolved_issues"
+]
+
+## validator_expected_field_manifest
+
+[
+  "selected_mode",
+  "primary_state_or_outcome",
+  "flags",
+  "handoffs",
+  "required_outcome",
+  "unresolved_decisions",
+  "state_evidence",
+  "directorial_intent",
+  "staging_blocking",
+  "audience_information",
+  "spatial_geography",
+  "camera_coverage_intent",
+  "rhythm_transition_intent",
+  "production_burden",
+  "handoffs_unresolved_issues"
+]
+
+## required_field_manifest
+
+[
+  "selected_mode",
+  "primary_state_or_outcome",
+  "flags",
+  "handoffs",
+  "required_outcome",
+  "unresolved_decisions",
+  "state_evidence",
+  "directorial_intent",
+  "staging_blocking",
+  "audience_information",
+  "spatial_geography",
+  "camera_coverage_intent",
+  "rhythm_transition_intent",
+  "production_burden",
+  "handoffs_unresolved_issues"
+]
+
+## manifest_hashes
+
+{
+  "provider_neutral_contract": "da823bd0c1e84836769f5d0dbfe66739470ff3ca180d739822b9764b4925c3de",
+  "prompt_projection": "5714d44eb46169054a00519a7d6f4b1ec86a6f70120c949c8e91618bab89134c",
+  "compatibility_projection": "181e7cfdca4bc270d96e3a57982c0f220f17a465a5bc86266c1a550de06ed02b",
+  "final_parameters": "181e7cfdca4bc270d96e3a57982c0f220f17a465a5bc86266c1a550de06ed02b",
+  "final_wire_payload": "db7f20bd282a399984e55db86a787cf6fc8879ae5c29f884ec13a91b77c0d0cf",
+  "prompt_allowed_fields": "bf27a63d9a9a40c187e5d518bcb05a4646a2ec8f5a74b7805b5b6d366c1df799",
+  "function_fields": "bf27a63d9a9a40c187e5d518bcb05a4646a2ec8f5a74b7805b5b6d366c1df799",
+  "validator_fields": "bf27a63d9a9a40c187e5d518bcb05a4646a2ec8f5a74b7805b5b6d366c1df799"
+}
+
+## legacy_generic_transport_schema_reference_count
+
+0
+
+## nine_typed_enum_pointers
+
+[
+  "/properties/flags",
+  "/properties/handoffs",
+  "/properties/unresolved_decisions/anyOf/0",
+  "/properties/state_evidence/properties/relevant_prior_state/anyOf/0",
+  "/properties/state_evidence/properties/current_state/anyOf/0",
+  "/properties/state_evidence/properties/proposed_state/anyOf/0",
+  "/properties/state_evidence/properties/knowledge_timing/anyOf/0",
+  "/properties/state_evidence/properties/relationship_state/anyOf/0",
+  "/properties/state_evidence/properties/visual_state/anyOf/0"
+]
+
+## canonical_skill_hashes
+
+{
+  "showrunner": "0847EE3521A915936E97FA1F72D081F0788876F003E071918F517B0A46AE999C",
+  "scene_writer": "93E1BE12988F8CAA6CDD76ACB5E6C1BF6AD3CA0DFF5806A2EA93511E66052DFB",
+  "director": "807D5B398A247A69C3F54FB58F256E8E87AE3B245540071A8B3F6832B49A7781",
+  "character_acting": "CD96A794D37371B855552C23A2670EBD78A9F2E2D3218152CE568C3B4356B09F",
+  "art_director": "8C8DB2370D69863BBA71138A5BBC123B5BC9BBA73E5CCF2F02D8764FFE933C75",
+  "continuity": "C64475BD0578BE6C159DF5A0FA0D90A96636160215B00E17AA3C5CC8E7F0B64C",
+  "shared_qa": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D"
+}
+
+## provider_calls
+
+0
+
+## executor_calls
+
+0
+
+## role_calls
+
+0
+
+## retries
+
+0
+
+## fallbacks
+
+0

@@ -1,0 +1,8 @@
+{
+  "lifecycle_stage": "PERSISTENCE_VERIFIED",
+  "invocation_id": "E2E-RUN-15:character_acting:1",
+  "role": "Character & Acting",
+  "verified": true,
+  "raw_response_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-15\\artifacts\\character_&_acting_provider_response.json",
+  "invocation_metadata_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-15\\artifacts\\character_&_acting_invocation.json"
+}

@@ -1,0 +1,72 @@
+{
+  "source_role": "Showrunner",
+  "source_record_id": "E2E-RUN-25/showrunner/1",
+  "version": "1.0",
+  "timestamp": "2026-09-04T02:23:23.074249+00:00",
+  "intended_recipient": "Scene Writer",
+  "handoff_reason": "Story / Canon Package",
+  "canon_assignment_locks": [
+    "场景总数固定为3场",
+    "输出语言固定为zh-CN",
+    "绑定角色固定为：沈泊、梁音",
+    "关系状态不得自动宣告复合合作或彻底决裂",
+    "道具实体ID固定为C-09",
+    "道具身份锁固定为C-09",
+    "道具保管要求必须保留",
+    "道具状态锁为存储卡",
+    "知识揭示事件绑定：梁音持有未交出照片，揭示不得早于第2场",
+    "视觉状态限定：相机电池状态只能是battery_installed或battery_removed_and_sealed",
+    "决策锁：是否查看存储卡必须由剧情角色或用户决定，不得由Showrunner自动决定"
+  ],
+  "prohibited_changes": [
+    "不得自动宣告复合合作或彻底决裂",
+    "恢复合作关系",
+    "永久断绝关系"
+  ],
+  "canonical_mode": "ABSENT",
+  "primary_state_or_outcome": "INFO",
+  "flags": "ABSENT",
+  "handoffs": "ABSENT",
+  "required_outcome": "建立三场式短篇故事开发包，明确人物状态、关系张力、信息揭示节奏，并锁定所有约束。",
+  "unresolved_decisions": [
+    "沈泊最终是否查看存储卡",
+    "照片内容是否在该短篇内明确展示",
+    "梁音交出卡片后与沈泊的关系走向"
+  ],
+  "relevant_prior_state": {
+    "partnership_status": "已拆伙两年",
+    "last_collaboration": "存在未交出的照片（C-09）",
+    "relationship_trust": "存在未了债务"
+  },
+  "current_state": {
+    "location": "清晨渡口",
+    "handover": "C-09存储卡已由沈泊交给梁音",
+    "camera_battery_state": "未定，等待剧情处理"
+  },
+  "proposed_state": {
+    "scene_1": "卡片交接，电池封存提议提出",
+    "scene_2": "第一班船离港后，是否查看存储卡的决策点",
+    "scene_3": "决策的后果与关系状态更新"
+  },
+  "knowledge_timing": {
+    "event_id": "withheld_photo_reveal",
+    "holder": "梁音",
+    "not_before_scene": 2
+  },
+  "relationship_state": {
+    "start": "疏离但仍有未清算的过去",
+    "prohibited_outcomes": [
+      "复合合作",
+      "彻底决裂"
+    ]
+  },
+  "visual_state": {
+    "dimension": "camera_battery_state",
+    "allowed_tokens": [
+      "battery_installed",
+      "battery_removed_and_sealed"
+    ]
+  },
+  "authority_source": "Showrunner canonical Skill output",
+  "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-25\\artifacts\\showrunner_output.json"
+}

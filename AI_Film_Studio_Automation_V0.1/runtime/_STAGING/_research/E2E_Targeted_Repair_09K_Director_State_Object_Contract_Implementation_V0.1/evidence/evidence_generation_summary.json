@@ -1,0 +1,72 @@
+{
+  "classification": "REPAIR 09K EVIDENCE GENERATION",
+  "records": [
+    {
+      "artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_09K_Director_State_Object_Contract_Implementation_V0.1\\evidence\\director_state_object_negative_tests.json",
+      "returncode": 0,
+      "result": "PASS"
+    },
+    {
+      "artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_09K_Director_State_Object_Contract_Implementation_V0.1\\evidence\\director_state_object_tests.json",
+      "returncode": 0,
+      "result": "PASS"
+    },
+    {
+      "artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_09K_Director_State_Object_Contract_Implementation_V0.1\\evidence\\systemic_phase2_gate.json",
+      "returncode": 0,
+      "result": "PASS"
+    },
+    {
+      "artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_09K_Director_State_Object_Contract_Implementation_V0.1\\evidence\\repair11_strict_lifecycle.json",
+      "returncode": 0,
+      "result": "PASS"
+    }
+  ],
+  "integrity": {
+    "canonical_hashes": {
+      "showrunner": "0847EE3521A915936E97FA1F72D081F0788876F003E071918F517B0A46AE999C",
+      "scene_writer": "93E1BE12988F8CAA6CDD76ACB5E6C1BF6AD3CA0DFF5806A2EA93511E66052DFB",
+      "director": "807D5B398A247A69C3F54FB58F256E8E87AE3B245540071A8B3F6832B49A7781",
+      "character_acting": "CD96A794D37371B855552C23A2670EBD78A9F2E2D3218152CE568C3B4356B09F",
+      "art_director": "8C8DB2370D69863BBA71138A5BBC123B5BC9BBA73E5CCF2F02D8764FFE933C75",
+      "continuity": "C64475BD0578BE6C159DF5A0FA0D90A96636160215B00E17AA3C5CC8E7F0B64C",
+      "shared_qa": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D"
+    },
+    "expected_canonical_hashes": {
+      "showrunner": "0847EE3521A915936E97FA1F72D081F0788876F003E071918F517B0A46AE999C",
+      "scene_writer": "93E1BE12988F8CAA6CDD76ACB5E6C1BF6AD3CA0DFF5806A2EA93511E66052DFB",
+      "director": "807D5B398A247A69C3F54FB58F256E8E87AE3B245540071A8B3F6832B49A7781",
+      "character_acting": "CD96A794D37371B855552C23A2670EBD78A9F2E2D3218152CE568C3B4356B09F",
+      "art_director": "8C8DB2370D69863BBA71138A5BBC123B5BC9BBA73E5CCF2F02D8764FFE933C75",
+      "continuity": "C64475BD0578BE6C159DF5A0FA0D90A96636160215B00E17AA3C5CC8E7F0B64C",
+      "shared_qa": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D"
+    },
+    "canonical_hashes_unchanged": true,
+    "historical_artifacts": {
+      "E2E-RUN-13 Director raw": {
+        "path": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-13\\artifacts\\director_provider_response.json",
+        "sha256": "8c833129c2c5a6ca7dac00594707de97a158bfdba0ef77b8a457ddec2b8d9879",
+        "immutable_read_only": true
+      },
+      "E2E-RUN-14 Director raw": {
+        "path": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-14\\artifacts\\director_provider_response.json",
+        "sha256": "b6f0481da8c2eae4bff3baaf60abfbaba4308b422a8e03263dd12b4287d7ad18",
+        "immutable_read_only": true
+      },
+      "Probe04 manifest": {
+        "path": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Director_Strict_Compatibility_Probe_04_After_Repair_09F_V0.1\\evidence\\DIRECTOR-STRICT-COMPATIBILITY-PROBE-04\\probe_manifest.json",
+        "sha256": "261d3cf0342dbfbe32e59f174aa9bcb2cf83933e71e0b4839d3392bf09e9c994",
+        "immutable_read_only": true
+      }
+    },
+    "provider_calls": 0,
+    "executor_calls": 0,
+    "role_calls": 0,
+    "probe_calls": 0,
+    "e2e_runs": 0,
+    "canonical_skill_mutation": 0,
+    "production_lock_mutation": 0,
+    "result": "PASS"
+  },
+  "result": "PASS"
+}

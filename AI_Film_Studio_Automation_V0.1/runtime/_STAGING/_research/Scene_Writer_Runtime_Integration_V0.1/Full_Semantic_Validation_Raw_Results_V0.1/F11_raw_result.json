@@ -1,0 +1,182 @@
+{
+  "fixture": {
+    "id": "F11",
+    "title": "NO_MATERIAL_CHANGE",
+    "focus": [
+      "revision_ceiling",
+      "no_mechanical_rewrite",
+      "material_benefit"
+    ],
+    "expected_boundaries": {
+      "must": [
+        "若无实质收益则返回 NO_MATERIAL_CHANGE",
+        "不得输出替换场景"
+      ],
+      "must_not": [
+        "为展示能力而机械重写",
+        "虚构新的问题"
+      ]
+    },
+    "assignment": {
+      "requested_mode": "REVISE",
+      "output_language": "zh-CN",
+      "project_id": "FSV-SYNTHETIC",
+      "episode_id": "FSV-EP01",
+      "scene_id": "F11",
+      "scene_request": "待评估场景：\n楼道里，唐澈向唐宁要储物间钥匙。唐宁没有立刻给，说：‘明天一起开。’唐澈停了一下，接过她递来的钥匙：‘好，明天一起。’两人离开楼道。\n\n评估此场景是否需要实质修订。",
+      "scene_purpose": "验证 REVISE 不会机械产生改写。",
+      "repair_target": "没有指定缺陷；只有在存在 material benefit 时才修订。",
+      "canon_locks": [
+        "地点是旧公寓楼道。",
+        "人物只有唐澈和唐宁，是关系尚可的成年兄妹。",
+        "钥匙在唐宁手中。"
+      ],
+      "showrunner_locks": [
+        "结局是唐宁交钥匙，唐澈接受明天一起开储物间。"
+      ],
+      "participants": [
+        {
+          "name": "唐澈",
+          "role": "哥哥",
+          "objective": "拿到钥匙。",
+          "knowledge": "知道钥匙在唐宁手中。",
+          "constraint": "不强抢。"
+        },
+        {
+          "name": "唐宁",
+          "role": "妹妹",
+          "objective": "要求共同承担。",
+          "knowledge": "知道哥哥想进储物间。",
+          "constraint": "不无故拒绝。"
+        }
+      ],
+      "character_context": {
+        "relationship": "成年兄妹，关系尚可。",
+        "creative_freedom": "只做必要评估。"
+      },
+      "required_event": "索要钥匙并得到共同开启条件。",
+      "required_information": "钥匙在唐宁手中。",
+      "required_outcome": "钥匙交出，明天共同开启。",
+      "prior_scene_state": "唐澈在楼道等唐宁。",
+      "desired_post_state": "钥匙交接且条件明确。",
+      "production_constraints": null,
+      "requested_form": "如果没有 material benefit，返回 NO_MATERIAL_CHANGE；无镜头或表演系统。",
+      "downstream_requests": [],
+      "qa_requests": []
+    }
+  },
+  "sequence": 11,
+  "classification": "FULL SEMANTIC VALIDATION / SYNTHETIC / NON-CANON / REAL SEMANTIC EXECUTION",
+  "formal_execution_count_for_fixture": 1,
+  "resamples_for_fixture": 0,
+  "provider": "deepseek",
+  "model": "deepseek-v4-pro",
+  "assignment": {
+    "requested_mode": "REVISE",
+    "output_language": "zh-CN",
+    "project_id": "FSV-SYNTHETIC",
+    "episode_id": "FSV-EP01",
+    "scene_id": "F11",
+    "scene_request": "待评估场景：\n楼道里，唐澈向唐宁要储物间钥匙。唐宁没有立刻给，说：‘明天一起开。’唐澈停了一下，接过她递来的钥匙：‘好，明天一起。’两人离开楼道。\n\n评估此场景是否需要实质修订。",
+    "scene_purpose": "验证 REVISE 不会机械产生改写。",
+    "repair_target": "没有指定缺陷；只有在存在 material benefit 时才修订。",
+    "canon_locks": [
+      "地点是旧公寓楼道。",
+      "人物只有唐澈和唐宁，是关系尚可的成年兄妹。",
+      "钥匙在唐宁手中。"
+    ],
+    "showrunner_locks": [
+      "结局是唐宁交钥匙，唐澈接受明天一起开储物间。"
+    ],
+    "participants": [
+      {
+        "name": "唐澈",
+        "role": "哥哥",
+        "objective": "拿到钥匙。",
+        "knowledge": "知道钥匙在唐宁手中。",
+        "constraint": "不强抢。"
+      },
+      {
+        "name": "唐宁",
+        "role": "妹妹",
+        "objective": "要求共同承担。",
+        "knowledge": "知道哥哥想进储物间。",
+        "constraint": "不无故拒绝。"
+      }
+    ],
+    "character_context": {
+      "relationship": "成年兄妹，关系尚可。",
+      "creative_freedom": "只做必要评估。"
+    },
+    "required_event": "索要钥匙并得到共同开启条件。",
+    "required_information": "钥匙在唐宁手中。",
+    "required_outcome": "钥匙交出，明天共同开启。",
+    "prior_scene_state": "唐澈在楼道等唐宁。",
+    "desired_post_state": "钥匙交接且条件明确。",
+    "production_constraints": null,
+    "requested_form": "如果没有 material benefit，返回 NO_MATERIAL_CHANGE；无镜头或表演系统。",
+    "downstream_requests": [],
+    "qa_requests": [],
+    "request_id": "FSV-SW-F11"
+  },
+  "runtime_result": {
+    "runtime_status": "FAIL_SAFE",
+    "runtime_failure_code": "MALFORMED_EXECUTOR_OUTPUT",
+    "runtime_failure_message": "NO_MATERIAL_CHANGE forbids a creative rewrite and requires material_rewrite_claimed=false",
+    "request_id": "FSV-SW-F11",
+    "canonical_binding": {
+      "identity": "scene-writer",
+      "version": "V0.1",
+      "canonical_path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\02_Scene_Writer\\scene-writer\\SKILL.md",
+      "expected_sha256": "93e1be12988f8caa6cdd76acb5e6c1bf6ad3ca0dff5806a2ea93511e66052dfb",
+      "adapter_status": "REGISTERED",
+      "real_executor": "BOUND",
+      "semantic_integrity_verifier": "BOUND",
+      "synthetic_executor": "NOT_PRESENT",
+      "actual_sha256": "93e1be12988f8caa6cdd76acb5e6c1bf6ad3ca0dff5806a2ea93511e66052dfb",
+      "metadata": {
+        "name": "scene-writer",
+        "display_version": "V0.1"
+      },
+      "passed": true,
+      "reason": null
+    },
+    "idempotency": "NEW",
+    "scene_writer": null,
+    "output_language": null,
+    "output_language_resolution": null,
+    "assignment_fact_validation": null,
+    "semantic_integrity_validation": null
+  },
+  "unexpected_exception": null,
+  "generation_usage": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-pro",
+    "provider_invocation_id": "6d7b4f85-51b7-4409-951f-6252e16a5721",
+    "usage": {
+      "prompt_tokens": 4189,
+      "completion_tokens": 366,
+      "total_tokens": 4555,
+      "prompt_cache_hit_tokens": 3200,
+      "prompt_cache_miss_tokens": 989
+    },
+    "latency_ms": 8072,
+    "thinking_mode": "disabled",
+    "fixture_id": "F11",
+    "request_success": true
+  },
+  "verification_usage": null,
+  "estimated_cost_cny": {
+    "generation": 0.005243,
+    "verification": null,
+    "total": null
+  },
+  "pricing_basis": {
+    "currency": "CNY",
+    "unit": "per_1M_tokens",
+    "input_cache_hit": 0.025,
+    "input_cache_miss": 3.0,
+    "output": 6.0,
+    "status": "ESTIMATED"
+  }
+}

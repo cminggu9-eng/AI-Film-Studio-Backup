@@ -1,0 +1,876 @@
+{
+  "classification": "REPAIR20 OFFLINE GATE RUN",
+  "mandatory_preflight": {
+    "passed": true,
+    "suite_count": 15,
+    "required_suites": {
+      "PERSIST": {
+        "returncode": 0,
+        "passed": 8,
+        "total": 8,
+        "expected_total": 8,
+        "result": "PASS",
+        "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_01_Scene_Writer_Integration_Contract_V0.1\\tests\\run_provider_response_persistence_tests.py",
+        "suite_manifest": {
+          "suite_id": "PERSIST",
+          "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_01_Scene_Writer_Integration_Contract_V0.1\\tests\\run_provider_response_persistence_tests.py",
+          "expected_total": 8,
+          "fixture_binding_source": "NO_FIXTURE_BINDING_REQUIRED",
+          "declared_fixture_binding": "ABSENT"
+        },
+        "environment_provenance": {
+          "environment_policy_version": "PREFLIGHT-SUBPROCESS-ENV-ISOLATION-V0.1",
+          "suite": {
+            "suite_id": "PERSIST",
+            "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_01_Scene_Writer_Integration_Contract_V0.1\\tests\\run_provider_response_persistence_tests.py",
+            "expected_total": 8,
+            "fixture_binding_source": "NO_FIXTURE_BINDING_REQUIRED",
+            "declared_fixture_binding": "ABSENT"
+          },
+          "parent_afs_e2e_classification": {},
+          "removed_live_run_variables": [],
+          "explicitly_injected_variables": [],
+          "effective_fixture_binding": "ABSENT",
+          "safe_global_names": [
+            "ALLUSERSPROFILE",
+            "APPDATA",
+            "COMSPEC",
+            "HOMEDRIVE",
+            "HOMEPATH",
+            "LOCALAPPDATA",
+            "NUMBER_OF_PROCESSORS",
+            "OS",
+            "PATH",
+            "PATHEXT",
+            "PROCESSOR_ARCHITECTURE",
+            "PROCESSOR_IDENTIFIER",
+            "PROCESSOR_LEVEL",
+            "PROCESSOR_REVISION",
+            "PROGRAMDATA",
+            "PUBLIC",
+            "SYSTEMROOT",
+            "TEMP",
+            "TMP",
+            "USERPROFILE",
+            "WINDIR"
+          ],
+          "provider_credentials_injected": false,
+          "environment_hash": "9854AD019C420D7370A7D4C17536D5DC8495D654052CE1C6CEAFBCC369A19417"
+        },
+        "stderr": ""
+      },
+      "SW-INT": {
+        "returncode": 0,
+        "passed": 15,
+        "total": 15,
+        "expected_total": 15,
+        "result": "PASS",
+        "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_01_Scene_Writer_Integration_Contract_V0.1\\tests\\run_scene_writer_integration_contract_tests.py",
+        "suite_manifest": {
+          "suite_id": "SW-INT",
+          "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_01_Scene_Writer_Integration_Contract_V0.1\\tests\\run_scene_writer_integration_contract_tests.py",
+          "expected_total": 15,
+          "fixture_binding_source": "SUITE_MANIFEST",
+          "declared_fixture_binding": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_07_Fixture_Generalization_Runtime_Parameterization_V0.1\\fixtures\\E2E_FIX_01_Runtime_Binding_V0.1.json"
+        },
+        "environment_provenance": {
+          "environment_policy_version": "PREFLIGHT-SUBPROCESS-ENV-ISOLATION-V0.1",
+          "suite": {
+            "suite_id": "SW-INT",
+            "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_01_Scene_Writer_Integration_Contract_V0.1\\tests\\run_scene_writer_integration_contract_tests.py",
+            "expected_total": 15,
+            "fixture_binding_source": "SUITE_MANIFEST",
+            "declared_fixture_binding": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_07_Fixture_Generalization_Runtime_Parameterization_V0.1\\fixtures\\E2E_FIX_01_Runtime_Binding_V0.1.json"
+          },
+          "parent_afs_e2e_classification": {},
+          "removed_live_run_variables": [],
+          "explicitly_injected_variables": [
+            "AFS_E2E_FIXTURE_BINDING"
+          ],
+          "effective_fixture_binding": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_07_Fixture_Generalization_Runtime_Parameterization_V0.1\\fixtures\\E2E_FIX_01_Runtime_Binding_V0.1.json",
+          "safe_global_names": [
+            "ALLUSERSPROFILE",
+            "APPDATA",
+            "COMSPEC",
+            "HOMEDRIVE",
+            "HOMEPATH",
+            "LOCALAPPDATA",
+            "NUMBER_OF_PROCESSORS",
+            "OS",
+            "PATH",
+            "PATHEXT",
+            "PROCESSOR_ARCHITECTURE",
+            "PROCESSOR_IDENTIFIER",
+            "PROCESSOR_LEVEL",
+            "PROCESSOR_REVISION",
+            "PROGRAMDATA",
+            "PUBLIC",
+            "SYSTEMROOT",
+            "TEMP",
+            "TMP",
+            "USERPROFILE",
+            "WINDIR"
+          ],
+          "provider_credentials_injected": false,
+          "environment_hash": "B341E5739D0567B7B22DBF7FA1FE5133BABD49D7790A3674407BBB0CD59C9869"
+        },
+        "stderr": ""
+      },
+      "STRICT": {
+        "returncode": 0,
+        "passed": 15,
+        "total": 15,
+        "expected_total": 15,
+        "result": "PASS",
+        "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_03_Strict_Structured_Transport_V0.1\\tests\\run_scene_writer_strict_transport_tests.py",
+        "suite_manifest": {
+          "suite_id": "STRICT",
+          "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_03_Strict_Structured_Transport_V0.1\\tests\\run_scene_writer_strict_transport_tests.py",
+          "expected_total": 15,
+          "fixture_binding_source": "SUITE_MANIFEST",
+          "declared_fixture_binding": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_07_Fixture_Generalization_Runtime_Parameterization_V0.1\\fixtures\\E2E_FIX_01_Runtime_Binding_V0.1.json"
+        },
+        "environment_provenance": {
+          "environment_policy_version": "PREFLIGHT-SUBPROCESS-ENV-ISOLATION-V0.1",
+          "suite": {
+            "suite_id": "STRICT",
+            "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_03_Strict_Structured_Transport_V0.1\\tests\\run_scene_writer_strict_transport_tests.py",
+            "expected_total": 15,
+            "fixture_binding_source": "SUITE_MANIFEST",
+            "declared_fixture_binding": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_07_Fixture_Generalization_Runtime_Parameterization_V0.1\\fixtures\\E2E_FIX_01_Runtime_Binding_V0.1.json"
+          },
+          "parent_afs_e2e_classification": {},
+          "removed_live_run_variables": [],
+          "explicitly_injected_variables": [
+            "AFS_E2E_FIXTURE_BINDING"
+          ],
+          "effective_fixture_binding": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_07_Fixture_Generalization_Runtime_Parameterization_V0.1\\fixtures\\E2E_FIX_01_Runtime_Binding_V0.1.json",
+          "safe_global_names": [
+            "ALLUSERSPROFILE",
+            "APPDATA",
+            "COMSPEC",
+            "HOMEDRIVE",
+            "HOMEPATH",
+            "LOCALAPPDATA",
+            "NUMBER_OF_PROCESSORS",
+            "OS",
+            "PATH",
+            "PATHEXT",
+            "PROCESSOR_ARCHITECTURE",
+            "PROCESSOR_IDENTIFIER",
+            "PROCESSOR_LEVEL",
+            "PROCESSOR_REVISION",
+            "PROGRAMDATA",
+            "PUBLIC",
+            "SYSTEMROOT",
+            "TEMP",
+            "TMP",
+            "USERPROFILE",
+            "WINDIR"
+          ],
+          "provider_credentials_injected": false,
+          "environment_hash": "B341E5739D0567B7B22DBF7FA1FE5133BABD49D7790A3674407BBB0CD59C9869"
+        },
+        "stderr": ""
+      },
+      "TOKEN": {
+        "returncode": 0,
+        "passed": 10,
+        "total": 10,
+        "expected_total": 10,
+        "result": "PASS",
+        "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_03A_Canonical_Token_Alignment_V0.1\\tests\\run_scene_writer_canonical_token_tests.py",
+        "suite_manifest": {
+          "suite_id": "TOKEN",
+          "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_03A_Canonical_Token_Alignment_V0.1\\tests\\run_scene_writer_canonical_token_tests.py",
+          "expected_total": 10,
+          "fixture_binding_source": "SUITE_MANIFEST",
+          "declared_fixture_binding": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_07_Fixture_Generalization_Runtime_Parameterization_V0.1\\fixtures\\E2E_FIX_01_Runtime_Binding_V0.1.json"
+        },
+        "environment_provenance": {
+          "environment_policy_version": "PREFLIGHT-SUBPROCESS-ENV-ISOLATION-V0.1",
+          "suite": {
+            "suite_id": "TOKEN",
+            "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_03A_Canonical_Token_Alignment_V0.1\\tests\\run_scene_writer_canonical_token_tests.py",
+            "expected_total": 10,
+            "fixture_binding_source": "SUITE_MANIFEST",
+            "declared_fixture_binding": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_07_Fixture_Generalization_Runtime_Parameterization_V0.1\\fixtures\\E2E_FIX_01_Runtime_Binding_V0.1.json"
+          },
+          "parent_afs_e2e_classification": {},
+          "removed_live_run_variables": [],
+          "explicitly_injected_variables": [
+            "AFS_E2E_FIXTURE_BINDING"
+          ],
+          "effective_fixture_binding": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_07_Fixture_Generalization_Runtime_Parameterization_V0.1\\fixtures\\E2E_FIX_01_Runtime_Binding_V0.1.json",
+          "safe_global_names": [
+            "ALLUSERSPROFILE",
+            "APPDATA",
+            "COMSPEC",
+            "HOMEDRIVE",
+            "HOMEPATH",
+            "LOCALAPPDATA",
+            "NUMBER_OF_PROCESSORS",
+            "OS",
+            "PATH",
+            "PATHEXT",
+            "PROCESSOR_ARCHITECTURE",
+            "PROCESSOR_IDENTIFIER",
+            "PROCESSOR_LEVEL",
+            "PROCESSOR_REVISION",
+            "PROGRAMDATA",
+            "PUBLIC",
+            "SYSTEMROOT",
+            "TEMP",
+            "TMP",
+            "USERPROFILE",
+            "WINDIR"
+          ],
+          "provider_credentials_injected": false,
+          "environment_hash": "B341E5739D0567B7B22DBF7FA1FE5133BABD49D7790A3674407BBB0CD59C9869"
+        },
+        "stderr": ""
+      },
+      "Probe03 recorded replay": {
+        "returncode": 0,
+        "passed": 5,
+        "total": 5,
+        "expected_total": 5,
+        "result": "PASS",
+        "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_03A_Canonical_Token_Alignment_V0.1\\tests\\run_scene_writer_probe03_recorded_response_regression.py",
+        "suite_manifest": {
+          "suite_id": "Probe03 recorded replay",
+          "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_03A_Canonical_Token_Alignment_V0.1\\tests\\run_scene_writer_probe03_recorded_response_regression.py",
+          "expected_total": 5,
+          "fixture_binding_source": "SUITE_MANIFEST",
+          "declared_fixture_binding": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_07_Fixture_Generalization_Runtime_Parameterization_V0.1\\fixtures\\E2E_FIX_01_Runtime_Binding_V0.1.json"
+        },
+        "environment_provenance": {
+          "environment_policy_version": "PREFLIGHT-SUBPROCESS-ENV-ISOLATION-V0.1",
+          "suite": {
+            "suite_id": "Probe03 recorded replay",
+            "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_03A_Canonical_Token_Alignment_V0.1\\tests\\run_scene_writer_probe03_recorded_response_regression.py",
+            "expected_total": 5,
+            "fixture_binding_source": "SUITE_MANIFEST",
+            "declared_fixture_binding": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_07_Fixture_Generalization_Runtime_Parameterization_V0.1\\fixtures\\E2E_FIX_01_Runtime_Binding_V0.1.json"
+          },
+          "parent_afs_e2e_classification": {},
+          "removed_live_run_variables": [],
+          "explicitly_injected_variables": [
+            "AFS_E2E_FIXTURE_BINDING"
+          ],
+          "effective_fixture_binding": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_07_Fixture_Generalization_Runtime_Parameterization_V0.1\\fixtures\\E2E_FIX_01_Runtime_Binding_V0.1.json",
+          "safe_global_names": [
+            "ALLUSERSPROFILE",
+            "APPDATA",
+            "COMSPEC",
+            "HOMEDRIVE",
+            "HOMEPATH",
+            "LOCALAPPDATA",
+            "NUMBER_OF_PROCESSORS",
+            "OS",
+            "PATH",
+            "PATHEXT",
+            "PROCESSOR_ARCHITECTURE",
+            "PROCESSOR_IDENTIFIER",
+            "PROCESSOR_LEVEL",
+            "PROCESSOR_REVISION",
+            "PROGRAMDATA",
+            "PUBLIC",
+            "SYSTEMROOT",
+            "TEMP",
+            "TMP",
+            "USERPROFILE",
+            "WINDIR"
+          ],
+          "provider_credentials_injected": false,
+          "environment_hash": "B341E5739D0567B7B22DBF7FA1FE5133BABD49D7790A3674407BBB0CD59C9869"
+        },
+        "stderr": ""
+      },
+      "SHOWRUNNER-OWN": {
+        "returncode": 0,
+        "passed": 10,
+        "total": 10,
+        "expected_total": 10,
+        "result": "PASS",
+        "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_04_Showrunner_Transport_Ownership_Separation_V0.1\\tests\\run_showrunner_transport_ownership_tests.py",
+        "suite_manifest": {
+          "suite_id": "SHOWRUNNER-OWN",
+          "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_04_Showrunner_Transport_Ownership_Separation_V0.1\\tests\\run_showrunner_transport_ownership_tests.py",
+          "expected_total": 10,
+          "fixture_binding_source": "SUITE_MANIFEST",
+          "declared_fixture_binding": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_07_Fixture_Generalization_Runtime_Parameterization_V0.1\\fixtures\\E2E_FIX_01_Runtime_Binding_V0.1.json"
+        },
+        "environment_provenance": {
+          "environment_policy_version": "PREFLIGHT-SUBPROCESS-ENV-ISOLATION-V0.1",
+          "suite": {
+            "suite_id": "SHOWRUNNER-OWN",
+            "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_04_Showrunner_Transport_Ownership_Separation_V0.1\\tests\\run_showrunner_transport_ownership_tests.py",
+            "expected_total": 10,
+            "fixture_binding_source": "SUITE_MANIFEST",
+            "declared_fixture_binding": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_07_Fixture_Generalization_Runtime_Parameterization_V0.1\\fixtures\\E2E_FIX_01_Runtime_Binding_V0.1.json"
+          },
+          "parent_afs_e2e_classification": {},
+          "removed_live_run_variables": [],
+          "explicitly_injected_variables": [
+            "AFS_E2E_FIXTURE_BINDING"
+          ],
+          "effective_fixture_binding": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_07_Fixture_Generalization_Runtime_Parameterization_V0.1\\fixtures\\E2E_FIX_01_Runtime_Binding_V0.1.json",
+          "safe_global_names": [
+            "ALLUSERSPROFILE",
+            "APPDATA",
+            "COMSPEC",
+            "HOMEDRIVE",
+            "HOMEPATH",
+            "LOCALAPPDATA",
+            "NUMBER_OF_PROCESSORS",
+            "OS",
+            "PATH",
+            "PATHEXT",
+            "PROCESSOR_ARCHITECTURE",
+            "PROCESSOR_IDENTIFIER",
+            "PROCESSOR_LEVEL",
+            "PROCESSOR_REVISION",
+            "PROGRAMDATA",
+            "PUBLIC",
+            "SYSTEMROOT",
+            "TEMP",
+            "TMP",
+            "USERPROFILE",
+            "WINDIR"
+          ],
+          "provider_credentials_injected": false,
+          "environment_hash": "B341E5739D0567B7B22DBF7FA1FE5133BABD49D7790A3674407BBB0CD59C9869"
+        },
+        "stderr": ""
+      },
+      "DIRECTOR-INT": {
+        "returncode": 0,
+        "passed": 12,
+        "total": 12,
+        "expected_total": 12,
+        "result": "PASS",
+        "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_05_Director_Output_Contract_Transport_Alignment_V0.1\\tests\\run_director_integration_contract_tests.py",
+        "suite_manifest": {
+          "suite_id": "DIRECTOR-INT",
+          "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_05_Director_Output_Contract_Transport_Alignment_V0.1\\tests\\run_director_integration_contract_tests.py",
+          "expected_total": 12,
+          "fixture_binding_source": "SUITE_MANIFEST",
+          "declared_fixture_binding": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_07_Fixture_Generalization_Runtime_Parameterization_V0.1\\fixtures\\E2E_FIX_01_Runtime_Binding_V0.1.json"
+        },
+        "environment_provenance": {
+          "environment_policy_version": "PREFLIGHT-SUBPROCESS-ENV-ISOLATION-V0.1",
+          "suite": {
+            "suite_id": "DIRECTOR-INT",
+            "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_05_Director_Output_Contract_Transport_Alignment_V0.1\\tests\\run_director_integration_contract_tests.py",
+            "expected_total": 12,
+            "fixture_binding_source": "SUITE_MANIFEST",
+            "declared_fixture_binding": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_07_Fixture_Generalization_Runtime_Parameterization_V0.1\\fixtures\\E2E_FIX_01_Runtime_Binding_V0.1.json"
+          },
+          "parent_afs_e2e_classification": {},
+          "removed_live_run_variables": [],
+          "explicitly_injected_variables": [
+            "AFS_E2E_FIXTURE_BINDING"
+          ],
+          "effective_fixture_binding": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_07_Fixture_Generalization_Runtime_Parameterization_V0.1\\fixtures\\E2E_FIX_01_Runtime_Binding_V0.1.json",
+          "safe_global_names": [
+            "ALLUSERSPROFILE",
+            "APPDATA",
+            "COMSPEC",
+            "HOMEDRIVE",
+            "HOMEPATH",
+            "LOCALAPPDATA",
+            "NUMBER_OF_PROCESSORS",
+            "OS",
+            "PATH",
+            "PATHEXT",
+            "PROCESSOR_ARCHITECTURE",
+            "PROCESSOR_IDENTIFIER",
+            "PROCESSOR_LEVEL",
+            "PROCESSOR_REVISION",
+            "PROGRAMDATA",
+            "PUBLIC",
+            "SYSTEMROOT",
+            "TEMP",
+            "TMP",
+            "USERPROFILE",
+            "WINDIR"
+          ],
+          "provider_credentials_injected": false,
+          "environment_hash": "B341E5739D0567B7B22DBF7FA1FE5133BABD49D7790A3674407BBB0CD59C9869"
+        },
+        "stderr": ""
+      },
+      "DIRECTOR-RECORDED-PROBE": {
+        "returncode": 0,
+        "passed": 4,
+        "total": 4,
+        "expected_total": 4,
+        "result": "PASS",
+        "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_05_Director_Output_Contract_Transport_Alignment_V0.1\\tests\\run_director_recorded_probe_regression.py",
+        "suite_manifest": {
+          "suite_id": "DIRECTOR-RECORDED-PROBE",
+          "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_05_Director_Output_Contract_Transport_Alignment_V0.1\\tests\\run_director_recorded_probe_regression.py",
+          "expected_total": 4,
+          "fixture_binding_source": "SUITE_MANIFEST",
+          "declared_fixture_binding": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_07_Fixture_Generalization_Runtime_Parameterization_V0.1\\fixtures\\E2E_FIX_01_Runtime_Binding_V0.1.json"
+        },
+        "environment_provenance": {
+          "environment_policy_version": "PREFLIGHT-SUBPROCESS-ENV-ISOLATION-V0.1",
+          "suite": {
+            "suite_id": "DIRECTOR-RECORDED-PROBE",
+            "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_05_Director_Output_Contract_Transport_Alignment_V0.1\\tests\\run_director_recorded_probe_regression.py",
+            "expected_total": 4,
+            "fixture_binding_source": "SUITE_MANIFEST",
+            "declared_fixture_binding": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_07_Fixture_Generalization_Runtime_Parameterization_V0.1\\fixtures\\E2E_FIX_01_Runtime_Binding_V0.1.json"
+          },
+          "parent_afs_e2e_classification": {},
+          "removed_live_run_variables": [],
+          "explicitly_injected_variables": [
+            "AFS_E2E_FIXTURE_BINDING"
+          ],
+          "effective_fixture_binding": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_07_Fixture_Generalization_Runtime_Parameterization_V0.1\\fixtures\\E2E_FIX_01_Runtime_Binding_V0.1.json",
+          "safe_global_names": [
+            "ALLUSERSPROFILE",
+            "APPDATA",
+            "COMSPEC",
+            "HOMEDRIVE",
+            "HOMEPATH",
+            "LOCALAPPDATA",
+            "NUMBER_OF_PROCESSORS",
+            "OS",
+            "PATH",
+            "PATHEXT",
+            "PROCESSOR_ARCHITECTURE",
+            "PROCESSOR_IDENTIFIER",
+            "PROCESSOR_LEVEL",
+            "PROCESSOR_REVISION",
+            "PROGRAMDATA",
+            "PUBLIC",
+            "SYSTEMROOT",
+            "TEMP",
+            "TMP",
+            "USERPROFILE",
+            "WINDIR"
+          ],
+          "provider_credentials_injected": false,
+          "environment_hash": "B341E5739D0567B7B22DBF7FA1FE5133BABD49D7790A3674407BBB0CD59C9869"
+        },
+        "stderr": ""
+      },
+      "ART-DIRECTOR-INT": {
+        "returncode": 0,
+        "passed": 12,
+        "total": 12,
+        "expected_total": 12,
+        "result": "PASS",
+        "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_06_Art_Director_Output_Contract_Parser_Alignment_V0.1\\tests\\run_art_director_integration_contract_tests.py",
+        "suite_manifest": {
+          "suite_id": "ART-DIRECTOR-INT",
+          "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_06_Art_Director_Output_Contract_Parser_Alignment_V0.1\\tests\\run_art_director_integration_contract_tests.py",
+          "expected_total": 12,
+          "fixture_binding_source": "SUITE_MANIFEST",
+          "declared_fixture_binding": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_07_Fixture_Generalization_Runtime_Parameterization_V0.1\\fixtures\\E2E_FIX_01_Runtime_Binding_V0.1.json"
+        },
+        "environment_provenance": {
+          "environment_policy_version": "PREFLIGHT-SUBPROCESS-ENV-ISOLATION-V0.1",
+          "suite": {
+            "suite_id": "ART-DIRECTOR-INT",
+            "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_06_Art_Director_Output_Contract_Parser_Alignment_V0.1\\tests\\run_art_director_integration_contract_tests.py",
+            "expected_total": 12,
+            "fixture_binding_source": "SUITE_MANIFEST",
+            "declared_fixture_binding": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_07_Fixture_Generalization_Runtime_Parameterization_V0.1\\fixtures\\E2E_FIX_01_Runtime_Binding_V0.1.json"
+          },
+          "parent_afs_e2e_classification": {},
+          "removed_live_run_variables": [],
+          "explicitly_injected_variables": [
+            "AFS_E2E_FIXTURE_BINDING"
+          ],
+          "effective_fixture_binding": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_07_Fixture_Generalization_Runtime_Parameterization_V0.1\\fixtures\\E2E_FIX_01_Runtime_Binding_V0.1.json",
+          "safe_global_names": [
+            "ALLUSERSPROFILE",
+            "APPDATA",
+            "COMSPEC",
+            "HOMEDRIVE",
+            "HOMEPATH",
+            "LOCALAPPDATA",
+            "NUMBER_OF_PROCESSORS",
+            "OS",
+            "PATH",
+            "PATHEXT",
+            "PROCESSOR_ARCHITECTURE",
+            "PROCESSOR_IDENTIFIER",
+            "PROCESSOR_LEVEL",
+            "PROCESSOR_REVISION",
+            "PROGRAMDATA",
+            "PUBLIC",
+            "SYSTEMROOT",
+            "TEMP",
+            "TMP",
+            "USERPROFILE",
+            "WINDIR"
+          ],
+          "provider_credentials_injected": false,
+          "environment_hash": "B341E5739D0567B7B22DBF7FA1FE5133BABD49D7790A3674407BBB0CD59C9869"
+        },
+        "stderr": ""
+      },
+      "ART-DIRECTOR-R04-REASSESSMENT": {
+        "returncode": 0,
+        "passed": 8,
+        "total": 8,
+        "expected_total": 8,
+        "result": "PASS",
+        "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_06_Art_Director_Output_Contract_Parser_Alignment_V0.1\\tests\\run_art_director_recorded_reassessment_regression.py",
+        "suite_manifest": {
+          "suite_id": "ART-DIRECTOR-R04-REASSESSMENT",
+          "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_06_Art_Director_Output_Contract_Parser_Alignment_V0.1\\tests\\run_art_director_recorded_reassessment_regression.py",
+          "expected_total": 8,
+          "fixture_binding_source": "SUITE_MANIFEST",
+          "declared_fixture_binding": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_07_Fixture_Generalization_Runtime_Parameterization_V0.1\\fixtures\\E2E_FIX_01_Runtime_Binding_V0.1.json"
+        },
+        "environment_provenance": {
+          "environment_policy_version": "PREFLIGHT-SUBPROCESS-ENV-ISOLATION-V0.1",
+          "suite": {
+            "suite_id": "ART-DIRECTOR-R04-REASSESSMENT",
+            "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_06_Art_Director_Output_Contract_Parser_Alignment_V0.1\\tests\\run_art_director_recorded_reassessment_regression.py",
+            "expected_total": 8,
+            "fixture_binding_source": "SUITE_MANIFEST",
+            "declared_fixture_binding": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_07_Fixture_Generalization_Runtime_Parameterization_V0.1\\fixtures\\E2E_FIX_01_Runtime_Binding_V0.1.json"
+          },
+          "parent_afs_e2e_classification": {},
+          "removed_live_run_variables": [],
+          "explicitly_injected_variables": [
+            "AFS_E2E_FIXTURE_BINDING"
+          ],
+          "effective_fixture_binding": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_07_Fixture_Generalization_Runtime_Parameterization_V0.1\\fixtures\\E2E_FIX_01_Runtime_Binding_V0.1.json",
+          "safe_global_names": [
+            "ALLUSERSPROFILE",
+            "APPDATA",
+            "COMSPEC",
+            "HOMEDRIVE",
+            "HOMEPATH",
+            "LOCALAPPDATA",
+            "NUMBER_OF_PROCESSORS",
+            "OS",
+            "PATH",
+            "PATHEXT",
+            "PROCESSOR_ARCHITECTURE",
+            "PROCESSOR_IDENTIFIER",
+            "PROCESSOR_LEVEL",
+            "PROCESSOR_REVISION",
+            "PROGRAMDATA",
+            "PUBLIC",
+            "SYSTEMROOT",
+            "TEMP",
+            "TMP",
+            "USERPROFILE",
+            "WINDIR"
+          ],
+          "provider_credentials_injected": false,
+          "environment_hash": "B341E5739D0567B7B22DBF7FA1FE5133BABD49D7790A3674407BBB0CD59C9869"
+        },
+        "stderr": ""
+      },
+      "CHARACTER-ACTING-TRANS-CORE": {
+        "returncode": 0,
+        "passed": 17,
+        "total": 17,
+        "expected_total": 17,
+        "result": "PASS",
+        "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_13_Character_Acting_Reserved_Transport_Slot_Alignment_V0.1\\tests\\run_character_acting_transport_core_tests.py",
+        "suite_manifest": {
+          "suite_id": "CHARACTER-ACTING-TRANS-CORE",
+          "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_13_Character_Acting_Reserved_Transport_Slot_Alignment_V0.1\\tests\\run_character_acting_transport_core_tests.py",
+          "expected_total": 17,
+          "fixture_binding_source": "SUITE_MANIFEST",
+          "declared_fixture_binding": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_07_Fixture_Generalization_Runtime_Parameterization_V0.1\\fixtures\\E2E_FIX_01_Runtime_Binding_V0.1.json"
+        },
+        "environment_provenance": {
+          "environment_policy_version": "PREFLIGHT-SUBPROCESS-ENV-ISOLATION-V0.1",
+          "suite": {
+            "suite_id": "CHARACTER-ACTING-TRANS-CORE",
+            "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_13_Character_Acting_Reserved_Transport_Slot_Alignment_V0.1\\tests\\run_character_acting_transport_core_tests.py",
+            "expected_total": 17,
+            "fixture_binding_source": "SUITE_MANIFEST",
+            "declared_fixture_binding": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_07_Fixture_Generalization_Runtime_Parameterization_V0.1\\fixtures\\E2E_FIX_01_Runtime_Binding_V0.1.json"
+          },
+          "parent_afs_e2e_classification": {},
+          "removed_live_run_variables": [],
+          "explicitly_injected_variables": [
+            "AFS_E2E_FIXTURE_BINDING"
+          ],
+          "effective_fixture_binding": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_07_Fixture_Generalization_Runtime_Parameterization_V0.1\\fixtures\\E2E_FIX_01_Runtime_Binding_V0.1.json",
+          "safe_global_names": [
+            "ALLUSERSPROFILE",
+            "APPDATA",
+            "COMSPEC",
+            "HOMEDRIVE",
+            "HOMEPATH",
+            "LOCALAPPDATA",
+            "NUMBER_OF_PROCESSORS",
+            "OS",
+            "PATH",
+            "PATHEXT",
+            "PROCESSOR_ARCHITECTURE",
+            "PROCESSOR_IDENTIFIER",
+            "PROCESSOR_LEVEL",
+            "PROCESSOR_REVISION",
+            "PROGRAMDATA",
+            "PUBLIC",
+            "SYSTEMROOT",
+            "TEMP",
+            "TMP",
+            "USERPROFILE",
+            "WINDIR"
+          ],
+          "provider_credentials_injected": false,
+          "environment_hash": "B341E5739D0567B7B22DBF7FA1FE5133BABD49D7790A3674407BBB0CD59C9869"
+        },
+        "stderr": ""
+      },
+      "CHARACTER-ACTING-TRANS-NEG": {
+        "returncode": 0,
+        "passed": 12,
+        "total": 12,
+        "expected_total": 12,
+        "result": "PASS",
+        "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_13_Character_Acting_Reserved_Transport_Slot_Alignment_V0.1\\tests\\run_character_acting_transport_negative_tests.py",
+        "suite_manifest": {
+          "suite_id": "CHARACTER-ACTING-TRANS-NEG",
+          "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_13_Character_Acting_Reserved_Transport_Slot_Alignment_V0.1\\tests\\run_character_acting_transport_negative_tests.py",
+          "expected_total": 12,
+          "fixture_binding_source": "SUITE_MANIFEST",
+          "declared_fixture_binding": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_07_Fixture_Generalization_Runtime_Parameterization_V0.1\\fixtures\\E2E_FIX_01_Runtime_Binding_V0.1.json"
+        },
+        "environment_provenance": {
+          "environment_policy_version": "PREFLIGHT-SUBPROCESS-ENV-ISOLATION-V0.1",
+          "suite": {
+            "suite_id": "CHARACTER-ACTING-TRANS-NEG",
+            "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_13_Character_Acting_Reserved_Transport_Slot_Alignment_V0.1\\tests\\run_character_acting_transport_negative_tests.py",
+            "expected_total": 12,
+            "fixture_binding_source": "SUITE_MANIFEST",
+            "declared_fixture_binding": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_07_Fixture_Generalization_Runtime_Parameterization_V0.1\\fixtures\\E2E_FIX_01_Runtime_Binding_V0.1.json"
+          },
+          "parent_afs_e2e_classification": {},
+          "removed_live_run_variables": [],
+          "explicitly_injected_variables": [
+            "AFS_E2E_FIXTURE_BINDING"
+          ],
+          "effective_fixture_binding": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_07_Fixture_Generalization_Runtime_Parameterization_V0.1\\fixtures\\E2E_FIX_01_Runtime_Binding_V0.1.json",
+          "safe_global_names": [
+            "ALLUSERSPROFILE",
+            "APPDATA",
+            "COMSPEC",
+            "HOMEDRIVE",
+            "HOMEPATH",
+            "LOCALAPPDATA",
+            "NUMBER_OF_PROCESSORS",
+            "OS",
+            "PATH",
+            "PATHEXT",
+            "PROCESSOR_ARCHITECTURE",
+            "PROCESSOR_IDENTIFIER",
+            "PROCESSOR_LEVEL",
+            "PROCESSOR_REVISION",
+            "PROGRAMDATA",
+            "PUBLIC",
+            "SYSTEMROOT",
+            "TEMP",
+            "TMP",
+            "USERPROFILE",
+            "WINDIR"
+          ],
+          "provider_credentials_injected": false,
+          "environment_hash": "B341E5739D0567B7B22DBF7FA1FE5133BABD49D7790A3674407BBB0CD59C9869"
+        },
+        "stderr": ""
+      },
+      "CONTINUITY-ALIGN-CORE": {
+        "returncode": 0,
+        "passed": 17,
+        "total": 17,
+        "expected_total": 17,
+        "result": "PASS",
+        "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_14_Continuity_Machine_Outcome_Parser_Alignment_V0.1\\tests\\run_continuity_alignment_core_tests.py",
+        "suite_manifest": {
+          "suite_id": "CONTINUITY-ALIGN-CORE",
+          "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_14_Continuity_Machine_Outcome_Parser_Alignment_V0.1\\tests\\run_continuity_alignment_core_tests.py",
+          "expected_total": 17,
+          "fixture_binding_source": "SUITE_MANIFEST",
+          "declared_fixture_binding": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_07_Fixture_Generalization_Runtime_Parameterization_V0.1\\fixtures\\E2E_FIX_01_Runtime_Binding_V0.1.json"
+        },
+        "environment_provenance": {
+          "environment_policy_version": "PREFLIGHT-SUBPROCESS-ENV-ISOLATION-V0.1",
+          "suite": {
+            "suite_id": "CONTINUITY-ALIGN-CORE",
+            "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_14_Continuity_Machine_Outcome_Parser_Alignment_V0.1\\tests\\run_continuity_alignment_core_tests.py",
+            "expected_total": 17,
+            "fixture_binding_source": "SUITE_MANIFEST",
+            "declared_fixture_binding": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_07_Fixture_Generalization_Runtime_Parameterization_V0.1\\fixtures\\E2E_FIX_01_Runtime_Binding_V0.1.json"
+          },
+          "parent_afs_e2e_classification": {},
+          "removed_live_run_variables": [],
+          "explicitly_injected_variables": [
+            "AFS_E2E_FIXTURE_BINDING"
+          ],
+          "effective_fixture_binding": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_07_Fixture_Generalization_Runtime_Parameterization_V0.1\\fixtures\\E2E_FIX_01_Runtime_Binding_V0.1.json",
+          "safe_global_names": [
+            "ALLUSERSPROFILE",
+            "APPDATA",
+            "COMSPEC",
+            "HOMEDRIVE",
+            "HOMEPATH",
+            "LOCALAPPDATA",
+            "NUMBER_OF_PROCESSORS",
+            "OS",
+            "PATH",
+            "PATHEXT",
+            "PROCESSOR_ARCHITECTURE",
+            "PROCESSOR_IDENTIFIER",
+            "PROCESSOR_LEVEL",
+            "PROCESSOR_REVISION",
+            "PROGRAMDATA",
+            "PUBLIC",
+            "SYSTEMROOT",
+            "TEMP",
+            "TMP",
+            "USERPROFILE",
+            "WINDIR"
+          ],
+          "provider_credentials_injected": false,
+          "environment_hash": "B341E5739D0567B7B22DBF7FA1FE5133BABD49D7790A3674407BBB0CD59C9869"
+        },
+        "stderr": ""
+      },
+      "CONTINUITY-ALIGN-NEG": {
+        "returncode": 0,
+        "passed": 12,
+        "total": 12,
+        "expected_total": 12,
+        "result": "PASS",
+        "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_14_Continuity_Machine_Outcome_Parser_Alignment_V0.1\\tests\\run_continuity_alignment_negative_tests.py",
+        "suite_manifest": {
+          "suite_id": "CONTINUITY-ALIGN-NEG",
+          "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_14_Continuity_Machine_Outcome_Parser_Alignment_V0.1\\tests\\run_continuity_alignment_negative_tests.py",
+          "expected_total": 12,
+          "fixture_binding_source": "SUITE_MANIFEST",
+          "declared_fixture_binding": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_07_Fixture_Generalization_Runtime_Parameterization_V0.1\\fixtures\\E2E_FIX_01_Runtime_Binding_V0.1.json"
+        },
+        "environment_provenance": {
+          "environment_policy_version": "PREFLIGHT-SUBPROCESS-ENV-ISOLATION-V0.1",
+          "suite": {
+            "suite_id": "CONTINUITY-ALIGN-NEG",
+            "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_14_Continuity_Machine_Outcome_Parser_Alignment_V0.1\\tests\\run_continuity_alignment_negative_tests.py",
+            "expected_total": 12,
+            "fixture_binding_source": "SUITE_MANIFEST",
+            "declared_fixture_binding": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_07_Fixture_Generalization_Runtime_Parameterization_V0.1\\fixtures\\E2E_FIX_01_Runtime_Binding_V0.1.json"
+          },
+          "parent_afs_e2e_classification": {},
+          "removed_live_run_variables": [],
+          "explicitly_injected_variables": [
+            "AFS_E2E_FIXTURE_BINDING"
+          ],
+          "effective_fixture_binding": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_07_Fixture_Generalization_Runtime_Parameterization_V0.1\\fixtures\\E2E_FIX_01_Runtime_Binding_V0.1.json",
+          "safe_global_names": [
+            "ALLUSERSPROFILE",
+            "APPDATA",
+            "COMSPEC",
+            "HOMEDRIVE",
+            "HOMEPATH",
+            "LOCALAPPDATA",
+            "NUMBER_OF_PROCESSORS",
+            "OS",
+            "PATH",
+            "PATHEXT",
+            "PROCESSOR_ARCHITECTURE",
+            "PROCESSOR_IDENTIFIER",
+            "PROCESSOR_LEVEL",
+            "PROCESSOR_REVISION",
+            "PROGRAMDATA",
+            "PUBLIC",
+            "SYSTEMROOT",
+            "TEMP",
+            "TMP",
+            "USERPROFILE",
+            "WINDIR"
+          ],
+          "provider_credentials_injected": false,
+          "environment_hash": "B341E5739D0567B7B22DBF7FA1FE5133BABD49D7790A3674407BBB0CD59C9869"
+        },
+        "stderr": ""
+      },
+      "ENV-ISO-CORE": {
+        "returncode": 0,
+        "passed": 18,
+        "total": 18,
+        "expected_total": 18,
+        "result": "PASS",
+        "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_15_Mandatory_Preflight_Environment_Isolation_V0.1\\tests\\run_environment_isolation_positive_tests.py",
+        "suite_manifest": {
+          "suite_id": "ENV-ISO-CORE",
+          "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_15_Mandatory_Preflight_Environment_Isolation_V0.1\\tests\\run_environment_isolation_positive_tests.py",
+          "expected_total": 18,
+          "fixture_binding_source": "NO_FIXTURE_BINDING_REQUIRED",
+          "declared_fixture_binding": "ABSENT"
+        },
+        "environment_provenance": {
+          "environment_policy_version": "PREFLIGHT-SUBPROCESS-ENV-ISOLATION-V0.1",
+          "suite": {
+            "suite_id": "ENV-ISO-CORE",
+            "script": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_15_Mandatory_Preflight_Environment_Isolation_V0.1\\tests\\run_environment_isolation_positive_tests.py",
+            "expected_total": 18,
+            "fixture_binding_source": "NO_FIXTURE_BINDING_REQUIRED",
+            "declared_fixture_binding": "ABSENT"
+          },
+          "parent_afs_e2e_classification": {},
+          "removed_live_run_variables": [],
+          "explicitly_injected_variables": [],
+          "effective_fixture_binding": "ABSENT",
+          "safe_global_names": [
+            "ALLUSERSPROFILE",
+            "APPDATA",
+            "COMSPEC",
+            "HOMEDRIVE",
+            "HOMEPATH",
+            "LOCALAPPDATA",
+            "NUMBER_OF_PROCESSORS",
+            "OS",
+            "PATH",
+            "PATHEXT",
+            "PROCESSOR_ARCHITECTURE",
+            "PROCESSOR_IDENTIFIER",
+            "PROCESSOR_LEVEL",
+            "PROCESSOR_REVISION",
+            "PROGRAMDATA",
+            "PUBLIC",
+            "SYSTEMROOT",
+            "TEMP",
+            "TMP",
+            "USERPROFILE",
+            "WINDIR"
+          ],
+          "provider_credentials_injected": false,
+          "environment_hash": "9854AD019C420D7370A7D4C17536D5DC8495D654052CE1C6CEAFBCC369A19417"
+        },
+        "stderr": ""
+      }
+    }
+  },
+  "genericity": {
+    "returncode": 0,
+    "passed": 18,
+    "total": 18
+  },
+  "unified_phase2": {
+    "returncode": 0,
+    "overall": "PASS",
+    "record_count": 25
+  },
+  "provider_calls": 0,
+  "executor_calls": 0,
+  "role_calls": 0,
+  "probe_calls": 0,
+  "live_e2e_runs": 0,
+  "overall": "PASS"
+}

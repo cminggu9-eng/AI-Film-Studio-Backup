@@ -1,0 +1,59 @@
+{
+  "source_role": "Showrunner",
+  "source_record_id": "E2E-RUN-22/showrunner/1",
+  "version": "1.0",
+  "timestamp": "2026-09-01T08:54:47.340661+00:00",
+  "intended_recipient": "Scene Writer",
+  "handoff_reason": "Story / Canon Package",
+  "canon_assignment_locks": [
+    "same_cracked_bowl",
+    "crack_preserved",
+    "signboard_state allowed_tokens: signboard_on, signboard_off"
+  ],
+  "prohibited_changes": [
+    "SELL",
+    "KEEP",
+    "彻底和解"
+  ],
+  "canonical_mode": "ABSENT",
+  "primary_state_or_outcome": "INFO",
+  "flags": "ABSENT",
+  "handoffs": "ABSENT",
+  "required_outcome": "ABSENT",
+  "unresolved_decisions": [
+    "shop_transfer_decision"
+  ],
+  "relevant_prior_state": {
+    "relationship_prior": "多年没有回家的儿子周启",
+    "father_prior": "父亲已故，留下最后一只店碗",
+    "shop_prior": "面馆打烊后，店铺状态未明"
+  },
+  "current_state": {
+    "props": {
+      "cracked_white_porcelain_bowl": {
+        "condition": "crack_preserved",
+        "custody": "transfer_pending"
+      }
+    },
+    "signboard": "on",
+    "relationship": "母子关系疏离，未达成彻底和解"
+  },
+  "proposed_state": {
+    "shop_transfer_decision": "deferred_until_rain_stops"
+  },
+  "knowledge_timing": {
+    "last_bowl_reveal": {
+      "holder": "周启",
+      "not_before_scene": 2
+    }
+  },
+  "relationship_state": {
+    "current": "周启承认早就知道碗的意义，但未与母亲达成彻底和解",
+    "next_allowed": "可增进理解或保持距离，但不得升级为彻底和解"
+  },
+  "visual_state": {
+    "signboard_state": "on"
+  },
+  "authority_source": "Showrunner canonical Skill output",
+  "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-22\\artifacts\\showrunner_output.json"
+}

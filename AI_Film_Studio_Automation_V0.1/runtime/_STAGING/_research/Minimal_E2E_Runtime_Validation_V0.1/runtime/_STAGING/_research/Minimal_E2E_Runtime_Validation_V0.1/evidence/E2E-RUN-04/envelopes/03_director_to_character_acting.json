@@ -1,0 +1,34 @@
+{
+  "source_role": "Director",
+  "source_record_id": "E2E-RUN-04/director/1",
+  "version": "1.0",
+  "timestamp": "2026-08-28T05:58:32.306975+00:00",
+  "intended_recipient": "Character & Acting",
+  "handoff_reason": "Direction constraints",
+  "canon_assignment_locks": [
+    "黄铜钥匙，标记 A-17；身份与 custody 必须可追踪。",
+    "母亲留下钥匙和储物间共同开启用途必须由许曼的授权场内揭示承载；不得提前泄漏。",
+    "暴雨夜、许宁夜班管理员、湿透制服；后续才可发生换下湿制服的授权视觉状态转换。",
+    "久未联系的姐弟；不得自动升级为完全和解。"
+  ],
+  "prohibited_changes": [
+    "不得增加第三个具名角色。",
+    "不得改变 A-17 标记。",
+    "不得把关系自动写成完全和解。",
+    "不得把未知原因或未授权背景写成 Canon。"
+  ],
+  "canonical_mode": "PLAN",
+  "primary_state_or_outcome": "DIRECTION_PLAN_PRODUCED",
+  "flags": "ABSENT",
+  "handoffs": "ABSENT",
+  "required_outcome": "ABSENT",
+  "unresolved_decisions": [],
+  "relevant_prior_state": {},
+  "current_state": {},
+  "proposed_state": {},
+  "knowledge_timing": {},
+  "relationship_state": {},
+  "visual_state": {},
+  "authority_source": "Director canonical Skill output",
+  "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-04\\artifacts\\director_output.json"
+}

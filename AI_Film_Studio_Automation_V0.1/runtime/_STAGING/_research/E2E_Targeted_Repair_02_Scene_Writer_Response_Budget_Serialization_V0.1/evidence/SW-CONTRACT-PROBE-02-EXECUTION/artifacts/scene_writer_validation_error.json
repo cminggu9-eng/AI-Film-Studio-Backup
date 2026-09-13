@@ -1,0 +1,8 @@
+{
+  "lifecycle_stage": "LOCAL_VALIDATION_FAILURE_RECORDED",
+  "invocation_id": "SW-CONTRACT-PROBE-02:scene_writer:1",
+  "role": "Scene Writer",
+  "validation_stage": "Provider JSON Parse",
+  "category": "EXECUTOR FAILURE",
+  "detail": "ModelExecutionError: Provider response was not valid JSON"
+}

@@ -1,0 +1,66 @@
+{
+  "primary_state_or_outcome": "DIRECTION_PLAN_PRODUCED",
+  "flags": "ABSENT",
+  "handoffs": "ABSENT",
+  "canon_assignment_locks": [
+    "identity=ai-film-studio-showrunner",
+    "canonical_path=E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\01_Showrunner\\SKILL.md",
+    "sha256=0847EE3521A915936E97FA1F72D081F0788876F003E071918F517B0A46AE999C",
+    "scene_count=3",
+    "characters=['周岚','周启']",
+    "relationship=['不得自动升级为彻底和解']",
+    "prop.entity_id=cracked_white_porcelain_bowl",
+    "prop.identity_lock=same_cracked_bowl",
+    "prop.custody_required=true",
+    "prop.condition_lock=crack_preserved",
+    "knowledge.event_id=last_bowl_reveal",
+    "knowledge.holder=周启",
+    "knowledge.not_before_scene=2",
+    "visual_state.dimension=signboard_state",
+    "visual_state.allowed_tokens=['signboard_on','signboard_off']",
+    "decision_locks=['shop_transfer_decision']"
+  ],
+  "prohibited_changes": [
+    "SELL",
+    "KEEP",
+    "彻底和解",
+    "不得改变 cracked_white_porcelain_bowl 的 identity_lock、custody_required、condition_lock",
+    "不得在 scene<2 揭示 last_bowl_reveal",
+    "不得改变 visual_state.dimension 或使用 allowed_tokens 之外的 signboard_state 值",
+    "不得改变 decision_locks=['shop_transfer_decision']"
+  ],
+  "required_outcome": "在雨停后，关于面馆是否盘出的决定（shop_transfer_decision）保持未决，且不得明确为 SELL 或 KEEP；周启和周岚的关系不得升级为彻底和解；三场结构按要求完成。",
+  "unresolved_decisions": [
+    "shop_transfer_decision 的最终倾向（用户保留最终创作权）"
+  ],
+  "state_evidence": {
+    "relevant_prior_state": {
+      "E2E-FIX-02-S01": {
+        "signboard_state": "signboard_on"
+      },
+      "E2E-FIX-02-S02": {
+        "signboard_state": "signboard_on"
+      },
+      "E2E-FIX-02-S03": {
+        "signboard_state": "signboard_off"
+      }
+    },
+    "current_state": {
+      "E2E-FIX-02-S01": {
+        "signboard_state": "signboard_on"
+      },
+      "E2E-FIX-02-S02": {
+        "signboard_state": "signboard_off"
+      },
+      "E2E-FIX-02-S03": {
+        "signboard_state": "signboard_off"
+      }
+    },
+    "proposed_state": "ABSENT",
+    "knowledge_timing": "ABSENT",
+    "visual_state": "ABSENT",
+    "relationship_state": "疏离、有裂痕，试探与回避逐步加深为紧绷，未涉和解，雨停后仅留细微波动"
+  },
+  "content": "DIRECTORIAL INTENT\n以一只裂口白瓷碗的物理行进路线（周岚之手 → 桌面对峙 → 周启挪近半寸 → 周岚收回归柜）作为全片视觉与情感的脊柱。核心意图是让观众持续注视碗与裂口，透过母子身体与碗之间的距离变化，读出一段无法被说出口的裂痕与去留之悬置。全片不以台词驱动，而以物件的递与不接、近与不端、收与不弃，配合招牌灯由 on 转 off、雨由下至停的两条环境节拍，把\"递碗—承认已知—雨停未决\"锁定节拍转化为可见的压抑节奏。招牌灯的熄灭是周启施加的第一声\"关\"的意志，雨的停止则是外部世界替他留下的未决句号——两者都不由任何一方解决，正好承载决策锁要求的不 SELL、不 KEEP、不和解。\n\nSTAGING / BLOCKING\n全程单场景，面馆内，三人称极少、几乎双人关系为主。第一场：周岚从柜台侧幕线内走出，取碗在手，拇指来回摩挲裂口（这一动作不指定表演技法，仅作为吸引目光指向裂口的走位设计），沿一条从柜台到桌边的直线推进，把碗推到周启面前；周启保持靠墙站立、身体侧向，视线水平线低于碗、不接目光亦不接碗，形成\"站/坐相对、碗为中介\"的三角。周岚的手停在碗边不动，是全场第一个悬置停顿。第二场：空间变暗（招牌灯 off），周岚仍站桌边同一位置，周启由墙边转身半步面向桌面，身体终于进入碗的视域，把碗朝自己方向挪半寸但不端起——\"挪近\"而非\"接手\"是关键的物理负动作，表达承认却拒绝承接。第三场：周岚把碗拿回，逆着第一场的行进路线走回柜台，意味着物件归还原位、关系退回起点；她擦裂口、把裂口转向朝外，周启看着她，二人间隔一条没有越过的店堂中线。所有走位都不允许人物越过彼此中轴形成肢体靠近，以空间距离守住\"不和解\"的锁。\n\nAUDIENCE INFORMATION\n观众在第一场应只知道：母子疏离、碗有裂口、下雨、招牌灯亮、周启不愿接碗并突兀要求关灯——不能知道周启早已知晓碗的来历（知识锁）。观众应注意到裂口和\"没端起来\"这种反复的\"差半寸\"，产生\"他为何不接\"的疑问。第二场是唯一的信息揭示点：周启说出\"早知道那是爸最后一只店碗\"，观众同步被刺痛，并意识到第一场周岚反复摩挲裂口、周启回避目光都因他早已知晓。第三场观众应明白：雨与灯都停了，但两端都空着——没有 SELL 也没有 KEEP，没有人接碗，这\"空\"即结局。全片刻意不让观众知道任何一方的真实盘店倾向与多年不归的具体原因，维持 Showrunner 标注的 unknown_items 不变。\n\nSPATIAL GEOGRAPHY\n面馆纵深三区：柜台区（深处，碗的\"家\"）、中央桌区（中间，对峙与揭示的舞台）、墙边立位（靠近门口的周启位置）。门口在周启一侧，门外是招牌灯与雨；柜台侧是后厨方向，周岚的来路与退路。屏幕方向约定：第一场周岚自左（柜台）向右（门）推进，周启在右端墙上，相对视轴约三十度、不面对面；第二场周启转身半步后与周岚形成近正对，但保持桌面的横向阻隔；第三场周岚逆向从左向右撤回，周启不动，中线保持空置，表示无人跨越。门口漏进的天光成为第三场唯一光源方向，把注意力引向柜台上的碗而非人物。招牌灯 off 在第二场、雨停在第三场，都是外部地理的\"关闭\"动作，与室内人物无交集，形成\"外部已静，内部未决\"的反差。\n\nCAMERA / COVERAGE INTENT\n以稀疏、稳定的固定机位为主，拒绝装饰性运动和模板化正反打。第一场用一条略低平的固定镜头覆盖周岚从柜台到桌边的推进与周启靠墙的静态，镜头略偏向碗所在平面，让碗在画面中始终清晰可辨；在周岚手停在碗边时用一个更近的插入（目的：emphasis+信息）对准裂口与那双未触碰的手。第二场当周启转身、说出真相，机位不做推进，保持中景双人全景，仅以周启\"挪碗半寸\"的那只手作为第二插入（目的：relation+conceal，看得到动作却看不到表情全部），避免把真相拍成情绪特写，让克制服务于压抑。第三场用一个更长、更静的固定镜头把周岚收碗、擦碗、关灯、碗躺柜台的全过程连续收入（目的：geography+rhythm），最后停在门口天光与柜台碗之间，不对准任何一张脸，把\"无人接碗、无人决定\"交给空间本身表达。\n\nRHYTHM / TRANSITION INTENT\n三场以\"环境音\"为节拍器：第一场持续的下雨声是密而满的底噪，对话被雨声包裹，节奏偏慢、留白多；周启那句\"先把招牌灯关了\"是全片第一次硬切，用人物动作截断母亲的话头，制造第一个不完整。过渡1（关灯）：招牌灯熄灭、雨声不变，空间突然收暗，噪音未减但画面变静，形成\"声音还在、光没了\"的错位，为第二场揭示蓄压。第二场揭示后不加速，反而放慢，把\"挪碗半寸\"的停顿拉长，让真相停留在未完成的动作上。过渡2（雨停）：雨声由密转稀、由稀至止，檐角滴水成为唯一的延续，节奏忽然抽空，对应决策被无限推迟；第三场几乎不推动任何动作，只有收回、擦拭、关灯三个极慢的完成式，最终停在\"谁也没说出口\"的静默，用一个无言的收束替代任何解决。\n\nPRODUCTION BURDEN\n单场景、双人物、一个关键道具、两个环境状态（雨/灯），无新增成本与资源负担。保持 MVP：所有戏集中在面馆内部，不需要外景组件；雨声与檐角滴水可用现场或后期音效分层，不要求复杂特效；招牌灯只做 on/off 两态，符合图库许可值；关键道具仅一只带裂口的白瓷碗，全程同一只、裂口不被修复、状态不改变（crack_preserved / same_cracked_bowl），无需更多道具管理。覆盖设计刻意稀疏，避免多机与重复布光负担。照明仅依赖招牌灯、一盏顶灯与门口天光三个明确光源，保持低负担。\n\nHANDOFFS / UNRESOLVED ISSUES\n无 Director 层级的材料冲突或上游阻塞；所有 Canon/Showrunner/Scene Writer 锁定均已遵守。需留在用户处的唯一未决项：shop_transfer_decision 的最终倾向由用户保留创作权，本片不在任何一场给予 SELL 或 KEEP 的确定表达，仅在雨停后维持未决。需下游（DP / Art / Continuity / Editor）注意的依赖：招牌灯第二场 off、雨第三场停的精确时机，须与 Continuity 校验一致；碗的裂口朝向（第三场\"裂口朝外\"）与 custody 转移（周岚取回并归柜）由 Continuity 复核，Director 不做跨场认证。未发现 C14（Entry/Exit 子系统）或 C20（外部制作约束输入）的相关授权，不在本包内虚构相应能力。无遗留的 Director 决策需要上游裁决。",
+  "scene_packages": "ABSENT"
+}

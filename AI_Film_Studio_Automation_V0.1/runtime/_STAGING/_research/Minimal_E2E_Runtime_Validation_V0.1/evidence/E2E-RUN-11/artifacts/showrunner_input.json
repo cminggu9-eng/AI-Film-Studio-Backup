@@ -1,0 +1,54 @@
+{
+  "run_id": "E2E-RUN-11",
+  "role": "Showrunner",
+  "canonical_binding": {
+    "identity": "ai-film-studio-showrunner",
+    "canonical_path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\01_Showrunner\\SKILL.md",
+    "sha256": "0847EE3521A915936E97FA1F72D081F0788876F003E071918F517B0A46AE999C"
+  },
+  "selected_mode": "ABSENT",
+  "output_language": "zh-CN",
+  "input": {
+    "sole_creative_input": "暴雨夜，夜班管理员许宁把一把刻有“A-17”的黄铜钥匙交给久未联系的姐姐许曼；许曼承认这是母亲留给两人一起打开储物间的钥匙，要求许宁先换下湿透的制服、等天亮再开门。",
+    "fixture_constraints": {
+      "scene_count": 3,
+      "output_language": "zh-CN",
+      "characters": [
+        "许宁",
+        "许曼"
+      ],
+      "relationship": [
+        "不得自动升级为完全和解"
+      ],
+      "prop": {
+        "entity_id": "A-17",
+        "identity_lock": "A-17",
+        "custody_required": true,
+        "condition_lock": "brass_key"
+      },
+      "knowledge": [
+        {
+          "event_id": "shared_storage_reveal",
+          "holder": "许曼",
+          "not_before_scene": 3
+        }
+      ],
+      "visual_state": [
+        {
+          "dimension": "clothing_visual_state_code",
+          "allowed_tokens": [
+            "soaked_uniform",
+            "changed_clothes"
+          ]
+        }
+      ],
+      "prohibited": [
+        "完全和解"
+      ],
+      "decision_locks": [
+        "storage_room_opening"
+      ]
+    },
+    "instruction_boundary": "No hidden Canon, adaptation input, pre-written plot, or Scene Writer dialogue."
+  }
+}

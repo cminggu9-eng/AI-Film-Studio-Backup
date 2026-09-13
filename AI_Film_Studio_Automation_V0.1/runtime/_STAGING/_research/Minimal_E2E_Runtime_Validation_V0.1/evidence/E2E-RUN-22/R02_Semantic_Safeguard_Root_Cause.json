@@ -1,0 +1,23 @@
+{
+  "run_id": "E2E-RUN-22",
+  "classification": "SEMANTIC SAFEGUARD IDENTITY REPRESENTATION BRIDGE FAILURE",
+  "earliest_blocking_layer": "Semantic Safeguard Layer A deterministic evidence/contract gate",
+  "finding_code": "REQUIRED_PROP_MISMATCH",
+  "affected_assertions": ["PROP-1", "PROP-2", "PROP-3"],
+  "observed_transport_entity_identity": "cracked_white_porcelain_bowl",
+  "transport_authority": "compiled tracked_entities[0].entity_id",
+  "assertion_expected_identity": "same_cracked_bowl",
+  "assertion_authority": "compiled tracked_entities[0].identity_lock",
+  "diagnosis": "Two valid binding-derived identities from different namespaces were compared as if they were the same representation.",
+  "role_semantic_failure": false,
+  "scene_writer_state_field_bridge": "PASS",
+  "scene_writer_strict_contract": "PASS",
+  "secondary_nonblocking_audit_finding": {
+    "classification": "TRANSITION AUTHORIZATION/OCCURRENCE REPRESENTATION RISK",
+    "detail": "build_scene_assertions selects the first scene carrying an authorized transition token as actual occurrence; this run carries authorization in S01 while the state changes from on in S01 to off in S02.",
+    "current_blocker": false,
+    "requires_audit_before_next_replay": true
+  },
+  "recommended_repair_boundary": "Integration Semantic Safeguard prop identity projection and transition occurrence derivation only",
+  "result": "BLOCK"
+}

@@ -1,0 +1,54 @@
+{
+  "source_role": "Character & Acting",
+  "source_record_id": "E2E-RUN-18/character_acting/1",
+  "version": "1.0",
+  "timestamp": "2026-08-31T05:12:06.928943+00:00",
+  "intended_recipient": "Art Director",
+  "handoff_reason": "Physical performance constraints",
+  "canon_assignment_locks": [
+    "A-17",
+    "brass_key",
+    "shared_storage_reveal",
+    "storage_room_opening",
+    "soaked_uniform",
+    "changed_clothes"
+  ],
+  "prohibited_changes": [
+    "完全和解"
+  ],
+  "canonical_mode": "INTERPRET",
+  "primary_state_or_outcome": "PERFORMANCE_INTERPRETATION_READY",
+  "flags": "ABSENT",
+  "handoffs": "ABSENT",
+  "required_outcome": "ABSENT",
+  "unresolved_decisions": [
+    "storage_room_opening"
+  ],
+  "relevant_prior_state": {
+    "relationship_state": "疏远且紧张，未达到完全和解",
+    "knowledge_state": "许曼掌握储物间信息，尚未揭示",
+    "visual_state": "soaked_uniform"
+  },
+  "current_state": {
+    "relationship_state": "疏远且紧张，未达到完全和解",
+    "knowledge_state": "shared_storage_reveal 已揭示，storage_room_opening 未决",
+    "visual_state": "changed_clothes"
+  },
+  "proposed_state": "ABSENT",
+  "knowledge_timing": {
+    "reveal_of_shared_use": "第三场揭示",
+    "reveal_of_room_content": "未揭示"
+  },
+  "relationship_state": {
+    "initial": "疏远且紧张",
+    "after_scene_1": "进一步紧张，许宁不安",
+    "after_scene_3": "维持紧张，无完全和解"
+  },
+  "visual_state": {
+    "scene_1": "soaked_uniform",
+    "scene_2": "changed_clothes",
+    "scene_3": "changed_clothes"
+  },
+  "authority_source": "Character & Acting canonical Skill output",
+  "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-18\\artifacts\\character_acting_output.json"
+}

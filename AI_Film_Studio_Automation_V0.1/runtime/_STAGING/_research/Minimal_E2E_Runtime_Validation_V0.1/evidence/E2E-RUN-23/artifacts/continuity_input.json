@@ -1,0 +1,1016 @@
+{
+  "run_id": "E2E-RUN-23",
+  "role": "Continuity",
+  "canonical_binding": {
+    "identity": "continuity",
+    "canonical_path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\06_Continuity\\continuity\\SKILL.md",
+    "sha256": "C64475BD0578BE6C159DF5A0FA0D90A96636160215B00E17AA3C5CC8E7F0B64C"
+  },
+  "selected_mode": "ABSENT",
+  "output_language": "zh-CN",
+  "input": {
+    "upstream_artifacts": {
+      "scene_writer": {
+        "primary_state_or_outcome": "SCENE_CREATED",
+        "flags": "ABSENT",
+        "handoffs": "ABSENT",
+        "canon_assignment_locks": [
+          "identity=ai-film-studio-showrunner",
+          "canonical_path=E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\01_Showrunner\\SKILL.md",
+          "sha256=0847EE3521A915936E97FA1F72D081F0788876F003E071918F517B0A46AE999C",
+          "scene_count=3",
+          "characters=['周岚','周启']",
+          "relationship=['不得自动升级为彻底和解']",
+          "prop.entity_id=cracked_white_porcelain_bowl",
+          "prop.identity_lock=same_cracked_bowl",
+          "prop.custody_required=true",
+          "prop.condition_lock=crack_preserved",
+          "knowledge.event_id=last_bowl_reveal",
+          "knowledge.holder=周启",
+          "knowledge.not_before_scene=2",
+          "visual_state.dimension=signboard_state",
+          "visual_state.allowed_tokens=['signboard_on','signboard_off']",
+          "decision_locks=['shop_transfer_decision']"
+        ],
+        "prohibited_changes": [
+          "SELL",
+          "KEEP",
+          "彻底和解",
+          "不得改变 cracked_white_porcelain_bowl 的 identity_lock、custody_required、condition_lock",
+          "不得在 scene<2 揭示 last_bowl_reveal",
+          "不得改变 visual_state.dimension 或使用 allowed_tokens 之外的 signboard_state 值",
+          "不得改变 decision_locks=['shop_transfer_decision']"
+        ],
+        "required_outcome": "在雨停后，关于面馆是否盘出的决定（shop_transfer_decision）保持未决，且不得明确为 SELL 或 KEEP；周启和周岚的关系不得升级为彻底和解；三场结构按要求完成。",
+        "unresolved_decisions": [
+          "shop_transfer_decision 的最终倾向（用户保留最终创作权）"
+        ],
+        "state_evidence": {
+          "relevant_prior_state": {
+            "relationship_state": "疏离、有裂痕，母子之间隔着多年未归的沉默",
+            "knowledge_state": "周启早已知晓碗是父亲最后一只店碗，但观众尚未得知",
+            "visual_state": "signboard_on，门外招牌灯亮着，正下雨"
+          },
+          "current_state": {
+            "relationship_state": "疏离加深为紧绷，互有指责与退避，未触及和解",
+            "knowledge_state": "观众已得知周启早已知晓碗的来历",
+            "visual_state": "signboard_off，招牌灯已关，雨停"
+          },
+          "proposed_state": {
+            "relationship_state": "维持未和解，仅有极细微的软化瞬间",
+            "knowledge_state": "揭示已完成，不再新增知识",
+            "visual_state": "signboard_off，雨停后未再开灯"
+          },
+          "knowledge_timing": {
+            "reveal_of_shared_use": "last_bowl_reveal 于 scene 2 由周启说出",
+            "reveal_of_room_content": "碗的裂口自 scene 1 便可见，未有隐藏"
+          },
+          "relationship_state": {
+            "initial": "疏离，有裂痕",
+            "after_scene_1": "试探与回避形成张力",
+            "after_scene_3": "紧绷未解，有细微波动但不和解"
+          },
+          "visual_state": {
+            "scene_1": "signboard_on，门外雨声，店内灯冷",
+            "scene_2": "signboard_off，招牌灯熄灭，雨仍在下",
+            "scene_3": "signboard_off，雨停，店内静默"
+          }
+        },
+        "content": "场景 1\n打烊后的老面馆，雨敲在卷帘门上。门外招牌灯还亮着，把水汽映成一片昏黄。周岚从柜台后取出一只白瓷碗，碗沿有一道裂口，她用拇指来回摩挲，走到桌边，把碗轻轻推到周启面前。周启没坐，靠着墙站着，眼睛不接碗，也不接母亲的目光。周岚说这碗你爸一直留着，说打烊后用这只碗给自己盛碗面。周启打断她，说太晚了，先把外头那个招牌灯关了。周岚的手停在碗边，没动。\n\n场景 2\n招牌灯熄了，屋里只剩顶上一盏小灯。周岚还站在桌边，问周启是不是连看都不想看它一眼。周启终于转过来，说不用看了，他早知道那是什么，爸最后一只店碗，裂口是那年摔的。周岚愣住，声音低下去，说你早就知道，这些年也没回来过一句。周启不答，只把碗朝自己这边挪了半寸，没端起来。雨还在下，敲在玻璃上。\n\n场景 3\n雨停了。檐下的水滴一滴滴落在台阶上，招牌灯仍暗着。周岚把碗拿回来，用布擦了擦裂口处，重新放回柜台。周启看着她，说等雨停了再说，刚才说过的。周岚没接话，只把店里的另一盏灯也关了，屋里只剩门口漏进来的一线天光。碗静静待在柜台上，裂口朝外。店和碗的去留，谁也没有说出口。",
+        "scene_packages": [
+          {
+            "scene_id": "E2E-FIX-02-S01",
+            "content": "打烊后的老面馆，雨敲在卷帘门上。门外招牌灯还亮着，把水汽映成一片昏黄。周岚从柜台后取出一只白瓷碗，碗沿有一道裂口，她用拇指来回摩挲，走到桌边，把碗轻轻推到周启面前。周启没坐，靠着墙站着，眼睛不接碗，也不接母亲的目光。周岚说这碗你爸一直留着，说打烊后用这只碗给自己盛碗面。周启打断她，说太晚了，先把外头那个招牌灯关了。周岚的手停在碗边，没动。",
+            "structural_deliverable": {
+              "目标": "周岚想借递出裂口碗打破沉默，试探周启的去留态度",
+              "阻力": "周启回避目光与碗，用关灯的要求打断母亲可能展开的回忆",
+              "对白行动": "周岚试探性地提起父亲；周启以催促关灯来转移话题、拒绝接碗",
+              "转折": "周启提出关招牌灯，把对话从碗的回忆引向店本身的去留",
+              "入场": "周岚从柜台取碗走到桌边；周启靠墙而立，未接碗未接话",
+              "出场": "周岚停在碗边不动，关灯的要求悬在两人之间"
+            },
+            "state_evidence": {
+              "entity_identity": "cracked_white_porcelain_bowl",
+              "entity_custody": "碗由周岚取出并放在桌面，尚未被周启接住",
+              "knowledge_holders": [
+                "周岚"
+              ],
+              "reveal_status": "NOT_YET_REVEALED",
+              "relationship_state": "疏离，周岚试探，周启回避",
+              "signboard_state": "signboard_on",
+              "machine_state_display": "门外招牌灯仍然亮着，雨声不断",
+              "location_presence": "打烊后的面馆内，碗置于桌上",
+              "authorized_transitions": [
+                "signboard_on_to_off"
+              ]
+            },
+            "source_attribution": {
+              "source_role": "Scene Writer",
+              "source_record_id": "E2E-RUN-23/scene_writer/E2E-FIX-02-S01",
+              "version": "0.1",
+              "evidence_locator": "scene_packages/E2E-FIX-02-S01"
+            },
+            "evidence_locator": "scene_packages/E2E-FIX-02-S01"
+          },
+          {
+            "scene_id": "E2E-FIX-02-S02",
+            "content": "招牌灯熄了，屋里只剩顶上一盏小灯。周岚还站在桌边，问周启是不是连看都不想看它一眼。周启终于转过来，说不用看了，他早知道那是什么，爸最后一只店碗，裂口是那年摔的。周岚愣住，声音低下去，说你早就知道，这些年也没回来过一句。周启不答，只把碗朝自己这边挪了半寸，没端起来。雨还在下，敲在玻璃上。",
+            "structural_deliverable": {
+              "目标": "周岚追问他为何不看碗，想逼出周启对过去的态度",
+              "阻力": "周启以早已知晓来历作为防御，回避解释自己多年不归",
+              "对白行动": "周启承认知晓碗的来历；周岚以伤心质问回应",
+              "转折": "周启说出自己早知道碗是父亲最后一只，真相刺痛周岚",
+              "入场": "招牌灯已熄，周岚仍站桌边，周启转身面向碗",
+              "出场": "周启把碗挪近半寸却不端，雨仍在下，两人僵持"
+            },
+            "state_evidence": {
+              "entity_identity": "cracked_white_porcelain_bowl",
+              "entity_custody": "碗仍在桌面，周启将其挪近但未接手",
+              "knowledge_holders": [
+                "周岚"
+              ],
+              "reveal_status": "REVEALED_WITH_EVENT",
+              "relationship_state": "裂痕加深，互有指责与回避，未和解",
+              "signboard_state": "signboard_off",
+              "machine_state_display": "招牌灯已关，雨仍在下",
+              "location_presence": "面馆内，碗在桌上靠近周启一侧",
+              "authorized_transitions": [
+                "signboard_on_to_off"
+              ]
+            },
+            "source_attribution": {
+              "source_role": "Scene Writer",
+              "source_record_id": "E2E-RUN-23/scene_writer/E2E-FIX-02-S02",
+              "version": "0.1",
+              "evidence_locator": "scene_packages/E2E-FIX-02-S02"
+            },
+            "evidence_locator": "scene_packages/E2E-FIX-02-S02"
+          },
+          {
+            "scene_id": "E2E-FIX-02-S03",
+            "content": "雨停了。檐下的水滴一滴滴落在台阶上，招牌灯仍暗着。周岚把碗拿回来，用布擦了擦裂口处，重新放回柜台。周启看着她，说等雨停了再说，刚才说过的。周岚没接话，只把店里的另一盏灯也关了，屋里只剩门口漏进来的一线天光。碗静静待在柜台上，裂口朝外。店和碗的去留，谁也没有说出口。",
+            "structural_deliverable": {
+              "目标": "雨停后面对店与碗的去留，二人都想开口却终究未决",
+              "阻力": "周启用'等雨停再说'拖延；周岚以沉默与行动回避表态",
+              "对白行动": "周启提醒决定仍推迟；周岚不接话，只收碗关灯",
+              "转折": "雨停但决定仍悬置，二人各退一步，未和解未定案",
+              "入场": "周岚取回收碗擦拭，放回柜台",
+              "出场": "周岚关掉另一盏灯，碗留于柜台，光线将尽"
+            },
+            "state_evidence": {
+              "entity_identity": "cracked_white_porcelain_bowl",
+              "entity_custody": "碗被周岚收回并放回柜台，裂口保留",
+              "knowledge_holders": [
+                "周岚"
+              ],
+              "reveal_status": "REVEALED_WITH_EVENT",
+              "relationship_state": "紧绷未解，有细微波动但未彻底和解",
+              "signboard_state": "signboard_off",
+              "machine_state_display": "雨已停，招牌灯暗着，店内渐暗",
+              "location_presence": "面馆内，碗置于柜台，裂口朝外",
+              "authorized_transitions": [
+                "signboard_on_to_off"
+              ]
+            },
+            "source_attribution": {
+              "source_role": "Scene Writer",
+              "source_record_id": "E2E-RUN-23/scene_writer/E2E-FIX-02-S03",
+              "version": "0.1",
+              "evidence_locator": "scene_packages/E2E-FIX-02-S03"
+            },
+            "evidence_locator": "scene_packages/E2E-FIX-02-S03"
+          }
+        ]
+      },
+      "director": {
+        "primary_state_or_outcome": "DIRECTION_PLAN_PRODUCED",
+        "flags": "ABSENT",
+        "handoffs": "ABSENT",
+        "canon_assignment_locks": [
+          "identity=ai-film-studio-showrunner",
+          "canonical_path=E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\01_Showrunner\\SKILL.md",
+          "sha256=0847EE3521A915936E97FA1F72D081F0788876F003E071918F517B0A46AE999C",
+          "scene_count=3",
+          "characters=['周岚','周启']",
+          "relationship=['不得自动升级为彻底和解']",
+          "prop.entity_id=cracked_white_porcelain_bowl",
+          "prop.identity_lock=same_cracked_bowl",
+          "prop.custody_required=true",
+          "prop.condition_lock=crack_preserved",
+          "knowledge.event_id=last_bowl_reveal",
+          "knowledge.holder=周启",
+          "knowledge.not_before_scene=2",
+          "visual_state.dimension=signboard_state",
+          "visual_state.allowed_tokens=['signboard_on','signboard_off']",
+          "decision_locks=['shop_transfer_decision']"
+        ],
+        "prohibited_changes": [
+          "SELL",
+          "KEEP",
+          "彻底和解",
+          "不得改变 cracked_white_porcelain_bowl 的 identity_lock、custody_required、condition_lock",
+          "不得在 scene<2 揭示 last_bowl_reveal",
+          "不得改变 visual_state.dimension 或使用 allowed_tokens 之外的 signboard_state 值",
+          "不得改变 decision_locks=['shop_transfer_decision']"
+        ],
+        "required_outcome": "在雨停后，关于面馆是否盘出的决定（shop_transfer_decision）保持未决，且不得明确为 SELL 或 KEEP；周启和周岚的关系不得升级为彻底和解；三场结构按要求完成。",
+        "unresolved_decisions": [
+          "shop_transfer_decision 的最终倾向（用户保留最终创作权）"
+        ],
+        "state_evidence": {
+          "relevant_prior_state": {
+            "E2E-FIX-02-S01": {
+              "signboard_state": "signboard_on"
+            },
+            "E2E-FIX-02-S02": {
+              "signboard_state": "signboard_on"
+            },
+            "E2E-FIX-02-S03": {
+              "signboard_state": "signboard_off"
+            }
+          },
+          "current_state": {
+            "E2E-FIX-02-S01": {
+              "signboard_state": "signboard_on"
+            },
+            "E2E-FIX-02-S02": {
+              "signboard_state": "signboard_off"
+            },
+            "E2E-FIX-02-S03": {
+              "signboard_state": "signboard_off"
+            }
+          },
+          "proposed_state": "ABSENT",
+          "knowledge_timing": "ABSENT",
+          "visual_state": "ABSENT",
+          "relationship_state": "疏离、有裂痕，试探与回避逐步加深为紧绷，未涉和解，雨停后仅留细微波动"
+        },
+        "content": "DIRECTORIAL INTENT\n以一只裂口白瓷碗的物理行进路线（周岚之手 → 桌面对峙 → 周启挪近半寸 → 周岚收回归柜）作为全片视觉与情感的脊柱。核心意图是让观众持续注视碗与裂口，透过母子身体与碗之间的距离变化，读出一段无法被说出口的裂痕与去留之悬置。全片不以台词驱动，而以物件的递与不接、近与不端、收与不弃，配合招牌灯由 on 转 off、雨由下至停的两条环境节拍，把\"递碗—承认已知—雨停未决\"锁定节拍转化为可见的压抑节奏。招牌灯的熄灭是周启施加的第一声\"关\"的意志，雨的停止则是外部世界替他留下的未决句号——两者都不由任何一方解决，正好承载决策锁要求的不 SELL、不 KEEP、不和解。\n\nSTAGING / BLOCKING\n全程单场景，面馆内，三人称极少、几乎双人关系为主。第一场：周岚从柜台侧幕线内走出，取碗在手，拇指来回摩挲裂口（这一动作不指定表演技法，仅作为吸引目光指向裂口的走位设计），沿一条从柜台到桌边的直线推进，把碗推到周启面前；周启保持靠墙站立、身体侧向，视线水平线低于碗、不接目光亦不接碗，形成\"站/坐相对、碗为中介\"的三角。周岚的手停在碗边不动，是全场第一个悬置停顿。第二场：空间变暗（招牌灯 off），周岚仍站桌边同一位置，周启由墙边转身半步面向桌面，身体终于进入碗的视域，把碗朝自己方向挪半寸但不端起——\"挪近\"而非\"接手\"是关键的物理负动作，表达承认却拒绝承接。第三场：周岚把碗拿回，逆着第一场的行进路线走回柜台，意味着物件归还原位、关系退回起点；她擦裂口、把裂口转向朝外，周启看着她，二人间隔一条没有越过的店堂中线。所有走位都不允许人物越过彼此中轴形成肢体靠近，以空间距离守住\"不和解\"的锁。\n\nAUDIENCE INFORMATION\n观众在第一场应只知道：母子疏离、碗有裂口、下雨、招牌灯亮、周启不愿接碗并突兀要求关灯——不能知道周启早已知晓碗的来历（知识锁）。观众应注意到裂口和\"没端起来\"这种反复的\"差半寸\"，产生\"他为何不接\"的疑问。第二场是唯一的信息揭示点：周启说出\"早知道那是爸最后一只店碗\"，观众同步被刺痛，并意识到第一场周岚反复摩挲裂口、周启回避目光都因他早已知晓。第三场观众应明白：雨与灯都停了，但两端都空着——没有 SELL 也没有 KEEP，没有人接碗，这\"空\"即结局。全片刻意不让观众知道任何一方的真实盘店倾向与多年不归的具体原因，维持 Showrunner 标注的 unknown_items 不变。\n\nSPATIAL GEOGRAPHY\n面馆纵深三区：柜台区（深处，碗的\"家\"）、中央桌区（中间，对峙与揭示的舞台）、墙边立位（靠近门口的周启位置）。门口在周启一侧，门外是招牌灯与雨；柜台侧是后厨方向，周岚的来路与退路。屏幕方向约定：第一场周岚自左（柜台）向右（门）推进，周启在右端墙上，相对视轴约三十度、不面对面；第二场周启转身半步后与周岚形成近正对，但保持桌面的横向阻隔；第三场周岚逆向从左向右撤回，周启不动，中线保持空置，表示无人跨越。门口漏进的天光成为第三场唯一光源方向，把注意力引向柜台上的碗而非人物。招牌灯 off 在第二场、雨停在第三场，都是外部地理的\"关闭\"动作，与室内人物无交集，形成\"外部已静，内部未决\"的反差。\n\nCAMERA / COVERAGE INTENT\n以稀疏、稳定的固定机位为主，拒绝装饰性运动和模板化正反打。第一场用一条略低平的固定镜头覆盖周岚从柜台到桌边的推进与周启靠墙的静态，镜头略偏向碗所在平面，让碗在画面中始终清晰可辨；在周岚手停在碗边时用一个更近的插入（目的：emphasis+信息）对准裂口与那双未触碰的手。第二场当周启转身、说出真相，机位不做推进，保持中景双人全景，仅以周启\"挪碗半寸\"的那只手作为第二插入（目的：relation+conceal，看得到动作却看不到表情全部），避免把真相拍成情绪特写，让克制服务于压抑。第三场用一个更长、更静的固定镜头把周岚收碗、擦碗、关灯、碗躺柜台的全过程连续收入（目的：geography+rhythm），最后停在门口天光与柜台碗之间，不对准任何一张脸，把\"无人接碗、无人决定\"交给空间本身表达。\n\nRHYTHM / TRANSITION INTENT\n三场以\"环境音\"为节拍器：第一场持续的下雨声是密而满的底噪，对话被雨声包裹，节奏偏慢、留白多；周启那句\"先把招牌灯关了\"是全片第一次硬切，用人物动作截断母亲的话头，制造第一个不完整。过渡1（关灯）：招牌灯熄灭、雨声不变，空间突然收暗，噪音未减但画面变静，形成\"声音还在、光没了\"的错位，为第二场揭示蓄压。第二场揭示后不加速，反而放慢，把\"挪碗半寸\"的停顿拉长，让真相停留在未完成的动作上。过渡2（雨停）：雨声由密转稀、由稀至止，檐角滴水成为唯一的延续，节奏忽然抽空，对应决策被无限推迟；第三场几乎不推动任何动作，只有收回、擦拭、关灯三个极慢的完成式，最终停在\"谁也没说出口\"的静默，用一个无言的收束替代任何解决。\n\nPRODUCTION BURDEN\n单场景、双人物、一个关键道具、两个环境状态（雨/灯），无新增成本与资源负担。保持 MVP：所有戏集中在面馆内部，不需要外景组件；雨声与檐角滴水可用现场或后期音效分层，不要求复杂特效；招牌灯只做 on/off 两态，符合图库许可值；关键道具仅一只带裂口的白瓷碗，全程同一只、裂口不被修复、状态不改变（crack_preserved / same_cracked_bowl），无需更多道具管理。覆盖设计刻意稀疏，避免多机与重复布光负担。照明仅依赖招牌灯、一盏顶灯与门口天光三个明确光源，保持低负担。\n\nHANDOFFS / UNRESOLVED ISSUES\n无 Director 层级的材料冲突或上游阻塞；所有 Canon/Showrunner/Scene Writer 锁定均已遵守。需留在用户处的唯一未决项：shop_transfer_decision 的最终倾向由用户保留创作权，本片不在任何一场给予 SELL 或 KEEP 的确定表达，仅在雨停后维持未决。需下游（DP / Art / Continuity / Editor）注意的依赖：招牌灯第二场 off、雨第三场停的精确时机，须与 Continuity 校验一致；碗的裂口朝向（第三场\"裂口朝外\"）与 custody 转移（周岚取回并归柜）由 Continuity 复核，Director 不做跨场认证。未发现 C14（Entry/Exit 子系统）或 C20（外部制作约束输入）的相关授权，不在本包内虚构相应能力。无遗留的 Director 决策需要上游裁决。",
+        "scene_packages": "ABSENT"
+      },
+      "character_acting": {
+        "primary_state_or_outcome": "PERFORMANCE_INTERPRETATION_READY",
+        "flags": "ABSENT",
+        "handoffs": "ABSENT",
+        "canon_assignment_locks": [
+          "identity=ai-film-studio-showrunner",
+          "canonical_path=E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\01_Showrunner\\SKILL.md",
+          "sha256=0847EE3521A915936E97FA1F72D081F0788876F003E071918F517B0A46AE999C",
+          "scene_count=3",
+          "characters=['周岚','周启']",
+          "relationship=['不得自动升级为彻底和解']",
+          "prop.entity_id=cracked_white_porcelain_bowl",
+          "prop.identity_lock=same_cracked_bowl",
+          "prop.custody_required=true",
+          "prop.condition_lock=crack_preserved",
+          "knowledge.event_id=last_bowl_reveal",
+          "knowledge.holder=周启",
+          "knowledge.not_before_scene=2",
+          "visual_state.dimension=signboard_state",
+          "visual_state.allowed_tokens=['signboard_on','signboard_off']",
+          "decision_locks=['shop_transfer_decision']"
+        ],
+        "prohibited_changes": [
+          "SELL",
+          "KEEP",
+          "彻底和解",
+          "不得改变 cracked_white_porcelain_bowl 的 identity_lock、custody_required、condition_lock",
+          "不得在 scene<2 揭示 last_bowl_reveal",
+          "不得改变 visual_state.dimension 或使用 allowed_tokens 之外的 signboard_state 值",
+          "不得改变 decision_locks=['shop_transfer_decision']"
+        ],
+        "required_outcome": "在雨停后，关于面馆是否盘出的决定（shop_transfer_decision）保持未决，且不得明确为 SELL 或 KEEP；周启和周岚的关系不得升级为彻底和解；三场结构按要求完成。",
+        "unresolved_decisions": [
+          "shop_transfer_decision 的最终倾向（用户保留最终创作权）"
+        ],
+        "state_evidence": {
+          "relevant_prior_state": {
+            "relationship_state": "疏离、有裂痕，母子之间隔着多年未归的沉默",
+            "knowledge_state": "周启早已知晓碗是父亲最后一只店碗，但观众尚未得知",
+            "visual_state": "signboard_on，门外招牌灯亮着，正下雨"
+          },
+          "current_state": {
+            "relationship_state": "疏离加深为紧绷，互有指责与退避，未触及和解",
+            "knowledge_state": "观众已得知周启早已知晓碗的来历",
+            "visual_state": "signboard_off，招牌灯已关，雨停"
+          },
+          "proposed_state": {
+            "relationship_state": "维持未和解，仅有极细微的软化瞬间",
+            "knowledge_state": "揭示已完成，不再新增知识",
+            "visual_state": "signboard_off，雨停后未再开灯"
+          },
+          "knowledge_timing": {
+            "knowledge_holders": [
+              "周启",
+              "周岚"
+            ],
+            "reveal_status": "REVEALED_WITH_EVENT",
+            "not_before_scene": 2,
+            "event_id": "last_bowl_reveal"
+          },
+          "relationship_state": {
+            "initial": "疏离，有裂痕",
+            "after_scene_1": "试探与回避形成张力",
+            "after_scene_3": "紧绷未解，有细微波动但不和解"
+          },
+          "visual_state": {
+            "scene_1": "signboard_on，门外雨声，店内灯冷",
+            "scene_2": "signboard_off，招牌灯熄灭，雨仍在下",
+            "scene_3": "signboard_off，雨停，店内静默"
+          }
+        },
+        "content": "Character Knowledge\n周岚：她知道周启多年未归，知道这只碗是丈夫最后一只店碗，裂口是那年摔的；她不知道周启早已知晓这一切，直到第二场周启说出“不用看了，他早知道那是什么”才被刺痛。周岚没有关于周启为何不归的确定答案，只有长年沉默累积的试探与不安。\n周启：他早已知晓碗的来历与裂口，清楚母亲递碗是在试探自己的去留态度；他知道店与碗的处置尚未决定，也无意在此刻给出 SELL 或 KEEP。他保留对“为什么多年不回来”的解释，只以“早知道”防御，不展开过去。\n时间锁：第二场才由周启说出 last_bowl_reveal，第一场周启的回答必须压抑已知感，不能提前泄露。\n\nPlayable Objective\n周岚：用递出裂口碗打破多年沉默，试探周启是否还愿意承接父亲留下的东西，也就是他的去留意愿。动作层面是“递给对方”而非“解释碗”；她期待一个回应，却屡屡落空。\n周启：拒绝用接碗来回应母亲的情感索取，同时推迟关于店与碗的决定。他的行动是“把决定推延到雨停之后”，通过不接、提问、提醒，把眼前的裂口和选择都暂存在沉默里。\n\nPartner Action\n周启把母亲的试探转移为对招牌灯的处理要求：“先把外头那个招牌灯关了。”这是对情感话题的切割，也给周岚留下是否服从、是否对抗的选择。周岚的手停在碗边，是因为她仍在等待对方改变动作，不愿让碗就这样失去递出的意义。\n第二场，周岚问“是不是连看都不想看它一眼”，是想逼出周启对过去的真实态度；周启转身、说出“早知道”，这次回应不是合作，而是用承认来阻止母亲继续假设他不知情。周启把碗挪近半寸却不端起，是在说：我知道它是什么，但我还没准备好接手这个家。\n第三场，周启说“等雨停了再说，刚才说过的”，把尚未完成的选择重新推回两人之间，提醒母亲这也是他说过的、现在仍未解决。周岚不接话，只用收回、擦拭、关灯完成自己的退让。\n\nBody/Voice/Timing\n周岚递碗时，身体沿柜到桌的动线推近，不需直逼对方，只需让碗进入周启可接的范围；她的手停在碗边不是表演脆弱，而是用停顿等待对方改变动作。声音低、稳，带着日常生活中习以为常去触碰旧物的口吻，不渲染悲伤。\n周启靠墙站立，视线低于碗，不接目光也不接碗；他打断母亲时，语调要短、平、不留歉疚，像在给店里收尾一样自然。第二场他转身半步后，声音可以更轻、更干，不加重“早知道”的情绪，让陈述本身成为防御。挪碗的动作缓慢、只在几寸之间，指尖停在碗沿外，不形成“端起”的意图。\n第三场，周岚收碗动作干净、缓慢，擦拭裂口处时不留多余抚摸，避免把物件处理成抚摸创伤；布与碗的接触保持日常感。周启看着她，身体不动，只用声音提醒“刚才说过的”；他的目光可以跟随碗回到柜台，但不走向她，也不解释。整体节奏由雨声承托，停顿都落在对方未给回应的空处，而不是预先设计的每句微表情。\n\nBehavioral Consequence\n第一场结束时，周岚停在碗边不动，说明她的试探第一次被截断，她仍未得到答案，但也不愿收回。周启以关灯要求取得暂时的空间，却因此把店与碗的去留问题推到明面。第二场真相说出后，周岚被真相刺痛、声音低下去，但并未以软话或求和回应，而是指出他多年不归的事实；周启把碗挪近却不接，关系裂痕由此加深。第三场，雨停后无人跨越中线，碗被放回柜台，裂口朝外，选择仍悬置：谁也没有 SELL、KEEP，也没有和解，只有极细微的松动隐藏在收回、擦拭、关灯的动作里，供后续连续性追踪，但不在本场明确解决。",
+        "scene_packages": "ABSENT"
+      },
+      "art_director": {
+        "primary_state_or_outcome": "DESIGN_RESPONSE_READY",
+        "flags": "ABSENT",
+        "handoffs": "ABSENT",
+        "canon_assignment_locks": [
+          "identity=ai-film-studio-showrunner",
+          "canonical_path=E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\01_Showrunner\\SKILL.md",
+          "sha256=0847EE3521A915936E97FA1F72D081F0788876F003E071918F517B0A46AE999C",
+          "scene_count=3",
+          "characters=['周岚','周启']",
+          "relationship=['不得自动升级为彻底和解']",
+          "prop.entity_id=cracked_white_porcelain_bowl",
+          "prop.identity_lock=same_cracked_bowl",
+          "prop.custody_required=true",
+          "prop.condition_lock=crack_preserved",
+          "knowledge.event_id=last_bowl_reveal",
+          "knowledge.holder=周启",
+          "knowledge.not_before_scene=2",
+          "visual_state.dimension=signboard_state",
+          "visual_state.allowed_tokens=['signboard_on','signboard_off']",
+          "decision_locks=['shop_transfer_decision']"
+        ],
+        "prohibited_changes": [
+          "SELL",
+          "KEEP",
+          "彻底和解",
+          "不得改变 cracked_white_porcelain_bowl 的 identity_lock、custody_required、condition_lock",
+          "不得在 scene<2 揭示 last_bowl_reveal",
+          "不得改变 visual_state.dimension 或使用 allowed_tokens 之外的 signboard_state 值",
+          "不得改变 decision_locks=['shop_transfer_decision']"
+        ],
+        "required_outcome": "在雨停后，关于面馆是否盘出的决定（shop_transfer_decision）保持未决，且不得明确为 SELL 或 KEEP；周启和周岚的关系不得升级为彻底和解；三场结构按要求完成。",
+        "unresolved_decisions": [
+          "shop_transfer_decision 的最终倾向（用户保留最终创作权）"
+        ],
+        "state_evidence": {
+          "relevant_prior_state": {
+            "visual_state": "signboard_on，门外招牌灯亮着，正下雨",
+            "prop_state": "cracked_white_porcelain_bowl 由周岚取出，裂口可见，custody 由周岚持有",
+            "relationship_state": "疏离、有裂痕，母子之间隔着多年未归的沉默"
+          },
+          "current_state": {
+            "visual_state": "signboard_off，招牌灯已关，雨停",
+            "prop_state": "cracked_white_porcelain_bowl 被周岚收回并放回柜台，裂口朝外，custody 归周岚",
+            "relationship_state": "紧绷未解，有细微波动但未彻底和解"
+          },
+          "proposed_state": {
+            "visual_state": "signboard_off，雨停后未再开灯",
+            "prop_state": "cracked_white_porcelain_bowl 保持同一只、裂口保留、置于柜台，作为未决象征",
+            "relationship_state": "维持未和解，仅有极细微的软化瞬间"
+          },
+          "knowledge_timing": {
+            "event_id": "last_bowl_reveal",
+            "holder": "周启",
+            "not_before_scene": 2,
+            "reveal_scene": 2,
+            "interpretation": "场景1中周启不得表现出已知碗的来历；场景2揭示后，场景3不再新增知识"
+          },
+          "relationship_state": {
+            "initial": "疏离，有裂痕",
+            "after_scene_1": "试探与回避形成张力",
+            "after_scene_2": "裂痕加深，互有指责与回避",
+            "after_scene_3": "紧绷未解，有细微波动但不和解"
+          },
+          "visual_state": {
+            "scene_1": "signboard_on，门外雨声，店内灯冷",
+            "scene_2": "signboard_off，招牌灯熄灭，雨仍在下",
+            "scene_3": "signboard_off，雨停，店内静默"
+          }
+        },
+        "content": "视觉设计意图：以一只裂口白瓷碗和一间打烊后的老面馆为核心，构建压抑、真实、未决的视觉世界。环境逻辑上，面馆是承载记忆与去留问题的封闭空间，分为柜台区、中央桌区和墙边立位；柜台区是碗的“家”，中央桌区承担对峙与揭示，墙边立位是周启的距离位置。材质与色彩关系遵循旧日用品逻辑：木桌、柜台、卷帘门、水泥地面保持长期使用痕迹，白色瓷碗的裂口作为唯一高对比焦点，不被修复。服装上，周岚以日常劳作形象为主，体现母亲身份；周启服装保持多年未归的距离感，不强调地域或阶层。碗的裂口、custody 转移和裂口朝向构成场景间连贯的视觉线索。招牌灯 on/off 和雨声作为环境状态，与店内光线变化共同形成外部已静、内部未决的反差。生产负担低：单场景、双人物、一个关键道具、两个环境状态，无新增资源需求。",
+        "scene_packages": "ABSENT"
+      }
+    },
+    "state_evidence_envelopes": {
+      "scene_writer": {
+        "source_role": "Scene Writer",
+        "source_record_id": "E2E-RUN-23/scene_writer/1",
+        "version": "1.0",
+        "timestamp": "2026-09-02T03:10:56.737956+00:00",
+        "intended_recipient": "Director",
+        "handoff_reason": "Three-scene locked package",
+        "canon_assignment_locks": [
+          "identity=ai-film-studio-showrunner",
+          "canonical_path=E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\01_Showrunner\\SKILL.md",
+          "sha256=0847EE3521A915936E97FA1F72D081F0788876F003E071918F517B0A46AE999C",
+          "scene_count=3",
+          "characters=['周岚','周启']",
+          "relationship=['不得自动升级为彻底和解']",
+          "prop.entity_id=cracked_white_porcelain_bowl",
+          "prop.identity_lock=same_cracked_bowl",
+          "prop.custody_required=true",
+          "prop.condition_lock=crack_preserved",
+          "knowledge.event_id=last_bowl_reveal",
+          "knowledge.holder=周启",
+          "knowledge.not_before_scene=2",
+          "visual_state.dimension=signboard_state",
+          "visual_state.allowed_tokens=['signboard_on','signboard_off']",
+          "decision_locks=['shop_transfer_decision']"
+        ],
+        "prohibited_changes": [
+          "SELL",
+          "KEEP",
+          "彻底和解",
+          "不得改变 cracked_white_porcelain_bowl 的 identity_lock、custody_required、condition_lock",
+          "不得在 scene<2 揭示 last_bowl_reveal",
+          "不得改变 visual_state.dimension 或使用 allowed_tokens 之外的 signboard_state 值",
+          "不得改变 decision_locks=['shop_transfer_decision']"
+        ],
+        "canonical_mode": "CREATE",
+        "primary_state_or_outcome": "SCENE_CREATED",
+        "flags": "ABSENT",
+        "handoffs": "ABSENT",
+        "required_outcome": "在雨停后，关于面馆是否盘出的决定（shop_transfer_decision）保持未决，且不得明确为 SELL 或 KEEP；周启和周岚的关系不得升级为彻底和解；三场结构按要求完成。",
+        "unresolved_decisions": [
+          "shop_transfer_decision 的最终倾向（用户保留最终创作权）"
+        ],
+        "relevant_prior_state": {
+          "relationship_state": "疏离、有裂痕，母子之间隔着多年未归的沉默",
+          "knowledge_state": "周启早已知晓碗是父亲最后一只店碗，但观众尚未得知",
+          "visual_state": "signboard_on，门外招牌灯亮着，正下雨"
+        },
+        "current_state": {
+          "relationship_state": "疏离加深为紧绷，互有指责与退避，未触及和解",
+          "knowledge_state": "观众已得知周启早已知晓碗的来历",
+          "visual_state": "signboard_off，招牌灯已关，雨停"
+        },
+        "proposed_state": {
+          "relationship_state": "维持未和解，仅有极细微的软化瞬间",
+          "knowledge_state": "揭示已完成，不再新增知识",
+          "visual_state": "signboard_off，雨停后未再开灯"
+        },
+        "knowledge_timing": {
+          "reveal_of_shared_use": "last_bowl_reveal 于 scene 2 由周启说出",
+          "reveal_of_room_content": "碗的裂口自 scene 1 便可见，未有隐藏"
+        },
+        "relationship_state": {
+          "initial": "疏离，有裂痕",
+          "after_scene_1": "试探与回避形成张力",
+          "after_scene_3": "紧绷未解，有细微波动但不和解"
+        },
+        "visual_state": {
+          "scene_1": "signboard_on，门外雨声，店内灯冷",
+          "scene_2": "signboard_off，招牌灯熄灭，雨仍在下",
+          "scene_3": "signboard_off，雨停，店内静默"
+        },
+        "authority_source": "Scene Writer canonical Skill output",
+        "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-23\\artifacts\\scene_writer_output.json"
+      },
+      "director": {
+        "source_role": "Director",
+        "source_record_id": "E2E-RUN-23/director/1",
+        "version": "1.0",
+        "timestamp": "2026-09-02T03:11:52.487887+00:00",
+        "intended_recipient": "Character & Acting",
+        "handoff_reason": "Direction constraints",
+        "canon_assignment_locks": [
+          "identity=ai-film-studio-showrunner",
+          "canonical_path=E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\01_Showrunner\\SKILL.md",
+          "sha256=0847EE3521A915936E97FA1F72D081F0788876F003E071918F517B0A46AE999C",
+          "scene_count=3",
+          "characters=['周岚','周启']",
+          "relationship=['不得自动升级为彻底和解']",
+          "prop.entity_id=cracked_white_porcelain_bowl",
+          "prop.identity_lock=same_cracked_bowl",
+          "prop.custody_required=true",
+          "prop.condition_lock=crack_preserved",
+          "knowledge.event_id=last_bowl_reveal",
+          "knowledge.holder=周启",
+          "knowledge.not_before_scene=2",
+          "visual_state.dimension=signboard_state",
+          "visual_state.allowed_tokens=['signboard_on','signboard_off']",
+          "decision_locks=['shop_transfer_decision']"
+        ],
+        "prohibited_changes": [
+          "SELL",
+          "KEEP",
+          "彻底和解",
+          "不得改变 cracked_white_porcelain_bowl 的 identity_lock、custody_required、condition_lock",
+          "不得在 scene<2 揭示 last_bowl_reveal",
+          "不得改变 visual_state.dimension 或使用 allowed_tokens 之外的 signboard_state 值",
+          "不得改变 decision_locks=['shop_transfer_decision']"
+        ],
+        "canonical_mode": "PLAN",
+        "primary_state_or_outcome": "DIRECTION_PLAN_PRODUCED",
+        "flags": "ABSENT",
+        "handoffs": "ABSENT",
+        "required_outcome": "在雨停后，关于面馆是否盘出的决定（shop_transfer_decision）保持未决，且不得明确为 SELL 或 KEEP；周启和周岚的关系不得升级为彻底和解；三场结构按要求完成。",
+        "unresolved_decisions": [
+          "shop_transfer_decision 的最终倾向（用户保留最终创作权）"
+        ],
+        "relevant_prior_state": {
+          "E2E-FIX-02-S01": {
+            "signboard_state": "signboard_on"
+          },
+          "E2E-FIX-02-S02": {
+            "signboard_state": "signboard_on"
+          },
+          "E2E-FIX-02-S03": {
+            "signboard_state": "signboard_off"
+          }
+        },
+        "current_state": {
+          "E2E-FIX-02-S01": {
+            "signboard_state": "signboard_on"
+          },
+          "E2E-FIX-02-S02": {
+            "signboard_state": "signboard_off"
+          },
+          "E2E-FIX-02-S03": {
+            "signboard_state": "signboard_off"
+          }
+        },
+        "proposed_state": "ABSENT",
+        "knowledge_timing": "ABSENT",
+        "relationship_state": "疏离、有裂痕，试探与回避逐步加深为紧绷，未涉和解，雨停后仅留细微波动",
+        "visual_state": "ABSENT",
+        "authority_source": "Director canonical Skill output",
+        "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-23\\artifacts\\director_output.json"
+      },
+      "character_acting": {
+        "source_role": "Character & Acting",
+        "source_record_id": "E2E-RUN-23/character_acting/1",
+        "version": "1.0",
+        "timestamp": "2026-09-02T03:12:29.345177+00:00",
+        "intended_recipient": "Art Director",
+        "handoff_reason": "Physical performance constraints",
+        "canon_assignment_locks": [
+          "identity=ai-film-studio-showrunner",
+          "canonical_path=E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\01_Showrunner\\SKILL.md",
+          "sha256=0847EE3521A915936E97FA1F72D081F0788876F003E071918F517B0A46AE999C",
+          "scene_count=3",
+          "characters=['周岚','周启']",
+          "relationship=['不得自动升级为彻底和解']",
+          "prop.entity_id=cracked_white_porcelain_bowl",
+          "prop.identity_lock=same_cracked_bowl",
+          "prop.custody_required=true",
+          "prop.condition_lock=crack_preserved",
+          "knowledge.event_id=last_bowl_reveal",
+          "knowledge.holder=周启",
+          "knowledge.not_before_scene=2",
+          "visual_state.dimension=signboard_state",
+          "visual_state.allowed_tokens=['signboard_on','signboard_off']",
+          "decision_locks=['shop_transfer_decision']"
+        ],
+        "prohibited_changes": [
+          "SELL",
+          "KEEP",
+          "彻底和解",
+          "不得改变 cracked_white_porcelain_bowl 的 identity_lock、custody_required、condition_lock",
+          "不得在 scene<2 揭示 last_bowl_reveal",
+          "不得改变 visual_state.dimension 或使用 allowed_tokens 之外的 signboard_state 值",
+          "不得改变 decision_locks=['shop_transfer_decision']"
+        ],
+        "canonical_mode": "INTERPRET",
+        "primary_state_or_outcome": "PERFORMANCE_INTERPRETATION_READY",
+        "flags": "ABSENT",
+        "handoffs": "ABSENT",
+        "required_outcome": "在雨停后，关于面馆是否盘出的决定（shop_transfer_decision）保持未决，且不得明确为 SELL 或 KEEP；周启和周岚的关系不得升级为彻底和解；三场结构按要求完成。",
+        "unresolved_decisions": [
+          "shop_transfer_decision 的最终倾向（用户保留最终创作权）"
+        ],
+        "relevant_prior_state": {
+          "relationship_state": "疏离、有裂痕，母子之间隔着多年未归的沉默",
+          "knowledge_state": "周启早已知晓碗是父亲最后一只店碗，但观众尚未得知",
+          "visual_state": "signboard_on，门外招牌灯亮着，正下雨"
+        },
+        "current_state": {
+          "relationship_state": "疏离加深为紧绷，互有指责与退避，未触及和解",
+          "knowledge_state": "观众已得知周启早已知晓碗的来历",
+          "visual_state": "signboard_off，招牌灯已关，雨停"
+        },
+        "proposed_state": {
+          "relationship_state": "维持未和解，仅有极细微的软化瞬间",
+          "knowledge_state": "揭示已完成，不再新增知识",
+          "visual_state": "signboard_off，雨停后未再开灯"
+        },
+        "knowledge_timing": {
+          "knowledge_holders": [
+            "周启",
+            "周岚"
+          ],
+          "reveal_status": "REVEALED_WITH_EVENT",
+          "not_before_scene": 2,
+          "event_id": "last_bowl_reveal"
+        },
+        "relationship_state": {
+          "initial": "疏离，有裂痕",
+          "after_scene_1": "试探与回避形成张力",
+          "after_scene_3": "紧绷未解，有细微波动但不和解"
+        },
+        "visual_state": {
+          "scene_1": "signboard_on，门外雨声，店内灯冷",
+          "scene_2": "signboard_off，招牌灯熄灭，雨仍在下",
+          "scene_3": "signboard_off，雨停，店内静默"
+        },
+        "authority_source": "Character & Acting canonical Skill output",
+        "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-23\\artifacts\\character_acting_output.json"
+      },
+      "art_director": {
+        "source_role": "Art Director",
+        "source_record_id": "E2E-RUN-23/art_director/1",
+        "version": "1.0",
+        "timestamp": "2026-09-02T03:12:49.961828+00:00",
+        "intended_recipient": "Continuity",
+        "handoff_reason": "Visual state and design intent",
+        "canon_assignment_locks": [
+          "identity=ai-film-studio-showrunner",
+          "canonical_path=E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\01_Showrunner\\SKILL.md",
+          "sha256=0847EE3521A915936E97FA1F72D081F0788876F003E071918F517B0A46AE999C",
+          "scene_count=3",
+          "characters=['周岚','周启']",
+          "relationship=['不得自动升级为彻底和解']",
+          "prop.entity_id=cracked_white_porcelain_bowl",
+          "prop.identity_lock=same_cracked_bowl",
+          "prop.custody_required=true",
+          "prop.condition_lock=crack_preserved",
+          "knowledge.event_id=last_bowl_reveal",
+          "knowledge.holder=周启",
+          "knowledge.not_before_scene=2",
+          "visual_state.dimension=signboard_state",
+          "visual_state.allowed_tokens=['signboard_on','signboard_off']",
+          "decision_locks=['shop_transfer_decision']"
+        ],
+        "prohibited_changes": [
+          "SELL",
+          "KEEP",
+          "彻底和解",
+          "不得改变 cracked_white_porcelain_bowl 的 identity_lock、custody_required、condition_lock",
+          "不得在 scene<2 揭示 last_bowl_reveal",
+          "不得改变 visual_state.dimension 或使用 allowed_tokens 之外的 signboard_state 值",
+          "不得改变 decision_locks=['shop_transfer_decision']"
+        ],
+        "canonical_mode": "DESIGN",
+        "primary_state_or_outcome": "DESIGN_RESPONSE_READY",
+        "flags": "ABSENT",
+        "handoffs": "ABSENT",
+        "required_outcome": "在雨停后，关于面馆是否盘出的决定（shop_transfer_decision）保持未决，且不得明确为 SELL 或 KEEP；周启和周岚的关系不得升级为彻底和解；三场结构按要求完成。",
+        "unresolved_decisions": [
+          "shop_transfer_decision 的最终倾向（用户保留最终创作权）"
+        ],
+        "relevant_prior_state": {
+          "visual_state": "signboard_on，门外招牌灯亮着，正下雨",
+          "prop_state": "cracked_white_porcelain_bowl 由周岚取出，裂口可见，custody 由周岚持有",
+          "relationship_state": "疏离、有裂痕，母子之间隔着多年未归的沉默"
+        },
+        "current_state": {
+          "visual_state": "signboard_off，招牌灯已关，雨停",
+          "prop_state": "cracked_white_porcelain_bowl 被周岚收回并放回柜台，裂口朝外，custody 归周岚",
+          "relationship_state": "紧绷未解，有细微波动但未彻底和解"
+        },
+        "proposed_state": {
+          "visual_state": "signboard_off，雨停后未再开灯",
+          "prop_state": "cracked_white_porcelain_bowl 保持同一只、裂口保留、置于柜台，作为未决象征",
+          "relationship_state": "维持未和解，仅有极细微的软化瞬间"
+        },
+        "knowledge_timing": {
+          "event_id": "last_bowl_reveal",
+          "holder": "周启",
+          "not_before_scene": 2,
+          "reveal_scene": 2,
+          "interpretation": "场景1中周启不得表现出已知碗的来历；场景2揭示后，场景3不再新增知识"
+        },
+        "relationship_state": {
+          "initial": "疏离，有裂痕",
+          "after_scene_1": "试探与回避形成张力",
+          "after_scene_2": "裂痕加深，互有指责与回避",
+          "after_scene_3": "紧绷未解，有细微波动但不和解"
+        },
+        "visual_state": {
+          "scene_1": "signboard_on，门外雨声，店内灯冷",
+          "scene_2": "signboard_off，招牌灯熄灭，雨仍在下",
+          "scene_3": "signboard_off，雨停，店内静默"
+        },
+        "authority_source": "Art Director canonical Skill output",
+        "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-23\\artifacts\\art_director_output.json"
+      }
+    },
+    "run_local_ledger": [
+      {
+        "entry_id": "E2E-RUN-23:001",
+        "sequence": 1,
+        "envelope": {
+          "source_role": "Scene Writer",
+          "source_record_id": "E2E-RUN-23/scene_writer/E2E-FIX-02-S01",
+          "version": "1.0",
+          "timestamp": "2026-09-02T03:10:56.753753+00:00",
+          "intended_recipient": "Continuity",
+          "handoff_reason": "Per-scene state evidence",
+          "canon_assignment_locks": [
+            "identity=ai-film-studio-showrunner",
+            "canonical_path=E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\01_Showrunner\\SKILL.md",
+            "sha256=0847EE3521A915936E97FA1F72D081F0788876F003E071918F517B0A46AE999C",
+            "scene_count=3",
+            "characters=['周岚','周启']",
+            "relationship=['不得自动升级为彻底和解']",
+            "prop.entity_id=cracked_white_porcelain_bowl",
+            "prop.identity_lock=same_cracked_bowl",
+            "prop.custody_required=true",
+            "prop.condition_lock=crack_preserved",
+            "knowledge.event_id=last_bowl_reveal",
+            "knowledge.holder=周启",
+            "knowledge.not_before_scene=2",
+            "visual_state.dimension=signboard_state",
+            "visual_state.allowed_tokens=['signboard_on','signboard_off']",
+            "decision_locks=['shop_transfer_decision']"
+          ],
+          "prohibited_changes": [
+            "SELL",
+            "KEEP",
+            "彻底和解",
+            "不得改变 cracked_white_porcelain_bowl 的 identity_lock、custody_required、condition_lock",
+            "不得在 scene<2 揭示 last_bowl_reveal",
+            "不得改变 visual_state.dimension 或使用 allowed_tokens 之外的 signboard_state 值",
+            "不得改变 decision_locks=['shop_transfer_decision']"
+          ],
+          "canonical_mode": "CREATE",
+          "primary_state_or_outcome": "SCENE_CREATED",
+          "flags": "ABSENT",
+          "handoffs": "ABSENT",
+          "required_outcome": "在雨停后，关于面馆是否盘出的决定（shop_transfer_decision）保持未决，且不得明确为 SELL 或 KEEP；周启和周岚的关系不得升级为彻底和解；三场结构按要求完成。",
+          "unresolved_decisions": [
+            "shop_transfer_decision 的最终倾向（用户保留最终创作权）"
+          ],
+          "relevant_prior_state": {
+            "entity_identity": "cracked_white_porcelain_bowl",
+            "custody": "碗由周岚取出并放在桌面，尚未被周启接住"
+          },
+          "current_state": {
+            "entity_identity": "cracked_white_porcelain_bowl",
+            "custody": "碗由周岚取出并放在桌面，尚未被周启接住",
+            "knowledge_holders": [
+              "周岚"
+            ],
+            "reveal_status": "NOT_YET_REVEALED",
+            "relationship_state": "疏离，周岚试探，周启回避",
+            "signboard_state": "signboard_on",
+            "machine_state_display": "门外招牌灯仍然亮着，雨声不断",
+            "location_presence": "打烊后的面馆内，碗置于桌上",
+            "authorized_transitions": [
+              "signboard_on_to_off"
+            ]
+          },
+          "proposed_state": {
+            "authorized_transitions": [
+              "signboard_on_to_off"
+            ]
+          },
+          "knowledge_timing": {
+            "knowledge_holders": [
+              "周岚"
+            ],
+            "reveal_status": "NOT_YET_REVEALED"
+          },
+          "relationship_state": "疏离，周岚试探，周启回避",
+          "visual_state": {
+            "signboard_state": "signboard_on",
+            "machine_state_display": "门外招牌灯仍然亮着，雨声不断",
+            "location_presence": "打烊后的面馆内，碗置于桌上"
+          },
+          "authority_source": "Scene Writer canonical CREATE output",
+          "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-23\\artifacts\\scene_writer_output.json#scene_packages/E2E-FIX-02-S01"
+        },
+        "state_snapshot": {
+          "entity_identity": "cracked_white_porcelain_bowl",
+          "custody": "碗由周岚取出并放在桌面，尚未被周启接住",
+          "knowledge_holders": [
+            "周岚"
+          ],
+          "reveal_status": "NOT_YET_REVEALED",
+          "relationship_state": "疏离，周岚试探，周启回避",
+          "signboard_state": "signboard_on",
+          "machine_state_display": "门外招牌灯仍然亮着，雨声不断",
+          "location_presence": "打烊后的面馆内，碗置于桌上",
+          "authorized_transitions": [
+            "signboard_on_to_off"
+          ]
+        }
+      },
+      {
+        "entry_id": "E2E-RUN-23:002",
+        "sequence": 2,
+        "envelope": {
+          "source_role": "Scene Writer",
+          "source_record_id": "E2E-RUN-23/scene_writer/E2E-FIX-02-S02",
+          "version": "1.0",
+          "timestamp": "2026-09-02T03:10:56.756784+00:00",
+          "intended_recipient": "Continuity",
+          "handoff_reason": "Per-scene state evidence",
+          "canon_assignment_locks": [
+            "identity=ai-film-studio-showrunner",
+            "canonical_path=E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\01_Showrunner\\SKILL.md",
+            "sha256=0847EE3521A915936E97FA1F72D081F0788876F003E071918F517B0A46AE999C",
+            "scene_count=3",
+            "characters=['周岚','周启']",
+            "relationship=['不得自动升级为彻底和解']",
+            "prop.entity_id=cracked_white_porcelain_bowl",
+            "prop.identity_lock=same_cracked_bowl",
+            "prop.custody_required=true",
+            "prop.condition_lock=crack_preserved",
+            "knowledge.event_id=last_bowl_reveal",
+            "knowledge.holder=周启",
+            "knowledge.not_before_scene=2",
+            "visual_state.dimension=signboard_state",
+            "visual_state.allowed_tokens=['signboard_on','signboard_off']",
+            "decision_locks=['shop_transfer_decision']"
+          ],
+          "prohibited_changes": [
+            "SELL",
+            "KEEP",
+            "彻底和解",
+            "不得改变 cracked_white_porcelain_bowl 的 identity_lock、custody_required、condition_lock",
+            "不得在 scene<2 揭示 last_bowl_reveal",
+            "不得改变 visual_state.dimension 或使用 allowed_tokens 之外的 signboard_state 值",
+            "不得改变 decision_locks=['shop_transfer_decision']"
+          ],
+          "canonical_mode": "CREATE",
+          "primary_state_or_outcome": "SCENE_CREATED",
+          "flags": "ABSENT",
+          "handoffs": "ABSENT",
+          "required_outcome": "在雨停后，关于面馆是否盘出的决定（shop_transfer_decision）保持未决，且不得明确为 SELL 或 KEEP；周启和周岚的关系不得升级为彻底和解；三场结构按要求完成。",
+          "unresolved_decisions": [
+            "shop_transfer_decision 的最终倾向（用户保留最终创作权）"
+          ],
+          "relevant_prior_state": {
+            "entity_identity": "cracked_white_porcelain_bowl",
+            "custody": "碗仍在桌面，周启将其挪近但未接手"
+          },
+          "current_state": {
+            "entity_identity": "cracked_white_porcelain_bowl",
+            "custody": "碗仍在桌面，周启将其挪近但未接手",
+            "knowledge_holders": [
+              "周岚"
+            ],
+            "reveal_status": "REVEALED_WITH_EVENT",
+            "relationship_state": "裂痕加深，互有指责与回避，未和解",
+            "signboard_state": "signboard_off",
+            "machine_state_display": "招牌灯已关，雨仍在下",
+            "location_presence": "面馆内，碗在桌上靠近周启一侧",
+            "authorized_transitions": [
+              "signboard_on_to_off"
+            ]
+          },
+          "proposed_state": {
+            "authorized_transitions": [
+              "signboard_on_to_off"
+            ]
+          },
+          "knowledge_timing": {
+            "knowledge_holders": [
+              "周岚"
+            ],
+            "reveal_status": "REVEALED_WITH_EVENT"
+          },
+          "relationship_state": "裂痕加深，互有指责与回避，未和解",
+          "visual_state": {
+            "signboard_state": "signboard_off",
+            "machine_state_display": "招牌灯已关，雨仍在下",
+            "location_presence": "面馆内，碗在桌上靠近周启一侧"
+          },
+          "authority_source": "Scene Writer canonical CREATE output",
+          "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-23\\artifacts\\scene_writer_output.json#scene_packages/E2E-FIX-02-S02"
+        },
+        "state_snapshot": {
+          "entity_identity": "cracked_white_porcelain_bowl",
+          "custody": "碗仍在桌面，周启将其挪近但未接手",
+          "knowledge_holders": [
+            "周岚"
+          ],
+          "reveal_status": "REVEALED_WITH_EVENT",
+          "relationship_state": "裂痕加深，互有指责与回避，未和解",
+          "signboard_state": "signboard_off",
+          "machine_state_display": "招牌灯已关，雨仍在下",
+          "location_presence": "面馆内，碗在桌上靠近周启一侧",
+          "authorized_transitions": [
+            "signboard_on_to_off"
+          ]
+        }
+      },
+      {
+        "entry_id": "E2E-RUN-23:003",
+        "sequence": 3,
+        "envelope": {
+          "source_role": "Scene Writer",
+          "source_record_id": "E2E-RUN-23/scene_writer/E2E-FIX-02-S03",
+          "version": "1.0",
+          "timestamp": "2026-09-02T03:10:56.760487+00:00",
+          "intended_recipient": "Continuity",
+          "handoff_reason": "Per-scene state evidence",
+          "canon_assignment_locks": [
+            "identity=ai-film-studio-showrunner",
+            "canonical_path=E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\01_Showrunner\\SKILL.md",
+            "sha256=0847EE3521A915936E97FA1F72D081F0788876F003E071918F517B0A46AE999C",
+            "scene_count=3",
+            "characters=['周岚','周启']",
+            "relationship=['不得自动升级为彻底和解']",
+            "prop.entity_id=cracked_white_porcelain_bowl",
+            "prop.identity_lock=same_cracked_bowl",
+            "prop.custody_required=true",
+            "prop.condition_lock=crack_preserved",
+            "knowledge.event_id=last_bowl_reveal",
+            "knowledge.holder=周启",
+            "knowledge.not_before_scene=2",
+            "visual_state.dimension=signboard_state",
+            "visual_state.allowed_tokens=['signboard_on','signboard_off']",
+            "decision_locks=['shop_transfer_decision']"
+          ],
+          "prohibited_changes": [
+            "SELL",
+            "KEEP",
+            "彻底和解",
+            "不得改变 cracked_white_porcelain_bowl 的 identity_lock、custody_required、condition_lock",
+            "不得在 scene<2 揭示 last_bowl_reveal",
+            "不得改变 visual_state.dimension 或使用 allowed_tokens 之外的 signboard_state 值",
+            "不得改变 decision_locks=['shop_transfer_decision']"
+          ],
+          "canonical_mode": "CREATE",
+          "primary_state_or_outcome": "SCENE_CREATED",
+          "flags": "ABSENT",
+          "handoffs": "ABSENT",
+          "required_outcome": "在雨停后，关于面馆是否盘出的决定（shop_transfer_decision）保持未决，且不得明确为 SELL 或 KEEP；周启和周岚的关系不得升级为彻底和解；三场结构按要求完成。",
+          "unresolved_decisions": [
+            "shop_transfer_decision 的最终倾向（用户保留最终创作权）"
+          ],
+          "relevant_prior_state": {
+            "entity_identity": "cracked_white_porcelain_bowl",
+            "custody": "碗被周岚收回并放回柜台，裂口保留"
+          },
+          "current_state": {
+            "entity_identity": "cracked_white_porcelain_bowl",
+            "custody": "碗被周岚收回并放回柜台，裂口保留",
+            "knowledge_holders": [
+              "周岚"
+            ],
+            "reveal_status": "REVEALED_WITH_EVENT",
+            "relationship_state": "紧绷未解，有细微波动但未彻底和解",
+            "signboard_state": "signboard_off",
+            "machine_state_display": "雨已停，招牌灯暗着，店内渐暗",
+            "location_presence": "面馆内，碗置于柜台，裂口朝外",
+            "authorized_transitions": [
+              "signboard_on_to_off"
+            ]
+          },
+          "proposed_state": {
+            "authorized_transitions": [
+              "signboard_on_to_off"
+            ]
+          },
+          "knowledge_timing": {
+            "knowledge_holders": [
+              "周岚"
+            ],
+            "reveal_status": "REVEALED_WITH_EVENT"
+          },
+          "relationship_state": "紧绷未解，有细微波动但未彻底和解",
+          "visual_state": {
+            "signboard_state": "signboard_off",
+            "machine_state_display": "雨已停，招牌灯暗着，店内渐暗",
+            "location_presence": "面馆内，碗置于柜台，裂口朝外"
+          },
+          "authority_source": "Scene Writer canonical CREATE output",
+          "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-23\\artifacts\\scene_writer_output.json#scene_packages/E2E-FIX-02-S03"
+        },
+        "state_snapshot": {
+          "entity_identity": "cracked_white_porcelain_bowl",
+          "custody": "碗被周岚收回并放回柜台，裂口保留",
+          "knowledge_holders": [
+            "周岚"
+          ],
+          "reveal_status": "REVEALED_WITH_EVENT",
+          "relationship_state": "紧绷未解，有细微波动但未彻底和解",
+          "signboard_state": "signboard_off",
+          "machine_state_display": "雨已停，招牌灯暗着，店内渐暗",
+          "location_presence": "面馆内，碗置于柜台，裂口朝外",
+          "authorized_transitions": [
+            "signboard_on_to_off"
+          ]
+        }
+      }
+    ],
+    "role_constraints": {
+      "mode": "ABSENT",
+      "allowed_actions": [
+        "OBSERVE",
+        "COMPARE",
+        "CLASSIFY",
+        "FLAG",
+        "ROUTE"
+      ]
+    }
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "receipt": {
+    "timestamp": "2026-08-21T10:07:55+00:00",
+    "task": "咖啡馆这场戏到底用 35mm 还是 85mm？镜头怎么切？",
+    "routed_role": "Director / Cinematography Boundary",
+    "skill_name": null,
+    "skill_path": null,
+    "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+    "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+    "hash_match": true,
+    "skill_name_match": true,
+    "project_state": "DRAFT",
+    "mode": "DIRECTOR_BOUNDARY",
+    "output_type": "Downstream Handoff Package",
+    "activated_modules": [
+      "Role Boundary"
+    ],
+    "boundary_contract": {
+      "boundary_role": "Director / Cinematography",
+      "forbidden_output": [
+        "focal_length_recommendation",
+        "camera_position",
+        "shot_sequence",
+        "edit_pattern"
+      ],
+      "allowed_output": [
+        "dramatic_goal",
+        "relationship_state",
+        "information_strategy",
+        "handoff_requirements"
+      ]
+    }
+  },
+  "candidate_v1": {
+    "task": "咖啡馆这场戏到底用 35mm 还是 85mm？镜头怎么切？",
+    "routed_role": "Director / Cinematography Boundary",
+    "skill_name": null,
+    "skill_path": null,
+    "mode": "DIRECTOR_BOUNDARY",
+    "output_type": "Downstream Handoff Package",
+    "activated_modules": [
+      "Role Boundary"
+    ],
+    "boundary_contract": {
+      "boundary_role": "Director / Cinematography",
+      "forbidden_output": [
+        "focal_length_recommendation",
+        "camera_position",
+        "shot_sequence",
+        "edit_pattern"
+      ],
+      "allowed_output": [
+        "dramatic_goal",
+        "relationship_state",
+        "information_strategy",
+        "handoff_requirements"
+      ]
+    },
+    "project_state": "DRAFT",
+    "candidate_version": "V1",
+    "candidate_output": "Showrunner 只定义这场的关系状态、信息揭示目标和权力变化；具体焦段、机位与剪辑交给 Director。"
+  },
+  "gate_v1": {
+    "status": "PASS",
+    "candidate_version": "V1",
+    "correction_count": 0,
+    "violations": [],
+    "receipt": {
+      "timestamp": "2026-08-21T10:07:55+00:00",
+      "task": "咖啡馆这场戏到底用 35mm 还是 85mm？镜头怎么切？",
+      "routed_role": "Director / Cinematography Boundary",
+      "skill_name": null,
+      "skill_path": null,
+      "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "hash_match": true,
+      "skill_name_match": true,
+      "project_state": "DRAFT",
+      "mode": "DIRECTOR_BOUNDARY",
+      "output_type": "Downstream Handoff Package",
+      "activated_modules": [
+        "Role Boundary"
+      ],
+      "boundary_contract": {
+        "boundary_role": "Director / Cinematography",
+        "forbidden_output": [
+          "focal_length_recommendation",
+          "camera_position",
+          "shot_sequence",
+          "edit_pattern"
+        ],
+        "allowed_output": [
+          "dramatic_goal",
+          "relationship_state",
+          "information_strategy",
+          "handoff_requirements"
+        ]
+      }
+    },
+    "active_rules": [
+      "GLOBAL",
+      "BOUNDARY_CONTRACT",
+      "ANTI_MECHANICAL",
+      "PRODUCTION_REALITY"
+    ],
+    "next": "USER_OUTPUT",
+    "final_delivery_status": "READY"
+  },
+  "violations": [],
+  "correction_count": 0,
+  "candidate_v2": null,
+  "gate_v2": null,
+  "final_delivery_status": "READY",
+  "router": {
+    "routed_role": "Director / Cinematography Boundary",
+    "mode": "DIRECTOR_BOUNDARY",
+    "output_type": "Downstream Handoff Package",
+    "activated_modules": [
+      "Role Boundary"
+    ],
+    "trigger": "director/cinematography request",
+    "boundary_contract": {
+      "boundary_role": "Director / Cinematography",
+      "forbidden_output": [
+        "focal_length_recommendation",
+        "camera_position",
+        "shot_sequence",
+        "edit_pattern"
+      ],
+      "allowed_output": [
+        "dramatic_goal",
+        "relationship_state",
+        "information_strategy",
+        "handoff_requirements"
+      ]
+    },
+    "skill_name": null,
+    "skill_path": null,
+    "file_exists": true,
+    "file_readable": true,
+    "skill_name_correct": true,
+    "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+    "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+    "hash_match": true,
+    "invocation_receipt": {
+      "timestamp": "2026-08-21T10:07:55+00:00",
+      "task": "咖啡馆这场戏到底用 35mm 还是 85mm？镜头怎么切？",
+      "routed_role": "Director / Cinematography Boundary",
+      "skill_name": null,
+      "skill_path": null,
+      "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "hash_match": true,
+      "skill_name_match": true,
+      "project_state": "UNKNOWN",
+      "mode": "DIRECTOR_BOUNDARY",
+      "output_type": "Downstream Handoff Package",
+      "activated_modules": [
+        "Role Boundary"
+      ],
+      "boundary_contract": {
+        "boundary_role": "Director / Cinematography",
+        "forbidden_output": [
+          "focal_length_recommendation",
+          "camera_position",
+          "shot_sequence",
+          "edit_pattern"
+        ],
+        "allowed_output": [
+          "dramatic_goal",
+          "relationship_state",
+          "information_strategy",
+          "handoff_requirements"
+        ]
+      }
+    }
+  },
+  "gate_final": {
+    "status": "PASS",
+    "candidate_version": "V1",
+    "correction_count": 0,
+    "violations": [],
+    "receipt": {
+      "timestamp": "2026-08-21T10:07:55+00:00",
+      "task": "咖啡馆这场戏到底用 35mm 还是 85mm？镜头怎么切？",
+      "routed_role": "Director / Cinematography Boundary",
+      "skill_name": null,
+      "skill_path": null,
+      "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "hash_match": true,
+      "skill_name_match": true,
+      "project_state": "DRAFT",
+      "mode": "DIRECTOR_BOUNDARY",
+      "output_type": "Downstream Handoff Package",
+      "activated_modules": [
+        "Role Boundary"
+      ],
+      "boundary_contract": {
+        "boundary_role": "Director / Cinematography",
+        "forbidden_output": [
+          "focal_length_recommendation",
+          "camera_position",
+          "shot_sequence",
+          "edit_pattern"
+        ],
+        "allowed_output": [
+          "dramatic_goal",
+          "relationship_state",
+          "information_strategy",
+          "handoff_requirements"
+        ]
+      }
+    },
+    "active_rules": [
+      "GLOBAL",
+      "BOUNDARY_CONTRACT",
+      "ANTI_MECHANICAL",
+      "PRODUCTION_REALITY"
+    ],
+    "next": "USER_OUTPUT",
+    "final_delivery_status": "READY"
+  }
+}

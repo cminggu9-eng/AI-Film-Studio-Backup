@@ -1,0 +1,57 @@
+{
+  "classification": "REPAIR23 PROVIDER-FREE REGRESSION",
+  "mandatory_preflight": {
+    "overall": "PASS",
+    "passed": 15,
+    "total": 15
+  },
+  "genericity": {
+    "overall": "PASS",
+    "passed": 18,
+    "total": 18
+  },
+  "unified_phase2": {
+    "overall": "PASS",
+    "records": 25
+  },
+  "repair22_tagged_codec": {
+    "overall": "PASS",
+    "passed": 7,
+    "total": 7,
+    "assertions": {
+      "canonical_outer_field_count_15": true,
+      "only_unresolved_decisions_tagged": true,
+      "present_native_array_roundtrip": true,
+      "absent_roundtrip": true,
+      "empty_array_not_absent": true,
+      "r26_legacy_string_rejected": true,
+      "probe21_legacy_string_rejected": true
+    }
+  },
+  "canonical_skills": {
+    "overall": "PASS",
+    "unchanged": true,
+    "count": 7
+  },
+  "production_locks": {
+    "overall": "PASS",
+    "unchanged": true,
+    "count": 6
+  },
+  "historical_e2e_06_26": {
+    "overall": "PASS",
+    "unchanged": true,
+    "count": 21
+  },
+  "probe22_evidence": {
+    "overall": "PASS",
+    "unchanged": true,
+    "tree_sha256": "d3a2b276a922f71d5394aafc3d179263202d4f34be399e29e28b387fd88e19bd"
+  },
+  "provider_calls": 0,
+  "executor_calls": 0,
+  "role_calls": 0,
+  "probe_calls": 0,
+  "live_e2e_calls": 0,
+  "overall": "PASS"
+}

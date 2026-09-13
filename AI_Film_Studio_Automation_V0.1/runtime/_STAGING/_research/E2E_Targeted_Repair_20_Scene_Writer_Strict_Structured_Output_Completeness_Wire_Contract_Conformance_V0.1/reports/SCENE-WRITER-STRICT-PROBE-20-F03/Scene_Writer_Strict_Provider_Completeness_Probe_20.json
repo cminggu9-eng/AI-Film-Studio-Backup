@@ -1,0 +1,489 @@
+{
+  "classification": "SCENE WRITER STRICT PROVIDER COMPLETENESS PROBE",
+  "probe_id": "SCENE-WRITER-STRICT-PROBE-20-F03",
+  "fixture_id": "E2E-FIX-03",
+  "upstream_input_source": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-25\\artifacts\\showrunner_output.json",
+  "upstream_input_mode": "IMMUTABLE_READ_ONLY_NOT_A_R25_RETRY",
+  "strict_function_name": "submit_scene_writer_package",
+  "strict_true": true,
+  "tool_choice": {
+    "type": "function",
+    "function": {
+      "name": "submit_scene_writer_package"
+    }
+  },
+  "max_tokens": 5000,
+  "schema_identity": {
+    "lifecycle_stage": "SCHEMA_IDENTITY_AUDITED_BEFORE_SEND",
+    "function_name": "submit_scene_writer_package",
+    "schema_sha256": {
+      "compiled_schema": "ddcf597eeeb18253bddb832039e36d9642e144c9ad7720ffc35c912d142408e0",
+      "final_strict_schema": "ddcf597eeeb18253bddb832039e36d9642e144c9ad7720ffc35c912d142408e0",
+      "adapter_projected_schema": "ddcf597eeeb18253bddb832039e36d9642e144c9ad7720ffc35c912d142408e0",
+      "wire_schema": "ddcf597eeeb18253bddb832039e36d9642e144c9ad7720ffc35c912d142408e0",
+      "local_validator_schema": "ddcf597eeeb18253bddb832039e36d9642e144c9ad7720ffc35c912d142408e0"
+    },
+    "schema_byte_equivalence": {
+      "compiled_equals_final_strict": true,
+      "final_strict_equals_adapter_projected": true,
+      "adapter_projected_equals_wire": true,
+      "wire_equals_local_validator": true,
+      "all_five_equal": true
+    },
+    "schema_semantic_equivalence": {
+      "all_five_equal": true,
+      "required_sets_equal": true
+    },
+    "required_field_sets": {
+      "compiled_schema": {
+        "$": [
+          "format",
+          "control",
+          "state",
+          "scenes"
+        ],
+        "$.control": [
+          "outcome",
+          "flags",
+          "handoffs",
+          "required_outcome",
+          "unresolved_decisions"
+        ],
+        "$.state": [
+          "prior",
+          "current",
+          "proposed",
+          "knowledge_timing",
+          "relationship",
+          "visual"
+        ],
+        "$.state.prior": [
+          "relationship_state",
+          "knowledge_state",
+          "visual_state"
+        ],
+        "$.state.current": [
+          "relationship_state",
+          "knowledge_state",
+          "visual_state"
+        ],
+        "$.state.proposed": [
+          "relationship_state",
+          "knowledge_state",
+          "visual_state"
+        ],
+        "$.state.knowledge_timing": [
+          "reveal_of_shared_use",
+          "reveal_of_room_content"
+        ],
+        "$.state.relationship": [
+          "initial",
+          "after_scene_1",
+          "after_scene_3"
+        ],
+        "$.state.visual": [
+          "scene_1",
+          "scene_2",
+          "scene_3"
+        ],
+        "$.scenes[*]": [
+          "id",
+          "content",
+          "structural",
+          "state"
+        ],
+        "$.scenes[*].structural": [
+          "目标",
+          "阻力",
+          "对白行动",
+          "转折",
+          "入场",
+          "出场"
+        ],
+        "$.scenes[*].state": [
+          "entity_id",
+          "custody",
+          "holders",
+          "reveal",
+          "relationship",
+          "camera_battery_state",
+          "state_display",
+          "location",
+          "transitions"
+        ]
+      },
+      "final_strict_schema": {
+        "$": [
+          "format",
+          "control",
+          "state",
+          "scenes"
+        ],
+        "$.control": [
+          "outcome",
+          "flags",
+          "handoffs",
+          "required_outcome",
+          "unresolved_decisions"
+        ],
+        "$.state": [
+          "prior",
+          "current",
+          "proposed",
+          "knowledge_timing",
+          "relationship",
+          "visual"
+        ],
+        "$.state.prior": [
+          "relationship_state",
+          "knowledge_state",
+          "visual_state"
+        ],
+        "$.state.current": [
+          "relationship_state",
+          "knowledge_state",
+          "visual_state"
+        ],
+        "$.state.proposed": [
+          "relationship_state",
+          "knowledge_state",
+          "visual_state"
+        ],
+        "$.state.knowledge_timing": [
+          "reveal_of_shared_use",
+          "reveal_of_room_content"
+        ],
+        "$.state.relationship": [
+          "initial",
+          "after_scene_1",
+          "after_scene_3"
+        ],
+        "$.state.visual": [
+          "scene_1",
+          "scene_2",
+          "scene_3"
+        ],
+        "$.scenes[*]": [
+          "id",
+          "content",
+          "structural",
+          "state"
+        ],
+        "$.scenes[*].structural": [
+          "目标",
+          "阻力",
+          "对白行动",
+          "转折",
+          "入场",
+          "出场"
+        ],
+        "$.scenes[*].state": [
+          "entity_id",
+          "custody",
+          "holders",
+          "reveal",
+          "relationship",
+          "camera_battery_state",
+          "state_display",
+          "location",
+          "transitions"
+        ]
+      },
+      "adapter_projected_schema": {
+        "$": [
+          "format",
+          "control",
+          "state",
+          "scenes"
+        ],
+        "$.control": [
+          "outcome",
+          "flags",
+          "handoffs",
+          "required_outcome",
+          "unresolved_decisions"
+        ],
+        "$.state": [
+          "prior",
+          "current",
+          "proposed",
+          "knowledge_timing",
+          "relationship",
+          "visual"
+        ],
+        "$.state.prior": [
+          "relationship_state",
+          "knowledge_state",
+          "visual_state"
+        ],
+        "$.state.current": [
+          "relationship_state",
+          "knowledge_state",
+          "visual_state"
+        ],
+        "$.state.proposed": [
+          "relationship_state",
+          "knowledge_state",
+          "visual_state"
+        ],
+        "$.state.knowledge_timing": [
+          "reveal_of_shared_use",
+          "reveal_of_room_content"
+        ],
+        "$.state.relationship": [
+          "initial",
+          "after_scene_1",
+          "after_scene_3"
+        ],
+        "$.state.visual": [
+          "scene_1",
+          "scene_2",
+          "scene_3"
+        ],
+        "$.scenes[*]": [
+          "id",
+          "content",
+          "structural",
+          "state"
+        ],
+        "$.scenes[*].structural": [
+          "目标",
+          "阻力",
+          "对白行动",
+          "转折",
+          "入场",
+          "出场"
+        ],
+        "$.scenes[*].state": [
+          "entity_id",
+          "custody",
+          "holders",
+          "reveal",
+          "relationship",
+          "camera_battery_state",
+          "state_display",
+          "location",
+          "transitions"
+        ]
+      },
+      "wire_schema": {
+        "$": [
+          "format",
+          "control",
+          "state",
+          "scenes"
+        ],
+        "$.control": [
+          "outcome",
+          "flags",
+          "handoffs",
+          "required_outcome",
+          "unresolved_decisions"
+        ],
+        "$.state": [
+          "prior",
+          "current",
+          "proposed",
+          "knowledge_timing",
+          "relationship",
+          "visual"
+        ],
+        "$.state.prior": [
+          "relationship_state",
+          "knowledge_state",
+          "visual_state"
+        ],
+        "$.state.current": [
+          "relationship_state",
+          "knowledge_state",
+          "visual_state"
+        ],
+        "$.state.proposed": [
+          "relationship_state",
+          "knowledge_state",
+          "visual_state"
+        ],
+        "$.state.knowledge_timing": [
+          "reveal_of_shared_use",
+          "reveal_of_room_content"
+        ],
+        "$.state.relationship": [
+          "initial",
+          "after_scene_1",
+          "after_scene_3"
+        ],
+        "$.state.visual": [
+          "scene_1",
+          "scene_2",
+          "scene_3"
+        ],
+        "$.scenes[*]": [
+          "id",
+          "content",
+          "structural",
+          "state"
+        ],
+        "$.scenes[*].structural": [
+          "目标",
+          "阻力",
+          "对白行动",
+          "转折",
+          "入场",
+          "出场"
+        ],
+        "$.scenes[*].state": [
+          "entity_id",
+          "custody",
+          "holders",
+          "reveal",
+          "relationship",
+          "camera_battery_state",
+          "state_display",
+          "location",
+          "transitions"
+        ]
+      },
+      "local_validator_schema": {
+        "$": [
+          "format",
+          "control",
+          "state",
+          "scenes"
+        ],
+        "$.control": [
+          "outcome",
+          "flags",
+          "handoffs",
+          "required_outcome",
+          "unresolved_decisions"
+        ],
+        "$.state": [
+          "prior",
+          "current",
+          "proposed",
+          "knowledge_timing",
+          "relationship",
+          "visual"
+        ],
+        "$.state.prior": [
+          "relationship_state",
+          "knowledge_state",
+          "visual_state"
+        ],
+        "$.state.current": [
+          "relationship_state",
+          "knowledge_state",
+          "visual_state"
+        ],
+        "$.state.proposed": [
+          "relationship_state",
+          "knowledge_state",
+          "visual_state"
+        ],
+        "$.state.knowledge_timing": [
+          "reveal_of_shared_use",
+          "reveal_of_room_content"
+        ],
+        "$.state.relationship": [
+          "initial",
+          "after_scene_1",
+          "after_scene_3"
+        ],
+        "$.state.visual": [
+          "scene_1",
+          "scene_2",
+          "scene_3"
+        ],
+        "$.scenes[*]": [
+          "id",
+          "content",
+          "structural",
+          "state"
+        ],
+        "$.scenes[*].structural": [
+          "目标",
+          "阻力",
+          "对白行动",
+          "转折",
+          "入场",
+          "出场"
+        ],
+        "$.scenes[*].state": [
+          "entity_id",
+          "custody",
+          "holders",
+          "reveal",
+          "relationship",
+          "camera_battery_state",
+          "state_display",
+          "location",
+          "transitions"
+        ]
+      }
+    },
+    "wire_strict_mechanics": {
+      "function_name_exact": true,
+      "strict_true": true,
+      "tool_choice_exact": true,
+      "expected_tool_choice": {
+        "type": "function",
+        "function": {
+          "name": "submit_scene_writer_package"
+        }
+      },
+      "observed_tool_choice": {
+        "type": "function",
+        "function": {
+          "name": "submit_scene_writer_package"
+        }
+      }
+    }
+  },
+  "retry_count": 0,
+  "provider_calls": 1,
+  "executor_calls": 1,
+  "role_calls": 1,
+  "live_e2e_runs": 0,
+  "r03_restarted": false,
+  "raw_first_persistence": {
+    "raw_response_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_20_Scene_Writer_Strict_Structured_Output_Completeness_Wire_Contract_Conformance_V0.1\\reports\\SCENE-WRITER-STRICT-PROBE-20-F03\\artifacts\\scene_writer_provider_response.json",
+    "invocation_metadata_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_20_Scene_Writer_Strict_Structured_Output_Completeness_Wire_Contract_Conformance_V0.1\\reports\\SCENE-WRITER-STRICT-PROBE-20-F03\\artifacts\\scene_writer_invocation.json",
+    "persistence_verification_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_20_Scene_Writer_Strict_Structured_Output_Completeness_Wire_Contract_Conformance_V0.1\\reports\\SCENE-WRITER-STRICT-PROBE-20-F03\\artifacts\\scene_writer_persistence_verification.json",
+    "raw_content_sha256": "94241c23cb73f268a6dea4188d6fc6d8897146f0a16c9f3108ff44945f2a6c8d"
+  },
+  "truncation": {
+    "classification": "NOT_TRUNCATED",
+    "truncated": false,
+    "finish_reason": "tool_calls",
+    "completion_tokens": 1506,
+    "requested_max_tokens": 5000,
+    "json_complete": true,
+    "signals": [],
+    "persistence_verification_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_20_Scene_Writer_Strict_Structured_Output_Completeness_Wire_Contract_Conformance_V0.1\\reports\\SCENE-WRITER-STRICT-PROBE-20-F03\\artifacts\\scene_writer_persistence_verification.json"
+  },
+  "provider_finish_reason": "tool_calls",
+  "local_schema_pass": true,
+  "repair16_exact_scene_ids_pass": true,
+  "repair17_state_field_pass": true,
+  "per_scene_completeness": [
+    {
+      "scene_id": "E2E-FIX-03-S01",
+      "all_required_present": true,
+      "structural_required_present": true,
+      "state_required_present": true
+    },
+    {
+      "scene_id": "E2E-FIX-03-S02",
+      "all_required_present": true,
+      "structural_required_present": true,
+      "state_required_present": true
+    },
+    {
+      "scene_id": "E2E-FIX-03-S03",
+      "all_required_present": true,
+      "structural_required_present": true,
+      "state_required_present": true
+    }
+  ],
+  "overall": "PASS"
+}

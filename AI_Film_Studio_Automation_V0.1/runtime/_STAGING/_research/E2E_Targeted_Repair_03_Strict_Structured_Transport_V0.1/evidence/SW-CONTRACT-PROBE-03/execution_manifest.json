@@ -1,0 +1,88 @@
+{
+  "run_id": "SW-CONTRACT-PROBE-03",
+  "authorization": "E2E Targeted Repair 03 — Scene Writer Strict Structured Transport V0.1",
+  "status": "PASS",
+  "started_at": "2026-08-28T01:08:15.288822+00:00",
+  "provider": "deepseek",
+  "model": "deepseek-v4-pro",
+  "transport": "strict_function",
+  "function_name": "submit_scene_writer_package",
+  "BETA_PROVIDER_FEATURE_USED": "YES",
+  "provider_call_budget": 1,
+  "selected_completion_budget": 5000,
+  "retry_count": 0,
+  "automatic_fallback": 0,
+  "showrunner_real_calls": 0,
+  "downstream_role_calls": 0,
+  "full_e2e_reruns": 0,
+  "json_auto_repairs": 0,
+  "provider_call_count": 1,
+  "frozen_showrunner_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-01-RECOVERY-01\\artifacts\\showrunner_output.json",
+  "frozen_showrunner_artifact_sha256": "bddee6efbba18ba9f1a2a60df8f426ed23c62b2266adfe71f37f9fca18e407f8",
+  "completed_at": "2026-08-28T01:08:50.052269+00:00",
+  "provider_calls": [
+    {
+      "role": "Scene Writer",
+      "invocation_id": "SW-CONTRACT-PROBE-03:scene_writer:1",
+      "model": "deepseek-v4-pro",
+      "timestamp": "2026-08-28T01:08:20.414578+00:00",
+      "input_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_03_Strict_Structured_Transport_V0.1\\evidence\\SW-CONTRACT-PROBE-03\\artifacts\\scene_writer_input.json",
+      "output_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_03_Strict_Structured_Transport_V0.1\\evidence\\SW-CONTRACT-PROBE-03\\artifacts\\scene_writer_output.json",
+      "raw_response_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_03_Strict_Structured_Transport_V0.1\\evidence\\SW-CONTRACT-PROBE-03\\artifacts\\scene_writer_provider_response.json",
+      "invocation_metadata_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_03_Strict_Structured_Transport_V0.1\\evidence\\SW-CONTRACT-PROBE-03\\artifacts\\scene_writer_invocation.json",
+      "persistence_verification_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_03_Strict_Structured_Transport_V0.1\\evidence\\SW-CONTRACT-PROBE-03\\artifacts\\scene_writer_persistence_verification.json",
+      "provider_success": true,
+      "persistence_verified": true,
+      "role_contract_success": true,
+      "success": true,
+      "usage": {
+        "provider": "deepseek",
+        "model": "deepseek-v4-pro",
+        "provider_invocation_id": "3f50f54e-291d-4378-9095-48d20ed44d7c",
+        "usage": {
+          "prompt_tokens": 7716,
+          "completion_tokens": 1717,
+          "total_tokens": 9433,
+          "prompt_cache_hit_tokens": 0,
+          "prompt_cache_miss_tokens": 7716
+        },
+        "latency_ms": 29276,
+        "thinking_mode": "disabled",
+        "fixture_id": "E2E-FIX-01",
+        "request_success": true,
+        "requested_max_tokens": 5000,
+        "finish_reason": "tool_calls",
+        "structured_output": {
+          "function_name": "submit_scene_writer_package",
+          "transport": "forced_function"
+        }
+      },
+      "estimated_cost_cny": 0.03345,
+      "selected_completion_budget": 5000,
+      "provider_finish_reason": "tool_calls",
+      "response_characters": 4135,
+      "response_utf8_bytes": 7131,
+      "retry_count": 0,
+      "transport_auto_repairs": 0,
+      "structured_transport": {
+        "enabled": true,
+        "function_name": "submit_scene_writer_package",
+        "beta_provider_feature_used": true,
+        "required_tool_call_verified": true,
+        "arguments_parsed": true,
+        "schema_validated": true
+      },
+      "truncation_detection_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_03_Strict_Structured_Transport_V0.1\\evidence\\SW-CONTRACT-PROBE-03\\artifacts\\scene_writer_truncation_detection.json",
+      "truncation_assessment": {
+        "classification": "NOT_TRUNCATED",
+        "truncated": false,
+        "finish_reason": "tool_calls",
+        "completion_tokens": 1717,
+        "requested_max_tokens": 5000,
+        "json_complete": true,
+        "signals": [],
+        "persistence_verification_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_03_Strict_Structured_Transport_V0.1\\evidence\\SW-CONTRACT-PROBE-03\\artifacts\\scene_writer_persistence_verification.json"
+      }
+    }
+  ]
+}

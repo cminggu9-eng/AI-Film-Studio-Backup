@@ -1,0 +1,65 @@
+{
+  "fixture": "RT-07-3",
+  "router": {
+    "routed_role": "Unmatched",
+    "mode": "UNMATCHED",
+    "output_type": "No Showrunner Output",
+    "activated_modules": [],
+    "trigger": "no configured intent",
+    "boundary_contract": null,
+    "skill_name": null,
+    "skill_path": null,
+    "file_exists": true,
+    "file_readable": true,
+    "skill_name_correct": true,
+    "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+    "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+    "hash_match": true,
+    "invocation_receipt": {
+      "timestamp": "2026-08-21T10:08:12+00:00",
+      "task": "请把固定每三分钟变化写进通用规范。",
+      "routed_role": "Unmatched",
+      "skill_name": null,
+      "skill_path": null,
+      "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "hash_match": true,
+      "skill_name_match": true,
+      "project_state": "UNKNOWN",
+      "mode": "UNMATCHED",
+      "output_type": "No Showrunner Output",
+      "activated_modules": [],
+      "boundary_contract": null
+    }
+  },
+  "gate": {
+    "status": "PASS",
+    "candidate_version": "V1",
+    "correction_count": 0,
+    "violations": [],
+    "receipt": {
+      "timestamp": "2026-08-21T10:08:12+00:00",
+      "task": "请把固定每三分钟变化写进通用规范。",
+      "routed_role": "Unmatched",
+      "skill_name": null,
+      "skill_path": null,
+      "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "hash_match": true,
+      "skill_name_match": true,
+      "project_state": "DRAFT",
+      "mode": "UNMATCHED",
+      "output_type": "No Showrunner Output",
+      "activated_modules": [],
+      "boundary_contract": null
+    },
+    "active_rules": [
+      "GLOBAL",
+      "BOUNDARY_CONTRACT",
+      "ANTI_MECHANICAL",
+      "PRODUCTION_REALITY"
+    ],
+    "next": "USER_OUTPUT",
+    "final_delivery_status": "READY"
+  }
+}

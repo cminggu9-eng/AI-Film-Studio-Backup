@@ -1,0 +1,7 @@
+{
+  "role": "Art Director",
+  "execution_status": "NOT REACHED",
+  "provider_call_made": false,
+  "reason": "Scene Writer output was blocked by the Integration Semantic Safeguard before downstream execution.",
+  "blocking_evidence": "semantic_safeguard.json"
+}

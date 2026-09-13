@@ -1,0 +1,321 @@
+{
+  "run_id": "E2E-RUN-09",
+  "role": "Scene Writer",
+  "canonical_binding": {
+    "identity": "scene-writer",
+    "canonical_path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\02_Scene_Writer\\scene-writer\\SKILL.md",
+    "sha256": "93E1BE12988F8CAA6CDD76ACB5E6C1BF6AD3CA0DFF5806A2EA93511E66052DFB"
+  },
+  "selected_mode": "CREATE",
+  "output_language": "zh-CN",
+  "input": {
+    "upstream_artifacts": {
+      "showrunner": {
+        "primary_state_or_outcome": "INFO",
+        "flags": "ABSENT",
+        "handoffs": "ABSENT",
+        "canon_assignment_locks": [
+          "scene_count: 3",
+          "output_language: zh-CN",
+          "characters: 许宁, 许曼",
+          "relationship: 不得自动升级为完全和解",
+          "prop.entity_id: A-17",
+          "prop.identity_lock: A-17",
+          "prop.custody_required: true",
+          "prop.condition_lock: brass_key",
+          "knowledge.shared_storage_reveal.holder: 许曼",
+          "knowledge.shared_storage_reveal.not_before_scene: 3",
+          "visual_state.clothing_visual_state_code.allowed_tokens: soaked_uniform, changed_clothes",
+          "prohibited: 完全和解",
+          "decision_locks: storage_room_opening"
+        ],
+        "prohibited_changes": [
+          "完全和解"
+        ],
+        "required_outcome": "ABSENT",
+        "unresolved_decisions": [
+          "storage_room_opening"
+        ],
+        "state_evidence": {
+          "relevant_prior_state": {
+            "concept": "暴雨夜，夜班管理员许宁把一把刻有“A-17”的黄铜钥匙交给久未联系的姐姐许曼；许曼承认这是母亲留给两人一起打开储物间的钥匙，要求许宁先换下湿透的制服、等天亮再开门。",
+            "characters": [
+              "许宁",
+              "许曼"
+            ],
+            "relationship": "久未联系",
+            "prop": {
+              "entity_id": "A-17",
+              "condition": "黄铜钥匙，刻有 A-17"
+            },
+            "knowledge": {
+              "shared_storage_reveal": {
+                "holder": "许曼",
+                "not_before_scene": 3
+              }
+            },
+            "visual_state": {
+              "clothing_visual_state_code": "soaked_uniform"
+            }
+          },
+          "current_state": "ABSENT",
+          "proposed_state": {
+            "premise": "暴雨夜，久未联系的姐弟因一把母亲遗留的黄铜钥匙重逢。许曼提出等天亮再开储物间，但两人对母亲遗产、彼此生活与钥匙归属的认知差异，使这个夜晚无法平静等待。",
+            "characters": [
+              {
+                "name": "许宁",
+                "identity": "夜班管理员，弟弟",
+                "starting_state": {
+                  "desire": "尽快处置钥匙或弄清母亲遗愿，以摆脱当前生活困境",
+                  "need": "重新理解家庭关系和自我位置",
+                  "fear": "再次被家庭抛弃或失去对生活的控制",
+                  "values": [
+                    "责任",
+                    "务实"
+                  ],
+                  "contradiction": "想保持距离，但又主动送来钥匙",
+                  "relationship": "与姐姐许曼久未联系，有未言明的隔阂",
+                  "choice_pressure": "是否等待天亮，是否与姐姐共同开启储物间"
+                },
+                "constraints": {
+                  "must_preserve": [
+                    "不能主动寻求完全和解",
+                    "湿透制服的状态必须根据场景呈现"
+                  ],
+                  "visual_state": {
+                    "clothing_visual_state_code": "soaked_uniform"
+                  }
+                }
+              },
+              {
+                "name": "许曼",
+                "identity": "姐姐",
+                "starting_state": {
+                  "desire": "控制钥匙和储物间开启的时机",
+                  "need": "保护弟弟或维护自己的脆弱边界",
+                  "fear": "储物间内的东西破坏现有生活或关系",
+                  "values": [
+                    "谨慎",
+                    "家庭记忆"
+                  ],
+                  "contradiction": "承认钥匙归属，却要求延迟开启",
+                  "relationship": "与弟弟许宁久未联系，有未言明的隔阂",
+                  "choice_pressure": "是否解释延迟原因，是否最终共同开启"
+                },
+                "constraints": {
+                  "must_preserve": [
+                    "持有 shared_storage_reveal 知识，且在第3场景前不得揭露",
+                    "不能主动寻求完全和解"
+                  ],
+                  "visual_state": "ABSENT"
+                }
+              }
+            ]
+          },
+          "knowledge_timing": {
+            "shared_storage_reveal": {
+              "holder": "许曼",
+              "not_before_scene": 3
+            }
+          },
+          "relationship_state": {
+            "starting": "久未联系，关系疏远，存在未解决的隔阂",
+            "ending_constraint": "不得自动升级为完全和解"
+          },
+          "visual_state": {
+            "clothing_visual_state_code": {
+              "allowed_tokens": [
+                "soaked_uniform",
+                "changed_clothes"
+              ],
+              "initial": "soaked_uniform"
+            }
+          }
+        },
+        "content": "## 故事前提\n\n暴雨夜，夜班管理员许宁把一把刻有“A-17”的黄铜钥匙交给久未联系的姐姐许曼。许曼承认这是母亲留给两人一起打开储物间的钥匙，却要求许宁先换下湿透的制服、等天亮再开门。两人对母亲遗产、彼此生活与钥匙归属的认知差异，使这个夜晚无法平静等待。\n\n## 角色\n\n### 许宁\n- 身份：夜班管理员，弟弟\n- 起始状态：\n  - 欲望：尽快处置钥匙或弄清母亲遗愿，以摆脱当前生活困境\n  - 需求：重新理解家庭关系和自我位置\n  - 恐惧：再次被家庭抛弃或失去对生活的控制\n  - 价值观：责任、务实\n  - 矛盾：想保持距离，却又主动送来钥匙\n  - 关系：与姐姐许曼久未联系，有未言明的隔阂\n- 选择压力：是否等待天亮，是否与姐姐共同开启储物间\n- 约束：\n  - 不能主动寻求完全和解\n  - 视觉状态：初期为 soaked_uniform（湿透制服）\n\n### 许曼\n- 身份：姐姐\n- 起始状态：\n  - 欲望：控制钥匙和储物间开启的时机\n  - 需求：保护弟弟或维护自己的脆弱边界\n  - 恐惧：储物间内的东西破坏现有生活或关系\n  - 价值观：谨慎、家庭记忆\n  - 矛盾：承认钥匙归属，却要求延迟开启\n  - 关系：与弟弟许宁久未联系，有未言明的隔阂\n- 选择压力：是否解释延迟原因，是否最终共同开启\n- 约束：\n  - 持有 shared_storage_reveal 知识，且在第3场景前不得揭露\n  - 不能主动寻求完全和解\n\n## Canon Locks\n\n- 场景数量固定为 3 场。\n- 输出语言为 zh-CN。\n- 角色仅限许宁和许曼。\n- 关系不得自动升级为完全和解。\n- 道具：\n  - entity_id：A-17\n  - identity_lock：A-17\n  - custody_required：true（钥匙必须被妥善保管）\n  - condition_lock：brass_key（黄铜钥匙）\n- 知识：shared_storage_reveal（母亲留给两人一起打开储物间）由许曼持有，不得在第3场景之前揭露。\n- 视觉状态：clothing_visual_state_code 允许的 token 为 soaked_uniform 或 changed_clothes；许宁初始为 soaked_uniform。\n- 禁止事项：完全和解。\n- 决策锁：storage_room_opening（是否/如何打开储物间）待定，未解锁。\n\n## 三场结构\n\n### 场景一：湿制服下的对峙\n- 场景目的：建立关系疏离状态，引出钥匙交接与许曼的延迟要求。\n- 角色目标：许宁希望立即处理钥匙；许曼希望许宁先换衣服并等待。\n- 冲突：许宁的急切 vs 许曼的谨慎，以及对母亲遗产理解的分歧。\n- 所需信息：许宁为何送来钥匙，许曼为何要求等待，钥匙 A-17 的基本信息。\n- 起始状态：许宁身穿湿透制服，两人久未联系后的首次见面。\n- 要求结束状态：许宁换下湿制服（视觉状态变为 changed_clothes），但未达成开启储物间的共识；许曼拒绝立即解释。\n- Canon 约束：不得揭露 shared_storage_reveal 的具体内容；不得和解。\n\n### 场景二：等待中的试探\n- 场景目的：深化角色内在矛盾，通过对话或沉默暴露各自对母亲、家庭和钥匙的认知差异。\n- 角色目标：许宁试图获取更多信息或说服许曼提前行动；许曼试图维持边界并观察弟弟。\n- 冲突：双方对“等待”的意义和代价存在分歧，过去未解决的伤痕浮现。\n- 所需信息：许宁当前生活困境的暗示，许曼延迟开启的私人原因（但不揭露 shared_storage_reveal 的内容）。\n- 起始状态：许宁已换好衣服，但两人之间的张力未减。\n- 要求结束状态：关系张力升级或暂时缓和，但双方均未改变核心立场；许曼仍未揭示 shared_storage_reveal；钥匙仍由许宁保管或另有安排，但 custody_required 保持 true。\n- Canon 约束：不得揭露 shared_storage_reveal；不得和解；不得打开储物间。\n\n### 场景三：拂晓前的决定\n- 场景目的：到达决策点——是否共同打开储物间（storage_room_opening），并允许揭露 shared_storage_reveal。\n- 角色目标：许宁做出最终选择：继续等待、独自行动或与许曼共同开启；许曼决定是否揭露母亲遗愿并共同面对。\n- 冲突：对家庭真相的恐惧 vs 对责任/欲望的坚持。\n- 所需信息：shared_storage_reveal 的具体内容（由许曼揭露），以及许宁对揭露的反应。\n- 起始状态：天将亮，两人疲惫但清醒，关系处于关键节点。\n- 要求结束状态：解锁 storage_room_opening 决策：许宁和许曼共同决定打开储物间，或其中一方拒绝/离开，但必须基于许曼在本场景揭露的 shared_storage_reveal 信息。关系状态不得自动升级为完全和解，可以保持距离、部分理解或新的张力。\n- Canon 约束：shared_storage_reveal 必须由许曼在本场景揭露；结局不得是“完全和解”；钥匙（A-17）的保管状态需明确（仍由许宁或转交许曼，或共同持有），但 custody_required 保持 true。",
+        "scene_packages": "ABSENT"
+      }
+    },
+    "state_evidence_envelopes": {
+      "showrunner": {
+        "source_role": "Showrunner",
+        "source_record_id": "E2E-RUN-09/showrunner/1",
+        "version": "1.0",
+        "timestamp": "2026-08-29T07:13:39.358661+00:00",
+        "intended_recipient": "Scene Writer",
+        "handoff_reason": "Story / Canon Package",
+        "canon_assignment_locks": [
+          "scene_count: 3",
+          "output_language: zh-CN",
+          "characters: 许宁, 许曼",
+          "relationship: 不得自动升级为完全和解",
+          "prop.entity_id: A-17",
+          "prop.identity_lock: A-17",
+          "prop.custody_required: true",
+          "prop.condition_lock: brass_key",
+          "knowledge.shared_storage_reveal.holder: 许曼",
+          "knowledge.shared_storage_reveal.not_before_scene: 3",
+          "visual_state.clothing_visual_state_code.allowed_tokens: soaked_uniform, changed_clothes",
+          "prohibited: 完全和解",
+          "decision_locks: storage_room_opening"
+        ],
+        "prohibited_changes": [
+          "完全和解"
+        ],
+        "canonical_mode": "ABSENT",
+        "primary_state_or_outcome": "INFO",
+        "flags": "ABSENT",
+        "handoffs": "ABSENT",
+        "required_outcome": "ABSENT",
+        "unresolved_decisions": [
+          "storage_room_opening"
+        ],
+        "relevant_prior_state": {
+          "concept": "暴雨夜，夜班管理员许宁把一把刻有“A-17”的黄铜钥匙交给久未联系的姐姐许曼；许曼承认这是母亲留给两人一起打开储物间的钥匙，要求许宁先换下湿透的制服、等天亮再开门。",
+          "characters": [
+            "许宁",
+            "许曼"
+          ],
+          "relationship": "久未联系",
+          "prop": {
+            "entity_id": "A-17",
+            "condition": "黄铜钥匙，刻有 A-17"
+          },
+          "knowledge": {
+            "shared_storage_reveal": {
+              "holder": "许曼",
+              "not_before_scene": 3
+            }
+          },
+          "visual_state": {
+            "clothing_visual_state_code": "soaked_uniform"
+          }
+        },
+        "current_state": "ABSENT",
+        "proposed_state": {
+          "premise": "暴雨夜，久未联系的姐弟因一把母亲遗留的黄铜钥匙重逢。许曼提出等天亮再开储物间，但两人对母亲遗产、彼此生活与钥匙归属的认知差异，使这个夜晚无法平静等待。",
+          "characters": [
+            {
+              "name": "许宁",
+              "identity": "夜班管理员，弟弟",
+              "starting_state": {
+                "desire": "尽快处置钥匙或弄清母亲遗愿，以摆脱当前生活困境",
+                "need": "重新理解家庭关系和自我位置",
+                "fear": "再次被家庭抛弃或失去对生活的控制",
+                "values": [
+                  "责任",
+                  "务实"
+                ],
+                "contradiction": "想保持距离，但又主动送来钥匙",
+                "relationship": "与姐姐许曼久未联系，有未言明的隔阂",
+                "choice_pressure": "是否等待天亮，是否与姐姐共同开启储物间"
+              },
+              "constraints": {
+                "must_preserve": [
+                  "不能主动寻求完全和解",
+                  "湿透制服的状态必须根据场景呈现"
+                ],
+                "visual_state": {
+                  "clothing_visual_state_code": "soaked_uniform"
+                }
+              }
+            },
+            {
+              "name": "许曼",
+              "identity": "姐姐",
+              "starting_state": {
+                "desire": "控制钥匙和储物间开启的时机",
+                "need": "保护弟弟或维护自己的脆弱边界",
+                "fear": "储物间内的东西破坏现有生活或关系",
+                "values": [
+                  "谨慎",
+                  "家庭记忆"
+                ],
+                "contradiction": "承认钥匙归属，却要求延迟开启",
+                "relationship": "与弟弟许宁久未联系，有未言明的隔阂",
+                "choice_pressure": "是否解释延迟原因，是否最终共同开启"
+              },
+              "constraints": {
+                "must_preserve": [
+                  "持有 shared_storage_reveal 知识，且在第3场景前不得揭露",
+                  "不能主动寻求完全和解"
+                ],
+                "visual_state": "ABSENT"
+              }
+            }
+          ]
+        },
+        "knowledge_timing": {
+          "shared_storage_reveal": {
+            "holder": "许曼",
+            "not_before_scene": 3
+          }
+        },
+        "relationship_state": {
+          "starting": "久未联系，关系疏远，存在未解决的隔阂",
+          "ending_constraint": "不得自动升级为完全和解"
+        },
+        "visual_state": {
+          "clothing_visual_state_code": {
+            "allowed_tokens": [
+              "soaked_uniform",
+              "changed_clothes"
+            ],
+            "initial": "soaked_uniform"
+          }
+        },
+        "authority_source": "Showrunner canonical Skill output",
+        "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-09\\artifacts\\showrunner_output.json"
+      }
+    },
+    "run_local_ledger": "ABSENT",
+    "role_constraints": {
+      "mode": "CREATE",
+      "scene_count": 3,
+      "fixture_constraints": {
+        "scene_count": 3,
+        "output_language": "zh-CN",
+        "characters": [
+          "许宁",
+          "许曼"
+        ],
+        "relationship": [
+          "不得自动升级为完全和解"
+        ],
+        "prop": {
+          "entity_id": "A-17",
+          "identity_lock": "A-17",
+          "custody_required": true,
+          "condition_lock": "brass_key"
+        },
+        "knowledge": [
+          {
+            "event_id": "shared_storage_reveal",
+            "holder": "许曼",
+            "not_before_scene": 3
+          }
+        ],
+        "visual_state": [
+          {
+            "dimension": "clothing_visual_state_code",
+            "allowed_tokens": [
+              "soaked_uniform",
+              "changed_clothes"
+            ]
+          }
+        ],
+        "prohibited": [
+          "完全和解"
+        ],
+        "decision_locks": [
+          "storage_room_opening"
+        ]
+      },
+      "strict_structured_transport": {
+        "function": "submit_scene_writer_package",
+        "response_format_route": "PROHIBITED",
+        "no_auto_repair": true
+      }
+    }
+  }
+}

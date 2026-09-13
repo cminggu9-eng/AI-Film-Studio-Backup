@@ -1,0 +1,17 @@
+{
+  "classification": "R02_CROSS_FIXTURE_GENERICITY_AUDIT",
+  "fixture01_scene_ids_in_prompt": 0,
+  "fixture03_scene_ids_in_prompt": 0,
+  "fixture02_scene_id_domain_result": "PASS",
+  "fixture02_state_token_domain_result": "PASS",
+  "generic_scene_id_literal_leak": 0,
+  "generic_story_literal_leaks": [
+    {"token": "A-17", "system_prompt_occurrences": 1},
+    {"token": "E2E-FIX-01", "function_description_occurrences": 1}
+  ],
+  "state_field_projection_drift": {
+    "hydrated_field": "clothing_visual_state_code",
+    "validator_field": "signboard_state"
+  },
+  "result": "FAIL"
+}

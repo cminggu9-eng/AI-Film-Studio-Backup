@@ -1,0 +1,285 @@
+{
+  "fixture_id": "F06",
+  "mode": "DIRECT_RUNTIME",
+  "initial": {
+    "runtime_result": {
+      "internal_runtime_result": {
+        "runtime_status": "SUCCESS",
+        "invocation_id": "revalidation-f06-initial",
+        "contract_identity": "language-voice-qa-runtime",
+        "contract_version": "0.1",
+        "skill_integrity": {
+          "identity": "language-voice-qa",
+          "version": "0.1",
+          "path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\Shared_QA\\SKILL.md",
+          "expected_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+          "metadata": {
+            "name": "language-voice-qa",
+            "description": "Perform context-appropriate Chinese Language & Voice QA with conditional, minimal rewrites. Use for reviewing a passage, project brief, dialogue, scene description, narrative prose, production note, or marketing copy; do not use it to create prose, imitate writers, decide story content, or judge real-time language trends.",
+            "type": "skill",
+            "status": "approved",
+            "review_result": "passed",
+            "version": "0.1",
+            "subject": "Language & Voice QA",
+            "installation_status": "not-installed"
+          },
+          "actual_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+          "passed": true,
+          "reason": null
+        },
+        "decision": "NEEDS CONTEXT",
+        "severity": "LEVEL 0",
+        "route": "R4 Character Dialogue",
+        "action": "request_context",
+        "rewrite_used": false,
+        "handoff": null,
+        "runtime_contract_passed": true,
+        "failure_code": null,
+        "failure_message": null,
+        "transport_metadata": {}
+      },
+      "downstream_payload": {
+        "text": "程雁把录音笔放在桌上，却没有按下播放。\n\n“你说里面是证据。”陆川盯着那支笔，“那就放。”\n\n“我说里面可能有证据。”程雁抬眼看他，“也可能只是有人希望我们相信它是。”\n\n陆川沉默了一会儿。“你怕什么？”\n\n“我怕我们一旦听完，就会以为自己知道得比现在多。”\n\n窗外的车灯从玻璃上划过去。程雁把录音笔往回收了半寸，没有把它拿走，也没有再碰开关。",
+        "original_preserved": true,
+        "decision": "NEEDS CONTEXT",
+        "severity": "LEVEL 0",
+        "route": "R4 Character Dialogue",
+        "action": "request_context",
+        "handoff": null,
+        "diagnostics": "R4 rewrite requires sufficient Speaker / Character Context to establish WHO, TO WHOM, WHY, knowledge/belief, relationship/power/pressure, and conversation state. Without this, any rewrite risks changing character intent, power dynamics, or information reveal."
+      },
+      "user_facing_result": {
+        "status": "SUCCESS",
+        "decision": "NEEDS CONTEXT",
+        "message": "R4 rewrite requires sufficient Speaker / Character Context to establish WHO, TO WHOM, WHY, knowledge/belief, relationship/power/pressure, and conversation state. Without this, any rewrite risks changing character intent, power dynamics, or information reveal.",
+        "text": null,
+        "handoff": null
+      },
+      "audit_record": {
+        "invocation_id": "revalidation-f06-initial",
+        "timestamp": "2026-08-24T05:52:47.465434+00:00",
+        "skill_identity": "language-voice-qa",
+        "skill_version": "0.1",
+        "skill_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+        "input_mode": "REWRITE_EXPLICIT",
+        "context_availability_summary": {
+          "provided": [
+            "Available Context",
+            "Original",
+            "Register / usage",
+            "Requested Mode"
+          ],
+          "derived_safely": [],
+          "unknown": [
+            "Project Constraints / Canon",
+            "Protected Terms / Entities",
+            "Speaker / Character Context",
+            "User Creative Intent"
+          ]
+        },
+        "final_decision_state": "NEEDS CONTEXT",
+        "severity": "LEVEL 0",
+        "route": "R4 Character Dialogue",
+        "rewrite_used": false,
+        "handoff_occurred": false,
+        "runtime_contract_passed": true,
+        "failure_code": null,
+        "failure_name": null,
+        "integrity_passed": true,
+        "log_path": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_TEST_SANDBOX\\validation\\results\\shared_qa\\v0.1\\executor_revalidation\\runtime_audit_logs\\F06\\language-voice-qa-revalidation-f06-initial.json"
+      }
+    },
+    "canonical_semantic_output": {
+      "mode": "REWRITE MODE",
+      "decision": "NEEDS CONTEXT",
+      "severity": "LEVEL 0",
+      "route": "R4 Character Dialogue",
+      "context_state": "PARTIAL",
+      "primary_finding": null,
+      "detector_ownership": "Speaker Fit",
+      "diagnostics": "R4 rewrite requires sufficient Speaker / Character Context to establish WHO, TO WHOM, WHY, knowledge/belief, relationship/power/pressure, and conversation state. Without this, any rewrite risks changing character intent, power dynamics, or information reveal.",
+      "meaning_lock_status": "NOT_REQUIRED",
+      "meaning_lock": null,
+      "benefit_result": "NOT_APPLICABLE",
+      "recommendation": "Retain the original text without modification. It is already compact, deliberate, and preserves the required ambiguity. Request speaker relationship/pressure context if a verbatim rewrite remains necessary.",
+      "rewrite_scope": null,
+      "revised_text": null,
+      "rewrite_ceiling_status": "NOT_APPLICABLE",
+      "safety_regression": {
+        "Meaning": "PASS",
+        "Fact": "PASS",
+        "Character": "PASS",
+        "Relationship": "PASS",
+        "Certainty": "PASS",
+        "Timeline": "PASS",
+        "Canon": "PASS",
+        "Register": "PASS",
+        "Role Boundary": "PASS"
+      },
+      "secondary_signal": null,
+      "role_handoff": null,
+      "contemporary_state": null,
+      "residual_warning": "No SPEAKER_CONTEXT provided; a subsequent rewrite attempt without this data may remain blocked.",
+      "canon_mutation_requested": false,
+      "invoke_dependencies": false
+    },
+    "usage": {
+      "provider": "deepseek",
+      "model": "deepseek-v4-pro",
+      "provider_invocation_id": "0cff9d36-2fa7-46b0-ab25-764818758921",
+      "usage": {
+        "prompt_tokens": 6857,
+        "completion_tokens": 393,
+        "total_tokens": 7250,
+        "prompt_cache_hit_tokens": 6528,
+        "prompt_cache_miss_tokens": 329
+      },
+      "latency_ms": 8229,
+      "thinking_mode": "disabled",
+      "fixture_id": "F06",
+      "request_success": true
+    },
+    "estimated_cost_cny": 0.0035082
+  },
+  "final": {
+    "runtime_result": {
+      "internal_runtime_result": {
+        "runtime_status": "SUCCESS",
+        "invocation_id": "revalidation-f06-initial",
+        "contract_identity": "language-voice-qa-runtime",
+        "contract_version": "0.1",
+        "skill_integrity": {
+          "identity": "language-voice-qa",
+          "version": "0.1",
+          "path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\Shared_QA\\SKILL.md",
+          "expected_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+          "metadata": {
+            "name": "language-voice-qa",
+            "description": "Perform context-appropriate Chinese Language & Voice QA with conditional, minimal rewrites. Use for reviewing a passage, project brief, dialogue, scene description, narrative prose, production note, or marketing copy; do not use it to create prose, imitate writers, decide story content, or judge real-time language trends.",
+            "type": "skill",
+            "status": "approved",
+            "review_result": "passed",
+            "version": "0.1",
+            "subject": "Language & Voice QA",
+            "installation_status": "not-installed"
+          },
+          "actual_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+          "passed": true,
+          "reason": null
+        },
+        "decision": "NEEDS CONTEXT",
+        "severity": "LEVEL 0",
+        "route": "R4 Character Dialogue",
+        "action": "request_context",
+        "rewrite_used": false,
+        "handoff": null,
+        "runtime_contract_passed": true,
+        "failure_code": null,
+        "failure_message": null,
+        "transport_metadata": {}
+      },
+      "downstream_payload": {
+        "text": "程雁把录音笔放在桌上，却没有按下播放。\n\n“你说里面是证据。”陆川盯着那支笔，“那就放。”\n\n“我说里面可能有证据。”程雁抬眼看他，“也可能只是有人希望我们相信它是。”\n\n陆川沉默了一会儿。“你怕什么？”\n\n“我怕我们一旦听完，就会以为自己知道得比现在多。”\n\n窗外的车灯从玻璃上划过去。程雁把录音笔往回收了半寸，没有把它拿走，也没有再碰开关。",
+        "original_preserved": true,
+        "decision": "NEEDS CONTEXT",
+        "severity": "LEVEL 0",
+        "route": "R4 Character Dialogue",
+        "action": "request_context",
+        "handoff": null,
+        "diagnostics": "R4 rewrite requires sufficient Speaker / Character Context to establish WHO, TO WHOM, WHY, knowledge/belief, relationship/power/pressure, and conversation state. Without this, any rewrite risks changing character intent, power dynamics, or information reveal."
+      },
+      "user_facing_result": {
+        "status": "SUCCESS",
+        "decision": "NEEDS CONTEXT",
+        "message": "R4 rewrite requires sufficient Speaker / Character Context to establish WHO, TO WHOM, WHY, knowledge/belief, relationship/power/pressure, and conversation state. Without this, any rewrite risks changing character intent, power dynamics, or information reveal.",
+        "text": null,
+        "handoff": null
+      },
+      "audit_record": {
+        "invocation_id": "revalidation-f06-initial",
+        "timestamp": "2026-08-24T05:52:47.465434+00:00",
+        "skill_identity": "language-voice-qa",
+        "skill_version": "0.1",
+        "skill_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+        "input_mode": "REWRITE_EXPLICIT",
+        "context_availability_summary": {
+          "provided": [
+            "Available Context",
+            "Original",
+            "Register / usage",
+            "Requested Mode"
+          ],
+          "derived_safely": [],
+          "unknown": [
+            "Project Constraints / Canon",
+            "Protected Terms / Entities",
+            "Speaker / Character Context",
+            "User Creative Intent"
+          ]
+        },
+        "final_decision_state": "NEEDS CONTEXT",
+        "severity": "LEVEL 0",
+        "route": "R4 Character Dialogue",
+        "rewrite_used": false,
+        "handoff_occurred": false,
+        "runtime_contract_passed": true,
+        "failure_code": null,
+        "failure_name": null,
+        "integrity_passed": true,
+        "log_path": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_TEST_SANDBOX\\validation\\results\\shared_qa\\v0.1\\executor_revalidation\\runtime_audit_logs\\F06\\language-voice-qa-revalidation-f06-initial.json"
+      }
+    },
+    "canonical_semantic_output": {
+      "mode": "REWRITE MODE",
+      "decision": "NEEDS CONTEXT",
+      "severity": "LEVEL 0",
+      "route": "R4 Character Dialogue",
+      "context_state": "PARTIAL",
+      "primary_finding": null,
+      "detector_ownership": "Speaker Fit",
+      "diagnostics": "R4 rewrite requires sufficient Speaker / Character Context to establish WHO, TO WHOM, WHY, knowledge/belief, relationship/power/pressure, and conversation state. Without this, any rewrite risks changing character intent, power dynamics, or information reveal.",
+      "meaning_lock_status": "NOT_REQUIRED",
+      "meaning_lock": null,
+      "benefit_result": "NOT_APPLICABLE",
+      "recommendation": "Retain the original text without modification. It is already compact, deliberate, and preserves the required ambiguity. Request speaker relationship/pressure context if a verbatim rewrite remains necessary.",
+      "rewrite_scope": null,
+      "revised_text": null,
+      "rewrite_ceiling_status": "NOT_APPLICABLE",
+      "safety_regression": {
+        "Meaning": "PASS",
+        "Fact": "PASS",
+        "Character": "PASS",
+        "Relationship": "PASS",
+        "Certainty": "PASS",
+        "Timeline": "PASS",
+        "Canon": "PASS",
+        "Register": "PASS",
+        "Role Boundary": "PASS"
+      },
+      "secondary_signal": null,
+      "role_handoff": null,
+      "contemporary_state": null,
+      "residual_warning": "No SPEAKER_CONTEXT provided; a subsequent rewrite attempt without this data may remain blocked.",
+      "canon_mutation_requested": false,
+      "invoke_dependencies": false
+    },
+    "usage": {
+      "provider": "deepseek",
+      "model": "deepseek-v4-pro",
+      "provider_invocation_id": "0cff9d36-2fa7-46b0-ab25-764818758921",
+      "usage": {
+        "prompt_tokens": 6857,
+        "completion_tokens": 393,
+        "total_tokens": 7250,
+        "prompt_cache_hit_tokens": 6528,
+        "prompt_cache_miss_tokens": 329
+      },
+      "latency_ms": 8229,
+      "thinking_mode": "disabled",
+      "fixture_id": "F06",
+      "request_success": true
+    },
+    "estimated_cost_cny": 0.0035082
+  },
+  "evidence": null
+}

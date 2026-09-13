@@ -1,0 +1,58 @@
+{
+  "source_role": "Scene Writer",
+  "source_record_id": "E2E-RUN-17/scene_writer/1",
+  "version": "1.0",
+  "timestamp": "2026-08-31T03:35:17.540769+00:00",
+  "intended_recipient": "Director",
+  "handoff_reason": "Three-scene locked package",
+  "canon_assignment_locks": [
+    "characters: 许宁, 许曼",
+    "prop: entity_id=A-17, identity_lock=A-17, custody_required=true, condition_lock=brass_key",
+    "knowledge: event_id=shared_storage_reveal, holder=许曼, not_before_scene=3",
+    "visual_state: dimension=clothing_visual_state_code, allowed_tokens=[soaked_uniform, changed_clothes]",
+    "decision_locks: storage_room_opening"
+  ],
+  "prohibited_changes": [
+    "完全和解",
+    "relationship: 不得自动升级为完全和解"
+  ],
+  "canonical_mode": "CREATE",
+  "primary_state_or_outcome": "SCENE_CREATED",
+  "flags": "ABSENT",
+  "handoffs": "ABSENT",
+  "required_outcome": "ABSENT",
+  "unresolved_decisions": [
+    "storage_room_opening 是否在本三场结构中发生，或仅作为后续悬而未决的决定"
+  ],
+  "relevant_prior_state": {
+    "relationship_state": "久未联系，关系疏离，未和解",
+    "knowledge_state": "许宁不知 shared_storage_reveal",
+    "visual_state": "许宁 clothing_visual_state_code = soaked_uniform"
+  },
+  "current_state": {
+    "relationship_state": "许宁将钥匙交给许曼，许曼承认母亲遗留钥匙并要求换衣等天亮",
+    "knowledge_state": "许曼持有 shared_storage_reveal（仅场景3前揭示）",
+    "visual_state": "许宁 clothing_visual_state_code = soaked_uniform"
+  },
+  "proposed_state": {
+    "relationship_state": "关系未和解，但开始有接触，许宁产生好奇与不安",
+    "knowledge_state": "场景3时 shared_storage_reveal 由许曼揭示",
+    "visual_state": "许宁 clothing_visual_state_code 可由 soaked_uniform 变为 changed_clothes"
+  },
+  "knowledge_timing": {
+    "reveal_of_shared_use": "not_before_scene=3",
+    "reveal_of_room_content": "ABSENT"
+  },
+  "relationship_state": {
+    "initial": "疏离、久未联系",
+    "after_scene_1": "许曼提出条件，许宁未服从，关系转为对峙张力",
+    "after_scene_3": "揭示后关系未和解，但出现微妙靠近与更深的悬置"
+  },
+  "visual_state": {
+    "scene_1": "许宁 clothing_visual_state_code = soaked_uniform",
+    "scene_2": "许宁 clothing_visual_state_code = changed_clothes",
+    "scene_3": "许宁 clothing_visual_state_code = changed_clothes"
+  },
+  "authority_source": "Scene Writer canonical Skill output",
+  "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-17\\artifacts\\scene_writer_output.json"
+}

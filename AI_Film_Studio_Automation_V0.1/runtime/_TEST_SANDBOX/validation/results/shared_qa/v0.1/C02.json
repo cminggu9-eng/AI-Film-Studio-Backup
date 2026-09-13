@@ -1,0 +1,106 @@
+{
+  "fixture_id": "C02",
+  "fixture_path": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_TEST_SANDBOX\\validation\\fixtures\\shared_qa\\v0.1\\C02_ambiguous_contemporary.md",
+  "runtime_result": {
+    "internal_runtime_result": {
+      "runtime_status": "FAIL_SAFE",
+      "invocation_id": "shared-qa-e2e-c02",
+      "contract_identity": "language-voice-qa-runtime",
+      "contract_version": "0.1",
+      "skill_integrity": {
+        "identity": "language-voice-qa",
+        "version": "0.1",
+        "path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\Shared_QA\\SKILL.md",
+        "expected_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+        "metadata": {
+          "name": "language-voice-qa",
+          "description": "Perform context-appropriate Chinese Language & Voice QA with conditional, minimal rewrites. Use for reviewing a passage, project brief, dialogue, scene description, narrative prose, production note, or marketing copy; do not use it to create prose, imitate writers, decide story content, or judge real-time language trends.",
+          "type": "skill",
+          "status": "approved",
+          "review_result": "passed",
+          "version": "0.1",
+          "subject": "Language & Voice QA",
+          "installation_status": "not-installed"
+        },
+        "actual_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+        "passed": true,
+        "reason": null
+      },
+      "decision": null,
+      "severity": null,
+      "route": null,
+      "action": "safe_stop",
+      "rewrite_used": false,
+      "handoff": null,
+      "runtime_contract_passed": false,
+      "failure_code": "F3",
+      "failure_message": "Skill executor failed: CanonicalExecutorBindingUnavailable",
+      "transport_metadata": {}
+    },
+    "downstream_payload": {
+      "text": "小组群里有人说，新来的实习生一进门就“班味很重”。周蔓看了半天，没立刻转发。她不知道这句话是在说疲惫、规矩多，还是只是在拿对方开玩笑。\n\n“别替他下定义，”她说，“先问清楚这词在你们那个群里到底是什么意思。”",
+      "original_preserved": true,
+      "decision": null,
+      "severity": null,
+      "route": null,
+      "action": "safe_stop",
+      "handoff": null,
+      "diagnostics": null
+    },
+    "user_facing_result": {
+      "status": "FAIL_SAFE",
+      "decision": null,
+      "message": "Skill executor failed: CanonicalExecutorBindingUnavailable",
+      "text": null,
+      "handoff": null
+    },
+    "audit_record": {
+      "invocation_id": "shared-qa-e2e-c02",
+      "timestamp": "2026-08-24T03:34:31.429794+00:00",
+      "skill_identity": "language-voice-qa",
+      "skill_version": "0.1",
+      "skill_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+      "input_mode": "QA_DEFAULT",
+      "context_availability_summary": {
+        "provided": [
+          "Available Context",
+          "Original",
+          "Register / usage",
+          "Requested Mode"
+        ],
+        "derived_safely": [],
+        "unknown": [
+          "Project Constraints / Canon",
+          "Protected Terms / Entities",
+          "Speaker / Character Context",
+          "User Creative Intent"
+        ]
+      },
+      "final_decision_state": null,
+      "severity": null,
+      "route": null,
+      "rewrite_used": false,
+      "handoff_occurred": false,
+      "runtime_contract_passed": false,
+      "failure_code": "F3",
+      "failure_name": "SKILL_INVOCATION_FAILURE",
+      "integrity_passed": true,
+      "log_path": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_TEST_SANDBOX\\validation\\results\\shared_qa\\v0.1\\runtime_audit_logs\\C02\\language-voice-qa-shared-qa-e2e-c02.json"
+    }
+  },
+  "automated_evaluation": {
+    "status": "NOT EVALUABLE — EXECUTION BINDING MISSING",
+    "validation_severity": "V5",
+    "ownership": "Runtime Integration / execution binding",
+    "expected_f3_fail_safe": true,
+    "metrics": {
+      "expected_issues": "UNAVAILABLE — NO EXECUTOR OUTPUT",
+      "detected_issues": "UNAVAILABLE — NO EXECUTOR OUTPUT",
+      "false_positives": "UNAVAILABLE — NO EXECUTOR OUTPUT",
+      "missed_critical_issues": "UNAVAILABLE — NO EXECUTOR OUTPUT",
+      "rewrite_scope": "UNAVAILABLE — NO EXECUTOR OUTPUT",
+      "changed_characters": "UNAVAILABLE — NO EXECUTOR OUTPUT",
+      "changed_sentences": "UNAVAILABLE — NO EXECUTOR OUTPUT"
+    }
+  }
+}

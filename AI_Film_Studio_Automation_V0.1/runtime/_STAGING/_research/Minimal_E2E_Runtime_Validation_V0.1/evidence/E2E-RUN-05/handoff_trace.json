@@ -1,0 +1,32 @@
+[
+  {
+    "from": "Showrunner",
+    "to": "Scene Writer",
+    "envelope_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-05\\envelopes\\01_showrunner_to_scene_writer.json"
+  },
+  {
+    "from": "Scene Writer",
+    "to": "Director",
+    "envelope_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-05\\envelopes\\02_scene_writer_to_director.json"
+  },
+  {
+    "from": "Director",
+    "to": "Character & Acting",
+    "envelope_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-05\\envelopes\\03_director_to_character_acting.json"
+  },
+  {
+    "from": "Character & Acting",
+    "to": "Art Director",
+    "envelope_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-05\\envelopes\\04_character_acting_to_art_director.json"
+  },
+  {
+    "from": "Art Director",
+    "to": "Continuity",
+    "envelope_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-05\\envelopes\\05_art_director_to_continuity.json"
+  },
+  {
+    "from": "Continuity",
+    "to": "Shared QA",
+    "envelope_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-05\\envelopes\\06_continuity_to_shared_qa.json"
+  }
+]

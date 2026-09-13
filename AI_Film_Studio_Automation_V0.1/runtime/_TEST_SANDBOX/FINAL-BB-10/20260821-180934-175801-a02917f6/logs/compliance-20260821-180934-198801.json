@@ -1,0 +1,200 @@
+{
+  "receipt": {
+    "timestamp": "2026-08-21T10:09:34+00:00",
+    "task": "Runtime Gate fail-safe proof",
+    "routed_role": "Unmatched",
+    "skill_name": null,
+    "skill_path": null,
+    "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+    "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+    "hash_match": true,
+    "skill_name_match": true,
+    "project_state": "DRAFT",
+    "mode": "UNMATCHED",
+    "output_type": "No Showrunner Output",
+    "activated_modules": [],
+    "boundary_contract": null
+  },
+  "candidate_v1": {
+    "task": "Runtime Gate fail-safe proof",
+    "routed_role": "Unmatched",
+    "skill_name": null,
+    "skill_path": null,
+    "mode": "UNMATCHED",
+    "output_type": "No Showrunner Output",
+    "activated_modules": [],
+    "boundary_contract": null,
+    "project_state": "DRAFT",
+    "candidate_version": "V1",
+    "candidate_output": "以后所有项目每 60 秒必须发生一次有效变化，每三分钟至少一次反转，每集必须 cliffhanger。"
+  },
+  "gate_v1": {
+    "status": "FAIL",
+    "candidate_version": "V1",
+    "correction_count": 0,
+    "violations": [
+      {
+        "code": "FIXED_PACING_OR_REVERSAL",
+        "offending_text": "以后所有项目每 60 秒必须发生一次有效变化，每三分钟至少一次反转，每集必须 cliffhanger",
+        "expected_behavior": "Use an explicitly project-specific, conditional heuristic instead of a cross-project pacing or episode quota."
+      }
+    ],
+    "receipt": {
+      "timestamp": "2026-08-21T10:09:34+00:00",
+      "task": "Runtime Gate fail-safe proof",
+      "routed_role": "Unmatched",
+      "skill_name": null,
+      "skill_path": null,
+      "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "hash_match": true,
+      "skill_name_match": true,
+      "project_state": "DRAFT",
+      "mode": "UNMATCHED",
+      "output_type": "No Showrunner Output",
+      "activated_modules": [],
+      "boundary_contract": null
+    },
+    "active_rules": [
+      "GLOBAL",
+      "BOUNDARY_CONTRACT",
+      "ANTI_MECHANICAL",
+      "PRODUCTION_REALITY"
+    ],
+    "next": "COMPLIANCE VIOLATION REPORT",
+    "final_delivery_status": "BLOCKED_PENDING"
+  },
+  "violations": [
+    {
+      "code": "FIXED_PACING_OR_REVERSAL",
+      "offending_text": "以后所有项目每 60 秒必须发生一次有效变化，每三分钟至少一次反转，每集必须 cliffhanger",
+      "expected_behavior": "Use an explicitly project-specific, conditional heuristic instead of a cross-project pacing or episode quota."
+    }
+  ],
+  "correction_count": 1,
+  "candidate_v2": {
+    "task": "Runtime Gate fail-safe proof",
+    "routed_role": "Unmatched",
+    "skill_name": null,
+    "skill_path": null,
+    "mode": "UNMATCHED",
+    "output_type": "No Showrunner Output",
+    "activated_modules": [],
+    "boundary_contract": null,
+    "project_state": "DRAFT",
+    "candidate_version": "V2",
+    "candidate_output": "以后所有项目每 60 秒必须发生一次有效变化，每三分钟至少一次反转，每集必须 cliffhanger。"
+  },
+  "gate_v2": {
+    "status": "FAIL",
+    "candidate_version": "V2",
+    "correction_count": 0,
+    "violations": [
+      {
+        "code": "FIXED_PACING_OR_REVERSAL",
+        "offending_text": "以后所有项目每 60 秒必须发生一次有效变化，每三分钟至少一次反转，每集必须 cliffhanger",
+        "expected_behavior": "Use an explicitly project-specific, conditional heuristic instead of a cross-project pacing or episode quota."
+      }
+    ],
+    "receipt": {
+      "timestamp": "2026-08-21T10:09:34+00:00",
+      "task": "Runtime Gate fail-safe proof",
+      "routed_role": "Unmatched",
+      "skill_name": null,
+      "skill_path": null,
+      "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "hash_match": true,
+      "skill_name_match": true,
+      "project_state": "DRAFT",
+      "mode": "UNMATCHED",
+      "output_type": "No Showrunner Output",
+      "activated_modules": [],
+      "boundary_contract": null
+    },
+    "active_rules": [
+      "GLOBAL",
+      "BOUNDARY_CONTRACT",
+      "ANTI_MECHANICAL",
+      "PRODUCTION_REALITY"
+    ],
+    "next": "COMPLIANCE VIOLATION REPORT",
+    "final_delivery_status": "BLOCKED_PENDING"
+  },
+  "final_delivery_status": "BLOCKED",
+  "router": {
+    "routed_role": "Unmatched",
+    "mode": "UNMATCHED",
+    "output_type": "No Showrunner Output",
+    "activated_modules": [],
+    "trigger": "no configured intent",
+    "boundary_contract": null,
+    "skill_name": null,
+    "skill_path": null,
+    "file_exists": true,
+    "file_readable": true,
+    "skill_name_correct": true,
+    "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+    "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+    "hash_match": true,
+    "invocation_receipt": {
+      "timestamp": "2026-08-21T10:09:34+00:00",
+      "task": "Runtime Gate fail-safe proof",
+      "routed_role": "Unmatched",
+      "skill_name": null,
+      "skill_path": null,
+      "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "hash_match": true,
+      "skill_name_match": true,
+      "project_state": "UNKNOWN",
+      "mode": "UNMATCHED",
+      "output_type": "No Showrunner Output",
+      "activated_modules": [],
+      "boundary_contract": null
+    }
+  },
+  "gate_final": {
+    "status": "FAIL",
+    "candidate_version": "V2",
+    "correction_count": 1,
+    "violations": [
+      {
+        "code": "FIXED_PACING_OR_REVERSAL",
+        "offending_text": "以后所有项目每 60 秒必须发生一次有效变化，每三分钟至少一次反转，每集必须 cliffhanger",
+        "expected_behavior": "Use an explicitly project-specific, conditional heuristic instead of a cross-project pacing or episode quota."
+      }
+    ],
+    "receipt": {
+      "timestamp": "2026-08-21T10:09:34+00:00",
+      "task": "Runtime Gate fail-safe proof",
+      "routed_role": "Unmatched",
+      "skill_name": null,
+      "skill_path": null,
+      "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "hash_match": true,
+      "skill_name_match": true,
+      "project_state": "DRAFT",
+      "mode": "UNMATCHED",
+      "output_type": "No Showrunner Output",
+      "activated_modules": [],
+      "boundary_contract": null
+    },
+    "active_rules": [
+      "GLOBAL",
+      "BOUNDARY_CONTRACT",
+      "ANTI_MECHANICAL",
+      "PRODUCTION_REALITY"
+    ],
+    "next": "BLOCKED FOR RUNTIME COMPLIANCE",
+    "final_delivery_status": "BLOCKED",
+    "first_candidate_violations": [
+      {
+        "code": "FIXED_PACING_OR_REVERSAL",
+        "offending_text": "以后所有项目每 60 秒必须发生一次有效变化，每三分钟至少一次反转，每集必须 cliffhanger",
+        "expected_behavior": "Use an explicitly project-specific, conditional heuristic instead of a cross-project pacing or episode quota."
+      }
+    ]
+  }
+}

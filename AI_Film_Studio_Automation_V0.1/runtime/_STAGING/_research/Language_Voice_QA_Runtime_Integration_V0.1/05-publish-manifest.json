@@ -1,0 +1,40 @@
+{
+  "snapshot_identity": "Language_Voice_QA_Runtime_Integration_V0.1",
+  "snapshot_version": "0.1",
+  "publish_date": "2026-08-24",
+  "canonical_skill": {
+    "identity": "language-voice-qa",
+    "version": "0.1",
+    "sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D"
+  },
+  "gates": {
+    "architecture_audit": "PASS",
+    "seven_state_mapping": "7/7 PASS",
+    "test_rt01_rt20": "20/20 PASS",
+    "production_safety_stress": "10/10 PASS",
+    "runtime_drift_audit": "PASS - 0 unauthorized semantic drift",
+    "static_audit": "PASS",
+    "hash_integrity": "11/11 PASS",
+    "full_passage_fixture": "SKIP - FIXTURE NOT AVAILABLE",
+    "synthetic_end_to_end": "PASS - SYNTHETIC / NON-CANON"
+  },
+  "files": {
+    "runtime/shared_qa/__init__.py": "7716EDBE30456D75DC8EDDF5384535544211597E0F7BB6AE4E05425BFC2966A8",
+    "runtime/shared_qa/language_voice_qa_runtime.py": "A86C9DA17254C594EE9391290E90100B506716B2E54346E833B99B0D665CFDDE",
+    "runtime/shared_qa/language_voice_qa_contract.json": "1F0C06A66452831F3F0943766FA16FA0A409308F5A22CA6A1C57EC707A07C1F3",
+    "runtime/shared_qa/Language_Voice_QA_Runtime_Contract_V0.1.md": "288DD7594F35BAE9CE489CE3FD23CDCD1D85D8008480B37834E7BF4DED9B78CB",
+    "scripts/test_language_voice_qa_runtime.py": "A0BAC0B6F16F3FA43FE55C8772CD7FA32BCB54B7CE162BEBD4DE8A58914E3558",
+    "00-architecture-audit.md": "0A936D81C4F7B096B9D1E0ADDC9CFB47E88C24A60123F7E31A5A5B509DCB1066",
+    "01-integrity-baseline.json": "A0281EB450BED7EA05E1CA7987DEFE13B41B4DC5AE5AABA5F308ECC23B44B380",
+    "02-test-report.md": "3DDA5E032AC1BEB062A74A77C5E511C4E2F9E56CB05417204E3AAF2A294AF6D8",
+    "03-runtime-drift-audit.md": "18D229FE2A3917DA8E45F42C25BBB50EB7F29BEC54F0FB3D73C2C8B35C84DBA8",
+    "04-static-hash-audit.md": "352C2632EB3D2213EFA1B0951CCB81B681ED5C04091906266464420E0EC470C4",
+    "06-final-review.md": "E1E38FC78B255D5E193979E1C73DE278FFED5F49B2C23C2B9BD4553CC223E638",
+    "tasks/shared_qa/Language_Voice_QA_Runtime_Integration_Task_V0.1.md": "73E55A0E901620F48D560CE318C8AC6FE0A8B0A78DADA4BC87249572048DAD4B"
+  },
+  "locked_showrunner_modified": false,
+  "canonical_language_voice_qa_modified": false,
+  "canon_modified": false,
+  "contemporary_layer_started": false,
+  "scene_writer_started": false
+}

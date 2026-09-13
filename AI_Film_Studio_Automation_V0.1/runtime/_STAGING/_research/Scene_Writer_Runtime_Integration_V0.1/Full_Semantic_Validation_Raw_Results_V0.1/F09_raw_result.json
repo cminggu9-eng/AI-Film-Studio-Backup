@@ -1,0 +1,235 @@
+{
+  "fixture": {
+    "id": "F09",
+    "title": "Character Knowledge Integrity",
+    "focus": [
+      "world_fact",
+      "knowledge_scope",
+      "uncertain_inference",
+      "revelation"
+    ],
+    "expected_boundaries": {
+      "must": [
+        "区分世界事实与人物是否知道",
+        "未知人物只能推测并保持不确定",
+        "若信息被告知，呈现可见交接"
+      ],
+      "must_not": [
+        "让未知人物在告知前说出确定事实",
+        "新增拒绝原因或第三方信息源"
+      ]
+    },
+    "assignment": {
+      "requested_mode": "CREATE",
+      "output_language": "zh-CN",
+      "project_id": "FSV-SYNTHETIC",
+      "episode_id": "FSV-EP01",
+      "scene_id": "F09",
+      "scene_request": "写一个明确区分世界事实和人物知识范围的短场景。",
+      "scene_purpose": "让一份申请结果被选择性地告知。",
+      "repair_target": null,
+      "canon_locks": [
+        "地点是医院外的长椅。",
+        "人物只有顾晴和岳临。",
+        "世界事实：岳临的住院申请已被拒绝。",
+        "顾晴知道申请被拒绝；岳临尚不知道。",
+        "拒绝原因未提供，任何人都不知道原因。"
+      ],
+      "showrunner_locks": [
+        "场景结束时，顾晴把拒绝结果告诉岳临；岳临要求先看通知，不追问未提供的原因。"
+      ],
+      "participants": [
+        {
+          "name": "顾晴",
+          "role": "陪同者",
+          "objective": "决定如何告知结果。",
+          "knowledge": "知道申请被拒绝；不知道原因。",
+          "constraint": "不能给出拒绝原因。"
+        },
+        {
+          "name": "岳临",
+          "role": "申请人",
+          "objective": "确认申请进展。",
+          "knowledge": "尚不知道申请已被拒绝。",
+          "constraint": "在收到告知前只能不确定地询问或推测。"
+        }
+      ],
+      "character_context": {
+        "relationship": "相互陪同的熟人；未提供更深历史。",
+        "creative_freedom": "可用通知、长椅、停顿、询问和选择。"
+      },
+      "required_event": "岳临询问进展，顾晴选择告知。",
+      "required_information": "申请被拒绝；原因未知。",
+      "required_outcome": "岳临要求先看通知。",
+      "prior_scene_state": "顾晴拿着通知，岳临刚从窗口回来。",
+      "desired_post_state": "岳临已知结果，但原因仍未知。",
+      "production_constraints": null,
+      "requested_form": "短、可演场景；无镜头或表演系统。",
+      "downstream_requests": [],
+      "qa_requests": []
+    }
+  },
+  "sequence": 9,
+  "classification": "FULL SEMANTIC VALIDATION / SYNTHETIC / NON-CANON / REAL SEMANTIC EXECUTION",
+  "formal_execution_count_for_fixture": 1,
+  "resamples_for_fixture": 0,
+  "provider": "deepseek",
+  "model": "deepseek-v4-pro",
+  "assignment": {
+    "requested_mode": "CREATE",
+    "output_language": "zh-CN",
+    "project_id": "FSV-SYNTHETIC",
+    "episode_id": "FSV-EP01",
+    "scene_id": "F09",
+    "scene_request": "写一个明确区分世界事实和人物知识范围的短场景。",
+    "scene_purpose": "让一份申请结果被选择性地告知。",
+    "repair_target": null,
+    "canon_locks": [
+      "地点是医院外的长椅。",
+      "人物只有顾晴和岳临。",
+      "世界事实：岳临的住院申请已被拒绝。",
+      "顾晴知道申请被拒绝；岳临尚不知道。",
+      "拒绝原因未提供，任何人都不知道原因。"
+    ],
+    "showrunner_locks": [
+      "场景结束时，顾晴把拒绝结果告诉岳临；岳临要求先看通知，不追问未提供的原因。"
+    ],
+    "participants": [
+      {
+        "name": "顾晴",
+        "role": "陪同者",
+        "objective": "决定如何告知结果。",
+        "knowledge": "知道申请被拒绝；不知道原因。",
+        "constraint": "不能给出拒绝原因。"
+      },
+      {
+        "name": "岳临",
+        "role": "申请人",
+        "objective": "确认申请进展。",
+        "knowledge": "尚不知道申请已被拒绝。",
+        "constraint": "在收到告知前只能不确定地询问或推测。"
+      }
+    ],
+    "character_context": {
+      "relationship": "相互陪同的熟人；未提供更深历史。",
+      "creative_freedom": "可用通知、长椅、停顿、询问和选择。"
+    },
+    "required_event": "岳临询问进展，顾晴选择告知。",
+    "required_information": "申请被拒绝；原因未知。",
+    "required_outcome": "岳临要求先看通知。",
+    "prior_scene_state": "顾晴拿着通知，岳临刚从窗口回来。",
+    "desired_post_state": "岳临已知结果，但原因仍未知。",
+    "production_constraints": null,
+    "requested_form": "短、可演场景；无镜头或表演系统。",
+    "downstream_requests": [],
+    "qa_requests": [],
+    "request_id": "FSV-SW-F09"
+  },
+  "runtime_result": {
+    "runtime_status": "SUCCESS",
+    "runtime_failure_code": null,
+    "runtime_failure_message": null,
+    "request_id": "FSV-SW-F09",
+    "canonical_binding": {
+      "identity": "scene-writer",
+      "version": "V0.1",
+      "canonical_path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\02_Scene_Writer\\scene-writer\\SKILL.md",
+      "expected_sha256": "93e1be12988f8caa6cdd76acb5e6c1bf6ad3ca0dff5806a2ea93511e66052dfb",
+      "adapter_status": "REGISTERED",
+      "real_executor": "BOUND",
+      "semantic_integrity_verifier": "BOUND",
+      "synthetic_executor": "NOT_PRESENT",
+      "actual_sha256": "93e1be12988f8caa6cdd76acb5e6c1bf6ad3ca0dff5806a2ea93511e66052dfb",
+      "metadata": {
+        "name": "scene-writer",
+        "display_version": "V0.1"
+      },
+      "passed": true,
+      "reason": null
+    },
+    "idempotency": "NEW",
+    "scene_writer": {
+      "creative_deliverable": {
+        "kind": "scene",
+        "content": "医院外的长椅上。\n\n顾晴坐着，手里拿着一张对折的通知，指节轻轻压着纸边。岳临从旁边走来，在长椅另一头坐下，侧过身。\n\n岳临：有消息了吗？\n\n顾晴没有马上回答。她把通知在膝盖上展开又折上，然后递向岳临。\n\n顾晴：你自己看吧。\n\n岳临接过通知，打开。他的目光停在纸上。过了一会儿，他把通知合上，看着顾晴。\n\n岳临：先让我看看。\n\n顾晴点点头，没说话。岳临把通知放在两人之间的座位上，没再看它。"
+      },
+      "control_data": {
+        "primary_state": "SCENE_CREATED",
+        "flags": [],
+        "handoffs": [],
+        "scene_function": "选择性告知：岳临询问进展，顾晴通过递出通知的方式告知拒绝结果。",
+        "objectives": "顾晴：决定如何告知结果；岳临：确认申请进展。",
+        "resistance": "顾晴在开口与沉默之间犹豫，选择最低限度的告知方式；岳临的询问与对信息的接收形成互动。",
+        "before_state": "顾晴拿着通知，岳临刚从窗口回来，尚不知结果。",
+        "turn": "岳临从不知情变为已知情（通过阅读通知），同时明确表达要先看通知而非追问原因。",
+        "state_after": "岳临已知申请被拒绝，但不知道原因；顾晴未提供任何额外信息。",
+        "entry_rationale": "场景直接从岳临坐下并开口询问开始，进入最早有戏剧压力的时刻。",
+        "exit_rationale": "在岳临看完通知并提出“先让我看看”后结束，保持原因未知并防止追问。",
+        "diagnosis_summary": "无违规。所有锁定事实保持完整，未知信息未被推测或填补。",
+        "rule_hits": []
+      }
+    },
+    "output_language": "zh-CN",
+    "output_language_resolution": "EXPLICIT",
+    "assignment_fact_validation": {
+      "status": "PASS",
+      "guard_profile": [
+        "LOCKED_FACT_PRESERVATION",
+        "UNSPECIFIED_FACT_PROHIBITION",
+        "CHARACTER_KNOWLEDGE_SCOPE",
+        "EXPLICIT_UNKNOWN_REASON"
+      ],
+      "violations": []
+    },
+    "semantic_integrity_validation": {
+      "integrity_result": "PASS",
+      "violations": []
+    }
+  },
+  "unexpected_exception": null,
+  "generation_usage": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-pro",
+    "provider_invocation_id": "bc6180d3-21f5-4b44-b357-0c2b548d2c10",
+    "usage": {
+      "prompt_tokens": 4197,
+      "completion_tokens": 453,
+      "total_tokens": 4650,
+      "prompt_cache_hit_tokens": 3200,
+      "prompt_cache_miss_tokens": 997
+    },
+    "latency_ms": 10133,
+    "thinking_mode": "disabled",
+    "fixture_id": "F09",
+    "request_success": true
+  },
+  "verification_usage": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-pro",
+    "provider_invocation_id": "e326a5d5-7553-4452-990f-0af5d194b92c",
+    "usage": {
+      "prompt_tokens": 1717,
+      "completion_tokens": 18,
+      "total_tokens": 1735,
+      "prompt_cache_hit_tokens": 768,
+      "prompt_cache_miss_tokens": 949
+    },
+    "latency_ms": 2551,
+    "thinking_mode": "disabled",
+    "fixture_id": "semantic-assignment-integrity",
+    "request_success": true
+  },
+  "estimated_cost_cny": {
+    "generation": 0.005789,
+    "verification": 0.0029742,
+    "total": 0.0087632
+  },
+  "pricing_basis": {
+    "currency": "CNY",
+    "unit": "per_1M_tokens",
+    "input_cache_hit": 0.025,
+    "input_cache_miss": 3.0,
+    "output": 6.0,
+    "status": "ESTIMATED"
+  }
+}

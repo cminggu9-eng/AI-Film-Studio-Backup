@@ -1,0 +1,52 @@
+{
+  "integration_decision": "PASS",
+  "allowed_labels": [
+    "PASS",
+    "FLAG",
+    "BLOCK",
+    "HANDOFF"
+  ],
+  "layer_a": {
+    "name": "Deterministic Evidence / Contract Gate",
+    "findings": [],
+    "source_role": "Scene Writer",
+    "source_record_id": "E2E-RUN-12/scene_writer/1",
+    "version": "1.0",
+    "locks": [
+      "scene_count: 3",
+      "output_language: zh-CN",
+      "characters: [许宁, 许曼]",
+      "relationship: [不得自动升级为完全和解]",
+      "prop: {entity_id: A-17, identity_lock: A-17, custody_required: true, condition_lock: brass_key}",
+      "knowledge: [{event_id: shared_storage_reveal, holder: 许曼, not_before_scene: 3}]",
+      "visual_state: [{dimension: clothing_visual_state_code, allowed_tokens: [soaked_uniform, changed_clothes]}]",
+      "prohibited: [完全和解]",
+      "decision_locks: [storage_room_opening]"
+    ],
+    "current_state": {
+      "relationship_state": "试探与保留并存，未和解",
+      "knowledge_state": "许曼未提前透露 shared_storage_reveal",
+      "visual_state": "scene1 soaked_uniform；scene2/3 changed_clothes"
+    },
+    "authority_source": "Scene Writer canonical Skill output",
+    "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-12\\artifacts\\scene_writer_output.json"
+  },
+  "layer_b": {
+    "layer": "B",
+    "independent_review_required": false,
+    "review_candidates": [],
+    "allowed_labels": [
+      "PASS",
+      "FLAG",
+      "BLOCK",
+      "HANDOFF"
+    ],
+    "provider_execution": "NOT_AUTHORIZED",
+    "creative_output_sha256": "9420748cc4912922dd6ce015c9455cb3e182e2f2edf04d8787b31e087822fcab",
+    "review_status": "PASS"
+  },
+  "legacy_verifier_result": "ABSENT",
+  "legacy_verifier_role": "SUPPLEMENTAL_SIGNAL_ONLY",
+  "creative_output_sha256": "9420748cc4912922dd6ce015c9455cb3e182e2f2edf04d8787b31e087822fcab",
+  "creative_output_rewrite": "PROHIBITED"
+}

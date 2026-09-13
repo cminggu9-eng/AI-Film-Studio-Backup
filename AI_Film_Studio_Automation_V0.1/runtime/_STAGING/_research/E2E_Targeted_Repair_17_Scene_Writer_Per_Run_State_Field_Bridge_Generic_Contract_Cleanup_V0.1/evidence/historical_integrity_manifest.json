@@ -1,0 +1,24 @@
+{
+  "classification": "E2E-RUN-06-21 IMMUTABLE TREE INVENTORY",
+  "algorithm": "sha256(sorted(relative_path + '|' + uppercase_file_sha256), joined_with_lf)",
+  "runs": {
+    "E2E-RUN-06":{"file_count":31,"sha256":"6057b98552e57320bd87ee3316267c98523c698e164c649e3ab9b828436afae5"},
+    "E2E-RUN-07":{"file_count":31,"sha256":"104b53f99632d1d22ebdcbe9bc1c5dc8d3b77302809c3bb2c14bd7b8d3588711"},
+    "E2E-RUN-08":{"file_count":33,"sha256":"87e56e38fcfbf71e8d54c6042cb80e2a1f78fcb8bd70d09a24ecab9659279491"},
+    "E2E-RUN-09":{"file_count":40,"sha256":"9bdb0c01c6d168bc6b72453f3568d573ad3fd51f6932c3be552274b896408472"},
+    "E2E-RUN-10":{"file_count":24,"sha256":"db27f0baa475b71506dd3a09bedfb0314376a62ed43dc623f5127e34ee24f5c1"},
+    "E2E-RUN-11":{"file_count":19,"sha256":"13a2960366d2599a74ec57811c01703f132089c69798bb9406b9bf08fc185305"},
+    "E2E-RUN-12":{"file_count":35,"sha256":"6e226e0ed4b984870dab65c4ce06b932d70ae8621eb44697b2178f685e512959"},
+    "E2E-RUN-13":{"file_count":70,"sha256":"698f5f157b85490a047bb9bec2b55a45f6153ab667a5402b883c355d562cb777"},
+    "E2E-RUN-14":{"file_count":41,"sha256":"eedf45b8327b2fccc950d8a0dcda5e27ff100c1fed6d70ef8b68906fc1004829"},
+    "E2E-RUN-15":{"file_count":57,"sha256":"e18ab8027988497c57e7b1db7b36e51d18ba7af599bc27af601d16aa1aa7e5d7"},
+    "E2E-RUN-16":{"file_count":69,"sha256":"2f52a4f46a1c2e663840ab161448b8d3276c8fa657fbe186377acb34a7cbf283"},
+    "E2E-RUN-17":{"file_count":81,"sha256":"17097958003dead0d37cb9004965fb94aa9c1efbf7c6b23f86411eab7ad17d8a"},
+    "E2E-RUN-18":{"file_count":95,"sha256":"61035f41d5d8e6a43be1c8e281d2d82447b3d9fff840ca04413998ffe748618a","historical_status":"PASS"},
+    "E2E-RUN-19":{"file_count":48,"sha256":"8fc3f8a09c4b32aa872309c3ae254dfb5c6758e6c5f30c2516cb8dde151c64ae"},
+    "E2E-RUN-20":{"file_count":62,"sha256":"2256ceb1c2cb11d8a4a2c6f280537559f49cfe312fe476317e48d97077dbc39d"},
+    "E2E-RUN-21":{"file_count":67,"sha256":"cd8c5aa319a472a46c2c89063d12b8417084d42670bff3be991ce3d5ab1f0f77","historical_status":"BLOCKED"}
+  },
+  "historical_roots_written_by_repair17": 0,
+  "result": "PASS"
+}

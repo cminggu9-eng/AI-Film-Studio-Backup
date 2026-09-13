@@ -1,0 +1,73 @@
+{
+  "run_id": "E2E-RUN-07",
+  "canonical_run_id": "E2E-RUN-07",
+  "fixture_id": "E2E-FIX-01",
+  "status": "BLOCKED",
+  "started_at": "2026-08-29T03:33:50.883989+00:00",
+  "provider": "deepseek",
+  "model": "deepseek-v4-pro",
+  "call_budget": 7,
+  "recovery_budget": 0,
+  "retries_used": 0,
+  "real_execution_authorization": "REPEATED E2E RELIABILITY VALIDATION — R01 GOLDEN REPLAY RESTART AFTER REPAIR 08C V0.1",
+  "absolute_evidence_root": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-07",
+  "evidence_root_policy": "SINGLE_CANONICAL_PATH_NO_STAGE_RENESTING",
+  "runtime_execution_boundary": {
+    "classification": "RUNTIME EXECUTION BOUNDARY",
+    "canonical_run_id": "E2E-RUN-07",
+    "absolute_evidence_root": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-07",
+    "evidence_root_policy": "SINGLE_CANONICAL_PATH_NO_STAGE_RENESTING",
+    "authorization_label_present": true,
+    "provider_calls": 0,
+    "executor_calls": 0,
+    "result": "PASS"
+  },
+  "production_lock_hashes_before": {
+    "01_SKILLS\\01_Showrunner\\PRODUCTION_LOCK.md": "9637F923D2ED46EDA92B82C08266DF1C879D45F1B82F195CAC8F50F6EDBB8272",
+    "01_SKILLS\\02_Scene_Writer\\PRODUCTION_LOCK.md": "A44DEADB382303F08A0F6184B874F720FFBC286D1E46C87AD1E4A29162C4AFD9",
+    "01_SKILLS\\03_Director\\PRODUCTION_LOCK.md": "C18EBE8A154FD7BEFD1E8064C1B89312B1D7F781E3B4343BBC4C4B7B84BB1BB1",
+    "01_SKILLS\\04_Character_Acting\\PRODUCTION_LOCK.md": "C525571AA850857632F58A6E9D62039A0759113D9BBC4D837E353C8B8AD88BCF",
+    "01_SKILLS\\05_Art_Director\\PRODUCTION_LOCK.md": "4099A909FA4AF76D79C3A1E7F7B383EF4F72B74D31FA3B69EC08629D849E9C7E",
+    "01_SKILLS\\06_Continuity\\PRODUCTION_LOCK.md": "2EA1EA6874005B55614F66FB3B29E439B143ADEBF7ED0EE5139DD21139F73599"
+  },
+  "fixture_source": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_07_Fixture_Generalization_Runtime_Parameterization_V0.1\\fixtures\\E2E_FIX_01_Runtime_Binding_V0.1.json",
+  "fixture_source_sha256": "89D019A64E371C050FE8DF25645875B8772D1A91DDD521A80AF3DC2B97C5871F",
+  "completed_at": "2026-08-29T03:34:43.482278+00:00",
+  "provider_call_count": 2,
+  "retry_count": 0,
+  "automatic_provider_fallback": 0,
+  "lifecycle_consistency": {
+    "result": "NOT_REACHED",
+    "provider_calls": 0,
+    "executor_calls": 0
+  },
+  "final_canonical_skill_hashes": {
+    "showrunner": "0847EE3521A915936E97FA1F72D081F0788876F003E071918F517B0A46AE999C",
+    "scene_writer": "93E1BE12988F8CAA6CDD76ACB5E6C1BF6AD3CA0DFF5806A2EA93511E66052DFB",
+    "director": "807D5B398A247A69C3F54FB58F256E8E87AE3B245540071A8B3F6832B49A7781",
+    "character_acting": "CD96A794D37371B855552C23A2670EBD78A9F2E2D3218152CE568C3B4356B09F",
+    "art_director": "8C8DB2370D69863BBA71138A5BBC123B5BC9BBA73E5CCF2F02D8764FFE933C75",
+    "continuity": "C64475BD0578BE6C159DF5A0FA0D90A96636160215B00E17AA3C5CC8E7F0B64C",
+    "shared_qa": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D"
+  },
+  "canonical_skill_hashes_unchanged": true,
+  "production_lock_hashes_after": {
+    "01_SKILLS\\01_Showrunner\\PRODUCTION_LOCK.md": "9637F923D2ED46EDA92B82C08266DF1C879D45F1B82F195CAC8F50F6EDBB8272",
+    "01_SKILLS\\02_Scene_Writer\\PRODUCTION_LOCK.md": "A44DEADB382303F08A0F6184B874F720FFBC286D1E46C87AD1E4A29162C4AFD9",
+    "01_SKILLS\\03_Director\\PRODUCTION_LOCK.md": "C18EBE8A154FD7BEFD1E8064C1B89312B1D7F781E3B4343BBC4C4B7B84BB1BB1",
+    "01_SKILLS\\04_Character_Acting\\PRODUCTION_LOCK.md": "C525571AA850857632F58A6E9D62039A0759113D9BBC4D837E353C8B8AD88BCF",
+    "01_SKILLS\\05_Art_Director\\PRODUCTION_LOCK.md": "4099A909FA4AF76D79C3A1E7F7B383EF4F72B74D31FA3B69EC08629D849E9C7E",
+    "01_SKILLS\\06_Continuity\\PRODUCTION_LOCK.md": "2EA1EA6874005B55614F66FB3B29E439B143ADEBF7ED0EE5139DD21139F73599"
+  },
+  "production_lock_mutation": 0,
+  "integrity": {
+    "canonical_skill_mutation": 0,
+    "production_lock_mutation": 0,
+    "semantic_auto_repair": 0,
+    "automatic_retry": 0,
+    "provider_fallback": 0,
+    "nuwa_calls": 0,
+    "db_rag_calls": 0,
+    "image_video_comfyui_calls": 0
+  }
+}

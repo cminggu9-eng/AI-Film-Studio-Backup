@@ -1,0 +1,57 @@
+{
+  "source_role": "Director",
+  "source_record_id": "E2E-RUN-17/director/1",
+  "version": "1.0",
+  "timestamp": "2026-08-31T03:36:10.998230+00:00",
+  "intended_recipient": "Character & Acting",
+  "handoff_reason": "Direction constraints",
+  "canon_assignment_locks": [
+    "characters: 许宁, 许曼",
+    "prop: entity_id=A-17, identity_lock=A-17, custody_required=true, condition_lock=brass_key",
+    "knowledge: event_id=shared_storage_reveal, holder=许曼, not_before_scene=3",
+    "visual_state: dimension=clothing_visual_state_code, allowed_tokens=[soaked_uniform, changed_clothes]",
+    "decision_locks: storage_room_opening"
+  ],
+  "prohibited_changes": [
+    "完全和解",
+    "relationship: 不得自动升级为完全和解"
+  ],
+  "canonical_mode": "PLAN",
+  "primary_state_or_outcome": "DIRECTION_PLAN_PRODUCED",
+  "flags": "ABSENT",
+  "handoffs": "ABSENT",
+  "required_outcome": "在保持三场结构、各场锁定事件/结局、道具身份、知识揭示时序与\"不得完全和解\"禁令不变的前提下，产出一份场景级导演方案，说明门内外对峙、屋内换衣等待、隔桌揭示三个空间的说服观众信息选择、人物动线与银幕方向、覆盖意图与节奏过渡，并把悬而未决的 storage_room_opening 与可选技术/表演性内容如实移交给相应上游或下游角色。",
+  "unresolved_decisions": [
+    "storage_room_opening 是否在本三场结构中发生，或仅作为后续悬而未决的决定（拥有者：Showrunner）",
+    "是否涉及镜头/灯光/器材等外部制作约束（本运行未提供，拥有者：Production）",
+    "许曼情感基调和许宁对母亲记忆的处理虽由 Scene Writer 决定，导演方案不重写对白或指定表演方法"
+  ],
+  "relevant_prior_state": {
+    "E2E-FIX-01-S01": {
+      "clothing_visual_state_code": "soaked_uniform"
+    },
+    "E2E-FIX-01-S02": {
+      "clothing_visual_state_code": "soaked_uniform"
+    },
+    "E2E-FIX-01-S03": {
+      "clothing_visual_state_code": "changed_clothes"
+    }
+  },
+  "current_state": {
+    "E2E-FIX-01-S01": {
+      "clothing_visual_state_code": "soaked_uniform"
+    },
+    "E2E-FIX-01-S02": {
+      "clothing_visual_state_code": "changed_clothes"
+    },
+    "E2E-FIX-01-S03": {
+      "clothing_visual_state_code": "changed_clothes"
+    }
+  },
+  "proposed_state": "ABSENT",
+  "knowledge_timing": "ABSENT",
+  "relationship_state": "疏离、久未联系，未和解；揭示后关系未和解但出现微妙靠近与更深的悬置",
+  "visual_state": "ABSENT",
+  "authority_source": "Director canonical Skill output",
+  "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-17\\artifacts\\director_output.json"
+}

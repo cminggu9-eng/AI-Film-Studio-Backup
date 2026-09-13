@@ -1,0 +1,49 @@
+{
+  "primary_state_or_outcome": "PERFORMANCE_INTERPRETATION_READY",
+  "flags": "ABSENT",
+  "handoffs": "ABSENT",
+  "canon_assignment_locks": [
+    "A-17",
+    "brass_key",
+    "shared_storage_reveal",
+    "storage_room_opening",
+    "soaked_uniform",
+    "changed_clothes"
+  ],
+  "prohibited_changes": [
+    "完全和解"
+  ],
+  "required_outcome": "ABSENT",
+  "unresolved_decisions": [
+    "storage_room_opening"
+  ],
+  "state_evidence": {
+    "relevant_prior_state": {
+      "relationship_state": "疏远且紧张，未达到完全和解",
+      "knowledge_state": "许曼掌握储物间信息，尚未揭示",
+      "visual_state": "soaked_uniform"
+    },
+    "current_state": {
+      "relationship_state": "疏远且紧张，未达到完全和解",
+      "knowledge_state": "shared_storage_reveal 已揭示，storage_room_opening 未决",
+      "visual_state": "changed_clothes"
+    },
+    "proposed_state": "ABSENT",
+    "knowledge_timing": {
+      "reveal_of_shared_use": "第三场揭示",
+      "reveal_of_room_content": "未揭示"
+    },
+    "relationship_state": {
+      "initial": "疏远且紧张",
+      "after_scene_1": "进一步紧张，许宁不安",
+      "after_scene_3": "维持紧张，无完全和解"
+    },
+    "visual_state": {
+      "scene_1": "soaked_uniform",
+      "scene_2": "changed_clothes",
+      "scene_3": "changed_clothes"
+    }
+  },
+  "content": "**Character Knowledge**\n许宁第一场仅知钥匙与母亲留下的储物间有关，但不知“共同开启/一并面对”的具体含义；第二场开始怀疑许曼隐瞒，但尚未获知房间内容；第三场在许曼按住手并说出“一并面对”后，才获知共享揭示，而房间内部内容仍未揭示。许曼自始至终掌握着比许宁更多、且不得不拖延的信息，但未获得任何新授权来改变该信息。\n\n**Playable Objective**\n许宁的贯穿目标是：用这把钥匙逼出许曼的回避，换取她曾失去的“一同面对”的机会；在每一场中，她都在测试许曼的拒绝、拖延与隐瞒，但从不放弃追问或沉默。许曼的目标是：在遵守“等天亮”与“不知道该怎么说”的自我约束下，维持对储物间信息的情感控制，同时避免把关系推向真正的和解。\n\n**Partner Action**\n许宁把钥匙拍在矮柜上是进攻性的出示，期待许曼接住或回应；许曼不接钥匙、只给一句空泛的“这是妈留给我们的”并转向“换衣服”，是把对方的行动转化为对身体的照料而非对信息的回应。许宁追问“为什么不能现在就去”，是把钥匙的情感重量抛回给许曼；许曼转身进屋，是物理上撤离、拒绝正面回答。第二场许宁抓住钥匙追问，是把道具变成关系的证物；许曼别开眼，是把视线从“许宁想知道”的对象上移开，堵回“天亮前，我不知道该怎么说”。第三场许宁把钥匙递向锁孔，是试图用行动越过许曼的拖延；许曼按住她的手，是用身体接触打断行动，并终于给出揭示，但随后以反问把选择权抛回。\n\n**Body/Voice/Timing**\n许宁的身体在湿制服状态下应携带雨水的重量与侵入感，脚步稍重、拍钥匙时带着决心，但在许曼不接时出现短暂不安的停顿；换衣后身体幅度收缩，坐姿偏僵硬，抓住钥匙时会有突然的上身前倾，逼问时语速会因急切而略快，但不会失控。许曼的动作以回避为核心：第一场目光落在钥匙柄上后迅速移开，不接触钥匙；转身进里屋时脚步比平常慢，带着不愿面对的迟疑；第二场始终与许宁保持一臂之外，别开眼时下巴微微收紧，说话时多用短句与停顿；第三场抬手按手时动作犹豫而轻，揭示信息时声音放低但清晰，反问“你还要现在开吗？”时留出明显的静默与呼吸，不施加催促。两人的沉默必须有“未决定”的质感，不转化为任何一方的胜利或妥协。\n\n**Behavioral Consequence**\n第一场结束时，许宁带着更强的不安与疑惑，而许曼的回避制造了新的距离；第二场结束时，许宁的怀疑被进一步激发，但许曼的堵回使紧张保持在静态僵持，不爆发为冲突；第三场揭示与反问后，两人仍处于门前沉默，关系没有修复，也没有走向和解或破裂，而是悬置在共同的沉重前。这种未解决状态应保留到场景结束，不因反问的温柔或亲近而软化。",
+  "scene_packages": "ABSENT"
+}

@@ -1,0 +1,12 @@
+{
+  "test_id": "RC2-RECEIPT-RECOVERY",
+  "sandbox_root": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_TEST_SANDBOX\\RC2-RECEIPT-RECOVERY\\20260821-181026-051002-979c45db",
+  "formal_vault_write_allowed": false,
+  "allowed_write_roots": [
+    "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_TEST_SANDBOX\\RC2-RECEIPT-RECOVERY\\20260821-181026-051002-979c45db\\canon",
+    "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_TEST_SANDBOX\\RC2-RECEIPT-RECOVERY\\20260821-181026-051002-979c45db\\character_files",
+    "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_TEST_SANDBOX\\RC2-RECEIPT-RECOVERY\\20260821-181026-051002-979c45db\\project_state",
+    "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_TEST_SANDBOX\\RC2-RECEIPT-RECOVERY\\20260821-181026-051002-979c45db\\logs",
+    "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_TEST_SANDBOX\\RC2-RECEIPT-RECOVERY\\20260821-181026-051002-979c45db\\temporary_outputs"
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "case_id": "BB-03",
+  "candidate_v1": {
+    "case_id": "BB-03",
+    "task": "请帮我审查这个制作范围：我在开发一部 8 集、每集 8 分钟的 AI 城市惊悚连续剧。目标观众体验是：一个普通人置身组织系统中，逐渐失去安全感、信任感与主动权。核心故事价值是主角的主动选择；他与直属上司的信任关系；他和记者朋友之间的信息交换；法务代表施加的许可压力；并且每次调查都要付出资源或关系代价。当前草案有 18 个角色、14 个地点、港口人群冲突、董事会会议、车辆追逐和仓库事故。请降低 AI 制作复杂度，但保留这些核心戏剧价值，并给出最终可执行的范围决定。",
+    "candidate_output": "V1 omitted required Production Reality labels; full original retained in compliance-20260821-164811-991440.json",
+    "project_state": "DRAFT",
+    "candidate_version": "V1",
+    "routed_role": "Showrunner",
+    "mode": "PRODUCTION_SCOPE_REVIEW",
+    "output_type": "Production Scope Review",
+    "activated_modules": [
+      "Production Reality"
+    ]
+  },
+  "candidate_v2": {
+    "case_id": "BB-03",
+    "task": "请帮我审查这个制作范围：我在开发一部 8 集、每集 8 分钟的 AI 城市惊悚连续剧。目标观众体验是：一个普通人置身组织系统中，逐渐失去安全感、信任感与主动权。核心故事价值是主角的主动选择；他与直属上司的信任关系；他和记者朋友之间的信息交换；法务代表施加的许可压力；并且每次调查都要付出资源或关系代价。当前草案有 18 个角色、14 个地点、港口人群冲突、董事会会议、车辆追逐和仓库事故。请降低 AI 制作复杂度，但保留这些核心戏剧价值，并给出最终可执行的范围决定。",
+    "candidate_output": "结论：这个项目可以做，但不能按“18 个角色、14 个地点、四个大场面”的原规模进入制作。建议批准为：\n\n**8 集 × 每集 8 分钟；4 名核心角色；3 个地点族；4 次调查循环；取消大规模追车与群众冲突。**\n\n当前状态：`WARNING｜范围过大但可压缩`，不是故事阻塞。\n\n### 最终制作范围\n\n| 项目 | 原草案 | 执行基准 |\n|---|---:|---:|\n| 核心角色 | 18 | 4 名：主角、直属上司、记者朋友、法务代表 |\n| 功能角色 | 未限制 | 最多 2 个一次性功能位，可由同一演员/声音承担 |\n| 地点 | 14 | 3 个地点族、最多 5 个可复用场景单元 |\n| 调查 | 未限制 | 4 次主要调查，每次产生明确资源或关系代价 |\n| 港口冲突 | 群体冲突 | 取消真实群演；改为门禁对峙、局部人物、远处声音或手机画面 |\n| 董事会 | 完整会议 | 改为同一会议室中的远程会议、屏幕、电话和文件压力 |\n| 车辆追逐 | 完整追车 | 从基础范围删除；改为被跟踪、堵路、车辆内交换或定位压力 |\n| 仓库事故 | 大型事故 | 保留“事故后果”，改为局部设备故障、警报、损坏物证和事故报告 |\n\n### 必须保留的戏剧功能\n\n1. 主角必须主动选择，而不是被系统推着走。\n2. 上司关系必须经历至少一次“保护—怀疑—重新选择”。\n3. 记者朋友不是信息播报器，而是交换信息后承担风险。\n4. 法务代表必须制造许可、披露、签字或时限压力。\n5. 每次调查至少付出一种代价：权限、时间、资源、信任、安全或证据完整性。\n\n建议建立一张简单的“调查代价账”：\n\n- 第一次调查：主角保留证据，失去部分正式访问权限。\n- 第二次调查：向记者透露信息，损伤与上司的信任。\n- 第三次调查：绕过许可继续追查，失去时间或工作资源。\n- 第四次调查：选择公开、隐瞒或保护某人，牺牲职业安全或关系。\n\n这样能保留“普通人在组织系统中逐渐失去安全感、信任感与主动权”，而不需要把城市规模全部做出来。\n\n### 制作硬边界\n\n- 单集通常不超过 3 名有台词角色。\n- 单集最多使用 2 个可见场景单元。\n- 不新增主要角色或地点族。\n- 每集最多 1 个高风险动作事件。\n- 不制作真实群众调度、完整董事会群像、连续车辆追逐或大型仓库破坏。\n- 城市和组织规模通过文件、电话、屏幕、广播、门禁、远程声音和事故后果呈现。\n\n系统层面只做“最小制度地图”：权限、汇报链、法务许可、资源/时限、披露后果。无需完整模拟港口经济、董事会群体或城市社会系统。\n\n最终决定：**批准进入下一阶段，但必须先把草案收敛到上述范围，并完成角色功能表、地点复用表和调查代价账。** 如果坚持保留完整追车、群众冲突和实体董事会会议，则应标记为 `BLOCKED FOR SCOPE`，改为分阶段制作或缩短形式。\n\n本次审查依据了项目现有的 [Showrunner 综合能力模型](<E:/AI_Film_Studio/AI_Film_Studio_Obsidian_Vault_V0.1/01_SKILLS/01_Showrunner/Showrunner｜综合能力模型 V0.1.md>) 与 [Production Scope 测试](<E:/AI_Film_Studio/AI_Film_Studio_Automation_V0.1/tests/showrunner/TEST_06_production_scope.md>)；未修改正式 Vault 或项目正史。\n\n",
+    "project_state": "DRAFT",
+    "candidate_version": "V2",
+    "routed_role": "Showrunner",
+    "mode": "PRODUCTION_SCOPE_REVIEW",
+    "output_type": "Production Scope Review",
+    "activated_modules": [
+      "Production Reality"
+    ]
+  },
+  "gate_final": {
+    "status": "FAIL",
+    "candidate_version": "V2",
+    "correction_count": 1,
+    "violations": [
+      {
+        "code": "PRODUCTION_SCOPE_FIELDS_MISSING",
+        "offending_text": "Creative Intent, Essential Dramatic Function, Cost Driver, Alternate Execution, Scope Decision",
+        "expected_behavior": "Expose all five Production Reality fields, including DEFERRED when input is insufficient."
+      }
+    ],
+    "receipt": {
+      "timestamp": "2026-08-21T08:48:59+00:00",
+      "task": "请帮我审查这个制作范围：我在开发一部 8 集、每集 8 分钟的 AI 城市惊悚连续剧。目标观众体验是：一个普通人置身组织系统中，逐渐失去安全感、信任感与主动权。核心故事价值是主角的主动选择；他与直属上司的信任关系；他和记者朋友之间的信息交换；法务代表施加的许可压力；并且每次调查都要付出资源或关系代价。当前草案有 18 个角色、14 个地点、港口人群冲突、董事会会议、车辆追逐和仓库事故。请降低 AI 制作复杂度，但保留这些核心戏剧价值，并给出最终可执行的范围决定。",
+      "routed_role": "Showrunner",
+      "skill_name": "ai-film-studio-showrunner",
+      "skill_path": "C:\\Users\\布朗熊\\.codex\\skills\\ai-film-studio-showrunner\\SKILL.md",
+      "installed_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "canonical_hash": "13180590744CBFDF930A66D3D35414B2667B7D345FF564D25B71361235C0C750",
+      "hash_match": true,
+      "skill_name_match": true,
+      "project_state": "DRAFT",
+      "mode": "PRODUCTION_SCOPE_REVIEW",
+      "output_type": "Production Scope Review",
+      "activated_modules": [
+        "Production Reality"
+      ]
+    },
+    "active_rules": [
+      "GLOBAL",
+      "ANTI_MECHANICAL",
+      "PRODUCTION_REALITY"
+    ],
+    "next": "BLOCKED FOR RUNTIME COMPLIANCE",
+    "first_candidate_violations": [
+      {
+        "code": "PRODUCTION_SCOPE_FIELDS_MISSING",
+        "offending_text": "Creative Intent, Essential Dramatic Function, Cost Driver, Alternate Execution, Scope Decision",
+        "expected_behavior": "Expose all five Production Reality fields, including DEFERRED when input is insufficient."
+      }
+    ]
+  },
+  "final_delivery": null
+}

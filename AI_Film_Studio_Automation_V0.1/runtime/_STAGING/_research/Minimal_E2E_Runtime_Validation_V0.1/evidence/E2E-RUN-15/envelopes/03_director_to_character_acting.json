@@ -1,0 +1,54 @@
+{
+  "source_role": "Director",
+  "source_record_id": "E2E-RUN-15/director/1",
+  "version": "1.0",
+  "timestamp": "2026-08-30T08:16:57.112875+00:00",
+  "intended_recipient": "Character & Acting",
+  "handoff_reason": "Direction constraints",
+  "canon_assignment_locks": [
+    "storage_room_opening",
+    "A-17 identity_lock",
+    "A-17 custody_required",
+    "brass_key condition_lock",
+    "shared_storage_reveal holder=许曼 not_before_scene=3",
+    "clothing_visual_state_code allowed_tokens=[soaked_uniform, changed_clothes]",
+    "relationship: 不得自动升级为完全和解"
+  ],
+  "prohibited_changes": [
+    "完全和解"
+  ],
+  "canonical_mode": "PLAN",
+  "primary_state_or_outcome": "DIRECTION_PLAN_PRODUCED",
+  "flags": "ABSENT",
+  "handoffs": "ABSENT",
+  "required_outcome": "为三场戏产出合法执导方案：在既有锁定项（钥匙交接、服装视觉状态、shared_storage_reveal 仅第三场由许曼揭示、关系不得完全和解、储物间未打开）基础上，确定舞台调度、观众信息、空间地理、机位/覆盖意图、节奏/转场意图与制作负担，不改变故事或对白。",
+  "unresolved_decisions": "ABSENT",
+  "relevant_prior_state": {
+    "E2E-FIX-01-S01": {
+      "clothing_visual_state_code": "soaked_uniform"
+    },
+    "E2E-FIX-01-S02": {
+      "clothing_visual_state_code": "soaked_uniform"
+    },
+    "E2E-FIX-01-S03": {
+      "clothing_visual_state_code": "changed_clothes"
+    }
+  },
+  "current_state": {
+    "E2E-FIX-01-S01": {
+      "clothing_visual_state_code": "soaked_uniform"
+    },
+    "E2E-FIX-01-S02": {
+      "clothing_visual_state_code": "changed_clothes"
+    },
+    "E2E-FIX-01-S03": {
+      "clothing_visual_state_code": "changed_clothes"
+    }
+  },
+  "proposed_state": "ABSENT",
+  "knowledge_timing": "ABSENT",
+  "relationship_state": "疏远、有未解决的家庭历史；许曼主导节奏，许宁顺从而克制；全程未完全和解，第三场因揭示产生新层次紧张",
+  "visual_state": "ABSENT",
+  "authority_source": "Director canonical Skill output",
+  "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-15\\artifacts\\director_output.json"
+}

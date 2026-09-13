@@ -1,0 +1,285 @@
+{
+  "fixture_id": "F03",
+  "mode": "DIRECT_RUNTIME",
+  "initial": {
+    "runtime_result": {
+      "internal_runtime_result": {
+        "runtime_status": "SUCCESS",
+        "invocation_id": "revalidation-f03-initial",
+        "contract_identity": "language-voice-qa-runtime",
+        "contract_version": "0.1",
+        "skill_integrity": {
+          "identity": "language-voice-qa",
+          "version": "0.1",
+          "path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\Shared_QA\\SKILL.md",
+          "expected_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+          "metadata": {
+            "name": "language-voice-qa",
+            "description": "Perform context-appropriate Chinese Language & Voice QA with conditional, minimal rewrites. Use for reviewing a passage, project brief, dialogue, scene description, narrative prose, production note, or marketing copy; do not use it to create prose, imitate writers, decide story content, or judge real-time language trends.",
+            "type": "skill",
+            "status": "approved",
+            "review_result": "passed",
+            "version": "0.1",
+            "subject": "Language & Voice QA",
+            "installation_status": "not-installed"
+          },
+          "actual_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+          "passed": true,
+          "reason": null
+        },
+        "decision": "PASS / NO CHANGE",
+        "severity": "LEVEL 0",
+        "route": "R4 Speaker Fit",
+        "action": "pass_through",
+        "rewrite_used": false,
+        "handoff": null,
+        "runtime_contract_passed": true,
+        "failure_code": null,
+        "failure_message": null,
+        "transport_metadata": {}
+      },
+      "downstream_payload": {
+        "text": "“你别跟我说那个流程。”老高把湿毛巾拧了又拧，水一滴滴落在桶沿上，“流程我听得耳朵起茧子。昨天夜里两点，楼顶那台风机响得跟有人拿勺子刮铁锅似的，谁按流程上去看？”\n\n小沈说：“值班表上是你。”\n\n“是我，咋了？是我就该一个人把楼扛走啊？”老高把毛巾往桶里一丢，又觉得自己声音太大，压低了些，“我上去了。风机没坏，线也没断，就是那块挡板松了。拧两下螺丝的事。可你们白天来一圈，写个‘设备正常’，那我夜里听见的算啥？”\n\n小沈没马上回答。\n\n老高看着他，嘴角动了动：“你别怕我。我不是冲你。我就是……我这人说话不好听，心里那点事又藏不住。”",
+        "original_preserved": true,
+        "decision": "PASS / NO CHANGE",
+        "severity": "LEVEL 0",
+        "route": "R4 Speaker Fit",
+        "action": "pass_through",
+        "handoff": null,
+        "diagnostics": "Text fits the supplied Speaker Context: 老高 is 58, tired, aggrieved but unwilling to blame the newcomer; his repetitions, colloquial roughness, and incomplete phrasing match the declared creative intent. No comprehension or character-authenticity problem is located."
+      },
+      "user_facing_result": {
+        "status": "SUCCESS",
+        "decision": "PASS / NO CHANGE",
+        "message": "Text fits the supplied Speaker Context: 老高 is 58, tired, aggrieved but unwilling to blame the newcomer; his repetitions, colloquial roughness, and incomplete phrasing match the declared creative intent. No comprehension or character-authenticity problem is located.",
+        "text": null,
+        "handoff": null
+      },
+      "audit_record": {
+        "invocation_id": "revalidation-f03-initial",
+        "timestamp": "2026-08-24T05:52:19.337262+00:00",
+        "skill_identity": "language-voice-qa",
+        "skill_version": "0.1",
+        "skill_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+        "input_mode": "QA_DEFAULT",
+        "context_availability_summary": {
+          "provided": [
+            "Available Context",
+            "Original",
+            "Register / usage",
+            "Requested Mode"
+          ],
+          "derived_safely": [],
+          "unknown": [
+            "Project Constraints / Canon",
+            "Protected Terms / Entities",
+            "Speaker / Character Context",
+            "User Creative Intent"
+          ]
+        },
+        "final_decision_state": "PASS / NO CHANGE",
+        "severity": "LEVEL 0",
+        "route": "R4 Speaker Fit",
+        "rewrite_used": false,
+        "handoff_occurred": false,
+        "runtime_contract_passed": true,
+        "failure_code": null,
+        "failure_name": null,
+        "integrity_passed": true,
+        "log_path": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_TEST_SANDBOX\\validation\\results\\shared_qa\\v0.1\\executor_revalidation\\runtime_audit_logs\\F03\\language-voice-qa-revalidation-f03-initial.json"
+      }
+    },
+    "canonical_semantic_output": {
+      "mode": "QA MODE",
+      "decision": "PASS / NO CHANGE",
+      "severity": "LEVEL 0",
+      "route": "R4 Speaker Fit",
+      "context_state": "SUFFICIENT",
+      "primary_finding": null,
+      "detector_ownership": "Speaker Fit (R4)",
+      "diagnostics": "Text fits the supplied Speaker Context: 老高 is 58, tired, aggrieved but unwilling to blame the newcomer; his repetitions, colloquial roughness, and incomplete phrasing match the declared creative intent. No comprehension or character-authenticity problem is located.",
+      "meaning_lock_status": "LOCKED",
+      "meaning_lock": "Fact: 老高 went up at 2 a.m.; fan not broken, wire not broken, loose baffle; day patrol wrote 'equipment normal'. Character intent: explain grievance without attacking 小沈. Relationship: senior maintenance worker to junior colleague. Emotional state: aggrieved, tired, self-conscious about harsh speech. Canon: none provided. Deliberate roughness and regional colloquialism protected by User Creative Intent.",
+      "benefit_result": "NOT_APPLICABLE",
+      "recommendation": "Keep as-is. The rough colloquial texture is user-protected; no register, speaker, or interaction issue warrants change.",
+      "rewrite_scope": null,
+      "revised_text": null,
+      "rewrite_ceiling_status": "NOT_APPLICABLE",
+      "safety_regression": {
+        "Meaning": "PASS",
+        "Fact": "PASS",
+        "Character": "PASS",
+        "Relationship": "PASS",
+        "Certainty": "PASS",
+        "Timeline": "PASS",
+        "Canon": "PASS",
+        "Register": "PASS",
+        "Role Boundary": "PASS"
+      },
+      "secondary_signal": null,
+      "role_handoff": null,
+      "contemporary_state": null,
+      "residual_warning": "Non-canonical synthetic validation marker; no canon constraints were supplied.",
+      "canon_mutation_requested": false,
+      "invoke_dependencies": false
+    },
+    "usage": {
+      "provider": "deepseek",
+      "model": "deepseek-v4-pro",
+      "provider_invocation_id": "815f57f3-52f6-444f-b7a6-e9d873cdf986",
+      "usage": {
+        "prompt_tokens": 6932,
+        "completion_tokens": 467,
+        "total_tokens": 7399,
+        "prompt_cache_hit_tokens": 6528,
+        "prompt_cache_miss_tokens": 404
+      },
+      "latency_ms": 9990,
+      "thinking_mode": "disabled",
+      "fixture_id": "F03",
+      "request_success": true
+    },
+    "estimated_cost_cny": 0.0041772
+  },
+  "final": {
+    "runtime_result": {
+      "internal_runtime_result": {
+        "runtime_status": "SUCCESS",
+        "invocation_id": "revalidation-f03-initial",
+        "contract_identity": "language-voice-qa-runtime",
+        "contract_version": "0.1",
+        "skill_integrity": {
+          "identity": "language-voice-qa",
+          "version": "0.1",
+          "path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\Shared_QA\\SKILL.md",
+          "expected_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+          "metadata": {
+            "name": "language-voice-qa",
+            "description": "Perform context-appropriate Chinese Language & Voice QA with conditional, minimal rewrites. Use for reviewing a passage, project brief, dialogue, scene description, narrative prose, production note, or marketing copy; do not use it to create prose, imitate writers, decide story content, or judge real-time language trends.",
+            "type": "skill",
+            "status": "approved",
+            "review_result": "passed",
+            "version": "0.1",
+            "subject": "Language & Voice QA",
+            "installation_status": "not-installed"
+          },
+          "actual_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+          "passed": true,
+          "reason": null
+        },
+        "decision": "PASS / NO CHANGE",
+        "severity": "LEVEL 0",
+        "route": "R4 Speaker Fit",
+        "action": "pass_through",
+        "rewrite_used": false,
+        "handoff": null,
+        "runtime_contract_passed": true,
+        "failure_code": null,
+        "failure_message": null,
+        "transport_metadata": {}
+      },
+      "downstream_payload": {
+        "text": "“你别跟我说那个流程。”老高把湿毛巾拧了又拧，水一滴滴落在桶沿上，“流程我听得耳朵起茧子。昨天夜里两点，楼顶那台风机响得跟有人拿勺子刮铁锅似的，谁按流程上去看？”\n\n小沈说：“值班表上是你。”\n\n“是我，咋了？是我就该一个人把楼扛走啊？”老高把毛巾往桶里一丢，又觉得自己声音太大，压低了些，“我上去了。风机没坏，线也没断，就是那块挡板松了。拧两下螺丝的事。可你们白天来一圈，写个‘设备正常’，那我夜里听见的算啥？”\n\n小沈没马上回答。\n\n老高看着他，嘴角动了动：“你别怕我。我不是冲你。我就是……我这人说话不好听，心里那点事又藏不住。”",
+        "original_preserved": true,
+        "decision": "PASS / NO CHANGE",
+        "severity": "LEVEL 0",
+        "route": "R4 Speaker Fit",
+        "action": "pass_through",
+        "handoff": null,
+        "diagnostics": "Text fits the supplied Speaker Context: 老高 is 58, tired, aggrieved but unwilling to blame the newcomer; his repetitions, colloquial roughness, and incomplete phrasing match the declared creative intent. No comprehension or character-authenticity problem is located."
+      },
+      "user_facing_result": {
+        "status": "SUCCESS",
+        "decision": "PASS / NO CHANGE",
+        "message": "Text fits the supplied Speaker Context: 老高 is 58, tired, aggrieved but unwilling to blame the newcomer; his repetitions, colloquial roughness, and incomplete phrasing match the declared creative intent. No comprehension or character-authenticity problem is located.",
+        "text": null,
+        "handoff": null
+      },
+      "audit_record": {
+        "invocation_id": "revalidation-f03-initial",
+        "timestamp": "2026-08-24T05:52:19.337262+00:00",
+        "skill_identity": "language-voice-qa",
+        "skill_version": "0.1",
+        "skill_sha256": "2F2E0F241766AB0354E471FC4BA0BF4854363622FB87AE013AB56DDDD270476D",
+        "input_mode": "QA_DEFAULT",
+        "context_availability_summary": {
+          "provided": [
+            "Available Context",
+            "Original",
+            "Register / usage",
+            "Requested Mode"
+          ],
+          "derived_safely": [],
+          "unknown": [
+            "Project Constraints / Canon",
+            "Protected Terms / Entities",
+            "Speaker / Character Context",
+            "User Creative Intent"
+          ]
+        },
+        "final_decision_state": "PASS / NO CHANGE",
+        "severity": "LEVEL 0",
+        "route": "R4 Speaker Fit",
+        "rewrite_used": false,
+        "handoff_occurred": false,
+        "runtime_contract_passed": true,
+        "failure_code": null,
+        "failure_name": null,
+        "integrity_passed": true,
+        "log_path": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_TEST_SANDBOX\\validation\\results\\shared_qa\\v0.1\\executor_revalidation\\runtime_audit_logs\\F03\\language-voice-qa-revalidation-f03-initial.json"
+      }
+    },
+    "canonical_semantic_output": {
+      "mode": "QA MODE",
+      "decision": "PASS / NO CHANGE",
+      "severity": "LEVEL 0",
+      "route": "R4 Speaker Fit",
+      "context_state": "SUFFICIENT",
+      "primary_finding": null,
+      "detector_ownership": "Speaker Fit (R4)",
+      "diagnostics": "Text fits the supplied Speaker Context: 老高 is 58, tired, aggrieved but unwilling to blame the newcomer; his repetitions, colloquial roughness, and incomplete phrasing match the declared creative intent. No comprehension or character-authenticity problem is located.",
+      "meaning_lock_status": "LOCKED",
+      "meaning_lock": "Fact: 老高 went up at 2 a.m.; fan not broken, wire not broken, loose baffle; day patrol wrote 'equipment normal'. Character intent: explain grievance without attacking 小沈. Relationship: senior maintenance worker to junior colleague. Emotional state: aggrieved, tired, self-conscious about harsh speech. Canon: none provided. Deliberate roughness and regional colloquialism protected by User Creative Intent.",
+      "benefit_result": "NOT_APPLICABLE",
+      "recommendation": "Keep as-is. The rough colloquial texture is user-protected; no register, speaker, or interaction issue warrants change.",
+      "rewrite_scope": null,
+      "revised_text": null,
+      "rewrite_ceiling_status": "NOT_APPLICABLE",
+      "safety_regression": {
+        "Meaning": "PASS",
+        "Fact": "PASS",
+        "Character": "PASS",
+        "Relationship": "PASS",
+        "Certainty": "PASS",
+        "Timeline": "PASS",
+        "Canon": "PASS",
+        "Register": "PASS",
+        "Role Boundary": "PASS"
+      },
+      "secondary_signal": null,
+      "role_handoff": null,
+      "contemporary_state": null,
+      "residual_warning": "Non-canonical synthetic validation marker; no canon constraints were supplied.",
+      "canon_mutation_requested": false,
+      "invoke_dependencies": false
+    },
+    "usage": {
+      "provider": "deepseek",
+      "model": "deepseek-v4-pro",
+      "provider_invocation_id": "815f57f3-52f6-444f-b7a6-e9d873cdf986",
+      "usage": {
+        "prompt_tokens": 6932,
+        "completion_tokens": 467,
+        "total_tokens": 7399,
+        "prompt_cache_hit_tokens": 6528,
+        "prompt_cache_miss_tokens": 404
+      },
+      "latency_ms": 9990,
+      "thinking_mode": "disabled",
+      "fixture_id": "F03",
+      "request_success": true
+    },
+    "estimated_cost_cny": 0.0041772
+  },
+  "evidence": null
+}

@@ -1,0 +1,24 @@
+{
+  "provider_call_executed": true,
+  "input_tokens": 6211,
+  "completion_tokens": 1756,
+  "total_tokens": 7967,
+  "selected_completion_budget": 5000,
+  "actual_utilization_ratio": 0.3512,
+  "finish_reason": "stop",
+  "response_characters": null,
+  "response_utf8_bytes": null,
+  "provider_cost_cny": null,
+  "truncation_assessment": {
+    "classification": "NOT_TRUNCATED",
+    "truncated": false,
+    "finish_reason": "stop",
+    "completion_tokens": 1756,
+    "requested_max_tokens": 5000,
+    "json_complete": false,
+    "signals": [
+      "INCOMPLETE_JSON"
+    ],
+    "persistence_verification_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_02_Scene_Writer_Response_Budget_Serialization_V0.1\\evidence\\SW-CONTRACT-PROBE-02-EXECUTION\\artifacts\\scene_writer_persistence_verification.json"
+  }
+}

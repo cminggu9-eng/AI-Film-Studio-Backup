@@ -1,0 +1,31 @@
+{
+  "lifecycle_stage": "USAGE_AND_INVOCATION_METADATA_PERSISTED",
+  "invocation_id": "E2E-RUN-05:shared_qa:1",
+  "role": "Shared QA",
+  "timestamp": "2026-08-28T06:52:01.237204+00:00",
+  "input_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-05\\artifacts\\shared_qa_input.json",
+  "provider": "deepseek",
+  "model": "deepseek-v4-pro",
+  "provider_invocation_id": "fd7ccad5-0457-4365-ba6d-91d23a9eacf7",
+  "finish_reason": "stop",
+  "requested_max_tokens": 3500,
+  "usage": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-pro",
+    "provider_invocation_id": "fd7ccad5-0457-4365-ba6d-91d23a9eacf7",
+    "usage": {
+      "prompt_tokens": 13614,
+      "completion_tokens": 1309,
+      "total_tokens": 14923,
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 13614
+    },
+    "latency_ms": 25187,
+    "thinking_mode": "disabled",
+    "fixture_id": "E2E-FIX-01",
+    "request_success": true,
+    "requested_max_tokens": 3500,
+    "finish_reason": "stop",
+    "structured_output": null
+  }
+}

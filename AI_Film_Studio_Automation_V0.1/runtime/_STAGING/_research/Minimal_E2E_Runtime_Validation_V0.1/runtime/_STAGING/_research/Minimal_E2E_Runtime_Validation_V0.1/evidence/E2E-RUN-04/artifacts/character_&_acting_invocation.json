@@ -1,0 +1,31 @@
+{
+  "lifecycle_stage": "USAGE_AND_INVOCATION_METADATA_PERSISTED",
+  "invocation_id": "E2E-RUN-04:character_acting:1",
+  "role": "Character & Acting",
+  "timestamp": "2026-08-28T05:58:32.319227+00:00",
+  "input_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-04\\artifacts\\character_acting_input.json",
+  "provider": "deepseek",
+  "model": "deepseek-v4-pro",
+  "provider_invocation_id": "00f06bef-e01b-4bf4-b852-3385160c77dd",
+  "finish_reason": "stop",
+  "requested_max_tokens": 3500,
+  "usage": {
+    "provider": "deepseek",
+    "model": "deepseek-v4-pro",
+    "provider_invocation_id": "00f06bef-e01b-4bf4-b852-3385160c77dd",
+    "usage": {
+      "prompt_tokens": 9647,
+      "completion_tokens": 1279,
+      "total_tokens": 10926,
+      "prompt_cache_hit_tokens": 0,
+      "prompt_cache_miss_tokens": 9647
+    },
+    "latency_ms": 25564,
+    "thinking_mode": "disabled",
+    "fixture_id": "E2E-FIX-01",
+    "request_success": true,
+    "requested_max_tokens": 3500,
+    "finish_reason": "stop",
+    "structured_output": null
+  }
+}

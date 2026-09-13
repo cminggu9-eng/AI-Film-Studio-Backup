@@ -1,0 +1,8 @@
+{
+  "lifecycle_stage": "PERSISTENCE_VERIFIED",
+  "invocation_id": "DIRECTOR-STATE-OBJECT-CONTRACT-PROBE-05:director:1",
+  "role": "Director",
+  "verified": true,
+  "raw_response_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Director_State_Object_Contract_Probe_05_After_Repair_09K_V0.1\\evidence\\DIRECTOR-STATE-OBJECT-CONTRACT-PROBE-05\\artifacts\\director_provider_response.json",
+  "invocation_metadata_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Director_State_Object_Contract_Probe_05_After_Repair_09K_V0.1\\evidence\\DIRECTOR-STATE-OBJECT-CONTRACT-PROBE-05\\artifacts\\director_invocation.json"
+}

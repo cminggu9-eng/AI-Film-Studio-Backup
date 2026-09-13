@@ -1,0 +1,50 @@
+{
+  "primary_state_or_outcome": "DESIGN_RESPONSE_READY",
+  "flags": "ABSENT",
+  "handoffs": "ABSENT",
+  "canon_assignment_locks": [
+    "characters: 许宁, 许曼",
+    "prop: entity_id=A-17, identity_lock=A-17, custody_required=true, condition_lock=brass_key",
+    "knowledge: event_id=shared_storage_reveal, holder=许曼, not_before_scene=3",
+    "visual_state: dimension=clothing_visual_state_code, allowed_tokens=[soaked_uniform, changed_clothes]",
+    "decision_locks: storage_room_opening"
+  ],
+  "prohibited_changes": [
+    "完全和解",
+    "relationship: 不得自动升级为完全和解"
+  ],
+  "required_outcome": "ABSENT",
+  "unresolved_decisions": [],
+  "state_evidence": {
+    "relevant_prior_state": {
+      "relationship_state": "久未联系，关系疏离，未和解",
+      "knowledge_state": "许宁不知 shared_storage_reveal",
+      "visual_state": "许宁 clothing_visual_state_code = soaked_uniform"
+    },
+    "current_state": {
+      "relationship_state": "许宁将钥匙交给许曼，许曼要求换衣等天亮；关系未和解",
+      "knowledge_state": "许曼持有 shared_storage_reveal，未揭示",
+      "visual_state": "许宁 clothing_visual_state_code = soaked_uniform"
+    },
+    "proposed_state": {
+      "relationship_state": "关系未和解，保持张力与悬置",
+      "knowledge_state": "场景3时 shared_storage_reveal 由许曼揭示",
+      "visual_state": "许宁 clothing_visual_state_code 由 soaked_uniform 变为 changed_clothes"
+    },
+    "knowledge_timing": {
+      "shared_storage_reveal": "not_before_scene=3"
+    },
+    "relationship_state": {
+      "initial": "疏离、久未联系",
+      "after_scene_1": "门外对峙，未和解",
+      "after_scene_3": "揭示后未和解，但出现微妙靠近与悬置"
+    },
+    "visual_state": {
+      "scene_1": "许宁 clothing_visual_state_code = soaked_uniform",
+      "scene_2": "许宁 clothing_visual_state_code = changed_clothes",
+      "scene_3": "许宁 clothing_visual_state_code = changed_clothes"
+    }
+  },
+  "content": "视觉设计意图：以“湿冷门槛—干燥屋内—隔桌悬置”的渐变，服务疏离、未和解、信息不对等与钥匙保管权的故事关系。\n\n环境逻辑：许曼住处呈现久居但简素的质感，玄关至小桌有纵深层次，门外湿冷与屋内暖干形成对比；雨声与地面水渍提示外部环境，门外门槛作为关系边界保持可见。\n\n视觉层次：钥匙为最高视觉权重，其次为许宁湿透的制服、换衣后的干衣、小桌与两人距离；许曼的穿着保持中性、克制，不与钥匙争夺注意力。\n\n色彩与材质：湿制服以深色吸水、贴身、反光水渍表现“外部的冷”；干衣以柔和的棉质、干燥、略宽松表现“内部的暂时容纳”；黄铜钥匙以做旧的黄铜色、刻痕与轻微磨损强调其功能性与家族遗物感。整体色调压低，不引入高饱和景观色或类型化霓虹。\n\n道具逻辑：A-17黄铜钥匙是贯穿核心道具，保持小尺度、可握持、有重量感；刻字A-17清晰但不夸张，作为唯一必要细节焦点。\n\n服装状态：许宁场景1为soaked_uniform，场景2换为changed_clothes，场景3保持changed_clothes；湿衣滴水与室内水渍形成可追踪的短暂污染痕迹，但不改变空间主体。\n\n角色区分：许宁的夜班制服与许曼的居家便服形成功能与生活状态的对比，强化二人身份与关系张力；不赋予任何符号性装饰或过度造型。\n\n部门协同：环境、道具、服装、雨声共同构成一个雨夜等待的世界；不越权决定镜头、表演、灯光或技术实现。制作负担可控，可用单一室内外空间与少量关键道具完成，湿衣状态可通过背身换衣与局部特写实现。",
+  "scene_packages": "ABSENT"
+}

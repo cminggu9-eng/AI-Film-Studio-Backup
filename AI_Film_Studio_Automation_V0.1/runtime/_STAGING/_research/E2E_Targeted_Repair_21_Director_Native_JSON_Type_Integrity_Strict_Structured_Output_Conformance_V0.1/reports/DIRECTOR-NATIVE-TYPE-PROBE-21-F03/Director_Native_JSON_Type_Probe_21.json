@@ -1,0 +1,33 @@
+{
+  "classification": "DIRECTOR STRICT NATIVE JSON TYPE PROBE",
+  "probe_id": "DIRECTOR-NATIVE-TYPE-PROBE-21-F03",
+  "fixture_id": "E2E-FIX-03",
+  "upstream_input_source": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-26\\artifacts\\director_input.json",
+  "upstream_input_sha256": "4548f22f0b67c43f2a035632ed127152e968999589e5a95c19e4143235ce5f8a",
+  "upstream_input_mode": "IMMUTABLE_READ_ONLY_NOT_A_R26_RETRY",
+  "strict_function_name": "submit_director_package",
+  "strict_true": true,
+  "tool_choice": {
+    "type": "function",
+    "function": {
+      "name": "submit_director_package"
+    }
+  },
+  "max_tokens": 3500,
+  "retry_count": 0,
+  "provider_calls": 1,
+  "executor_calls": 1,
+  "role_calls": 1,
+  "live_e2e_runs": 0,
+  "r03_restarted": false,
+  "historical_r26_status": "BLOCKED",
+  "overall": "FAIL",
+  "failure": "DirectorStructuredSubmissionError: Director unresolved_decisions must be ABSENT or text list",
+  "raw_first_persistence": {
+    "raw_response_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_21_Director_Native_JSON_Type_Integrity_Strict_Structured_Output_Conformance_V0.1\\reports\\DIRECTOR-NATIVE-TYPE-PROBE-21-F03\\artifacts\\director_provider_response.json",
+    "invocation_metadata_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_21_Director_Native_JSON_Type_Integrity_Strict_Structured_Output_Conformance_V0.1\\reports\\DIRECTOR-NATIVE-TYPE-PROBE-21-F03\\artifacts\\director_invocation.json",
+    "persistence_verification_artifact": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\E2E_Targeted_Repair_21_Director_Native_JSON_Type_Integrity_Strict_Structured_Output_Conformance_V0.1\\reports\\DIRECTOR-NATIVE-TYPE-PROBE-21-F03\\artifacts\\director_persistence_verification.json",
+    "raw_content_sha256": "cbb9ee767888364462b4a9ed2d504e8463faeb25b10d054e24ffab1bc0fc07a7"
+  },
+  "retry_performed": false
+}

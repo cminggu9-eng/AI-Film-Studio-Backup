@@ -1,0 +1,9 @@
+[
+  {
+    "category": "ROLE SEMANTIC FAILURE",
+    "owner": "Art Director",
+    "detail": "Required role-output heading is missing",
+    "blocking": true,
+    "safe_stop": true
+  }
+]

@@ -1,0 +1,165 @@
+{
+  "run_id": "E2E-RUN-07",
+  "role": "Scene Writer",
+  "canonical_binding": {
+    "identity": "scene-writer",
+    "canonical_path": "E:\\AI_Film_Studio\\AI_Film_Studio_Obsidian_Vault_V0.1\\01_SKILLS\\02_Scene_Writer\\scene-writer\\SKILL.md",
+    "sha256": "93E1BE12988F8CAA6CDD76ACB5E6C1BF6AD3CA0DFF5806A2EA93511E66052DFB"
+  },
+  "selected_mode": "CREATE",
+  "output_language": "zh-CN",
+  "input": {
+    "upstream_artifacts": {
+      "showrunner": {
+        "primary_state_or_outcome": "INFO",
+        "flags": "ABSENT",
+        "handoffs": "ABSENT",
+        "canon_assignment_locks": [
+          "A-17",
+          "brass_key",
+          "shared_storage_reveal",
+          "storage_room_opening"
+        ],
+        "prohibited_changes": [
+          "完全和解"
+        ],
+        "required_outcome": "ABSENT",
+        "unresolved_decisions": [],
+        "state_evidence": {
+          "relevant_prior_state": {
+            "relationship": "久未联系",
+            "mother": "母亲遗留钥匙",
+            "storage_room": "未打开"
+          },
+          "current_state": {
+            "许宁": "夜班管理员，制服湿透",
+            "许曼": "承认钥匙归属，要求先换衣、等天亮"
+          },
+          "proposed_state": {
+            "三场结构": "三天亮前决定是否打开储物间",
+            "relationship": "不自动升级为完全和解"
+          },
+          "knowledge_timing": {
+            "shared_storage_reveal": "许曼在第3场揭示"
+          },
+          "relationship_state": {
+            "starting_state": "疏远但存在共同责任（母亲遗物）",
+            "allowed_change": "有限接近或保持疏离，禁止完全和解"
+          },
+          "visual_state": {
+            "clothing_visual_state_code": "soaked_uniform",
+            "allowed_tokens": [
+              "soaked_uniform",
+              "changed_clothes"
+            ]
+          }
+        },
+        "content": "## 故事前提\n\n暴雨夜，夜班管理员许宁带着一把刻有“A-17”的黄铜钥匙找到久未联系的姐姐许曼。许曼承认这是母亲留给两人一起打开储物间的钥匙，但要求许宁先换下湿透的制服，等天亮再开门。两人在等待天亮的有限时间内，面对母亲留下的未知、彼此的疏远，以及是否共同打开储物间的选择。\n\n---\n\n## 角色\n\n**许宁**\n- 身份：夜班管理员\n- 现状：暴雨中赶来，制服湿透\n- 初始状态：手握钥匙，急切或犹豫地寻求许曼\n- 可能欲望：打开储物间，弄清母亲留下了什么\n- 关系：与许曼久未联系，但主动迈出一步\n- 限制：不能直接打开，必须与许曼一起\n\n**许曼**\n- 身份：许宁的姐姐\n- 现状：承认钥匙归属，但要求先换衣、等天亮\n- 初始状态：掌握更多关于钥匙/储物间的信息，但尚未完全揭示\n- 可能欲望：控制节奏，或回避立即面对\n- 关系：与许宁疏远，但未拒绝合作\n- 限制：第3场才揭示“shared_storage_reveal”知识\n\n---\n\n## Canon Locks\n\n- 实体：A-17（黄铜钥匙），须始终处于保管状态\n- 知识：shared_storage_reveal 由许曼持有，不得早于第3场揭示\n- 决策：storage_room_opening 为关键决策点，不得在结构外提前决定\n- 禁止：完全和解（不得在第3场前达成或承诺）\n- 视觉：许宁服装状态仅可在 soaked_uniform 与 changed_clothes 之间变化\n\n---\n\n## 三场结构\n\n**第1场：湿透的钥匙**\n- 功能：建立前提、角色状态与核心道具。许宁冒雨带来钥匙，许曼承认其归属，提出换衣与等待天亮的条件。\n- 起始状态：许宁湿透，钥匙在手；许曼对钥匙有认知但未透露全部。\n- 必需信息：钥匙为母亲留给两人共同打开储物间；许曼要求先换衣、等天亮。\n- 结束状态：许宁接受换衣/等待（或表现犹疑），钥匙处于保管中。关系未和解。\n\n**第2场：等天亮**\n- 功能：在等待期间深化张力，展示两人关系状态与对储物间内容的猜测；许曼仍不揭示关键知识。\n- 起始状态：许宁已换衣（changed_clothes 可选），或继续处于湿衣（若第1场未换）。两人处于共同等待的封闭空间。\n- 冲突：对是否等待、对母亲的记忆、对彼此疏远的不同态度。\n- 结束状态：接近天亮，许宁可能再次提出直接开门，许曼维持“等天亮”或透露部分线索，但不揭示 shared_storage_reveal。\n\n**第3场：门前的揭示**\n- 功能：满足知识揭示门，进入 storage_room_opening 决策。许曼揭示 shared_storage_reveal（如关于储物间内容或钥匙的另一层含义）。\n- 起始状态：天亮，两人准备或犹豫是否打开储物间。\n- 必需信息：许曼揭示 shared_storage_reveal。\n- 结束状态：两人面对是否打开储物间的选择（可打开、拒绝、或悬置），但不得达成完全和解。故事在决策或行动临界点结束。\n\n---\n\n**说明**：本包为 Showrunner 语义交付，仅建立前提、角色、锁定与场景任务结构，不含 Scene Writer 对白。",
+        "scene_packages": "ABSENT"
+      }
+    },
+    "state_evidence_envelopes": {
+      "showrunner": {
+        "source_role": "Showrunner",
+        "source_record_id": "E2E-RUN-07/showrunner/1",
+        "version": "1.0",
+        "timestamp": "2026-08-29T03:34:23.965020+00:00",
+        "intended_recipient": "Scene Writer",
+        "handoff_reason": "Story / Canon Package",
+        "canon_assignment_locks": [
+          "A-17",
+          "brass_key",
+          "shared_storage_reveal",
+          "storage_room_opening"
+        ],
+        "prohibited_changes": [
+          "完全和解"
+        ],
+        "canonical_mode": "ABSENT",
+        "primary_state_or_outcome": "INFO",
+        "flags": "ABSENT",
+        "handoffs": "ABSENT",
+        "required_outcome": "ABSENT",
+        "unresolved_decisions": [],
+        "relevant_prior_state": {
+          "relationship": "久未联系",
+          "mother": "母亲遗留钥匙",
+          "storage_room": "未打开"
+        },
+        "current_state": {
+          "许宁": "夜班管理员，制服湿透",
+          "许曼": "承认钥匙归属，要求先换衣、等天亮"
+        },
+        "proposed_state": {
+          "三场结构": "三天亮前决定是否打开储物间",
+          "relationship": "不自动升级为完全和解"
+        },
+        "knowledge_timing": {
+          "shared_storage_reveal": "许曼在第3场揭示"
+        },
+        "relationship_state": {
+          "starting_state": "疏远但存在共同责任（母亲遗物）",
+          "allowed_change": "有限接近或保持疏离，禁止完全和解"
+        },
+        "visual_state": {
+          "clothing_visual_state_code": "soaked_uniform",
+          "allowed_tokens": [
+            "soaked_uniform",
+            "changed_clothes"
+          ]
+        },
+        "authority_source": "Showrunner canonical Skill output",
+        "evidence_locator": "E:\\AI_Film_Studio\\AI_Film_Studio_Automation_V0.1\\runtime\\_STAGING\\_research\\Minimal_E2E_Runtime_Validation_V0.1\\evidence\\E2E-RUN-07\\artifacts\\showrunner_output.json"
+      }
+    },
+    "run_local_ledger": "ABSENT",
+    "role_constraints": {
+      "mode": "CREATE",
+      "scene_count": 3,
+      "fixture_constraints": {
+        "scene_count": 3,
+        "output_language": "zh-CN",
+        "characters": [
+          "许宁",
+          "许曼"
+        ],
+        "relationship": [
+          "不得自动升级为完全和解"
+        ],
+        "prop": {
+          "entity_id": "A-17",
+          "identity_lock": "A-17",
+          "custody_required": true,
+          "condition_lock": "brass_key"
+        },
+        "knowledge": [
+          {
+            "event_id": "shared_storage_reveal",
+            "holder": "许曼",
+            "not_before_scene": 3
+          }
+        ],
+        "visual_state": [
+          {
+            "dimension": "clothing_visual_state_code",
+            "allowed_tokens": [
+              "soaked_uniform",
+              "changed_clothes"
+            ]
+          }
+        ],
+        "prohibited": [
+          "完全和解"
+        ],
+        "decision_locks": [
+          "storage_room_opening"
+        ]
+      },
+      "strict_structured_transport": {
+        "function": "submit_scene_writer_package",
+        "response_format_route": "PROHIBITED",
+        "no_auto_repair": true
+      }
+    }
+  }
+}

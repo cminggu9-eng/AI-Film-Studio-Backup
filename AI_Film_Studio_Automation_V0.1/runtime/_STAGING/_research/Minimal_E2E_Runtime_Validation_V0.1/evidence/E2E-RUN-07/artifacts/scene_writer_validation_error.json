@@ -1,0 +1,8 @@
+{
+  "lifecycle_stage": "LOCAL_VALIDATION_FAILURE_RECORDED",
+  "invocation_id": "E2E-RUN-07:scene_writer:1",
+  "role": "Scene Writer",
+  "validation_stage": "Scene Writer Structural / State Token Gate",
+  "category": "HANDOFF CONTRACT FAILURE",
+  "detail": "Scene Writer integration contract failed: AUTHORIZED_TRANSITION_TOKEN"
+}
